@@ -8,7 +8,7 @@ mainlist = """! Title: uBlock combo list
 """
 
 for list in lists:
-  l = requests.get(lists[list]).text()
+  l = requests.get(lists[list]).text
   mainlist += "\n! ----- BEGIN {} -----\n".format(list)
   mainlist += l
 with open("list.txt","w") as f:
