@@ -3,8 +3,8 @@
 
 
 ! ----- BEGIN DandelionSprout Antimalware -----
-[Adblock Plus 3.6]
-! Title: 💊 Dandelion Sprout's Anti-Malware List
+
+! List title: 💊 Dandelion Sprout's Anti-Malware List
 ! Version: 02September2021v2-Beta
 ! Expires: 5 days
 ! Description: Most anti-malware lists are pretty big and can cover a 5- or 6-digit amount of specific domains. But my list hereby claims to remove more than 25% of all known malware sites with just a 2-digit amount of entries. This is mostly done by blocking top-level domains that have become devastatingly abused by spammers, usually because they allowed for free and uncontrolled domain registrations. There's also additional categories that cover unusual malware and phishing domains that very few other lists seem to cover.
@@ -5986,7 +5986,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 
 ! ----- BEGIN The malicious website blocklist -----
 [Adblock Plus 2.0]
-! Title: The malicious website blocklist
+! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 3/9/2021
@@ -13100,7 +13100,7 @@ dpd.recover-delivery.com$all
 ! END
 
 ! ----- BEGIN uBlock Filters -----
-! Title: uBlock filters
+! List title: uBlock filters
 ! Expires: 4 days
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Homepage: https://github.com/uBlockOrigin/uAssets
@@ -35043,7 +35043,7 @@ techdracula.com##.adsbygoogle
 ! ----- BEGIN Easylist -----
 [Adblock Plus 2.0]
 ! Version: 202109051411
-! Title: EasyList
+! List title: EasyList
 ! Last modified: 05 Sep 2021 14:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
@@ -89333,7 +89333,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||twitter.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 
 ! ----- BEGIN PUP Filter -----
-! Title: PUP Domains Blocklist
+! List title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
 ! Updated: Sun, 05 Sep 2021 12:02:36 +0000
 ! Expires: 1 day (update frequency)
