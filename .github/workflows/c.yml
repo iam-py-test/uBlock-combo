@@ -1,10 +1,12 @@
-name: Update the alt lists
+name: Update the combo list
 on:
   push:
     branches: [ main ]
+  schedule:
+    - cron: '16 20 * * *'
   workflow_dispatch:
 jobs:
-  mkalt:
+  mkcombo:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
