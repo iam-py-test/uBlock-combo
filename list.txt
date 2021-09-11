@@ -5,7 +5,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 06September2021v1-Beta
+! Version: 11September2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -127,6 +127,7 @@ bing.com##.b_algo:has(a[href*=".top/"])
 ||cuttherope.ie^$doc
 ||oldgames.4all.cc^$all
 ||cloudyvideogame.com^$doc
+||marsshooter.org^$doc
 ! Dead router connection URİs
 ! To log in to TP-Link routers, use tplinkwifi.net instead.
 ||tplinklogin.net^$doc
@@ -6075,7 +6076,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 6/9/2021
+! Last updated: 10/9/2021
 ! Description: This is a list of malware, phishing, or scam sites that I discover or find in reports online
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (still being setup - not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -6229,14 +6230,6 @@ qppdqcid.com$all
 ! https://www.fortiguard.com/webfilter?q=windefender.xyz
 ! Appears offline - added just incase 
 windefender.xyz$document
-! https://www.virustotal.com/gui/url/9d6d2630502e57800e56a156c220f3ceac87d996ad5b46cfcbe99d3ee39412f1/detection
-! https://www.virustotal.com/gui/url/70625a6725cbbbbb9cdca0332ee1f252380e3715fc28a59cc96178e794c472b7/detection
-! https://safeweb.norton.com/report/show?url=winsecurity.xyz
-! https://www.virustotal.com/gui/domain/winsecurity.xyz/detection
-! https://sitecheck.sucuri.net/results/winsecurity.xyz
-! https://www.siteadvisor.com/sitereport.html?url=winsecurity.xyz
-! Like above, appears parked but adding anyway. Someone might buy it and use it for malware again
-winsecurity.xyz$document
 ! https://www.virustotal.com/gui/url/22c7df87d08356eca82546055afb25db9c4a90db9fa34c6f37f2cb74f7270b6c/detection
 ! https://www.siteadvisor.com/sitereport.html?url=windowssecurity.xyz
 ! https://safeweb.norton.com/report/show?url=windowssecurity.xyz
@@ -6324,7 +6317,6 @@ malwarebytes.online$document
 malwarebytes.pw$document
 ! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
 malwarebytes.xyz$document
-! online 
 ! https://www.virustotal.com/gui/url/688cf5cadb895d3857ce17bde3ead404d769cc2aa1809c1dd548a679fa61cae1/detection
 ! https://www.siteadvisor.com/sitereport.html?url=mcafee.xyz
 ! https://www.urlvoid.com/scan/mcafee.xyz/
@@ -6354,10 +6346,6 @@ secureportal.online$all
 ! https://www.mywot.com/scorecard/ddns.net
 kimjoy.ddns.net$all
 
-! A fake VLC media player site (TODO: investigate further in VM)
-! https://github.com/iam-py-test/my_filters_001/issues/26
-! vlc-media-player.en.uptodown.com$all
-
 ! https://github.com/iam-py-test/https-upgrade-lists/blob/0aa37721f908395061a03d951bbd40d2c6ce7c06/crawled.txt#L342
 ! https://www.virustotal.com/gui/url/a8f9b74d63d52e61779e96404ecdb2c0ab82f5876b420c0c6432e624503c07f0/detection
 ! https://www.virustotal.com/gui/domain/sandbox.in/detection
@@ -6367,15 +6355,6 @@ kimjoy.ddns.net$all
 ! https://sitecheck.sucuri.net/results/sandbox.in
 ! https://quttera.com/detailed_report/sandbox.in
 sandbox.in$all
-! https://github.com/iam-py-test/https-upgrade-lists/blob/0aa37721f908395061a03d951bbd40d2c6ce7c06/crawled.txt#L296
-! https://www.virustotal.com/gui/url/0506a5f28dd6e66f68c2cb3468715ab7eb23d304f90a8a1f35416458fce11ba2/detection
-! https://www.urlvoid.com/scan/39.org/
-! https://www.fortiguard.com/webfilter?q=39.org
-! https://safeweb.norton.com/report/show?url=39.org
-! https://www.mywot.com/en/scorecard/39.org
-! https://www.virustotal.com/gui/domain/39.org/relations
-! https://www.virustotal.com/gui/file/2774a00938d9b363ae76e571299c9743223e37192277a2838639a997e58e8c87/detection
-39.org$all
 
 ! Phishing
 ! https://safeweb.norton.com/buzz
@@ -6400,6 +6379,7 @@ woningontruimennijmegen.nl$all
 ! https://www.virustotal.com/gui/domain/amazon-signin-871miing11-159.duckdns.org/detection
 ! https://quttera.com/detailed_report/amazon-signin-871miing11-159.duckdns.org
 amazon-signin-871miing11-159.duckdns.org$all
+
 ! https://safeweb.norton.com/report/show?url=https%3A%2F%2F0-app.com%2F
 ! https://sitecheck.sucuri.net/results/0-app.com
 ! https://www.siteadvisor.com/sitereport.html?url=https%3A%2F%2F0-app.com%2F
@@ -6410,16 +6390,7 @@ amazon-signin-871miing11-159.duckdns.org$all
 ! https://www.fortiguard.com/webfilter?q=0-app.com
 ! https://quttera.com/detailed_report/0-app.com
 0-app.com$all
-! https://forums.lanik.us/viewtopic.php?f=62&t=46189
-! https://github.com/uBlockOrigin/uAssets/commit/2a8080ea16a7b75dd8f5c1d1ef5e8e0599fe93e6
-! https://www.virustotal.com/gui/url/f999297841e8cddb4dc481d7e05781e71f0e406677d05c5172e90c8b5ebfe2d3/detection
-! https://www.virustotal.com/gui/domain/putlockers.gs/detection
-! https://www.urlvoid.com/scan/putlockers.gs/
-! https://sitecheck.sucuri.net/results/putlockers.gs
-! https://www.siteadvisor.com/sitereport.html?url=putlockers.gs
-! https://www.fortiguard.com/webfilter?q=putlockers.gs
-! https://safeweb.norton.com/report/show?url=putlockers.gs
-putlockers.gs$all
+
 ! https://www.joesandbox.com/analysis/422872/0/html
 ! https://www.siteadvisor.com/sitereport.html?url=strawberry6532210.brizy.site
 ! https://www.virustotal.com/gui/url/ac7399fe8dda64a75a77ffc107219fcd90dc9bf2af6bc0893bef5d63b348dfe2/detection
@@ -9287,10 +9258,6 @@ worldhomeoutlet.com$all
 ! https://www.fortiguard.com/webfilter?q=192.99.221.77
 ! https://safeweb.norton.com/report/show?url=192.99.221.77
 192.99.221.77$all
-
-! https://www.youtube.com/watch?v=g0yXmQx89x4
-! https://www.virustotal.com/gui/url/36668ce62b38abdf9388a93640711deeffe3ba6c109664da15bc4e26a41cd7a5/detection
-spora.biz$all
 
 ! https://www.youtube.com/watch?v=MxKCz0NMb2o
 ! https://www.virustotal.com/gui/url/a4744e87f6e9061558e94b40bc073f6a1335f7f3e0f430eadc02fcfa1bbdd069/detection
@@ -13247,6 +13214,10 @@ navman-gpsupdate.online$document
 repeatstomach.cyou$all
 ! https://github.com/uBlockOrigin/uAssets/issues/9933#issuecomment-913677276
 greenadblocker.com$document
+! https://github.com/uBlockOrigin/uAssets/issues/9933#issuecomment-913856696
+lp1.limafoxtrot.online$document
+limafoxtrot.online$document
+
 
 ! https://www.virustotal.com/gui/file/76bbdd6144d670f4b0e425238d2ec42800711bfaf882dad3ec7f47ac37f2ddd9/community
 ! https://www.joesandbox.com/analysis/478416/0/html#domains
@@ -13331,5 +13302,92 @@ cameronznxbas.xyz$all
 ! https://safeweb.norton.com/report/show?url=103.91.245.36
 ! https://www.siteadvisor.com/sitereport.html?url=103.91.245.36
 103.91.245.36$all
+
+! https://github.com/blocklistproject/Lists/issues/456
+! https://www.virustotal.com/gui/url/383e601492df662f7612beea0e02d336a3ee39e864db40d03fe72d4f3fe4c2e4/detection
+discorcl.link$all
+! https://www.virustotal.com/gui/url/0f5756beb7b290bd628bca658d868f807241e466954f51afb40a56f81e0013d8/detection
+discrodnitro.org$all
+! https://www.virustotal.com/gui/url/faa3244288e1a4c9b3100b32452fefa9645dc26ab85a674b25f250da35e06762/detection
+! https://safeweb.norton.com/report/show?url=stearncornmunity.ru.com
+! https://www.siteadvisor.com/sitereport.html?url=stearncornmunity.ru.com
+stearncornmunity.ru.com$all
+
+! https://www.virustotal.com/gui/file/e0bcfa34b70aee7aac21a653f9e7012d9531bcda12ee4b8910d8031a0f61e456/detection
+! https://www.virustotal.com/gui/url/9ecc5932f5ae18a389e92ff12271536057264ab5dce047e91614186bec236b92/detection
+! https://www.virustotal.com/gui/url/c6371d78b98d90f3fd2762da13a3cc8942f69e451d15a22c56ff1e2f34cb322b/detection
+209.141.42.149$all
+! https://www.virustotal.com/gui/ip-address/209.141.42.149/relations
+atvhost.live$document
+
+! https://www.virustotal.com/gui/file/cc142808277aba63344ba07c84a3014afb33864158a5e4b31a2e5925cc6d892a/relations
+! https://www.virustotal.com/gui/url/541b56dc248d3fb4bb870dad4065f5f88559c485fc5e43dd896f0ebfd62b6b21/detection
+! https://www.siteadvisor.com/sitereport.html?url=tbpws.top
+! https://safeweb.norton.com/report/show?url=tbpws.top
+tbpws.top$all
+
+! https://www.virustotal.com/gui/file/12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef/community
+! https://www.virustotal.com/gui/url/fb40521e259d30376f8434fe7c1672ce71fca1b20586ea65cc8aa598d5275206/detection
+! https://www.virustotal.com/gui/url/576c867dfc2462dc645bc99f7370f4eb5634de68c37e7e6d71fb042ea41695f3/detection
+115.56.84.78$all
+! https://www.virustotal.com/gui/url/f10539623f2ab79973bfef804bd94bbef8e87bb4fa31156c1d84f0faf17f61bb/detection
+! https://www.virustotal.com/gui/url/813e58535aff0b73c2e9626c7c1ef8e6402cd266d6b9ce8c70df02df4ccd774c/detection
+119.119.180.149$all
+! https://www.virustotal.com/gui/url/5c4ceaf411e896720998f80e0b65a375e299fc3232293a27879d507c960bce8b/detection
+! https://www.virustotal.com/gui/url/02daf628187b42af1a2383998e7141dc5ef94f8e995e8688f786622078273e5b/detection
+42.237.253.8$all
+! https://www.virustotal.com/gui/url/da05d41f8552886888ffca8f1ac59e9e26945b00206256e162dcc7f6b3934102/detection
+! https://www.virustotal.com/gui/url/3eb6da0e8185db5430344e2b4452aa3a982ae0e5b55c7ff062c2575efd5a9842/detection
+219.154.110.173$all
+! https://www.virustotal.com/gui/url/469f75fe271e3f85f2250e92992dbb00ccc8f2171f33ff3d6b9e3d6316d437ee/detection
+! https://www.virustotal.com/gui/url/49b8a7cd639d9ca782a5f05b70e7f9ef8446ad3301d13a3cb919d8532e69b4db/detection
+175.174.111.246$all
+
+! https://www.virustotal.com/gui/url/2163d99c9723758db2b6fa413e158a29d807f471827bb0f9d8b900359a4be004/detection
+! https://www.virustotal.com/gui/url/7f46b1d2e2895b45d0ce9994182b5564da4cc07e13a2ce7c4df6518c1313204f/detection
+125.47.37.241$all
+! https://www.virustotal.com/gui/file/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/community
+! https://www.virustotal.com/gui/url/36aa6f00fa9e6d155f806d816e6f3655ee6620d730ac184366c13f722c4658b4/detection
+! https://www.virustotal.com/gui/url/340b719a8837637708579c0e972c556a37270bf0fdcac0d2263178daf6968c9f/detection
+113.173.55.113$all
+! https://www.virustotal.com/gui/url/9b876302188a3663cf7c21129c97c5355e1e5dbf833b8ac01daa80448c6c755f/detection
+! https://www.virustotal.com/gui/url/b7785cfa63576f46b250ecb1b918763d9fac1760bd846491cbbbd823a8ba9fd8/detection
+27.5.37.220$all
+! https://www.virustotal.com/gui/url/5a311de5c1b80dae6389ef3e8d1d6f900d9f8f9bd3afd60eaa687c464d548eb7/detection
+! https://www.virustotal.com/gui/url/d4054ebdc5092023c4aa52b817a72cbe93f457d5a5accc986aa5bdb8d9091759/detection
+115.51.107.100$all
+
+! https://blog.malwarebytes.com/detections/pup-optional-bytefence/
+! https://www.virustotal.com/gui/file/21dfa4ed47de7007c0fb6eadb3f94d2e847b3f4e301767d2320623f02f0926ba
+! https://www.virustotal.com/gui/file/d41405553da0287be81722125b35405ad90923e7aa0631b5e5c6ab80358355ca
+! https://safeweb.norton.com/reviews?url=bytefence.com
+! https://www.mywot.com/scorecard/bytefence.com
+||download.cnet.com/ByteFence-Anti-Malware/$document
+bytefence.com$document
+cdn.bytefence.com$all
+logs.bytefence.com$all
+update.bytefence.com$all
+ulogs.bytefence.com$all
+www.bytefence.com$document
+fr.bytefence.com$document
+it.bytefence.com$document
+en.bytefence.com$document
+es.bytefence.com$document
+shield.bytefence.com$document
+new.bytefence.com$document
+
+! https://www.virustotal.com/gui/url/acea61b0e08c865b5af0585ae3d11c0daf033eae11344b6e22c5853b6d6fbb3b/detection
+! https://www.virustotal.com/gui/url/b6e71bd6fad8a1bc1b28ee86e2b12e34b9a613424f78878a1912cfed21905263/community
+! https://safeweb.norton.com/report/show?url=hidusi.com
+! https://www.siteadvisor.com/sitereport.html?url=hidusi.com
+hidusi.com$all
+www.hidusi.com$all
+! https://www.virustotal.com/gui/domain/hidusi.com/relations
+! https://www.virustotal.com/gui/url/c08e14de4fa564217e43a4bc2404eafd64a5e09b70123573d3622d76acae5020/detection
+! https://safeweb.norton.com/report/show?url=23.106.160.25
+! https://www.siteadvisor.com/sitereport.html?url=23.106.160.25
+! https://www.ipvoid.com/ip-blacklist-check/
+23.106.160.25$all
+make-hex-32332e3130362e3136302e3235-rr.1u.ms$document
 
 ! END
