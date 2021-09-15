@@ -1,5 +1,7 @@
 ! Title: uBlock combo list
 ! Expires: 1 day
+! Homepage: https://github.com/iam-py-test/uBlock-combo
+
 
 
 ! ----- BEGIN DandelionSprout Antimalware -----
@@ -13386,3 +13388,130 @@ duckyu.biz$all
 124.230.96.62$all
 
 ! END
+
+! ----- BEGIN The anti-typo list -----
+! List title: The antitypo list
+! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent you from ending up in the wrong website
+! Expires: 1 day
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Last updated: 5/9/2021
+! If someone can confirm this, it can move to malware 
+! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
+! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
+! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
+xn--gogle-jua.com$all
+! https://www.mywot.com/scorecard/vrustotal.com
+! https://safeweb.norton.com/report/show?url=vrustotal.com
+vrustotal.com$document
+! https://www.virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
+! https://www.virustotal.com/gui/domain/googlec.om/detection
+! https://www.siteadvisor.com/sitereport.html?url=http%3A%2F%2Fgooglec.om
+! https://safeweb.norton.com/report/show?url=http%3A%2F%2Fgooglec.om
+! https://transparencyreport.google.com/safe-browsing/search?url=http:%2F%2Fgooglec.om
+! https://sitecheck.sucuri.net/results/googlec.om
+! https://safeweb.norton.com/reviews?url=googlec.om
+! Can not resolve host but might come back some day
+googlec.om$all
+! https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
+! https://www.urlvoid.com/scan/accountgoogle.com/
+! https://www.mywot.com/scorecard/accountgoogle.com
+accountgoogle.com$all
+accountsgoogle.net$all
+googlesignin.xyz$all
+signingoogle.xyz$all
+logingoogle.xyz$all
+! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
+malwarebytes.xyz$all
+w3school.com$document
+! https://github.com/easylist/easylist/pull/7950
+! https://www.siteadvisor.com/sitereport.html?url=xozilla.com
+xozilla.com$all
+! https://sitecheck.sucuri.net/results/bit.lu
+bit.lu$document
+! https://www.mywot.com/scorecard/alwarebytes.com
+alwarebytes.com$document
+! inkbunny[.]net typosquatt
+inkbunny.xyz$document
+! duckDuckGo typosquatt - https://www.fortiguard.com/webfilter?q=dukduckgo.com&version=8
+dukduckgo.com$document
+! https://blog.dynamoo.com/2011/04/alisa-cartercom-lizamooncom-and-worid.html
+! https://safeweb.norton.com/report/show?url=google-1aa.com
+google-1aa.com$all
+! https://safeweb.norton.com/report/show?url=googlesite.ws
+googlesite.ws$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/85224
+www.youtubewon.com$document
+youtubewon.com$document
+! https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
+! https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
+paypl.com$all
+paypal.xyz$document
+! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
+payapl.com$all
+! https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
+! https://www.siteadvisor.com/sitereport.html?url=cchase.com
+cchase.com$document
+! https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
+! https://www.mywot.com/scorecard/blogsopt.com
+blogsopt.com$all
+! https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
+! https://www.mywot.com/scorecard/g0ogle.com
+g0ogle.com$document
+! https://github.com/SOBotics/Belisarius/issues/5
+stackoverflows.com$document
+! https://safeweb.norton.com/reviews?url=googe.com
+googe.com$all
+! https://forum.mywot.com/24626-whatsmyipaddress-com
+whatsmyipaddress.com$document
+! https://www.fortiguard.com/webfilter?q=appple.com&version=8
+appple.com$all
+bankofamericaa.com$document
+rasberrypi.org$document
+google.xyz$document
+! https://www.scamner.com/check/irs.guv
+irs.guv$document
+! Look-alikes using non-ascii
+discōrd.com$document
+xn--discrd-egb.com$document
+rėddit.com$document
+xn--rddit-6za.com$document
+! https://www.virustotal.com/gui/user/Site.safetychecker
+! https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
+yotube.com$all
+! https://github.com/rcmaehl/WhyNotWin11/issues/66
+whynotwin11.com$document
+! https://github.com/blocklistproject/Lists/blob/master/malware.txt
+! https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
+! https://www.siteadvisor.com/sitereport.html?url=01apple.com
+01apple.com$all
+! Potencial typosquatt
+google.com.gt$document
+! Does not resolve to anything - yet...
+duckduckgo.net$document
+! Might be typosquatts of yahoo
+yahooc.com$document
+yahooc.om$document
+! https://www.virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
+virustotl.com$document
+! https://www.virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
+yutube.com$document
+! https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
+! https://safeweb.norton.com/report/show?url=virusttal.com
+virusttal.com$document,popup
+! https://www.virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
+! https://www.siteadvisor.com/sitereport.html?url=virustota.com
+! https://safeweb.norton.com/report/show?url=virustota.com
+virustota.com$all
+
+! https://www.virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
+! https://safeweb.norton.com/report/show?url=discordapp.cam
+! https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
+discordapp.cam$all
+
+old.ereddit.com$document
+ereddit.com$document
+craisglist.org$document
+! https://new.reddit.com/r/dwarffortress/comments/e4srco/be_sure_to_use_org_instead_of_com_when_going_to/
+dwarffortresswiki.com$doc
+
+bitdefneder.com$document
