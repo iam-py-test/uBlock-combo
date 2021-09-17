@@ -13798,6 +13798,24 @@ tacos.gg$all
 ! https://www.siteadvisor.com/sitereport.html?url=checkvim.com
 checkvim.com$all
 
+! https://urlhaus.abuse.ch/url/1625361/
+! https://www.virustotal.com/gui/url/9ad021dd4ce4c664275b0323ef1bebb083c7ec0b58e628a106243f533538f481/detection
+! https://www.virustotal.com/gui/url/542708d203696c61a73a8f5fc63c61ec7a9bd2a35181947227355f7061ba2a46/detection
+rusyacastajanslari.bykmedya.com$all
+
+! https://www.virustotal.com/gui/file/49113451c4baac2ee6b97486bd1f57dcf68891d55ff4782daa4d578e23e78d7c/relations
+! https://www.virustotal.com/gui/url/3c8a2e8d244d06ec62b070ee4886fa9011161d3c79793cadbc824644cdb53a41/detection
+194.145.227.161$all
+! https://www.virustotal.com/gui/url/770c2701451a00d72aa5a1424e50b632309921ca9f187c1ff661be65969e18df/detection
+wushupalace.top$all
+
+! https://www.virustotal.com/gui/url/4c5a0fc42b8374b889bde94b8189a8be9f8c7fd5bfd1107e5588410e2359a53d/detection
+! https://www.virustotal.com/gui/url/50d8e148f03ea0b5e78df4443de8fee256d2d3437520d7eda0c133fd7d368aea/detection
+45.137.190.31$all
+
+! https://www.virustotal.com/gui/url/4004f0b5afacdd462f4612ef453a3226dcc9cfe59f17c6a397ad499951d2cc69/detection
+ierinapu.xyz$all
+
 ! END
 
 ! ----- BEGIN The anti-typo list -----
