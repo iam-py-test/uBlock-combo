@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 11September2021v1-Beta
+! Version: 18September2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -5953,6 +5953,10 @@ toorgle.net##.join
 ||okmx.org^$all
 ||nickswheels.com^$all
 ||spizzicopizza.net^$all
+! Other
+||elitemedia.xyz^$doc
+||redirectme.net^$doc
+||ukspeedtest.live^$all
 
 ! ——— Gobshite copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
 ! Most of the guides haven't even accounted for how modern phones have replaced the recovery environment with an extra boot environment, leading to very critical Fastboot commands not working and/or bricking the phone.
@@ -6078,7 +6082,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 17/9/2021
+! Last updated: 18/9/2021
 ! Description: This is a list of malware, phishing, or scam sites that I discover or find in reports
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -13847,6 +13851,92 @@ abrosnm3.com$all
 ! https://www.virustotal.com/gui/url/98a0ce8f7e37e92a734ffbbcdb5f277301d0c4331c1beb8fb21ff879e30a7c8d/detection
 ! https://www.virustotal.com/gui/url/9b4f8a94886ee961ca2a9b2883afba958df4020255bc223a4065f9f002b4e705/detection
 192.227.158.110$all
+
+! https://www.virustotal.com/gui/file/0b2aa8187ec6f6435630f3652af0fa7cb74579402cf94e423f95016004465aad/community
+! https://www.virustotal.com/gui/url/c202ba3abd297a905c63281a8430fe0e86e275f23c30c449c77c10db0a59cca3/detection
+! https://www.virustotal.com/gui/url/5650885e7203c1359a7ad957620b63a81c513cead87ef081447d663788c3ca17/detection
+45.15.170.102$all
+! https://www.virustotal.com/gui/url/5fb2767626e0ec1f3f13581aeb0e8f7e42e4ad6e277325b63a7ebc23711d6166/detection
+bin.rippr.cc$all
+! https://www.virustotal.com/gui/url/7723856ebbd6e156a0d652aded8df06261a290b1484ee078768c0f64a46a4445/detection
+rippr.cc$all
+
+! https://www.virustotal.com/gui/file/da75c85fe037f9ff9ebbbd0b37dd2ff154f5e70a0dc6870286e0d3df6b8f246f/community
+! https://www.virustotal.com/gui/url/2d1ab3d658bc793eeb760125c15fb3792cd38bec0299e790f57cb1710336cfd5/detection
+! https://www.virustotal.com/gui/url/94b3b68b325a61f8116fc6939734960ce1b6cc3d6867e0ece89328e0715e92ef/detection
+139.28.37.49$all
+
+! https://www.virustotal.com/gui/file/ca7072bba9d1b75b02b5d2887fdb7bcb1f86050b669ffd99a7e756e1a60095f2/relations
+! https://www.virustotal.com/gui/url/3e3174e68a386d1aeaec00e64037b4e3b650164ff8e0289f56da8b7c4aaf95d9/detection
+str-master.pw$all
+
+! https://www.virustotal.com/gui/file/8fa3c34e462037093f430ee126f228ff245b06976d452de81f0d21575e290435/community
+! https://www.virustotal.com/gui/url/f075f6666140ea57d70412c02642a945a482456d7999ffc7c03fc8d8e9d2b95a/detection
+! https://www.virustotal.com/gui/url/baf9a29fedcde861fe80dbdb0d94b4a3d38e3f324424b3d6cee880d905ca65ca/detection
+117.196.29.105$all
+
+! https://www.virustotal.com/gui/file/d1b5143160255a56f75efe4e9331aa019919d210e5c57d47cc2f54d52aeb7042/community
+! https://www.virustotal.com/gui/url/30b0804a23a89e74dd8139dfcb766783f46bbae3ff65abbd008a78c3e9371b6f/detection
+! https://www.virustotal.com/gui/url/09007cfca4455f32bd57fdd3c1541f20a3b9bd9cd95252bb7bd9e26fb5f4135c/detection
+139.99.135.131$all
+! Domains that resolve to this ip
+bitwarden.otenki.dev$document
+bitwarden.eyepv6.net$document
+
+! https://www.virustotal.com/gui/file/7b603dd82cb87eca59e93b2cd9c0eb8e613339097b23ac07daa9220a2eb4a7b4/community
+! https://www.virustotal.com/gui/url/fb8f88ffe062f936433c934de18d7c411ab997eb5142e0458b217c9136a0a968/detection
+! https://www.virustotal.com/gui/url/7557ce70f571361276db8261d1d957499eacef0ec74c9feca8d5968288180e58/detection
+91.212.150.247$all
+
+! https://www.virustotal.com/gui/file/3837bd604e129244d1ca1fdd901fec0de7069f960e4c787c579811e21f2448c2/community
+! https://www.virustotal.com/gui/url/75518a9adcf0a22e95319f5df2017050ec3b8e4e00ffbca628ca3e32b074fba9/detection
+! https://www.virustotal.com/gui/url/240e84686f645820b6b5bdfbf391bd8a5a4371e347a02ac2d6297d9905d83787/detection
+194.145.227.159$all
+! https://www.virustotal.com/gui/url/6680fe346732105a635a0c1ad47eda07bb9fa0c430d6b69b73dd49d2e9edd52b/detection
+lae53dd5.justinstalledpanel.com$all
+! https://www.virustotal.com/gui/url/5961dc4e337c4aa48f2ed2945730bbb40590f9f1291a7ad65446208025153eab/detection
+justinstalledpanel.com$all
+
+! https://www.virustotal.com/gui/file/717bfbdba55f9c2d820fde170c04fd70c3e0f907b635c13d0f29678ff781f665/community
+! https://www.virustotal.com/gui/url/c6dff51df89ba29c5469f255a0eb210b227b287323760b9db444db4576f25b3c/detection
+! https://www.virustotal.com/gui/url/90ab08e26da7cfb7163220d538b58159ffcd034857a6181a53eeb33111862726/detection
+! https://www.virustotal.com/gui/ip-address/35.194.188.37/relations
+35.194.188.37$all
+! https://www.virustotal.com/gui/ip-address/35.194.188.37/relations
+! https://www.virustotal.com/gui/url/ffcb5058b7baf1b9b74b5910eb1c0c00ab7ca3a34e67f241511489bb7a1745ec/detection
+! https://www.virustotal.com/gui/url/7063630fcc39e93d2ce281a3622fa31a7384c69c7d1b88681d6cc8080b8f85ba/detection
+nemscnc.ddns.net$all
+
+! https://www.virustotal.com/gui/file/d4a432f1248930343a999a11dbcf5c7790f7c0d4856200aba7d20f956455fa2e/relations
+! https://www.virustotal.com/gui/url/31f594b44559268c110733c6a8eee6349b6da8d6c72808c7b1530418d53dcc85/detection
+185.225.17.248$all
+
+! https://www.virustotal.com/gui/file/368afeda7af69f329e896dc86e9e4187a59d2007e0e4b47af30a1c117da0d792/community
+! https://www.virustotal.com/gui/url/39f51c240675face23daa0fdd02c8a16f7367d599956ca56dd78994d916ab084/detection
+! https://www.virustotal.com/gui/url/edd4db01297824cdd3d9762e6c5814217762733e43806910c500cec8bb9a33dc/detection
+hydro-ca.link$all
+! https://www.virustotal.com/gui/url/dfc627dd9e15042b54b52256b5c097419d3d7a9e88b1ada7e336e71a1f3918cc/detection
+! https://www.virustotal.com/gui/url/786ac72a5a21d9e776f4a433628c4fe4a1b883d7b2dfd5dec70f4cc9df57d92e/detection
+covid19-ca.link$all
+! https://www.virustotal.com/gui/file/368afeda7af69f329e896dc86e9e4187a59d2007e0e4b47af30a1c117da0d792/relations
+! https://www.virustotal.com/gui/url/de8b6da81885ece3cadcc234a81fcaddaa6e4b4d186e232b215cb9e6baf34bef/detection
+sock.godforgiveuss.live$all
+! https://www.virustotal.com/gui/url/f1e54c24e1d0a6804e1a61fe846536525413103b88f3ce319eec6359c12dcfde/detection
+godforgiveuss.live$all
+
+! https://www.virustotal.com/gui/file/c0e40a12643436cb413235e385a6a90deeb6cc13b24458368fd7facb20ac0c81/community
+! https://www.virustotal.com/gui/url/2bd4684b3018b632e9b81b8804abcdc81adf4fd2f09cf9c241db3c7407a0114b/detection
+! https://www.virustotal.com/gui/url/e2e0014d008dfd1fc5f76cf66e5a802be2aefb7dc81ee11dde9bf8597246d694/detection
+91.243.121.19$all
+
+! https://www.virustotal.com/gui/file/9f154115fa8045aa05f15f7cd1de9623ebe32e8ea400279ecb5dfa3596952e3b/community
+! https://www.joesandbox.com/analysis/485747/0/html#domains
+! https://www.virustotal.com/gui/url/208a2c80c056202dc8b684a4770251259c52c602a886fa241dd606809587832a/detection
+fernandomayol.com$all
+! https://www.virustotal.com/gui/url/99b6358982cd5d772cb7b3a70cbd9f1ff6d731f5e58ed9c4d90580013b420769/detection
+varmisende.com$all
+! https://www.virustotal.com/gui/url/95283afc70ba5d521a07325a3520b6d869d12506b3af94de2f66a3a265b2734f/detection
+103.169.90.205$all
 
 ! END
 
