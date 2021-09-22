@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 20September2021v1-Beta
+! Version: 22September2021v2-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -32,7 +32,7 @@
 ||agency^$doc
 ||gdn^$doc
 ||bid^$doc
-||top^$doc
+||top^$doc,domain=~corriente.top
 ||ooo^$doc
 
 !#if !env_mobile
@@ -14071,6 +14071,18 @@ aznbilling3829.com$all
 ! https://www.virustotal.com/gui/url/52028461d168b1a88b59e92ac8f040bf3e1e3dec3376d43b80cff0278f26f039
 ! https://www.virustotal.com/gui/url/06f20ca243d075ae997b8635caa6deda3d29a5177c56e068020fb7c902d5dc6b
 installcb.ru$all
+
+! https://github.com/brave/brave-browser/issues/10470
+! https://www.virustotal.com/gui/url/8506229caba5b07f8bde7815d0135660479284a48bbbae7b97d7047693dc60c4/detection
+linkangood.com$all
+! https://www.virustotal.com/gui/url/cdf69791a37098dc41af2e7088c1244b4688c21d07561e724ede9547845162fd
+! https://www.virustotal.com/gui/ip-address/23.111.228.4/relations
+23.111.228.4$all
+! https://www.virustotal.com/gui/ip-address/23.111.228.4/relations
+! https://www.virustotal.com/gui/url/59307724555428ad251276b5267fcda8fc6c27d73a838bb0c77fba1eb890cbc0
+! https://safeweb.norton.com/report/show?url=billyjons.net
+! https://www.siteadvisor.com/sitereport.html?url=billyjons.net
+billyjons.net$all
 
 ! END
 
