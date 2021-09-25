@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 25September2021v2-Beta
+! Version: 25September2021v4-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -6354,10 +6354,12 @@ toorgle.net##.join
 ||wanmeizi.ru^$all
 ||widesdays.com^$all
 ||194.226.139.0/24$all
-||194.226.139.121$all
-||194.226.139.7$all
-||95.181.157.36$all
-||95.181.172.204$all
+||194.226.139.121^$all
+||194.226.139.7^$all
+||95.181.157.36^$all
+||95.181.172.204^$all
+! Other
+||foxsportnetwork.com^$all
 
 ! ——— Gobshite copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
 ! Most of the guides haven't even accounted for how modern phones have replaced the recovery environment with an extra boot environment, leading to very critical Fastboot commands not working and/or bricking the phone.
@@ -6483,7 +6485,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 23/9/2021
+! Last updated: 25/9/2021
 ! Description: This is a list of malware, phishing, or scam sites that I discover or find in reports
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -14491,6 +14493,328 @@ givemexyz.in$all
 ! https://www.virustotal.com/gui/url/479e9877e31cb4a7bd26dceee3f961ecb2caa6ccfa054ec21471875a2553395a?nocache=1
 ! https://www.virustotal.com/gui/url/322839eb79a430b5ff134db1fe8cd5c825aae0640e08a3a67b709e3700d65185
 66.42.117.168$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/95582
+! https://www.virustotal.com/gui/url/3323920fe31aaa6724441edc7bd395232194c52967480a95039fb35bcb3d7ac2
+! https://www.virustotal.com/gui/url/93011523cfdd4defbccbe5fff351acac2bb6fdddba6420cc69d81cc9f9dd7f61
+discord-give.com$all
+www.discord-give.com$all
+! https://www.virustotal.com/gui/url/14e26f474bea138e9ac57c1cf5558ab6cb78b4ead632840a2e6e6f20e150398e?nocache=1
+! https://www.siteadvisor.com/sitereport.html?url=95.181.155.109
+95.181.155.109$all
+! https://www.virustotal.com/gui/ip-address/95.181.155.109/relations
+! https://www.virustotal.com/gui/url/a6bf7eb0fe5d31d3a7c2ba888b8ac64442e16730ac99093aaa632f3adb1401a3?nocache=1
+steamdiscords.com$all
+! https://www.virustotal.com/gui/url/35c1822e37ef7bee4fccf17f7c739b5d74aebbfde6b869441bc897ef96b33bde
+steam-discords.com$all
+! https://www.virustotal.com/gui/url/175ef931a112a83a84c043b8ac8c456ad316e188b9a1b386d309e0991cbb9a43
+steacomnmunity.com$all
+! https://www.virustotal.com/gui/url/a6300fe0089b0de753563cc7ba20c366f0893c2cfd6957f126a95b8db9754d24?nocache=1
+stearmcommuunnity.ru$all
+! https://www.virustotal.com/gui/url/cfe57698113e7e909d0d6406b3796fd13791b89497e2186b04a22f8c345647b8
+discord-boost.ru$all
+! https://www.virustotal.com/gui/url/160712915d2309f33070ae2f9b59db4876308faad955b96fc9e9a712f7d72cdf
+djcsord-njtro.xyz$all
+! https://www.virustotal.com/gui/url/11c29b8729316dadd3ceb50d81f152260f95a497629d5f475697589bee39d185/detection
+astralis2.org.ru$all
+! https://www.virustotal.com/gui/url/6321dd2d3e859d361ece70ac472aa51234851987ae930b935ad36645d3c686c0
+dlscordapp.info$all
+! https://www.virustotal.com/gui/url/0ce01d92014780dd2f80438a5fdb6c1f5819ac9252c8eda92eeae9f73e327011?nocache=1
+sleammcommunnity.ru$all
+! https://www.virustotal.com/gui/url/c45d7f9c14e6e58bf94028595add7fcf691d9ceffcc66db80f0fbe65f23d7f36?nocache=1
+! https://www.virustotal.com/gui/url/06d68152495d6c5f7f3ba09f7d0153227cf671d13e26ddb48c2616da7b9148fe?nocache=1
+sleamcomnnunitiy.ru$all
+www.sleamcomnnunitiy.ru$all
+! https://www.virustotal.com/gui/url/a4042216efc13c32248956516492b776bda0339f2eba62459f7e9a3eaed04db7?nocache=1
+sleamcommunnitu.com$all
+! https://www.virustotal.com/gui/url/fac54c36634fc6c370f554bd63d29cef5c9697089db9d499a0c86b9217f9aa09
+ecyber-tournaments.ru$all
+! https://www.virustotal.com/gui/domain/gtwoesport-battle.online/relations
+gtwoesport-battle.online$document
+! https://www.virustotal.com/gui/url/ce5c63a51191a59ff01467ce3b54039d66af15bad5acebc74842deb9393afb74?nocache=1
+magifcrolrls.xyz$document
+! https://www.virustotal.com/gui/url/e7c0a73839c5c253a99fbc384f4e9a3cf99e5a487ec6b02b89f2b564f859b2bd?nocache=1
+discorcd.gifts$document
+! https://www.virustotal.com/gui/url/78f192fee8c05ceb450f1afd919298b7fb6777facb6b443677d0182c4b8b0574
+bountyweek.com$all
+! https://www.virustotal.com/gui/url/31a40aaf1aa0ffcfd9359ceb24c5b246fa445975fe67759b8e85a27fcc04e016?nocache=1
+staemcoommnuty.ru$all
+! https://www.virustotal.com/gui/url/cfe45593921141a8158a01291e0305b54f3bf6c3580868c06c5ca073229fe307
+staemcoommnunity.ru$all
+! https://www.virustotal.com/gui/url/9b4fc1ed9807182ded97ef14093e2009858a03ab75c03a28f102727548b0ba9f?nocache=1
+www.discrodsteam.ru$all
+! https://www.virustotal.com/gui/url/6c0597e77205eee82daec7cb183f171b9eef4db9f335f6ac804f6a6af57d5d63?nocache=1
+discrodsteam.ru$all
+! https://www.virustotal.com/gui/url/cdef7a7c3cc033a59ffa2dcc48900e823fcc449772a94401aafc64da308f1e69?nocache=1
+! https://safeweb.norton.com/report/show?url=gift-discord.shop
+gift-discord.shop$all
+! https://www.virustotal.com/gui/url/87a85319a76f2c902d53dc76cc2866417fbd612d730ae94fd7696ab088ad785d
+discord-alrdrop.com$all
+! https://www.virustotal.com/gui/url/f4854ecef8a27f2d54d22a097663c03bb8a088c94fafe4c9f90e03ccf3bf5fae?nocache=1
+www.discord-alrdrop.com$all
+! https://www.virustotal.com/gui/url/c834106611ce330cca16e79891e508f1e279b61f8f3c2458407adb16ca71d654?nocache=1
+steamdiscrod.ru$all
+! https://www.virustotal.com/gui/url/48f9cb41b94a48d8af72e795906ec2371ecf8ef5175e90e526322564645e9153
+g2esportbattle.ru$all
+! https://www.virustotal.com/gui/url/a8bf69b4d03232b9ff7af44045c4921fc5b828d459389c8448af7259cfd529c9?nocache=1
+facepunchstudio.com$all
+! https://www.virustotal.com/gui/url/e1029ab54b2d2a45f669264781f84eb4d8c72c9f4f8c42a49a60ddefaf946797?nocache=1
+! https://www.siteadvisor.com/sitereport.html?url=dlscord-app.site
+dlscord-app.site$all
+! https://www.virustotal.com/gui/url/e3e0fbeb6ba08e2b44810da01fe688f6828d123db5f7955044006a3c8b4e9791
+discord-gift.shop$all
+! https://www.virustotal.com/gui/url/b234e6bb3ef471329f93846feedc9850402cd5bcb6688020dc6230ace71c60b5
+discorcd.gift$all
+! https://www.virustotal.com/gui/url/145c4bdadca86dfb9560668f2cec835f75c248af41b8842687ad89dce8d2aed0?nocache=1
+communitytradeoffer.com.ru$all
+! https://www.siteadvisor.com/sitereport.html?url=dlscord-app.info
+dlscord-app.info$document
+! https://www.virustotal.com/gui/url/2b1631736b11cc2799185a4b03dc290f95fd0d085423de7279552bd7b69bd68e?nocache=1
+steamcommynutiy.ru$all
+! https://www.virustotal.com/gui/url/caf23cc42c3a5fc14bdfc0288863fdce841240aee1700c17b991b26dadd1bf03?nocache=1
+communitytradeoffer.com$all
+! https://www.virustotal.com/gui/url/84eb775bbbc8aa54b70252ee9e036387fff1fee3ff164a6ce936a629f9cc9d58?nocache=1
+discord-stuff.com$all
+! https://www.virustotal.com/gui/url/accbd151b9aee1550753117aa8388de152c4ab4226277d750b35a19ffe1ca3cf
+case-gift.com$all
+! https://www.virustotal.com/gui/url/2239cee4c2ef4a76f7d611c796b5610691a502c5891c851687f4c1f299a86f38?nocache=1
+! https://www.siteadvisor.com/sitereport.html?url=steanpowered.xyz
+! https://safeweb.norton.com/report/show?url=steanpowered.xyz
+steanpowered.xyz$all
+! https://safeweb.norton.com/report/show?url=discord-give.xyz
+discord-give.xyz$document
+! https://www.virustotal.com/gui/url/864bc7f76f37f1f0664cdc9c1cbc1f3e0975cd2ff3a62c959c8947151448e74b?nocache=1
+! https://www.siteadvisor.com/sitereport.html?url=stearncornmunitiy.com
+stearncornmunitiy.com$all
+! https://www.virustotal.com/gui/url/91bf09bbd5922ee7009255ef93cfa30fba5bc082676107288accb2c763e72947
+steamcommunity-nitro.ru$all
+! https://www.virustotal.com/gui/url/4e4e783a8c807248d4e21e45cf9e757f30d99a52e65bc7d30756e9b7eef59a02?nocache=1
+also-put.xyz$all
+! https://www.virustotal.com/gui/url/e9b20769c4045def5885521a79b3aca07fb2d068603965bcfb518e8fe83dc69e
+bets-cup.ru$all
+! https://www.virustotal.com/gui/url/7cb35a5b0df1bf5f17a7c223c4e5fe603a81e345e51803400e9fa64c5fe8fa97?nocache=1
+cawanmei.ru$all
+www.cawanmei.ru$all
+! https://www.virustotal.com/gui/url/b4a6fbb92fb87bf407d1464af05f37a2ef8200778d92b893c467ce76d8f14329
+steamcomnunlty.ru$all
+! https://www.virustotal.com/gui/url/a8c6ecc881792b3cbf17ca931ebfbbe0cf93dfb12f1f362f2c0a13fd0812a0d9?nocache=1
+dlscard.ru$all
+! https://www.siteadvisor.com/sitereport.html?url=steamcommynitry.ru
+steamcommynitry.ru$document
+! https://www.virustotal.com/gui/url/6d62814ea66ebdf38510327ad6ba971c3b2c5e51d1b6cc7cefaa7339413be711?nocache=1
+steamcommyniti.com$document
+! https://www.virustotal.com/gui/url/42f4f40d651480bd2e21a41a6a4595d8f19d442dcf90526d1ddd09e3aceeb021?nocache=1
+discorcl.life$all
+! https://www.virustotal.com/gui/url/4a967532da3c43600cdec6a5cff1fcd5893aec08b8ce4b2369a9c26d15025d0e?nocache=1
+disccord.ru.com$all
+! https://www.virustotal.com/gui/url/8629d5addce3babd50b633f9b145a52b519375c01f2348724510b79342b4fc9a?nocache=1
+dlscorcl.ru.com$all
+! https://www.virustotal.com/gui/url/51a403721b5f31192b5ca85fcc311f522b896e048da5fa0e0cbfc86e6ae02abf?nocache=1
+discord-claim.ru.com$document
+! https://www.virustotal.com/gui/url/fabaf69a53c5c31ecba8d7cbb36a62fb6affbfb93132f1bd9f49e3c642cd968b?nocache=1
+discordapp.ru.com$all
+! https://www.virustotal.com/gui/url/61bc78b2ae3be3bf74bf86a1bd1be53b26c29af318518c7328956abddb171902
+keysdropes.com$all
+! https://www.virustotal.com/gui/url/0824095c8a30cdb44b53c2df04c8001b494e8123a56ff86171bf942361bd8df8
+discord-airdrop.info$all
+! https://www.virustotal.com/gui/url/13438c8ba8b3c894357c18e74e7884c2ca5fd9c25d857095b632521a1e41d80f?nocache=1
+nicegg.ru$all
+! https://www.virustotal.com/gui/url/84ef7b61d36527cee3abe51b9f10fcce5c2a3ae38d84f51cbbf98949677cbc6b?nocache=1
+steamcommuniutiiy.com$all
+! https://www.virustotal.com/gui/url/3f32d0a5ed3434262ae3167ebf0742f4befba059fe279392b45a18d98a115916?nocache=1
+discord.giveaweys.com$all
+! https://www.virustotal.com/gui/url/40621ecdffd1042a2982937aee16bbf22d98779f8a374da6332484a16b34825e?nocache=1
+giveaweys.com$all
+! https://www.virustotal.com/gui/url/6b60640b1aef5882c2a694d45eaf8c5ea64567bc979cd1984a65dadaa7de1d1c?nocache=1
+dlscord-alirdrop.com$all
+! https://www.virustotal.com/gui/url/6e00e79be49aa01798c451ce55f5f669f76068f734facb06c044282ca2ca4f11?nocache=1
+! https://www.siteadvisor.com/sitereport.html?url=steamcoomminuty.site
+steamcoomminuty.site$document
+! https://www.virustotal.com/gui/url/a886289af1dac6e607d1b45579d6551c34285961cf4dc0aed473b1651691724b
+gonusoffers.xyz$all
+! https://www.virustotal.com/gui/url/81aa4bf847b420429a72c8bb64ab05e6157129f9b58f37965200059300068839?nocache=1
+steamcoomunity-nitro.site$document
+! https://www.virustotal.com/gui/url/6453d6fe82b20de85be91a5419b23fe3e1629d6cd20179b57ec9b36f0ae95d1e?nocache=1
+steamcomrnunity.ru.com$all
+! https://www.virustotal.com/gui/url/30ffe56e1b6c6934480f5cb808d969385da66ddb27ef3903b7d5fb67a106d425?nocache=1
+alive-lives.ru$all
+! https://www.virustotal.com/gui/url/63298493eea15c9e813b93c6f82c5496194b145c97dffbb4d9058bef8635cac8?nocache=1
+steamcomminyty.ru.com$all
+! https://www.virustotal.com/gui/url/51da56828b0cd9d4d4514feb74038aefb01dc4188da398f1666983766914c156?nocache=1
+steamcommnity.com.ru$all
+! https://www.virustotal.com/gui/url/c32528c87b6c3718bf26ad4fc7777ce2fe619b807decd24fc4dd68bf892905ad?nocache=1
+discocrd.gift$all
+! https://www.virustotal.com/gui/url/83ce8c920a22c9550591e52839fd540ee7a37b941e3419780b17e195fcfb9b28?nocache=1
+steamdlscord.com$all
+! https://www.virustotal.com/gui/url/81880d767bab8515cf71ce37ebe7b56d8448184b96999f6cc4ce70d2b6c68949
+steamdiscord.com$all
+! https://www.virustotal.com/gui/url/b262f59fb9bf4ba5a319e3c893cb2fb89235d654adce726af084f8510413984c?nocache=1
+straemcommonlity.com$all
+! https://www.virustotal.com/gui/url/6877cd430dc429743f461ee958e2ace1d72d4e08db3b40dcd244ffa9adb532b5?nocache=1
+straemcummonilty.com$all
+! https://www.virustotal.com/gui/url/367f593d04ec4ad35a9f941f9c2326e4966c3816f1953568149d1139a571f615
+steamroll.org.ru$all
+! https://www.virustotal.com/gui/url/f698edc066bba56593b72cfdeca3d4cd873de8c4044b790f2dfe642ffbbfef5b
+dicsordgift.com$all
+! https://www.virustotal.com/gui/url/b594ccc75ea2ff578e78fafae249de4215f35b152a1f751b075acd5603b21b9e
+dlscord-nitro.link$all
+! https://www.virustotal.com/gui/url/6bfd8af7302282cf196013b34a1e9056a8ecee40676c53abb50d13dda7b917fc
+discorcdapp.com$all
+! https://www.virustotal.com/gui/url/4fbca3247cafbf09e3710afda53720fee264100c395be05722f4827f0dd230f7
+discocrdapp.com$all
+! https://www.virustotal.com/gui/url/6ae6f99ce87a33f9315e8f102ebe9d530997d68eafc35d7c385516942f95adb4
+steamcomminuty.click$all
+! https://www.virustotal.com/gui/url/649430d77d9785876b3df093e71446bac153e870891bd07223be99b562d33487
+steamcommynitu.com$all
+! https://www.virustotal.com/gui/url/0a8ea816672728b0e9869f65e4788471880746a65f3f8f2215789d0edfe278d3
+discord-app.net$all
+! https://www.virustotal.com/gui/url/0314bd2bb4874cad7a39346c83c421d87208be4bca6c0dc2f804f0a902b18cfc
+steancommynitu.com$all
+! https://www.virustotal.com/gui/url/7e01e69bc17c970bcc8e2bb8065bb741e2df1ec8f4dad46848f5dffd1db78a7f
+trade-offers.link$all
+! https://www.virustotal.com/gui/url/4c46d66c65e7b899121c09b5d389c697730cd8bc06fef65ee96d8ff7334630ff
+cs-tournament.link$all
+! https://www.virustotal.com/gui/url/da1a1774168459b01568a553a8e478fd495c9faa30078233a39eea572a30cc44?nocache=1
+95.181.163.44$all
+! https://www.virustotal.com/gui/url/690dbfa593e13382ebeac40bd4f95a3bcb064d19ef9c2d800ca75fcf69363825?nocache=1
+sleamcommnnity.com$all
+! https://www.virustotal.com/gui/url/e0db147f1a0ca467411155330b1ed3936642eac5d34dde1696da3f61c6a70912
+pandaskin.ru.com$all
+! https://www.virustotal.com/gui/url/39d7b7e1623fef972eaeb4e551aecdd9576e1b7963cc7001d6d0b12eca728183?nocache=1
+steam-discord.com$all
+! https://www.virustotal.com/gui/url/97f7719bc3f3d13754fc9f8085f3f36bd8ec868d682c045619874efb64d8ce31
+rust.facepunchs.com$all
+! https://www.virustotal.com/gui/url/f9eb3e0edffd92c942b7f8654797082c9eb69c26488f68737369d551b9380835
+facepunchs.com$all
+! https://www.virustotal.com/gui/url/81b5b07c2a5b1453bf3a8013f9ce436d671d93a34f90bd42035a05710a5e13d6?nocache=1
+com-nitro.gifts$all
+! Copied over from https://github.com/DandelionSprout/adfilt/commit/260f840b773b04d7397c6c40d86cf7e2887768d8 (credit to https://github.com/DandelionSprout)
+2021cs.net.ru$all
+affixesports.ru$all
+affixsport.ru$all
+afkskroll.ru$all
+airdrop-discord.ru$all
+airmake.ru$all
+akellasport.me$all
+asstralissteam.org.ru$all
+astrallis.org.ru$all
+astralliscase.org.ru$all
+astralteam.org.ru$all
+battiefy.com$all
+beast-dr0p.ru$all
+beast-winer.ru$all
+best-cup.com$all
+bigesports.ru$all
+box-surprisebynavi.net.ru$all
+bruteclub.ru$all
+cabura.loan$all
+case-give.com$all
+cis-rankig.ru$all
+cloud9-gaming.xyz$all
+counter-stricke.ru$all
+crazy-soom.org.ru$all
+cs-activit.xyz$all
+cs-riptide.com$all
+cs-riptide.ru$all
+cs-toom.pp.ru$all
+cs4real.pp.ua$all
+cschecker.ru$all
+csgamer-blog.ru$all
+csgdrop.ru$all
+csgif.org.ru$all
+csgo-cup.ru$all
+csgocup.ru$all
+csgojump.ru$all
+csgoorun.ru$all
+cswanmei.ru$all
+cubesmc.ru$all
+cupsul.ru$all
+cyber-shok.online$all
+cyber-shok.ru$all
+cybercsgo.link$all
+cyberscsgo.ru$all
+daxrop.xyz$all
+dicsord-gives.com$all
+discocrd-nitro.com$all
+discorci.com$all
+discorcl-air.xyz$all
+discorclnitro.ru$all
+discord.foundation$all
+discordnitro-steam.ru$all
+discordnitro.space$all
+discordxgift.xyz$all
+discordxnitro.xyz$all
+discorgift.online$all
+discrocl.xyz$all
+discrod.ru$all
+discrodnitro.ru$all
+dlscord.ink$all
+does-small.ru.com$all
+dragon-black.net.ru$all
+ecnhasports.ru$all
+ecyber-versus.ru$all
+egamerscup.club$all
+ence-gaming.xyz$all
+encegun.xyz$all
+eslplayworlds.net$all
+eslpro.ru$all
+esports-csgo.ru$all
+evmcups.ru$all
+facepunch-studio.us$all
+fnatic-drop.com$all
+forsportss.pp.ua$all
+fortnitebuy.com$all
+fozzytournaments.fun$all
+free-dislcordnitrlos.ru$all
+free-niltross.ru$all
+free-nitlross.ru$all
+freediscordnitro.ru$all
+
+! https://www.virustotal.com/gui/file/1fd0fb9234ef0bb09d41c4c8f618576c06028b832dda8d737a01d8fd22317920/community
+! https://www.virustotal.com/gui/url/a6b230718db73bc5f37c9ed29327db77e67d54f3905ab0252aadf7e856380d35?nocache=1
+! https://www.virustotal.com/gui/url/9246a0897af823045fb4afbcd08daf09e71c56f354d9352a9487dd6f58b94773?nocache=1
+45.148.123.10$all
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927151458
+! https://www.virustotal.com/gui/url/c9ded02c50f3047557fcf0f0bbcd34ca4d9e34a5df83b9715d1d705420ed6352/community
+vur.fyi$all
+! https://www.virustotal.com/gui/url/1ad809b7fb61aacf42b220a53909ce18d955b9ad6fe1fa9e7b0e3f70ba8eadf5?nocache=1
+vun.fyi$document
+! https://www.virustotal.com/gui/url/a7fb846c9f8aefecbe0ffda1aecbb6a3d257f0b31a9b922aa49d494af0f0c112
+findyour-realsex2.com$all
+! https://www.virustotal.com/gui/domain/findyour-realsex2.com/relations
+! https://www.virustotal.com/gui/ip-address/5.101.45.5/relations
+! https://www.virustotal.com/gui/url/181949149fca9f124048a35a217024ddf9da61ce849220226eb770c90927e1d8
+find-profit-place.life$document
+! https://www.virustotal.com/gui/url/db21a641c62fd9aca3555fbcab6e6e2d80b5d319735dc89e02313daecafeea7c
+! https://safeweb.norton.com/report/show?url=great-place4u.life
+great-place4u.life$all
+! https://www.virustotal.com/gui/url/e4bb3780d11bbd28899179479679d1d9c8549fa3c14c84da486454ef2f97aede
+lady-datings-here.com$document
+! https://www.virustotal.com/gui/url/0680f0ae763476f2aa0b844b6f64a1ca4b6c63e0c7f6880ab5f121ad406b2d2e/detection
+your-dreams-girls2.com$all
+! https://www.virustotal.com/gui/url/4047b3b1b6af03839835b31cffbc5d52eff7c6f01c23cf3330a1000c61b66c0f
+profit-worlds2u.life$document
+! https://www.virustotal.com/gui/url/4a2cff70405ed300ad14b2294eb06c9adff5354911f70229085deecc7048637b
+yourbigexplosivewin.life$document
+! https://www.virustotal.com/gui/url/ff99d9ba468539c01896ef8b380819c07b8af40792d83beccea2d76064ebf781?nocache=1
+yourbest-dating33.life$document
+! https://www.virustotal.com/gui/url/134a3e4324ca33c19c529aa554ff193a96b48ae6213323a957f5752641a8014e
+bestdatinglocal1.com$all
+! https://www.virustotal.com/gui/url/2d3ef10bdbebc62264cea0432c55d81e221011133ccc4d42bae753b0d827a84a
+bestgoldcoin.life$document
+! https://www.virustotal.com/gui/url/508b93bf18753284aec4c02cec7d9e930e4217acf10483af792c3a27be127eeb?nocache=1
+findprofitstrategy.life$document
+! https://www.virustotal.com/gui/url/385edcca4e25f51083f593a4041f834fee5c903a93f5f66eab50f65df61c811c
+sexcontact-store1.com$document
+! https://www.virustotal.com/gui/url/7574cd8789b7ac7b78e4efe778ab6228a8b8c79301740247b5738bc62f208883
+superdatenow3.com$all
+! https://www.virustotal.com/gui/url/a7f1c2d1c02cc824bb93c1ba1d147d9fc1464bb3a4aeb937922d6bbdec84ffff?nocache=1
+findlocalgirlnow.com$all
+! https://www.virustotal.com/gui/url/c5126c3b175c6fa50d96443ecca99b75c881420248ec020c7cd567715839410a
+vip-lady-dreams.com$all
+! https://www.virustotal.com/gui/url/e0dd11060ed087787a99a821b6499a20062a60ba350827b9c3bdd4ccc8c0a9d2
+getviplocals1.com$all
 
 ! END
 
