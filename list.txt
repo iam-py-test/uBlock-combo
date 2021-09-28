@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 25September2021v4-Beta
+! Version: 28September2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -589,7 +589,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||secureportal.online^$all
 ||accbaus.com^$all
 ||aobinternational.com^$all
-||bbuk.online^$all
 ||chasetrustus.com^$all
 ||cnbprivate.com^$all
 ||emiratenbduae.com^$all
@@ -903,7 +902,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||qwertys.info^$all
 ||server1.2makestorage.com^$all
 ||vrthcobj.com^$all
-||b.goatbgame.com^$all
 ||moregy07.top^$all
 ||lopxep10.top^$all
 ||xeihqe72.top^$all
@@ -941,7 +939,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||blackpass.info^$all
 ||uflwkeqkkdbelgq.su^$all
 ||20xbtc.com^$all
-||crypto-boom.at^$all
 ||mywebb.org^$doc
 ||dlnoryuolxttcvp.su^$all
 ||gidronitrogop.work^$all
@@ -1066,9 +1063,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://www.virustotal.com/gui/url/9c66e331e455dc5c5c9d06e1a537580c9e4db279182d2285c07783e837806a16/detection
 ||foodin.site^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90947
-! https://www.virustotal.com/gui/url/07466d5d29da0af49d185e69ca35b996917c429d7b2f38b24607bbe708306177/detection
-||hourfeedoil.top^$all
-||b0dk11t.hourfeedoil.top^$all
 ! https://www.virustotal.com/gui/file/f29908da1b8065356704e746f9e282378a7e5ae65c753e2e9fe02b214b5b792b/community
 ! https://www.virustotal.com/gui/url/cea7b7ccd54fabd22b14cff5521f13b9dca4fd06d47d0bc2119dac6b77ecc04d/detection
 ||serrtjw256jw565w.gq^$all
@@ -1100,8 +1094,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/DandelionSprout/adfilt/pull/278
 !! https://www.virustotal.com/gui/file/da75c85fe037f9ff9ebbbd0b37dd2ff154f5e70a0dc6870286e0d3df6b8f246f/community
 ||139.28.37.49^$all
-!! https://www.virustotal.com/gui/file/ca7072bba9d1b75b02b5d2887fdb7bcb1f86050b669ffd99a7e756e1a60095f2/relations
-||str-master.pw^$all
 !! https://www.virustotal.com/gui/file/717bfbdba55f9c2d820fde170c04fd70c3e0f907b635c13d0f29678ff781f665/community
 ||35.194.188.37^$all
 ||nemscnc.ddns.net^$all
@@ -1666,7 +1658,6 @@ toorgle.net##.join
 ||automaticallyplumber.com^$all
 ||availablereschedulevicious.com^$all
 ||avenuehuminterpretation.com^$all
-||avgle.com^$all
 ||avkyu1tesnwy.com^$all
 ||awaitbackseatprod.com^$all
 ||awaitcola.com^$all
@@ -6159,7 +6150,6 @@ toorgle.net##.join
 ||natus-open.pp.ru^$all
 ||natus-space.ru^$all
 ||natus-vincere.ru^$all
-||natuswin.org.ru^$all
 ||navi-esl.ru.com^$all
 ||navi-giveaway-simple.net.ru^$all
 ||navidonative.ru^$all
@@ -6189,7 +6179,6 @@ toorgle.net##.join
 ||rust-satchel.com^$all
 ||rust-skin.com^$all
 ||s-arts.pro^$all
-||secure-profil.online^$all
 ||skinosoda.online^$all
 ||skinroll.ru.com^$all
 ||sleamcommuniti.xyz^$all
@@ -6258,9 +6247,7 @@ toorgle.net##.join
 ||steamcomumunty.com^$all
 ||steamcomuniiity.com^$all
 ||steamcomuninruty.ru^$all
-||steamcomunity.net.ru^$all
 ||steamcomunnity.ru.com^$all
-||steamconmnunity.co^$all
 ||steamconmunity.co^$all
 ||steamconmunyty.ru^$all
 ||steamconnmunity.ru^$all
@@ -6274,7 +6261,6 @@ toorgle.net##.join
 ||steamgiftnitro.ru^$all
 ||steammcomunit.ru^$all
 ||steamnmcomunnity.co^$all
-||steampunch-twitch.co^$all
 ||steancimnunity.ru^$all
 ||steancommunety.ru^$all
 ||steancommuniiity.com^$all
@@ -6360,6 +6346,7 @@ toorgle.net##.join
 ||95.181.172.204^$all
 ! Other
 ||foxsportnetwork.com^$all
+||pksauniversity.com^$all
 
 ! ——— Gobshite copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
 ! Most of the guides haven't even accounted for how modern phones have replaced the recovery environment with an extra boot environment, leading to very critical Fastboot commands not working and/or bricking the phone.
@@ -6485,7 +6472,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/9/2021
+! Last updated: 28/9/2021
 ! Description: This is a list of malware, phishing, or scam sites that I discover or find in reports
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -14826,6 +14813,9 @@ the-crypto-genius.net$document
 www.the-crypto-genius.net$document
 ! Redirect
 learning-base.club$document
+! https://github.com/uBlockOrigin/uAssets/commit/56da93d9c59b2f351f2fc40c3e3a1cd1e8f1e227#commitcomment-57163165
+b-time.site$document,popup
+bizarresexuality.com$document
 
 ! https://www.welivesecurity.com/2021/09/23/famoussparrow-suspicious-hotel-guest/#Indicators%20of%20Compromise
 ! https://www.virustotal.com/gui/url/ba74801a83395bf008a256d5aca561801147e526b8c48cb282ecdd80bd96bea6?nocache=1
