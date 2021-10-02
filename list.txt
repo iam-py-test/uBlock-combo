@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 01October2021v2-Beta
+! Version: 02October2021v2-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1156,6 +1156,46 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||natnlconsmrctr.com^$all
 ||jsontdsexit.com^$all
 ||therewardboost.com^$all
+! https://github.com/DandelionSprout/adfilt/issues/188#issuecomment-931753495
+||agkn.com^$all
+||best-prizes.life^$all
+||cakecdn.com^$all
+||cdn925.com^$all
+||clickagy.com^$all
+||clicken.us^$all
+||cloud-storage.store^$all
+||cpmstatsart.com^$all
+||d.clarity.ms^$all
+||d2m2wsoho8qq12.cloudfront.net^$all
+||data.deduce.com^$all
+||findanswersnow.net^$all
+||gogle.net^$all
+||gpush.cogocast.net^$all
+||info.leadid.com^$all
+||lijit.com^$all
+||listrakbi.com^$all
+||partner.mediawallahscript.com^$doc,popup
+||pippio.com^$all
+||retailproductsusa.com^$all
+||rlcdn.com^$all
+||signupandturnyourscreenoffsafepowernow.date^$all
+||static.imghst-de.com^$all
+||static.traversedlp.com^$all
+||tag.cogocast.net^$all
+||tag.yieldoptimizer.com^$doc,popup
+||traversedlp.com^$all
+||trueleadid.com^$all
+||trustedform.com^$all
+||cpmstatsart.com^$all
+! https://github.com/DandelionSprout/adfilt/issues/287
+||youtuba.com^$all
+||polyhymnia-mar.com^$all
+||trktrk.club^$all
+||virpropcnow.xyz^$all
+||betacdn.xyz^$all
+||avprotectionoverview.com^$all
+||tkqlhce.com^$all
+||emjcd.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -6492,7 +6532,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 29/9/2021
+! Last updated: 1/10/2021
 ! Description: This is a list of malware, phishing, or scam sites that I discover or find in reports
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -14899,6 +14939,44 @@ nityanneron5.top$all
 ! https://www.virustotal.com/gui/url/e7fc198fae69309fe7039577cf72e9a86715c9feb4629497256ba7b559d9fe56?nocache=1
 ! https://www.virustotal.com/gui/url/c8b0e4f2d976a57edd8251ea038513483d373ec2094d0270a3216ebb76b8bf33?nocache=1
 dz.qd388.cn$all
+
+! https://github.com/DandelionSprout/adfilt/issues/287#issue-1013759704
+youtuba.com$all
+polyhymnia-mar.com$document
+trktrk.club$document
+virpropcnow.xyz$all
+betacdn.xyz$document
+www.avprotectionoverview.com$document
+avprotectionoverview.com$document
+www.tkqlhce.com$document
+tkqlhce.com$document
+cj.dotomi.com$document
+www.emjcd.com$document
+emjcd.com$document
+
+! https://www.virustotal.com/gui/file/2cdac05088d51a5ebb646fbba3c305ec14c950dc1ce3b3d51da5aa6584774429/relations
+! https://www.virustotal.com/gui/url/f5d971136a1bdee73ef5c26273b1821a8b23cb7e2d1c4e81e8299aa7506846c7
+znpst.top$all
+! https://www.virustotal.com/gui/url/ce978db4fa1566a3c37eee7b591a7065185486e2ace9c1a70447b7f39bba36cf?nocache=1
+! https://www.siteadvisor.com/sitereport.html?url=186.74.208.84
+! https://safeweb.norton.com/report/show?url=186.74.208.84
+186.74.208.84$all
+! https://www.virustotal.com/gui/ip-address/186.74.208.84/relations
+! https://www.virustotal.com/gui/url/f065d589990d04aec1d4f6b19b8c9d663206f79119154e9999e13cce992d7f31
+! https://www.siteadvisor.com/sitereport.html?url=revgmkegctflpes.ru
+! https://safeweb.norton.com/report/show?url=revgmkegctflpes.ru
+revgmkegctflpes.ru$all
+! https://www.siteadvisor.com/sitereport.html?url=vtlvoysmqolcjxh.ru
+! https://safeweb.norton.com/report/show?url=vtlvoysmqolcjxh.ru
+! https://www.virustotal.com/gui/url/0e638edf895771adede653e1ba39a733e90b7b746546c1d0fad9d228042411b8?nocache=1
+vtlvoysmqolcjxh.ru$all
+! https://www.virustotal.com/gui/url/c6a6b915883afdcdb0e0fd1a163961d4d21b5bbb9cd4b60f7152e3bb045b0334
+! https://www.siteadvisor.com/sitereport.html?url=idndimconxwlxaw.ru
+! https://safeweb.norton.com/report/show?url=idndimconxwlxaw.ru
+idndimconxwlxaw.ru$all
+! https://www.virustotal.com/gui/url/8c394741286dd2b8ddc88592bef230075eca394f25684ae8a3faae1ce4ad251f?nocache=1
+! https://safeweb.norton.com/report/show?url=gmpeople.com
+gmpeople.com$document
 
 ! END
 
