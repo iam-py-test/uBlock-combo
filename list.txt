@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 14October2021v1-Beta
+! Version: 16October2021v2-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -117,6 +117,8 @@ bing.com##.b_algo:has(a[href*=".top/"])
 ||dutchmega.nl^$doc
 ||juvander.net^$doc
 ||ssl.bblck.me^$doc
+||allblock.net^$doc
+||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen^$doc
 ! Malicious domains found in videogame manuals and title screens
 ||acclaimsports.com^$doc
 ||acclaimmaxsports.com^$doc
@@ -1176,7 +1178,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||listrakbi.com^$all
 ||partner.mediawallahscript.com^$doc,popup
 ||pippio.com^$all
-||retailproductsusa.com^$all
 ||rlcdn.com^$all
 ||signupandturnyourscreenoffsafepowernow.date^$all
 ||static.imghst-de.com^$all
@@ -1354,6 +1355,16 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-940500664
 ||aselink.guru^$all
 &t=redn|$doc
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-944612753
+||sentencesavedress.top^$all
+||apk-top.cloud^$all
+||captcha-smart.top^$all
+||pushbizapi.com^$all
+||jsontdsexit.com^$all
+||spnccrzone.com^$all
+||therewardboost.com^$all
+||streamamongcotton.top^$all
+||termquotientbeen.top^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -6690,12 +6701,12 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 13/10/2021
-! Description: This is a list of malware, phishing, or scam sites that I discover or find in reports
+! Last updated: 15/10/2021
+! Description: This list aims to protect people against malware, phishing, and scams by blocklisting sites which are known to be malicious
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Format notes:  This format is designed for uBlock Origin and the AdGuard extension. See https://github.com/iam-py-test/my_filters_001/tree/main/Alternative%20list%20formats for formats designed for other tools
-! Help me end malware for good! Report a domain, ip, url, or file you think is malicious (malware, phishing, scam, PUP, spam, etc), or let me know if I blocked something legit
+! Help me end malware for good! Report a domain, ip, url, or file you think is malicious (malware, phishing, scam, PUP, spam, etc), or let me know if I blocked something legit using the GitHub or GitLab issues urls
 
 ! A website which redirected to other malware websites and uses inline script to infect the user's computer (from personal experence) - this domain is parked and dead
 ! helpmyos.com$all
@@ -7339,6 +7350,12 @@ mycleanid.com$document
 www.mycleanid.com$popup
 ! the main website for the company
 realdefen.se$document
+! other 'products' which all appear to be PUPs/scams
+getmydrivers.com$document
+www.getmydrivers.com$document
+app.getmydrivers.com$all
+dev-www.getmydrivers.com$all
+qa-www.getmydrivers.com$all
 
 ! https://github.com/DandelionSprout/adfilt/compare/c3d04d61c9...4a2d9d2efa
 ! link on https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
@@ -7646,12 +7663,6 @@ cross-checking.com$all
 ! https://safeweb.norton.com/report/show?url=dailydews.com
 ! https://www.virustotal.com/gui/url/095b1f2795a69ff0b90190fa0f349696deed865906780100cfdb3c5404938740/detection
 dailydews.com$all
-! https://www.siteadvisor.com/sitereport.html?url=doggroomingnews.com
-! https://www.fortiguard.com/webfilter?q=doggroomingnews.com&version=8
-! https://www.urlvoid.com/scan/doggroomingnews.com/
-! https://safeweb.norton.com/report/show?url=doggroomingnews.com
-! https://www.virustotal.com/gui/url/bf9e6894e5e4f211e2f4bfaffa8eeca3182845159fda744d5c0c366494501458/detection
-doggroomingnews.com$all
 ! https://safeweb.norton.com/report/show?url=emergencystreet.com
 ! https://www.fortiguard.com/webfilter?q=emergencystreet.com&version=8
 ! https://www.urlvoid.com/scan/emergencystreet.com/
@@ -7742,7 +7753,6 @@ theadminforum.com$all
 ! https://www.urlvoid.com/scan/theyardservice.com/
 ! https://safeweb.norton.com/report/show?url=theyardservice.com
 ! https://www.virustotal.com/gui/url/6042880d2adcad721d166f7bdac731bd1f953884cc94c72cf084456a1a040d88/detection
-theyardservice.com$all
 usaid.theyardservice.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=trendignews.com
 ! https://www.fortiguard.com/webfilter?q=trendignews.com&version=8
@@ -8454,7 +8464,6 @@ ether-take.org$document
 ethergot.xyz$document
 etherprize.net$document
 ethpromzone.space$document
-ethpromzone.space$document
 give-eth.biz$document
 giveaway-eth-btc.webz.cz$document
 medium-promos.xyz$document
@@ -8759,10 +8768,6 @@ caution-verification.com$all
 ! https://safeweb.norton.com/report/show?url=pendinghmrc-uk-taxrebate.com
 ! https://sitecheck.sucuri.net/results/pendinghmrc-uk-taxrebate.com
 pendinghmrc-uk-taxrebate.com$all
-! https://www.fortiguard.com/webfilter?q=betaalomgeving.ga
-! https://safeweb.norton.com/report/show?url=betaalomgeving.ga
-! https://www.virustotal.com/gui/url/ddda2b51b378438de6dedcb39970cfa0365d06f50a8cdb278dd892073fa16e2d/detection
-betaalomgeving.ga$all
 ! https://www.virustotal.com/gui/url/f25e5122f4425bfc759c1400ecd02d43b9fea93284b418eb82cfd5be230aabab/detection
 ! https://www.fortiguard.com/webfilter?q=lloydsbank.online-login-personal-validation.com
 ! https://safeweb.norton.com/report/show?url=lloydsbank.online-login-personal-validation.com
@@ -9284,8 +9289,6 @@ sxint.uno$all
 ! https://www.siteadvisor.com/sitereport.html?url=sxgear.uno
 ! https://www.virustotal.com/gui/url/a1b4eeb21f8b13181bdcaec25182f684ec3f1e9a0fe21c46a1085c8f7ddbaa16/detection
 sxgear.uno$all
-! https://www.virustotal.com/gui/url/bce0a154c2e57892a15ae47f455b3e28b7e22d0a90205d6ad44e7790696f97d0/detection
-sxhit.uno$all
 ! https://www.virustotal.com/gui/url/bce0a154c2e57892a15ae47f455b3e28b7e22d0a90205d6ad44e7790696f97d0/detection
 sxhit.uno$all
 ! https://www.virustotal.com/gui/url/ea65b7bbac3b4b78fc685780e31b22c7af9868890098fd5d969a13b50dcd6eff/detection
@@ -12556,9 +12559,6 @@ exoduseu.net$document
 ! https://www.siteadvisor.com/sitereport.html?url=kaleidographic.com
 ! https://safeweb.norton.com/report/show?url=kaleidographic.com
 kaleidographic.com$all
-! https://www.virustotal.com/gui/url/9416fa87057fb511da345d4fe654cb5bd43bfe2c413fa11da67c7f291e500a5e/detection
-! https://safeweb.norton.com/report/show?url=2no.co
-2no.co$all
 ! https://www.virustotal.com/gui/url/64f4455d75dbe037f534924b7162ce93b034550dbd9d43abc97433cd0cebc1e9/detection
 ! https://www.siteadvisor.com/sitereport.html?url=softusa.info
 ! https://safeweb.norton.com/report/show?url=softusa.info
@@ -14299,7 +14299,6 @@ googletagmanagdr.com$document
 googletagmanage2.com$document
 googletagmanageb.com$document
 googletagmanagep.com$document
-googletagmanages.com$document
 googletagmanagev.com$document
 googletagmanagez.com$document
 googletagmanaggr.com$document
@@ -15255,7 +15254,6 @@ safelyonline.net$doc
 browse-safe.net$doc
 get.browse-safe.net$all
 btpnative.com$doc
-mybetterdl.com$doc
 besty-deals.com$all
 data-px.services$doc
 live.newsvot.com$doc
@@ -15792,6 +15790,52 @@ propu.sh$all
 ! https://www.virustotal.com/gui/url/be9615fcfca63a85c529c76b987d35adc54e29bce9657f4de638ff71ca69f920?nocache=1
 20.69.160.69$all
 
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-940500664
+aselink.guru$all
+! redirect chain
+sentencesavedress.top$document
+yhzfyy.sentencesavedress.top$all
+smevhi.sentencesavedress.top$all
+apk-top.cloud$document
+captcha-smart.top$all
+! https://safeweb.norton.com/report/show?url=pushbizapi.com
+pushbizapi.com$all
+wcvydp.sentencesavedress.top$all
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-944619528
+streamamongcotton.top$all
+coxtuh.streamamongcotton.top$all
+termquotientbeen.top$all
+hlkyji.termquotientbeen.top$all
+gwbiyl.termquotientbeen.top$all
+pecgsm.termquotientbeen.top$all
+
+! http://vxvault.net/ViriFiche.php?ID=44061
+! https://www.virustotal.com/gui/url/804d46e51b9ae47a9f7bd2a1f092c486b8359884ef15a29e3327d79f816d005a?nocache=1
+! https://www.virustotal.com/gui/url/133a6dba93b056714b318f1aaee95586bf1980284d4c8b5d85e52e6bd353ea68?nocache=1
+vormax.link$all
+! https://www.virustotal.com/gui/ip-address/162.0.228.116/relations
+162.0.228.116$document
+! https://www.virustotal.com/gui/file/d3fa92f89ffbc4403c0f8b95034a61d63cfb47fd11cb7d90b5a8d724250234a3/relations
+! https://www.virustotal.com/gui/url/eabe924910281f89fa2be8d328ecb619a75b59fffb80dbfef27e33992485755c?nocache=1
+75.67.192.125$all
+c-75-67-192-125.hsd1.ma.comcast.net$document
+! https://www.virustotal.com/gui/file/2a6af0d7c17e3263b3763a8710d0c033ab0dda9db8a7d601dc386cfd21ad4b1d/relations
+! https://www.virustotal.com/gui/url/67a95a8a933f171cc2ec487d8bdc0054bf2070b7c513dd887b4741deb232ef59
+24.139.72.117$all
+! https://www.virustotal.com/gui/url/68f621df9f14206a54183b59e0cce8188591f50ef1f1a5f0a5a35ddf15434f70
+122.148.156.131$all
+! https://www.virustotal.com/gui/url/af6e7172f42cd27e37aea6c0029c00d8e065c2d845f6360018b436cfffb760d6
+189.210.115.207$all
+! https://www.virustotal.com/gui/url/bbc77a23f33da42c2ac05b5d7397171772e173d0808395d03c6b6409f967ed30
+78.63.226.32$all
+! https://www.virustotal.com/gui/url/093b94726ea565527812b380ab1527666fc04350cbfeb7085e11142403544e35?nocache=1
+71.163.222.223$all
+! https://www.virustotal.com/gui/url/f2c886fe02597886a26c3f2e7cc021d19c7098f39344c43ee6c3ef6cd8c93758
+207.246.116.237$all
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-944642656
+||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen$document
+allblock.net$all
 
 ! END MAIN BLOCKLIST
 
@@ -15806,7 +15850,9 @@ propu.sh$all
 ! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent you from ending up in the wrong website
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 3/10/2021
+! Issues url: https://github.com/iam-py-test/my_filters_001/issues
+! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
+! Last updated: 15/10/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
