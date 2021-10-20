@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 19October2021v1-Beta
+! Version: 20October2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -6696,6 +6696,27 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! ——— Dummy entry used to give myself credit, for when this list is used in large compilation hosts-type files (Although they are fully allowed by my licence to use this list, it'd be nice for me and end-users to see where it's being used, as a few of them do not credit their sources) ———
 ||if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data^$doc
 
+! ——— Anti-'Norton and McAfee' ———
+! Let's be honest: Everyone in the world hate these two invasive nagwares that scream at the top of lungs with their notifications
+||appcloud.mcafee.com^
+||mmfiles.amp.mcafee.com^
+||webadvisorc.rest.gti.mcafee.com^
+||mip.api.mcafeewebadvisor.com^
+||sadownload.mcafee.com^
+||websecurity.norton.com^
+||dns.norton.com^
+||stats.norton.com^
+||vss.norton.com^
+||shasta-rrs.norton.com^
+||norton-app.quantummetric.com^
+||static.nortoncdn.com^
+||oms.norton.com^
+||norton.ehosts.net^
+! https://get.adobe.com/no/reader/
+get.adobe.com###offersInformationPane
+! Gigabyte APP Center (May require «AdGuard for Windows»)
+||mb.download.gigabyte.com/FileList/Swhttp/DriverUpd/ANTIVIRUS^
+
 !#if !adguard
 !#include uBO%20list%20extensions/AdGuardSafeBrowsing-ReverseEngineered.txt
 !#endif
@@ -6707,7 +6728,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 18/10/2021
+! Last updated: 19/10/2021
 ! Description: This list aims to protect people against malware, phishing, and scams by blocklisting sites which are known to be malicious
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -15982,6 +16003,17 @@ licencefeedback.com$all
 media-line-feedbacks.com$all
 medialive-contact.com$all
 hellyaaa.com$all
+
+! http://vxvault.net/ViriFiche.php?ID=44070
+! https://www.virustotal.com/gui/url/bf6d865eba3f7423017fad5f4e22e06693b2e7a5665eb428f8483207f41567f9
+! https://www.virustotal.com/gui/url/24e41c7dd7dc36f7c5f349f3db301a1aad034839e4410f2689a8ceb541976aa6
+js-hurling.com$all
+! https://www.virustotal.com/gui/file/deb99e377238d822f514a0e3f141d0ca0d4f5ddf141b00cb23f417310ff9ab20/community
+! https://www.virustotal.com/gui/url/4e795f748d91655bb80087c840aabb9e35be51339da54943cb3653cd745fcb49?nocache=1
+reoildriend.sytes.net$all
+! relations
+updatedata0.sytes.net$all
+novedaciudad.sytes.net$all
 
 ! END MAIN BLOCKLIST
 
