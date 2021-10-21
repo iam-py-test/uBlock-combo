@@ -6728,7 +6728,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 19/10/2021
+! Last updated: 20/10/2021
 ! Description: This list aims to protect people against malware, phishing, and scams by blocklisting sites which are known to be malicious
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -16014,6 +16014,41 @@ reoildriend.sytes.net$all
 ! relations
 updatedata0.sytes.net$all
 novedaciudad.sytes.net$all
+
+! https://hybrid-analysis.com/sample/691fb304c88929435950c157c1789bc7004e2163a3188cf2fff1124cfa5f00f8/60f6dbfae50e5603767b8f32
+! https://www.virustotal.com/gui/url/b141c859a1246a250183b212cea2e6ed30d90477adc5ae8f3277516f68071396?nocache=1
+! https://www.virustotal.com/gui/url/5b4dc980802a96c630e76148aab4f2cbe7a196d39ffce9a7e3c95bcdc082b64a
+micuenta01.github.io$all
+
+! https://www.virustotal.com/gui/domain/duckdns.org/relations
+! https://www.virustotal.com/gui/url/970d887002c50829eedfbd41155d63b08f7b1fe084013224f4b19b60df3c1aab
+grup-waviral2021.duckdns.org$all
+! https://www.virustotal.com/gui/url/65fa44466d8799b73aa0de19293e679a9d2cdaf059c5d83f0e20333863bfdc35
+ffgryvsudhh.duckdns.org$all
+! https://www.virustotal.com/gui/url/7f5ef315c5744193c43e2579d64f518a9a9cb5be98a26f74206f86f156be395f
+myamx-rewerd.duckdns.org$all
+! https://www.virustotal.com/gui/url/8bf89bebf2dc8e7c30f7f908a1b65bb357cd24668e573c675552f0e785331a96
+netconnected.duckdns.org$all
+! https://www.virustotal.com/gui/url/81fb8a39f01958c77db4786839a37e89e2b3527d9e990dc93621fb43fa3b1b17?nocache=1
+support-user-help.duckdns.org$all
+
+! https://www.virustotal.com/gui/file/ba37580a3031cbc849b8e59490acad9c028d70fb1338105acb3e1c81faa9ad2a/community
+! https://www.virustotal.com/gui/url/c7dc5ef5af74b21e3920103de3605dd92d34e339bd3e43fce056e035b7081ea1
+! https://www.virustotal.com/gui/url/3e651c4851f6a26e20a6b8bdd044689e4cb399eaa592bfdc61d3ca9089511b00
+136.144.41.117$all
+
+! https://www.virustotal.com/gui/file/b5cf68c7cb5bb2d21d60bf6654926f61566d95bfd7c9f9e182d032f1da5b4605/community
+! https://www.virustotal.com/gui/url/5cc8c191ba6cce3c3f73c1bfa014dad885bc835af52bd7250478675a3ba67174
+! https://www.virustotal.com/gui/url/df2c29753d7b0901040e7a26ac90653cc48a03fa48139996b1ea1109fc940484
+221.15.216.46$all
+! https://www.virustotal.com/gui/url/ae21d8e063b291b5ba4981116bb64baaa63389f269d553960ae444c5a3548fa8?nocache=1
+! https://www.virustotal.com/gui/url/18ed811ade6ae9ec8e7148a2ec64e32efa79932846699cd80f58fd7ba982993a?nocache=1
+59.93.23.101$all
+
+! https://www.virustotal.com/gui/url/64babbfb323b40df5b768265183886fbed60ea92234da1a2e4b85acfdceaf0aa
+! https://www.virustotal.com/gui/url/4f827d8be6d25fa88c1ebe74800b6743d7e289b0f904b6f3445486b3ccac2797?nocache=1
+tristreamstv.com$all
+
 
 ! END MAIN BLOCKLIST
 
