@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 21October2021v2-Beta
+! Version: 24October2021v3-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -6699,25 +6699,13 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 ! ——— Dummy entry used to give myself credit, for when this list is used in large compilation hosts-type files (Although they are fully allowed by my licence to use this list, it'd be nice for me and end-users to see where it's being used, as a few of them do not credit their sources) ———
 ||if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data^$doc
 
-! ——— Anti-'Norton and McAfee' ———
-! Let's be honest: Everyone in the world hate these two invasive nagwares that scream at the top of lungs with their notifications
-||appcloud.mcafee.com^
-||mmfiles.amp.mcafee.com^
+! ——— Anti-PUP (WIP) ———
+! This section covers ones that would not normally be found in EasyList or AdGuard Base, for instance McAfee WebAdvisor (which also tries to change the search engine)
 ||webadvisorc.rest.gti.mcafee.com^
 ||mip.api.mcafeewebadvisor.com^
-||sadownload.mcafee.com^
-||websecurity.norton.com^
-||dns.norton.com^
-||stats.norton.com^
-||vss.norton.com^
-||shasta-rrs.norton.com^
-||norton-app.quantummetric.com^
-||static.nortoncdn.com^
-||oms.norton.com^
-||norton.ehosts.net^
 ! https://get.adobe.com/no/reader/
 get.adobe.com###offersInformationPane
-! Gigabyte APP Center (May require «AdGuard for Windows»)
+! Gigabyte APP Center (which use sneaky tricks to install a Norton 360 trial period; May require «AdGuard for Windows»)
 ||mb.download.gigabyte.com/FileList/Swhttp/DriverUpd/ANTIVIRUS^
 
 !#if !adguard
@@ -16316,6 +16304,28 @@ onemacusa.com$all
 realnetnews.com$all
 rogueleader.org$all
 suggestive.com$doc
+
+! https://www.virustotal.com/gui/file/21efc6a91a56c7948115df6ee19e1c865b95a5dc3258fb4361bee551e856cc02?nocache=1
+! https://www.virustotal.com/gui/url/32cf7e0b49d8353ffb6ee19f7d54e4b1e828cb8edaf3acee674f672f00b4a948
+! https://www.virustotal.com/gui/url/5b2132496c0a7121f510561bb47ec5b3d0a015720a40217c2e10bfe0397273cd?nocache=1
+localwithg.com$all
+
+! https://www.virustotal.com/gui/file/b3d979fd0876b2d43950db136e955040858bbad86b047eecf937218be20a7171
+! https://www.virustotal.com/gui/url/9a20d028b1755374bc8379519d9af357b9f818d522573345dae25797e9c315a8?nocache=1
+! https://www.virustotal.com/gui/url/6b073e110b81dc18d9bc95df262bc93410c73789a0c5c0cc055152f8fa3a47ea?nocache=1
+moddeeeuiewuiwehew.000webhostapp.com$all
+! relations
+td634805.000webhostapp.com$all
+eftrenet.000webhostapp.com$all
+kjilod.000webhostapp.com$all
+
+! https://www.virustotal.com/gui/file/d88640b60a99a39f22a11731d0fc886fd2c9fdfb094f42886e6ba419025e69ec/community
+! https://www.virustotal.com/gui/url/abc5fea5e762b77da6a300237c5e8fc355f939b0150bde4c8b7c396f7469216d
+! https://www.virustotal.com/gui/url/ecd58f7b49ef63c477bd358521b5ca0516e5c1dcf024e0b42d307445e05e87ad?nocache=1
+triathlethe.ug$all
+185.215.113.77$all
+courtneyjones.ac.ug$all
+jamshed.pk$all
 
 ! END MAIN BLOCKLIST
 
