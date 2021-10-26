@@ -6728,7 +6728,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 24/10/2021
+! Last updated: 26/10/2021
 ! Description: This list aims to protect people against malware, phishing, and scams by blocklisting sites which are known to be malicious, and also provides one extra level of protection through removing known scams and PUPs from websites
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -16443,6 +16443,40 @@ citationsherbe.at$all
 ! https://www.virustotal.com/gui/url/c8d68722a01ab94c011ecf3ae6ccbfd709f406ab985968cd977ba4b2de0d37ad?nocache=1
 159.148.186.228$all
 
+! https://github.com/iam-py-test/investigations/blob/main/2021/10/26/1.md#domains
+p185689.mybetterdl.com$all
+r-tb.com$document
+feed.r-tb.com$all
+t.r-tb.com$all
+cdn.hoood.info$document
+barah-flo.com$document
+beta-one.net$all
+ny-t.r-tb.com$all
+pisism.com$document
+czyzd.xyz$all
+r1it6.xyz$all
+sqjxp.xyz$all
+h5e4b.xyz$all
+nkb18.xyz$all
+m6ydd.xyz$all
+welcomejohncena.pro$all
+security-scanner.xyz$all
+c2egp.xyz$all
+ese40.xyz$all
+e07wm.xyz$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/10/26/1.md#html-captures
+news-back.org$document
+www1.news-back.org$all
+www2.news-back.org$all
+www3.news-back.org$all
+www4.news-back.org$all
+www5.news-back.org$all
+www6.news-back.org$all
+www7.news-back.org$all
+www8.news-back.org$all
+www9.news-back.org$all
+www10.news-back.org$all
+
 ! END MAIN BLOCKLIST
 
 ! include rules for just uBlock Origin and AdGuard
@@ -16458,7 +16492,7 @@ citationsherbe.at$all
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 15/10/2021
+! Last updated: 26/10/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -16548,8 +16582,6 @@ whynotwin11.com$document
 ! https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 ! https://www.siteadvisor.com/sitereport.html?url=01apple.com
 01apple.com$all
-! Potencial typosquatt
-google.com.gt$document
 ! Does not resolve to anything - yet...
 duckduckgo.net$document
 ! Might be typosquatts of yahoo
