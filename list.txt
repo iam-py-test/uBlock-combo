@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 25October2021v2-Beta
+! Version: 25October2021v4-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -237,7 +237,8 @@ windowsdispatch.com##strong
 ||driver-soft.com^
 
 ! Common scam domain patterns
-/(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
+/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
+/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
 /^https:\/\/[a-z]{7,}\.li[fv]e\/[a-z]{8}\/\?/$doc,popup,domain=life|live
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.li[fv]e\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=life|live
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.li[fv]e\/\?u=[0-9a-z]+&o=[0-9a-z]+/$popup,domain=www.google.*
@@ -476,8 +477,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||virnews.club^$all
 ||vviewpoint.biz^$all
 ||westnews24.com^$all
-/^(https?://)?[0-9]{1,2}\.[a-z0-9-]{1,}\.club(/|$)/$doc
-/^(https?://)?[0-9]{1,2}\.[a-z0-9-]{1,}\.me(/|$)/$doc
+/^http://[0-9]{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$doc
+/^https://[0-9]{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$doc
 ||134.209.136.174^$doc
 ||whiteclick.biz^$all
 ||dreamnews.biz^$all
@@ -530,13 +531,15 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://maldita.es/malditobulo/2020/11/18/no-no-es-cierto-que-amancio-ortega-haya-invertido-100-millones-en-bitcoin-revolution-es-una-web-falsa/
 ||starpowders.github.io^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69611
-/^(https?://)?[a-z0-9-]{30,}\..*\.elasticbeanstalk\.com(/|$)/
+/^http://[a-z0-9-]{30,}\..*\.elasticbeanstalk\.com(/|$)/
+/^https://[a-z0-9-]{30,}\..*\.elasticbeanstalk\.com(/|$)/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71721
 ||moststraightmoment-10.live^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71369
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73623
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73627
-/^(https?://)?([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/$doc
+/^http://([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/
+/^https://([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73133
 /^(https?://)?[0-9]{1,2}\.[a-z0-9-]{1,}\.biz(/|$)/$doc
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-428333
@@ -16431,6 +16434,14 @@ powerskyslip.top$all
 zbpfrd.powerskyslip.top$all
 xdqsrg.powerskyslip.top$all
 disturbative-descriptively-undeflectability.xyz$all
+cloud-apps.store$all
+
+! https://www.bleepingcomputer.com/news/security/popular-npm-library-hijacked-to-install-password-stealers-miners/
+! https://github.com/faisalman/ua-parser-js/issues/536
+! https://www.virustotal.com/gui/url/742d7241eae804d130351df3b936980e4c89d98a3c59ab98a8bd25cfe6019069
+citationsherbe.at$all
+! https://www.virustotal.com/gui/url/c8d68722a01ab94c011ecf3ae6ccbfd709f406ab985968cd977ba4b2de0d37ad?nocache=1
+159.148.186.228$all
 
 ! END MAIN BLOCKLIST
 
