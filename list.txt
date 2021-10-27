@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 25October2021v4-Beta
+! Version: 26October2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -330,6 +330,16 @@ addons.mozilla.org#?#li.SearchResult:-abp-contains(Adblocker.Global)
 ||adblock.biz^$doc
 ||the1adblocker.com^$doc
 ||otih-oith.us.to^$doc
+! Other sites
+softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ad-guardian-plus."]
+softonic.*,softonic-ar.com,softonic-th.com##a[href*="://adskiper."]
+softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-firefox."]
+softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
+softonic.*,softonic-ar.com,softonic-th.com##a[href*="://adblock."]
+download.cnet.com#?#.c-globalCard:-abp-has(a[href*="/Sir-AdGuard/"])
+download.cnet.com#?#.c-globalCard:-abp-has(a[href*="/Ad-Smasher/"])
+download.cnet.com#?#.c-globalCard:-abp-has(a[href*="/AdsCleaner/"])
+||apps.apple.com/*/app/*/id1564900435^$doc
 
 ! ——— Wrong TLDs of legitimate sites ———
 ||ubuntu.org^$doc
@@ -11308,11 +11318,6 @@ www.joeboiden.com$document
 ! https://www.virustotal.com/gui/url/0d2843d2d439d0ba2694beba2513049c4a34b1ee45c4dd35823815ea03eaa11b/detection
 119.36.68.244$all
 
-! https://www.virustotal.com/gui/file/e7fa638aceedeb8dbe7baeb928d639a6a1498a6fb2385f06c9ce40e01e7b9e16/community
-! https://www.joesandbox.com/analysis/452769/0/html#domains
-! https://safeweb.norton.com/report/show?url=kslife.net
-! 
-
 ! https://www.bleepingcomputer.com/news/security/microsoft-seo-poisoning-used-to-backdoor-targets-with-malware/
 ! https://www.bleepingcomputer.com/news/security/new-jupyter-malware-steals-browser-data-opens-backdoor/
 ! https://www.virustotal.com/gui/url/69b746bae9b855c6b113247709b47d57f69682b36f6a7c2202910f1f14d147d7/detection
@@ -16476,6 +16481,49 @@ www7.news-back.org$all
 www8.news-back.org$all
 www9.news-back.org$all
 www10.news-back.org$all
+
+! https://github.com/DandelionSprout/adfilt/pull/289
+gogles.com$all
+flexroll.online$doc
+earnestbee.info$doc
+weaknessnill.shop$all
+aquariuminn.com$all
+army-glo.scrollingsystem.com$doc
+www.kqzyfj.com$all
+kqzyfj.com$doc
+cj.dotomi.com$all
+mcafee12.tt.omtrdc.net$doc
+trolleydrop.info$doc
+jaynordan.digital$doc
+! https://www.virustotal.com/gui/ip-address/70.32.1.32/relations
+hssupoort.us$all
+clk.rtpdn14.com$doc
+starbux.fun$all
+fortnitecode.online$all
+cd.org$doc
+
+! https://www.virustotal.com/gui/file/b64ab676ffe01925adc506eebcc62f6edc901e017c339af5d90f6d64292e9822/relations
+dirfgame.com$all
+abmaxdigital.com$all
+shpak125.tumblr.com$all
+topstylesolutions.xyz$all
+zertypelil.xyz$all
+pcfixmy-download-96.xyz$all
+densalenge.xyz$all
+ivaloribar.xyz$all
+qumaranero.xyz$all
+iplis.ru$all
+dwarimlari.xyz$all
+my-farlab.com$all
+
+! https://www.virustotal.com/gui/file/3ae5f736bfce95b0611a36c8bcfa56bf0f13a00f69076bd9c70cdac71f6dda61/community
+persianlanguageonline.com$all
+
+! https://www.virustotal.com/gui/url/2e874f308e1202ce4deb4068d029675c8487bed465f3bd34aeefb4a84c6b767f
+! https://www.virustotal.com/gui/url/859be64d71834dba1693b079ec85f77edcd06124031c65178838555fea31efd7
+dliscord.com$all
+dissord.gift$all
+dizcord.gift$all
 
 ! END MAIN BLOCKLIST
 
