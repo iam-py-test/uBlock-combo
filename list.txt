@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 28October2021v1-Beta
+! Version: 29October2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1400,6 +1400,35 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||google-yandex.$doc
 ||cloud-apps.store^$doc
 /(^|://|\.)[a-z]{5,}-[a-z]{5,}-[a-z]{5,}\.xyz($|/)/$doc
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-951321929
+||citationsherbe.at^$all
+||159.148.186.228^$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/10/26/1.md#domains
+||yotube.com^$all
+||mybetterdl.com^$all
+||p185689.mybetterdl.com^$all
+||besty-deals.com^$all
+||r-tb.com^$all
+||cdn.hoood.info^$all
+||data-px.services^$all
+||barah-flo.com^$all
+||beta-one.net^$all
+||beastbuying.com^$all
+||pisism.com^$all
+||czyzd.xyz^$all
+||r1it6.xyz^$all
+||sqjxp.xyz^$all
+||h5e4b.xyz^$all
+||nkb18.xyz^$all
+||m6ydd.xyz^$all
+||welcomejohncena.pro^$all
+||security-scanner.xyz^$all
+||pushmeup.art^$all
+||totalav.com^$all
+||c2egp.xyz^$all
+||ese40.xyz^$all
+||e07wm.xyz^$all
+||news-back.org^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -16897,6 +16926,43 @@ epoeve.comparepeoplecat.top$all
 fmywxx.comparepeoplecat.top$all
 publishers.revenueuniverse.com$document
 
+! https://www.virustotal.com/gui/file/711a5e2cd2dc83c0711b9995db62072da4cba477cd21a1a9a95cd5d92e6f9185/community
+! https://www.virustotal.com/gui/url/1a8cfe7b5f57bb3b1a4cb40ef2627065a22b9df80d6529ccea5a9ac5dc518671?nocache=1
+! https://www.virustotal.com/gui/url/c5cb1a81d58170a6f3c77f30e3386a7139d55fac719c578acdb0dac0ec03e51b?nocache=1
+adityasolsurf.in$all
+
+! https://blog.google/threat-analysis-group/phishing-campaign-targets-youtube-creators-cookie-theft-malware/
+! https://www.virustotal.com/gui/url/1c6099c0aa5b453bff1903720573220a7cf1f63f25cae0614a074acf01d895b9?nocache=1
+pro-swapper.com$all
+! https://www.virustotal.com/gui/ip-address/194.67.71.90/relations
+! https://www.virustotal.com/gui/url/f468aaf7c38ce6416a361e932e0d78414045cafdaa4db5e72f042873dfcd094d?nocache=1
+key-drop.in$all
+! https://www.virustotal.com/gui/url/8cd30aaa26d30ee94a0ec3a78caa6a0c49c60da9cddd6eeb04e65fb04cb3ac6a?nocache=1
+slide-systems.acepr.ru$all
+! https://www.virustotal.com/gui/url/b9c7fda128294c545e541d3b912e1261c209cb2e625eda981159dbf7aa783ef6?nocache=1
+acepr.ru$all
+! https://www.virustotal.com/gui/url/25e08873202a0ca29b0673131ffad4265b3ed96eae47594bd36aed910bf410e8?nocache=1
+caserock.xyz$all
+! https://www.virustotal.com/gui/url/498cb2174736cedece47080f5f35f1ce1eb7aa759d361ddd9c106c26bb3b8a05?nocache=1
+qznr.lkd.cioubfiare.com$all
+swth.lkd.cioubfiare.com$all
+00001011111101.lkd.ge5r6h7tjrfrhegs.top$all
+ge5r6h7tjrfrhegs.top$all
+com-its.ru$all
+avitolit.ru$document
+
+! https://www.virustotal.com/gui/file/0e2f7af509abfb3389320e195944b5702317bf0553169f9350afaacc16529307/relations
+! https://www.virustotal.com/gui/url/2f82136a0b75f81c0b82f1157ea4f8a58ca3e42c5923b40337762f6773c9921f
+ksbyz.jelikob.ru$all
+! https://www.virustotal.com/gui/url/4ceb6da6f85c060299a5bab40880ab95f4c401c2f3bbfcca5d2ad7307c2d1289
+jelikob.ru$all
+! https://www.virustotal.com/gui/url/95cba7c35ffd7cda40dc9b21f1d287e7e9e464887e0b2c87db865542759e6219?nocache=1
+! https://www.virustotal.com/gui/url/2b3379de1b823e59d17827b15614be016f1eb6c8310c6755c4af62d8cb1be5fe
+ve0.popmonster.ru$all
+popmonster.ru$all
+xre.popmonster.ru$all
+6b4s.popmonster.ru$all
+
 ! END MAIN BLOCKLIST
 
 ! include rules for just uBlock Origin and AdGuard
@@ -16912,7 +16978,7 @@ publishers.revenueuniverse.com$document
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 26/10/2021
+! Last updated: 28/10/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -17159,4 +17225,8 @@ googluanalytics.com$document
 googlutagmanager.com$document
 googmeanalytics.com$document
 
+! random domains
 pay-pal.club$document
+tw1tch.info$document
+cioubfiare.com$document
+
