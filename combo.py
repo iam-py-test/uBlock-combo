@@ -1,6 +1,6 @@
 import requests
 import os
-lists = {"DandelionSprout Antimalware":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt"}
+lists = {"DandelionSprout Antimalware":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt","uBlock Annoyances":"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt"}
 
 mainlist = """! Title: uBlock combo list
 ! Expires: 1 day
