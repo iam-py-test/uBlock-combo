@@ -1,5 +1,6 @@
 # uBlock-combo
-A filter list complied out of other major lists to fight malware, ads, scams, and trackers in uBlock Origin
+A filter list complied out of other major lists to fight malware, ads, scams, and trackers in uBlock Origin <br>
+Note: This is designed to work _alongside_ the default lists in uBo
 
 ### Lists used
 - [DandelionSprout antimalware](https://github.com/DandelionSprout/adfilt)
