@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 14November2021v1-Beta
+! Version: 15November2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1349,11 +1349,12 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||big5constructnigeria-staging.bitkit.dk^$all
 ||big5-nigeria.bitkit.dk^$all
 ||bromic-staging.bitkit.dk^$all
-! A PUP
+! A PUP and scam website
 ||mycleanpc.com^$doc
 ! Related domains owned by the same company and used for payment (the first is for 'tech support' scams, the second for their 'ID protection')
 ||ustechsupport.com^$doc
 ||mycleanid.com^$doc
+||iolostore.com^$doc
 ! The main website for the MyCleanPC company
 ||realdefen.se^$doc
 ! Vermilion Strike
@@ -1459,6 +1460,41 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||mediadlvr.com^$all
 ||youvetube.com^$all
 ||youutube.com^$all
+! https://github.com/DandelionSprout/adfilt/pull/348
+! https://www.virustotal.com/gui/file/12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef/community
+||39.83.80.247^$all
+||68.197.33.124^$all
+||219.157.21.37^$all
+||182.123.141.17^$all
+||125.47.243.187^$all
+||182.122.196.203^$all
+||182.117.231.182^$all
+||112.31.211.135^$all
+||125.106.63.93^$all
+||115.59.197.46^$all
+||122.159.29.192^$all
+||171.40.0.127^$all
+||171.80.219.160^$all
+||123.10.65.201^$all
+||168.90.205.46^$all
+||125.47.205.109^$all
+||39.80.147.239^$all
+||45.224.171.130^$all
+||45.5.209.75^$all
+||116.17.210.157^$all
+||27.45.103.240^$all
+||110.167.64.171^$all
+||39.81.117.73^$all
+||183.15.90.156^$all
+||119.113.248.74^$all
+||175.0.95.85^$all
+||61.52.99.109^$all
+||222.142.183.194^$all
+||106.86.172.194^$all
+||103.233.216.77^$all
+||183.188.192.55^$all
+! https://www.virustotal.com/gui/file/3bf1b7e9bdaeaa4a5619cf26b59767637bc44193df2a0470df263b98b1fe47fe/community
+||198.23.255.14^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -6797,7 +6833,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 14/11/2021
+! Last updated: 15/11/2021
 ! Description: This list aims to protect people against malware, phishing, and scams by blocklisting sites which are known to be malicious, and also provides one extra level of protection through removing known scams and PUPs from websites
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -17530,6 +17566,66 @@ chingchong.xyz$all
 ! https://www.virustotal.com/gui/file/597b269e4d1003c1af4ddd797f87f838be88817f2cc5b1ce24f373707d2fb40f/community
 107.172.0.199$all
 
+! https://www.virustotal.com/gui/file/3bf1b7e9bdaeaa4a5619cf26b59767637bc44193df2a0470df263b98b1fe47fe/community
+198.23.255.14$all
+
+! https://www.virustotal.com/gui/file/12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef/community
+39.83.80.247$all
+68.197.33.124$all
+219.157.21.37$all
+182.123.141.17$all
+125.47.243.187$all
+182.122.196.203$all
+182.117.231.182$all
+112.31.211.135$all
+125.106.63.93$all
+115.59.197.46$all
+122.159.29.192$all
+171.40.0.127$all
+171.80.219.160$all
+123.10.65.201$all
+168.90.205.46$all
+125.47.205.109$all
+39.80.147.239$all
+45.224.171.130$all
+45.5.209.75$all
+116.17.210.157$all
+27.45.103.240$all
+110.167.64.171$all
+39.81.117.73$all
+183.15.90.156$all
+119.113.248.74$all
+175.0.95.85$all
+61.52.99.109$all
+222.142.183.194$all
+106.86.172.194$all
+103.233.216.77$all
+183.188.192.55$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/10484
+onenightfriend.com$all
+www.onenightfriend.com$all
+
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/15/1.md#iocs
+freedownloadfiles.org$all
+fruegelke.xyz$all
+ec2-34-213-49-207.us-west-2.compute.amazonaws.com$all
+172.67.186.189$all
+! https://www.virustotal.com/gui/file/b346f73352f3df0ec81e2bb986205f48855d98b426693375f37a2ed5f5c530d1/relations
+hh3valve.com$all
+g-localdevice.biz$all
+querahinor.xyz$all
+t.gogamec.com$all
+gogamec.com$all
+server9.trumops.com$all
+trumops.com$doc
+runmodes.com$all
+charirelay.xyz$all
+r3.o.lencr.org$all
+91.121.67.60$all
+webdatingcompany.me$all
+gohnot.com$all
+
 ! END MAIN BLOCKLIST
 
 ! include rules for just uBlock Origin and AdGuard
@@ -17803,9 +17899,9 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 14November2021v8-Beta
+! Version: 15November2021v1-Beta
 ! Expires: 2 days
-! Description: In a world dominated by bit.ly, ad.fly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
+! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
 ! Homepage for the repository: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
 ! Opt-in allowlist for affiliate support tags: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
@@ -19970,6 +20066,13 @@ $removeparam=referer,domain=bodykind.com
 ! https://analytics.bluekai.com/site/16231?phint=event=click&phint=campaign=BRAND-TAB&phint=platform=search&done=https://example.com/
 ||analytics.bluekai.com^$removeparam=phint
 
+! https://www.hao123.com/?tn=93288632_hao_pg
+! It is the rebate parameter for the page - https://github.com/DandelionSprout/adfilt/pull/351
+||hao123.com^$removeparam=tn
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1646225
+||wsj.com^$removeparam=reflink
+
 ! ——— Rules for heavily covered international sites ——— !
 !! ——— PR-China ———
 !! Special thanks to https://github.com/shenzhiming88 for helping with this section.
@@ -20060,7 +20163,8 @@ $removeparam=aff_trace_key
 ||baidu.com^$removeparam=pageFrom
 ||baidu.com^$removeparam=sids
 ||baidu.com^$removeparam=srcp
-
+! https://baike.baidu.com/item/test/16103773?ivk_sa=1024630g (15/11/2021)
+||baidu.com^$removeparam=ivk_sa
 
 !!! ——— Bilibili ———
 ! https://github.com/uBlockOrigin/uAssets/pull/10010
@@ -20123,6 +20227,17 @@ $removeparam=aff_trace_key
 ||mp.weixin.qq.com^$removeparam=version
 ||mp.weixin.qq.com^$removeparam=exportkey
 ||mp.weixin.qq.com^$removeparam=pass_ticket
+! https://github.com/DandelionSprout/adfilt/pull/349
+$removeparam=clicktime
+$removeparam=nettype
+||mp.weixin.qq.com^$removeparam=abtest_cookie
+||mp.weixin.qq.com^$removeparam=chksm
+||mp.weixin.qq.com^$removeparam=count
+||mp.weixin.qq.com^$removeparam=enterid
+||mp.weixin.qq.com^$removeparam=from_msgid
+||mp.weixin.qq.com^$removeparam=from_itemidx
+||mp.weixin.qq.com^$removeparam=sessionid
+||mp.weixin.qq.com^$removeparam=subscene
 ! https://github.com/DandelionSprout/adfilt/pull/341
 ||qq.com^$removeparam=report_recomm_player
 
