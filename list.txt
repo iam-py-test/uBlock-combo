@@ -6833,7 +6833,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 16/11/2021
+! Last updated: 17/11/2021
 ! Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -17643,6 +17643,15 @@ gohnot.com$all
 198.46.136.245$all
 74f26d34ffff049368a6cff8812f86ee.gq$all
 
+! https://www.virustotal.com/gui/url/ce69462e263f0907114076f070cad653d2c944dda105793aed2115eeab5c82a3/community
+shib-inu.cc$all
+
+! https://www.virustotal.com/gui/url/8f26eac1984a9738a36f7794a37b5d737e62c2ba647ca594ac0721babc28040d/community
+ether-give21.net$all
+
+! https://www.virustotal.com/gui/file/15c04c213c3c4a5f9078d87512c7e1f951cdb540d5949cb7196df3153612ef2b/relations
+lkomgplrwtspmfk.su$all
+
 ! END MAIN BLOCKLIST
 
 ! include rules for just uBlock Origin and AdGuard
@@ -26700,3 +26709,17 @@ c315.cn##+js(ra, oncontextmenu|onselectstart|oncut|oncopy)
 ! https://github.com/uBlockOrigin/uAssets/issues/10471
 uemeds.cn##+js(ra, oncontextmenu|ondragstart|onselect)
 uemeds.cn##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/84411
+secondlifetranslations.com##+js(aost, encodeURIComponent, inlineScript)
+
+! anti adb warning the-food-story. com
+the-food-story.com##+js(aost, String.prototype.charCodeAt, ai_)
+
+! transformator220. ru anti right click select drag
+transformator220.ru##+js(acis, document.oncontextmenu)
+
+! organismes. org anti right click, select, f-keys, drag
+organismes.org##+js(acis, disableSelection, reEnable)
+organismes.org##+js(aopr, nocontext)
+organismes.org##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
