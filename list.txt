@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 20November2021v2-Beta
+! Version: 21November2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -245,7 +245,7 @@ howtoremove.guide#?#.entry-content > div:-abp-contains(Special Offer)
 ! https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
 windowsdispatch.com##strong
 ! ¤¤¤ "Driver" download sites that instead download PUP tools ¤¤¤
-||driver-soft.com^
+||driver-soft.com^$doc
 
 ! Common scam domain patterns
 /^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
@@ -1556,6 +1556,13 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||42.238.151.197^$all
 ||27.213.60.53^$all
 ||115.56.169.134^$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/21/1.md
+||yasir252.com^$all
+||safelink.kadal.club^$doc
+||bedrapiona.com^$doc
+||dozubatan.com^$doc
+||toglooman.com^$doc
+||ultimate-detection.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -6892,7 +6899,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 20/11/2021
+! Last updated: 21/11/2021
 ! Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -14889,7 +14896,7 @@ discorcd.gift$all
 ! https://www.virustotal.com/gui/url/145c4bdadca86dfb9560668f2cec835f75c248af41b8842687ad89dce8d2aed0?nocache=1
 communitytradeoffer.com.ru$all
 ! https://www.siteadvisor.com/sitereport.html?url=dlscord-app.info
-dlscord-app.info$document
+dlscord-app.info$all
 ! https://www.virustotal.com/gui/url/2b1631736b11cc2799185a4b03dc290f95fd0d085423de7279552bd7b69bd68e?nocache=1
 steamcommynutiy.ru$all
 ! https://www.virustotal.com/gui/url/caf23cc42c3a5fc14bdfc0288863fdce841240aee1700c17b991b26dadd1bf03?nocache=1
@@ -14931,7 +14938,7 @@ disccord.ru.com$all
 ! https://www.virustotal.com/gui/url/8629d5addce3babd50b633f9b145a52b519375c01f2348724510b79342b4fc9a?nocache=1
 dlscorcl.ru.com$all
 ! https://www.virustotal.com/gui/url/51a403721b5f31192b5ca85fcc311f522b896e048da5fa0e0cbfc86e6ae02abf?nocache=1
-discord-claim.ru.com$document
+discord-claim.ru.com$all
 ! https://www.virustotal.com/gui/url/fabaf69a53c5c31ecba8d7cbb36a62fb6affbfb93132f1bd9f49e3c642cd968b?nocache=1
 discordapp.ru.com$all
 ! https://www.virustotal.com/gui/url/61bc78b2ae3be3bf74bf86a1bd1be53b26c29af318518c7328956abddb171902
@@ -15310,7 +15317,6 @@ besty-deals.com$all
 data-px.services$doc
 live.newsvot.com$doc
 adalgard-wol.com$all
-us1.trkk4.com$doc
 secure-access-981cd52a6hqpm8e2.gate23.xyz$doc
 best-pc-protect.xyz$all
 ny-feed.r-tb.com$doc
@@ -15793,7 +15799,6 @@ inpagepush.com$document
 matomo.hellohi.me$document
 venetrigni.com$document
 cdn.itskiddoan.club$document
-dozubatan.com$document
 starvationdefence.com$document
 my.rtmark.net$document
 cdn.barscreative1.com$document
@@ -17754,12 +17759,10 @@ cha1se.my03.com$doc
 
 ! https://github.com/DevSpen/links/blob/master/src/links.txt
 101nitro.com$doc
-2021cs.net.ru$doc
 2021y.ru$doc
 2022yg.com$doc
 2023g.com$doc
 2discord.ru$doc
-2no.co$doc
 accountauthorization.xyz$doc
 ach2x.net.ru$doc
 achnavi.net.ru$doc
@@ -17786,7 +17789,6 @@ awirabigmoneyrolls.xyz$doc
 baymack.com$doc
 bc.vc$doc
 beast-cup.ru$doc
-best-cup.com$doc
 bestskins.org.ru$doc
 beta.discorder.app$doc
 betadiscord.com$doc
@@ -17847,7 +17849,6 @@ cs-moneyy.ru$doc
 cs-play.org.ru$doc
 cs-skins.link$doc
 cs500go.com$doc
-cschecker.ru$doc
 csgo-battle.ru$doc
 csgo-cyber.link$doc
 csgo-fute.net.ru$doc
@@ -17942,11 +17943,8 @@ discoapps.club$doc
 discoard.com$doc
 discocl.xyz$doc
 discocord.com$doc
-discocrd-nitro.com$doc
 discocrd.com$doc
-discocrd.gift$doc
 discocrd.gifts$doc
-discocrdapp.com$doc
 discod.art$doc
 discod.fun$doc
 discod.gift$doc
@@ -17992,7 +17990,6 @@ discorcl.fun$doc
 discorcl.ga$doc
 discorcl.gift$doc
 discorcl.info$doc
-discorcl.link$doc
 discorcl.online$doc
 discorcl.ru$doc
 discorcl.ru.com$doc
@@ -18015,11 +18012,9 @@ discord-airdrop.pw$doc
 discord-airdrop.site$doc
 discord-airdrop.xyz$doc
 discord-airnitro.xyz$doc
-discord-alrdrop.com$doc
 discord-app.gifts$doc
 discord-app.info$doc
 discord-app.me$doc
-discord-app.net$doc
 discord-app.ru.com$doc
 discord-app.su$doc
 discord-app.uk$doc
@@ -18029,7 +18024,6 @@ discord-boost.com$doc
 discord-bot.ru$doc
 discord-bugs.com$doc
 discord-claim.com$doc
-discord-claim.ru.com$doc
 discord-control.com$doc
 discord-controls.com$doc
 discord-cpp.com$doc
@@ -18112,7 +18106,6 @@ discord-stats.org$doc
 discord-steam.com$doc
 discord-steam.ru$doc
 discord-steam.site$doc
-discord-stuff.com$doc
 discord-sup.com$doc
 discord-supports.com$doc
 discord-team.com$doc
@@ -18131,12 +18124,10 @@ discord.es$doc
 discord.eu$doc
 discord.family$doc
 discord.fit$doc
-discord.foundation$doc
 discord.fyi$doc
 discord.givaewey.com$doc
 discord.givaeweys.com$doc
 discord.giveawey.com$doc
-discord.giveaweys.com$doc
 discord.gq$doc
 discord.homes$doc
 discord.limited$doc
@@ -18167,7 +18158,6 @@ discordapp.info$doc
 discordapp.ir$doc
 discordapp.one$doc
 discordapp.org$doc
-discordapp.ru.com$doc
 discordapp.site$doc
 discordapp.support$doc
 discordapp.top$doc
@@ -18242,7 +18232,6 @@ discordnitro.club$doc
 discordnitro.gift$doc
 discordnitro.info$doc
 discordnitro.link$doc
-discordnitro.space$doc
 discordnitro.store$doc
 discordnitro.su$doc
 discordnitro9.repl.co$doc
@@ -18256,7 +18245,6 @@ discordp.ml$doc
 discordpp.com$doc
 discordpromo.site$doc
 discordqpp.com$doc
-discordrgift.com$doc
 discords-developers.com$doc
 discords-gift.ru$doc
 discords-gifts.ru$doc
@@ -18315,7 +18303,6 @@ discourd.info$doc
 discourd.site$doc
 discrdapp.cf$doc
 discrdapp.com$doc
-discrocl.xyz$doc
 discrod-gift.com$doc
 discrod-gifte.com$doc
 discrod-glfts.com$doc
@@ -18326,10 +18313,7 @@ discrod.gift$doc
 discrod.gifts$doc
 discrod.pw$doc
 discrodapp.ru$doc
-discrodnitro.org$doc
-discrodnitro.ru$doc
 discrods.site$doc
-discrodsteam.ru$doc
 discrord.com$doc
 discrordapp.com$doc
 discurcd.com$doc
@@ -18348,7 +18332,6 @@ disorc.com$doc
 disord.co$doc
 disord.fun$doc
 disord.gifts$doc
-disordgift.codes$doc
 disrcod.com$doc
 disrcod.gift$doc
 disrcod.gifts$doc
@@ -18356,7 +18339,6 @@ disscord.online$doc
 disscord.ru$doc
 disscords.club$doc
 dissord.com$doc
-dissord.gift$doc
 dissord.ru$doc
 diswcord.com$doc
 disxord.com$doc
@@ -18365,7 +18347,6 @@ disçordapp.com$doc
 diuscordapp.com$doc
 diwcord.com$doc
 dixcord.com$doc
-dizcord.gift$doc
 dizscord.com$doc
 djiscord.com$doc
 dkscord.com$doc
@@ -18373,24 +18354,20 @@ dlicord-glfts.site$doc
 dliscord-gift.ru.com$doc
 dliscord-glft.ru.com$doc
 dliscord-nitro.com$doc
-dliscord.com$doc
 dliscord.us$doc
 dliscrd.one$doc
-dlscard.ru$doc
 dlsccord-apps.club$doc
 dlsccrd.com$doc
 dlscocrdapp.com$doc
 dlscorcl.gift$doc
 dlscorcl.info$doc
 dlscord-app.com$doc
-dlscord-app.info$doc
 dlscord-app.xyz$doc
 dlscord-claim.com$doc
 dlscord-gift.com$doc
 dlscord-gifts.com$doc
 dlscord-nitro.click$doc
 dlscord-nitro.info$doc
-dlscord-nitro.link$doc
 dlscord-nitro.ru.com$doc
 dlscord-nltro.com$doc
 dlscord.app$doc
@@ -18419,7 +18396,6 @@ dlscord.wiki$doc
 dlscord.work$doc
 dlscord.world$doc
 dlscordapp.codes$doc
-dlscordapp.info$doc
 dlscordgift.com$doc
 dlscordgived.xyz$doc
 dlscordglft.xyz$doc
@@ -18484,7 +18460,6 @@ fastclick.com$doc
 featu.re$doc
 firtonesroll.ru.com$doc
 fiscord.com$doc
-fnatic-drop.com$doc
 fnatic-ro1ls.ru.com$doc
 fnatic.team$doc
 fnatic2.org.ru$doc
@@ -18505,10 +18480,7 @@ fortnitechat.site$doc
 fortnitevb.com$doc
 fortuneroll.tk$doc
 fowephwo.ru$doc
-free-dislcordnitrlos.ru$doc
 free-gg.com$doc
-free-niltross.ru$doc
-free-nitlross.ru$doc
 free-nitro.ru$doc
 free-nitroi.ru$doc
 free-steam-code.com$doc
@@ -18563,7 +18535,6 @@ giftsdiscord.site$doc
 giiveaway-discord.com$doc
 giveawaybot.pw$doc
 giveawaynitro.com$doc
-giveaweys.com$doc
 givenatus.site$doc
 gleam.su$doc
 glets-nitro.com$doc
@@ -18599,7 +18570,6 @@ keydorp.me$doc
 keydrop.org.ru$doc
 keydropp.one$doc
 keymagic.me$doc
-keysdropes.com$doc
 l2s.pet$doc
 lakskuns.xyz$doc
 lan-pro.fun$doc
@@ -18843,7 +18813,6 @@ sleamcomnnuniity.ru$doc
 sleamcomnnuniliy.site$doc
 sleamcomnnunily.site$doc
 sleamcomnnunily.website$doc
-sleamcomnnunitiy.ru$doc
 sleamcomnnunity.me$doc
 sleamcomrnunity.com$doc
 sleamcomunitly.co$doc
@@ -18859,7 +18828,6 @@ sleamcormunity.me$doc
 sleamcornmunuity.me$doc
 sleamcummunity.me$doc
 sleammcommunity.ru$doc
-sleammcommunnity.ru$doc
 sleampowereed.ru$doc
 sleancommunlty.xyz$doc
 slearncommunity.store$doc
@@ -18946,9 +18914,7 @@ steam-community.xyz$doc
 steam-community1.xyz$doc
 steam-communitygifts.xyz$doc
 steam-communitygifts1.xyz$doc
-steam-discord.com$doc
 steam-discord.ru$doc
-steam-discords.com$doc
 steam-dlscord.com$doc
 steam-event.com$doc
 steam-free-nitro.ru$doc
@@ -19015,7 +18981,6 @@ steamcomminulty.ru$doc
 steamcomminuly.ru$doc
 steamcomminutiiu.ru$doc
 steamcomminutiu.ru$doc
-steamcomminuty.click$doc
 steamcomminuty.com$doc
 steamcomminuty.link$doc
 steamcomminuty.me$doc
@@ -19038,7 +19003,6 @@ steamcommmunity.ru.com$doc
 steamcommmunlity.com$doc
 steamcommmunnity.com$doc
 steamcommnity.com$doc
-steamcommnity.com.ru$doc
 steamcommnity.store$doc
 steamcommnnity.net.ru$doc
 steamcommnnunity.ru$doc
@@ -19145,7 +19109,6 @@ steamcommunitx.ru.com$doc
 steamcommunity-com.xyz$doc
 steamcommunity-gifts.xyz$doc
 steamcommunity-gifts1.xyz$doc
-steamcommunity-nitro.ru$doc
 steamcommunity-profiles.ru.com$doc
 steamcommunity-trade.xyz$doc
 steamcommunity-tradeoffer.com$doc
@@ -19310,7 +19273,6 @@ steamcomnunityprofile.ru.com$doc
 steamcomnunlity.com$doc
 steamcomnunllty.com$doc
 steamcomnunllty.net$doc
-steamcomnunlty.ru$doc
 steamcomnunlty.ru.com$doc
 steamcomnunmity.com$doc
 steamcomnunnirty.ru$doc
@@ -19439,8 +19401,6 @@ steamcummunity.com.ru$doc
 steamcummunity.ru.com$doc
 steamcummunityy.pp.ua$doc
 steamcumumunity.com.ru$doc
-steamdiscord.com$doc
-steamdlscord.com$doc
 steamdlscords.com$doc
 steamdocs.xyz$doc
 steamdommunity.com$doc
@@ -19699,7 +19659,6 @@ stearnconmuulty.ru$doc
 stearnconrmunity.com$doc
 stearncornmrunity.ru.com$doc
 stearncornmunity.com$doc
-stearncornmunity.ru.com$doc
 stearncornmunuty.ru$doc
 stearncornmurnity.ru.com$doc
 stearncornrnuity.com$doc
@@ -19846,9 +19805,7 @@ store-discord.com$doc
 store-stempowered.com$doc
 store.stampowered.com$doc
 store.stempowerd.com$doc
-straemcommonlity.com$doc
 straemcomunnitry.ru$doc
-straemcummonilty.com$doc
 streamcomminuty.pw$doc
 streamcommiunnity.com$doc
 streamcommlunity.ru.com$doc
@@ -20017,6 +19974,66 @@ zipansion.com$doc
 ! https://www.virustotal.com/gui/url/ff38d62a5ca15c1ed5e70bf156f6b09451aa0b9bf9acd7aa2a002847d87900ff
 ! https://www.virustotal.com/gui/url/bd76e047dcf311a28a7260636a6e8337729d6eb8ee6166616b090a925e6bbcf5?nocache=1
 3.64.251.139$all
+
+! https://www.virustotal.com/gui/file/4066a70177c5b8a86458e8727efaa599b0de0e342fd709eec5d3b78ed066cd67/relations
+! https://www.virustotal.com/gui/url/1d77646f4091878163d1ad7e0bc08757f42e83c7663993d9e3188b4510612217?nocache=1
+koyu.space$all
+
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/21/1.md
+yasir252.com$all
+www.yasir252.com$all
+safelink.kadal.club$doc
+iclickcdn.com$doc
+bedrapiona.com$doc
+dozubatan.com$doc
+toglooman.com$doc
+onmarshtompor.com$all
+chultoux.com$doc
+yonhelioliskor.com$doc
+ptauxofi.net$doc
+betshucklean.com$doc
+buncoswosh.com$doc
+b58ncoa1c07f.com$doc
+t.avroute01.com$doc
+ultimate-detection.com$all
+gammamkt.com$doc
+leadgentrk.com$doc
+chirkacylal.com$doc
+phooreew.net$doc
+
+! https://www.virustotal.com/gui/file/f2a443b6c4ffde6e88daa60afe095436fb42fdf8eb32b84614b4108b346b4d04/community
+! https://www.virustotal.com/gui/url/96dc9372d45370278705b299d301b7176bb46f2399843a9039245ce3722e9459
+! https://www.virustotal.com/gui/url/a88d69b1df946a3da52acb69b438f909a118f1dc0ce1ddef5c8ff4e5fc22eea3?nocache=1
+83.149.87.180$all
+
+! https://www.virustotal.com/gui/file/c465550320e3625e430f8745c8c8b8664a202e24dbe51ed4e5dcd0af25960420/community
+||caenet.s3.amazonaws.com/apps/dexway/dexway.setup.msi^$all
+
+! https://www.virustotal.com/gui/file/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/community
+117.201.201.195$all
+61.53.195.154$all
+61.53.23.161$all
+42.230.87.49$all
+182.121.144.54$all
+115.58.133.240$all
+117.221.188.221$all
+182.126.145.128$all
+123.5.131.241$all
+117.221.190.187$all
+182.113.15.211$all
+218.72.105.237$all
+112.248.191.91$all
+182.126.113.6$all
+27.5.26.77$all
+42.224.171.211$all
+115.59.210.143$all
+103.73.61.254$all
+42.224.33.38$all
+182.127.222.21$all
+116.193.172.99$all
+
+! https://scammer.info/t/paypal-phishing-11/83945
+113.161.144.143$all
 
 ! END MAIN BLOCKLIST
 
@@ -20291,7 +20308,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 21November2021v3-Beta
+! Version: 21November2021v5-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -20317,9 +20334,10 @@ $removeparam=action_ref_map
 ! https://www.ikea.com/kr/en/stores/restaurant/?itm_campaign=ikea_food&itm_element=essential_banner&itm_content=ikea_food (17/02/2021)
 ! https://www.infoq.com/containers/?itm_source=infoq&itm_medium=header_graybar&itm_campaign=topic_clk (28/02/2021)
 ! https://app.sheetgo.com/workflows/1606149317012600L5SS/connections?stm_source=sheetgo-webapp-workflow-invite&stm_medium=email&stm_campaign=on-demand-invitation (28/02/2021)
+! https://www.dx.com/p/sliding-camera-protective-cover-for-smartphones-laptops-tablets-2729311.html?Utm_rid=91262049&Utm_source=affiliatewindow (21/11/2021)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488307
 ! Exclude sendgb.com - https://github.com/AdguardTeam/AdguardFilters/issues/100285
-$removeparam=/^utm_/,domain=~redir.tradedoubler.com|~sendgb.com
+$removeparam=/^utm_/i,domain=~redir.tradedoubler.com|~sendgb.com
 $removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $removeparam=/^stm_/,domain=~redir.tradedoubler.com
 
@@ -20664,8 +20682,9 @@ $removeparam=hsCtaTracking
 $removeparam=tblci
 $removeparam=tcid
 $removeparam=/^dv_adwords_/
-$~xmlhttprequest,removeparam=/^adid=/i,domain=~finn.no
 $removeparam=wdorigin
+! https://tenshoku.nikkei.co.jp/lp/15002/?n_cid=TPRN0002&waad=Ujim9yQ8&adid=NK_L2_T_shortlink_Sun_diagnosis&utm_source=NKdenshiban&utm_medium=content-text&utm_content=text&utm_campaign=shortlink_Sun_diagnosis
+$~xmlhttprequest,removeparam=/^adid=/i,domain=~finn.no
 
 ! https://go.nordvpn.net/aff_c?offer_id=129&aff_id=614&aff_sub=06VOOBfmFXpFAcqqIHYIr28&aff_sub2=blackfriday.com
 $removeparam=/^AFF_ID/i,domain=~nordvpn.net|~getproton.me
@@ -21237,9 +21256,6 @@ $removeparam=/^Offers\.com/
 ! https://www.hunterboots.com/us/en_us/sale-womens-sale-footwear#esp_sort=price&esp_order=asc?CSID=AFF||||&siteID=qpF0HYnRugA-S5yfZifcN54MdPsE4Cewzw
 $removeparam=CSID
 
-! https://www.dx.com/p/sliding-camera-protective-cover-for-smartphones-laptops-tablets-2729311.html?Utm_rid=91262049&Utm_source=affiliatewindow
-$removeparam=/^Utm_/
-
 ! https://www.kelkoo.com/?kpartnerid=1938479021
 $removeparam=kpartnerid
 
@@ -21302,6 +21318,7 @@ $removeparam=tmclickref
 $removeparam=s_afcid
 
 ! https://www.blizzard.com/en-us/?n_cid=DSNKD003
+! https://style.nikkei.com/article/DGXZQOLM158FE0V11C21A0000000?n_cid=TPRN0002
 $removeparam=n_cid
 
 ! https://www.tedbaker.com/uk/Womens/Outlet/Accessories/Shoes/c/category_womens_outlet_footwear?int_cmpid=ww_lp_hero_sale-shoes_cta3
@@ -21387,8 +21404,14 @@ $removeparam=tg_ref
 $removeparam=dt_dapp
 $removeparam=dt_platform
 
+! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/200
+! https://xtech.nikkei.com/atcl/nxt/column/18/01778/00009/?i_cid=nbpnxt_ranking
+! https://gooday.nikkei.co.jp/atcl/column/21/101900007/102000001/?waad=KOqJ8ACd
+$removeparam=i_cid
+$removeparam=waad
+
 ! ——— General blocking rules ——— !
-!! Scripts that solely exist to make URLs longer
+!! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
 ! https://github.com/the1812/Bilibili-Evolved/issues/2247
 /auto-append-spmid.js
@@ -22699,7 +22722,7 @@ $removeparam=referer,domain=bodykind.com
 ||target.com^$removeparam=marketing_id
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1666311
-$removeparam=s,domain=twitter.com|spreadprivacy.com
+$removeparam=s,domain=spreadprivacy.com
 
 ! https://twitter.com/chrissteinplays/status/1461003062936547331?t=CXBXxSiUKI8wPAkoGMH7zg
 $removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|twitter.com
@@ -22747,7 +22770,7 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 
 ! ——— Allowlist ——— !
 ! https://github.com/DandelionSprout/adfilt/commit/6dd010c70438a84cae7cf6b683d0d99dc56794ad
-@@mailinglist$removeparam=/^utm_/
+@@mailinglist$removeparam=/^utm_/i
 
 ! Block users from uploading images - https://github.com/DandelionSprout/adfilt/pull/325
 @@||graph.baidu.com/upload?$removeparam=from
