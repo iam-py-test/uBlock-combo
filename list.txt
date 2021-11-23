@@ -20056,6 +20056,21 @@ expmediadirect1.com
 ||t.tonightshookup.com^$all
 ||yourladiefun.life^$all
 
+! https://www.virustotal.com/gui/file/c988a65d39f617c531454c2f15971c0a769d42ac84bea0a7a3bd89394ba3e654/community
+||45.42.201.16^$all
+
+! https://www.virustotal.com/gui/file/df7841fad13bb90a108a0861c92c565ad754528e684600ad07011cd4e83f1a63/community
+||mywfpi02.top^$all
+
+! https://www.virustotal.com/gui/url/29a76a0ae74cb6cdda4abcaad46246aad99ae4b58c4d8ebeaed6a084c38efeef
+||bug-codashop-diamond.duckdns.org^$all
+
+! https://www.virustotal.com/gui/url/fb7216f8666b7d0a01d1edae657f93db65a0178727571d9480e6d0fcc5ee7e1e
+||secure-infodirec350.duckdns.org^$all
+
+! https://github.com/uBlockOrigin/uAssets/pull/10542
+||best-winplace.life^$all
+
 ! END MAIN BLOCKLIST
 
 ! include rules for just uBlock Origin and AdGuard
@@ -20330,7 +20345,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 22November2021v1-Beta
+! Version: 23November2021v2-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -20705,7 +20720,7 @@ $removeparam=tblci
 $removeparam=tcid
 $removeparam=/^dv_adwords_/
 $removeparam=wdorigin
-$removeparam=/^aff_id[0-9]?=/i
+$removeparam=/^aff_id[0-9]?=/i,domain=~affiliate.salestring.com
 
 ! https://tenshoku.nikkei.co.jp/lp/15002/?n_cid=TPRN0002&waad=Ujim9yQ8&adid=NK_L2_T_shortlink_Sun_diagnosis&utm_source=NKdenshiban&utm_medium=content-text&utm_content=text&utm_campaign=shortlink_Sun_diagnosis
 $~xmlhttprequest,removeparam=/^adid=/i,domain=~finn.no
@@ -21620,6 +21635,8 @@ $removeparam=MT_ID,domain=ebay.*
 $removeparam=geo_id,domain=ebay.*
 $removeparam=device,domain=ebay.*
 $removeparam=cmpgn,domain=ebay.*
+! https://www.ebay.com/itm/265272975304?LH_BIN=1
+||ebay.$removeparam=LH_BIN
 
 !!! ——— Facebook ———
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/157
@@ -22813,6 +22830,18 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 
 ! Fix '404 Not Found' on pages with path /aff_c - https://go.nordvpn.net/aff_c?offer_id=129&aff_id=614&aff_sub=06VOOBfmFXpFAcqqIHYIr28&aff_sub2=blackfriday.com
 @@/aff_c?$removeparam=/^aff_id[0-9]?=/i
+
+! Map views for Blocket.se classifieds
+@@||hitta.se^$removeparam=ad_id
+
+! Email verification for 'MyWOT' - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1683830
+@@||mywot.com/user/*/confirmNewEmail$removeparam=utm_source
+@@||mywot.com/user/*/confirmNewEmail$removeparam=utm_medium
+
+!#if adguard_ext_firefox
+! https://github.com/DandelionSprout/adfilt/issues/376
+@@|wss://$removeparam
+!#endif
 
 ! ----- BEGIN uBlock Annoyances -----
 ! List title: uBlock filters – Annoyances
@@ -24641,10 +24670,6 @@ android-dz.com##+js(acis, disableSelection, reEnable)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/be3mow/sherdog_forums_anti_adblock/
 sherdog.com##+js(aopr, googletag)
-
-! https://forums.lanik.us/viewtopic.php?p=147090#p147090
-mywot.com##.mobile-popup
-mywot.com##html:style(overflow: auto !important;)
 
 ! right click sky movies sites
 skymovies.*,sky-movies.in##+js(acis, mischandler)
@@ -29218,3 +29243,9 @@ transformator220.ru##+js(acis, document.oncontextmenu)
 organismes.org##+js(acis, disableSelection, reEnable)
 organismes.org##+js(aopr, nocontext)
 organismes.org##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10460#issuecomment-976250003
+animatedshows.to,miraculous.to##+js(aopr, debugchange)
+animatedshows.to,miraculous.to##+js(ra, oncontextmenu, body)
+miraculous.to##+js(aeld, contextmenu, preventDefault)
+animatedshows.to##+js(aeld, /^(?:keyup|keydown)$/)
