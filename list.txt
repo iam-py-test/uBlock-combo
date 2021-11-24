@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 24November2021v1-Beta
+! Version: 24November2021v3-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1585,6 +1585,29 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||bursakulis.com^$all
 ! https://www.virustotal.com/gui/url/b333c49efa4d399e65c5e2d96a905b380acbca58a3e3052b7bd7cfcb3e0e81ee
 ||610418.selcdn.ru^$all
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-977912975
+! https://www.tv2.no/nyheter/14368524/
+||alexstewartinternationalltd.rw^$all
+||vps.re^$all
+! https://www.tek.no/i/wOVv0o/
+||21steditionnaturalgh.com^$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/24/1.md
+||macsoftwarez.com^$all
+||laajew.xyz^$doc
+||namilon.xyz^$doc
+||ec2-3-238-75-201.compute-1.amazonaws.com^$doc
+||notycars.xyz^$doc
+||ec2-54-177-49-112.us-west-1.compute.amazonaws.com^$doc
+||zinkahulu.xyz^$doc
+||krmcean.xyz^$doc
+||meiryenzen.xyz^$doc
+||ec2-44-192-106-88.compute-1.amazonaws.com^$doc
+||ec2-52-53-211-120.us-west-1.compute.amazonaws.com^$doc
+||fouratlinks.com^$all
+||toa.mygametoa.com^$all
+||mygametoa.com^$document
+||postbackstat.biz^$all
+||tweakballs.com^$document
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -6921,7 +6944,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 23/11/2021
+! Last updated: 24/11/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -6937,20 +6960,6 @@ get.adobe.com###offersInformationPane
 ! qfind.net$all
 ! https://www.virustotal.com/gui/url/2c6f0babc9ad068baa0ad9df71e5ecdcfce5773bb6dee130ce189a46bfaa4ed4/detection
 ||0redirb.com^$document
-! https://forum.mywot.com/24626-whatsmyipaddress-com
-
-! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
-! See https://github.com/uBlock-LLC/uBlock/issues/1840 and https://github.com/uBlock-LLC/uBlock/issues/1838, along with https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg
-! Also fixed by uBlock Origin badware and DandelionSprout antimalware
-||ublock.org^$document
-! Redirects to ublock[.]org
-! https://www.virustotal.com/gui/ip-address/138.68.252.54/relations
-! https://www.virustotal.com/gui/url/e9defbfcc628950a256292d32f7436104799e78e344f0199013e0727080cfc4b/details
-||adublock.net^$document
-! Malware
-! https://www.virustotal.com/gui/url/723d30dcc93ee90f8f04b5cc3c5d07492338c41f7aa62fb2723c7d8b91537338/community
-! https://github.com/uBlockOrigin/uAssets/issues/5854
-||ublockerext.com^$all
 
 ! A Facebook phishing website
 ! https://www.siteadvisor.com/sitereport.html?url=xn--faebook-64a.com
@@ -16363,9 +16372,6 @@ expmediadirect1.com
 ||xre.popmonster.ru^$all
 ||6b4s.popmonster.ru^$all
 
-! https://scammer.info/t/bank-scams-in-greece/82743
-||alphgr-live.com^$all
-
 ! https://scammer.info/t/faremart/82671
 ||www.faremart.com^$document,image
 ||faremart.com^$document
@@ -19462,6 +19468,50 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/2fb97449ff00263495f3d1bd7311532b4b43d5f2bcef700fe4d593dc3fa64d68/community
 ||mywmis14.top^$all
 
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/24/1.md
+||macsoftwarez.com^$all
+||laajew.xyz^$document
+||namilon.xyz^$document
+||ec2-3-238-75-201.compute-1.amazonaws.com^$document
+||notycars.xyz^$document
+||ec2-54-177-49-112.us-west-1.compute.amazonaws.com^$document
+||zinkahulu.xyz^$document
+||krmcean.xyz^$document
+||meiryenzen.xyz^$document
+||ec2-44-192-106-88.compute-1.amazonaws.com^$document
+||ec2-52-53-211-120.us-west-1.compute.amazonaws.com^$document
+! C2s
+||fouratlinks.com^$all
+||toa.mygametoa.com^$all
+||mygametoa.com^$document
+||postbackstat.biz^$all
+||tweakballs.com^$document
+
+! https://www.virustotal.com/gui/file/12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef/community
+||221.210.97.251^$all
+||119.183.99.159^$all
+||79.17.80.19^$all
+||222.138.225.21^$all
+||179.42.107.54^$all
+||112.226.50.116^$all
+||221.232.176.162^$all
+||27.158.159.100^$all
+||177.22.237.82^$all
+||112.246.124.159^$all
+||112.30.1.211^$all
+
+! https://forums.malwarebytes.com/topic/281074-pup-mysearchengineco-firtefox/
+! https://www.virustotal.com/gui/ip-address/172.67.222.254/relations
+! https://www.virustotal.com/gui/url/781a2d763b034c9610ab9832bdc2692aced3d86c6b7296ea72579da7b68dc073?nocache=1
+||631e69eb.ainans.com^$all
+! https://www.virustotal.com/gui/url/2fb021cabd8ebdc964c11f78d634d598085eca46535bbb9d5498299d9807c6e0?nocache=1
+||gbdmagazine.xyz^$all
+||www.gbdmagazine.xyz^$all
+! https://www.virustotal.com/gui/url/c895ae811452b51cc54c5845aad820dbbc89cd3d2c963a1a28f38191c213380a?nocache=1
+||pggmeym.cn^$all
+! https://www.virustotal.com/gui/url/e44e62fe32d2e25405df7d18539b297b4c298ceb629e0b7edb21dba040e698e2
+||flg34w.cn^$all
+
 ! ----- Scams -----
 
 ! This domain has been used for typosquatting, malware, phishing, and scams (redirects to other scam/malware sites as of 17/9/2021)
@@ -19589,7 +19639,6 @@ expmediadirect1.com
 ||googlep.com^$document
 ||feedproxy.googlep.com^$all
 
-
 ! https://github.com/uBlockOrigin/uAssets/issues/9344
 ! https://github.com/iam-py-test/Assets-001/tree/main/uiz.io_scam
 ||uiz.io^$document
@@ -19671,6 +19720,33 @@ expmediadirect1.com
 ||chirkacylal.com^$document
 ||phooreew.net^$document
 
+! https://scammer.info/t/bank-scams-in-greece/82743
+||alphgr-live.com^$all
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-977912975
+! https://www.tv2.no/nyheter/14368524/
+||alexstewartinternationalltd.rw^$all
+||vps.re^$all
+! https://www.tek.no/i/wOVv0o/
+||21steditionnaturalgh.com^$all
+
+! https://www.youtube.com/watch?v=iQiVH533ncM
+||avengeradblocker.com^$document
+||poweradblocker.com^$document
+||microsoftedge.microsoft.com/addons/detail/power-blocker/lkeckmmaeplfnhmbdceobfnpbgnpcpjl^$document
+
+! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
+! See https://github.com/uBlock-LLC/uBlock/issues/1840 and https://github.com/uBlock-LLC/uBlock/issues/1838, along with https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg
+! Also fixed by uBlock Origin badware and DandelionSprout antimalware
+||ublock.org^$document
+! Redirects to ublock[.]org
+! https://www.virustotal.com/gui/ip-address/138.68.252.54/relations
+! https://www.virustotal.com/gui/url/e9defbfcc628950a256292d32f7436104799e78e344f0199013e0727080cfc4b/details
+||adublock.net^$document
+! Malware
+! https://www.virustotal.com/gui/url/723d30dcc93ee90f8f04b5cc3c5d07492338c41f7aa62fb2723c7d8b91537338/community
+! https://github.com/uBlockOrigin/uAssets/issues/5854
+||ublockerext.com^$all
 
 ! ----- PUPs -----
 
@@ -20059,6 +20135,9 @@ expmediadirect1.com
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/13/1.md
 ||chrome.google.com/webstore/detail/zeta-adblock/okfdbakkmcdmbmfnjeiifakgjgdfhddf^$document
 ||docs.google.com/document/d/1FS7-6-nEO4nVv8fqhbbS_4kSIBRg0Uy54Gx7ErDS6cg/edit^$all
+
+! https://github.com/iam-py-test/my_filters_001/issues/84
+||mackeeper.com^$document
 
 
 ! ----- Cryptominers -----
@@ -29302,3 +29381,6 @@ miraculous.to##+js(aeld, contextmenu, preventDefault)
 animatedshows.to,miraculous.to##+js(aeld, /^(?:keyup|keydown)$/)
 miraculous.to##+js(set, console.clear, noopFunc)
 miraculous.to##+js(set, console.log, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10559
+criticalthinking.org##+js(nostif, donation-modal)
