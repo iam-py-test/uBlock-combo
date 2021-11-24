@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 23November2021v1-Beta
+! Version: 24November2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -441,6 +441,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||bemobtrk.com^$doc,popup
 ||bemobpath.com^$doc,popup
 ||couponbybox.com^$doc
+||newpage.in^$doc
+||digitalantivirus.org^$all
 ||34.204.214.165^$doc
 ||54.85.113.62^$doc
 ||54.205.83.61^$doc
@@ -20348,7 +20350,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 23November2021v4-Beta
+! Version: 24November2021v3-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21666,7 +21668,7 @@ $removeparam=geo_id,domain=ebay.*
 $removeparam=device,domain=ebay.*
 $removeparam=cmpgn,domain=ebay.*
 ! https://www.ebay.com/itm/265272975304?LH_BIN=1
-||ebay.$removeparam=LH_BIN
+||ebay.*/itm/$removeparam=LH_BIN
 
 !!! ——— Facebook ———
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/157
