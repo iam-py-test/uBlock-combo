@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 26November2021v3-Beta
+! Version: 27November2021v3-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -244,8 +244,31 @@ howtoremove.guide#?#.entry-content > div:-abp-contains(Special Offer)
 ! ¤¤¤ Restoro  ¤¤¤
 ! https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
 windowsdispatch.com##strong
+! https://dlldownloads.com/xlive-dll/
+dlldownloads.com##.page-container > p
 ! ¤¤¤ "Driver" download sites that instead download PUP tools ¤¤¤
 ||driver-soft.com^$doc
+! ¤¤¤ Outbyte ¤¤¤
+wikidll.com,dllfile.net,dll-files.org##.detection-os
+wikidll.com,dllfile.net,dll-files.org##.detection-desc
+wikidll.com,dllfile.net,dll-files.org#?#.method:-abp-contains(Outbyte)
+wikidll.com,dllfile.net,fix4dll.com,dll-files.org##.inner > .text
+wikidll.com,dllfile.net,fix4dll.com,dll-files.org##.btn-download
+wikidll.com,dllfile.net,fix4dll.com,dll-files.org##.product > .title-line
+wikidll.com,dllfile.net,fix4dll.com,dll-files.org##.repair-block
+/img/pcrepairkit.png^$domain=wikidll.com|dllfile.net|fix4dll.com|dll-files.org
+windll.com##.download-block
+windll.com##.dll > p
+dllfile.net##.sticky-link
+fix4dll.com##.file__download
+fix4dll.com#?#.sidebar__block:-abp-contains(Outbyte)
+! ¤¤¤ PC Reviver ¤¤¤
+dll4free.com#?#.leftdiv:-abp-contains(PC Reviver)
+! ¤¤¤ FixMyPC ¤¤¤
+dll-found.com#?#p:-abp-has(a[href*=tweakbit])
+! ¤¤¤ "DLL Helper" ¤¤¤
+azdll.net##.container > .dllhelper-banner
+azdll.net##.dllhelper-banner
 
 ! Common scam domain patterns
 /^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
@@ -6824,11 +6847,16 @@ toorgle.net##.join
 ||pksauniversity.com^$all
 cdburnerxp.se##[href*="/downloadsetup.exe"]
 
-! ——— Gobshite copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
+! ——— Horrendously bad copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
 ! Most of the guides haven't even accounted for how modern phones have replaced the recovery environment with an extra boot environment, leading to very critical Fastboot commands not working and/or bricking the phone.
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||hardreset.info^$doc
+||androidgreek.com^$doc
+||ytechb.com^$doc
+||gadgetstwist.com^$doc
+||gadgetsfarms.com^$doc
+||techorfy.com^$doc
 
 !#if false
 ! ——— If you run a webserver of any sort, and you get incoming requests to resolve these domains, that's rarely a good sign for that requestor's intentions ———
@@ -20574,7 +20602,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 26November2021v1-Beta
+! Version: 26November2021v3-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21775,6 +21803,9 @@ $removeparam=sid,domain=gamereactor.*|anrdoezrs.net|gopjn.com|jdoqocy.com|kqzyfj
 $removeparam=from,domain=sogou.com|baidu.com|jetbrains.com|bandcamp.com|apkpure.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1559915 and https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1559864
 $removeparam=keyword,domain=ebay.*|bindright.com|lendgo.com
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1707764
+$removeparam=id,domain=go.skimresources.com|karkkainen.com
+
 
 !! ——— Rules for heavily covered sites ———
 !!! ——— Amazon ———
@@ -22492,10 +22523,11 @@ $removeparam=rid,domain=giphy.com
 ||microsoft.com^$removeparam=destrt
 
 ! http://www.discshop.fi/?id=116426&ad=hintaseuranta&ad_src=hintaseuranta.fi&ad_content=Nintendo+Switch+Pro+Controller%2c+Nintendo+Switch+-peliohjain&ad_prodid=5179300
-$removeparam=ad,domain=discshop.fi|moosejaw.com
-$removeparam=ad_src,domain=discshop.fi
-$removeparam=ad_content,domain=discshop.fi
-$removeparam=ad_prodid,domain=discshop.fi
+! https://github.com/DandelionSprout/adfilt/commit/2781552717e908b5b33c2fd497151e11cc67abcf
+$removeparam=ad,domain=discshop.fi|moosejaw.com|multitronic.fi|adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi
+$removeparam=ad_src,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi
+$removeparam=ad_content,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi
+$removeparam=ad_prodid,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi
 
 ! https://www.netflix.com/watch/80057171?trackId=14170056&tctx=2%2C0%2Cad3cd321-a42b-461e-81d3-b18c51559559-25047246%2Ce7fede3c-e54d-4941-9849-8fb5d51dbada_37683809X10XX1622546150880%2Ce7fede3c-e54d-4941-9849-8fb5d51dbada_ROOT%2C
 ||netflix.com^$removeparam=trackId
@@ -22848,7 +22880,6 @@ $removeparam=lId,domain=apple.com|youtube.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
 ! i.e. https://go.skimresources.com/?id=160612X1627478&xcust=adm2_841947&xs=1&url=https%3A%2F%2Fwalmart.com%2Fip%2F204105463
-||go.skimresources.com^$removeparam=id
 ||go.skimresources.com^$removeparam=xcust
 ||go.skimresources.com^$removeparam=xs
 
@@ -28241,6 +28272,8 @@ world4.eu##+js(acis, document.oncopy)
 world4.eu##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 world4.eu##*::selection:style(background-color:#338FFF!important)
 world4.eu##style:has-text(body:after{content:):remove()
+world4.eu##+js(acis, disable_copy)
+world4.eu##+js(acis, disable_hot_keys)
 
 ! ggulpass .com anti right click / select
 ggulpass.com##+js(aopw, document.oncontextmenu)
@@ -29613,3 +29646,6 @@ pttws.ptt.gov.tr##+js(ra, onpaste, #tr_mesaj > td > .text-input.validate\[requir
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10612
 leeyiding.com##+js(ra, oncontextmenu|onkeydown|onselectstart)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10624
+city-data.com##+js(aopr, addLink)
