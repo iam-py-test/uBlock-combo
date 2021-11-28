@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 27November2021v3-Beta
+! Version: 28November2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1648,6 +1648,39 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||115.204.119.237^$all
 ||163.125.31.46^$all
 ||163.179.168.44^$all
+! https://github.com/uBlockOrigin/uAssets/pull/10647
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/1.md
+||updsec.builtfromzero.com^$all
+||money-mod.com^$document
+||gospelchor.info^$document
+||smwgwa.brownbrothersilver.top^$document,popup
+||new.bestlifeoffer20.com^$document
+||reykijnoac.com^$document
+||totalnicefeed.com^$all
+||omnatuor.com^$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/2.md
+||riteupd.mimanduca.co^$all
+||oaesso.info^$document
+||abcwkv.naturaloffsteam.top^$document
+||bestlifeoffer20.com^$document
+! https://scammer.info/t/password-stealer/84348
+! https://bazaar.abuse.ch/sample/462a689d171f543c10efa08e963996d382585b67a6b298ec40d64f924adfb47a/
+||youtube.com/watch?v=8nY7SnvNxH4^$all
+||bit.ly/3p8kN5V^$document
+||mediafire.com/file/at2tvnao5x6ivdo/EngineOwning.rar/$all
+||download2264.mediafire.com/pnk44f5ci9rg/at2tvnao5x6ivdo/EngineOwning.rar^$all
+! https://www.virustotal.com/gui/file/12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef/community
+||110.89.59.135^$all
+||113.116.89.1^$all
+||119.183.146.191^$all
+||153.3.3.226^$all
+||182.116.104.6^$all
+||60.7.133.200^$all
+||122.6.254.201^$all
+||110.89.11.167^$all
+||171.112.177.90^$all
+||115.194.38.143^$all
+||61.52.79.32^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -6989,7 +7022,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/11/2021
+! Last updated: 28/11/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -19652,6 +19685,26 @@ expmediadirect1.com
 ||117.223.81.25^$all
 ||186.33.78.70^$all
 
+! https://www.virustotal.com/gui/file/e997cb7bc263ee036b7e137cfe989a12d75cd6db9004c7928622cbd934fb3135/community
+! https://www.virustotal.com/gui/file/dcbac25b2ab80e00cd11683435692fddf4ffb2ebdcef01983de0ce39b7fb4861/community
+! https://www.virustotal.com/gui/file/1151a016d3c2a23f0538777804529c0b4be56472e48f30098fbe5501f8d0d7a0/community
+! https://www.virustotal.com/gui/file/4295424bd80b9d81bb59304038e44ef4462d00a59fccbad38289e3a80eb493c7/community
+||185.9.36.106^$all
+
+! https://www.virustotal.com/gui/file/af27173ed576215bb06dab3a1526992ee1f8bd358a92d63ad0cfbc0325c70acf/relations
+||amimegutadowntown.com^$all
+||51.195.57.232^$document
+
+! https://www.virustotal.com/gui/file/ec892345779df7156691fcc7eb37deb89bb8d6d6fd925841fa1764ea93bef58f/community
+||coin-coin-coin-2.com^$document
+
+! https://scammer.info/t/password-stealer/84348
+! https://bazaar.abuse.ch/sample/462a689d171f543c10efa08e963996d382585b67a6b298ec40d64f924adfb47a/
+||youtube.com/watch?v=8nY7SnvNxH4^$all
+||bit.ly/3p8kN5V^$document
+||mediafire.com/file/at2tvnao5x6ivdo/EngineOwning.rar/$all
+||download2264.mediafire.com/pnk44f5ci9rg/at2tvnao5x6ivdo/EngineOwning.rar^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -19941,6 +19994,34 @@ expmediadirect1.com
 ||datadoghq-browser-agent.com^$document
 ! https://github.com/uBlockOrigin/uAssets/pull/10599#issuecomment-979356358
 ||yunosurveys.com^$all
+
+! https://github.com/uBlockOrigin/uAssets/commit/9e08ee088a5bd12a3c2bf765ec0aa3c6067d2b54
+||ationpeci.one^$document,popup
+||helpmight.online^$all
+||cakemoney004.space^$document
+||cakemoney005.space^$document
+||listen-heres.com^$document
+
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/1.md
+||updsec.builtfromzero.com^$all
+||money-mod.com^$document
+||gospelchor.info^$document
+||smwgwa.brownbrothersilver.top^$document,popup
+||new.bestlifeoffer20.com^$document
+||reykijnoac.com^$document
+||totalnicefeed.com^$all
+||omnatuor.com^$all
+||5.189.217.109^$document
+||raisehelpmajor.top^$document
+||myheapple.top^$document
+||timegrasscase.top^$document
+||swojmf.drysugardiffer.top^$document
+
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/2.md
+||riteupd.mimanduca.co^$all
+||oaesso.info^$document
+||abcwkv.naturaloffsteam.top^$document
+||bestlifeoffer20.com^$document
 
 ! ----- PUPs -----
 
@@ -20298,7 +20379,7 @@ expmediadirect1.com
 ||secure.driversupport.com^$all
 
 
-! Taken from DandelionSprout's Anti-malware list and verified to be a PUP
+! Taken from DandelionSprout's Anti-malware list - which is at https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt and which is maintained by https://github.com/DandelionSprout -  and verified
 ||driver-soft.com^$document
 
 ! https://github.com/blocklistproject/Lists/issues/497
@@ -20631,7 +20712,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 28November2021v1-Beta
+! Version: 28November2021v3-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21811,7 +21892,7 @@ $removeparam=cid,domain=adshares.net|apple.com|www.microsoft.com|telenor.no|pros
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
-$removeparam=ref,domain=amazon.*|deal.no|expo.io|udemy.com|reddit.com|brave.com|facebook.com|arvopaperi.fi|twitch.tv|mikrobitti.fi|tivi.fi|tekniikkatalous.fi|talouselama.fi|kauppalehti.fi|uusisuomi.fi|mediuutiset.fi|sketch.com|etsy.com|geeksforgeeks.org|hs.fi|bitwarden.com|is.fi|github.io|spiegel.de|kansanuutiset.fi|bestbuy.com|shopping.google.*|target.com|bing.com|motouutiset.fi|telsu.fi|idenati.com|blogit.fi|suomi24.fi|scandinavianphoto.fi|github.com|dell.com|audible.*|webhallen.no|imdb.com|abebooks.com|eset.com|kickstarter.com|oikotie.fi|sahkovertailu.fi|jasonsavard.com|adobe.com|wormhole.app|coop.no|buzzfeed.com|megapornfreehd.com|baidu.com|semrush.com|protonvpn.com|altcustoms.com
+$removeparam=ref,domain=amazon.*|deal.no|expo.io|udemy.com|reddit.com|brave.com|facebook.com|arvopaperi.fi|twitch.tv|mikrobitti.fi|tivi.fi|tekniikkatalous.fi|talouselama.fi|kauppalehti.fi|uusisuomi.fi|mediuutiset.fi|sketch.com|etsy.com|geeksforgeeks.org|hs.fi|bitwarden.com|is.fi|github.io|spiegel.de|kansanuutiset.fi|bestbuy.com|shopping.google.*|target.com|bing.com|motouutiset.fi|telsu.fi|idenati.com|blogit.fi|suomi24.fi|scandinavianphoto.fi|github.com|dell.com|audible.*|webhallen.no|imdb.com|abebooks.com|eset.com|kickstarter.com|oikotie.fi|sahkovertailu.fi|jasonsavard.com|adobe.com|wormhole.app|coop.no|buzzfeed.com|megapornfreehd.com|baidu.com|semrush.com|protonvpn.com|altcustoms.com|hintaseuranta.fi
 ! https://www.comixology.com/Scooby-Doo-1997-2010/comics-series/353?irgwc=1&tid=IR-affiliate-10451&clickid=VsxVfPSSvxyOWNfwUx0Mo38MUkiXwRwR0xWjW40 (01/03/2021)
 ! (e.g. mirrored.to, tunnistautuminen.suomi.fi)
 $removeparam=tid,domain=comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com|clickbank.net
@@ -21873,7 +21954,7 @@ $removeparam=geniuslink
 ||amazon.$removeparam=hsa_cr_id
 ||amazon.$removeparam=/^pd_rd_/
 ! https://www.amazon.com/Razer-Core-Thunderbolt-External-Enclosure/dp/B07CQG2K5K/?tag=makeusw-20&linkCode=ogi&th=1&psc=1 (15/11/2020)
-$~xmlhttprequest,removeparam=psc
+!!!$~xmlhttprequest,removeparam=psc (Breaks cloth size selection)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-944078
 ||amazon.$removeparam=twitchToken
 ||amazon.$removeparam=sigts
@@ -22338,6 +22419,8 @@ $removeparam=nettype
 ||mp.weixin.qq.com^$removeparam=subscene
 ! https://github.com/DandelionSprout/adfilt/pull/341
 $removeparam=report_recomm_player
+! https://github.com/DandelionSprout/adfilt/pull/386
+||mail.qq.com/cgi-bin/frame_html?$removeparam=r
 
 !! ——— Miscellaneous ———
 ! No particular examples
@@ -22611,7 +22694,7 @@ $removeparam=tracker,domain=dustdeal.nl|batteryupgrade.*
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 ||simplelogin.io^$removeparam=slref
-$removeparam=r,domain=ledger.io|mail.qq.com
+||ledger.io^$removeparam=r
 ||roboform.com^$removeparam=rec
 
 ! https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTQ_thTIPr-4kGYMHEyfPeD9YN_0fwvx4-fQ&usqp=CAU
@@ -22856,7 +22939,7 @@ $removeparam=site_refer,domain=saksfifthavenue.com|saksoff5th.com
 ||sn.dk^$removeparam=rss
 
 ! https://www.masku.com/tuotteet/393766-smart-tyopoyta/?nosto=productpage-nosto-2&conf%5B1153%5D=10427&conf%5B2651%5D=10771
-||masku.com^$removeparam=nosto
+$removeparam=nosto,domain=masku.com|staypro.fi
 
 ! https://scontent.cdninstagram.com/v/t50.2886-16/228280186_4462339507137399_6165083647713647040_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5zdG9yeS5kZWZhdWx0In0&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_ohc=nL_7kCFHgrcAX-HT6F1&edm=AOVtZ6oBAAAA&vs=17895914579221456_1489520608&_nc_vs=HBksFQAYJEdIcEhtdzEzcXpCaGVkb1BBTUNaaXVEcHhvNVZidXFIQUFBQRUAAsgBABUAGCRHTVdiZFE2Z2ZIa3dVWFVBQUtNZXdSNFhTQ2NSYnBrd0FBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACbCkMnRj5zWPxUCKAJDMywXQCREGJN0vGoYEmRhc2hfYmFzZWxpbmVfM192MREAdegHAA%3D%3D&ccb=7-4&oe=614B0BE1&oh=22849edcbcdb1949e3f0cbde56ddd89b&_nc_vts_prog=1&dl=1
 ||cdninstagram.com^$removeparam=ccb
