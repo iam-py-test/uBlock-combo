@@ -7022,7 +7022,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 28/11/2021
+! Last updated: 29/11/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20023,6 +20023,11 @@ expmediadirect1.com
 ||abcwkv.naturaloffsteam.top^$document
 ||bestlifeoffer20.com^$document
 
+! same as above - hxxpx[:]//momupd[.]enuguhomes[.]com/download-winrar-crack/
+||momupd.enuguhomes.com^$all
+||fifxuq.granddidrepeat.top^$all
+||granddidrepeat.top^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23634,9 +23639,6 @@ kimcartoon.me##.top_page_alert
 mc-mod.net##+js(acis, document.oncontextmenu)
 mc-mod.net##+js(acis, image_save_msg, key)
 mc-mod.net##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
-
-! https://forums.lanik.us/viewtopic.php?f=62&t=41150
-||api.live365.com/geocheck
 
 ! https://github.com/jspenguin2017/uBlockProtector/issues/963
 phillymag.com##.gtp-ad
@@ -29778,4 +29780,8 @@ city-data.com##+js(aopr, addLink)
 zwei-euro.com##+js(nostif, Delay)
 
 ! yoyofilmeys. com anti right click
-yoyofilmeys.com##+js(acis, document.oncontextmenu)
+yoyofilmeys.*##+js(acis, document.oncontextmenu)
+
+! voe right click other keys
+voe.sx##+js(aeld, /keydown|keyup/, keyCode)
+voe.sx##+js(aeld, contextmenu)
