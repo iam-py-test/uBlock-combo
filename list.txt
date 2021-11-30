@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 28November2021v1-Beta
+! Version: 30November2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -6921,12 +6921,12 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||githubnt.com^
 
 ! ——— Usually used by various groups who buy old domains and display illicit ads on them ———
-://ww4.$doc
-://ww5.$doc,domain=~ww5.msu.ac.zw
+://ww4.$doc,domain=~ww4.ikea.com
+://ww5.$doc,domain=~ww5.ikea.com|~ww5.msu.ac.zw
 ://ww6.$doc,domain=~ww6.generali.pt
 ://ww7.$doc,domain=~ww7.be|~ww7.readsnk.com
 ://ww8.$doc,domain=~ww8.co|~ww8.ikea.com|~ww8.tiki.ne.jp|~ww8.erovoice.us|~ww8.anyanime.com|~ww8.bakushpal.az|~ww8.tokyoghoulre.com
-://ww9.$doc,domain=~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br
+://ww9.$doc,domain=~ww9.ikea.com|~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br
 ://ww10.$doc
 ://ww11.$doc
 ://ww12.$doc
@@ -19705,6 +19705,12 @@ expmediadirect1.com
 ||mediafire.com/file/at2tvnao5x6ivdo/EngineOwning.rar/$all
 ||download2264.mediafire.com/pnk44f5ci9rg/at2tvnao5x6ivdo/EngineOwning.rar^$all
 
+! https://github.com/uBlockOrigin/uAssets/pull/10662
+||api.crm.duominuo.com^$all
+||static.duominuo.com^$all
+||wnl.duominuo.com^$all
+||duominuo.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -19887,7 +19893,7 @@ expmediadirect1.com
 ||manage-point-wmc2.click^$all
 ||followlink.click^$document,popup
 ||us.systemupdatecontrol.com^$all
-||systemupdatecontrol.com^$document
+||systemupdatecontrol.com^$all
 ||ryderftv.co^$document
 ||www.ryderftv.co^$all
 ||comparepeoplecat.top^$document
@@ -19956,7 +19962,6 @@ expmediadirect1.com
 ! https://scammer.info/t/bank-scams-in-greece/82743
 ||alphgr-live.com^$all
 
-
 ! https://scammer.info/t/faremart/82671
 ||www.faremart.com^$document,image
 ||faremart.com^$document
@@ -19965,12 +19970,6 @@ expmediadirect1.com
 ||virus-pros.com^$document
 ||usa-pc.com^$document
 ||www.usa-pc.com^$document
-
-! spyhunter is far from legit - and this company sues almost anyone (i.e. Bleeping Computer - https://blog.malwarebytes.com/security-world/2016/02/bleepingcomputer-defends-freedom-of-speech/, Malwarebytes - https://press.malwarebytes.com/2021/09/29/malwarebytes-wins-dismissal-of-enigma-lawsuit-in-final-ruling/) 
-! https://www.mywot.com/en/scorecard/enigmasoftware.com
-! https://github.com/gorhill/uBlock/wiki/Software-known-to-have-uninstalled-uBlock-Origin
-||www.enigmasoftware.com^$document
-||enigmasoftware.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-977912975
 ! https://www.tv2.no/nyheter/14368524/
@@ -19991,7 +19990,6 @@ expmediadirect1.com
 ||inteledirect.com^$all
 ||turapport-strience.icu^$document
 ||americanwinnerscircle.com^$all
-||datadoghq-browser-agent.com^$document
 ! https://github.com/uBlockOrigin/uAssets/pull/10599#issuecomment-979356358
 ||yunosurveys.com^$all
 
@@ -20027,6 +20025,12 @@ expmediadirect1.com
 ||momupd.enuguhomes.com^$all
 ||fifxuq.granddidrepeat.top^$all
 ||granddidrepeat.top^$document
+
+! https://github.com/uBlockOrigin/uAssets/commit/52352f3cf9fd423740de02d2a9ed1e0b2773ca04#commitcomment-61060575
+||frafinomoney01.fun^$all
+||sexpartnercommunity.com^$all
+||listen-heres.com^$all
+||maxhacks.pro^$all
 
 ! ----- PUPs -----
 
@@ -20407,6 +20411,11 @@ expmediadirect1.com
 ||lp.tweakbit.com^$all
 ||speedtest.tweakbit.com^$all
 
+! spyhunter is far from legit - and this company sues almost anyone (i.e. Bleeping Computer - https://blog.malwarebytes.com/security-world/2016/02/bleepingcomputer-defends-freedom-of-speech/, Malwarebytes - https://press.malwarebytes.com/2021/09/29/malwarebytes-wins-dismissal-of-enigma-lawsuit-in-final-ruling/) 
+! https://www.mywot.com/en/scorecard/enigmasoftware.com
+! https://github.com/gorhill/uBlock/wiki/Software-known-to-have-uninstalled-uBlock-Origin
+||www.enigmasoftware.com^$document
+||enigmasoftware.com^$document
 
 ! https://scammer.info/t/2-spyware-com-is-a-fake-technical-website/69836
 ! promotes known PUPs i.e. Reimage, Spyhunter as 'solutions'. Better yet, they say ' you cannot remove every virus with only one security tool [...]  After trying Reimage, you should also run a free SpyHunter scanner'. Twice the PUPs, twice the fun?
@@ -20717,7 +20726,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29November2021v1-Beta
+! Version: 29November2021v2-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21905,7 +21914,7 @@ $removeparam=tid,domain=comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.
 ! https://twitter.com/hashtag/mlpg5?src=hashtag_click (23/04/2021)
 $removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk
 ! No particular example
-$removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|community.spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com
+$removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|community.spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=wsj.com|marketwatch.com|barrons.com|fnlondon.com|dowjones.com|mansionglobal.com|penews.com
@@ -22361,6 +22370,32 @@ $removeparam=aff_click_id
 ^p=1^$removeparam=p,domain=bilibili.com
 ^t=0^$removeparam=t,domain=bilibili.com
 
+!!!! ——— iQIYI ———
+! https://github.com/DandelionSprout/adfilt/pull/390
+! https://www.iqiyi.com/v_126y0fmbvmw.html?vfrm=pcw_home&vfrmblk=D&vfrmrst=712211_focus_A_image1 (30/11/2021)
+||iqiyi.com^$removeparam=vfrm
+||iqiyi.com^$removeparam=vfrmblk
+||iqiyi.com^$removeparam=vfrmrst
+! https://www.iqiyi.com/v_24ootmqzdts.html?r_area=rec_you_like&r_source=230&bkt=MBA_PW_T3_59&e=18c7f339676f3508a87cd758bbe0c711&stype=2 (30/11/2021)
+||iqiyi.com^$removeparam=bkt
+||iqiyi.com^$removeparam=e
+||iqiyi.com^$removeparam=r_area
+||iqiyi.com^$removeparam=r_source
+||iqiyi.com^$removeparam=stype
+! https://www.iqiyi.com/v_2fa0wqg80qw.html?pltfm=11&pos=title&flashvars=videoIsFromQidan%3Ditemviewclk_a#vfrm=5-6-0-1 (30/11/2021)
+||iqiyi.com^$removeparam=flashvars
+||iqiyi.com^$removeparam=pltfm
+||iqiyi.com^$removeparam=pos
+! https://game.iqiyi.com/togame/entry_latest?game_id=10696&pccenter_fr=pcw_banner (30/11/2021)
+||iqiyi.com^$removeparam=pccenter_fr
+! https://list.iqiyi.com/www/2/-149------------11-1-1-iqiyi--.html?s_source=PCW_SC (30/11/2021)
+||iqiyi.com^$removeparam=s_source
+! https://so.iqiyi.com/so/q_%E7%86%8A%E5%87%BA%E6%B2%A1?source=hot&sr=9939350662687346&ssrt=20211130002322412&ssra=1a6f10d51f0055e2a69c43ffb82c3314 (30/11/2021)
+||iqiyi.com^$removeparam=source
+||iqiyi.com^$removeparam=sr
+||iqiyi.com^$removeparam=ssra
+||iqiyi.com^$removeparam=ssrt
+
 !!!! ——— Sogou ———
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1421356
 ||sogou.com^$removeparam=_asf
@@ -22479,7 +22514,7 @@ $removeparam=region,domain=nytimes.com|nytimes3xbfgragh.onion
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1155198
 $removeparam=sm12
-$removeparam=ts,domain=x-kom.pl|al.to|combat.pl|baidu.com|bilibili.com|~api.bilibili.com
+$removeparam=ts,domain=x-kom.pl|al.to|combat.pl|baidu.com|bilibili.com
 $removeparam=token,domain=x-kom.pl|al.to|combat.pl|substack.com
 
 ! http://www.bodenusa.com/?tc_ch=affs&tc_ve=ppj&code=X3W6&tc_so=8439&tc_me=cr&tc_ca=na&tc_au=na&tc_cr=2-420132&tc_campid=na&tc_adgroupid=na&tc_kwid=na&tc_matchid=na
@@ -23200,7 +23235,9 @@ $removeparam=referer,domain=bodykind.com
 ||target.com^$removeparam=marketing_id
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1666311
-$removeparam=s,domain=spreadprivacy.com
+! https://github.com/DandelionSprout/adfilt/pull/390
+! https://v.youku.com/v_show/id_XNTE5MDA0MzA2NA==.html?s=decc0e2f935f461f84b1 (30/11/2021)
+$removeparam=s,domain=spreadprivacy.com|youku.com
 
 ! https://twitter.com/chrissteinplays/status/1461003062936547331?t=CXBXxSiUKI8wPAkoGMH7zg
 $removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|twitter.com
