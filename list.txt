@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 30November2021v2-Beta
+! Version: 01December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -119,7 +119,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdto
 ||ssl.bblck.me^$doc
 ||allblock.net^$doc
 ||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen^$doc
-! Malicious domains found in videogame manuals and title screens
+! Malicious or purchaseable domains found in videogame manuals and title screens
 ||acclaimsports.com^$doc
 ||acclaimmaxsports.com^$doc
 ||hip-games.com^$doc
@@ -562,7 +562,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||new-message.today^$doc
 ||new-notification.live^$doc
 ||new-notifications.live^$doc
-||notified-today.com^$doc
 ||notified-today.live^$doc
 ||notified-today.xyz^$doc
 ||stay-notified.com^$doc
@@ -1033,7 +1032,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||secure-0*.ddnss.ch^$all
 ||lucdream.com^$doc
 ||beastbuying.com^$doc
-||kokotrokot.com^$doc
 ||07ca17vejqqej990.inteo.xyz^$doc
 ||pesoaniz.com^$doc
 ||plarium.com^$doc
@@ -1049,7 +1047,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||pro-protection.xyz^$all
 ||secureleadsforever.com^$all
 ||renewal-software-update.com^$all
-||pushmeup.art^$doc
+||pushmeup.art^$all
 ||covercenter.xyz^$all
 ||gettrk.xyz^$all
 ||trc.*.co^$doc
@@ -1242,7 +1240,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||safelyonline.net^$doc
 ||browse-safe.net^$doc
 ||btpnative.com^$doc
-||mybetterdl.com^$doc
+||mybetterdl.com^$all
 ||besty-deals.com^$all
 ||data-px.services^$doc
 ||newsvot.com^$doc
@@ -1269,7 +1267,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||army-glo.scrollingsystem.com^$doc
 ||www.kqzyfj.com^$all
 ||kqzyfj.com^$doc
-||cj.dotomi.com^$all
 ||mcafee12.tt.omtrdc.net^$doc
 ||trolleydrop.info^$doc
 ||jaynordan.digital^$doc
@@ -1439,14 +1436,10 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||159.148.186.228^$all
 ! https://github.com/iam-py-test/investigations/blob/main/2021/10/26/1.md#domains
 ||yotube.com^$all
-||mybetterdl.com^$all
-||p185689.mybetterdl.com^$all
 ||r-tb.com^$all
 ||cdn.hoood.info^$all
-||data-px.services^$all
 ||barah-flo.com^$all
 ||beta-one.net^$all
-||beastbuying.com^$all
 ||pisism.com^$all
 ||czyzd.xyz^$all
 ||r1it6.xyz^$all
@@ -1456,7 +1449,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||m6ydd.xyz^$all
 ||welcomejohncena.pro^$all
 ||security-scanner.xyz^$all
-||pushmeup.art^$all
 ||c2egp.xyz^$all
 ||ese40.xyz^$all
 ||e07wm.xyz^$all
@@ -1657,7 +1649,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||new.bestlifeoffer20.com^$document
 ||reykijnoac.com^$document
 ||totalnicefeed.com^$all
-||omnatuor.com^$all
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/2.md
 ||riteupd.mimanduca.co^$all
 ||oaesso.info^$document
@@ -6611,10 +6602,10 @@ toorgle.net##.join
 ||discord-spooky.ru^$all
 ||discord.foundation^$all
 ||discordgift.ru^$all
-||discordnitro-steam.ru^$all
+||discordnitro-steam.$all
 ||discordnitro.space^$all
-||discordxgift.xyz^$all
-||discordxnitro.xyz^$all
+||discordxgift.$all
+||discordxnitro.$all
 ||discorgift.online^$all
 ||discrocl.xyz^$all
 ||discrod.gifts^$all
@@ -6643,7 +6634,7 @@ toorgle.net##.join
 ||free-dislcordnitrlos.ru^$all
 ||free-niltross.ru^$all
 ||free-nitlross.ru^$all
-||freediscordnitro.ru^$all
+||freediscordnitro.$all
 ||freeskinsfree.pp.ua^$all
 ||from-plames.xyz^$all
 ||from-sparsei.ru.com^$all
@@ -6993,12 +6984,6 @@ facebook.com#?#div[class*=ImageBlockContent] .clearfix:-abp-contains(0nl!ne)
 ! ——— Upgrades HTTP requests to HTTPS on sites that don't do it automatically ———
 $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|ufl.edu|oecd.org|bu.edu|wikidot.com|alternativenation.net
 
-! ——— Offline-only apps trying to phone home ———
-!#if adguard
-! https://fosspost.org/audacity-is-now-a-spyware/
-*$app=audacity.exe|audacity.app
-!#endif
-
 ! ——— Anti-'Malware comments' (Currently Disqus-specific) ———
 ! https://myip.ms/info/limitexcess
 *#?#.post-list > .post-content:has-text(/Best girls webcam/i)
@@ -7007,8 +6992,10 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 *#?#script[src*=disquscdn] + #layout .post-content:has-text(We offer unlimited)
 *#?#script[src*=disquscdn] + #layout .post-content:has-text(.com specialize)
 
+!#if !ext_ublock
 ! ——— Dummy entry used to give myself credit, for when this list is used in large compilation hosts-type files (Although they are fully allowed by my licence to use this list, it'd be nice for me and end-users to see where it's being used, as a few of them do not credit their sources) ———
 ||if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data^$doc
+!#endif
 
 ! ——— Anti-PUP (WIP) ———
 ! This section covers ones that would not normally be found in EasyList or AdGuard Base, for instance McAfee WebAdvisor (which also tries to change the search engine)
@@ -19730,6 +19717,14 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/2ea599605c4d65902943f12e1114a71af7a40fa7dffbf018b0ee3e7a61aaeaa3/community
 ||dl02.s3.amazonaws.com/installers/424531/2gzbsoj4gxb.exe^$all
 
+! https://forums.malwarebytes.com/topic/281264-malware-bytes-scam-number-1-315-996-0560/?_fromLogin=1
+||tradeford.com^$document
+||tradeford.com/us853558/malwarebytes-customer-service-1-315-996-o56o_p1049357.html^$all
+
+! https://forums.malwarebytes.com/topic/281310-malware-sample/
+! https://www.virustotal.com/gui/file/9c3f82fc5a23181b4652cd2696bf4bdb1a27f43836ebc2b654610b61d5e6d8a7/community
+||humnkd.xyz^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20748,7 +20743,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29November2021v2-Beta
+! Version: 30November2021v1-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21936,7 +21931,7 @@ $removeparam=tid,domain=comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.
 ! https://twitter.com/hashtag/mlpg5?src=hashtag_click (23/04/2021)
 $removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk
 ! No particular example
-$removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|community.spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com
+$removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|community.spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com|outnorth.fi
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=wsj.com|marketwatch.com|barrons.com|fnlondon.com|dowjones.com|mansionglobal.com|penews.com
@@ -22483,12 +22478,15 @@ $removeparam=nettype
 $removeparam=report_recomm_player
 ! https://github.com/DandelionSprout/adfilt/pull/386
 ||mail.qq.com/cgi-bin/frame_html?$removeparam=r
+! https://github.com/DandelionSprout/adfilt/pull/394
+! https://m.v.qq.com/x/m/play?cid=mzc00200prv7r23&vid=&ptag=cn.bing.com%23v.index.adaptor%232
+||qq.com^$removeparam=ptag
 
 !! ——— Miscellaneous ———
 ! No particular examples
 $removeparam=app,domain=tiktok.com|music.apple.*
 $removeparam=c,domain=tiktok.com|norton.com|farfetch.com|hepsiburada.com|appsflyer.com|onelink.me|play.google.com
-$removeparam=campaign,domain=blue-tomato.com|sitepoint.com|sportler.com|peterhahn.*
+$removeparam=campaign,domain=blue-tomato.com|sitepoint.com|sportler.com|peterhahn.*|outnorth.fi
 $removeparam=/^pf_rd_/,domain=shopbop.com|amazon.*|imdb.com
 $removeparam=Source,domain=facebook.com|facebookcorewwwi.onion|messenger.com|evga.com
 $removeparam=version,domain=mp.weixin.qq.com|us.norton.com
@@ -22663,7 +22661,7 @@ $removeparam=tag,domain=amazon.*|argos.co.uk|tv2.no
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-750434
 ||xbox.com^$removeparam=xr
 ||deepdiscount.com^$removeparam=bid
-$removeparam=medium,domain=deepdiscount.com|eonline.com
+$removeparam=medium,domain=deepdiscount.com|eonline.com|outnorth.fi
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-750307
 $removeparam=rid,domain=giphy.com
@@ -23362,6 +23360,10 @@ $removeparam=mv_pc,domain=fragrancenet.com
 !!!||walmart.$removeparam=wl13 (Decides pickup location)
 ! https://www.walmart.com/ip/Old-El-Paso-Stand-N-Stuff-Bold-Nacho-Cheese-Flavored-Taco-Dinner-Kit-9-5-oz/38260506?athcpid=38260506&athpgid=AthenaItempage&athcgid=null&athznid=siext&athieid=v0&athstid=CS056&athguid=egnNrMG_5XOxTB0tFsuPZlPSj01v5EdpAUIb&athancid=null&athena=true
 ||walmart.$removeparam=/^ath/
+
+! https://www.outnorth.fi/timberland/women-s-premium-6-waterproof-boot?source=hintaopas.fi&medium=productlinks&campaign=varmfodrade+k%C3%A4ngor&term=Women%27s+Premium+6&quot;+Waterproof+Boot#Black
+$removeparam=term,domain=outnorth.fi
+$removeparam=/^quot;/,domain=outnorth.fi
 
 !#if !env_mobile
 ! ——— Mobile ——— !
