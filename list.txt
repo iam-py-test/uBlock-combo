@@ -7040,7 +7040,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 1/12/2021
+! Last updated: 2/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -12979,29 +12979,6 @@ expmediadirect1.com
 ! Also promotes Protected net scams. Popups with coupons for TotalAV.
 ! Reports TotalAV/PCProtect/Scanguard as best at everything
 ||10bestantivirus.com^$document
-
-! Scam and fake Roblox hacks
-||gghacks.com^$all
-! Scam websites opened - put in redirect order
-||armanfiles.com/show.php?cl=true&l=971524&u=228373&id=23694$all
-||www.rewardsgiantusa.com^$document
-! Asks for personal data (name,address,birthdate,gender,email), claims you will get a "reward", never provides hack
-||promotionsonlineusa.com^$document
-||r.promotionsonlineusa.com^$document
-! More scams
-||displayoptoffers.com^$document
-||www.displayoptoffers.com^$document
-||www.yrxtrk.com^$document
-||play.sweepstakesalerts.com^$document
-||sweepstakesalerts.com^$document
-||e-9706.adzerk.net/r?e=eyJ2IjoiMS44IiwiYXYiOjQ0MzA4MSwiYXQiOjExMCwiYnQiOjEwLCJjbSI6MTQ0MTA0MiwiY2giOjMyOTAwLCJjayI6e30sImNyIjoyMTQ1ODUzMSwiZGkiOiIwMTZlM2RjN2I0MDg0MWZkOTVkYWI4NTNiZWIxZDBkMiIsImRqIjowLCJpaSI6IjRjOWQ3NGVjY2E3ZTRkNDI5Mzc2NWM4NjQwZGZlYjkwIiwiZG0iOjMsImZjIjoyMjc1NTY5NywiZmwiOjExMzIyOTEyLCJpcCI6IjY1LjE4OS44OS4xMTMiLCJudyI6OTcwNiwicGMiOjUsImVjIjoyNzIuNzI3MjczLCJlcCI6bnVsbCwicHIiOjIwMjI1NCwicnQiOjUsInJzIjo1MDAsInNhIjoiOCIsInNiIjoiaS0wYTgwYTg1OGNkODU5ZDVkOCIsInNwIjoxNjYzOSwic3QiOjcwMTI0LCJ0ciI6dHJ1ZSwidWsiOiIwZWM2ZjVmM2Q4NjA3ZmRhMzMxYzU2NWQxNWE4NDRiOSIsInpuIjoxODQyMDUsInRzIjoxNjMwMTg0NzU4NzkwLCJwbiI6ImxpbmtvdXQtd2lubmVyIiwiZ2MiOnRydWUsImdDIjp0cnVlLCJncyI6Im5vbmUiLCJ0eiI6IlVUQyIsInVyIjoiaHR0cDovL3Iuc2VydmV0cmFjay5zd3BzdHJhY2suY29tL2FmZl9jP29mZmVyX2lkPTEyMzU0JnVybF9pZD0xNDgxJmFmZl9pZD0xMDI1JmFmZl9pZD0xMDI1JmFmZl9zdWI9MTA5MSZhZmZfc3ViMj0mYWZmX3N1YjM9MjIxMDJfMTk5Njc5JmFmZl9zdWI0PUxpbmtvdXQtQ1BDJmFmZl9zdWI1PTExMzIyOTEyJmFmZl91bmlxdWUxPTkzMTc4NjEyLTk5M2MtNDkwMC1hMDhhLTY3Y2ZhNGQ0ODE4NiZhZmZfdW5pcXVlMj$document
-||www.stash.com^$document
-||f.prformce.com^$document
-||prformce.com^$document
-||www.qualityhealth.com^$document
-||qualityhealth.com^$document
-||consumerproductsusa.com^$document
-||www.consumerproductsusa.com^$document
 
 ! https://github.com/easylist/easylist/pull/6164
 ! https://www.virustotal.com/gui/url/451116a1c2d7538f62afb47618950eccc69e6aaa30702e21d2e6089b458d178d/detection
@@ -19916,7 +19893,7 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/url/73dae7d74bcdc9099a54b75b904cc45995d85534a313ad65fcc4d9e401b34607/detection
 ||rewardsavenue.net^$document
 ! https://www.virustotal.com/gui/url/d6745ce01da185054bd2125858e75445783976de0e5fa4a445284243830070e7/detection
-||rewardsgiantusa.com^$document
+||rewardsgiantusa.com^$all
 ! https://www.virustotal.com/gui/url/9edd33c7a370ba96bf3a7682193e67538984eab9d1b719c2f3042599a4d3d1d5/detection
 ||rewardgiantztesters.com^$document
 
@@ -19941,9 +19918,9 @@ expmediadirect1.com
 ||cpanlyzr.co^$document
 ||qqnlag.storesleepmagnet.top^$all
 ||pqxzzl.storesleepmagnet.top^$all
-||rewardzoneusa.com^$document
+||rewardzoneusa.com^$all
 ||contact.rewardzoneusa.com^$all
-||reward3spot.com^$document
+||reward3spot.com^$all
 ||www.reward3spot.com^$all
 ||order-safely.com^$document
 ||www.order-safely.com^$document
@@ -19993,6 +19970,30 @@ expmediadirect1.com
 ||members.tonightshookup.com^$all
 ||t.tonightshookup.com^$all
 ||yourladiefun.life^$all
+
+
+! Scam and fake Roblox hacks
+||gghacks.com^$all
+! Scam websites opened - put in redirect order
+||armanfiles.com/show.php?cl=true&l=971524&u=228373&id=23694$all
+||www.rewardsgiantusa.com^$all
+! Asks for personal data (name,address,birthdate,gender,email), claims you will get a "reward", never provides hack
+||promotionsonlineusa.com^$document
+||r.promotionsonlineusa.com^$document
+! More scams
+||displayoptoffers.com^$all
+||www.displayoptoffers.com^$all
+||www.yrxtrk.com^$document
+||play.sweepstakesalerts.com^$document
+||sweepstakesalerts.com^$document
+||e-9706.adzerk.net/r?e=eyJ2IjoiMS44IiwiYXYiOjQ0MzA4MSwiYXQiOjExMCwiYnQiOjEwLCJjbSI6MTQ0MTA0MiwiY2giOjMyOTAwLCJjayI6e30sImNyIjoyMTQ1ODUzMSwiZGkiOiIwMTZlM2RjN2I0MDg0MWZkOTVkYWI4NTNiZWIxZDBkMiIsImRqIjowLCJpaSI6IjRjOWQ3NGVjY2E3ZTRkNDI5Mzc2NWM4NjQwZGZlYjkwIiwiZG0iOjMsImZjIjoyMjc1NTY5NywiZmwiOjExMzIyOTEyLCJpcCI6IjY1LjE4OS44OS4xMTMiLCJudyI6OTcwNiwicGMiOjUsImVjIjoyNzIuNzI3MjczLCJlcCI6bnVsbCwicHIiOjIwMjI1NCwicnQiOjUsInJzIjo1MDAsInNhIjoiOCIsInNiIjoiaS0wYTgwYTg1OGNkODU5ZDVkOCIsInNwIjoxNjYzOSwic3QiOjcwMTI0LCJ0ciI6dHJ1ZSwidWsiOiIwZWM2ZjVmM2Q4NjA3ZmRhMzMxYzU2NWQxNWE4NDRiOSIsInpuIjoxODQyMDUsInRzIjoxNjMwMTg0NzU4NzkwLCJwbiI6ImxpbmtvdXQtd2lubmVyIiwiZ2MiOnRydWUsImdDIjp0cnVlLCJncyI6Im5vbmUiLCJ0eiI6IlVUQyIsInVyIjoiaHR0cDovL3Iuc2VydmV0cmFjay5zd3BzdHJhY2suY29tL2FmZl9jP29mZmVyX2lkPTEyMzU0JnVybF9pZD0xNDgxJmFmZl9pZD0xMDI1JmFmZl9pZD0xMDI1JmFmZl9zdWI9MTA5MSZhZmZfc3ViMj0mYWZmX3N1YjM9MjIxMDJfMTk5Njc5JmFmZl9zdWI0PUxpbmtvdXQtQ1BDJmFmZl9zdWI1PTExMzIyOTEyJmFmZl91bmlxdWUxPTkzMTc4NjEyLTk5M2MtNDkwMC1hMDhhLTY3Y2ZhNGQ0ODE4NiZhZmZfdW5pcXVlMj$document
+||www.stash.com^$document
+||f.prformce.com^$document
+||prformce.com^$document
+||www.qualityhealth.com^$document
+||qualityhealth.com^$document
+||consumerproductsusa.com^$document
+||www.consumerproductsusa.com^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/21/1.md
 ||yasir252.com^$all
@@ -20088,6 +20089,63 @@ expmediadirect1.com
 ||sexpartnercommunity.com^$all
 ||listen-heres.com^$all
 ||maxhacks.pro^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-49-gift-cards/84540
+||giftcodes.rest^$all
+||clickfam.ru^$document
+||clickfam.com^$document
+
+! https://scammer.info/t/youtube-bot-roblox-scam-48-gift-cards/84539
+||freeco.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-47-gift-cards/84538
+||giftcod.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-46/84537
+||rbxrbx.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-45-gift-cards/84536
+||giftcodes.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-44/84535
+||rubox.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-43/84534
+||rbo.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-42/84533
+||myfan.monster^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-41/84532
+||codescodes.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-40/84531
+||xubor.bar^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-39/84530
+||freeco.xyz^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-38/84529
+||freegameresource.com^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-37/84528
+||modgjn.uno^$all
+
+! https://scammer.info/t/youtube-bot-roblox-scam-36/84527
+||getrx.best^$all
+
+! https://scammer.info/t/paypal-phishing-14/84594
+||all-important-washt.000webhostapp.com^$all
+
+! https://scammer.info/t/paypal-phishing-12/84592
+||golemgreat122.000webhostapp.com^$all
+
+! https://scammer.info/t/microsoft-phishing-1/84589
+||aceelectricalny.com^$all
+
+! https://scammer.info/t/discord-nitro-generator-7/84570
+||www.appninjas.xyz^$all
+||appninjas.xyz^$all
 
 ! ----- PUPs -----
 
@@ -20495,6 +20553,11 @@ expmediadirect1.com
 ||secure-browser.io^$document
 ||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
 
+! ----- Spam -----
+
+! https://forums.malwarebytes.com/topic/281397-how-to-update-my-adwcleaner/
+||24hourhtmlcafe.com^$document
+
 ! ----- Cryptominers -----
 
 ! Was to be used for Cryptomining  - this website seems to no longer used for those
@@ -20786,7 +20849,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 1December2021v4-Beta
+! Version: 2December2021v1-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22560,8 +22623,8 @@ $removeparam=article_url,domain=shop-links.co
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-782437
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-931912
-$removeparam=/^shared%3D/,domain=seura.fi|suomenkuvalehti.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi
-$removeparam=shared,domain=seura.fi|suomenkuvalehti.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi
+$removeparam=/^shared%3D/,domain=seura.fi|suomenkuvalehti.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
+$removeparam=shared,domain=seura.fi|suomenkuvalehti.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
 $removeparam=origin,denyallow=platform.twitter.com,domain=yle.fi|flaticon.com|drop.com|symbolab.com|archive.org|norton.com|philips.*
 
 ! https://adtraction.com/blog/what-is-epi-and-how-does-it-work
@@ -23413,6 +23476,9 @@ $removeparam=/^quot;/,domain=outnorth.fi
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1726383
 ||catch.com.au^$removeparam=iv_
+
+https://www.coolshop.co.uk/product/don-one-lifestyle-tws120-black-in-ear-true-wireless-stereo-earbuds-with-charging-case/235AS7/?retailAttributionToken=ChM1OTEyOTM2MDQyNjAyNDQwOTgwEA0aI2Nvb2wtLS1yZWNfcmVjb21tZW5kZV8xNjI1MTM0MTA5NDY5Ihxjb29sdWstLS1yZWNvbW1lbmRlZC1mb3IteW91KAA
+$removeparam=retailAttributionToken,domain=coolshop.*
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -26171,6 +26237,7 @@ pelismart.com##+js(aopr, document.oncontextmenu)
 pelismart.com##+js(aopr, disableSelection)
 pelismart.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 pelismart.com##+js(aopr, onload)
+/wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js$script,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7811
 keybr.com##+js(nostif, [native code])
@@ -28339,10 +28406,6 @@ tusubtitulo.com###bannerAdBlock
 
 ! cablegratis .online anti right click
 cablegratis.online##+js(acis, document.oncontextmenu)
-
-! pelismart .com anti right click, anti select
-pelismart.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-/wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js$script,1p
 
 ! animeidhentai.com dev tools
 ||htstreaming.com/player/assets/debugger.js
