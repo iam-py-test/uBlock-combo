@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 01December2021v4-Beta
+! Version: 02December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1679,6 +1679,30 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||dl02.s3.amazonaws.com/installers/747947/oi_picasa38-setupexe.exe^$all
 ! https://www.virustotal.com/gui/file/2ea599605c4d65902943f12e1114a71af7a40fa7dffbf018b0ee3e7a61aaeaa3/community
 ||dl02.s3.amazonaws.com/installers/424531/2gzbsoj4gxb.exe^$all
+! https://github.com/DandelionSprout/adfilt/pull/395
+! https://www.huorong.cn/info/1531309921141.html
+||kuaizip.com^$all
+! https://www.huorong.cn/info/1618397948649.html - possible malware
+! ||zhuangjizhuli.com^$all
+! ||zhuangjizhuli.net^$all
+! https://github.com/uBlockOrigin/uAssets/pull/9656
+||geekotg.com^$all
+||qq789.com.cn^$all
+! https://www.huorong.cn/info/1526627586130.html
+||xiaobaixitong.com^$all
+! https://www.huorong.cn/info/1577158839403.html
+||daque.cn^$all
+! https://www.huorong.cn/info/1598957552515.html
+||dabaicai.com^$all
+! https://www.huorong.cn/info/1617368984641.html
+||qqfzn.com^$all
+! https://github.com/uBlockOrigin/uAssets/pull/10017
+||flash.cn^$all
+! https://www.nrk.no/vestfoldogtelemark/1.15750360
+||cargo.site^$all
+||dundeehills.group^$all
+!+ NOT_OPTIMIZED
+||132.148.220.142^$doc
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7016,7 +7040,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 30/11/2021
+! Last updated: 1/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -19724,6 +19748,26 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/9c3f82fc5a23181b4652cd2696bf4bdb1a27f43836ebc2b654610b61d5e6d8a7/community
 ||humnkd.xyz^$all
 
+! https://github.com/DandelionSprout/adfilt/pull/395
+! https://www.huorong.cn/info/1531309921141.html
+||kuaizip.com^$all
+! https://www.huorong.cn/info/1618397948649.html
+! ||zhuangjizhuli.com^$all
+! ||zhuangjizhuli.net^$all
+! https://github.com/uBlockOrigin/uAssets/pull/9656
+||geekotg.com^$all
+||qq789.com.cn^$all
+! https://www.huorong.cn/info/1526627586130.html
+||xiaobaixitong.com^$all
+! https://www.huorong.cn/info/1577158839403.html
+||daque.cn^$all
+! https://www.huorong.cn/info/1598957552515.html
+||dabaicai.com^$all
+! https://www.huorong.cn/info/1617368984641.html
+||qqfzn.com^$all
+! https://github.com/uBlockOrigin/uAssets/pull/10017
+||flash.cn^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20742,7 +20786,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 1December2021v1-Beta
+! Version: 1December2021v4-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21909,6 +21953,9 @@ $removeparam=cf_affiliate_id
 ! http://usfinf.net/-89906OKEM/1NV6?rndad=3155871133-1637879802
 $removeparam=rndad
 
+! https://www.reddit.com/r/uBlockOrigin/comments/owcag5/previously_blocked_ads_suddenly_showing_on/
+$removeparam=ad_config_id
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -21922,13 +21969,13 @@ $removeparam=cid,domain=adshares.net|apple.com|www.microsoft.com|telenor.no|pros
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
-$removeparam=ref,domain=amazon.*|deal.no|expo.io|udemy.com|reddit.com|brave.com|facebook.com|arvopaperi.fi|twitch.tv|mikrobitti.fi|tivi.fi|tekniikkatalous.fi|talouselama.fi|kauppalehti.fi|uusisuomi.fi|mediuutiset.fi|sketch.com|etsy.com|geeksforgeeks.org|hs.fi|bitwarden.com|is.fi|github.io|spiegel.de|kansanuutiset.fi|bestbuy.com|shopping.google.*|target.com|bing.com|motouutiset.fi|telsu.fi|idenati.com|blogit.fi|suomi24.fi|scandinavianphoto.fi|github.com|dell.com|audible.*|webhallen.no|imdb.com|abebooks.com|eset.com|kickstarter.com|oikotie.fi|sahkovertailu.fi|jasonsavard.com|adobe.com|wormhole.app|coop.no|buzzfeed.com|megapornfreehd.com|baidu.com|semrush.com|protonvpn.com|altcustoms.com|hintaseuranta.fi
+$removeparam=ref,domain=amazon.*|deal.no|expo.io|udemy.com|reddit.com|brave.com|facebook.com|arvopaperi.fi|twitch.tv|mikrobitti.fi|tivi.fi|tekniikkatalous.fi|talouselama.fi|kauppalehti.fi|uusisuomi.fi|mediuutiset.fi|sketch.com|etsy.com|geeksforgeeks.org|hs.fi|bitwarden.com|is.fi|github.io|spiegel.de|kansanuutiset.fi|bestbuy.com|shopping.google.*|target.com|bing.com|motouutiset.fi|telsu.fi|idenati.com|blogit.fi|suomi24.fi|scandinavianphoto.fi|github.com|dell.com|audible.*|webhallen.no|imdb.com|abebooks.com|eset.com|kickstarter.com|oikotie.fi|sahkovertailu.fi|jasonsavard.com|adobe.com|wormhole.app|coop.no|buzzfeed.com|megapornfreehd.com|baidu.com|semrush.com|protonvpn.com|altcustoms.com|hintaseuranta.fi|catch.com.au
 ! https://www.comixology.com/Scooby-Doo-1997-2010/comics-series/353?irgwc=1&tid=IR-affiliate-10451&clickid=VsxVfPSSvxyOWNfwUx0Mo38MUkiXwRwR0xWjW40 (01/03/2021)
 ! (e.g. mirrored.to, tunnistautuminen.suomi.fi)
 $removeparam=tid,domain=comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com|clickbank.net
 ! https://addons.thunderbird.net/en-GB/thunderbird/addon/mailbox-alert/?src=cb-dl-users
 ! https://twitter.com/hashtag/mlpg5?src=hashtag_click (23/04/2021)
-$removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk
+$removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk|wuzhuiso.com
 ! No particular example
 $removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|community.spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com|outnorth.fi
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
@@ -21945,6 +21992,8 @@ $removeparam=from,domain=sogou.com|baidu.com|jetbrains.com|bandcamp.com|apkpure.
 $removeparam=keyword,domain=ebay.*|bindright.com|lendgo.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1707764
 $removeparam=id,domain=go.skimresources.com|karkkainen.com
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1726383
+$removeparam=offer_id,domain=surfshark.com|catch.com.au
 
 
 !! ——— Rules for heavily covered sites ———
@@ -22478,7 +22527,7 @@ $removeparam=report_recomm_player
 ! https://github.com/DandelionSprout/adfilt/pull/386
 ||mail.qq.com/cgi-bin/frame_html?$removeparam=r
 ! https://github.com/DandelionSprout/adfilt/pull/394
-! https://m.v.qq.com/x/m/play?cid=mzc00200prv7r23&vid=&ptag=cn.bing.com%23v.index.adaptor%232
+! https://m.v.qq.com/x/m/play?cid=mzc00200prv7r23&vid=&ptag=cn.bing.com%23v.index.adaptor%232 (1/12/2021)
 ||qq.com^$removeparam=ptag
 
 !! ——— Miscellaneous ———
@@ -22837,7 +22886,6 @@ $removeparam=impression_id,domain=nytimes.com|nytimes3xbfgragh.onion
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1263630
 ||surfshark.com^$removeparam=transaction_id
-||surfshark.com^$removeparam=offer_id
 
 ! https://blackfriday.com/stores/black-friday
 $removeparam=CID,domain=burpee.com|chegg.com|express.com|farmandfleet.com|marvel.com|mcafee.com|overstock.com|pepboys.com|puritan.com|rosettastone.com|samsung.com|shutterfly.com|staples.com|teleflora.com|ulta.com|virginatlantic.com|vrbo.com|walgreens.com
@@ -23362,6 +23410,9 @@ $removeparam=mv_pc,domain=fragrancenet.com
 ! https://www.outnorth.fi/timberland/women-s-premium-6-waterproof-boot?source=hintaopas.fi&medium=productlinks&campaign=varmfodrade+k%C3%A4ngor&term=Women%27s+Premium+6&quot;+Waterproof+Boot#Black
 $removeparam=term,domain=outnorth.fi
 $removeparam=/^quot;/,domain=outnorth.fi
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1726383
+||catch.com.au^$removeparam=iv_
 
 !#if !env_mobile
 ! ——— Mobile ——— !
