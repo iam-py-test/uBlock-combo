@@ -7040,7 +7040,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2/12/2021
+! Last updated: 3/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -19745,6 +19745,19 @@ expmediadirect1.com
 ! https://github.com/uBlockOrigin/uAssets/pull/10017
 ||flash.cn^$all
 
+! https://www.virustotal.com/gui/file/1d29ecde092f21ea0dd05b9f42531be1ed2207d6ebb9b463517f4c9508ff24a7/community
+||fire.hypersys-server.com.ar^$all
+
+! https://www.virustotal.com/gui/file/25dc1c67a35ee480f36d1ec2590f935ec6c8d70eacbd95e96208374c402cac99/community
+||ecowin55.com^$all
+
+! https://www.virustotal.com/gui/file/611cf2be6752c173be1328ea47cc8ea736bc3bda9030da617390b23afa955b47/community
+||df.yollowsun.site^$all
+
+! https://www.virustotal.com/gui/file/c59a0bc3fb5029c906b4f491dfccfd5bf8aafb25db2c281dc4092e6eaa81bb53/community
+||117.194.171.13^$all
+||59.94.131.207^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -19970,7 +19983,6 @@ expmediadirect1.com
 ||members.tonightshookup.com^$all
 ||t.tonightshookup.com^$all
 ||yourladiefun.life^$all
-
 
 ! Scam and fake Roblox hacks
 ||gghacks.com^$all
@@ -20849,13 +20861,14 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 2December2021v1-Beta
+! Version: 3December2021v2-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
-! Homepage for the repository: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+! Homepage for the repository: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Opt-in allowlist for affiliate support tags: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
 ! Special thanks to https://github.com/git-101-collab for providing a 3-digit amount of new entries to this list, and to https://github.com/iam-py-test for volunteering to speed up the addition of user-submitted entries.
+! Important note: this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view params on the strict-block page to bypass it
 
 ! ——— General remove rules ——— !
 ! From AdGuard CoreLibs (11/11/2020)
@@ -23477,8 +23490,18 @@ $removeparam=/^quot;/,domain=outnorth.fi
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1726383
 ||catch.com.au^$removeparam=iv_
 
-https://www.coolshop.co.uk/product/don-one-lifestyle-tws120-black-in-ear-true-wireless-stereo-earbuds-with-charging-case/235AS7/?retailAttributionToken=ChM1OTEyOTM2MDQyNjAyNDQwOTgwEA0aI2Nvb2wtLS1yZWNfcmVjb21tZW5kZV8xNjI1MTM0MTA5NDY5Ihxjb29sdWstLS1yZWNvbW1lbmRlZC1mb3IteW91KAA
+! https://www.coolshop.co.uk/product/don-one-lifestyle-tws120-black-in-ear-true-wireless-stereo-earbuds-with-charging-case/235AS7/?retailAttributionToken=ChM1OTEyOTM2MDQyNjAyNDQwOTgwEA0aI2Nvb2wtLS1yZWNfcmVjb21tZW5kZV8xNjI1MTM0MTA5NDY5Ihxjb29sdWstLS1yZWNvbW1lbmRlZC1mb3IteW91KAA
 $removeparam=retailAttributionToken,domain=coolshop.*
+
+! https://www.bostonglobe.com/business/technology/?p1=BGHeader_MainNav
+$removeparam=p1,domain=bostonglobe.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1740327
+||verkkokauppa.com^$removeparam=list
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1740689
+||open.spotify.com^$removeparam=/\~advertising_partner_name=/i
+
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -27201,9 +27224,6 @@ kwamkidhen.com##.unselectable:style(-webkit-touch-callout: default !important; -
 
 ! altranotizia .it anti select
 altranotizia.it##+js(acis, disableSelection)
-
-! https://github.com/uBlockOrigin/uAssets/issues/7377
-theguardian.com##.site-message--banner
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/gig2vt/
 livemint.com##.subscription .paywall:style(height: unset !important; overflow: unset !important;)
