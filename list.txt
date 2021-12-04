@@ -23502,6 +23502,9 @@ $removeparam=p1,domain=bostonglobe.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1740689
 ||open.spotify.com^$removeparam=/\~advertising_partner_name=/i
 
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1746900
+||smokeyscannabislounge.com^$removeparam=_kx
+
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -29981,3 +29984,6 @@ voe.sx##+js(aeld, contextmenu)
 
 ! wpking. in f-keys
 wpking.in##+js(aeld, , Key)
+
+! ibomma. pw anti right click select copy
+ibomma.pw##+js(acis, $, contextmenu)
