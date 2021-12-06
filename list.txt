@@ -7038,7 +7038,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/12/2021
+! Last updated: 6/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -13167,7 +13167,6 @@ expmediadirect1.com
 ! contains porn
 ||pesoaniz.com^$document
 ||plarium.com^$document
-||omnatuor.com^$all
 ! Fake popups
 ||rtb-8.novitrk1.com^$all
 ||cu27t-evo29lution.xyz^$all
@@ -17422,7 +17421,6 @@ expmediadirect1.com
 ||discorb.ru.com^$document
 ||discorc-nitro.site^$document
 ||discorcd.com^$document
-||discorcd.gifts^$document
 ||discorcd.site^$document
 ||discorcl-app.com^$document
 ||discorcl-give.site^$document
@@ -19756,6 +19754,25 @@ expmediadirect1.com
 ||117.194.171.13^$all
 ||59.94.131.207^$all
 
+! https://forums.malwarebytes.com/topic/281511-malware-disables-windows-firewall-and-attempts-to-run-a-phishing-link/
+||rotf.lol^$all
+
+! https://github.com/uBlockOrigin/uAssets/pull/10774
+! https://bbs.kafan.cn/thread-2222478-1-1.html
+||a1475.com^$all
+! https://bbs.kafan.cn/thread-2221903-1-1.html
+||twitter.anlytisc.com^$all
+! https://bbs.kafan.cn/thread-2221781-1-1.html
+||shibatokenclaim.net^$all
+! https://bbs.kafan.cn/thread-2220230-1-1.html
+||ts-group.com^$all
+! https://bbs.kafan.cn/thread-2221419-1-1.html
+||2345.eyunsou.com^$all
+! https://www.huorong.cn/info/1627034201698.html
+! https://bbs.kafan.cn/thread-2217785-1-1.html
+||win.zjwhr.top^$all
+||win.xzhyl.top^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20161,6 +20178,30 @@ expmediadirect1.com
 ||chess-progress.ru^$document
 ||ouhastay.net^$all
 
+! https://forums.malwarebytes.com/topic/281514-scam-websites/
+||812138.com^$document
+||up-ada.net^$document
+||dk-video.xyz^$document
+||dj-video.xyz^$document
+||gi-video.xyz^$document
+||hj-video.xyz^$document
+||buterin21.cc^$document
+||xrpproduce.co^$document
+||wind-video.xyz^$document
+||eth-reward.org^$document
+||havmoney.xyz^$document
+||ether-coin.net^$document
+||shiba-give.live^$document
+||eth-info.fun^$document
+||coinfolio.finance^$document
+||get-safemoon.com^$document
+||ozzon-mobi-pay.com^$document
+||holiday.tll-4estlat.xyz^$document
+||holiday.tll-8essage.xyz^$document
+||holiday.skk-8ixelssc.xyz^$document
+||holiday.tll-1ncluded.xyz^$document
+||massive-play.buzz^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -20543,8 +20584,11 @@ expmediadirect1.com
 ! spyhunter is far from legit - and this company sues almost anyone (i.e. Bleeping Computer - https://blog.malwarebytes.com/security-world/2016/02/bleepingcomputer-defends-freedom-of-speech/, Malwarebytes - https://press.malwarebytes.com/2021/09/29/malwarebytes-wins-dismissal-of-enigma-lawsuit-in-final-ruling/) 
 ! https://www.mywot.com/en/scorecard/enigmasoftware.com
 ! https://github.com/gorhill/uBlock/wiki/Software-known-to-have-uninstalled-uBlock-Origin
+! https://en.wikipedia.org/wiki/SpyHunter_(software)
 ||www.enigmasoftware.com^$document
 ||enigmasoftware.com^$document
+||spyhunter.com^$document
+||www.spyhunter.com^$document
 
 ! https://scammer.info/t/2-spyware-com-is-a-fake-technical-website/69836
 ! promotes known PUPs i.e. Reimage, Spyhunter as 'solutions'. Better yet, they say ' you cannot remove every virus with only one security tool [...]  After trying Reimage, you should also run a free SpyHunter scanner'. Twice the PUPs, twice the fun?
@@ -20566,6 +20610,9 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/088cbcec6b80eba99eb691968e0f972935aae301e9cb6d1c6133699530dd5621/community
 ||secure-browser.io^$document
 ||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
+
+! https://www.virustotal.com/gui/file/675a72bb2b3ea39beafc73e8faf31b85b58b0dcc169b10649d5f49341936a379?nocache=1
+||dll-helper.en.softonic.com^$document
 
 ! ----- Spam -----
 
