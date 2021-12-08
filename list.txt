@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 07December2021v1-Beta
+! Version: 08December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1708,6 +1708,15 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://scammer.info/t/fake-facebook-login-page/84939
 ||royyer.us/R8cWuvQjhtM^$all
 ||coperola.blob.core.windows.net^$all
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-988127908
+! https://www.tek.no/i/lVeQAe/
+! https://www.nkom.no/aktuelt/ikke-trykk-pa-lenker-i-sms--for-du-er-helt-sikker/
+||eccolabgroup.com^$all
+||galerijajava.ba^$all
+||hfyjbk.ml^$all
+||p-stn.net^$all
+! https://borsen.dagbladet.no/74020239/
+||poetic-selection.flywheelsites.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7045,7 +7054,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 7/12/2021
+! Last updated: 8/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -15922,6 +15931,8 @@ expmediadirect1.com
 ||seizefile.net/247186^$all
 ||clean-protection.xyz^$all
 ||festinus.xyz^$document
+||apkhackz.com^$document
+||2.xsxjtt.vip^$document
 
 ! https://www.virustotal.com/gui/file/d9b62fbea306108718fa0aff46b8fef9831c420fab644e76ea1b95abd6d837f8/community
 ! the password for the RAR file is 111 - the exe inside: https://www.virustotal.com/gui/file/0218dd62759681af9aa77bfbd8f43af8de695b7426bb74aecdcd9f25ee53f3da
@@ -17208,7 +17219,7 @@ expmediadirect1.com
 ||27.213.60.53^$all
 ||115.56.169.134^$all
 
-! https://github.com/DevSpen/links/blob/master/src/links.txt
+! copied from https://github.com/DevSpen/links/blob/master/src/links.txt
 ||101nitro.com^$document
 ||2021y.ru^$document
 ||2022yg.com^$document
@@ -17352,6 +17363,7 @@ expmediadirect1.com
 ||dicsord-give.com^$document
 ||dicsord-nitro.com^$document
 ||dicsord.gifts^$document
+||dicsord.gifts.ru^$document
 ||dicsord.net^$document
 ||dicsord.pl^$document
 ||dicsord.pw^$document
@@ -17368,6 +17380,7 @@ expmediadirect1.com
 ||diiscordapp.com^$document
 ||diisscord.club^$document
 ||dijscord.com^$document
+||dilscord.com^$document
 ||dircode.ru^$document
 ||dirolzz.xyz^$document
 ||dirscod.com^$document
@@ -17384,6 +17397,7 @@ expmediadirect1.com
 ||discard.xyz^$document
 ||disccor.com^$document
 ||disccord.ru^$document
+||disccord-gift.com^$document
 ||discford.com^$document
 ||discird.gg^$document
 ||disclord.com^$document
@@ -17394,6 +17408,7 @@ expmediadirect1.com
 ||discoard.com^$document
 ||discocl.xyz^$document
 ||discocord.com^$document
+||discocrd-gifts.com^$document
 ||discocrd.com^$document
 ||discocrd.gifts^$document
 ||discod.art^$document
@@ -17497,7 +17512,6 @@ expmediadirect1.com
 ||discord-gifts.me^$document
 ||discord-gifts.org^$document
 ||discord-gifts.site^$document
-||discord-give.com^$document
 ||discord-give.org^$document
 ||discord-give.ru^$document
 ||discord-give.ru.com^$document
@@ -17521,6 +17535,7 @@ expmediadirect1.com
 ||discord-nitr0gift.fun^$document
 ||discord-nitro-free.ru^$document
 ||discord-nitro-free.xyz^$document
+||discord-nitrogift.com^$document
 ||discord-nitro.click^$document
 ||discord-nitro.club^$document
 ||discord-nitro.co^$document
@@ -17622,7 +17637,7 @@ expmediadirect1.com
 ||discordbothost.com^$document
 ||discordbotist.com^$document
 ||discordbots.app^$document
-||discordc.gift^$all
+||discordc.gift^$document
 ||discordcanary.com^$document
 ||discordcommunlty.com^$document
 ||discordcreators.net^$document
@@ -17636,6 +17651,7 @@ expmediadirect1.com
 ||discordf.com^$document
 ||discordf.gift^$document
 ||discordfrnitro.site^$document
+||discordg.link^$document
 ||discordgame.com^$document
 ||discordgamers.co.uk^$document
 ||discordgg.com^$document
@@ -17675,7 +17691,6 @@ expmediadirect1.com
 ||discordme.me^$document
 ||discordn.gift^$document
 ||discordnitro-gift.com^$document
-||discordnitro-steam.ru^$document
 ||discordnitro.altervista.org^$document
 ||discordnitro.click^$document
 ||discordnitro.club^$document
@@ -17789,6 +17804,7 @@ expmediadirect1.com
 ||disscord.ru^$document
 ||disscords.club^$document
 ||dissord.com^$document
+||dissord.gift ^$document
 ||dissord.ru^$document
 ||diswcord.com^$document
 ||disxord.com^$document
@@ -17804,8 +17820,10 @@ expmediadirect1.com
 ||dliscord-gift.ru.com^$document
 ||dliscord-glft.ru.com^$document
 ||dliscord-nitro.com^$document
+||dliscord.gift^$document
 ||dliscord.us^$document
 ||dliscrd.one^$document
+||dlsccord-app.com^$document
 ||dlsccord-apps.club^$document
 ||dlsccrd.com^$document
 ||dlscocrdapp.com^$document
@@ -17820,6 +17838,7 @@ expmediadirect1.com
 ||dlscord-nitro.info^$document
 ||dlscord-nitro.ru.com^$document
 ||dlscord-nltro.com^$document
+||dlscord-store.club^$document
 ||dlscord.app^$document
 ||dlscord.blog^$document
 ||dlscord.cc^$document
@@ -17845,6 +17864,7 @@ expmediadirect1.com
 ||dlscord.wiki^$document
 ||dlscord.work^$document
 ||dlscord.world^$document
+||dlscord-main.ru.com^$document
 ||dlscordapp.codes^$document
 ||dlscordgift.com^$document
 ||dlscordgived.xyz^$document
@@ -17854,7 +17874,9 @@ expmediadirect1.com
 ||dlscordnitro.info^$document
 ||dlscordnitro.ru.com^$document
 ||dlscordnitro.store^$document
+||dlscords.gifts^$document
 ||dlscordsream.pp.ua^$document
+||dlsscord-apps.club^$document
 ||dogewarrior-giveaway.info^$document
 ||doscord.com^$document
 ||dragonary-giveaway.info^$document
@@ -20216,6 +20238,36 @@ expmediadirect1.com
 ||holiday.tll-1ncluded.xyz^$document
 ||massive-play.buzz^$document
 
+! https://github.com/uBlockOrigin/uAssets/pull/10804
+! https://bbs.kafan.cn/thread-2221500-1-1.html
+||88btbtt.com^$all
+||musmentportal.com^$all
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-988127908
+! https://www.tek.no/i/lVeQAe/
+! https://www.nkom.no/aktuelt/ikke-trykk-pa-lenker-i-sms--for-du-er-helt-sikker/
+||eccolabgroup.com^$all
+||galerijajava.ba^$all
+||hfyjbk.ml^$all
+||p-stn.net^$all
+! https://borsen.dagbladet.no/74020239/
+||poetic-selection.flywheelsites.com^$all
+
+! https://github.com/uBlockOrigin/uAssets/commit/623de1e06d5d6061f51381af8bf133647cf2283b#commitcomment-61561818
+||money02game.site^$all
+||money03game.site^$all
+
+! scam dating sites
+||casualdating.com^$document
+||www.iflirts.com^$document
+||iflirts.com^$document
+
+! fake notification scams
+||ourcoolstories.com^$all
+||javsidblog.com^$document
+||link-split.com/view/tnAhAq30D4^$document
+||cagothie.net^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -20666,7 +20718,7 @@ expmediadirect1.com
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 6/11/2021
+! Last updated: 8/12/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -20917,6 +20969,7 @@ googmeanalytics.com$document
 pay-pal.club$document
 tw1tch.info$document
 cioubfiare.com$document
+||exampe.com^$document
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
 cdn.cookieslaw.org$all
@@ -20924,7 +20977,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 07December2021v1-Beta
+! Version: 08December2021v1-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23181,7 +23234,7 @@ $removeparam=site_refer,domain=saksfifthavenue.com|saksoff5th.com
 ||sn.dk^$removeparam=rss
 
 ! https://www.masku.com/tuotteet/393766-smart-tyopoyta/?nosto=productpage-nosto-2&conf%5B1153%5D=10427&conf%5B2651%5D=10771
-$removeparam=nosto,domain=masku.com|staypro.fi
+$removeparam=nosto,domain=masku.com|staypro.fi|happyangler.fi
 
 ! https://scontent.cdninstagram.com/v/t50.2886-16/228280186_4462339507137399_6165083647713647040_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5zdG9yeS5kZWZhdWx0In0&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_ohc=nL_7kCFHgrcAX-HT6F1&edm=AOVtZ6oBAAAA&vs=17895914579221456_1489520608&_nc_vs=HBksFQAYJEdIcEhtdzEzcXpCaGVkb1BBTUNaaXVEcHhvNVZidXFIQUFBQRUAAsgBABUAGCRHTVdiZFE2Z2ZIa3dVWFVBQUtNZXdSNFhTQ2NSYnBrd0FBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACbCkMnRj5zWPxUCKAJDMywXQCREGJN0vGoYEmRhc2hfYmFzZWxpbmVfM192MREAdegHAA%3D%3D&ccb=7-4&oe=614B0BE1&oh=22849edcbcdb1949e3f0cbde56ddd89b&_nc_vts_prog=1&dl=1
 ||cdninstagram.com^$removeparam=ccb
@@ -23591,6 +23644,9 @@ $removeparam=ct,domain=bumble.com
 
 ! https://www.savagex.com/shop/savage-x-smoking-jacket-sq2149163-6212-12096199?psrc=browse_men_sleep
 $removeparam=psrc,domain=savagex.com
+
+! https://www.voosestore.com/fi/drones/dji/dji-mavic/dji-mavic-mini/dji-mini-2-fly-more-combo?ref_lp=prisjakt
+$removeparam=ref_lp,domain=voosestore.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
