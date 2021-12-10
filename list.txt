@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 09December2021v1-Beta
+! Version: 10December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -27,12 +27,13 @@
 ||cf^$doc,domain=~google.cf|~rths.cf|~voitures.cf|~assembleenationale-rca.cf|~cps-rca.cf|~acap.cf|~miraculousladybug.cf|~scrat.cf
 ! Palau
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw
+! Legitimate use is almost non-existent, but has a tiny userbase in Japan
+||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$doc
 ||agency^$doc
 ||gdn^$doc
 ||bid^$doc
-||top^$doc,domain=~corriente.top|~gdtot.top
 ||ooo^$doc
 
 !#if !env_mobile
@@ -47,7 +48,7 @@ www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"])
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"]))
 
 ! ——— You know those ultra-fraudulent auto-generated things that clutter up Google searches? These entries should remove some of them. ———
 www.google.*##.g:has(a[href*=".php?xxx="])
@@ -68,7 +69,7 @@ www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 !#endif
@@ -84,7 +85,7 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([data-domain$="corriente.top"], [data-domain$="gdtot.top"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"])
 
 ! ——— For Bing ———
 bing.com##.b_algo:has(a[href*=".tk/"]:not([href*="coolcmd.tk"], [href*="budterence.tk"], [href*="google.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="anonytext.tk"], [href*="tokelau-info.tk"], [href*="fakaofo.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="coppersurfer.tk"], [href*="restricted-functions.tk"], [href*="nbd-media.tk"], [href*="bstweaker.tk"], [href*="gotofap.tk"], [href*="somepythonthings.tk"]))
@@ -97,7 +98,7 @@ bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"])
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"]))
 
 ! ——— Old dead tech-related domains ———
 ! Domains that used to host lists for adblockers or "hosts" tools, but which are now either used by malware pushers, or could potentially be snapped up by them.
@@ -7054,7 +7055,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 8/12/2021
+! Last updated: 9/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -19808,6 +19809,155 @@ expmediadirect1.com
 
 ! https://twitter.com/Cryptolaemus1/status/1468266929014157316
 ||lartmana.com^$all
+
+! https://github.com/blocklistproject/Lists/issues/588
+||procrackerz.org^$all
+||freeprosoftz.com^$all
+||pccrackbox.com^$all
+||365crack.com^$all
+||pclicensekeys.com^$all
+||cracklabel.com^$all
+||keystool.com^$all
+||aglianicodelvulture.eu^$all
+||pcwarezbox.com^$all
+||installcracks.com^$all
+||10crack.com^$all
+||licensekey4u.co^$all
+||reallcrack.com^$all
+||hit4crack.com^$all
+||crackproductkey.com^$all
+||profullversion.com^$all
+||vcracks.com^$all
+||keysfull.net^$all
+||naqeebicrack.com^$all
+||allcracks.org^$all
+||crackswall.com^$all
+||crackthere.com^$all
+||crackpcsoft.net^$all
+||a2zp30.net^$all
+||crackserialkey.co^$all
+||keygenfile.net^$all
+||alicracks.com^$all
+||maliksofts.com^$all
+||proappcrack.com^$all
+||flstudiocrack.org^$all
+||scracked.com^$all
+||crackpropc.com^$all
+||crackwinz.com^$all
+||cyberspc.com^$all
+||crackedpcs.com^$all
+||softzcrack.com^$all
+||ayeshapc.com^$all
+||crackshome.org^$all
+||crackintopc.com^$all
+||crackzoo.net^$all
+||crackhomes.com^$all
+||zslicensekey.com^$all
+||cracksmad.com^$all
+||iamactivator.com^$all
+||crackproduct.com^$all
+||excrack.com^$all
+||mahcrack.com^$all
+||get4pcs.com^$all
+||genuineactivator.com^$all
+||keygenwin.com^$all
+||thiscrack.com^$all
+||crackedroot.com^$all
+||crackspro.co^$all
+||topcracked.com^$all
+||mycrackfree.com^$all
+||cracksoftwareguru.com^$all
+||crackfullpro.com^$all
+||starcrack.net^$all
+||procrackpc.com^$all
+||crackknow.com^$all
+||cracxpro.com^$all
+||crackpro.org^$all
+||4howcrack.com^$all
+||crackshere.com^$all
+||crackdj.com^$all
+||procrackpc.com^$all
+||cracksray.com^$all
+||crackkits.com^$all
+||trycracksoftware.com^$all
+||fullcrackedpc.com^$all
+||cracktopc.com^$all
+||filepapa.com^$all
+||crackkey4u.com^$all
+||cyberspc.com^$all
+||rootcracks.org^$all
+||getproductkey.co^$all
+||idmfullcrack.info^$all
+||fileserialkey.com^$all
+||licensekeyup.com^$all
+||thecrackbox.com^$all
+||rootcracks.co^$all
+||proactivationkey.com^$all
+||cracksway.com^$all
+||clevercracks.com^$all
+||shahzifpc.com^$all
+||idmpatched.com^$all
+||getprocrack.co^$all
+||allpcsoftcrack.co^$all
+||autocracking.com^$all
+||macwinsofts.com^$all
+||productkeyfree.org^$all
+||crackwatch.org^$all
+||chcracked.com^$all
+||cracksdat.com^$all
+||patchcracks.com^$all
+||activationkeys.co^$all
+||serialsofts.com^$all
+||piratpc.com^$all
+||bulletcracks.com^$all
+||prosoftlink.com^$all
+||cracksole.com^$all
+||finalcracked.com^$all
+||activatorpros.com^$all
+||organiccrack.com^$all
+||zscracked.com^$all
+||miraclecrack.com^$all
+||abbaspc.org^$all
+||allsoftwarekeys.com^$all
+||genuineserials.com^$all
+||pfcbwp.com^$all
+||softwar2crack.com^$all
+||xforce-cracks.com^$all
+||procracks.net^$all
+||productkeyforfree.com^$all
+||crackgrid.com^$all
+||licensekeysfree.com^$all
+||goharpc.com^$all
+||crackedmod.com^$all
+||crackvip.com^$all
+||crackedpc.org^$all
+||activatorwin.com^$all
+||whitecracked.com^$all
+||softwarance.com^$all
+||kalicrack.com^$all
+||pcactivationkey.co^$all
+||bypassapp.com^$all
+||ziapc.org^$all
+||zgamespc.com^$all
+||cracksoon.com^$all
+||boxcracked.com^$all
+||procrackkey.co^$all
+||activationkey.org^$all
+||mjcracks.co^$all
+||newproductkey.com^$all
+||protoolscrack.net^$all
+||download4mac.com^$all
+||serialkeypatch.org^$all
+||premiumsforum.com^$all
+||profreefiles.com^$all
+||fileprosoft.com^$all
+||filespremium.com^$all
+||newfreefiles.com^$all
+||yfghfg.xyz^$all
+||ujghjgf.xyz^$all
+||gjfggj.xyz^$all
+||hjygd6.xyz^$all
+||gjhvjgh.xyz^$all
 
 ! ----- Scams -----
 
