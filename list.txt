@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 10December2021v1-Beta
+! Version: 13December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1718,6 +1718,17 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||p-stn.net^$all
 ! https://borsen.dagbladet.no/74020239/
 ||poetic-selection.flywheelsites.com^$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/12/13/1.md
+||haxpc.net^$all
+||meonenlist.xyz^$document
+||nogrono.xyz^$document
+||52.53.243.52^$all
+||hrutruthe.xyz^$document
+||34.201.22.10^$all
+! https://github.com/iam-py-test/investigations/blob/main/2021/12/12/1.md
+||advisorsfox.onlineenglishteacher.co^$all
+||visamo.info^$document
+||impsus.info^$document
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7055,7 +7066,7 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 12/12/2021
+! Last updated: 13/12/2021
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -19981,6 +19992,18 @@ expmediadirect1.com
 ||49.158.204.118^$all
 ||70.49.85.35^$all
 
+! https://github.com/iam-py-test/investigations/blob/main/2021/12/13/1.md
+||haxpc.net^$all
+||meonenlist.xyz^$document
+||nogrono.xyz^$document
+||52.53.243.52^$all
+||hrutruthe.xyz^$document
+||34.201.22.10^$all
+
+! https://twitter.com/Max_Mal_/status/1470107440268161030
+||87.251.85.100^$all
+||5.182.206.13^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21181,7 +21204,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 12December2021v2-Beta
+! Version: 13December2021v1-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21680,7 +21703,7 @@ $removeparam=affname
 $removeparam=MID
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$~xmlhttprequest,removeparam=eid,domain=~howlongtobeat.com
+$~xmlhttprequest,removeparam=eid,domain=~howlongtobeat.com|~activationspot.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
