@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 15December2021v1-Beta
+! Version: 17December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1695,7 +1695,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/uBlockOrigin/uAssets/pull/10017
 ||flash.cn^$all
 ! https://www.nrk.no/vestfoldogtelemark/1.15750360
-||cargo.site^$all
 ||dundeehills.group^$all
 !+ NOT_OPTIMIZED
 ||132.148.220.142^$doc
@@ -20000,6 +19999,9 @@ expmediadirect1.com
 ||drive.google.com/file/d/1lvkYzenTwpcsl7vjsbds1J7MKSFxv-4D/view^$document
 ||doc-0s-6k-docs.googleusercontent.com/docs/securesc/rfercc3a76jeult4d0h2382iop9rvhs7/bkokfcop5q4c5nh6ab7ua8fqrvfhqbut/1639701150000/13045886741651917350/15048584419024227515Z/1lvkYzenTwpcsl7vjsbds1J7MKSFxv-4D?e=download&nonce=m87re19eg7bia&user=15048584419024227515Z&hash=e46r3l57308v862803q96485oi1sd2jp^$all
 
+! https://twitter.com/Max_Mal_/status/1471844088265719817
+||sabitblog.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21304,7 +21306,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 16December2021v2-Beta
+! Version: 17December2021v2-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -21312,8 +21314,8 @@ cookieslaw.org$doc
 ! Opt-in allowlist for affiliate support tags: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
 ! Special thanks to https://github.com/git-101-collab for providing a 3-digit amount of new entries to this list, and to https://github.com/iam-py-test for volunteering to speed up the addition of user-submitted entries.
 ! Important notes: 
-! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view params on the strict-block page to bypass it
-! - this list can not remove anything after the # in urls. This is impossible in uBlock Origin and AdGuard
+! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view params on the strict-block page to bypass it.
+! - this list can not remove anything after the # in URLs. This is impossible in uBlock Origin and AdGuard.
 
 ! ——— General remove rules ——— !
 ! From AdGuard CoreLibs (11/11/2020)
@@ -22525,6 +22527,18 @@ $removeparam=ig_mid
 ! https://elisa.fi/elisaviihdeviaplay_tarjous_special/?as_src=Adservice&coid=1699175824&asclid=MTAwX1NhbHRlZF9fLXpGmTHfwbt11Fsdn-leYukWwL1d9ffZGFyb0VCyataePmmqf_jm6w
 $removeparam=asclid
 
+! https://www.bilhusnord.dk/biler/mazda-6-22-skyactiv-d-150-core-stc-5d/?au_advert_id=5929935&au_car_id=3714165
+$removeparam=au_advert_id
+$removeparam=au_car_id
+
+! https://www.therapynotes.com/?ads_adid=1265538169813845&ads_cmpid=61629691&ads_creative=&ads_matchtype=b&ads_network=a&ads_targetid=kwd-79096310709876%3Aloc-190&ttv=2
+$removeparam=ads_adid
+$removeparam=ads_cmpid
+$removeparam=ads_creative
+$removeparam=ads_matchtype
+$removeparam=ads_network
+$removeparam=ads_targetid
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -22720,6 +22734,8 @@ $removeparam=device,domain=ebay.*
 $removeparam=cmpgn,domain=ebay.*
 ! https://www.ebay.com/itm/265272975304?LH_BIN=1
 ||ebay.*/itm/$removeparam=LH_BIN
+! https://www.ebay.es/itm/313545659728?rpp_cid=61a98c608d080d0465e9035f&siteid=186
+$removeparam=rpp_cid
 
 !!! ——— Facebook ———
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/157
@@ -23388,7 +23404,7 @@ $removeparam=tracker,domain=dustdeal.nl|batteryupgrade.*
 ||dell.com^$removeparam=VEN1
 ||dell.com^$removeparam=nclid
 ||dell.com^$removeparam=gacd
-$removeparam=ref_id,domain=expedia.com|intuit.com
+$removeparam=ref_id,domain=expedia.com|intuit.com|tunnelbear.com
 ||expedia.com^$removeparam=my_ad
 ||gamestop.com^$removeparam=sourceID
 
@@ -23485,7 +23501,7 @@ $removeparam=publishername,domain=vistaprint.com
 $removeparam=PublisherSID,domain=gucci.com
 $removeparam=pzid,domain=emirates.com
 $removeparam=/^refID=/i,domain=allmodern.com|calphalon.com|priceline.com|wayfair.*|yankeecandle.com
-$removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|gap.com|barenecessities.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|elfcosmetics.*|famousfootwear.com|finishline.com|freetaxusa.com|gapcanada.ca|hanes.com|hotwire.com|hulu.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|loft.com|magazines.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|radissonhotelsamericas.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com|barrons.com|marketwatch.com|hunterboots.com|gucci.com|online4baby.com
+$removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|gap.com|barenecessities.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|elfcosmetics.*|famousfootwear.com|finishline.com|freetaxusa.com|gapcanada.ca|hanes.com|hotwire.com|hulu.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|loft.com|magazines.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|radissonhotelsamericas.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com|barrons.com|marketwatch.com|hunterboots.com|gucci.com|online4baby.com|ebay.*
 $removeparam=/^srcCode=/i,domain=jcrew.com|magellans.com|teleflora.com|tigerdirect.com
 $removeparam=scd,domain=ashleystewart.com
 
@@ -24061,6 +24077,17 @@ $removeparam=ref_lp,domain=voosestore.com
 
 ! https://www.lenovo.com/us/en/c/laptops/thinkpad?orgRef=https%253A%252F%252Fduckduckgo.com%252F
 $removeparam=orgRef,domain=lenovo.com
+
+! https://chollometro.digidip.net/visit?url=https%3A%2F%2Fwww.ebay.es%2Fitm%2F313545659728%3Fhash%3Ditem4900c71550%25253Ag%25253AefQAAOSwM%25257EBhkcpH%26_trkparms%3D%26rpp_cid%3D61a98c608d080d0465e9035f&ppref=https%3A%2F%2Fwww.chollometro.com%2Fcupones%2Febay.es
+$removeparam=ppref,domain=digidip.net
+
+! https://www.dhgate.com/product/global-version-xiaomi-mi-11t-4g-8gb-128gb/740400510.html?f=bda%7Ccontent%7Cchollometro%7Cdeals
+$removeparam=f,domain=dhgate.com
+
+! https://www.cyberghostvpn.com/en_US/offer/xmas?brand=vpnMentor&coupon=3Y3M
+! https://safe.cyberghostvpn.com/en_US/xmas?lp=flashdevices&coupon=3Y3M&media_source=CJ_affiliates&channel=External LPs
+$removeparam=brand,domain=cyberghostvpn.com|privateinternetaccess.com
+$removeparam=media_source,domain=cyberghostvpn.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
