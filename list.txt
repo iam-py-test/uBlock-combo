@@ -20693,6 +20693,9 @@ expmediadirect1.com
 ! pretty sure this is a porn scam
 ||www.carnalcams.com^$document
 ||carnalcams.com^$document
+! the register form doesn't do anything after entering data, just redirect back to the start
+||fbookhookups.com^$document
+||fuckpal.com^$document
 
 ! ----- PUPs -----
 
@@ -30704,3 +30707,19 @@ cafago.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10951
 tvzingvn.com##+js(acis, onload, contextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10988
+zgywyd.cn##+js(acis, document.oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10986
+wenku.baidu.com##+js(aeld, /contextmenu|dragstart|keydown/, event.dispatch.apply)
+||hm.baidu.com/hm.js
+
+! https://github.com/uBlockOrigin/uAssets/issues/10976
+dhd24.com#@#.adunit  
+
+! https://github.com/uBlockOrigin/uAssets/issues/10982
+||jianbiaoku.com/content/js/copyFun.js$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/10984
+yuque.com##+js(aeld, copy)
