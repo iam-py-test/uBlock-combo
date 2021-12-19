@@ -20632,6 +20632,10 @@ expmediadirect1.com
 ||qilihi.correctwantserve.top^$all
 ||hunterrandom.latabledusanglier.com^$all
 ||insload.bainisgaingeals.com^$document
+||viahunter.lafabricagourmet.co^$document
+||findes.co^$document
+||vitafox.findes.co^$document
+||ooload.qualitywatches.co^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/14/2.md
 ||quizhunter.simplifiedstrategy.co^$all
@@ -21416,7 +21420,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 18December2021v3-Beta
+! Version: 19December2021v1-Beta
 ! Expires: 2 days
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24201,6 +24205,11 @@ $removeparam=f,domain=dhgate.com
 ! https://safe.cyberghostvpn.com/en_US/xmas?lp=flashdevices&coupon=3Y3M&media_source=CJ_affiliates&channel=External LPs
 $removeparam=brand,domain=cyberghostvpn.com|privateinternetaccess.com
 $removeparam=media_source,domain=cyberghostvpn.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/10995
+||zhihu.com^$removeparam=search_source
+||zhihu.com^$removeparam=hybrid_search_source
+||zhihu.com^$removeparam=hybrid_search_extra
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -30226,7 +30235,7 @@ moegirl.org.cn##+js(aeld, copy, jQuery!=="undefined")
 hentainhaven.com##body > .text-center[style="color:white; font-size:16px;"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9620
-zhihu.com##+js(aeld, copy, [native code])
+zhihu.com##+js(aeld, /contextmenu|copy/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9622
 masuit.com##+js(aopr, document.oncontextmenu)
@@ -30708,6 +30717,12 @@ cafago.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 ! https://github.com/uBlockOrigin/uAssets/issues/10951
 tvzingvn.com##+js(acis, onload, contextmenu)
 
+! https://github.com/uBlockOrigin/uAssets/pull/10979
+||4399.com/antijs/Antiindulgence.js
+
+! https://github.com/uBlockOrigin/uAssets/pull/10987
+mbalib.com##+js(aeld, /copy|cut|paste|selectstart/)
+
 ! https://github.com/uBlockOrigin/uAssets/issues/10988
 zgywyd.cn##+js(acis, document.oncontextmenu)
 
@@ -30723,3 +30738,7 @@ dhd24.com#@#.adunit
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10984
 yuque.com##+js(aeld, copy)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/103536
+otomobilgunluklerim.com##.adblockalert
+otomobilgunluklerim.com##.ad_block_detected:style(overflow: auto !important;)
