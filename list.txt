@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 20December2021v1-Beta
+! Version: 21December2021v2-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -242,6 +242,10 @@ howtoremove.guide#?#.entry-content > div:-abp-contains(Special Offer)
 ! https://www.2-spyware.com/remove-redirector-gvt1-com.html
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list_w > .ar_block_description
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk#?#a:-abp-contains(SpyHunter)
+virusresearch.org##.virus-before-content
+virusresearch.org##.q2w3-fixed-widget-container
+virusresearch.org##.virus-after-fourth-h2
+virusresearch.org##.virus-after-content
 ! ¤¤¤ Restoro  ¤¤¤
 ! https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
 windowsdispatch.com##strong
@@ -1749,6 +1753,11 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||dgu9g3a2kzqx2.cloudfront.net^$doc,frame
 ||d13pxqgp3ixdbh.cloudfront.net^$doc,frame
 ||systemupdatecontrol.com^$all
+! https://bazaar.abuse.ch/sample/357226dff2f3309f8271b5a7c2cc816aa8fb779275357dce9b98b30357951210/
+||mozicrack.com^$all
+||download-srvr.xyz^$all
+||134.122.115.190^$all
+||cybermicto768jubileejhsye6yt6543.s3.us-east-1.amazonaws.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7085,8 +7094,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 20/12/2021
-! Version: 20122021-2
+! Last updated: 21/12/2021
+! Version: 21122021-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -17097,9 +17106,6 @@ expmediadirect1.com
 ||mature-periwinkle-advantage.glitch.me^$all
 ||tough-numerous-lemur.glitch.me^$all
 
-! https://scammer.info/t/mcafee-phish/83725
-||securefirst.us-east-1.linodeobjects.com^$all
-
 ! https://scammer.info/t/scam-bots-are-invading-g4-tvs-discord-server/83802
 ||steamdocsoffers.xyz^$all
 
@@ -20017,6 +20023,12 @@ expmediadirect1.com
 ||jinshanduba.org.cn^$all
 ||phpstat.cntcm.com.cn/phpstat/count/abceffgh/abceffgh.js^$all
 
+! https://bazaar.abuse.ch/sample/357226dff2f3309f8271b5a7c2cc816aa8fb779275357dce9b98b30357951210/
+||mozicrack.com^$all
+||download-srvr.xyz^$all
+||134.122.115.190^$all
+||cybermicto768jubileejhsye6yt6543.s3.us-east-1.amazonaws.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20562,7 +20574,7 @@ expmediadirect1.com
 ||blacknumbers.co^$document
 ||hunterbid.exacad.co^$document
 ||songlos.com^$document
-||lorweo.info^$document
+||lorweo.info^$all
 ||royaltees.co^$all
 ||correctwantserve.top^$document
 ||qilihi.correctwantserve.top^$all
@@ -20572,6 +20584,12 @@ expmediadirect1.com
 ||findes.co^$document
 ||vitafox.findes.co^$document
 ||ooload.qualitywatches.co^$document
+||locatorblog.sukabumitoday.co^$all
+||sukabumitoday.co^$document
+||glofwy.sugarfinehot.top^$document
+||supersong.nl/upload/6277.rar^$all
+||nlnvan.garydouglasnewell.co^$all
+||garydouglasnewell.co^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/14/2.md
 ||quizhunter.simplifiedstrategy.co^$all
@@ -20681,6 +20699,11 @@ expmediadirect1.com
 
 ! possible Tech Support Scam
 ||installmysecurity.com^$document
+
+! "press allow to continue"
+||shortnewsinfo.com^$document
+! https://scammer.info/t/mcafee-phish/83725
+||securefirst.us-east-1.linodeobjects.com^$all
 
 ! ----- PUPs -----
 
@@ -21464,8 +21487,8 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 20December2021v1-Beta
-! Expires: 2 days
+! Version: 21December2021v2-Beta
+! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
 ! Homepage for the repository: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -21924,7 +21947,8 @@ $removeparam=_source_page
 $removeparam=vfadid
 
 ! https://www.washingtonpost.com/gdpr-consent/?next_url=https%3a%2f%2fwww.washingtonpost.com%2fworld%2f2021%2f06%2f29%2fcanada-heat-dome-deaths%2f%3foutputType%3damp&outputType=amp
-&outputType=amp^$removeparam=outputType
+! https://www.boston25news.com/news/local/new-england-lab-finds-cancer-causing-chemical-hand-sanitizer/BUZA6F54ZFBQ5MMG2JV2VLFY3Y/?outputType=amp
+$removeparam=/^outputType=amp$/
 
 ! https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fduckduckgo.com%2F
 $removeparam=orig_referrer
@@ -22102,20 +22126,20 @@ $removeparam=impradname
 $removeparam=cm_type
 
 ! https://www.roku.com/products/roku-ultra?Ref=CJ
-^ref=cj^$removeparam=/^ref=/i
+$removeparam=/^ref=cj$/i
 
 ! https://newyorkcomedyclub.com/?ref=awin
-^ref=awin^$removeparam=ref
+$removeparam=/^ref=awin$/
 
 ! https://untilgone.com/products/usps-forever-stamps-2018-or-2019-u-s-flag-100-pack.html?source=pepperjam
-^source=pepperjam^$removeparam=source
+$removeparam=/^source=pepperjam$/
 
 ! https://www.hawaiianairlines.com/?AID=11302693&PID=8905582&source=cj&HACMP=CJ_8905582FlexOffers.com%2C+LLC
-^source=cj^$removeparam=source
+$removeparam=/^source=cj$/
 $removeparam=HACMP
 
 ! https://www.jet2holidays.com/?source=AWIN
-^source=awin^$removeparam=source
+$removeparam=/^source=awin$/i
 
 ! https://us.myprotein.com/?affil=awin
 $removeparam=affil
@@ -22205,7 +22229,7 @@ $removeparam=ad_id
 $removeparam=affSource
 
 ! https://www.nflshop.com/?_s=afl_impact
-^_s=afl_impact^$removeparam=_s
+$removeparam=/^_s=afl_impact$/
 
 ! https://www.la-z-boy.com/?cid_medium=affiliate&cid_campaign=8807380
 $removeparam=/^cid_/
@@ -22334,8 +22358,8 @@ $removeparam=_vsrefdom
 
 ! https://github.com/ClearURLs/Addon/issues/108
 $removeparam=ceneo_spo
-^from=ceneo^$removeparam=from
-^ref=ceneo^$removeparam=ref
+$removeparam=/^from=ceneo$/
+$removeparam=/^ref=ceneo$/
 
 ! https://www.drip.com/learn/docs/manual/email-builder/suppress-__s-from-rendered-links
 $removeparam=__s
@@ -22412,35 +22436,35 @@ $removeparam=CSID
 $removeparam=kpartnerid
 
 ! https://www.lifeextension.com/lab-testing/itemlc167015/apolipoprotein-b-blood-test?source=connexity&cnxclid=16357131459502835009610090302008005
-^source=connexity^$removeparam=source
+$removeparam=/^source=connexity$/
 $removeparam=cnxclid
 
 ! https://www.laptopsdirect.co.uk/dji-pocket-2-phone-clip-cp.os.00000128.01/version.asp?refsource=webgains
-^refsource=webgains^$removeparam=refsource
+$removeparam=/^refsource=webgains$/
 
 ! https://www.picstop.co.uk/all-celestron-telescopes/celestron-astromaster-70az-refractor-with-phone-adapter-moon-filter.html?source=webgains&siteid=57172
-^source=webgains^$removeparam=source
+$removeparam=/^source=webgains$/
 
 ! https://www.kids-world.dk/fila-skuldertaske-phone-pods-wallet-sort-p-228122.html?source=tradedoubler
-^source=tradedoubler^$removeparam=source
+$removeparam=/^source=tradedoubler$/
 
 ! https://www.online4baby.com/hauck-sit-n-relax-3-in-1-highchair-stretch-grey?siteid=57172&network=Webgains
-^network=Webgains^$removeparam=network
+$removeparam=/^network=webgains$/i
 
 ! https://www.ssense.com/en-gb/women/product/balenciaga/blue-shopping-phone-holder-bag/6754521?clickref=1100liwW6M5R&ref=kelkoogb
 ! https://www.peterhahn.dk/peter-hahn-buks-i-100-bomuld-sort-265728.html?campaign=Preissuchmaschinen/kelkoo (DK)/265728/265728360&ref=kelkoodk
-^ref=kelkoo$removeparam=ref
+$removeparam=/^ref=kelkoo/
 
 ! https://www.myprotein.es/sports-accessories/brazalete-smartphone-gym-essentials-negro/12591033.html?kk=a4c6368-17cd7f25ed7-10120a&affil=thgppc&from=kelkooes
 ! https://www.overly.it/tv-led/21225-nikkei-ni24hd6c-tvc-24-hd-sat-8022625024065.html?kk=a4c6361-17d0fd13439-d1022&from=kelkoo
-/(\?|&)kk=\w{6,}-\w{10,}-\w{5,}/$removeparam=kk
-^from=kelkoo$removeparam=from
+$removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$removeparam=/^from=kelkoo/
 
 ! https://www.shopping4net.dk/Legetoej/Leg-Laer/Paedagogisk-legetoej/Paw-Patrol-Smart-Phone-DK-SE-NO.htm?sClickID=Kelkoo-8-2
 $removeparam=sClickID
 
 ! https://www.cykelpartner.dk/mobilholder-telefonholder-mm/lifeventure-waterproof-phone-pouch---vandtaet-pose-til-mobil---blaa?source=partnerads&paid=22947&pa-partnerid=22947&pacid=617fcb66eb3c23.08348327
-^source=partnerads^$removeparam=source
+$removeparam=/^source=partnerads$/
 $removeparam=paid
 $removeparam=pacid
 $removeparam=pa-partnerid
@@ -22486,7 +22510,7 @@ $removeparam=szredirectid
 $removeparam=porc
 
 ! https://www.beautycarechoices.com/?src=aff
-^src=aff^$removeparam=src
+$removeparam=/^src=aff$/
 
 ! https://support.appsflyer.com/hc/en-us/articles/207447163
 ! https://www.farfetch.com/uk/shopping/kids/boss-kidswear-logo-print-pacifier-item-14954919.aspx?clickref=1100liwZjcmH&c=kelkoo_uk&af_siteid=1100l62250&af_sub_siteid=1011l271&af_cost_model=CPA&af_channel=affiliate&is_retargeting=true
@@ -22516,7 +22540,7 @@ $removeparam=shortlink
 
 ! https://support.appsflyer.com/hc/en-us/articles/207447163#partner-id-pid-parameter
 ! https://playwsop.com/play?pid=googleadwords_int&af_prt=yellowhead&lv=1&clickid=CjwKCAiAxKv_BRBdEiwAyd40N7UPnJYsvWlbP736d2pr8dX0KrtpLAlg3LTef2AVqIju98ciYBEmwxoCYuUQAvD_BwE&c=US_Brand-exact&af_c_id=631735899&af_adset_id=41062900269&af_ad_id=477184005272&af_siteid=&af_ad_type=Search&af_sub1=kwd-297535807811&af_sub2=playwsop&af_sub3=e&af_sub4=9029028&af_sub5=&af_keywords=playwsop
-^pid=*_int^$removeparam=pid
+$removeparam=/^pid=.*_int$/
 
 ! https://www.chelseafc.com/en/news/2021/09/02/tuchel-shortlisted-for-august-s-manager-of-the-month-award?deep_link_sub1=cfcapp://page/content/chelseafc/en/news/2021/09/02/tuchel-shortlisted-for-august-s-manager-of-the-month-award&shortlink=563e154b
 ! https://abra.onelink.me/paN3/referral?deep_link_sub1=RCVGBRB8X
@@ -22527,7 +22551,7 @@ $removeparam=ClickThruEmail
 $removeparam=ClickThruCustomerNumber
 
 ! https://scripts.affiliatefuture.com/AFClick.asp?affiliateID=29219&merchantID=2543&programmeID=6678&mediaID=0&tracking=&url=https://example.com/
-^tracker=affiliatefuture^$removeparam=tracker
+$removeparam=/^tracker=affiliatefuture$/i
 $removeparam=affc
 
 ! https://www.kichink.com/home/issafari?uri=https://example.com
@@ -22700,6 +22724,15 @@ $removeparam=ads_targetid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1831538
 $removeparam=elqTrack
 
+! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/208
+$removeparam=/^from=rss$/
+
+! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/209
+$removeparam=/^source=rss$/
+
+! https://www.smh.com.au/world/europe/i-really-want-to-be-free-dubai-ruler-s-ex-wife-awarded-1b-to-settle-uk-custody-case-20211221-p59jf7.html?ref=rss
+$removeparam=/^ref=rss$/
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -22729,7 +22762,7 @@ $removeparam=mod,domain=wsj.com|marketwatch.com|barrons.com|fnlondon.com|dowjone
 ! https://www.gamereactor.fi/?sid=39feac60637556f2d1f67482abf2b1ea
 ! https://www.anrdoezrs.net/click-8900246-13502820?url=https%3A%2F%2Fwww.dell.com%2Fen-us%2Fshop%2Fsamsung-870-evo-mz-77e1t0b-solid-state-drive-1-tb-sata-6gb-s%2Fapd%2Fab481426%2Fstorage-drives-media&sid=tomshardware-us-6016433087443645000
 ! (Exceptions: mail.qq.com, high.fi, phpBB forums, various other sites)
-$removeparam=sid,domain=gamereactor.*|anrdoezrs.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com
+$removeparam=sid,domain=gamereactor.*|anrdoezrs.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|dpbolvw.net
 ! No particular example
 $removeparam=from,domain=sogou.com|baidu.com|jetbrains.com|bandcamp.com|apkpure.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1559915 and https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1559864
@@ -22830,6 +22863,8 @@ $removeparam=cstrackid
 ||amazon.$removeparam=SubscriptionId
 ! https://www.amazon.co.uk/Food-Grade-Silicone-Non-Stick-Birthday-Chocolate/dp/B079KF8F1Y/ref=sr_1_6?hydadcr=18732_1816696&keywords=train+cake+mould
 ||amazon.$removeparam=hydadcr
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1854203
+||amazon.*^$removeparam=orig
 ! Other
 @@/b/ref=$removeparam=ie
 
@@ -23830,7 +23865,7 @@ $removeparam=nosto,domain=masku.com|staypro.fi|happyangler.fi
 ! https://adele.lnk.to/EOM
 $removeparam=cId,domain=apple.com|youtube.com
 $removeparam=lId,domain=apple.com|youtube.com
-&src=Linkfire^$removeparam=src,domain=apple.com|youtube.com
+$removeparam=/^src=Linkfire$/,domain=apple.com|youtube.com
 ||music.apple.com^$removeparam=ct
 ||music.apple.com^$removeparam=itsct
 ||music.apple.com^$removeparam=itscg
@@ -24246,14 +24281,24 @@ $removeparam=ppref,domain=digidip.net
 $removeparam=f,domain=dhgate.com
 
 ! https://www.cyberghostvpn.com/en_US/offer/xmas?brand=vpnMentor&coupon=3Y3M
-! https://safe.cyberghostvpn.com/en_US/xmas?lp=flashdevices&coupon=3Y3M&media_source=CJ_affiliates&channel=External LPs
 $removeparam=brand,domain=cyberghostvpn.com|privateinternetaccess.com
+
+! https://safe.cyberghostvpn.com/en_US/xmas?lp=flashdevices&coupon=3Y3M&media_source=CJ_affiliates&channel=External LPs
 $removeparam=media_source,domain=cyberghostvpn.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10995
 !!! ||zhihu.com^$removeparam=search_source
 ||zhihu.com^$removeparam=hybrid_search_source
 ||zhihu.com^$removeparam=hybrid_search_extra
+
+! https://www.theregister.com/2021/12/20/linux_5_16_rc6/?td=keepreading-btm
+$removeparam=td,domain=theregister.com
+
+! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/210
+$removeparam=fromrel,domain=dzone.com
+
+! https://blog.feedspot.com/?_src=footer
+$removeparam=_src,domain=feedspot.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -30790,3 +30835,6 @@ otomobilgunluklerim.com##.ad_block_detected:style(overflow: auto !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/11017
 picallow.com##+js(acis, document.oncontextmenu, nocontextmenu)
 picallow.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11023
+links.extralinks.casa##+js(acis, document.onselectstart, disableselect)
