@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 21December2021v2-Beta
+! Version: 22December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -465,6 +465,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||couponbybox.com^$doc
 ||newpage.in^$doc
 ||digitalantivirus.org^$all
+*/mcaf04/$doc
 ||34.204.214.165^$doc
 ||54.85.113.62^$doc
 ||54.205.83.61^$doc
@@ -7094,8 +7095,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 21/12/2021
-! Version: 21122021-1
+! Last updated: 22/12/2021
+! Version: 22122021-2
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20029,6 +20030,9 @@ expmediadirect1.com
 ||134.122.115.190^$all
 ||cybermicto768jubileejhsye6yt6543.s3.us-east-1.amazonaws.com^$all
 
+! https://bazaar.abuse.ch/sample/932fcccda7c8e576eb914b446646883cfdb439fe4c7306905ea005555be5e2bb/
+||hopelandishomeground1098alone43jk.s3.amazonaws.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21194,6 +21198,13 @@ expmediadirect1.com
 
 ! https://forums.malwarebytes.com/topic/281787-how-many-types-of-malware-are-there/ (https://web.archive.org/web/20211214132150/https://forums.malwarebytes.com/topic/281787-how-many-types-of-malware-are-there/) -> hxxpx[:]//ilovealgarve[.]net[/]web-football-no-agents[/])
 ||ilovealgarve.net^$document
+
+! https://forums.malwarebytes.com/topic/282084-keeping-laptop-safe/ (https://web.archive.org/web/20211222121009/https://forums.malwarebytes.com/topic/282084-keeping-laptop-safe/) -> hxxpx[:]//nbgpapartmani[.]com[/]register-web-ball-ufadeal[/]
+||nbgpapartmani.com^$document
+
+! https://forums.malwarebytes.com/topic/282082-hi-working-a-spreadsheet-more-than-8-years-history-mb-crashed-it/ (https://web.archive.org/web/20211222121637/https://forums.malwarebytes.com/topic/282082-hi-working-a-spreadsheet-more-than-8-years-history-mb-crashed-it/) -> hxxpx[:]//superagentconcierge[.]com[/]casino-ebet-entrance[/]
+||superagentconcierge.com^$document
+
 
 ! ----- Cryptominers -----
 
