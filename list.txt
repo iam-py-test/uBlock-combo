@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 22December2021v1-Beta
+! Version: 22December2021v3-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -242,10 +242,17 @@ howtoremove.guide#?#.entry-content > div:-abp-contains(Special Offer)
 ! https://www.2-spyware.com/remove-redirector-gvt1-com.html
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list_w > .ar_block_description
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk#?#a:-abp-contains(SpyHunter)
+guide##a[href*="download.enigmasoftware.com/spyhunter-free-download/stpl_94/SpyHunter-Installer.exe"]
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-968070041
+howtoremove.guide##[id*="newage"]
+howtoremove.guide#?#.wp-block-table:-abp-has(.banner)
+malwareguide112.com##.tdb-block-inner > div:has-text(Best Offer)
 virusresearch.org##.virus-before-content
 virusresearch.org##.q2w3-fixed-widget-container
 virusresearch.org##.virus-after-fourth-h2
 virusresearch.org##.virus-after-content
+! https://www.cyclonis.com/how-to-create-gmail-account-without-phone-number/
+cyclonis.com##div.rotatead-container:has(.download[data-params*="dl.enigmasoftware.com"])
 ! ¤¤¤ Restoro  ¤¤¤
 ! https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
 windowsdispatch.com##strong
@@ -7096,7 +7103,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 22/12/2021
-! Version: 22122021-2
+! Version: 22122021-4
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20033,6 +20040,11 @@ expmediadirect1.com
 ! https://bazaar.abuse.ch/sample/932fcccda7c8e576eb914b446646883cfdb439fe4c7306905ea005555be5e2bb/
 ||hopelandishomeground1098alone43jk.s3.amazonaws.com^$all
 
+! https://github.com/uBlockOrigin/uAssets/pull/11041
+||sites.google.com/view/hypixeldupemethod/*^$doc
+||mcdupe.xyz^$all
+||cdn.discordapp.com/attachments/916391647955279943/*^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20658,6 +20670,8 @@ expmediadirect1.com
 ! the register form doesn't do anything after entering data, just redirect back to the start
 ||fbookhookups.com^$document
 ||fuckpal.com^$document
+! seen in scam ads
+||fuck-me.io^$document
 
 ! https://scammer.info/t/youtube-comment-spam/85737
 ||youtubes.uno^$all
