@@ -7106,7 +7106,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 26/12/2021
-! Version: 26122021-1
+! Version: 26122021-2
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20656,6 +20656,10 @@ expmediadirect1.com
 ||partdate.yaspiq.co^$document
 ||jmtrading.co^$document
 ||monkeyselite.tonick.co^$document
+||rappersonal.paradisedestination.co^$all
+||kqnpcp.friendmagnetcool.top^$all
+||contactalliance.mbogi.co^$all
+||kitago.info^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/14/2.md
 ||quizhunter.simplifiedstrategy.co^$all
@@ -21569,7 +21573,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 25December2021v5-Beta
+! Version: 26December2021v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22836,7 +22840,7 @@ $removeparam=tid,domain=comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.
 ! https://twitter.com/hashtag/mlpg5?src=hashtag_click (23/04/2021)
 $removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk|wuzhuiso.com
 ! No particular example
-$removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|community.spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com|outnorth.fi|yubo.live|chollometro.com|vimeo.com
+$removeparam=source,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com|outnorth.fi|yubo.live|chollometro.com|vimeo.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=wsj.com|marketwatch.com|barrons.com|fnlondon.com|dowjones.com|mansionglobal.com|penews.com
