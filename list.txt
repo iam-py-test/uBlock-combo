@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 27December2021v1-Beta
+! Version: 29December2021v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1805,6 +1805,23 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||kqnpcp.friendmagnetcool.top^$all
 ||contactalliance.mbogi.co^$all
 ||kitago.info^$doc
+! https://bazaar.abuse.ch/sample/84d93b2fd2597da5d611165cbad0b252569a837c56a94a42849f2bedc8af033a/
+||freeprosoftz.com^$all
+||9oi6khy8.xyz^$all
+||kjgfj.xyz^$all
+||9oijgkh.xyz^$all
+||uyyd.xyz^$all
+||oiiuuyjk.xyz^$all
+||mediafire.com/file/pu0m2luacc3fh8h/file-password___2345.rar/file$all
+||mediafire.com/coe39m9f9tyg/pu0m2luacc3fh8h/file-password___2345%282%29.rar$all
+! fake Flash Player
+||lekms.com^$doc
+||restorehighlyadvancedthefile.vip^$all
+||restorecurrenthighlythefile.vip^$all
+||microsoftedge.microsoft.com/addons/detail/ecosia-the-search-engin/fhfidmlnclkepgapcephbaciajegheco^$doc
+||new-meet-dating.life^$doc
+||wellhello.com^$doc
+
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7141,8 +7158,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 28/12/2021
-! Version: 28122021-3
+! Last updated: 29/12/2021
+! Version: 29122021-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20131,6 +20148,24 @@ expmediadirect1.com
 ! https://forums.malwarebytes.com/topic/282207-how-to-remove-pupoptionalbrowserhijack-and-pupoptionallockhomepage/
 ||find-it.pro^$document
 
+! https://bazaar.abuse.ch/sample/84d93b2fd2597da5d611165cbad0b252569a837c56a94a42849f2bedc8af033a/
+||9oi6khy8.xyz^$all
+||kjgfj.xyz^$all
+||9oijgkh.xyz^$all
+||uyyd.xyz^$all
+||oiiuuyjk.xyz^$all
+||mediafire.com/file/pu0m2luacc3fh8h/file-password___2345.rar/file$all
+||mediafire.com/coe39m9f9tyg/pu0m2luacc3fh8h/file-password___2345%282%29.rar$all
+
+! fake Flash Player
+||lekms.com^$document
+||restorehighlyadvancedthefile.vip^$all
+||restorecurrenthighlythefile.vip^$all
+||microsoftedge.microsoft.com/addons/detail/ecosia-the-search-engin/fhfidmlnclkepgapcephbaciajegheco^$doc
+||new-meet-dating.life^$document
+||wellhello.com^$document
+
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20712,6 +20747,10 @@ expmediadirect1.com
 ||yaihxj.knewdayfull.top^$all
 ||knewdayfull.top^$document
 ||4lgx4.bemobtrcks.com^$document
+||tahunter.mostazza.co^$document
+||undaido.info^$document
+||dlwyuw.hugewifesilver.top^$all
+||hugewifesilver.top^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/14/2.md
 ||quizhunter.simplifiedstrategy.co^$all
@@ -21715,7 +21754,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29December2021v1-Beta
+! Version: 29December2021v6-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22215,7 +22254,7 @@ $removeparam=affname
 $removeparam=MID
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$~xmlhttprequest,removeparam=eid,domain=~howlongtobeat.com|~activationspot.com|~vmware.com
+$~xmlhttprequest,removeparam=eid,denyallow=embed.tapkal.fi,domain=~howlongtobeat.com|~activationspot.com|~vmware.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
@@ -23757,9 +23796,6 @@ $removeparam=ad_src,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-ville
 $removeparam=ad_content,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi|swamp.fi
 $removeparam=ad_prodid,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi|swamp.fi
 
-! https://www.netflix.com/watch/80057171?trackId=14170056&tctx=2%2C0%2Cad3cd321-a42b-461e-81d3-b18c51559559-25047246%2Ce7fede3c-e54d-4941-9849-8fb5d51dbada_37683809X10XX1622546150880%2Ce7fede3c-e54d-4941-9849-8fb5d51dbada_ROOT%2C
-||netflix.com^$removeparam=trackId
-
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-810773
 ||rei.com^$removeparam=target_id
 ||squarespace.com^$removeparam=subchannel
@@ -24546,6 +24582,10 @@ $removeparam=plink,domain=audible.*
 ! https://www.netflix.com/watch/81110875?trackId=254794450&tctx=2%2C1%2C96c1d619-68cd-4cad-ba6c-7e473d76dd30-24305116%2C%2Cunknown%2C%2C%2C (29/12/2021)
 ||netflix.com^$removeparam=trackId
 ||netflix.com^$removeparam=tctx
+||netflix.com^$removeparam=trackIdJaw
+||netflix.com^$removeparam=trackIdTrailer
+||netflix.com^$removeparam=trackIdEpisode
+||netflix.com^$removeparam=dpRightClick
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -24587,9 +24627,11 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ! Email verification for 'MyWOT' - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1683830
 @@||mywot.com/user/*/confirmNewEmail$removeparam=/^utm_/i
 
+!#if adguard
 !#if adguard_ext_firefox
 ! https://github.com/DandelionSprout/adfilt/issues/376
 @@|wss://$removeparam
+!#endif
 !#endif
 
 ! ----- BEGIN uBlock Annoyances -----
@@ -31091,3 +31133,6 @@ psihologiadeazi.ro##+js(aopr, nocontext)
 psihologiadeazi.ro##+js(aopr, disable_copy)
 psihologiadeazi.ro##+js(acis, jQuery, keydown)
 psihologiadeazi.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11129
+ssuathletics.com##+js(acis, document.querySelector, adblock)
