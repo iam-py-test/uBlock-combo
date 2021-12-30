@@ -7158,8 +7158,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 29/12/2021
-! Version: 29122021-1
+! Last updated: 30/12/2021
+! Version: 30122021-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20165,6 +20165,11 @@ expmediadirect1.com
 ||new-meet-dating.life^$document
 ||wellhello.com^$document
 
+! https://github.com/blocklistproject/Lists/issues/600
+||avomas.me/rbBvg78^$all
+||trackital.checkposttt.top^$all
+||corriertt.parceldlvr.xyz^$all
+||choicemonitor.top^$document
 
 ! ----- Scams -----
 
@@ -21754,7 +21759,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29December2021v6-Beta
+! Version: 30December2021v3-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24348,7 +24353,7 @@ $removeparam=referer,domain=bodykind.com
 $removeparam=s,domain=spreadprivacy.com|youku.com
 
 ! https://twitter.com/chrissteinplays/status/1461003062936547331?t=CXBXxSiUKI8wPAkoGMH7zg
-$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|twitter.com|elprecio.es
+$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es
 
 ! https://market.yandex.ru/promo/hasbro_special?clid=602&cpa-perf=1#c
 ||yandex.$removeparam=clid
@@ -24577,7 +24582,7 @@ $removeparam=promo_position,domain=oikotie.fi|kesaduuni.org
 $removeparam=plink,domain=audible.*
 
 ! https://github.com/easylist/easylist/issues/10288
-||startpage.com^$removeparam=segment
+||startpage.*^$removeparam=segment
 
 ! https://www.netflix.com/watch/81110875?trackId=254794450&tctx=2%2C1%2C96c1d619-68cd-4cad-ba6c-7e473d76dd30-24305116%2C%2Cunknown%2C%2C%2C (29/12/2021)
 ||netflix.com^$removeparam=trackId
@@ -24586,6 +24591,14 @@ $removeparam=plink,domain=audible.*
 ||netflix.com^$removeparam=trackIdTrailer
 ||netflix.com^$removeparam=trackIdEpisode
 ||netflix.com^$removeparam=dpRightClick
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1889101
+$removeparam=rx_c,domain=cvshealth.*
+$removeparam=rx_group,domain=cvshealth.*
+$removeparam=rx_job,domain=cvshealth.*
+$removeparam=rx_source,domain=cvshealth.*
+$removeparam=rx_ts,domain=cvshealth.*
+$removeparam=rx_p,domain=cvshealth.*
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -31136,3 +31149,6 @@ psihologiadeazi.ro##*:style(-webkit-touch-callout: default !important; -webkit-u
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11129
 ssuathletics.com##+js(acis, document.querySelector, adblock)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11140
+cocomanga.com##+js(aeld, contextmenu)
