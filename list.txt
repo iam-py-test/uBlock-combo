@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 29December2021v1-Beta
+! Version: 2January2022v1-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1821,7 +1821,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||microsoftedge.microsoft.com/addons/detail/ecosia-the-search-engin/fhfidmlnclkepgapcephbaciajegheco^$doc
 ||new-meet-dating.life^$doc
 ||wellhello.com^$doc
-
+! https://github.com/uBlockOrigin/uAssets/pull/11161
+||flashplayer-cn.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7158,8 +7159,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 1/1/2022
-! Version: 112022-1
+! Last updated: 2/1/2022
+! Version: 212022-5
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20185,6 +20186,21 @@ expmediadirect1.com
 ! https://forums.malwarebytes.com/topic/282352-metamask-phishing/
 ||metmaskslog.xyz^$all
 
+! https://github.com/uBlockOrigin/uAssets/pull/11161
+||flashplayer-cn.com^$all
+
+! https://bazaar.abuse.ch/sample/d696d27429f51199a8b88b7a332cfa2c05d6cf6a875a88046a8764a290bf588f/
+||slidehostdowny.xyz^$all
+||mediafire.com/file/76tk5txtyf0g8yf/open__with_Pass__1234.rar/file^$all
+||mediafire.com/mxb3e6khdedg/76tk5txtyf0g8yf/open__with_Pass__1234.rar^$all
+
+! https://twitter.com/TheDFIRReport/status/1477687477821489157
+||rest.healthy2fit.com^$all
+||api.healthy2fit.com^$all
+||rest.mcghealthcare.org^$all
+||api.mcghealthcare.org^$all
+||rest.neckbackpainrelief.org^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20747,7 +20763,7 @@ expmediadirect1.com
 ||nlnvan.garydouglasnewell.co^$all
 ||garydouglasnewell.co^$document
 ||partdate.yaspiq.co^$document
-||jmtrading.co^$document
+||jmtrading.co^$all
 ||monkeyselite.tonick.co^$document
 ||rappersonal.paradisedestination.co^$all
 ||kqnpcp.friendmagnetcool.top^$all
@@ -20774,6 +20790,21 @@ expmediadirect1.com
 ||wftzxd.floorhalfforce.top^$all
 ||floorhalfforce.top^$document
 ||ge6s.com^$document
+||fbdate.farazsteel.co^$all
+||zfqfuv.wellatfeel.top^$all
+||wellatfeel.top^$document
+||blogcompany.startinblock.co^$all
+||xmkikk.wellatfeel.top^$all
+||lenssft.ownerschoice.co^$all
+||mpuwcp.wellatfeel.top^$all
+||sitexchange.causeart.co^$all
+||ehtfxz.wellatfeel.top^$all
+||hiddenpersonal.startinblock.co^$all
+||nlnhour.yellowspirit.co^$all
+||mezvdf.wellatfeel.top^$all
+||aqvcrp.wellatfeel.top^$all
+||yellowmother374.weebly.com^$all
+
 ||www.iztzo.com^$all
 ||iztzo.com^$all
 ||1frozenthrone1.com^$document
@@ -20995,6 +21026,10 @@ expmediadirect1.com
 ! fake antivirus message
 ||mcafee5.www-safety.com^$all
 ||weledying-jessed.com^$document
+
+! https://forums.malwarebytes.com/topic/282376-website-giving-spammy-popups/
+||tepspr.com^$all
+||rplnd10.com^$all
 
 ! ----- PUPs -----
 
@@ -21481,6 +21516,10 @@ expmediadirect1.com
 ! locks your screen and just creates a link to their website on your desktop. Malware?
 ||use.zipfileslikeapro.net^$document
 
+! https://github.com/uBlockOrigin/uAssets/issues/11176
+||nearbyme.io^$document
+||m.nearbyme.io^$document
+
 ! ----- Spam -----
 
 ! https://forums.malwarebytes.com/topic/281397-how-to-update-my-adwcleaner/
@@ -21788,7 +21827,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 1January2022v5-Beta
+! Version: 2January2022v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23943,7 +23982,7 @@ $removeparam=ref_id,domain=expedia.com|intuit.com|tunnelbear.com
 ||blue-tomato.com^$removeparam=varid
 ||blue-tomato.com^$removeparam=ia-pkpmtrack
 ||blue-tomato.com^$removeparam=zanox
-||blue-tomato.com^$removeparam=_
+||blue-tomato.com^$removeparam=/_[$]ja/
 ||spartoo.$removeparam=sx
 ||spartoo.$removeparam=track_id
 
@@ -31226,3 +31265,7 @@ brownsboys.com##+js(aopr, document.onselectstart)
 
 ! flashmasterbd.blogspot. com anti select
 flashmasterbd.blogspot.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/ru5yks/disabling_an_unnamed_javascript_that_disables/
+mercenaryenrollment.com##+js(acis, document.oncontextmenu)
+mercenaryenrollment.com##style:has-text(user-select):remove()
