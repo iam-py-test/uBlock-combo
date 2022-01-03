@@ -7160,7 +7160,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2/1/2022
-! Version: 212022-5
+! Version: 212022-6
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20201,6 +20201,13 @@ expmediadirect1.com
 ||api.mcghealthcare.org^$all
 ||rest.neckbackpainrelief.org^$all
 
+! https://github.com/uBlockOrigin/uAssets/issues/11157
+||sideload.net^$all
+||stcverify.com^$all
+||verify.stc.tools^$all
+||1980s.click^$all
+||0x41414141.net^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21827,7 +21834,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 2January2022v1-Beta
+! Version: 03January2022v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24184,7 +24191,8 @@ $removeparam=nosto,domain=masku.com|staypro.fi|happyangler.fi
 ||eneba.com^$removeparam=af_id
 
 ! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/58
-$removeparam=content,domain=eonline.com|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|discord.*|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io
+! (Exception: discord.*; see #445)
+$removeparam=content,domain=eonline.com|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io
 
 ! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/53
 ||tokopedia.com^$removeparam=whid
