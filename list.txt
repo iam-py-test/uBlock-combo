@@ -21834,7 +21834,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 03January2022v1-Beta
+! Version: 03January2022v3-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23079,6 +23079,9 @@ $removeparam=/^source=rss$/
 
 ! https://www.smh.com.au/world/europe/i-really-want-to-be-free-dubai-ruler-s-ex-wife-awarded-1b-to-settle-uk-custody-case-20211221-p59jf7.html?ref=rss
 $removeparam=/^ref=rss$/
+
+! https://slate.com/culture/2022/01/the-beach-boys-brian-wilson-documentary-genius-pet-sounds.html?via=rss
+$removeparam=/^via=rss$/
 
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/1095
 $removeparam=mindbox-click-id
@@ -24708,6 +24711,33 @@ $removeparam=_t,domain=shein.com
 
 ! https://hodlhodl.com/join/JDXT
 $removeparam=referrer_code,domain=hodlhodl.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1899731
+$removeparam=sr_id,domain=reddit.app.link
+$removeparam=sr_name,domain=reddit.app.link
+$removeparam=domain,domain=reddit.app.link
+$removeparam=geoip_country,domain=reddit.app.link
+$removeparam=user_agent,domain=reddit.app.link
+$removeparam=referrer_domain,domain=reddit.app.link
+$removeparam=referrer_url,domain=reddit.app.link
+$removeparam=language,domain=reddit.app.link
+$removeparam=dnt,domain=reddit.app.link
+$removeparam=compact_view,domain=reddit.app.link
+$removeparam=adblock,domain=reddit.app.link
+$removeparam=session_id,domain=reddit.app.link
+$removeparam=loid,domain=reddit.app.link
+$removeparam=loid_created,domain=reddit.app.link
+$removeparam=reddaid,domain=reddit.app.link
+$removeparam=campaign,domain=reddit.app.link
+$removeparam=channel,domain=reddit.app.link
+$removeparam=feature,domain=reddit.app.link
+$removeparam=keyword,domain=reddit.app.link
+$removeparam=mweb_subreddit_ids,domain=reddit.app.link
+$removeparam=mweb_loid,domain=reddit.app.link
+$removeparam=mweb_loid_created,domain=reddit.app.link
+$removeparam=/^mweb_user_id/,domain=reddit.app.link
+$removeparam=mweb_user_name,domain=reddit.app.link
+$removeparam=tags,domain=reddit.app.link
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -31277,3 +31307,6 @@ flashmasterbd.blogspot.com##*:style(-webkit-touch-callout: default !important; -
 ! https://www.reddit.com/r/uBlockOrigin/comments/ru5yks/disabling_an_unnamed_javascript_that_disables/
 mercenaryenrollment.com##+js(acis, document.oncontextmenu)
 mercenaryenrollment.com##style:has-text(user-select):remove()
+
+! geektyper.com anti-adb
+geektyper.com###itemz[style^="position:fixed; top:10px"]
