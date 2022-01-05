@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 03January2022v1-Beta
+! Version: 05January2022v2-Beta
 ! Expires: 5 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -481,6 +481,243 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||54.205.83.61^$doc
 ||54.210.193.115^$doc
 ||[2600:1f18:43d1:2a04:ee05:261e:d408:7ba1]^$doc
+||achingpapoosh.cam^$all
+||aidgiltreef.casa^$all
+||aileddipgird.cam^$all
+||ailkeyair.com^$all
+||alcidsduffels.cam^$all
+||amatolrehung.cam^$all
+||amortrank.casa^$all
+||amulagaudish.cam^$all
+||aperushmo.cam^$all
+||atrochaleveler.cam^$all
+||aurifyaides.casa^$all
+||awaitssnerp.com^$all
+||aweinkbum.com^$all
+||awigglespouter.cam^$all
+||azimechcavia.casa^$all
+||babyboomboomads.com^$all
+||baldwhizhens.com^$all
+||balsamsworral.cam^$all
+||balvalur.com^$all
+||banalbjar.com^$all
+||begaricrasher.casa^$all
+||blennyjubas.cam^$all
+||blickeyexamen.cam^$all
+||bookiemissive.casa^$all
+||booleydauncy.cam^$all
+||boyughaye.com^$all
+||bridieidioms.cam^$all
+||buildedwi.cam^$all
+||bullishsilicam.cam^$all
+||bureauxcope.casa^$all
+||bynamessago.cam^$all
+||cabbingpolynya.cam^$all
+||cansosalkanes.casa^$all
+||caratchburgul.cam^$all
+||ceroidatame.cam^$all
+||chaussizers.cam^$all
+||chumulusilene.casa^$all
+||cippikonini.cam^$all
+||cobloafurases.cam^$all
+||comasoiling.casa^$all
+||coryljanty.cam^$all
+||costranchill.com^$all
+||coupedfenders.casa^$all
+||coxziptwo.com^$all
+||craigpaths.cam^$all
+||curriculture.com^$all
+||cutoseleerier.casa^$all
+||cyanoherdess.cam^$all
+||dabspatrial.cam^$all
+||decaresure.cam^$all
+||dengelmeg.com^$all
+||disdartoment.cam^$all
+||dnglyc.casa^$all
+||doraberberi.cam^$all
+||dotsgalorepage.com^$all
+||duhmonkssand.cam^$all
+||duoakha.casa^$all
+||eleidinurucuri.casa^$all
+||elfpetsic.com^$all
+||embelicroyal.casa^$all
+||epeidiaunsaked.cam^$all
+||erneinstep.casa^$all
+||ethylicoldster.casa^$all
+||eyersgustier.cam^$all
+||falsismfresno.casa^$all
+||felonsenforth.cam^$all
+||fikeyoograph.cam^$all
+||flowerybajan.cam^$all
+||fondantdroshky.casa^$all
+||frofanvied.com^$all
+||gapflecker.cam^$all
+||genoeserhomb.casa^$all
+||geogenpeavy.cam^$all
+||getterobes.cam^$all
+||goujonssledful.casa^$all
+||halloasnobody.cam^$all
+||halmaaliyoth.cam^$all
+||hamtitwet.com^$all
+||haulrinker.casa^$all
+||haveorellin.cam^$all
+||hisurnhuh.com^$all
+||hoppedcodpool.com^$all
+||horkeygagate.cam^$all
+||hubbedzeuxite.cam^$all
+||hulksguelf.cam^$all
+||humificasea.cam^$all
+||hyphenpekans.casa^$all
+||icyyapemu.com^$all
+||illanodashel.casa^$all
+||intoneremodin.casa^$all
+||irkantyip.com^$all
+||irkerecue.com^$all
+||isagoncamwood.cam^$all
+||jazzbowanswer.casa^$all
+||kettinggiantry.com^$all
+||koilabumpoff.casa^$all
+||landwayasiarch.cam^$all
+||langueattaleh.cam^$all
+||larnyxbizonal.cam^$all
+||lignumagnatic.cam^$all
+||lipidicsoli.cam^$all
+||loobiescharkas.cam^$all
+||looiesphat.casa^$all
+||lungersoutfeel.cam^$all
+||lustmaoris.casa^$all
+||lutosepeacod.cam^$all
+||margetex.casa^$all
+||melinaeability.casa^$all
+||merertipper.casa^$all
+||meteredcrawl.cam^$all
+||mirexesfiorded.casa^$all
+||mirkimbased.casa^$all
+||monasawaw.com^$all
+||moorishdizzily.cam^$all
+||mornayaspca.cam^$all
+||murallyhuashi.casa^$all
+||muskyconsflew.cam^$all
+||mutaseharpers.casa^$all
+||nachogunj.cam^$all
+||navaltophes.com^$all
+||nextlyrumbo.cam^$all
+||noesnillies.work^$all
+||noritodrearly.casa^$all
+||oakchokerfumes.com^$all
+||octoicdrifter.casa^$all
+||oilwrypit.com^$all
+||orcjagpox.com^$all
+||otosisbib.casa^$all
+||ourzitemu.com^$all
+||outbakebalija.cam^$all
+||outlookabsorb.com^$all
+||outpushcutworm.cam^$all
+||padpullpact.com^$all
+||parsnipwairsh.cam^$all
+||pearlinsists.casa^$all
+||perduesvitrify.cam^$all
+||phialedmolify.cam^$all
+||picrolrectus.casa^$all
+||pineryabluted.casa^$all
+||plagaautarch.cam^$all
+||ploidyshanks.casa^$all
+||pobbychoate.cam^$all
+||pokypecora.cam^$all
+||popinacbirrus.cam^$all
+||postback.info^$all
+||postback.report^$all
+||poutswepttaco.com^$all
+||poxaharap.com^$all
+||psoaticlerret.cam^$all
+||punganouns.cam^$all
+||pushmenews.com^$all
+||pushmobilenews.com^$all
+||querierbiscot.cam^$all
+||quoteetoona.cam^$all
+||rameattot.com^$all
+||reeshlesunweed.cam^$all
+||renaissanto.com^$all
+||rengavirole.casa^$all
+||ripdetd.cam^$all
+||roksit.net^$all
+||roomletvined.cam^$all
+||roseltoatoa.cam^$all
+||rukhbigg.cam^$all
+||rusinsonatas.cam^$all
+||samshoogynecia.casa^$all
+||satcurdcue.com^$all
+||saucilytalwood.cam^$all
+||sclifftokopat.cam^$all
+||scoureroutcry.cam^$all
+||shebaasot.com^$all
+||shegetzinlets.cam^$all
+||shrovedwags.casa^$all
+||sicceddermoid.cam^$all
+||sickedbugbite.casa^$all
+||sisewepod.com^$all
+||skimpsdented.cam^$all
+||snuffeddamfool.cam^$all
+||sokulkmumping.casa^$all
+||spasmusten.casa^$all
+||stateraburp.cam^$all
+||strownstramp.cam^$all
+||swairdsiding.cam^$all
+||swingemangue.cam^$all
+||swipperwotlink.com^$all
+||tameinpalinal.cam^$all
+||tappenalif.cam^$all
+||tetrodeduscle.casa^$all
+||thetinetusky.cam^$all
+||thofandew.com^$all
+||threesasquat.cam^$all
+||thruputarkab.cam^$all
+||thyrsusaiwain.cam^$all
+||ticketsoomph.casa^$all
+||tierpuborb.com^$all
+||toiledchuckle.cam^$all
+||topasdirdums.cam^$all
+||towziedallack.casa^$all
+||tramcarnamby.cam^$all
+||troddenkobi.cam^$all
+||tweakedluvian.casa^$all
+||tychismcentavo.casa^$all
+||tyromasnutmegs.cam^$all
+||unfencepacific.casa^$all
+||unismwringed.cam^$all
+||unsheersongish.cam^$all
+||unsungfluffs.cam^$all
+||unvoidsahara.cam^$all
+||urinalssedilia.casa^$all
+||vainplaints.cam^$all
+||vaumureornith.casa^$all
+||ventureextima.cam^$all
+||visingouteat.cam^$all
+||volapiehunkers.casa^$all
+||waltychlorin.casa^$all
+||welshryverist.casa^$all
+||witlayvet.com^$all
+||wonfigfig.com^$all
+||writhyex.cam^$all
+||xystoiwkly.cam^$all
+||yuechioman.cam^$all
+||zincidcough.cam^$all
+||172.255.6.107^$all
+||172.255.6.147^$all
+||172.255.6.219^$all
+||172.255.6.225^$all
+||188.42.129.108^$all
+||188.42.129.116^$all
+||188.42.141.100^$all
+||188.42.141.92^$all
+||23.109.82.144^$all
+||23.109.82.41^$all
+||23.109.82.43^$all
+||23.109.82.65^$all
+||23.109.82.66^$all
+||23.109.87.169^$all
+||23.109.87.207^$all
+||23.109.87.208^$all
 ! https://twitter.com/SUNgoddessOKAMI/status/1221295265195405315
 ||deviuser.com^$doc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61838
@@ -21837,7 +22074,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 03January2022v4-Beta
+! Version: 03January2022v5-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23092,6 +23329,11 @@ $removeparam=mindbox-click-id
 ! https://blog.bybit.com/en-US/post/buy-300-worth-of-crypto-on-fiat-gateway-share-50k-usdt-in-rewards-blt3dc1870b5f78eeb5/?medium=organic_social&source=reddit&channel=mkt_&campaign=buy300&content=en_1&dtpid=1640937789493&%24web_only=true
 $removeparam=dtpid
 
+! https://github.com/DandelionSprout/adfilt/pull/448
+! https://m.baidu.com/ssid=3aed7368656e7a68696d696e673434e940/s?word=test&ts=4303890&t_kt=0&ie=utf-8&tj=1&params_ssrt=node-san& (25/10/2021)
+! http://blog.sina.com.cn/s/blog_635c86d50102zvmo.html?tj=1 (4/1/2022)
+$removeparam=tj
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -23130,7 +23372,6 @@ $removeparam=keyword,domain=ebay.*|bindright.com|lendgo.com
 $removeparam=id,domain=go.skimresources.com|karkkainen.com|go.skimlinks.com|go.redirectingat.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1726383
 $removeparam=offer_id,domain=surfshark.com|catch.com.au
-
 
 !! ——— Rules for heavily covered sites ———
 !!! ——— Amazon ———
@@ -23480,7 +23721,6 @@ $removeparam=aff_click_id
 ! https://m.baidu.com/ssid=3aed7368656e7a68696d696e673434e940/s?word=test&ts=4303890&t_kt=0&ie=utf-8&tj=1&params_ssrt=node-san& (25/10/2021)
 ||baidu.com^$removeparam=params_ssrt
 ||baidu.com^$removeparam=t_kt
-||baidu.com^$removeparam=tj
 ! https://m.baidu.com/?from=844b&vit=fps# (25/10/2021)
 ||baidu.com^$removeparam=vit
 ! https://github.com/DandelionSprout/adfilt/pull/317
@@ -31314,3 +31554,6 @@ mercenaryenrollment.com##style:has-text(user-select):remove()
 
 ! geektyper.com anti-adb
 geektyper.com###itemz[style^="position:fixed; top:10px"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/11195
+fotofilter.de##.banner
