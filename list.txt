@@ -7399,8 +7399,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/1/2022
-! Version: 512022-1
+! Last updated: 6/1/2022
+! Version: 612022-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20448,6 +20448,19 @@ expmediadirect1.com
 ||1980s.click^$all
 ||0x41414141.net^$all
 
+! https://www.reddit.com/r/uBlockOrigin/comments/rwzdvk/ublock_is_blocking_the_livestream_as_well_as/
+||188.72.201.207^$all
+
+! https://www.virustotal.com/gui/url/747b8465c517261eb6c5bc1a6c4fa281dc309caecf4a283f9bfb4fe2ba795bd0
+||mailsecure-helpdesk.azurefd.net^$all
+
+! https://www.virustotal.com/gui/file/a7ee420fd3a477e690dab56f47b264dd6c8376941101065d6645716bbf4b6333/community
+||unicupload.top^$all
+||amogohuigotuli.at^$all
+
+! https://twitter.com/pr0xylife/status/1479004948868341760
+||greshman.xyz^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21057,6 +21070,9 @@ expmediadirect1.com
 ||myhayward.us^$all
 ||lilereba.info^$document
 ||eatsft.origamiswan.co^$all
+||hunterzo.danelleandryan.us^$all
+||victor.honestcareforkids.us^$all
+||blogswap.globaltactics.co^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22090,7 +22106,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 05January2022v2-Beta
+! Version: 06January2022v2-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23369,7 +23385,7 @@ $removeparam=ref,domain=amazon.*|deal.no|expo.io|udemy.com|reddit.com|brave.com|
 $removeparam=tid,domain=comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com|clickbank.net
 ! https://addons.thunderbird.net/en-GB/thunderbird/addon/mailbox-alert/?src=cb-dl-users
 ! https://twitter.com/hashtag/mlpg5?src=hashtag_click (23/04/2021)
-$removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk|wuzhuiso.com
+$removeparam=src,domain=thunderbird.net|twitter.com|udemy.com|elastix.org|bluejeans.com|melopero.com|kubii.*|reichelt.*|okdo.com|raspipc.es|tiendatec.es|thepihut.com|cytron.io|buyzero.de|welectron.com|digikey.*|adafruit.com|hinta.fi|3cx.com|ashford.com|bose.*|kennethcole.com|kipling-usa.com|newbalance.com|wondershare.*|investors.com|yahoo.com|engadget.com|mozilla.org|viking-direct.co.uk|wuzhuiso.com|brave.com|webmd.com
 ! No particular example
 $removeparam=source,denyallow=googlevideo.com,domain=googleusercontent.com|awd-it.*|ashford.com|asos.com|att.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|choicehotels.com|contabo.com|directv.com|drinkhint.com|edx.org|hammacher.com|hanes.com|hottopic.com|housing.com|hp.com|itnext.io|medium.com|nautica.com|onehanesplace.com|petsupplies.com|phonesoap.com|riteaid.com|sonos.com|squarespace.com|thedailybeast.com|tiktok.com|tommybahama.com|torrid.com|tous.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|jacquielawson.com|fool.com|fiverr.com|blavity.com|eonline.com|tokopedia.com|spiceworks.com|despegar.*|hotspotshield.com|gethotspotshield.com|subscribe.gq.com|bankofamerica.com|outnorth.fi|yubo.live|chollometro.com|vimeo.com|search.brave.com|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|discord.*|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io|cyberghostvpn.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
@@ -24151,7 +24167,7 @@ $removeparam=ad_prodid,domain=discshop.fi|adlibris.com|scandinavianphoto.fi|e-vi
 ||squarespace.com^$removeparam=subchannel
 
 ! https://chggtrx.com/clk.trk?CID=267627&AFID=304351
-||humblebundle.com^$removeparam=partner
+$removeparam=partner,domain=humblebundle.com|fastcompany.com
 ||mechanicalkeyboards.com^$removeparam=creator
 ||audible.$removeparam=source_code
 ||audible.$removeparam=ipRedirectFrom
@@ -24434,7 +24450,7 @@ $removeparam=site_refer,domain=saksfifthavenue.com|saksoff5th.com
 ||oikotie.fi^$removeparam=sRef
 
 ! https://sn.dk/Verden/Rumturister-er-tilbage-paa-Jorden-efter-historisk-mission/artikel/1472742?rss
-||sn.dk^$removeparam=rss
+$removeparam=rss,domain=sn.dk|ted.com
 
 ! https://www.masku.com/tuotteet/393766-smart-tyopoyta/?nosto=productpage-nosto-2&conf%5B1153%5D=10427&conf%5B2651%5D=10771
 $removeparam=nosto,domain=masku.com|staypro.fi|happyangler.fi
@@ -24997,6 +25013,18 @@ $removeparam=mweb_loid_created,domain=reddit.app.link
 $removeparam=/^mweb_user_id/,domain=reddit.app.link
 $removeparam=mweb_user_name,domain=reddit.app.link
 $removeparam=tags,domain=reddit.app.link
+
+! https://www.marketwatch.com/story/immix-biopharmas-stock-rockets-after-pediatric-cancer-treatment-granted-rpd-by-the-fda-2022-01-03?siteid=yhoof2&yptr=yahoo
+$removeparam=yptr,domain=marketwatch.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1920124
+! https://github.com/AdguardTeam/AdguardFilters/commit/920d973db052ded91b48fbb8c7ca3fe2fdeda237
+$removeparam=gps_adid
+$removeparam=unicorn_click_id
+! https://github.com/AdguardTeam/AdguardFilters/commit/f00faaa8333722db743deaeec23205f2c78232cf
+$removeparam=ebisAdID
+! https://github.com/AdguardTeam/AdguardFilters/commit/bfcd89f013fa810ba1f2c959a7e8757deb9d3dce
+||adjust.com^$removeparam=adgroup
 
 ! ——— NSFW websites ———
 
