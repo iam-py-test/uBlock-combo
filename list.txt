@@ -7399,8 +7399,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2/1/2022
-! Version: 212022-6
+! Last updated: 5/1/2022
+! Version: 512022-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20594,7 +20594,7 @@ expmediadirect1.com
 ||ogtrk.net^$all
 ! More scam domains found via redirects when clicking on the fake recaptcha
 ! https://www.virustotal.com/gui/url/73dae7d74bcdc9099a54b75b904cc45995d85534a313ad65fcc4d9e401b34607/detection
-||rewardsavenue.net^$document
+||rewardsavenue.net^$all
 ! https://www.virustotal.com/gui/url/d6745ce01da185054bd2125858e75445783976de0e5fa4a445284243830070e7/detection
 ||rewardsgiantusa.com^$all
 ! https://www.virustotal.com/gui/url/9edd33c7a370ba96bf3a7682193e67538984eab9d1b719c2f3042599a4d3d1d5/detection
@@ -20800,7 +20800,6 @@ expmediadirect1.com
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/25/1.md
 ||steamkeygiveaway.net^$all
 ||fasterfiles.net^$all
-||rewardsavenue.net^$all
 ||inteledirect.com^$all
 ||turapport-strience.icu^$document
 ||americanwinnerscircle.com^$all
@@ -21051,6 +21050,13 @@ expmediadirect1.com
 ||mezvdf.wellatfeel.top^$all
 ||aqvcrp.wellatfeel.top^$all
 ||yellowmother374.weebly.com^$all
+||mahnii.co^$all
+||spyclub.actyve.co^$all
+||easft.pna-car.org^$all
+||webdesignsite.villa1000.co^$all
+||myhayward.us^$all
+||lilereba.info^$document
+||eatsft.origamiswan.co^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -21277,6 +21283,17 @@ expmediadirect1.com
 ! https://forums.malwarebytes.com/topic/282376-website-giving-spammy-popups/
 ||tepspr.com^$all
 ||rplnd10.com^$all
+
+! https://scammer.info/t/youtube-bot/86668
+||kingapp.store^$all
+||downloadlocked.com^$document
+||advantagecircles.com^$document
+||jump.ogtrk.net/aff_c?offer_id=40906&aff_id=212398&$document
+||iwin.rewardsadvisor.com^$all
+||rewardsadvisor.com^$document
+
+! "human verification" scam
+! Will add
 
 ! ----- PUPs -----
 
@@ -21781,7 +21798,6 @@ expmediadirect1.com
 ! https://forums.malwarebytes.com/topic/282082-hi-working-a-spreadsheet-more-than-8-years-history-mb-crashed-it/ (https://web.archive.org/web/20211222121637/https://forums.malwarebytes.com/topic/282082-hi-working-a-spreadsheet-more-than-8-years-history-mb-crashed-it/) -> hxxpx[:]//superagentconcierge[.]com[/]casino-ebet-entrance[/]
 ||superagentconcierge.com^$document
 
-
 ! ----- Cryptominers -----
 
 ! Was to be used for Cryptomining  - this website seems to no longer used for those
@@ -22074,7 +22090,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 05January2022v1-Beta
+! Version: 05January2022v2-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23577,7 +23593,7 @@ $removeparam=bih
 !#if env_chromium
 ||google.$removeparam=ved
 @@||google.com/url?$removeparam=ved
-$removeparam=usg,domain=~translate.googleusercontent.com|~translate.google.*
+$removeparam=usg,domain=~translate.googleusercontent.com|~google.*
 !#endif
 ! https://www.google.no/search?ei=rKq_X621OYCHwPAP5YCiuA0&q=penli.fi&oq=penli.fi&gs_lcp=CgZwc3ktYWIQAzIECAAQEzIGCAAQHhATMgYIABAeEBNQw2VYw2Vg-2ZoAHAAeACAAWGIAacBkgEBMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&uact=5 (26/11/2020)
 $removeparam=gs_lcp
