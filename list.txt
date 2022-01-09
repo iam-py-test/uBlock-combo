@@ -7399,8 +7399,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 6/1/2022
-! Version: 612022-1
+! Last updated:9/1/2022
+! Version: 912022-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21073,6 +21073,11 @@ expmediadirect1.com
 ||hunterzo.danelleandryan.us^$all
 ||victor.honestcareforkids.us^$all
 ||blogswap.globaltactics.co^$all
+||i.boleroforensics.co^$all
+||davomate.info^$document
+||tiborola.info^$document
+||pimtqc.reasonlocatedry.top^$all
+||reasonlocatedry.top^$document
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22106,7 +22111,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 09January2022v2-Beta
+! Version: 09January2022v3-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22485,7 +22490,7 @@ $removeparam=wdorigin
 $removeparam=/^aff_id[0-9]?=/i,domain=~affiliate.salestring.com
 
 ! https://tenshoku.nikkei.co.jp/lp/15002/?n_cid=TPRN0002&waad=Ujim9yQ8&adid=NK_L2_T_shortlink_Sun_diagnosis&utm_source=NKdenshiban&utm_medium=content-text&utm_content=text&utm_campaign=shortlink_Sun_diagnosis
-$~xmlhttprequest,removeparam=/^adid=/i,domain=~finn.no
+$~xmlhttprequest,removeparam=/^adid=/i,domain=~finn.no|~willhaben.at
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-773756
 $removeparam=twitchReferral
@@ -29532,8 +29537,10 @@ fruit01.xyz##+js(set, document.onkeydown, noopFunc)
 ! cruisin.me cookie-notice(due to $ghide)
 cruisin.me##.notice--cookie
 
-! https://github.com/NanoMeow/QuickReports/issues/4609
+! https://github.com/uBlockOrigin/uAssets/issues/11242
 @@||dailyvoice.com^$ghide
+*$xhr,redirect-rule=nooptext,domain=dailyvoice.com
+dailyvoice.com###nativo_rightrail1
 
 ! https://github.com/NanoMeow/QuickReports/issues/4612
 clipartmax.com##+js(aopw, document.oncontextmenu)
