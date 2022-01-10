@@ -7,8 +7,8 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 05January2022v2-Beta
-! Expires: 5 days
+! Version: 10January2022v2-Beta
+! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -1478,7 +1478,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||betacdn.xyz^$all
 ||avprotectionoverview.com^$all
 ||tkqlhce.com^$all
-||emjcd.com^$all
 ! https://github.com/DandelionSprout/adfilt/issues/288
 ||discordap.com^$all
 ||forwrdnow.com^$doc
@@ -1511,8 +1510,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||weaknessnill.shop^$all
 ||aquariuminn.com^$all
 ||army-glo.scrollingsystem.com^$doc
-||www.kqzyfj.com^$all
-||kqzyfj.com^$doc
 ||mcafee12.tt.omtrdc.net^$doc
 ||trolleydrop.info^$doc
 ||jaynordan.digital^$doc
@@ -7400,7 +7397,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated:9/1/2022
-! Version: 912022-1
+! Version: 912022-2
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20461,6 +20458,18 @@ expmediadirect1.com
 ! https://twitter.com/pr0xylife/status/1479004948868341760
 ||greshman.xyz^$all
 
+! https://scammer.info/t/discord-nitro-scam-26/87304
+||ntrospromotions.com^$all
+
+! https://scammer.info/t/discord-nitro-scam-25/87303
+||ldlscord.com^$all
+
+! https://scammer.info/t/discord-nitro-scam-23/87273
+||discqrdapp.com^$all
+
+! https://www.virustotal.com/gui/file/4cd2974db0f14230a40b59377b4831ce265681e15f927d77b4771649738a89e8/community
+||aggressivepvp.cf^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20657,9 +20666,9 @@ expmediadirect1.com
 ||weaknessnill.shop^$all
 ||aquariuminn.com^$document
 ||army-glo.scrollingsystem.com^$document
-||www.kqzyfj.com^$all
-||kqzyfj.com^$all
-||cj.dotomi.com^$all
+! ||www.kqzyfj.com^$all
+! ||kqzyfj.com^$all
+! ||cj.dotomi.com^$all
 ||mcafee12.tt.omtrdc.net^$document
 ||trolleydrop.info^$document
 ||jaynordan.digital^$document
@@ -21078,6 +21087,10 @@ expmediadirect1.com
 ||tiborola.info^$document
 ||pimtqc.reasonlocatedry.top^$all
 ||reasonlocatedry.top^$document
+||artbistro.us^$all
+||ffipfz.tookfinishcool.top^$all
+||tookfinishcool.top^$document
+||d.lusona.co^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22111,7 +22124,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 09January2022v3-Beta
+! Version: 10January2022v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22119,7 +22132,7 @@ cookieslaw.org$doc
 ! Opt-in allowlist for affiliate support tags: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
 ! Special thanks to https://github.com/git-101-collab for providing a 3-digit amount of new entries to this list, and to https://github.com/iam-py-test for volunteering to speed up the addition of user-submitted entries.
 ! Important notes: 
-! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view params on the strict-block page to bypass it.
+! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view parameters on the strict-block page or tools to bypass it.
 ! - this list can not remove anything after the # in URLs. This is impossible in uBlock Origin and AdGuard.
 
 ! ——— General remove rules ——— !
@@ -23989,7 +24002,8 @@ $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|a
 $removeparam=epi2,domain=tradedoubler.com
 
 ! https://www.hs.fi/talous/art-2000006474289.html?share=095cb51bfd3619323ff183dd633ae8ab
-$removeparam=share,domain=hs.fi|oerproject.com
+! https://www.quora.com/What-are-some-of-the-greatest-tennis-matches-ever-played?share=1
+$removeparam=share,domain=hs.fi|oerproject.com|quora.com
 
 ! https://www.loistoristeilyt.fi/?agency=napsu
 $removeparam=agency,domain=loistoristeilyt.fi
@@ -25041,6 +25055,26 @@ $removeparam=breadcrumb,domain=shopbop.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1914216
 $removeparam=r,domain=mrgay.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1935694
+! https://go.skimresources.com/?id=76112X1604401&xs=1&xcreo=500004&url=https://www.matchesfashion.com/us/products/Raf-Simons-Children-of-the-Revolution-roll-neck-jersey-top-1414525&xed=1&xcust=julydigitalcover
+||go.skimresources.com^$removeparam=id
+||go.skimresources.com^$removeparam=xs
+||go.skimresources.com^$removeparam=xcreo
+||go.skimresources.com^$removeparam=xed
+||go.skimresources.com^$removeparam=xcust
+$removeparam=rffrid
+! https://bit.ly/3xMwzGy?cc=8f8d85334707b66b55e73dabddab4672
+||bit.ly^$removeparam=cc
+! https://www.matchesfashion.com/us/womens/designers/raf-simons?qxjkl=tsid:38929|cgn:TnL5HPStwNw
+$removeparam=/qxjkl=tsid:/
+! https://www.skinceuticals.com/triple-lipid-restore-2%3A4%3A2-3606000434967.html?siteID=TnL5HPStwNw-_YX_g16Y0ksf95olDKBAvw
+||skinceuticals.com^$removeparam=siteID
+$removeparam=ad_name
+||kqzyfj.com^$removeparam=sid
+||dermstore.com^$removeparam=PID
+||dermstore.com^$removeparam=URL
+||dermstore.com^$removeparam=pubname
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -31623,3 +31657,7 @@ gadgets.usanewstoday.club##+js(set, blurred, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/11227
 freestreams-live1.com##+js(acis, document.oncontextmenu, nocontextmenu)
 freestreams-live1.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11245
+social-unlock.com##form#link a.submit:style(opacity: 1 !important; pointer-events: auto !important;)
+social-unlock.com##+js(set, ad_link,  '')
