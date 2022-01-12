@@ -7398,8 +7398,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 10/1/2022
-! Version: 1012022-3
+! Last updated: 12/1/2022
+! Version: 1212022-1
 ! Description: This list aims to protect against scams, phishing, and malware 
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21099,14 +21099,27 @@ expmediadirect1.com
 ||victor.honestcareforkids.us^$all
 ||blogswap.globaltactics.co^$all
 ||i.boleroforensics.co^$all
-||davomate.info^$document
-||tiborola.info^$document
+||davomate.info^$all
+||tiborola.info^$all
 ||pimtqc.reasonlocatedry.top^$all
 ||reasonlocatedry.top^$document
 ||artbistro.us^$all
 ||ffipfz.tookfinishcool.top^$all
 ||tookfinishcool.top^$document
 ||d.lusona.co^$all
+||instyles.co^$all
+||myhypeposts.com^$all
+||rlkusw.takechaircaptain.top^$all
+||takechaircaptain.top^$document
+||softwaveit.co^$all
+||ipowga.takechaircaptain.top^$all
+||g.intelierrestaurantsites.co^$all
+||v.citycoth.us^$all
+||bumblelex.allheartcards.co^$all
+||c.eveshop.us^$all
+||gcxfiw.eyeneversomebody.top^$all
+||eyeneversomebody.top^$document
+||gorgons.softwaveit.co^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -31693,3 +31706,6 @@ nocturnetls.net##+js(acis, document.ondragstart)
 nocturnetls.net##+js(acis, disableSelection, reEnable)
 nocturnetls.net##+js(aopr, disable_copy)
 nocturnetls.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11280
+cdn.gamemonetize.com##+js(ra, oncontextmenu, body)
