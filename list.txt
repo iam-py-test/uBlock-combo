@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 11January2022v1-Beta
+! Version: 14January2022v2-Beta
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -464,6 +464,14 @@ zombooru.com##a[href="http://www.analbooru.com/"]
 zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/DandelionSprout/adfilt/pull/167
 ||forgoprokick.icu^$all
+! The PCGamingWiki server
+||disccrdapp.$all
+! Blocking all similar repeat-letter typos just in case
+||ddscordapp.$all
+||diicordapp.$all
+||dissordapp.$all
+||discorrapp.$all
+||discordaap.$all
 
 ! ——— Found in witness reports online ———
 ! Adblock Plus list maintainer weekly reports
@@ -22158,7 +22166,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 13January2022v2-Beta
+! Version: 14January2022v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24795,7 +24803,7 @@ $removeparam=referer,domain=bodykind.com
 $removeparam=s,domain=spreadprivacy.com|youku.com|greenhouse.io
 
 ! https://twitter.com/chrissteinplays/status/1461003062936547331?t=CXBXxSiUKI8wPAkoGMH7zg
-$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es
+$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no
 
 ! https://market.yandex.ru/promo/hasbro_special?clid=602&cpa-perf=1#c
 ||yandex.$removeparam=clid
@@ -25148,6 +25156,9 @@ $removeparam=block,domain=nytimes.com
 
 ! https://www.kucoin.com/ucenter/signup?rcode=rJ8BQX4
 $removeparam=rcode,domain=kucoin.com
+
+! https://www.adressa.no/pluss/nyheter/2020/01/09/Over-1000-lynnedslag-i-Midt-Norge-p%C3%A5-ett-d%C3%B8gn-Sjelden-det-er-s%C3%A5-mye-vintertorden-som-dette-20788273.ece?rs2449061583154706756&t=1
+||adressa.no^$removeparam=/^rs[0-9]/
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -31739,3 +31750,10 @@ nocturnetls.net##*:style(-webkit-touch-callout: default !important; -webkit-user
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11280
 cdn.gamemonetize.com##+js(ra, oncontextmenu, body)
+
+! nusantararom. org nuisance
+nusantararom.org##+js(aeld, contextmenu)
+nusantararom.org##+js(aeld, , keyCode)
+nusantararom.org##+js(no-xhr-if, gif)
+nusantararom.org##p:has-text(Adblock)
+nusantararom.org##.elementor-popup-modal
