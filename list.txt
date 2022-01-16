@@ -22184,7 +22184,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 15January2022v2-Beta
+! Version: 16January2022v5-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22194,6 +22194,7 @@ cookieslaw.org$doc
 ! Important notes: 
 ! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view parameters on the strict-block page or tools to bypass it.
 ! - this list can not remove anything after the # in URLs. This is impossible in uBlock Origin and AdGuard.
+! - this list can not remove paramters added using https://developer.mozilla.org/en-US/docs/Web/API/History/replaceState
 
 ! ——— General remove rules ——— !
 ! From AdGuard CoreLibs (11/11/2020)
@@ -23783,6 +23784,11 @@ $removeparam=share_link_id
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-810773
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-974118
 ||tiktok.com^$removeparam=checksum
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1909327
+||tiktok.com^$removeparam=sec_uid
+||tiktok.com^$removeparam=share_author_id
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1979025
+$removeparam=/^web_id\d+/,domain=tiktok.com
 
 !! ——— Rules for heavily covered international sites ———
 !!! ——— PR-China ———
@@ -25153,10 +25159,6 @@ $removeparam=/^qxjkl=tsid:/
 $removeparam=ad_name
 ||dermstore.com^$removeparam=URL
 
-! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1909327
-||tiktok.com^$removeparam=sec_uid
-||tiktok.com^$removeparam=share_author_id
-
 ! https://www.gamereactor.fi/uutiset/914423/JBL+esitteli+aanekkaan+BoomBox+3n+ja+samalla+uuden+mikrofonin+ja+nappikuulokkeet+pelaamiseen/?rs=rss
 $removeparam=rs,domain=gamereactor.*
 
@@ -25183,6 +25185,9 @@ $removeparam=rcode,domain=kucoin.com
 
 ! https://www.deezer.com/en/track/143032368?deferredFl=1
 ||deezer.com^$removeparam=deferredFl
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1979025
+$removeparam=Bibblio_source,domain=macrumors.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -27521,11 +27526,6 @@ practicetestgeeks.com##body:style(-webkit-touch-callout: default !important; -we
 ! https://github.com/NanoMeow/QuickReports/issues/1895
 lazyadmin.nl##+js(aopw, adsBlocked)
 
-! hargakamera7 .com right click, select, ctrl-u
-hargakamera7.com##+js(acis, disableSelection, reEnable)
-hargakamera7.com##+js(aopw, nocontext)
-hargakamera7.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6341
 chowhound.com##.fb_lightbox-overlay
 chowhound.com##.preloaded_lightbox
@@ -27536,9 +27536,6 @@ bold.dk##+js(acis, eval, abd)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=43617
 liverpool.no##+js(nostif, offsetHeight)
-
-! https://github.com/NanoMeow/QuickReports/issues/1914
-newtoki30.net##+js(acis, jQuery, keydown)
 
 ! mainframestechhelp .com right click
 mainframestechhelp.com##+js(aopr, document.oncontextmenu)
@@ -27834,9 +27831,6 @@ wizardsubs.com##*:style(-webkit-touch-callout: default !important; -webkit-user-
 ! https://github.com/NanoMeow/QuickReports/issues/2504
 pehawe.me##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 
-! https://github.com/NanoMeow/QuickReports/issues/2520
-@@||cnnturk.com^$ghide
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6701
 estadao.com.br##+js(aeld, copy)
 
@@ -27940,6 +27934,8 @@ pelismart.com##+js(aopr, onload)
 /wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js$script,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7811
+! https://github.com/uBlockOrigin/uAssets/issues/11335
+keybr.com##+js(nostif, , 5000)
 keybr.com##+js(nostif, [native code])
 
 ! https://github.com/NanoMeow/QuickReports/issues/2720
@@ -28015,13 +28011,8 @@ citpekalongan.com##body:style(-webkit-touch-callout: default !important; -webkit
 gembel9.xyz##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown|onmousedown)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2818
-dramaqu.me##+js(acis, $, contextmenu)
-
-! https://github.com/NanoMeow/QuickReports/issues/2822
-fdmovie.com##+js(acis, document.oncontextmenu)
-fdmovie.com##+js(aopr, document.onkeydown)
-fdmovie.com##+js(acis, disableSelection)
-fdmovie.com##+js(aeld, keydown)
+! dramaqu. work
+dramaqu.*##+js(acis, $, contextmenu)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2830
 indcit.com##+js(acis, document.oncontextmenu)
@@ -28043,23 +28034,6 @@ theregister.co.uk##+js(aopr, adtoniq)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2839
 gembelcit.net##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown|onmousedown)
-
-! https://github.com/NanoMeow/QuickReports/issues/2842
-ventax.net##+js(acis, document.oncontextmenu)
-
-! https://github.com/NanoMeow/QuickReports/issues/2845
-206.189.84.204##+js(acis, document.oncontextmenu)
-206.189.84.204##+js(acis, disableSelection, reEnable)
-
-! https://github.com/NanoMeow/QuickReports/issues/2847
-cafecoli.xyz##+js(acis, document.oncontextmenu)
-cafecoli.xyz##+js(acis, disableSelection, reEnable)
-cafecoli.xyz##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
-! https://github.com/NanoMeow/QuickReports/issues/2849
-nonstopbokep.info##+js(acis, document.oncontextmenu)
-nonstopbokep.info##+js(acis, disableSelection, reEnable)
-nonstopbokep.info##html:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://www.reddit.com/r/firefox/comments/eu70aq/turn_off_ublock_origin_howaboutno/
 @@||merryjane.com/static/images/ads.png^$image,1p
@@ -28088,10 +28062,6 @@ web-capture.net###stw_ad
 ! ymovies .to anti adb warning
 ymovies.*##.alert-danger.alert
 
-! https://github.com/NanoMeow/QuickReports/issues/2875 right click select
-bfoni.com##+js(acis, document.oncontextmenu)
-bfoni.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
 ! https://github.com/NanoMeow/QuickReports/issues/2878
 adnan-tech.com##+js(ra, oncontextmenu)
 adnan-tech.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
@@ -28107,10 +28077,6 @@ zoom.com.br###exit-modal-signup, #overlay-modal
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=44254
 @@||linux.org^$ghide
-
-! https://github.com/NanoMeow/QuickReports/issues/2904
-drivedrama.asia##+js(aopr, document.oncontextmenu)
-drivedrama.asia##.post-body:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! pclifetutoriales .com right click select
 pclifetutoriales.com##^script:has-text(contextmenu)
@@ -28143,6 +28109,7 @@ orangespotlight.com##*:style(-webkit-user-select: text !important; -moz-user-sel
 
 ! https://github.com/NanoMeow/QuickReports/issues/2943
 tepat.id##+js(aeld, /^(contextmenu|keydown)$/)
+tepat.id##*::selection:style(background-color:#338FFF!important)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2944
 isikuota.co.id##*:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
