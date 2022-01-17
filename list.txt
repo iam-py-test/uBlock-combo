@@ -22184,7 +22184,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 16January2022v5-Beta
+! Version: 17January2022v2-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -22217,7 +22217,7 @@ $removeparam=action_ref_map
 ! https://www.dx.com/p/sliding-camera-protective-cover-for-smartphones-laptops-tablets-2729311.html?Utm_rid=91262049&Utm_source=affiliatewindow (21/11/2021)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488307
 ! Exclude sendgb.com - https://github.com/AdguardTeam/AdguardFilters/issues/100285
-$removeparam=/^utm_/i,domain=~redir.tradedoubler.com|~sendgb.com
+$removeparam=/^utm_/i,domain=~redir.tradedoubler.com|~sendgb.com|~allegro.pl
 $removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $removeparam=/^stm_/,domain=~redir.tradedoubler.com
 
@@ -27937,6 +27937,8 @@ pelismart.com##+js(aopr, onload)
 ! https://github.com/uBlockOrigin/uAssets/issues/11335
 keybr.com##+js(nostif, , 5000)
 keybr.com##+js(nostif, [native code])
+keybr.com###keybr_728x90_970x90_ATF:upward(2)
+keybr.com###keybr_160x600_Left:upward(2)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2720
 mangaku.*##+js(acis, $, contextmenu)
@@ -31754,3 +31756,9 @@ elpais.com##+js(nostif, run)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11330
 mail.tm##+js(nostif, init())
+
+! wawlist. com anti right click, select, ctrl,f-keys
+wawlist.com##+js(acis, document.oncontextmenu)
+wawlist.com##+js(acis, document.onkeydown)
+wawlist.com##+js(aopr, disableSelection)
+wawlist.com##+js(aeld, keydown)
