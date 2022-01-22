@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 21January2022v1-Beta
+! Version: 21January2022v2-Beta
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -7317,7 +7317,7 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ://ww5.$doc,domain=~ww5.ikea.com|~ww5.msu.ac.zw
 ://ww6.$doc,domain=~ww6.generali.pt
 ://ww7.$doc,domain=~ww7.be|~ww7.readsnk.com
-://ww8.$doc,domain=~ww8.co|~ww8.ikea.com|~ww8.tiki.ne.jp|~ww8.erovoice.us|~ww8.anyanime.com|~ww8.bakushpal.az|~ww8.tokyoghoulre.com
+://ww8.$doc,domain=~ww8.co|~ww8.ikea.com|~ww8.tiki.ne.jp|~ww8.erovoice.us|~ww8.anyanime.com|~ww8.bakushpal.az|~ww8.tokyoghoulre.com|~ww8.readonepiece.com
 ://ww9.$doc,domain=~ww9.ikea.com|~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br
 ://ww10.$doc
 ://ww11.$doc
@@ -22228,7 +22228,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 21January2022v3-Beta
+! Version: 22January2022v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25295,6 +25295,9 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ! Email verification for 'MyWOT' - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1683830
 @@||mywot.com/user/*/confirmNewEmail$removeparam=/^utm_/i
 
+! Breaks redirection to correct product
+@@||cdon.*/td_redirect^$removeparam=tduid
+
 !#if adguard
 !#if adguard_ext_firefox
 ! https://github.com/DandelionSprout/adfilt/issues/376
@@ -26379,6 +26382,9 @@ gaypornwave.com##+js(aopw, document.oncontextmenu)
 
 ! https://github.com/NanoMeow/QuickReports/issues/422
 @@||topspeed.com^$ghide
+topspeed.com##.txt-ad
+topspeed.com##.daily-vid-ad
+topspeed.com##.top-horizontal-ad-content
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4268#issuecomment-445478692
 @@||mywrestling.com.pl^$ghide
@@ -31828,3 +31834,11 @@ realpython.com##+js(aeld, DOMContentLoaded, rprw)
 virpe.cc##+js(ra, onselectstart)
 virpe.cc##+js(aeld, contextmenu)
 virpe.cc##+js(set, document.oncontextmenu, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11396
+! https://github.com/uBlockOrigin/uAssets/issues/10881
+northjersey.com,independentmail.com,usatoday.com##.gnt_mol_oy
+northjersey.com,independentmail.com,usatoday.com##html.gnt__mo:style(overflow-y:scroll !important;pointer-events: unset !important;user-select: unset !important;margin-right: unset !important;)
+
+! https://github.com/uBlockOrigin/uAssets/pull/11425
+*/wp-content/plugins/smio-push-notification
