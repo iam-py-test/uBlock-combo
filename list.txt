@@ -7410,8 +7410,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 23/1/2022
-! Version: 2312022-2
+! Last updated: 25/1/2022
+! Version: 2512022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20516,6 +20516,39 @@ expmediadirect1.com
 ||newlove.life^$all
 ||real-women-online.com^$all
 
+! https://www.virustotal.com/gui/ip-address/91.243.32.56/relations
+||online-cinema.pw^$all
+||olx-dostawka-pl.cyou^$all
+||inpost-dostawa-pl.cyou^$all
+||inpost-dostawka.cyou^$all
+||inpost-pl-dostawa.cyou^$all
+||olx-pl-dostawa.cyou^$all
+||inpost-dostawa.icu^$all
+||olx-dostawa.icu^$all
+||www.inpost-security.icu^$all
+||inpost-security.icu^$all
+||gls-dk-security.icu^$all
+||olx-pt-security.icu^$all
+||inpost-delivery-terms.pl^$all
+||olx-pl-safe-delivering.icu^$all
+||inpost-delivering.icu^$all
+||inpost-pl-delivering.icu^$all
+||olx-pl-delivering.icu^$all
+||inpost-delivery-pl.icu^$all
+||inpost-terms.icu^$all
+
+! https://www.virustotal.com/gui/file/cfb15322084d6292f43038a69b0e017b809f178b7c85c310f8effdb37a3eb9a3/community
+||florafawnamusic.com^$all
+
+! https://www.virustotal.com/gui/file/edddab090284f2bd22d4a30b9bbe352af5c0c357f72ab3d27154fdabf9fee51c/community
+||hfjv9g950bag53fcbcdnbcbnmhy35zch.tk^$all
+
+! https://www.virustotal.com/gui/file/049c51aeeb616f8b465cbe006dd1d3ad27984882578f07ec043c71148797cccf/community
+||179.43.175.148^$all
+
+! https://www.virustotal.com/gui/file/72876d8f3fec998843102c94c464720c1e4396a8ce04646f171dd7b536c9ebde/community
+||198.12.127.206^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22261,7 +22294,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 24January2022v3-Beta
+! Version: 25January2022v1-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25292,6 +25325,9 @@ $removeparam=site,domain=alina.se
 
 ! https://www.davids.se/produkt/mlpg3qn-a?variant=15818&prisjakt=1
 $removeparam=prisjakt,domain=davids.se|poradio.se|teleradio.nu
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2043678
+$removeparam=refresh,domain=cnn.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -31841,7 +31877,7 @@ nusantararom.org##.elementor-popup-modal
 elpais.com##+js(nostif, run)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11330
-mail.tm##+js(nostif, init())
+mail.tm##:xpath(//*[contains(text(),"blockers")])
 
 ! wawlist. com anti right click, select, ctrl,f-keys
 wawlist.com##+js(acis, document.oncontextmenu)
