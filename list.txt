@@ -7410,8 +7410,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 25/1/2022
-! Version: 2512022-1
+! Last updated: 26/1/2022
+! Version: 2612022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21201,6 +21201,7 @@ expmediadirect1.com
 ||goto.batteryscience.us^$all
 ||cifegate.info^$all
 ||caws.getgreencard.us^$all
+||ellisfurreverfriends.co^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -21493,6 +21494,10 @@ expmediadirect1.com
 ||91uzd.xyz^$all
 ||defender-scanning.xyz^$all
 ||windows-secureit.com^$all
+
+! fake game cheat download buttons redirecting to "press allow to continue" and Norton
+||anonmods.com^$all
+||freychang.fun^$all
 
 ! ----- PUPs -----
 
@@ -22294,7 +22299,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 25January2022v2-Beta
+! Version: 26January2022v2-Beta
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23588,6 +23593,9 @@ $removeparam=cx_artPos
 ! https://www.motardinn.com/motorcykel-utrustning/ctek-mxs-5.0/77878/p?belboon=2201192236054280583
 $removeparam=belboon
 
+! https://www.komplett.se/product/1119114/tv-ljud-bild/tv-video/mediaspelare/spelare/xiaomi-mi-box-s?channable=013014696400313131393131340d
+$removeparam=channable
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -24692,7 +24700,7 @@ $removeparam=ref_ctx_id
 $removeparam=rss,domain=sn.dk|ted.com
 
 ! https://www.masku.com/tuotteet/393766-smart-tyopoyta/?nosto=productpage-nosto-2&conf%5B1153%5D=10427&conf%5B2651%5D=10771
-$removeparam=nosto,domain=masku.com|staypro.fi|happyangler.fi
+$removeparam=nosto,domain=masku.com|staypro.*|happyangler.*
 
 ! https://scontent.cdninstagram.com/v/t50.2886-16/228280186_4462339507137399_6165083647713647040_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5zdG9yeS5kZWZhdWx0In0&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_ohc=nL_7kCFHgrcAX-HT6F1&edm=AOVtZ6oBAAAA&vs=17895914579221456_1489520608&_nc_vs=HBksFQAYJEdIcEhtdzEzcXpCaGVkb1BBTUNaaXVEcHhvNVZidXFIQUFBQRUAAsgBABUAGCRHTVdiZFE2Z2ZIa3dVWFVBQUtNZXdSNFhTQ2NSYnBrd0FBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACbCkMnRj5zWPxUCKAJDMywXQCREGJN0vGoYEmRhc2hfYmFzZWxpbmVfM192MREAdegHAA%3D%3D&ccb=7-4&oe=614B0BE1&oh=22849edcbcdb1949e3f0cbde56ddd89b&_nc_vts_prog=1&dl=1
 ||cdninstagram.com^$removeparam=ccb
@@ -25328,6 +25336,10 @@ $removeparam=prisjakt,domain=davids.se|poradio.se|teleradio.nu
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2043678
 $removeparam=refresh,domain=cnn.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2052109
+$removeparam=header_go_pro_button,domain=tradingview.com
+||tradingview.com^$removeparam=feature
 
 !#if !env_mobile
 ! ——— Mobile ——— !
