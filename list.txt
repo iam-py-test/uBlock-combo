@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 29January2022v2-Beta
+! Version: 31January2022v5-Beta
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -26,7 +26,7 @@
 ! Central African Republic
 ||cf^$doc,domain=~google.cf|~rths.cf|~voitures.cf|~assembleenationale-rca.cf|~cps-rca.cf|~acap.cf|~miraculousladybug.cf|~scrat.cf
 ! Palau
-||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw
+||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw
 ! Legitimate use is almost non-existent, but has a tiny userbase in Japan
 ||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
@@ -277,6 +277,9 @@ windll.com##.dll > p
 dllfile.net##.sticky-link
 fix4dll.com##.file__download
 fix4dll.com#?#.sidebar__block:-abp-contains(Outbyte)
+winaero.com##.entry-content > div:has([href="/fix-classic-issues-performance/"])
+||outbyte.com^$doc
+||testedforyou.net^$all
 ! ¤¤¤ PC Reviver ¤¤¤
 dll4free.com#?#.leftdiv:-abp-contains(PC Reviver)
 ! ¤¤¤ FixMyPC ¤¤¤
@@ -2071,6 +2074,9 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||discorde-nitre.xyz^$all
 ! https://github.com/blocklistproject/Lists/issues/613#issuecomment-1018499340
 ||e-giftnitro.com^$all
+! https://github.com/AdguardTeam/AdguardFilters/issues/108571
+||ston-app.com^$all
+||valida-acesso.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7407,8 +7413,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 30/1/2022
-! Version: 3012022-1
+! Last updated: 31/1/2022
+! Version: 3112022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20533,6 +20539,10 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/72876d8f3fec998843102c94c464720c1e4396a8ce04646f171dd7b536c9ebde/community
 ||198.12.127.206^$all
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/108571
+||valida-acesso.com^$all
+||ston-app.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21223,6 +21233,13 @@ expmediadirect1.com
 ||pnqxtz.manjobalone.top^$all
 ||manjobalone.top^$document
 ||medgossip.co^$all
+||abogapp.co^$all
+||fjbnoq.scoretellcompare.top^$all
+||scoretellcompare.top^$document
+||boothloading.abogapp.co^$all
+||loadcity.frubert.com^$all
+||keened.myhos.net^$all
+||huntereq.broomemeadowbakes.com^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22027,6 +22044,10 @@ expmediadirect1.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11176
 ||nearbyme.io^$document
 ||m.nearbyme.io^$document
+
+! https://twitter.com/iam_py_test/status/1488163521540075524
+||outbyte.com^$document
+||testedforyou.net^$all
 
 ! ----- Spam -----
 
