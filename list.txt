@@ -7424,8 +7424,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2/2/2022
-! Version: 222022-2
+! Last updated: 3/2/2022
+! Version: 322022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22136,6 +22136,10 @@ expmediadirect1.com
 ! https://forums.malwarebytes.com/topic/283347-update-ios-15/ (https://web.archive.org/web/20220202172612/https:/forums.malwarebytes.com/topic/283347-update-ios-15/)
 ||stormlordpublishing.com^$document
 
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1029244954
+||quickdates1.com^$document
+||lovesingle.xyz^$document
+
 ! ----- Cryptominers -----
 
 ! Was to be used for Cryptomining  - this website seems to no longer used for those
@@ -22436,7 +22440,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 03February2022v5
+! Version: 03February2022v6
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25551,6 +25555,9 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 
 ! Supposedly breaks some YouTube videos - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2026338
 @@||youtube.com/videoplayback$removeparam=source
+
+! Temp fix for Facebook - https://github.com/DandelionSprout/adfilt/issues/473
+@@||facebook.com^$removeparam=__s
 
 !#if adguard
 !#if adguard_ext_firefox
