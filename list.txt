@@ -22471,7 +22471,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 04February2022v2
+! Version: 05February2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23793,7 +23793,7 @@ $removeparam=cid,domain=adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
-$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|bybit.com|catch.com.au|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|eset.com|emag.ro|etsy.com|expo.io|facebook.com|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kansanuutiset.fi|kauppalehti.fi|kesaduuni.org|kickstarter.com|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|puutarha.net|rakentaja.fi|reddit.com|sahkovertailu.fi|scandinavianphoto.fi|semrush.com|shein.com|shopping.google.*|sketch.com|spiegel.de|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com
+$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|eset.com|emag.ro|etsy.com|expo.io|facebook.com|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kansanuutiset.fi|kauppalehti.fi|kesaduuni.org|kickstarter.com|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|puutarha.net|rakentaja.fi|reddit.com|sahkovertailu.fi|scandinavianphoto.fi|semrush.com|shein.com|shopping.google.*|sketch.com|spiegel.de|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com
 ! https://www.comixology.com/Scooby-Doo-1997-2010/comics-series/353?irgwc=1&tid=IR-affiliate-10451&clickid=VsxVfPSSvxyOWNfwUx0Mo38MUkiXwRwR0xWjW40 (01/03/2021)
 ! (e.g. mirrored.to, tunnistautuminen.suomi.fi)
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com
@@ -23942,7 +23942,7 @@ $removeparam=sk,domain=bing.com|aliexpress.*
 ||bing.com^$removeparam=pq
 ||bing.com^$removeparam=refig
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-541044
-||bing.com^$removeparam=cvid
+$removeparam=cvid,domain=bing.com|msn.com
 @@||bing.com/AS/Suggestions?$removeparam=cvid
 ||bing.com^$removeparam=go
 ! https://www.bing.com/search?q=brew+milk+video+heathly+or+brainwash&shtp=GetUrl&shid=52ffd333-de86-43eb-8e42-3c4b8d86b6a3&shtk=RHJpbmsgT25lIEdsYXNzIG9mIE1pbGsgYSBEYXkuIEJldHRlciBCb25lcyBvciBCcmFpbndhc2hpbmc%2F&shdk=VGhpcyB2aWRlbyBpcyBzcG9uc29yZWQgYnkgRGFzaGxhbmUuIFRyeSBpdCBmcmVlIGZvciAzMCBkYXlzIGF0IGh0dHBzOi8vd3d3LmRhc2hsYW5lLmNvbS9icmV3IElmIHlvdSBsaWtlIGl0LCB1c2UgdGhlIGNvZGUg4oCYYnJld%2BKAmSBmb3IgMTAlIG9mZiBhdCBjaGVja291dCBJcyBtaWxrIGdvb2Qgb3IgYmFkIGZvciB5b3U%2FIElzIGl0IHJlYWxseSBoZWFsdGh5IGZvciB5b3VyIGJvbmVzPyBXaHkgYXJlIHJlc2VhcmNoZXJzIGFuZCBzY2llbnRpc3RzIHNwZWFraW5nIGFnYWluc3QgaXQ%2FIElzIHRoZSBmb29kIGluZHVzdHJ5IGhpZGluZyBzb21ldGhpbmcgZnJvbSB1cz8gTGV0J3MgZmluZCBvdXQgLi4u&shhk=a8MjbVhOQyCok8qs42amxA6%2B8sUgPQh4DtB4PgJh0gI%3D&shth=OVP.XR1Cz2a0aI5ebTNFbFySUAIIEk
@@ -25556,6 +25556,16 @@ $removeparam=refresh,domain=cnn.com
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1030398788
 ||mail.ru^$removeparam=mt_click_id
+
+! https://www.argos.co.uk/product/9381878?rec=PDP[6537474]:bottomSlider:P1:OHAT:alternatives:9381878:vfsNuIT3JJJV1Pq8begB
+! https://www.argos.co.uk/events/home-offers?$ja=tsid%3A11674%7Cprd%3A6361382
+! https://www.argos.co.uk/product/7553213?clickPR=plp:1:165
+$removeparam=rec,domain=argos.co.uk
+$removeparam=/[$]ja/,domain=argos.co.uk
+$removeparam=clickPR,domain=argos.co.uk
+
+! https://www.buzzfeednews.com/article/salvadorhernandez/joe-rogan-spotify-racial-slur-apology?d_id=3132683&ref=bftwbuzzfeed
+||buzzfeednews.com^$removeparam=d_id
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -28588,6 +28598,7 @@ maachanime.com##.unselectable:style(-webkit-touch-callout: default !important; -
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/f879lv/whathifi_antiadblock_not_blocked/
 @@||whathifi.com^$ghide
+whathifi.com##.ad-unit,.sponsored-post
 
 ! https://github.com/NanoMeow/QuickReports/issues/3123
 lolle21.com##+js(acis, document.oncontextmenu)
@@ -32182,3 +32193,6 @@ yhocdata.com##+js(aopr, contentprotector)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11615
 ||thresholdforum.s3.us-east-2.amazonaws.com/arn:aws:s3:::thresholdforum/javascript_adblockdetector/$script
+
+! https://www.reddit.com/r/uBlockOrigin/comments/sla82r/how_to_fix_blurring_on_this_website/
+meteoblue.com##+js(set, mb.advertisingShouldBeEnabled, false)
