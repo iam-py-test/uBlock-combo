@@ -7447,8 +7447,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 10/2/2022
-! Version: 1022022-1
+! Last updated: 11/2/2022
+! Version: 1122022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21552,6 +21552,49 @@ expmediadirect1.com
 ||likeenemyfarm.top^$all
 ||wentwherepiece.top^$all
 ||gunbroadbegin.top^$all
+||bloghunter.aaguatemala.org^$all
+||meanrivermorning.top^$all
+||lolxpb.meanrivermorning.top^$all
+||pesqfx.humanpartybetween.top^$document
+||humanpartybetween.top^$document
+||kjypmo.nothingsaveevening.top^$document
+||nothingsaveevening.top^$document
+||ydilnu.shortcareabout.top^$document
+||shortcareabout.top^$document
+||gwvyre.wintertherelow.top^$document
+||wintertherelow.top^$document
+||divbwr.endsurpriselady.top^$document
+||endsurpriselady.top^$document
+||swxnwy.hatthingoh.top^$document
+||hatthingoh.top^$document
+||thousandsmallsight.top^$document
+||wansch.thousandsmallsight.top^$document
+||comemiddletie.top^$all
+||kyzwpb.comemiddletie.top^$document
+||juqgea.comemiddletie.top^$document
+||mmryjp.comemiddletie.top^$all
+||riljss.comemiddletie.top^$all
+||abated-hamate.xyz^$all
+||ganges-urania.xyz^$all
+||s3hg0.xyz^$all
+||tabw5.xyz^$all
+||owldl.xyz^$all
+||iwft8.xyz^$all
+||4sdth.xyz^$all
+||7yapf.xyz^$all
+||8a4uj.xyz^$all
+||yij7w.xyz^$all
+||82vor.xyz^$all
+||xusdh.xyz^$all
+||iwd3l.xyz^$all
+||iqrcs.xyz^$all
+||47p0a.xyz^$all
+||ugaa6.xyz^$all
+||uigur.xyz^$all
+||32vby.xyz^$all
+||iss5s.xyz^$all
+||ifmom.xyz^$all
+||3wuq1.xyz^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22741,7 +22784,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 10February2022v2
+! Version: 11February2022v5
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23176,7 +23219,7 @@ $removeparam=extcmp
 $removeparam=at_gd
 
 ! https://www.gamerevolution.com/guides/685650-windows-11-tpm-2-0-pc-cant-run-install?amp (No one on fast networks really likes AMP, least of all uBlock Origin + 'Firefox for Android' users; 25/06/2021)
-$removeparam=amp,domain=gamerevolution.*|pcmag.com
+$removeparam=amp,domain=gamerevolution.*|pcmag.com|theathletic.com
 
 ! https://inews.co.uk/opinion/matt-hancock-health-bill-huge-row-no10-boris-johnson-1067703?_gl=1*1l47swq*_ga*OUp3WnF6dklkRHNVaHBfaDJmUnFHSkR5VFBtMzV5enpSWk1XUENzWlNENGg2VmdQZHZoRVFfV3BmNXV2ZjREYQ
 $removeparam=_gl
@@ -24059,11 +24102,11 @@ $removeparam=sudaref
 ! ——— Specific remove rules ——— !
 !! ——— Can never be made generic ———
 ! (e.g. due to sparebank1.no, RARbg.to, Disney+ newsletter unsubscriptions)
-$removeparam=cid,domain=adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
+$removeparam=cid,domain=adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|disneyplus.com|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
-$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|emag.ro|etsy.com|expo.io|facebook.com|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kansanuutiset.fi|kauppalehti.fi|kesaduuni.org|kickstarter.com|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|puutarha.net|rakentaja.fi|reddit.com|sahkovertailu.fi|scandinavianphoto.fi|semrush.com|shein.com|shopping.google.*|sketch.com|spiegel.de|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com
+$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|emag.ro|etsy.com|expo.io|facebook.com|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kansanuutiset.fi|kauppalehti.fi|kesaduuni.org|kickstarter.com|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|puutarha.net|rakentaja.fi|reddit.com|sahkovertailu.fi|scandinavianphoto.fi|semrush.com|shein.com|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com
 ! https://www.comixology.com/Scooby-Doo-1997-2010/comics-series/353?irgwc=1&tid=IR-affiliate-10451&clickid=VsxVfPSSvxyOWNfwUx0Mo38MUkiXwRwR0xWjW40 (01/03/2021)
 ! (e.g. mirrored.to, tunnistautuminen.suomi.fi)
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com
@@ -24109,7 +24152,7 @@ $removeparam=creativeASIN
 ! https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-max-instance-lifetime.html?sc_icampaign=Adoption_Campaign_pac-optimize-2020-console-1-asg-max&sc_ichannel=ha&sc_icontent=awssm-5270&sc_ioutcome=Enterprise_Digital_Marketing&sc_iplace=console-ec2autoscaling_infobar&trk=ha_a121p21423yfe1DAD~ha_awssm-5270&trkCampaign=pac-edm-2019-optimize-autoscaling-instance-asg (28/02/2021)
 $removeparam=/^sc_i/
 $removeparam=trkCampaign
-$removeparam=trk,domain=splashthat.com|aws.amazon.com|aws
+$removeparam=trk,domain=splashthat.com|aws.amazon.com|aws|xkcd.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-700946
 ||amazon.$removeparam=/^__mk_*_/
 ||amazon.$removeparam=ascsubtag
@@ -24245,7 +24288,7 @@ $removeparam=googleloc
 ||ebay.$removeparam=poi
 ||ebay.$removeparam=mkgroupid
 ||ebay.$removeparam=abcId
-$removeparam=_sacat
+$removeparam=_sacat,domain=~ebay.*
 ||ebay.$removeparam=campid
 ||ebay.$removeparam=toolid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1559864
@@ -24258,6 +24301,13 @@ $removeparam=cmpgn,domain=ebay.*
 ||ebay.*/itm/$removeparam=LH_BIN
 ! https://www.ebay.es/itm/313545659728?rpp_cid=61a98c608d080d0465e9035f&siteid=186
 $removeparam=rpp_cid
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2158483
+||ebay.*$removeparam=mkpid
+||ebay.*$removeparam=emsid
+||ebay.*$removeparam=euid
+||ebay.*$removeparam=bu
+||ebay.*$removeparam=crd
+||ebay.*$removeparam=sojTags
 
 !!! ——— Facebook ———
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/157
@@ -24552,6 +24602,9 @@ $removeparam=aff_click_id
 ||bilibili.com^$removeparam=tdsourcetag
 ||bilibili.com^$removeparam=timestamp
 ||bilibili.com^$removeparam=unique_k
+! https://github.com/the1812/Bilibili-Evolved/commit/e859b988c5a28ebd1acdedd2df037f23ab27637d
+! https://github.com/AdguardTeam/AdguardFilters/issues/106834
+||bilibili.com/video/*$removeparam=ts
 ! https://manga.bilibili.com/detail/mc25717?refer_from=bili_main_nav
 ||bilibili.com^$removeparam=refer_from
 ! https://show.bilibili.com/platform/home.html?msource=pc_web
@@ -24573,6 +24626,11 @@ $removeparam=aff_click_id
 ! https://github.com/DandelionSprout/adfilt/pull/497
 ! https://www.bilibili.com/video/BV1Br4y1h7BW?-Arouter=story (10/02/2022)
 ||bilibili.com^$removeparam=-Arouter
+! https://github.com/DandelionSprout/adfilt/pull/498
+! https://b23.tv/qyCIzk0?share_medium=android&share_source=qq&bbid=XY109CF1E34C218EE069040BA659740FD307B&ts=1644566174988 (11/02/2022)
+||b23.tv^$removeparam=/^share_/
+||b23.tv^$removeparam=bbid
+||b23.tv^$removeparam=ts
 
 !!!! ——— iQIYI ———
 ! https://github.com/DandelionSprout/adfilt/pull/390
@@ -24734,7 +24792,7 @@ $removeparam=region,domain=nytimes.com|nytimes3xbfgragh.onion
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1155198
 $removeparam=sm12
-$removeparam=ts,domain=x-kom.pl|al.to|combat.pl|baidu.com|bilibili.com
+$removeparam=ts,domain=x-kom.pl|al.to|combat.pl|baidu.com
 $removeparam=token,domain=x-kom.pl|al.to|combat.pl|substack.com
 
 ! http://www.bodenusa.com/?tc_ch=affs&tc_ve=ppj&code=X3W6&tc_so=8439&tc_me=cr&tc_ca=na&tc_au=na&tc_cr=2-420132&tc_campid=na&tc_adgroupid=na&tc_kwid=na&tc_matchid=na
@@ -32502,3 +32560,6 @@ payskip.org##body[style^="cursor:pointer"]:style(cursor: auto!important)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/spnkv7/how_to_stop_website_redirecting_block_the/
 investorvillage.com##+js(acis, update_visit_count)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11698
+crunchyscan.fr##+js(acis, document.oncontextmenu)
