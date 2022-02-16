@@ -7448,7 +7448,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 15/2/2022
-! Version: 1522022-1
+! Version: 1522022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect people against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20733,6 +20733,25 @@ expmediadirect1.com
 ||remik-franchise.ru^$all
 ||spaldingcompanies.com^$all
 
+! https://github.com/uBlockOrigin/uAssets/pull/11744
+||greencracks.com^$all
+||procrackerz.com^$all
+||crackfix.net^$all
+||zcracked.com^$all
+||cracksoftware.org^$all
+||downloadpc.net^$all
+||pcfullcrack.org^$all
+||serialkey.info^$all
+||keygenpc.com^$all
+||up4pc.com^$all
+||hitproversion.com^$all
+||cracktube.net^$all
+||funnow45.xyz^$all
+||137.184.159.42^$all
+||iplogger.org/2Acru6^$all
+||yourpcnotification.com^$all
+||r3achb3ach.com^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22812,7 +22831,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 15February2022v3
+! Version: 15February2022v4
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24121,6 +24140,12 @@ $removeparam=int_campaign
 ! https://finance.sina.com.cn/stock/?sudaref=graph.qq.com&display=0&retcode=0 (03/02/2022)
 $removeparam=sudaref
 
+! https://github.com/DandelionSprout/adfilt/pull/504
+! https://zhuanlan.zhihu.com/p/430660544?presentid=webnews (14/02/2022)
+! http://edu.sina.com.cn/y/bbs/2005/1020/1017979.html?presentid=webnews (14/02/2022)
+! This extra parameter appears when opening news from widgets in Windows 11.
+^presentid=webnews^$removeparam=presentid
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -24288,6 +24313,9 @@ $removeparam=cvid,domain=bing.com|msn.com
 ||bing.com^$removeparam=go
 ! https://www.bing.com/search?q=brew+milk+video+heathly+or+brainwash&shtp=GetUrl&shid=52ffd333-de86-43eb-8e42-3c4b8d86b6a3&shtk=RHJpbmsgT25lIEdsYXNzIG9mIE1pbGsgYSBEYXkuIEJldHRlciBCb25lcyBvciBCcmFpbndhc2hpbmc%2F&shdk=VGhpcyB2aWRlbyBpcyBzcG9uc29yZWQgYnkgRGFzaGxhbmUuIFRyeSBpdCBmcmVlIGZvciAzMCBkYXlzIGF0IGh0dHBzOi8vd3d3LmRhc2hsYW5lLmNvbS9icmV3IElmIHlvdSBsaWtlIGl0LCB1c2UgdGhlIGNvZGUg4oCYYnJld%2BKAmSBmb3IgMTAlIG9mZiBhdCBjaGVja291dCBJcyBtaWxrIGdvb2Qgb3IgYmFkIGZvciB5b3U%2FIElzIGl0IHJlYWxseSBoZWFsdGh5IGZvciB5b3VyIGJvbmVzPyBXaHkgYXJlIHJlc2VhcmNoZXJzIGFuZCBzY2llbnRpc3RzIHNwZWFraW5nIGFnYWluc3QgaXQ%2FIElzIHRoZSBmb29kIGluZHVzdHJ5IGhpZGluZyBzb21ldGhpbmcgZnJvbSB1cz8gTGV0J3MgZmluZCBvdXQgLi4u&shhk=a8MjbVhOQyCok8qs42amxA6%2B8sUgPQh4DtB4PgJh0gI%3D&shth=OVP.XR1Cz2a0aI5ebTNFbFySUAIIEk
 ||bing.com^$removeparam=/^sh/
+! https://github.com/DandelionSprout/adfilt/pull/504
+! https://www.bing.com/search?q=Test&cc=CN&setlang=zh-CN&nclid=2F21E165874042D66713EAE9392AD01E&ts=1644819994709&wsso=Moderate (14/02/2022)
+||bing.com^$removeparam=nclid
 
 !!! ——— eBay ———
 ! https://www.ebay.com/itm/Disney-Fairies-Annual-2008/173553616659?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160908105057%26meid%3Da7ecc6d2187f43619ceae843d9c7e96e%26pid%3D100675%26rk%3D1%26rkt%3D15%26sd%3D173553616659%26itm%3D173553616659&_trksid=p2481888.c100675.m4236&_trkparms=pageci%3A87956e3f-3968-11e9-ae7f-74dbd1801ed7%7Cparentrq%3A277c9f541690a861b48415dfffeb1383%7Ciid%3A1 (31/10/2020)
@@ -32612,3 +32640,7 @@ visefierbinti.ro##+js(aopr, nocontext)
 visefierbinti.ro##+js(acis, disableSelection, reEnable)
 visefierbinti.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 visefierbinti.ro##style:has-text(@media print):remove()
+
+! https://github.com/uBlockOrigin/uAssets/issues/3068
+pornhub.*##+js(rc, hasAdAlert, header)
+pornhub.*###js-abContainterMain
