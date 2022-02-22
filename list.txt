@@ -22850,7 +22850,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 21February2022v1
+! Version: 21February2022v3
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24854,8 +24854,8 @@ $removeparam=article_url,domain=shop-links.co
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-782437
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-931912
-$removeparam=/^shared%3D/,domain=seura.fi|suomenkuvalehti.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
-$removeparam=shared,domain=seura.fi|suomenkuvalehti.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
+$removeparam=/^shared%3D/,domain=seura.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
+$removeparam=shared,domain=seura.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
 $removeparam=origin,denyallow=platform.twitter.com,domain=yle.fi|flaticon.com|drop.com|symbolab.com|archive.org|norton.com|philips.*|nordstrom.com
 
 ! https://adtraction.com/blog/what-is-epi-and-how-does-it-work
@@ -26017,6 +26017,9 @@ $removeparam=/^cid=DTCI-Synergy/,domain=disneyplus.com
 ! https://hobbyhall.fi/fi/huonekalut-ja-sisustus/matot/isot-matot/matto-shaggy-latte-160x220-cm?id=24303&feat=home&navigation_source=interactionStudio
 $removeparam=feat,domain=hobbyhall.fi
 $removeparam=navigation_source,domain=hobbyhall.fi
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2223658
+||mercadolibre.com.ar^$removeparam=pdp_filters
 
 !#if !env_mobile
 ! ——— Mobile ——— !
