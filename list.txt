@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 22February2022v1
+! Version: 26February2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -1283,8 +1283,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||212.192.241.72^$all
 ||37.0.10.83^$all
 ||newstepsco.com^$all
-||duckdns.org^$doc,domain=~www.duckdns.org
-@@://duckdns.org^$doc
 ||chse-security-notifications.email^$all
 ||secure-0*.ddnss.ch^$all
 ||lucdream.com^$doc
@@ -7450,8 +7448,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 25/2/2022
-! Version: 2522022-1
+! Last updated: 26/2/2022
+! Version: 2622022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22084,6 +22082,9 @@ expmediadirect1.com
 ||habitum.xyz^$all
 ||news-easy.org^$all
 
+! https://github.com/uBlockOrigin/uAssets/issues/11157#issuecomment-1049093327
+||sideload.cc^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -22583,6 +22584,11 @@ expmediadirect1.com
 ! Some scam redirects brought me here (https://twitter.com/iam_py_test/status/1497351777754050562 - https://www.virustotal.com/gui/file/2e68dbec330d7ebe567dcbb67a1dffe83f6f0c278664b60f3edeee684edfe7ff/relations)
 ||drivermax.com^$document
 
+! restoro
+||techloris.com/go/restoro/$document
+||techloris.com/lp/error8.php$document
+||techloris.com/go/restoro-download/$document
+
 ! ----- Spam -----
 
 ! https://forums.malwarebytes.com/topic/281397-how-to-update-my-adwcleaner/
@@ -22907,7 +22913,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 25February2022v4
+! Version: 26February2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26100,6 +26106,9 @@ $removeparam=fromLoggedOutHome,domain=ocado.com
 
 ! https://twitter.com/Jerma985/status/651540735322255360?cxt=HHwWgMCj2Zi23ooSAAAA
 ||twitter.com^$removeparam=cxt
+
+! https://www.learner.org/series/the-habitable-planet-a-systems-approach-to-environmental-science/oceans/oceans-2/?jwsource=cl
+||learner.org^$removeparam=jwsource
 
 !#if !env_mobile
 ! ——— Mobile ——— !
