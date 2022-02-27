@@ -7448,8 +7448,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 26/2/2022
-! Version: 2622022-2
+! Last updated: 27/2/2022
+! Version: 2722022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21639,6 +21639,11 @@ expmediadirect1.com
 ||api.pushnami.com/scripts/v2/pushnami-sw/5e4bf7d0e7585f1f723a7243^$all
 ||cleveradult148.weebly.com^$all
 ||relulimate.info^$all
+||forexever451.weebly.com^$all
+||aorgrj.trademadeteeth.top^$all
+||trademadeteeth.top^$all
+||ourcoolposts.com^$all
+||siclegion.info^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22913,7 +22918,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 26February2022v1
+! Version: 27February2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26073,7 +26078,7 @@ $removeparam=article-trending,domain=sportskeeda.com
 $removeparam=_amp,domain=latimes.com
 
 ! https://metro.co.uk/2022/02/07/facebook-and-insta-may-drop-europe-if-they-cant-target-users-with-ads-16062662/?ico=related-posts
-$removeparam=ico,domain=metro.co.uk
+$removeparam=ico,domain=inews.co.uk|metro.co.uk|thisismoney.co.uk
 
 ! https://www.disneyplus.com/en-fi?cid=DSS-Affiliate-Impact-Content-Future%20PLC.-564546
 ! https://www.disneyplus.com/en-fi?cid=DTCI-Synergy-OMD-Blog-Awareness-Announce-US-DisneyPlus-OMD-EN-BlogPost-librarystunt-NA
@@ -26109,6 +26114,12 @@ $removeparam=fromLoggedOutHome,domain=ocado.com
 
 ! https://www.learner.org/series/the-habitable-planet-a-systems-approach-to-environmental-science/oceans/oceans-2/?jwsource=cl
 ||learner.org^$removeparam=jwsource
+
+! https://www.thisismoney.co.uk/video/moneycars/video-2600427/Video-F1-designer-Gordon-Murray-unveils-new-1-7m-supercar.html?mwv_rm=rta
+$removeparam=mwv_rm,domain=dailymail.co.uk|thisismoney.co.uk
+
+! https://www.dailymail.co.uk/money/markets/article-10555281/Morrisons-emerges-potential-buyer-beleaguered-McColls.html?mrn_rm=rta
+$removeparam=mrn_rm,domain=dailymail.co.uk|thisismoney.co.uk
 
 !#if !env_mobile
 ! ——— Mobile ——— !
