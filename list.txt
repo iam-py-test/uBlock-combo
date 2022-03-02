@@ -7440,8 +7440,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 28/2/2022
-! Version: 2822022-3
+! Last updated: 1/3/2022
+! Version: 132022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20756,6 +20756,9 @@ expmediadirect1.com
 ||apps.weightlossihp.com^$all
 ||168c39dd.apps.weightlossihp.com^$all
 
+! https://www.virustotal.com/gui/file/1ebca558d1885771267fda311073a6af58efff709f94aa27a8f9084c74af0c80/relations
+||disandillanne.xyz^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22064,6 +22067,52 @@ expmediadirect1.com
 ||psp-haxors.com^$all
 ||gripclicks.com^$all
 
+! https://www.virustotal.com/gui/url/98f0186f4d20f3138a4e05f58369019cee8e88153578e3d729b716d8b57c0857/community
+||boxes.loading-win-wait-4.buzz^$all
+||loading-win-wait-4.buzz^$document
+||happy.loading-win-wait-4.buzz^$all
+||t6pay.top^$all
+||x6pay.top^$all
+||o6pay.info^$all
+||n6pay.icu^$all
+||h6pay.info^$all
+||i6pay.xyz^$document
+||j6pay.xyz^$document
+||u6pay.top^$document
+||k6pay.info^$document
+||i6pay.info^$document
+||g6pay.xyz^$document
+||p6pay.icu^$document
+||k6pay.top^$document
+||j6pay.icu^$document
+||l6pay.top^$document
+||i6pay.icu^$document
+||e6pay.info^$all
+||j6pay.top^$document
+||l6pay.icu^$all
+||d6pay.info^$all
+||k6pay.icu^$document
+||g6pay.info^$all
+||i6pay.top^$document
+||h6pay.top^$all
+||h6pay.icu^$document
+||g6pay.top^$all
+||f6pay.icu^$document
+||m6pay.top^$document
+||o6pay.top^$document
+||f6pay.info^$all
+||n6pay.top^$document
+||g6pay.icu^$document
+||c6pay.xyz^$document
+||c5pay.info^$all
+||b6pay.info^$document
+||c6pay.top^$all
+||e5pay.top^$all
+||f5pay.top^$all
+||s0pay.icu^$document
+||lotoq.ru^$document
+||190.115.26.220^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -22892,7 +22941,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 01March2022v3
+! Version: 01March2022v4
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26145,6 +26194,9 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 
 ! Temp fix for Bing - https://github.com/DandelionSprout/adfilt/issues/508
 @@||bing.*/ws/redirect/$removeparam
+
+! Fix the video player 'Invalid signature' - https://www.fox.com/watch/ffae8bb93256fb0d0b3a4b30f00e0ada/ 
+@@||link.theplatform.com/s/fox-dcg/media/$removeparam
 
 !#if adguard
 !#if adguard_ext_firefox
