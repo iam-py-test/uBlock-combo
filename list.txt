@@ -7440,8 +7440,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2/3/2022
-! Version: 232022-1
+! Last updated: 3/3/2022
+! Version: 332022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22116,6 +22116,10 @@ expmediadirect1.com
 ! https://www.bleepingcomputer.com/news/security/help-ukraine-crypto-scams-emerge-as-ukraine-raises-over-37-million/
 ||ukraineglobalaid.com^$all
 
+! typical fake discord nitro generator -> survey scams
+||buymeacoffee.com/GamingZonebd/free-discord-nitro-codes-generator-2022-latest-working-100^$document
+||gamecodeclaim.com^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -27207,9 +27211,6 @@ proxfree.com##.pflrgAds
 ! 66cruises . com select
 66cruises.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown)
 
-! botanical-online . com select
-botanical-online.com##+js(aopw, disableSelection)
-
 ! https://forums.lanik.us/viewtopic.php?f=62&t=42259
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -28827,9 +28828,6 @@ bricksrus.com##+js(aopr, document.oncontextmenu)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2682
 jacquieetmichel.net##+js(aopr, document.oncontextmenu)
-
-! https://github.com/NanoMeow/QuickReports/issues/2681
-||botanical-online.com^$csp=script-src * 'sha256-2CsG6wVEDHDuVTizO7FQRClnqwerbIv5IVcltZC42NE=' 'sha256-bbeH00JH/XWsDN1dwYVImvUhHMPgNZGPbZmDZevqu/g=' 'sha256-6Zvm42UlZqiAZPm9t1vUzmrP05q8SlwZNAsWvKYvjOE=' 'sha256-jOdqp0KiuhTr2bY+C/OhP63LsTLJUWpPMo6nDtxcBCs='
 
 ! ilturista .info select / copy
 ilturista.info##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
