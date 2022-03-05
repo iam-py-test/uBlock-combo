@@ -27866,10 +27866,6 @@ steelersdepot.com##.modal, .modal-backdrop
 ! https://github.com/uBlockOrigin/uAssets/issues/5176
 musicbusinessworldwide.com##.mb-interstitial
 
-! filmpornoita.* right click / select / ctrl-U
-filmpornoita.*##+js(aopw, nocontext)
-filmpornoita.*##+js(acis, disableSelection, reEnable)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/2397
 anime-extremo.*##+js(aopw, document.oncontextmenu)
 
@@ -27953,9 +27949,6 @@ yoututosjeff.es##^script:has-text(oncontextmenu)
 ! https://github.com/NanoAdblocker/NanoFilters/issues/300
 @@||byggahus.se^$ghide
 byggahus.se###ad-zone-panorama
-
-! https://github.com/uBlockOrigin/uAssets/issues/5305#issuecomment-480604194
-animeligeroenmega.com##+js(aopr, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5317
 autoblog.com##.modal, .modal-backdrop
@@ -28055,10 +28048,6 @@ polygon.com##+js(nostif, adsBlocked)
 
 ! https://github.com/NanoMeow/QuickReports/issues/1071
 twinkietown.com##+js(nostif, adsBlocked)
-
-! https://github.com/NanoMeow/QuickReports/issues/1084
-@@||hackingleaks.com^$ghide
-@@||hackingleaks.com/ad/*$xhr,1p
 
 ! right click, select, copy, devtools https://github.com/uBlockOrigin/uAssets/issues/5450
 javsubtitle.co##+js(aopw, nocontext)
@@ -32781,3 +32770,8 @@ academy.hackthebox.com##body:style(overflow:auto !important)
 ! warning msg
 elitepvpers.com##+js(nostif, $)
 elitepvpers.com##+js(acis, $, Promise)
+
+! filmpornoitaliano anti right click - select
+filmpornoitaliano.org##+js(aopr, document.oncontextmenu)
+filmpornoitaliano.org##+js(aopr, document.onmousedown)
+filmpornoitaliano.org##+js(aopr, document.onselectstart)
