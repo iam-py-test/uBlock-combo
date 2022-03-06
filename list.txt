@@ -7443,7 +7443,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 5/3/2022
-! Version: 532022-1
+! Version: 532022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -17446,7 +17446,7 @@ expmediadirect1.com
 ||27.213.60.53^$all
 ||115.56.169.134^$all
 
-! copied from https://github.com/DevSpen/links/blob/master/src/links.txt
+! copied from https://github.com/DevSpen/links/blob/master/src/links.txt (I really need to sync this)
 ||101nitro.com^$document
 ||2021y.ru^$document
 ||2022yg.com^$document
@@ -17459,7 +17459,6 @@ expmediadirect1.com
 ||adcash.com^$document
 ||adcell.de^$document
 ||adexchangecloud.com^$document
-||adf.ly^$document
 ||adfoc.us^$document
 ||adforce.com^$document
 ||affix-cup.click^$document
@@ -18358,7 +18357,6 @@ expmediadirect1.com
 ||opencase.space^$document
 ||operation-broken.xyz^$document
 ||oprewards.com^$document
-||ouo.io^$document
 ||outbuck.com^$document
 ||output-nitro.com^$document
 ||pandaskins.ru.com^$document
@@ -32787,3 +32785,10 @@ elitepvpers.com##+js(acis, $, Promise)
 filmpornoitaliano.org##+js(aopr, document.oncontextmenu)
 filmpornoitaliano.org##+js(aopr, document.onmousedown)
 filmpornoitaliano.org##+js(aopr, document.onselectstart)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12064
+mocah.org##+js(ra, oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12067
+ukrainashop.com##+js(aeld, contextmenu)
+ukrainashop.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
