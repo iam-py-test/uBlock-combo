@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 05March2022v2
+! Version: 07March2022v2
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -207,6 +207,8 @@ majorgeeks.com#?#b:-abp-has(a[target^=reimage])
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk#?#.nfc-bottom-right:-abp-contains(Reimage)
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk#?#a:-abp-contains(Reimage)
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.quick-download-button-text
+! https://github.com/AdguardTeam/AdguardFilters/issues/111843
+||loadware.org^$doc,popup
 ! ¤¤¤ ScanUtilities ¤¤¤
 ! https://www.bynarycodes.com/fix-windows-10-update-error-0x80070006/
 bynarycodes.com##div[class^=bynar-content_]
@@ -1454,9 +1456,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||jsontdsexit.com^$all
 ||therewardboost.com^$all
 ! https://github.com/DandelionSprout/adfilt/issues/188#issuecomment-931753495
-||agkn.com^$all
+||agkn.com^$doc
 ||best-prizes.life^$all
-||clickagy.com^$all
 ||cloud-storage.store^$all
 ||d2m2wsoho8qq12.cloudfront.net^$all
 ||findanswersnow.net^$all
@@ -7442,8 +7443,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 6/3/2022
-! Version: 632022-1
+! Last updated: 7/3/2022
+! Version: 732022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22180,6 +22181,10 @@ expmediadirect1.com
 ||aerxas.inventagainstpattern.top^$all
 ||inventagainstpattern.top^$document
 
+! looks very shady
+||www.taixiu.bet^$document
+||taixiu.bet^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23008,7 +23013,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 01March2022v4
+! Version: 07March2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25381,7 +25386,8 @@ $removeparam=affiliate
 ||greenmangaming.com^$removeparam=/^tap_/
 
 ! https://icedrive.net/?pt=lojxagugwf
-||icedrive.net^$removeparam=pt
+! https://github.com/AdguardTeam/AdguardFilters/issues/112128
+$removeparam=pt,domain=icedrive.net|apple.com
 
 ! https://www.adorama.com/?sterm=VWlWgE0K8xyIRwNxiAS6PRWLUkBTDLT34xL1Ws0
 ||adorama.com^$removeparam=sterm
@@ -25534,7 +25540,7 @@ $removeparam=content,domain=eonline.com|bybit.com|t.me|twitter.com|docs.google.c
 $removeparam=cId,domain=apple.com|youtube.com
 $removeparam=lId,domain=apple.com|youtube.com
 $removeparam=/^src=Linkfire$/,domain=apple.com|youtube.com
-||music.apple.com^$removeparam=ct
+||apple.com^$removeparam=ct
 ||music.apple.com^$removeparam=itsct
 ||music.apple.com^$removeparam=itscg
 
@@ -29693,7 +29699,6 @@ ukworkshop.co.uk##+js(nostif, google_jobrunner)
 
 ! skidrowcodex .net right click, ctrl-u, ctrl-a, F12
 skidrowcodex.net##+js(aeld, contextmenu)
-skidrowcodex.net##+js(aeld, /^(DOMContentLoaded|load)$/, addEventListener)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55126
 eoreuni.com##+js(aopw, document.oncontextmenu)
