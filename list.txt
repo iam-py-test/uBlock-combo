@@ -7443,8 +7443,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 7/3/2022
-! Version: 732022-2
+! Last updated: 10/3/2022
+! Version: 1032022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20760,6 +20760,12 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/1ebca558d1885771267fda311073a6af58efff709f94aa27a8f9084c74af0c80/relations
 ||disandillanne.xyz^$all
 
+! https://www.virustotal.com/gui/file/6411a828f023be935730023e2b3bd19843106557a4a8c7126ffb4f7b16383ffe/community
+||107.175.87.164^$all
+
+! https://www.virustotal.com/gui/url/bd46572625a7d66dac92a3674fb9b8d31ef855b3229ab8ac650e8d198981ed1e/community
+||www.takiparkrb.site^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22188,6 +22194,32 @@ expmediadirect1.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111843
 ||loadware.org^$all
 ||cybop.net^$document
+
+! https://forums.malwarebytes.com/topic/284608-crypto-giveaway-scams/
+||x2-shiba.org/shiba/giveway.php^$document
+||rise-crypto.org^$document
+||dropcoins.cash^$document
+||zenithcryptotraders.com^$document
+||2x-ether.com^$document
+||ark-promo.com^$document
+||elontake.org^$document
+||x2-arkevent.com^$document
+||buterin2x.net^$document
+||upxrp2022.com^$document
+||eth-yt.com^$document
+||bnbdrop.cash^$document
+||ether-2211.org^$document
+||saylorgifts.com^$document
+||ripplex2.org^$document
+||ark-today.com/ethgiveaway.html^$document
+||ark-today.com/btcgiveaway.html^$document
+||2022adaevent.com^$document
+||eth-yt.pw^$document
+||invest-ark.tech^$document
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1060031240
+||webcams-chat.com^$all
+||mydirtytinders.com^$all
 
 ! ----- PUPs -----
 
@@ -28565,6 +28597,8 @@ gamershit.altervista.org##+js(aopr, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4802
 @@||minecraft-schematics.com^$ghide
+minecraft-schematics.com##.adsbygoogle
+minecraft-schematics.com##[href^="http://www.pingperfect.com/aff.php"]
 
 ! theitaliantimes .it right click, select, copy ..
 theitaliantimes.it##+js(ra, oncontextmenu|onselectstart|ondragstart|oncopy|oncut|onpaste|onbeforecopy)
@@ -30916,7 +30950,7 @@ safetxt.net##+js(acis, $, contextmenu)
 1fichier.com##.ui-widget-overlay
 
 ! abc .es anti adb warning
-abc.es##+js(aopr, vocento.tracking)
+! abc.es##+js(aopr, vocento.tracking)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8347#issuecomment-744394924
 forum.release-apk.com##.has-profile.post:first-child:has-text(/adblock/i)
@@ -32813,3 +32847,7 @@ ukrainashop.com##*:style(-webkit-touch-callout: default !important; -webkit-user
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12119
 101soundboards.com##.blocked-notice-small
+
+! https://github.com/uBlockOrigin/uAssets/issues/12132
+geeksforgeeks.org##+js(nostif, onscroll ,5500)
+geeksforgeeks.org##+js(nostif, login ,5000)
