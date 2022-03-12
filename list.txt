@@ -7443,8 +7443,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 11/3/2022
-! Version: 1132022-1
+! Last updated: 12/3/2022
+! Version: 1232022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20787,6 +20787,12 @@ expmediadirect1.com
 ||203.228.9.102^$all
 ||coralee.at^$all
 
+! https://twitter.com/malwrhunterteam/status/1502609755868696578
+||resetting-twitter.com^$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/12194
+||fulptube.org^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -20862,7 +20868,7 @@ expmediadirect1.com
 ||smartcaptchasolve.top^$all
 ||pvzksi.nextarrangewent.top^$all
 ||cloud-repos.store^$document
-||retailproductsusa.com^$document
+||retailproductsusa.com^$all
 ||www.retailproductsusa.com^$all
 ! Even more scams - https://github.com/DandelionSprout/adfilt/issues/188#issuecomment-931700117
 ||findanswersnow.net^$document
@@ -22288,6 +22294,10 @@ expmediadirect1.com
 ||t.co/HQMLzF7h5n?amp=1^$document
 ||t.co/HQMLzF7h5n^$document
 ||freediscordnitro11100000.blogspot.com^$document
+
+! starts at hxxpx[:]//triunetech[.]co/windows-software/winrar-64-bit-for-windows-10-with-crack-free-download/
+||thenelectricstring.xyz^$all
+||krgqfy.thenelectricstring.xyz^$all
 
 ! ----- PUPs -----
 
@@ -32922,3 +32932,12 @@ geeksforgeeks.org##+js(nostif, login ,5000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10983#issuecomment-1065805363
 androidacy.com##*::selection:style(background-color:#338FFF!important)
+
+! flinsetyadi. com anti right click, select, copy, drag, f-keys
+flinsetyadi.com##+js(acis, document.ondragstart)
+flinsetyadi.com##+js(acis, disableSelection, reEnable)
+flinsetyadi.com##+js(aopr, disable_copy)
+flinsetyadi.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/commit/78e4cf26d8d9302f1874742ca5f282f6c287ef59#commitcomment-68544465
+coinurl.net##+js(ra, onkeydown)
