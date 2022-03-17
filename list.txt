@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 07March2022v2
+! Version: 16March2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2107,6 +2107,13 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||sites.google.com/mytv/maintenance^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111970
 /(^|\.|://)[a-z0-9-]{2,}trk\.xyz(/|$)/$doc,popup
+! https://bazaar.abuse.ch/sample/d7308dab0110ae3bc79fd15024f5ccfcbd6e676b7c42b27a0112506e8357a6dc/ --> https://app.any.run/tasks/bc53e7a9-5fd7-4682-894d-11e48e9ea89a#
+||pccrackworld.com^$all
+||calsign.xyz^$all
+||jwq98u.xyz^$all
+||nhskuhiuscja.xyz^$all
+||mediafire.com/file/y65v1rk0zy7ot4a/The__Setup__With__File.zip/file^$all
+||download2340.mediafire.com/eift3ac9qmig/y65v1rk0zy7ot4a/The__Setup__With__File.zip^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7443,8 +7450,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 15/3/2022
-! Version: 1532022-1
+! Last updated: 16/3/2022
+! Version: 1632022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20793,6 +20800,19 @@ expmediadirect1.com
 ! https://github.com/uBlockOrigin/uAssets/issues/12194
 ||fulptube.org^$all
 
+! https://blog.netlab.360.com/b1txor20-use-of-dns-tunneling_en/
+||webserv.systems^$all
+||194.165.16.24^$all
+
+! https://bazaar.abuse.ch/sample/d7308dab0110ae3bc79fd15024f5ccfcbd6e676b7c42b27a0112506e8357a6dc/ --> https://app.any.run/tasks/bc53e7a9-5fd7-4682-894d-11e48e9ea89a#
+||www.pccrackworld.com^$all
+||pccrackworld.com^$all
+||calsign.xyz^$all
+||jwq98u.xyz^$all
+||nhskuhiuscja.xyz^$all
+||mediafire.com/file/y65v1rk0zy7ot4a/The__Setup__With__File.zip/file^$all
+||download2340.mediafire.com/eift3ac9qmig/y65v1rk0zy7ot4a/The__Setup__With__File.zip^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21650,6 +21670,7 @@ expmediadirect1.com
 ||trademadeteeth.top^$all
 ||ourcoolposts.com^$all
 ||siclegion.info^$all
+||bitnew695.weebly.com^$all
 
 ||www.iztzo.com^$all
 ||iztzo.com^$all
@@ -22477,12 +22498,12 @@ expmediadirect1.com
 ||secure.scanguard.com^$document
 
 ! https://github.com/blocklistproject/Lists/pull/461#issuecomment-898956236
-! Part is detected by ADWCleaner
-||360.com^$document
-||down.360safe.com^$all
-||update.360safe.com^$document
-||download.360safe.com^$document
-||www.360safe.com^$document
+! this needs some review, as I am seeing more & more evidence of this company being legit
+! ||360.com^$document
+! ||down.360safe.com^$all
+! ||update.360safe.com^$document
+! ||download.360safe.com^$document
+! ||www.360safe.com^$document
 
 ! It is a very bad sign when Windows Defender blocks a file, and it is not a false positive
 ! https://www.virustotal.com/gui/url/b27f7a631ee2bcf759ab82fa976980c2704c787ecd21abc8b591b7fc93d96ee1/detection
@@ -32958,3 +32979,11 @@ flinsetyadi.com##*:style(-webkit-touch-callout: default !important; -webkit-user
 
 ! https://github.com/uBlockOrigin/uAssets/commit/78e4cf26d8d9302f1874742ca5f282f6c287ef59#commitcomment-68544465
 coinurl.net##+js(ra, onkeydown)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12295
+koszalincity.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+koszalincity.pl##+js(acis, document.oncontextmenu)
+koszalincity.pl##+js(acis, document.onkeydown)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12297
+theghostinmymachine.com##+js(acis, document.oncontextmenu)
