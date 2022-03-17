@@ -23164,7 +23164,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 15March2022v1
+! Version: 17March2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23661,7 +23661,7 @@ $removeparam=affname
 $removeparam=MID
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~howlongtobeat.com|~activationspot.com|~vmware.com|~anidb.net
+$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
@@ -26383,6 +26383,9 @@ $removeparam=subref,domain=newsweek.com
 
 ! https://www.cbsnews.com/news/gas-prices-high-expensive-come-down-cbs-news-explains/?intcid=CNI-00-10aaa3b
 $removeparam=intcid,domain=cbsnews.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2381922
+||defenseone.com^$removeparam=oref
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -32987,3 +32990,8 @@ koszalincity.pl##+js(acis, document.onkeydown)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12297
 theghostinmymachine.com##+js(acis, document.oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12279
+jobinja.ir##.c-forceToLogin__overlay
+jobinja.ir##.c-forceToLogin__message.o-box
+jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !important)
