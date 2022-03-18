@@ -23164,7 +23164,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 17March2022v2
+! Version: 18March2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26387,6 +26387,12 @@ $removeparam=intcid,domain=cbsnews.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2381922
 ||defenseone.com^$removeparam=oref
 
+! https://articulo.mercadolibre.com.mx/MLM-1389627545-nuevo-buzz-lightyear-2022-disney-mattel-_JM?matt_tool=99486937&matt_word=&matt_source=google&matt_campaign_id=15693562203&matt_ad_group_id=132817878898&matt_match_type=&matt_network=g&matt_device=c&matt_creative=571796003518&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=537786473&matt_product_id=MLM1389627545&matt_product_partition_id=1418803903092&matt_target_id=aud-1575562103163:pla-1418803903092&gclid=CjwKCAjwlcaRBhBYEiwAK341jU8MwyPwPy3nth_2S9WH97rxtxl7eVQXNSLl-oGgg8w0rVrXlMSXcxoC3qAQAvD_BwE (18/03/2022)
+||mercadolibre.com.mx^$removeparam=/^matt_/
+
+! https://articulo.mercadolibre.com.mx/MLM-1369998343-peluche-stitch-original-de-disney-store-envio-gratis-_JM#reco_item_pos=5&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=e859b1d9-86b2-4aa7-ba17-0c9ffd43acfc
+||mercadolibre.com.mx^$removeparam=/^reco_/
+
 !#if !env_mobile
 ! ——— Mobile ——— !
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
@@ -26540,17 +26546,11 @@ dicionariocriativo.com.br##+js(aopr, getSelection)
 ! https://github.com/NanoMeow/QuickReports/issues/3246
 al.com,allkpop.com,calendarpedia.co.uk,ccn.com,cleveland.com,comicsands.com,duffelblog.com,gamepur.com,gamerevolution.com,interestingengineering.com,keengamer.com,listenonrepeat.com,mandatory.com,mlive.com,musicfeeds.com.au,newatlas.com,pgatour.com,readlightnovel.org,secondnexus.com,sevenforums.com,sport24.co.za,superherohype.com,thefashionspot.com,theodysseyonline.com,totalbeauty.com,westernjournal.com##+js(aopr, __cmpGdprAppliesGlobally)
 
-! https://github.com/uBlockOrigin/uAssets/issues/1615
-raiplay.it##.tagManagerError
-
 ! https://github.com/uBlockOrigin/uAssets/issues/1627
 mercurynews.com##.info-box-body
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=40128
 hgtv.com##.o-AdhesionNotifier
-
-! whatnetworth remove killcopy
-whatnetworth.com##+js(aopw, killCopy)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1712
 oo-software.com##+js(nostif, iframe, 5000)
@@ -27391,9 +27391,6 @@ booksmedicos.org##+js(acis, jQuery, document)
 proxfree.com###pftop:style(height: auto !important;padding-bottom:5px !important)
 proxfree.com##.pflrgAds
 
-! 66cruises . com select
-66cruises.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown)
-
 ! https://forums.lanik.us/viewtopic.php?f=62&t=42259
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -27414,9 +27411,6 @@ md5hashing.net##.red.b.center.mute
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4244
 siliconinvestor.com##+js(acis, document.getElementById, undefined)
-
-! right click kora-online . tv
-kora-online.tv##+js(aeld, /^(?:keydown|contextmenu)$/, code)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4253
 jobsbotswana.info##+js(acis, jQuery, restriction)
@@ -30284,12 +30278,11 @@ marfilius.blogspot.com##*:style(-webkit-touch-callout: default !important; -webk
 ! https://github.com/uBlockOrigin/uAssets/issues/7628
 2219.net##+js(aopr, clickNS)
 
-! https://github.com/uBlockOrigin/uAssets/issues/7633
-@@||utopia.de/advertisement.js$xhr,1p
-
 ! thisisfutbol .com anti adb notice
 @@||thisisfutbol.com^$ghide
 thisisfutbol.com##.ad-billboard
+thisisfutbol.com##.c-header__advert
+thisisfutbol.com###snack_dex6
 
 ! iptv4best .com select, ctrl-u
 iptv4best.com##+js(acis, disableSelection, reEnable)
@@ -30345,9 +30338,9 @@ healthdelay.com##+js(aopr, disable_copy)
 healthdelay.com##+js(aopw, document.oncontextmenu)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=44912
-||gomovies-online.me/addons/*.gif$image
-gomovies-online.me##[href="/user/profile/premium-membership"]
-gomovies-online.me##.ico.close
+||gomovies-online.*/addons/*.gif$image
+gomovies-online.*##[href="/user/profile/premium-membership"]
+gomovies-online.*##.ico.close
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59406
 nuggetroyale.io##.mainMenuAdBox
@@ -30444,10 +30437,11 @@ texte.work##+js(aopr, disableselect)
 newsromania.net##+js(acis, document.oncontextmenu)
 newsromania.net##+js(acis, disableSelection, reEnable)
 
-! iqformat .me anti right click, select, ctrl-u
+! iqformat .me anti right click, select, ctrl-u, print
 iqformat.me##+js(aopw, document.oncontextmenu)
 iqformat.me##+js(acis, disableSelection, reEnable)
 iqformat.me##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+iqformat.me##style:has-text(@media print):remove()
 
 ! allforme .co anti right click, select, ctrl-u
 allforme.co##+js(aopw, document.oncontextmenu)
