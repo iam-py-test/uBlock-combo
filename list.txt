@@ -7434,8 +7434,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 18/3/2022
-! Version: 1832022-1
+! Last updated: 20/3/2022
+! Version: 2032022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22349,6 +22349,15 @@ expmediadirect1.com
 ||jufdyn.pieceveryyoung.xyz^$all
 ||pieceveryyoung.xyz^$all
 
+! the rest is blocked
+||buymeacoffee.com/getcode/discord-free-nitro-generator-no-human-verification-survey^$all
+||compliantmechanisms.byu.edu/profile/free-discord-nitro-generator-2022-no-human-verification-code/profile^$all
+
+! YAFNG (Yet another fake Nitro generator)
+||nitromexyz.xyz^$all
+||grptrac.com^$all
+||www.locked4.com^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -28066,10 +28075,6 @@ anime-extremo.*##+js(aopw, document.oncontextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/5193
 listatv.pl##+js(ra, oncontextmenu)
 
-! right click / select #5196
-stiffgamerdown.com##+js(acis, document.oncontextmenu)
-stiffgamerdown.com##+js(acis, disableSelection)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5224
 dzwignice.info##+js(aeld, contextmenu)
 
@@ -28090,11 +28095,6 @@ bibliacatolica.com.br##+js(aopr, getSelection)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2692
 script-stack.com##+js(aeld, contextmenu)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5253
-iconlord.com##+js(acis, disableSelection)
-iconlord.com##+js(aopw, document.oncontextmenu)
-iconlord.com##.unselectable:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
 
 ! mio .to right click, select
 mio.to##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
