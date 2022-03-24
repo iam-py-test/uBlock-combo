@@ -7436,8 +7436,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 22/3/2022
-! Version: 2232022-1
+! Last updated: 24/3/2022
+! Version: 2432022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20832,6 +20832,18 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/url/8e6215c6207521bca9da1d1e72bfcb5256ef0f4a46201e6a041756671c1c45d5?nocache=1
 ||olx-pl.ip-pl018985605.xyz^$all
 
+! https://www.virustotal.com/gui/url/34512642d5d361717a97c817fbf65c008d4cc903a2c7ae641820a9d1e0fca5e0?nocache=1 --> https://app.any.run/tasks/5fb54e2b-1857-45ea-9656-bb4e185d47ab
+||pirate4.life^$all
+
+! https://www.virustotal.com/gui/file/439db5f69b49091964c335c5977bc6dbf8aa41398d0240410dfeb898add7dace/relations
+||www.smithwordman.com^$all
+||891706.com^$all
+||hunnidcentcotton.com^$all
+||www.njgummys.com^$all
+
+! https://www.virustotal.com/gui/url/3e045124ad9f01b098462bc0397705e565d563c708dee52aaea209f55aea86bb
+||oasis-field-servant.glitch.me^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22364,6 +22376,17 @@ expmediadirect1.com
 ||melding.link^$document
 ||skatteetaten.no.melding.link^$document
 
+! https://github.com/blocklistproject/Lists/issues/693
+||mcafee.software-reminder.cloud^$all
+
+! https://app.any.run/tasks/b43b04b3-b8c1-4384-b455-961f427f5379
+||dating-goodgirls.top^$all
+||g.dating-goodgirls.top^$all
+||st.dating-goodgirls.top^$all
+||i.dating-goodgirls.top^$all
+||b.dating-goodgirls.top^$all
+||h.shyflirttalks.com^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23196,7 +23219,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 24March2022v1
+! Version: 24March2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26442,6 +26465,9 @@ $removeparam=mediapartner,domain=evesleep.co.uk
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/1140
 ||greenvoice.fr^$removeparam=bucket
 
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2430288
+||lidl.*^$removeparam=flyx
+
 !#if !env_mobile
 ! ——— Mobile ——— !
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
@@ -26501,7 +26527,7 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ! Description: Filters optimized for uBlock Origin, to be used with Fanboy's
 !              and/or Adguard's "Annoyances" list(s)
 ! Expires: 4 days
-! Last updated: %timestamp%
+! Last modified: %timestamp%
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! Forums: https://github.com/uBlockOrigin/uAssets/issues
@@ -27912,16 +27938,13 @@ twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com###lay
 ! https://github.com/NanoMeow/QuickReports/issues/713
 @@||eppingforestguardian.co.uk^$ghide
 eppingforestguardian.co.uk##.dfp-ad
+eppingforestguardian.co.uk##.mar-block-ad
 
 ! https://github.com/NanoMeow/QuickReports/issues/714
 ||code.adsales.snidigital.com/lib/*/sni-ads.min.js$script,domain=travelchannel.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5002
 diffnow.com##:xpath(//div[contains(text(),"Adblock")]/..)
-
-! https://github.com/uBlockOrigin/uAssets/issues/4975#issuecomment-467142343
-pinkhindi.com##+js(acis, document.oncontextmenu)
-pinkhindi.com##+js(acis, disableselect, reEnable)
 
 ! https://github.com/NanoMeow/QuickReports/issues/728
 g1novelas.org##+js(aopw, document.oncontextmenu)
@@ -27930,9 +27953,6 @@ g1novelas.org##+js(aeld, /^(click|keydown)$/, preventDefault)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
 addons.opera.com##+js(nostif, showOverlay)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5030
-ooopic.com###public-mask-login
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
 askubuntu.com,mathoverflow.net,serverfault.com,stackapps.com,stackexchange.com,superuser.com##.js-dismissable-hero:has-text(Sign up)
@@ -27966,9 +27986,6 @@ volunteermatch.org###window_overlay
 theclever.com###overlay_search
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
-beprobeproud.org##.movement-popup
-
-! https://github.com/uBlockOrigin/uAssets/issues/5030
 ! https://github.com/uBlockOrigin/uAssets/issues/6425
 discussion.evernote.com,prestashop.com##.cTopicPostArea:has(.cGuestTeaser)
 
@@ -27992,13 +28009,6 @@ quora.com##.signup_wall_prevent_scroll #root:style(filter: none !important;)
 ! https://old.reddit.com/r/uBlockOrigin/comments/j5snpo/quora_blurring_of_content_and_login_prompt_on/g7vdihp/
 quora.com##.signup_wall_prevent_scroll:style(position: unset !important; padding-right: 0 !important;)
 
-! https://github.com/uBlockOrigin/uAssets/issues/5041
-@@||shatter-box.com^$ghide
-
-! https://github.com/NanoMeow/QuickReports/issues/745
-normantranscript.com###ta_background
-normantranscript.com###ta_invisible
-
 ! https://github.com/uBlockOrigin/uAssets/issues/2204
 worldfreeware.com##+js(acis, $, contextmenu)
 worldfreeware.com##.penci-wrap-gprd-law
@@ -28012,9 +28022,6 @@ tecnotutoshd.net##+js(acis, disableselect, reEnable)
 
 ! https://github.com/NanoMeow/QuickReports/issues/783
 ruwix.com##+js(nostif, NoAd, 8000)
-
-! right click #5103
-animeflix.site##+js(acis, disableselect, reEnable)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5107
 revolvermag.com##.emma-show
@@ -28056,9 +28063,6 @@ mangainn.net##+js(aopr, googletag)
 ! https://github.com/uBlockOrigin/uAssets/issues/5118
 ||akamaized.net/assets/*/ig-canais-noticias.min.js$script,domain=ig.com.br
 
-! https://github.com/uBlockOrigin/uAssets/issues/575#issuecomment-472761095
-10-download.com##+js(acis, document.getElementById, block)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5134
 airfactsjournal.com,newmatilda.com###newsletter-popup-container, #newsletter-popup-overlay
 
@@ -28093,9 +28097,6 @@ steelersdepot.com##.modal, .modal-backdrop
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5176
 musicbusinessworldwide.com##.mb-interstitial
-
-! https://github.com/uBlockOrigin/uAssets/issues/2397
-anime-extremo.*##+js(aopw, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5193
 listatv.pl##+js(ra, oncontextmenu)
@@ -28675,6 +28676,7 @@ liverpool.no##+js(nostif, offsetHeight)
 
 ! mainframestechhelp .com right click
 mainframestechhelp.com##+js(aopr, document.oncontextmenu)
+mainframestechhelp.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! right click, select, copy mainframegurukul .com/srcsinc/drona/programming/languages/jcl/sort/sort-outrec-jcl.html
 mainframegurukul.com##+js(ra, oncontextmenu|onselectstart|ondragstart)
