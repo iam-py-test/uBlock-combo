@@ -23196,7 +23196,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 23March2022v4
+! Version: 24March2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23693,7 +23693,7 @@ $removeparam=affname
 $removeparam=MID
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com
+$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
@@ -27907,6 +27907,7 @@ mobile.twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/si
 ! https://github.com/uBlockOrigin/uAssets/issues/5911
 twitter.com##.js-signup-call-out
 mobile.twitter.com##div[data-testid="sidebarColumn"] section[aria-label][role="region"]:upward(1)
+twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
 
 ! https://github.com/NanoMeow/QuickReports/issues/713
 @@||eppingforestguardian.co.uk^$ghide
@@ -33024,6 +33025,8 @@ ilovevaldinon.it##+js(aopr, disableSelection)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/tks3om/how_to_enable_copying_from_websites_that_dont/
 acupoffrench.com##+js(acis, stopPrntScr)
-acupoffrench.com##*:not(input):not(textarea)::-moz-selection:style(background-color: #3297fd !important; color: white !important)
-acupoffrench.com##*:not(input):not(textarea)::selection:style(background-color: #3297fd !important; color: white !important)
-acupoffrench.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+acupoffrench.com##:not(input):not(textarea)::selection:style(background-color:Highlight!important;color:HighlightText!important)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12411
+vakil.net##+js(acis, document.oncontextmenu)
+vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
