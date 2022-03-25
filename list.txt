@@ -7436,8 +7436,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 24/3/2022
-! Version: 2432022-2
+! Last updated: 25/3/2022
+! Version: 2532022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20844,6 +20844,17 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/url/3e045124ad9f01b098462bc0397705e565d563c708dee52aaea209f55aea86bb
 ||oasis-field-servant.glitch.me^$all
 
+! https://www.virustotal.com/gui/file/cc4b90ead0e3fbb3d0a0add7ba7f38f6ab300295a55f8dd372d0edda85b4cf35/relations
+||212.237.17.99^$all
+||46.55.222.11^$all
+||131.100.24.231^$all
+
+! https://www.virustotal.com/gui/file/cdbcc352e90f35e330bf954fe07466bd0cf2c1cf8d9112d92e3e7fd3d04317b4/community
+||212.192.246.30^$all
+
+! https://www.virustotal.com/gui/file/1a243db583013a6999761dad88d6952351fdc2cd17d2016990276a9dd11ac90b/relations
+||govtjobresultbd.xyz^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23219,7 +23230,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 24March2022v2
+! Version: 25March2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26480,6 +26491,10 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ! https://www.ikea.com/no/no/images/products/friheten-hjornesovesofa-med-oppbevaring-skiftebo-mork-gra__0175610_pe328883_s5.jpg?f=xl
 ||ikea.com/*/images/products^$removeparam=f
 !#endif
+
+! ——— Scriptlets ———
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1352038
+mtvuutiset.fi##+js(set, gsSkyId, noopFunc)
 
 ! ——— Allowlist ——— !
 ! https://github.com/DandelionSprout/adfilt/commit/6dd010c70438a84cae7cf6b683d0d99dc56794ad
@@ -33042,3 +33057,6 @@ novelza.com##:not(input):not(textarea)::selection:style(background-color:Highlig
 aileen-novel.online##+js(acis, disable_hot_keys)
 aileen-novel.online##+js(acis, document.oncontextmenu)
 aileen-novel.online##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! luyenthithukhoa.vn anti right click
+luyenthithukhoa.vn##+js(acis, document.oncontextmenu)
