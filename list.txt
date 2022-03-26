@@ -7437,7 +7437,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 25/3/2022
-! Version: 2532022-1
+! Version: 2532022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20855,6 +20855,15 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/file/1a243db583013a6999761dad88d6952351fdc2cd17d2016990276a9dd11ac90b/relations
 ||govtjobresultbd.xyz^$all
 
+! https://app.any.run/tasks/72d406c1-d787-4c18-a8a6-5c5d4a07af07/ (original run by someone else) --> https://app.any.run/tasks/76f5eba8-f2e6-4800-83b7-d04ed1799253 (run by me)
+||honored-yummy-cheetah.glitch.me^$all
+
+! https://www.virustotal.com/gui/url/48fca83cbb6dc2f75f0e8a1546d4f396a5914502ead0060a0eefb2ed580a8c09 (seems down but no reason not to block it)
+||vww-robiox.com^$all
+
+! https://www.virustotal.com/gui/url/169c42480ba36ed07c5895da489593248c6da52e54a7c382748258aa798d8ee1
+||littleluxuriesshop.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -30789,10 +30798,6 @@ routinehub.co###ethad
 darktranslation.com##+js(aopw, stopPrntScr)
 darktranslation.com##*::selection:style(background-color:#338FFF!important)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/j02lnx/block_adcookie_prompt_on_medicalnewstodaycom/
-medicalnewstoday.com###modal-host
-medicalnewstoday.com##body:style(overflow:auto !important)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7960
 www.google.*##+js(set, rwt, noopFunc)
 
@@ -31745,9 +31750,6 @@ tritinia.com##+js(aopr, document.oncontextmenu)
 tritinia.com##+js(aopr, disable_copy)
 tritinia.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! nyaa.net cookie consent by ghide
-nyaa.net###cookie-warning
-
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-812837952
 fakechatapp.com##.banner
 
@@ -32416,11 +32418,6 @@ moviesrush.one##+js(acis, document.onkeydown)
 moviesrush.one##+js(aopr, stopPrntScr)
 moviesrush.one##body style:has-text(/-webkit-tap-highlight-color:|::selection/):remove()
 
-! https://github.com/uBlockOrigin/uAssets/issues/9798
-megacatstudios.com##.mfp-inline-holder.mfp-s-ready.mfp-container
-megacatstudios.com##.mfp-ready.mfp-slideup.mfp-bg
-megacatstudios.com##html:style(overflow:auto !important)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5964#issuecomment-902058918
 rule34hentai.net##+js(aeld, contextmenu)
 
@@ -32705,11 +32702,6 @@ scrolller.com##+js(aeld, contextmenu)
 hollywoodmask.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 hollywoodmask.com##+js(aeld, /copy|cut|paste|selectstart/)
 hollywoodmask.com##+js(nostif, pop)
-
-! https://github.com/uBlockOrigin/uAssets/issues/10902
-arctic.de##.acris-cookie-consent
-arctic.de##body:style(overflow: auto !important;)
-arctic.de##.show.fade.modal-backdrop
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10938
 phimdinhcao.com##+js(acis, oncontextmenu, keydown)
@@ -33031,10 +33023,6 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ! codehelppro.com anti-adblock
 @@||codehelppro.com^$ghide
 codehelppro.com##.adsbygoogle
-
-! https://www.reddit.com/r/uBlockOrigin/comments/thrxes/
-computerbase.de##dialog:remove()
-computerbase.de##+js(rc, consent-dialog-open, body)
 
 ! ilovevaldinon. it anti right click, select
 ilovevaldinon.it##+js(acis, document.oncontextmenu)
