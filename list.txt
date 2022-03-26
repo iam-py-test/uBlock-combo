@@ -7436,8 +7436,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 25/3/2022
-! Version: 2532022-3
+! Last updated: 26/3/2022
+! Version: 2632022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20864,6 +20864,13 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/url/169c42480ba36ed07c5895da489593248c6da52e54a7c382748258aa798d8ee1
 ||littleluxuriesshop.com^$all
 
+! https://www.virustotal.com/gui/file/c80f5360d6e3484ff09bd86186baffa361803879e40ceaa9af984cdf68ffea5b/community
+||file-coin-host-12.com^$all
+||host-data-coin-11.com^$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/111970
+||a23-trk.xyz^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23239,7 +23246,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 25March2022v1
+! Version: 26March2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24739,7 +24746,7 @@ $removeparam=cvid,domain=bing.com|msn.com
 ||bing.com^$removeparam=crslsl
 ||bing.com^$removeparam=ecount
 ||bing.com^$removeparam=efirst
-||bing.com^$removeparam=filters
+!!! ||bing.com^$removeparam=filters - causes breakage, as per https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2443247
 ||bing.com^$removeparam=mkt
 ||bing.com^$removeparam=qpvt
 ||bing.com^$removeparam=rdr
@@ -26503,7 +26510,7 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 
 ! ——— Scriptlets ———
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1352038
-mtvuutiset.fi##+js(set, gsSkyId, noopFunc)
+actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 
 ! ——— Allowlist ——— !
 ! https://github.com/DandelionSprout/adfilt/commit/6dd010c70438a84cae7cf6b683d0d99dc56794ad
@@ -33048,3 +33055,6 @@ aileen-novel.online##*:style(-webkit-touch-callout: default !important; -webkit-
 
 ! luyenthithukhoa.vn anti right click
 luyenthithukhoa.vn##+js(acis, document.oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12462
+coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
