@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 23March2022v1
+! Version: 27March2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -18,7 +18,7 @@
 ! Tokelau (Put on break due to too many whitelistings being needed)
 !!!||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
 ! Gabon
-||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~voitures.ga|~economie-gabon.ga
+||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~voitures.ga|~economie-gabon.ga|~9191.ga
 ! Mali
 ||ml^$doc,domain=~google.ml|~mobili.ml|~melody.ml|~dcod.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~worproject.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~bittor.ml|~noic.ml|~beatbump.ml
 ! Equatorial Guinea
@@ -7436,8 +7436,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 26/3/2022
-! Version: 2632022-3
+! Last updated: 27/3/2022
+! Version: 2732022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22426,6 +22426,19 @@ expmediadirect1.com
 ||b.dating-goodgirls.top^$all
 ||h.shyflirttalks.com^$document
 
+! Yet Another fake discord generator
+||pota.site-ym.com/global_engine/download_custom.aspx?fileid=c0f7d962-63d2-4ab2-82dd-7582a79c5ba0.pdf&filename=discord2021_gu-36.pdf&blnIsPublic=2&code=blog&sub=add^$document
+||gamex.codes^$all
+||consumerdigitalsurvey.com^$document
+
+! Reddit spam --> already blocked
+||reddit.com/r/Viral_Nova/comments/r1nwxg/free_discord_nitro_generator_hack_no_human/^$document
+! Already blocked
+||myget.org/feed/hermesses/package/nuget/Free-Discord-Nitro-Hack-No-Human-Verification^$document
+||d.promotionsonlineusa.com^$all
+! Also blocked
+||replit.com/@discordnitross^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -29354,9 +29367,6 @@ digitalcameraworld.com,guitarworld.com,musicradar.com##+js(aopr, _sp_.mms.startM
 ! https://github.com/uBlockOrigin/uAssets/issues/6954
 alexeiportableapp.blogspot.com##+js(acis, document.oncontextmenu)
 
-! https://github.com/NanoMeow/QuickReports/issues/3049
-iptv4best.com##+js(acis, document.oncontextmenu)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6956
 mocospace.com##+js(nostif, adblocker)
 
@@ -29824,13 +29834,6 @@ visaonoticias.com##body:style(-webkit-touch-callout: default !important; -webkit
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54544
 smokingmeatforums.com##+js(acis, $, btoa)
 
-! https://github.com/NanoMeow/QuickReports/issues/3696
-iamcarolinecalloway.com##+js(aeld, contextmenu)
-iamcarolinecalloway.com##+js(aopw, nocontext)
-iamcarolinecalloway.com##+js(acis, disableSelection, reEnable)
-iamcarolinecalloway.com##+js(aopr, document.onkeydown)
-iamcarolinecalloway.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54357
 as-selection.net##+js(ra, oncontextmenu|onselectstart)
 
@@ -29845,12 +29848,6 @@ avdelphi.com##+js(aeld, , _0x)
 avdelphi.com##+js(set, f12lock, false)
 avdelphi.com##+js(nosiif, debugger)
 
-! thepiratecity .net right click, select, copy, ctrl-u
-thepiratecity.net##+js(aeld, keydown)
-thepiratecity.net##+js(aeld, contextmenu)
-thepiratecity.net##+js(aopr, document.oncopy)
-||thepiratecity.net^$csp=style-src *
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54729
 ap-pro.ru##+js(nosiif, visibility, 1000)
 
@@ -29859,12 +29856,6 @@ suzylu.co.uk##+js(aeld, contextmenu)
 
 ! https://affiliate.fc2.com/ anti-adblock
 affiliate.fc2.com##+js(nostif, checkFeed, 1000)
-
-! https://www.latestnewssouthafrica.com/2020/05/01/pictures-capetown-residents-jogging-during-level-4-lockdown/
-latestnewssouthafrica.com##+js(acis, event, event.keyCode)
-latestnewssouthafrica.com##+js(aopw, document.ondragstart)
-latestnewssouthafrica.com##+js(aopw, document.onselectstart)
-latestnewssouthafrica.com##.unselectable,html:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3740
 psikologicinta.com##+js(acis, document.oncontextmenu)
@@ -30103,15 +30094,12 @@ chronologia.pl##+js(set, document.oncontextmenu, null)
 gamegame.kr##+js(aopw, document.oncontextmenu)
 gamegame.kr##div:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! cracxpro.com WP-CP annoyance
-cracxpro.com##+js(aopr, disableSelection)
-cracxpro.com##+js(aopw, nocontext)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56209
-money-sense.club##+js(ra, oncontextmenu|onMouseDown|style, div#nocopy)
+money-sense.club##+js(ra, oncontextmenu|onMouseDown|style)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7470
 festival-cannes.com##+js(aeld, contextmenu)
+festival-cannes.com##*::selection:style(background-color:#338FFF!important)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3963
 moving2canada.com##.ad-blocker-notice
@@ -30130,7 +30118,7 @@ jootc.com##+js(aopw, document.oncontextmenu)
 jootc.com##+js(set, document.onkeyup, null)
 jootc.com##+js(set, document.ondragstart, null)
 jootc.com##+js(aeld, keydown)
-jootc.com##body, div, p, span, a, h1, h2, h3, h4, h5, h6:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+jootc.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56425
 cepmendili.com##+js(acis, jQuery, ai_adb)
@@ -30175,7 +30163,8 @@ tver.jp##+js(set, enquete.checkDispEQ, falseFunc)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/gxd9g0/how_to_enable_copying_in_this_website/
 selfstudyanthro.com##+js(aopr, disable_copy)
-selfstudyanthro.com##+js(aopw, document.oncontextmenu)
+selfstudyanthro.com##+js(acis, document.ondragstart)
+selfstudyanthro.com##style:has-text(@media print):remove()
 selfstudyanthro.com##.unselectable,html:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: text !important)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/gxe9o4/help_with_ublock/
@@ -30185,9 +30174,6 @@ novelasligera.com##:not(input):not(textarea),img:style(-webkit-touch-callout: de
 video.tv-tokyo.co.jp##.md-question.js-modal-window
 video.tv-tokyo.co.jp###jsiModalOverLayerShare
 video.tv-tokyo.co.jp##*:style(opacity: 1 !important;)
-
-! games.dailymail.co.uk cookie-banner
-games.dailymail.co.uk##[class^="CookieBanner"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7536
 audioreview.m1001.coreserver.jp##+js(acis, disableSelection, reEnable)
@@ -30235,6 +30221,7 @@ holakikou.com##+js(aopr, document.oncontextmenu)
 ! programasvirtualespc.net/jobsandhan.com/getwsodo.com WPCP Annoyance
 programasvirtualespc.net##+js(aopr, disable_copy)
 programasvirtualespc.net##+js(aopw, document.oncontextmenu)
+programasvirtualespc.net##style:has-text(@media print):remove()
 jobsandhan.com,programasvirtualespc.net##+js(acis, document.ondragstart)
 programasvirtualespc.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 jobsandhan.com##+js(aopr, disable_copy)
@@ -30265,10 +30252,6 @@ abola.pt##+js(acis, $, Adblock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57830
 unixhow.com##+js(acis, eval, isNaN)
 
-! baliyans.com anti-select/contextmenu annoyance
-baliyans.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-baliyans.com##+js(aeld, contextmenu)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57962
 rottentomatoes.com##+js(set, mps._queue.abdetect, null)
 
@@ -30298,8 +30281,7 @@ poli-vsp.ru,polyvsp.ru##*:style(-webkit-touch-callout: default !important; -webk
 bmovies.*##+js(aeld, devtoolschange)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4196
-edailybuzz.com##+js(acis, document.oncontextmenu)
-edailybuzz.com##+js(acis, document.oncopy)
+edailybuzz.com##+js(aeld, /contextmenu|copy/)
 edailybuzz.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 edailybuzz.com##*::selection:style(background-color:#338FFF!important)
 
@@ -30353,8 +30335,11 @@ thisisfutbol.com##.ad-billboard
 thisisfutbol.com##.c-header__advert
 thisisfutbol.com###snack_dex6
 
-! iptv4best .com select, ctrl-u
+! iptv4best .com select, ctrl-u, right click, drag, print
 iptv4best.com##+js(acis, disableSelection, reEnable)
+iptv4best.com##+js(acis, document.ondragstart)
+iptv4best.com##style:has-text(@media print):remove()
+iptv4best.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7642
 odoserwis.pl##body *:style(-webkit-user-select: auto !important; -moz-user-select: auto !important; -ms-user-select: auto !important; user-select: auto !important;)
@@ -30364,9 +30349,6 @@ reviewmeta.com##+js(nostif, innerHTML)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58806
 techlicious.com##+js(acis, document.createElement, admiral)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/58873
-zt-za.com##+js(nosiif, visibility, 1000)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58913
 hunterfansub.com##+js(aopw, document.onkeydown)
@@ -30451,11 +30433,6 @@ sovetromantica.com##+js(set, fuckAdBlock, trueFunc)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4360
 scriptinghelpers.org##.shvertise-banner
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/59852
-omgkpop.top##+js(aopw, document.oncontextmenu)
-omgkpop.top##style:has-text(:not(textarea)):remove()
-omgkpop.top###ays_tooltip
 
 ! mbs.jp right click
 mbs.jp##+js(aopw, document.oncontextmenu)
@@ -32804,9 +32781,6 @@ geektyper.com###itemz[style^="position:fixed; top:10px"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11195
 fotofilter.de##.banner
-
-! https://github.com/uBlockOrigin/uAssets/issues/11219 
-gadgets.usanewstoday.club##+js(set, blurred, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11227
 freestreams-live1.com##+js(acis, document.oncontextmenu, nocontextmenu)
