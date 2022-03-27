@@ -7437,7 +7437,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 26/3/2022
-! Version: 2632022-2
+! Version: 2632022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20871,6 +20871,18 @@ expmediadirect1.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111970
 ||a23-trk.xyz^$document
 
+! https://www.virustotal.com/gui/file/635a5c00275d4f354e8f38c646c9210440bacc46088c45907132d82b11877783/relations
+||fuyt.org^$all
+||stereodon.social^$all
+||zerit.top^$all
+||admin.zerit.top^$all
+||27.147.183.45^$all
+
+! https://bazaar.abuse.ch/sample/3fd0837381babda7ef617b810457f0db32bd7c1f7e345480e6c525050ca818fa/
+||nominally.ru^$all
+! https://www.virustotal.com/gui/ip-address/188.114.97.16/relations
+||jordanserver232.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23246,7 +23258,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 26March2022v2
+! Version: 27March2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26494,6 +26506,9 @@ $removeparam=mediapartner,domain=evesleep.co.uk
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2430288
 ||lidl.*^$removeparam=flyx
+
+! https://tv.apple.com/no/show/kongle-og-ponni/umc.cmc.2jwlalsi34m25fcfljpvk990r?ctx_brand=tvs.sbd.4000&l=no
+||apple.com^$removeparam=ctx_brand
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -33058,3 +33073,7 @@ luyenthithukhoa.vn##+js(acis, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12462
 coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/113837
+@@||freshersnow.com^$ghide
+freshersnow.com##.adsbygoogle
