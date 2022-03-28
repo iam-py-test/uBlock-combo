@@ -7437,7 +7437,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 27/3/2022
-! Version: 2732022-1
+! Version: 2732022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20883,6 +20883,16 @@ expmediadirect1.com
 ! https://www.virustotal.com/gui/ip-address/188.114.97.16/relations
 ||jordanserver232.com^$all
 
+! https://forums.malwarebytes.com/topic/285132-outgoing-trojan-2dodddnsnet/
+||2dod.ddns.net^$all
+! Other unrelated ddns.net domains
+||kcfresh.ddns.net^$all
+||cttcorreiosporta.ddns.net^$all
+||harveyautos110.ddns.net^$all
+||richardmills770.ddns.net^$all
+||111234.ddns.net^$all
+||secure-7euserverify.ddns.net^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23271,7 +23281,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 27March2022v1
+! Version: 27March2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24742,7 +24752,7 @@ $removeparam=returnFromLogin,domain=amazon.com
 
 !!! ——— Bing ———
 ! https://www.bing.com/search?q=hello&form=QBLH&sp=-1&pq=hello&sc=8-5&qs=n&sk=&cvid=49B83A335B1C4884B71B2FAD4A8027A9 (02/03/2021)
-$removeparam=/^form=/i,domain=bing.com|microsoft.com
+$removeparam=/^form=/i,domain=bing.com
 ! https://www.bing.com/search?q=hello&sp=-1&pq=hello&sk=&sc=8-5&qs=n (04/03/2021)
 ||bing.com^$removeparam=sp
 $removeparam=sc,domain=bing.com|qvc.com|startpage.com
@@ -26745,16 +26755,8 @@ pinterest.*##.Hsu.iyn.zI7:nth-of-type(2) > div > .FullPageModal__scroller
 ! https://github.com/uBlockOrigin/uAssets/issues/5030#issuecomment-546342839
 pinterest.*##body:style(overflow-y: scroll !important;)
 
-! https://github.com/uBlockOrigin/uAssets/issues/2093
-fxporn69.*##+js(aopw, document.oncontextmenu)
-fxporn69.*##+js(acis, document.onkeydown)
-fxporn69.*##+js(aeld, /^(click|keydown)$/, preventDefault)
-
 ! https://forums.lanik.us/viewtopic.php?f=62&t=40602
 @@||html-online.com^$ghide
-
-! right click pinoybay
-pinoybay.ch##+js(acis, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2185
 @@||socialblade.com^$ghide
@@ -26793,9 +26795,6 @@ evz.ro##+js(acis, $, contextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2513
 mcocguideblog.com##+js(acis, disableselect, reEnable)
-
-! https://github.com/NanoAdblocker/NanoFilters/issues/104
-xxlmag.com##.brave-bling-overlay
 
 ! https://github.com/NanoAdblocker/NanoFilters/issues/105
 mydramalist.com##.spnsr_right
@@ -31075,10 +31074,6 @@ techoreels.com##+js(ra, oncontextmenu, body)
 ! https://github.com/uBlockOrigin/uAssets/issues/8299
 promobit.com.br##+js(aeld, mouseout)
 
-! Cookie notice https://github.com/uBlockOrigin/uAssets/pull/8320
-eobuwie.com.pl,eobuv.cz,eobuv.sk,epantofi.ro,ecipo.hu,eobuv.com.ua,eobuv.com,obuvki.bg,eschuhe.de,efootwear.eu,eavalyne.lt,epapoutsia.gr,eskor.se,escarpe.it,zapatos.es,chaussures.fr,eschuhe.ch,ecipele.hr##body:style(overflow: auto !important;)
-eobuwie.com.pl,eobuv.cz,eobuv.sk,epantofi.ro,ecipo.hu,eobuv.com.ua,eobuv.com,obuvki.bg,eschuhe.de,efootwear.eu,eavalyne.lt,epapoutsia.gr,eskor.se,escarpe.it,zapatos.es,chaussures.fr,eschuhe.ch,ecipele.hr##.popup
-
 ! liveroger.com anti-select
 liveroger.com##body:style(-webkit-touch-callout:text !important;-webkit-user-select:text !important;-khtml-user-select:text !important;-moz-user-select:text !important;-ms-user-select:text !important;user-select:text !important)
 
@@ -31092,7 +31087,8 @@ online2pdf.com##+js(nostif, /offsetWidth|check_ads/)
 bdb.com.pl##+js(ra, oncopy|oncontextmenu|onselectstart|onselect|ondragstart|ondrag|onbeforeprint|onafterprint, body)
 
 ! kitchennovel .com anti right click, anti select, anti view page
-kitchennovel.com##+js(acis, document.oncontextmenu)
+kitchennovel.com##+js(acis, document.ondragstart)
+kitchennovel.com##style:has-text(@media print):remove()
 kitchennovel.com##+js(acis, document.getElementsByTagName, unselectable)
 kitchennovel.com##+js(acis, disableSelection, reEnable)
 kitchennovel.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
