@@ -23285,7 +23285,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 27March2022v2
+! Version: 29March2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24611,6 +24611,12 @@ $removeparam=x_tr_pto
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2381922
 $removeparam=oref
 
+! https://www.manchestereveningnews.co.uk/whats-on/manchester-institution-britons-protection-needs-23494921?gaa_at=la&gaa_n=AYc4ysszn1halB6eRkgGnhrQUi-2HXTbnEdyz1BfC7ZD4JCO5et6GNSecUjEb6t9DsA%3D&gaa_ts=624304a6&gaa_sig=CBANf6kZ15XwlMeO9FM2aNZ4W3js3hPmeLw-SqwT8OY5o942zs6TrL_XcPjSVuFfyT3PiHD0FNyci3X1z8vk0w%3D%3D
+$removeparam=gaa_at
+$removeparam=gaa_n
+$removeparam=gaa_ts
+$removeparam=gaa_sig
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -24620,7 +24626,7 @@ $removeparam=oref
 ! ——— Specific remove rules ——— !
 !! ——— Can never be made generic ———
 ! (e.g. due to sparebank1.no, RARbg.to, Disney+ newsletter unsubscriptions)
-$removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
+$removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|elmundo.es|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|marca.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
@@ -26537,6 +26543,9 @@ $removeparam=mediapartner,domain=evesleep.co.uk
 ! https://tv.apple.com/no/show/kongle-og-ponni/umc.cmc.2jwlalsi34m25fcfljpvk990r?ctx_brand=tvs.sbd.4000&l=no
 ||apple.com^$removeparam=ctx_brand
 
+! https://www.expansion.com/economia.html?s_kw=economia
+$removeparam=s_kw,domain=expansion.com|marca.com
+
 !#if !env_mobile
 ! ——— Mobile ——— !
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
@@ -26622,18 +26631,26 @@ portaleds.com##+js(aopr, checkkey)
 ! re-enabling of right-click, select
 freewebscript.com##+js(acis, $, contextmenu)
 skidrowreloaded.com##+js(aopw, clickIE4)
+
 themeslide.com##+js(acis, $, preventDefault)
 themeslide.com##+js(aeld, contextmenu, preventDefault)
+
 mimaletadepeliculas.blogspot.com##+js(aopr, document.oncontextmenu)
+mimaletadepeliculas.blogspot.com##+js(acis, document.onselectstart)
+
 pelispedia.*##+js(aopw, document.oncontextmenu)
 pelispedia.*##+js(ra, oncontextmenu)
+
 crackllc.com##+js(aopr, document.oncontextmenu)
 cine.to##+js(aopr, oncontextmenu)
 hdeuropix.*##+js(aopw, clickIE)
 likn.xyz##+js(aopr, oncontextmenu)
+
 files-save.com##+js(aopw, document.onselectstart)
 files-save.com##+js(ra, oncontextmenu)
+
 desbloqueador.*##+js(aopr, document.oncontextmenu)
+
 megapastes.com##+js(aopr, document.oncontextmenu)
 megapastes.com##+js(aopr, document.onselectstart)
 
@@ -29831,9 +29848,6 @@ as-selection.net##+js(ra, oncontextmenu|onselectstart)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54629
 servedez.com###realpop_optincontent
 
-! https://github.com/NanoMeow/QuickReports/issues/3710
-iamzlnk.me##+js(acis, document.oncontextmenu)
-
 ! https://github.com/NanoMeow/QuickReports/issues/3715
 avdelphi.com##+js(aeld, , _0x)
 avdelphi.com##+js(set, f12lock, false)
@@ -30309,11 +30323,6 @@ ananweb.jp##+js(aeld, contextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/7618
 seikatsu-hyakka.com##+js(acis, document.oncontextmenu)
 
-! firmwarex .net right click, select, copy
-firmwarex.net##+js(acis, document.oncontextmenu)
-firmwarex.net##+js(acis, jQuery, document.oncontextmenu)
-firmwarex.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
 ! marfilius.blogspot .com anti select
 marfilius.blogspot.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -30500,9 +30509,6 @@ mt2dosyalar.com##.notice
 pressherald.com##.pum[data-popmake*="cookies"]
 pressherald.com##html:style(overflow:auto !important)
 
-! freeserial-keys .blogspot .com anti select
-freeserial-keys.blogspot.com##+js(acis, document.onselectstart)
-
 ! railf.jp and https://spectank.jp/sl0060045.html right click
 railf.jp,spectank.jp##+js(ra, oncontextmenu|oncopy)
 
@@ -30688,11 +30694,6 @@ beforeitsnews.com###top-alert
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62144
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^$3p
-
-! abbiglinesspanish.blogspot .com anti right click, select
-abbiglinesspanish.blogspot.com##+js(acis, document.oncontextmenu)
-abbiglinesspanish.blogspot.com##+js(ra, oncontextmenu|onselectstart|ondragstart|onmousedown)
-abbiglinesspanish.blogspot.com##+js(aopw, document.onselectstart)
 
 ! best4hack.blogspot .com anti right click
 best4hack.blogspot.com##+js(acis, document.oncontextmenu)
@@ -30891,22 +30892,8 @@ hentaialtadefinizione.it##+js(aopw, onload)
 ! https://github.com/uBlockOrigin/uAssets/issues/8069
 lyrical-nonsense.com##+js(aeld, copy)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/66201
-huljjang.com##+js(aeld, contextmenu)
-huljjang.com##+js(aopw, document.oncontextmenu)
-huljjang.com##+js(aeld, /keyup|keydown/)
-huljjang.com###ays_tooltip
-huljjang.com##style:has-text(:not(input):not(textarea)):remove()
-
 ! https://github.com/uBlockOrigin/uAssets/issues/8072
 alltechnerd.com##+js(aopw, document.oncontextmenu)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/jh0nlg/bypass_adblock_detection/
-hunter-xhunter.com##+js(acis, disableSelection, reEnable)
-hunter-xhunter.com##+js(aopw, document.oncontextmenu)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/66374
-timebucks.com##+js(aopr, canRunAds)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66378
 moneyguru.co##+js(acis, $, .height)
@@ -30928,7 +30915,10 @@ clubulbebelusilor.ro##+js(aeld, contextmenu)
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js,domain=colnect.com
 
 ! voxvalachorum .ro anti right click, anti select, anti ctrl-u etc
-voxvalachorum.ro##+js(acis, document.oncontextmenu)
+voxvalachorum.ro##style:has-text(@media print):remove()
+voxvalachorum.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+voxvalachorum.ro##+js(aopw, disableEnterKey)
+voxvalachorum.ro##+js(acis, document.ondragstart)
 voxvalachorum.ro##+js(acis, disableSelection, reEnable)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8120
@@ -30938,14 +30928,11 @@ voxvalachorum.ro##+js(acis, disableSelection, reEnable)
 generationamiga.com##+js(aopr, disable_copy)
 generationamiga.com##+js(aopw, document.oncontextmenu)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/66801
-yock.games#@#.adBanner
-
 ! https://github.com/uBlockOrigin/uAssets/issues/8136
 nwherald.com##+js(aopr, HTMLIFrameElement)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8140
-main.gridcoinstats.eu##[href="/about#support"]:upward(1)
+gridcoinstats.eu##[href="/about#support"]:upward(2)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8143
 odiarioonline.com.br##+js(set, document.oncontextmenu, null)
@@ -31148,7 +31135,9 @@ kuroko-analyze.com##+js(ra, oncontextmenu, body)
 raqmedia.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! 69translations.blogspot .com anti select
-69translations.blogspot.com##+js(acis, document.onselectstart)
+69translations.blogspot.com##+js(aopr, document.onselectstart)
+69translations.blogspot.com##+js(aopr, document.onmousedown)
+69translations.blogspot.com##+js(aopr, document.onclick)
 
 ! 2iptv .com warning anti adb
 2iptv.com##+js(nostif, google_jobrunner)
@@ -32794,7 +32783,7 @@ nusantararom.org##.elementor-popup-modal
 elpais.com##+js(nostif, run)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11330
-mail.tm##:xpath(//*[contains(text(),"blockers")])
+mail.tm##:xpath(//*[contains(text(),"blocker")])
 
 ! wawlist. com anti right click, select, ctrl,f-keys
 wawlist.com##+js(acis, document.oncontextmenu)
@@ -33038,4 +33027,4 @@ coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
 freshersnow.com##.adsbygoogle
 
 ! playerx.stream devtools detector
-/devtools-detector$script,domain=beastx.top|chillx.top|playerx.stream
+beastx.top,chillx.top,playerx.stream##+js(aopr, devtoolsDetector)
