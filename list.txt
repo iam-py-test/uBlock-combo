@@ -23285,7 +23285,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29March2022v3
+! Version: 30March2022v3
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23782,7 +23782,7 @@ $removeparam=affname
 $removeparam=MID
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
+$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
@@ -24617,6 +24617,12 @@ $removeparam=gaa_n
 $removeparam=gaa_ts
 $removeparam=gaa_sig
 
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2466789
+$removeparam=amp_gsa
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2447274
+$removeparam=vgo_ee
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -24799,6 +24805,9 @@ $removeparam=cvid,domain=bing.com|msn.com
 ||bing.com^$removeparam=rnoreward
 ||bing.com^$removeparam=rqpiodemo
 ||bing.com^$removeparam=skipopalnative
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2465439
+||bing.com^$removeparam=toWww
+||bing.com^$removeparam=redig
 
 !!! ——— eBay ———
 ! https://www.ebay.com/itm/Disney-Fairies-Annual-2008/173553616659?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160908105057%26meid%3Da7ecc6d2187f43619ceae843d9c7e96e%26pid%3D100675%26rk%3D1%26rkt%3D15%26sd%3D173553616659%26itm%3D173553616659&_trksid=p2481888.c100675.m4236&_trkparms=pageci%3A87956e3f-3968-11e9-ae7f-74dbd1801ed7%7Cparentrq%3A277c9f541690a861b48415dfffeb1383%7Ciid%3A1 (31/10/2020)
@@ -24945,8 +24954,8 @@ $removeparam=sender_web_id
 ||tiktok.com^$removeparam=_d
 ||tiktok.com^$removeparam=tt_from
 ||tiktok.com^$removeparam=preview_pb
-||tiktok.com^$doc,removeparam=user_id
-||tiktok.com^$doc,removeparam=sec_user_id
+||tiktok.com^$document,removeparam=user_id
+||tiktok.com^$document,removeparam=sec_user_id
 $removeparam=share_app_id
 $removeparam=share_item_id
 $removeparam=share_link_id
@@ -25546,9 +25555,12 @@ $removeparam=tracker,domain=dustdeal.nl|batteryupgrade.*
 ||roboform.com^$removeparam=rec
 
 ! https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTQ_thTIPr-4kGYMHEyfPeD9YN_0fwvx4-fQ&usqp=CAU
-||gstatic.com^$removeparam=usqp
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2466789
+$removeparam=usqp,domain=gstatic.com|cdn.ampproject.org
+
 ! https://www.gog.com/promo/rerelease_ultima_underworld_and_syndicate?pp=b2a10a6c3dcadb10c8ffd734c1bab896d55cf0ec (06/08/2021)
 ||gog.com^$removeparam=pp
+
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1141831
 ||roblox.com^$removeparam=refPageId
 
@@ -30535,12 +30547,6 @@ getyourbitco.in##*:style(-webkit-touch-callout: default !important; -webkit-user
 ! https://github.com/NanoAdblocker/NanoFilters/issues/540
 longecity.org##+js(set, abp, false)
 
-! ileak .xyz right click, anti select
-ileak.xyz##+js(aeld, contextmenu)
-ileak.xyz##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-ileak.xyz##+js(aeld, keydown)
-ileak.xyz##+js(acis, document.oncontextmenu)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60518
 coop-land.ru##+js(nostif, .fadeIn)
 
@@ -30559,14 +30565,6 @@ doujindesu.info##+js(aopw, document.oncontextmenu)
 doujindesu.info##+js(acis, disableSelection, reEnable)
 doujindesu.info##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! https://github.com/uBlockOrigin/uAssets/issues/7722
-||disableadblock.com^$3p
-
-! omgmusik .com omglyrics .com anti right click, anti copy anti anti
-||omgmusik.com^$csp=style-src *
-||omgmusik.com^$csp=script-src *
-||omglyrics.com^$csp=style-src *
-||omglyrics.com^$csp=script-src *
 /wp-content/plugins/secure-copy-content-protection/*$script
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60753
@@ -30585,9 +30583,6 @@ movieston.com##+js(acis, document.oncontextmenu)
 movieston.com##+js(acis, jQuery, contextmenu)
 movieston.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/60858
-juezcoin.xyz##+js(aopw, document.onmousedown)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7734
 magnet-novels.com##+js(aeld, /blur|mousedown|mouseenter|mouseleave/)
 magnet-novels.com##+js(nosiif, pushAd)
@@ -30596,6 +30591,7 @@ magnet-novels.com##+js(set, document.onselectstart, noopFunc)
 
 ! https://github.com/easylist/easylist/issues/5903#issuecomment-669608003
 deseneledublate.com##+js(acis, document.oncontextmenu)
+deseneledublate.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61166
 eduardo-monica.com##+js(acis, document.oncontextmenu)
