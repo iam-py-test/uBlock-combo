@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 01April2022v1
+! Version: 01April2022v2
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2100,6 +2100,22 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||download2340.mediafire.com/eift3ac9qmig/y65v1rk0zy7ot4a/The__Setup__With__File.zip^$all
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1074966240
 ||melding.link^$doc
+! https://twitter.com/MBThreatIntel/status/1509956416311742464
+||xposednews.xyz^$all
+||tomguide.xyz^$all
+||eronews.xyz^$all
+||taclenews.xyz^$all
+||chapternews.xyz^$all
+||tomsguides.xyz^$all
+||exposednews.xyz^$all
+||crypcoinsnews.xyz^$all
+||newsjump.xyz^$all
+||newsmaven.xyz^$all
+||kathnews.xyz^$all
+||hrmaclenews.xyz^$all
+||maanews.xyz^$all
+||newsdeals.xyz^$all
+||dreamdigimedia.blogspot.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7436,8 +7452,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 28/3/2022
-! Version: 2832022-1
+! Last updated: 1/4/2022
+! Version: 142022-4
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22453,6 +22469,46 @@ expmediadirect1.com
 ||yourwebshield.com^$all
 ||mysecuresoftware.com^$all
 
+! https://app.any.run/tasks/a8a589e0-2aee-43f5-9fbe-92dc9e4bfec4
+||bst.protective-system.com^$all
+||protective-system.com^$all
+||news-hubucu.cc^$document
+||3zl49.xyz^$all
+||7yqck.xyz^$all
+||action.miliated.xyz^$document
+||undrininvereb.info^$all
+
+! https://app.any.run/tasks/3d80ad3d-3a47-46ae-a389-c0f9122ee2e2
+||www.yourdatasecurityservice.com^$all
+||yourdatasecurityservice.com^$document
+||toppark.info^$all
+||wdmtg.xyz^$all
+||lavish-nicely.xyz^$all
+
+! https://app.any.run/tasks/94987721-2dbd-4705-8d87-561d0fc546c4
+||shapelcounset.xyz^$document
+
+! ?
+||xwrgj.mookikabooki.com^$document
+
+! https://twitter.com/MBThreatIntel/status/1509956416311742464
+||xposednews.xyz^$all
+||tomguide.xyz^$all
+||eronews.xyz^$all
+||taclenews.xyz^$all
+||chapternews.xyz^$all
+||tomsguides.xyz^$all
+||exposednews.xyz^$all
+||crypcoinsnews.xyz^$all
+||newsjump.xyz^$all
+||newsmaven.xyz^$all
+||kathnews.xyz^$all
+||hrmaclenews.xyz^$all
+||maanews.xyz^$all
+||newsdeals.xyz^$all
+||dreamdigimedia.blogspot.com^$all
+||108.61.86.87^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -26759,7 +26815,6 @@ impots.gouv.fr##+js(set, PASSER_videoPAS_apres, 0)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1978
 @@||publico.pt^$ghide
-publico.pt##.site-message--cookies
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1976
 gay69.stream##+js(aopr, disableSelection)
@@ -27570,10 +27625,6 @@ instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-
 forum.politz.com.br##+js(acis, document.getElementById, tester)
 forum.politz.com.br##.js-notices[data-type="block"]
 
-! https://github.com/uBlockOrigin/uAssets/issues/4235
-shoppable.com###cookiesModal, .in.fade.modal-backdrop
-shoppable.com##body:style(overflow: auto !important;)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/4237
 ! https://github.com/NanoMeow/QuickReports/issues/3139
 @@||md5hashing.net^$ghide
@@ -28339,26 +28390,6 @@ husseinezzat.com##+js(aeld, keydown)
 ! https://github.com/uBlockOrigin/uAssets/issues/186#issuecomment-486142318
 wired.co.uk##+js(set, ads_not_blocked, true)
 
-! https://github.com/uBlockOrigin/uAssets/issues/5422
-oe24.at##.cookiesOverlay2Box
-oe24.at##.wrapper.blured:style(filter: none !important;)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5424
-wetter.at##.cookiesOverlay2Box
-wetter.at##.full.blured:style(filter: none !important;)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5425
-wirkochen.at##.cookiesOverlay2Box
-wirkochen.at##.wrapper.blured:style(filter: none !important;)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5426
-xn--sterreich-z7a.at##.cookiesOverlay3
-xn--sterreich-z7a.at##.wrapper.blured:style(filter: none !important;)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5427
-gesund24.at##.cookiesOverlay2
-gesund24.at##.wrapper.blured:style(filter: none !important;)
-
 ! https://github.com/NanoMeow/QuickReports/issues/1073
 polygon.com##+js(nostif, adsBlocked)
 
@@ -28656,14 +28687,6 @@ smashboards.com##+js(nosiif, height)
 ! yeane .org right click, select, ctrl-U
 yeane.org##+js(acis, document.oncontextmenu)
 yeane.org##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
-
-! https://github.com/ryanbr/fanboy-adblock/issues/1127
-blueorangebank.com###GDPR-modal, .modal-backdrop
-blueorangebank.com##body:style(overflow: auto !important; padding: 0 !important;)
-
-! https://github.com/uBlockOrigin/uAssets/issues/6070
-bosch-easycontrol.com###cookielaw, .modal-backdrop
-bosch-easycontrol.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 
 ! https://github.com/NanoMeow/QuickReports/issues/1655
 bitblokes.de##+js(acis, document.getElementsByTagName, null)
@@ -29697,12 +29720,6 @@ kbdfans.com##html:style(overflow: auto !important;)
 kamerabudaya.com##+js(ra, onselectstart|ondragstart|onmousedown|onkeydown|oncontextmenu, body)
 kamerabudaya.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/53287 needed because of the ghide filter in uBO-filters
-de-baystars.doorblog.jp###gdpr-banner
-
-! https://github.com/NanoMeow/QuickReports/issues/2587
-lumiafirmware.com###cookiesdirective
-
 ! https://github.com/NanoMeow/QuickReports/issues/3543
 anirocksite.com##+js(aopr, document.oncontextmenu)
 anirocksite.com##+js(aeld, keydown)
@@ -29744,9 +29761,6 @@ simpleflying.com##.simpl-adlabel
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53650
 masrawy.com##+js(acis, document.getElementById, adblockerdetected)
-
-! fraudstercrew.su cookie-notice
-fraudstercrew.su##.notice--cookie
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53667
 techieway.blogspot.com##+js(aopr, document.onselectstart)
@@ -29815,12 +29829,8 @@ getnzlr.newzenler.com###zenPopupModal, .modal-backdrop
 getnzlr.newzenler.com##.modal-open:style(overflow: auto !important)
 !#endif
 
-! litecompare .com anti adb/cookie notice
+! litecompare .com anti adb notice
 @@||litecompare.com^$ghide
-litecompare.com##.cookie-revoke-hidden
-
-! ouofly.com cookie notice
-ouofly.com###cookie-pop
 
 ! fiscomania .com anti adb notice
 @@||fiscomania.com^$ghide
@@ -29846,8 +29856,6 @@ pentruea.com##+js(aeld, copy)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54259
 sanspo.com##body:style(user-select: text !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; -o-user-select: text !important;)
 
-! memoryhackers.org cookie notice
-memoryhackers.org##.notice--cookie
 
 ! https://github.com/NanoMeow/QuickReports/issues/3687
 t3.com##+js(aopr, _sp_.mms.startMsg)
@@ -29894,9 +29902,6 @@ iphonecake.com##+js(nosiif, visibility, 1000)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3750
 anime2you.de##+js(acis, document.getElementById, undefined)
-
-! mitly.us cookie-notice
-mitly.us###cookie-pop
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54874
 *$script,redirect-rule=noopjs,domain=xn--e1agahhhaf4g.xn--j1amh
@@ -29960,9 +29965,6 @@ freerapidleechlist.blogspot.com##+js(acis, document.oncontextmenu)
 ! https://github.com/NanoAdblocker/NanoFilters/issues/499
 duolingo.com##h2:has-text(Using an ad blocker?):upward(3)
 
-! https://github.com/uBlockOrigin/uAssets/issues/5315
-7r6.com###cookie-pop
-
 ! thegatewaypundit .com anti adb warning
 thegatewaypundit.com##+js(aeld, , adtoniq)
 
@@ -30024,9 +30026,6 @@ tanya-tanya.com##*:style(-webkit-touch-callout: default !important; -webkit-user
 ! wpb.shueisha.co.jp right click
 wpb.shueisha.co.jp##+js(aeld, contextmenu, preventDefault)
 
-! fox-url.com cookie notice
-fox-url.com###cookie-pop
-
 ! asianexpress. co.uk right click
 asianexpress.co.uk##+js(acis, document.oncontextmenu)
 
@@ -30074,9 +30073,6 @@ britannica.com##+js(acis, document.createElement, admiral)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55781
 stevensducks.com###sidearm-adblock-modal
-
-! macdrop.net/dropgalaxy.* cookie-notice
-macdrop.net,dropgalaxy.*###gdpr-cookie-notice
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55778
 ziperto.com##+js(nosiif, visibility, 1000)
@@ -30145,9 +30141,6 @@ jootc.com##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56425
 cepmendili.com##+js(acis, jQuery, ai_adb)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/56486
-arkadium.com##[class^="CookieMessage"]
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7486
 tohkaishimpo.com##+js(ra, oncontextmenu|onselectstart)
 tohkaishimpo.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
@@ -30161,9 +30154,6 @@ iwanichi.co.jp##body:style(user-select: auto !important; -webkit-user-select: au
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7493
 photobank.mainichi.co.jp##+js(set, commonUtil.openToast, null)
-
-! key-hub cookie-notice
-key-hub.eu###cookieBanner
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7308 right click annoyance
 strcloud.in,streamtape.*##+js(aeld, contextmenu)
@@ -30211,9 +30201,6 @@ tabstats.com##.afill
 ! https://github.com/uBlockOrigin/uAssets/pull/7537
 seoul.cs.land.to##+js(ra, onselectstart)
 
-! linksly.co cookie-notice
-linksly.co###cookie-pop
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57185
 sharree.com##+js(acis, $, .height)
 
@@ -30256,9 +30243,6 @@ globo.com##+js(aeld, copy)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4146
 malasngeblog.com##.post-body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
-! jwearn.com cookie-notice
-jwearn.com###cookie-pop
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7579
 relet365.com##+js(aopr, disable_copy)
@@ -30315,21 +30299,11 @@ wikibious.com##+js(aopr, disable_copy)
 wikibious.com##+js(aopw, document.oncontextmenu)
 wikibious.com##.unselectable,html:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! stfly cookie-notice
-stfly.*###cookie-pop
-
-! zeoob.com cookie-notice
-zeoob.com###cookies_modal, .modal-backdrop
-zeoob.com##body.modal-open:style(overflow:auto !important)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58279
 legacy.com##+js(acis, document.getElementsByTagName, admiral)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58292
 imgur.com##.Footer-whitelist
-
-! gadgethacks cookie
-gadgethacks.com##+js(set, WHT.ShowConsentForm, trueFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7617
 ananweb.jp##+js(aeld, contextmenu)
@@ -30466,9 +30440,6 @@ chemz.io##.menu_ad1Box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60026
 *$xhr,redirect-rule=nooptext,domain=mazmorra.io
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/60027
-hexagame.io##.cookieWarning
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60037
 sketchful.io###moneySquare
 
@@ -30579,9 +30550,6 @@ fmzm.xyz##*:style(-webkit-touch-callout: default !important; -webkit-user-select
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61172
 priceguard.ru##+js(acis, $, ready)
 
-! dogmate.com cookie-notice
-dogemate.com###cconsent-bar
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61191
 dreamsfriend.com##+js(aeld, /contextmenu|cut|copy|paste/)
 dreamsfriend.com##style:has-text(user-select):remove()
@@ -30601,12 +30569,6 @@ cpuid.com##+js(nostif, blocked, 1000)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61381
 ratebeer.com##[class^="AdBlockDetector"]
-
-! arcadepunks.com cookie-notice
-arcadepunks.com##.penci-wrap-gprd-law
-
-! vectorizer.io cookie-info
-vectorizer.io##.in.fade.alert-info.alert.text-center
 
 ! https://github.com/NanoMeow/QuickReports/issues/4509
 anitoki.web.id##+js(acis, disableSelection, reEnable)
@@ -30691,9 +30653,6 @@ fruit01.xyz##+js(aopr, disableSelection)
 fruit01.xyz##+js(aopw, document.oncontextmenu)
 fruit01.xyz##+js(set, document.onkeydown, noopFunc)
 
-! cruisin.me cookie-notice(due to $ghide)
-cruisin.me##.notice--cookie
-
 ! https://github.com/uBlockOrigin/uAssets/issues/11242
 @@||dailyvoice.com^$ghide
 *$xhr,redirect-rule=nooptext,domain=dailyvoice.com
@@ -30726,9 +30685,6 @@ techdracula.com##*:style(-webkit-touch-callout: default !important; -webkit-user
 gazetaromaneasca.com##+js(acis, document.oncontextmenu)
 gazetaromaneasca.com##+js(acis, disableSelection, reEnable)
 gazetaromaneasca.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
-! ignboards.com cookie-notice(due to $ghide)
-ignboards.com##.notice--cookie
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63544
 slothjuns.net##+js(aopw, document.oncontextmenu)
@@ -30838,9 +30794,6 @@ samfw.com##.adsbygoogle
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65693
 segnidalcielo.it##+js(nostif, google_jobrunner)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/65706 ($ghide)
-coinlyhub.com###cookie-pop
 
 ! fangraphs.com anti adb annoyance
 @@||fangraphs.com/dfp.js$script,1p
@@ -31671,9 +31624,6 @@ boston.com##+js(acis, document.createElement, admiral)
 
 ! ninjastream.to dev tools
 ninjastream.to##^script:has-text(debugger)
-
-! cookie consent by ghide
-nekomeowmeow.com###eu-cookie-law
 
 ! hatsukimanga.com right click
 hatsukimanga.com##+js(acis, $, contextmenu)
