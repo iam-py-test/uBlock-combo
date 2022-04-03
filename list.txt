@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 01April2022v2
+! Version: 03April2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -26,7 +26,7 @@
 ! Central African Republic
 ||cf^$doc,domain=~google.cf|~rths.cf|~voitures.cf|~assembleenationale-rca.cf|~cps-rca.cf|~acap.cf|~miraculousladybug.cf|~scrat.cf
 ! Palau
-||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw
+||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw
 ! Legitimate use is almost non-existent, but has a tiny userbase in Japan
 ||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
@@ -43,7 +43,7 @@ www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns
 www.google.*##.g:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="mobili.ml"], [href*="melody.ml"], [href*="dcod.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="worproject.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"]))
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="deimos.gq"], [href*="inege.gq"], [href*="tvgelive.gq"], [href*="comprarcarros.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="voitures.cf"], [href*="assembleenationale-rca.cf"], [href*="cps-rca.cf"], [href*="acap.cf"], [href*="miraculousladybug.cf"], [href*="scrat.cf"]))
-www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="zikrap.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"]))
+www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="zikrap.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"])
 www.google.*##.g:has(a[href*=".gdn/"])
@@ -64,7 +64,7 @@ www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*=fil
 www.google.*##a[oncontextmenu][href*=".ml/"]:not([href*="google.ml"], [href*="mobili.ml"], [href*="melody.ml"], [href*="dcod.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="worproject.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="deimos.gq"], [href*="inege.gq"], [href*=tvgelive], [href*=comprarcarros]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*=voitures], [href*=assembleenationale-rca], [href*=cps-rca], [href*="acap.cf"], [href*="miraculousladybug.cf"], [href*="scrat.cf"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="zikrap.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"):upward(2)
+www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="zikrap.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
@@ -80,7 +80,7 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ml"]:not([data-domain*="google.ml"], [data-domain*="mobili.ml"], [data-domain*="melody.ml"], [data-domain*="dcod.ml"], [data-domain*="info-matin.ml"], [data-domain*="amap.ml"], [data-domain*="mastodon.ml"], [data-domain*="worproject.ml"], [data-domain*="nothingprivate.ml"], [data-domain*="lingva.ml"], [data-domain*="lemmy.ml"], [data-domain*="beatbump.ml"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gq"]:not([data-domain*="deimos.gq"], [data-domain*="inege.gq"], [data-domain*="tvgelive.gq"], [data-domain*="comprarcarros.gq"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".cf"]:not([data-domain*="google.cf"], [data-domain*="rths.cf"], [data-domain*="voitures.cf"], [data-domain*="assembleenationale-rca.cf"], [data-domain*="cps-rca.cf"], [data-domain*="acap.cf"], [data-domain*="miraculousladybug.cf"], [data-domain*="scrat.cf"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="zikrap.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw")
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="zikrap.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw"], [data-domain*="xor.pw"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".loan"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
@@ -93,7 +93,7 @@ bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dn
 bing.com##.b_algo:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="mobili.ml"], [href*="melody.ml"], [href*="dcod.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="worproject.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="deimos.gq"], [href*="inege.gq"], [href*="tvgelive.gq"], [href*="comprarcarros.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="voitures.cf"], [href*="assembleenationale-rca.cf"], [href*="cps-rca.cf"], [href*="acap.cf"], [href*="miraculousladybug.cf"], [href*="scrat.cf"]))
-bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="zikrap.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"))
+bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="zikrap.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"])
 bing.com##.b_algo:has(a[href*=".gdn/"])
@@ -23352,7 +23352,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 02April2022v1
+! Version: 03April2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24690,6 +24690,9 @@ $removeparam=amp_gsa
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2447274
 $removeparam=vgo_ee
 
+! https://www.readpeak.com/best-practice/4-4-server-to-server-tracking
+$removeparam=rpcid
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -24742,7 +24745,7 @@ $removeparam=refRID
 @@||amazon.*/gp/slredirect/picassoRedirect.html^$removeparam
 ! https://www.amazon.com/Disney-Fairies-Lessons-Chapter-ebook-ebook/dp/B007R6UWG2/ref=sr_1_16?dchild=1&keywords=disney+fairies&qid=1606488113&sr=8-16 (27/11/2020)
 $removeparam=dchild
-$removeparam=qid,domain=~ebay.*|~zhidao.baidu.com
+$~xmlhttprequest,removeparam=qid,domain=~ebay.*|~zhidao.baidu.com
 ||amazon.$removeparam=sr
 ! https://www.amazon.co.uk/dp/B08K443FBQ/ref=asc_df_B08K443FBQ1606003200000/?creative=22374&creativeASIN=B08K443FBQ (28/11/2020)
 $removeparam=creative
@@ -26489,9 +26492,6 @@ $removeparam=pr_rec_pid
 $removeparam=pr_ref_pid
 $removeparam=pr_seq
 
-! https://lifamasks.shop/products/lifa-air-kuvioitu-kirurginen-suu-nenasuojus-type-iir?rpcid=5ccad8f5-b75b-4132-82b7-c6c1ac333dddI363836303a3435373a3336363135
-$removeparam=rpcid,domain=lifamasks.shop
-
 ! https://www.bleepingcomputer.com/news/security/mcafee-agent-bug-lets-hackers-run-code-with-windows-system-privileges/?traffic_source=Connatix
 ||bleepingcomputer.com^$removeparam=traffic_source
 $removeparam=/traffic_source=Connatix/i
@@ -27955,9 +27955,6 @@ quadrinhoseroticos.net##+js(ra, oncontextmenu|onselectstart|onselect|oncopy)
 starsunfolded.com##+js(acis, document.oncontextmenu)
 starsunfolded.com##+js(aopw, disableSelection)
 
-! https://github.com/uBlockOrigin/uAssets/issues/4768
-szablony.freeware.info.pl##+js(ra, oncontextmenu|ondragstart|onselectstart|onselect|oncopy)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/4781
 cmjornal.pt##+js(aopw, document.oncopy)
 
@@ -27966,10 +27963,6 @@ randaris.app##.adblock-box
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4787
 ctrl.blog##+js(aopr, a1lck)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/am8fw5/sport365live/
-sport365.live###popup-wrapper
-365movies.tv###popup-wrapper
 
 ! majesy magesy magesypro . com right click, select
 ! https://github.com/uBlockOrigin/uAssets/issues/1197#issuecomment-497446409
@@ -27999,12 +27992,13 @@ heroesneverdie.com##+js(nostif, adsBlocked)
 ! https://github.com/uBlockOrigin/uAssets/issues/4809
 wader.toys##+js(aopw, document.oncontextmenu)
 
-! satcesc select, ctrl-U, F12
+! satcesc select, ctrl-U, F12. drag
 satcesc.com##+js(acis, document.oncontextmenu)
 satcesc.com##+js(aopw, disableSelection)
 satcesc.com##+js(aopw, document.onkeydown)
 satcesc.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 satcesc.com##+js(aeld, /^(?:keyup|keydown)$/)
+satcesc.com##+js(aopr, document.ondragstart)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4813
 mexiconewsdaily.com##+js(set, detectPrivateMode, noopFunc)
@@ -28031,10 +28025,6 @@ bdcraft.net###header > .wrapper > [class]
 ! https://github.com/uBlockOrigin/uAssets/issues/4877
 athletic.net##+js(acis, $, blur)
 ||athletic.net/css/signedOutBlur
-
-! https://github.com/uBlockOrigin/uAssets/issues/4893
-protect-link.biz##+js(aopw, document.oncontextmenu)
-protect-link.biz##+js(aopw, document.onselectstart)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4947
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yellowbridge.com
@@ -28104,11 +28094,6 @@ eppingforestguardian.co.uk##.mar-block-ad
 ! https://github.com/uBlockOrigin/uAssets/issues/5002
 diffnow.com##:xpath(//div[contains(text(),"Adblock")]/..)
 
-! https://github.com/NanoMeow/QuickReports/issues/728
-g1novelas.org##+js(aopw, document.oncontextmenu)
-g1novelas.org##+js(aopw, disableSelection)
-g1novelas.org##+js(aeld, /^(click|keydown)$/, preventDefault)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
 addons.opera.com##+js(nostif, showOverlay)
 
@@ -28167,10 +28152,6 @@ quora.com##.signup_wall_prevent_scroll #root:style(filter: none !important;)
 ! https://old.reddit.com/r/uBlockOrigin/comments/j5snpo/quora_blurring_of_content_and_login_prompt_on/g7vdihp/
 quora.com##.signup_wall_prevent_scroll:style(position: unset !important; padding-right: 0 !important;)
 
-! https://github.com/uBlockOrigin/uAssets/issues/2204
-worldfreeware.com##+js(acis, $, contextmenu)
-worldfreeware.com##.penci-wrap-gprd-law
-
 ! https://github.com/uBlockOrigin/uAssets/commit/728d4cd991a886d7865f3d5373f42337c7326e2c#commitcomment-32665659
 descargasnsn.com##+js(aopr, plusonet)
 
@@ -28217,6 +28198,8 @@ banglainsider.com##+js(ra, oncontextmenu)
 
 ! https://github.com/NanoMeow/QuickReports/issues/799
 mangainn.net##+js(aopr, googletag)
+mangainn.net##.chapter-top-ads
+mangainn.net##.chapter-bottom-ads
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5118
 ||akamaized.net/assets/*/ig-canais-noticias.min.js$script,domain=ig.com.br
@@ -31039,9 +31022,6 @@ bendigoadvertiser.com.au##+js(nosiif, modal)
 watchmdh.to##+js(aopw, document.oncontextmenu)
 watchmdh.to##style:has-text(:not(input):not(textarea)):remove()
 
-! live-eventsport .com anti right click
-live-eventsport.com##+js(acis, document.oncontextmenu)
-
 ! fatgirlskinny.net overlay annoyance
 fatgirlskinny.net##.pum
 fatgirlskinny.net##html:style(overflow:auto !important)
@@ -31055,8 +31035,9 @@ salidzini.lv##+js(acis, setTimeout, offsetHeight)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70801
 tusubtitulo.com###bannerAdBlock
 
-! cablegratis .online anti right click
+! cablegratis .online anti right click - select - drag
 cablegratis.online##+js(acis, document.oncontextmenu)
+cablegratis.online##+js(ra, oncontextmenu|ondragstart|ondrop|onselectstart)
 
 ! animeidhentai.com dev tools
 ||htstreaming.com/player/assets/debugger.js
@@ -32979,21 +32960,21 @@ bingotingo.com##+js(acis, document.oncontextmenu)
 bingotingo.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12529
-rdsong.com##+js(ra, oncontextmenu, body)
-rdsong.com##+js(ra, onselectstart, body)
+rdsong.com##+js(ra, oncontextmenu|ondragstart|onselectstart, body)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12528
 cafe.naver.com##+js(aopr, document.oncontextmenu)
 cafe.naver.com##+js(aopr, document.onselectstart)
 cafe.naver.com##+js(aopr, document.ondragstart)
+cafe.naver.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12530
 novelpia.com##+js(acis, $, keydown)
 novelpia.com##+js(acis, console.log, devtools)
 novelpia.com##+js(acis, setInterval, playAlert)
-novelpia.com##+js(ra, oncontextmenu)
-novelpia.com##+js(ra, onselectstart)
+novelpia.com##+js(ra, oncontextmenu|ondragstart|onselectstart)
 novelpia.com##+js(aeld, contextmenu, event.triggered)
+novelpia.com##+js(set, document.ondragstart, trueFunc)
 novelpia.com##+js(set, document.onselectstart, trueFunc)
 novelpia.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -33001,7 +32982,7 @@ novelpia.com##*:style(-webkit-touch-callout: default !important; -webkit-user-se
 stream.bunkr.is##+js(acis, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12531
-brainly.com##+js(set, jsData.hasVideoMeteringUnlogEnabled, undefined)
+brainly.*##+js(set, jsData.hasVideoMeteringUnlogEnabled, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12571
 viewsb.com##+js(acis, console.clear, onload)
