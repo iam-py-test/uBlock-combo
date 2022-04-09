@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 07April2022v1
+! Version: 08April2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2116,6 +2116,14 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||maanews.xyz^$all
 ||newsdeals.xyz^$all
 ||dreamdigimedia.blogspot.com^$all
+! https://bazaar.abuse.ch/sample/b959fb160dac2a15b8e65c15e2b1738d356c03e13623588bc70aab825c57660a/
+||penana.com/story/89349/winrar-6-0-universal-crack-activation-key-free-download-2021-latest/issue/0^$document
+||activatorwin.com^$all
+||freeversioncrack.com^$document
+||top3hostngc.xyz^$all
+||198.199.120.251^$all
+||mediafire.com/file/8h91fn11fa1dacu/Latest_Setup_active.rar/file^$all
+||download2325.mediafire.com/pmth9b9cwtkg/8h91fn11fa1dacu/Latest_Setup_active.rar^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7452,8 +7460,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2/7/2022
-! Version: 272022-1
+! Last updated: 2/8/2022
+! Version: 282022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -20954,6 +20962,17 @@ expmediadirect1.com
 ||94.158.247.100^$all
 ||154.38.242.14^$all
 ||199.247.3.55^$all
+
+! https://bazaar.abuse.ch/sample/b959fb160dac2a15b8e65c15e2b1738d356c03e13623588bc70aab825c57660a/
+||penana.com/story/89349/winrar-6-0-universal-crack-activation-key-free-download-2021-latest/issue/0^$document
+||freeversioncrack.com^$document
+||top3hostngc.xyz^$all
+||198.199.120.251^$all
+||mediafire.com/file/8h91fn11fa1dacu/Latest_Setup_active.rar/file^$all
+||download2325.mediafire.com/pmth9b9cwtkg/8h91fn11fa1dacu/Latest_Setup_active.rar^$all
+! https://app.any.run/tasks/5fcd7eda-1f8b-4e99-80f9-5429d6044d16
+||45.84.0.112^$all
+||45.67.229.135^$all
 
 ! ----- Scams -----
 
