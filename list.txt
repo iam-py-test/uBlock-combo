@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 10April2022v1
+! Version: 18April2022v3
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -28,7 +28,7 @@
 ! Palau
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw
 ! Legitimate use is almost non-existent, but has a tiny userbase in Japan
-||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top
+||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$doc
 ||agency^$doc
@@ -48,7 +48,7 @@ www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"])
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"]))
 
 ! ——— You know those ultra-fraudulent auto-generated things that clutter up Google searches? These entries should remove some of them. ———
 www.google.*##.g:has(a[href*=".php?xxx="])
@@ -69,7 +69,7 @@ www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 !#endif
@@ -85,7 +85,7 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"])
 
 ! ——— For Bing ———
 !!!bing.com##.b_algo:has(a[href*=".tk/"]:not([href*="coolcmd.tk"], [href*="budterence.tk"], [href*="google.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="anonytext.tk"], [href*="tokelau-info.tk"], [href*="fakaofo.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="coppersurfer.tk"], [href*="restricted-functions.tk"], [href*="nbd-media.tk"], [href*="bstweaker.tk"], [href*="gotofap.tk"], [href*="somepythonthings.tk"]))
@@ -98,7 +98,7 @@ bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"])
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"]))
 
 ! ——— Old dead tech-related domains ———
 ! Domains that used to host lists for adblockers or "hosts" tools, but which are now either used by malware pushers, or could potentially be snapped up by them.
@@ -263,6 +263,8 @@ cyclonis.com##div.rotatead-container:has(.download[data-params*="dl.enigmasoftwa
 windowsdispatch.com##strong
 ! https://dlldownloads.com/xlive-dll/
 dlldownloads.com##.page-container > p
+! https://windowsreport.com/find-remove-duplicate-files-windows-10/
+windowsreport.com##.bnr-block
 ! ¤¤¤ "Driver" download sites that instead download PUP tools ¤¤¤
 ||driver-soft.com^$doc
 ! ¤¤¤ Outbyte ¤¤¤
@@ -303,7 +305,6 @@ msn.com##.irisbanner
 
 ! ——— Download sites that felt shoddy to me (Most of which, if not all of which, had real non-ad download links that contained malware .exe files) ———
 ! If you're in a situation where you need to torrent something, such as for hard-to-buy or region-locked games, or games that you own for consoles that lack accessible rip tools, you can at least try to use sites that have legit downloads with the actual game files.
-||coolrom.com^$doc
 ||freeroms.com^$doc
 ||portalroms.com^$doc
 ||romsmania.com^$doc
@@ -313,6 +314,7 @@ msn.com##.irisbanner
 ||soft-load.com^$doc
 ||getgamespc.com^$doc
 ||ps1games.online^$doc
+coolrom.com.au,coolrom.com##.download_link
 
 ! ——— Entries from «abuse.ch ZeuS Blocklist», which was discontinued on the 8th of July 2019. ———
 ||afobal.cl^$doc
@@ -402,7 +404,7 @@ play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:-abp-has([
 ||kelkoogroup.net^$all
 
 ! ——— Frequently used to infiltrate and maliciously redirect sites, e.g. ToonBarn ———
-||ppc.netnet44.net^$all
+||netnet44.net^$all
 ||tncrun.net^$all
 ||amanda.*.net^$doc
 ||sarah.*.net^$doc
@@ -7319,6 +7321,29 @@ toorgle.net##.join
 ||194.226.139.7^$all
 ||95.181.157.36^$all
 ||95.181.172.204^$all
+!#if false
+! AS209813 (https://github.com/AdguardTeam/AdguardFilters/issues/114618#issuecomment-1100702530; currently specific to AdGuard Home and other tools that support CIDR blocking)
+5.8.44.0/22
+5.8.67.0/24
+5.101.45.0/24
+5.101.46.0/23
+5.188.50.0/23
+5.188.176.0/23
+5.188.178.0/24
+5.188.194.0/23
+5.188.200.0/24
+5.188.203.0/24
+5.189.217.0/24
+5.189.218.0/23
+5.189.252.0/24
+31.184.200.0/22
+46.148.113.0/24
+46.148.114.0/24
+46.161.31.0/24
+91.243.41.0/24
+91.243.42.0/24
+185.238.152.0/22
+!#endif
 ! Other
 ||foxsportnetwork.com^$all
 ||pksauniversity.com^$all
@@ -7461,8 +7486,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 4/11/2022
-! Version: 4112022-2
+! Last updated: 4/20/2022
+! Version: 4202022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21000,6 +21025,39 @@ expmediadirect1.com
 ! https://twitter.com/ANeilan/status/1513203825313824773
 ||show-videos-2022.ga^$all
 
+! https://www.virustotal.com/gui/url/3d68f17518f9d0f4bc75e9f44e7ac5b3e4f0f474362ea08efa45d6b0c4cfe6a1
+||invite-forms-hypesquad.com^$all
+
+! https://www.virustotal.com/gui/url/dc7b1ff1beb61c84c6200391d3ef818f9975256f4e347795bf8ccec14a7a2a66/community
+||roblox.com.ht^$all
+
+! https://www.virustotal.com/gui/url/511902d4a7801d3a8ce02ae5efcb35ff708e58bf6f2e92e44df5e346daa102af
+||metamakkslgin.azurewebsites.net^$all
+
+! https://forums.malwarebytes.com/topic/285865-malwarebytes-keep-blocking-random-websites/
+||monsutiur4.com^$all
+||linislominyt11.at^$all
+
+! https://bazaar.abuse.ch/sample/306b5745054cab7a000edf375dd4409935c6ff704dff0860a3563a04b3fa8e66/
+||2.56.57.98^$all
+
+! https://www.virustotal.com/gui/url/87940af669b5cb1dfe0feafd6c01ae7d1d9b8b3625f24224984fe38fdd5ccf1d/community
+||sutori.com/en/story/initial-page--3Xq4D6k3uL8JGkqskxczjBGr^$document
+||sharepoeintrttt.weebly.com^$all
+
+! https://www.virustotal.com/gui/url/28590bc925cf6387239b0adb2700d16d66623310afc412e5b5d8ac0b3bab3f94/community
+||acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:402a12fc-278e-4136-b7e9-21ccf8f776ff^$document
+||storageapi2.fleek.co/8c451350-3ebb-4bff-87d5-9e3f891de4dc-bucket/codepen.io/index.html^$all
+
+! https://www.virustotal.com/gui/url/d9a2be341e814e16c837b215cac13b30add4aba14eec06f4b6d400d0a0409ce3/community
+||ipfs.io/ipfs/QmYGtFWcS83HpCnr7zSynPutkjooXdLbkHAWYHii6NpwzW?key=dbb6c0056aea6d10954f4e761688a09d1d85eb28&url_01=https://lithsman-neuroplasty-pandectist.s3.eu-central-003.backblazeb2.com/index.html&url_02=https://anthracnosis-jackscrew-rubine.s3.eu-central-003.backblazeb2.com/index.html&url_03=https://collyrite-hurst-rencounters.s3.eu-central-003.backblazeb2.com/index.html&url_04=https://freckleproof-hymnaria-lobbying.s3.eu-central-003.backblazeb2.com/index.html&url_05=https://audiovisual-jailer-woke.s3.eu-central-003.backblazeb2.com/index.html&redirect=https://www.amazon.com^$all
+||anthracnosis-jackscrew-rubine.s3.eu-central-003.backblazeb2.com^$all
+
+! https://www.bleepingcomputer.com/news/security/unofficial-windows-11-upgrade-installs-info-stealing-malware/ (dead but may undie)
+||windows11-upgrade11.com^$all
+||windows-server031.com^$all
+
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -21297,7 +21355,8 @@ expmediadirect1.com
 ||yasir252.com^$all
 ||www.yasir252.com^$all
 ||safelink.kadal.club^$document
-||iclickcdn.com^$document
+! https://forums.malwarebytes.com/topic/285824-malicious-disk-image-file-iso/ --> https://www.virustotal.com/gui/url/20ef8f13f6ed4f2ad0f25c4d98c5ba213223dd95d18ae31494b5df4305fc7a6c
+||iclickcdn.com^$all
 ||bedrapiona.com^$all
 ||dozubatan.com^$all
 ||toglooman.com^$document
@@ -22625,6 +22684,25 @@ expmediadirect1.com
 ||popupchat-live.com^$document
 ||bhgfsfh.com^$document
 
+! a "press allow to continue" + fake McAfee
+||ultrafastultra.blogspot.com^$all
+||tei.ai^$document
+||app.web-scanning.com^$all
+||forfrogadiertor.com^$document
+||ourdailystories.com^$all
+
+! Fake Discord nitro generator
+||acreauburn.com/profile/kyrrwgutzctpad/profile^$document
+||freegiftcard.pw^$all
+||filevortex.com/1029130^$all
+||www.uplevelreward.com^$document
+||uplevelreward.com^$document
+
+! https://github.com/uBlockOrigin/uAssets/pull/12699
+||jacobtvmountingservice.com^$all
+||streamwebx.online^$all
+||ziltzwebsol.online^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23457,7 +23535,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 09April2022v1
+! Version: 20April2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23966,7 +24044,7 @@ $removeparam=srnd
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1061792
 $removeparam=as_src
-$removeparam=coid
+$removeparam=coid,domain=~radioreference.com
 $removeparam=edsacid
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1142244
@@ -24822,7 +24900,7 @@ $removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|br
 ! No particular example
 ! https://github.com/DandelionSprout/adfilt/pull/474
 ! https://user.qzone.qq.com/1250252459?source=aiostar (01/02/2022)
-$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|boscovs.com|boxboat.com|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|nautica.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|sonos.com|spiceworks.com|squarespace.com|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live|britishcornershop.co.uk|microsoftedgewelcome.microsoft.com
+$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|sonos.com|spiceworks.com|squarespace.com|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
@@ -26750,6 +26828,51 @@ $removeparam=zsource,domain=slashgear.com
 ||cardif.fr^$removeparam=at_medium
 ||cardif.fr^$removeparam=at_custom_var9
 ||cardif.fr^$removeparam=at_custom_var10
+
+! https://www.nytimes.com/2022/04/12/opinion/inflation-consumer-prices.html?searchResultPosition=15
+$removeparam=searchResultPosition,domain=nytimes.com
+
+! https://www.mongodb.com/try/download/community?tck=docs_server
+$removeparam=tck,domain=mongodb.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2553677
+$removeparam=locale,domain=udemy.com
+$removeparam=response_type,domain=udemy.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2561976
+||zoho.com^$removeparam=zsrc
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2580104
+||lookmovie211.xyz^$removeparam=mid
+||lookmovie211.xyz^$removeparam=sid
+||lookmovie211.xyz^$removeparam=sec
+||lookmovie211.xyz^$removeparam=t
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2581603
+||nortonsafe.search.ask.com^$removeparam=installsource
+||nortonsafe.search.ask.com^$removeparam=os
+||nortonsafe.search.ask.com^$removeparam=ssdcat
+||nortonsafe.search.ask.com^$removeparam=templatecat
+||nortonsafe.search.ask.com^$removeparam=o
+||nortonsafe.search.ask.com^$removeparam=vendorsrc
+||nortonsafe.search.ask.com^$removeparam=olpchannel
+||nortonsafe.search.ask.com^$removeparam=chn
+||nortonsafe.search.ask.com^$removeparam=tpr
+||nortonsafe.search.ask.com^$removeparam=p2
+||nortonsafe.search.ask.com^$removeparam=qsrc
+||nortonsafe.search.ask.com^$removeparam=cmpgn
+||nortonsafe.search.ask.com^$removeparam=qo
+||nortonsafe.search.ask.com^$removeparam=doi
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2586765
+||support.github.com^$removeparm=tag
+
+! https://www.oerproject.com/Account/Teacher-Signup?RegistrationSource={8F3F8D17-0E32-4C9B-9E33-971B12CC0B97}
+||oerproject.com^$removeparam=RegistrationSource
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2597385
+$document,removeparam=_clde
+$document,removeparam=_cldee
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -32016,8 +32139,6 @@ nullphpscript.com##style:has-text(user-select:):remove()
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85350
 babiato.co##+js(acis, $, test)
-@@||babiato.co^$ghide
-babiato.co##.adsbygoogle
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81440
 lazytranslations.com##+js(aopw, disableEnterKey)
@@ -32784,7 +32905,8 @@ nusantararom.org##p:has-text(Adblock)
 nusantararom.org##.elementor-popup-modal
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11326
-elpais.com##+js(nostif, run)
+! https://github.com/uBlockOrigin/uAssets/issues/5288#issuecomment-1097447454
+! elpais.com##+js(nostif, run)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11330
 mail.tm##:xpath(//*[contains(text(),"blocker")])
@@ -32888,6 +33010,7 @@ investorvillage.com##+js(acis, update_visit_count)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11698
 crunchyscan.fr##+js(acis, document.oncontextmenu)
+||crunchyscan.fr/node_modules/devtools-detect/index.js$script,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11732
 ||coinzillatag.com^$script,redirect=noopjs,domain=viefaucet.com
@@ -33076,11 +33199,11 @@ brainly.*##+js(set, jsData.hasVideoMeteringUnlogEnabled, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12571
 ! enable context menu
-viewsb.com##+js(acis, console.clear, onload)
+viewsb.com##+js(acis, console.clear, "contextmenu")
 sbfast.com,sbflix.*##+js(acis, onload, contextmenu)
 
 ! https://dizipal213.com/film/the-bubble/ anti right click
-dizipal208.com,dizipal209.com,dizipal210.com,dizipal211.com,dizipal212.com,dizipal213.com,dizipal214.com,dizipal215.com,dizipal216.com,dizipal217.com,dizipal218.com,dizipal219.com,dizipal220.com,dizipal221.com,dizipal222.com,dizipal223.com,dizipal224.com,dizipal225.com,dizipal226.com,dizipal227.com,dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(acis, console.clear, onload)
+dizipal208.com,dizipal209.com,dizipal210.com,dizipal211.com,dizipal212.com,dizipal213.com,dizipal214.com,dizipal215.com,dizipal216.com,dizipal217.com,dizipal218.com,dizipal219.com,dizipal220.com,dizipal221.com,dizipal222.com,dizipal223.com,dizipal224.com,dizipal225.com,dizipal226.com,dizipal227.com,dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(acis, console.clear, "contextmenu")
 dizipal208.com,dizipal209.com,dizipal210.com,dizipal211.com,dizipal212.com,dizipal213.com,dizipal214.com,dizipal215.com,dizipal216.com,dizipal217.com,dizipal218.com,dizipal219.com,dizipal220.com,dizipal221.com,dizipal222.com,dizipal223.com,dizipal224.com,dizipal225.com,dizipal226.com,dizipal227.com,dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(acis, devtoolsDetector)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12612
@@ -33140,3 +33263,51 @@ goodhub.xyz##+js(aeld, /contextmenu|keydown/)
 
 ! https://ww3.watchgintama.com/gintama-episode-367-subbed/ preroll video
 animecruzers.com##+js(set, Object.prototype.preroll, [])
+
+! waves4you. com anti adblock
+waves4you.com##+js(aost, String.prototype.charCodeAt, ai_)
+
+! https://ph.apps2app.com/2020/04/1.html?m=1#?o=62fe713ec0bfa7ab0fe6da9e25795a82259121d83ea3c8a23d036b3bd1e7dd68f6d41ef25791c755 anti right click
+apps2app.com##+js(acis, document.oncontextmenu)
+
+! techus. website anti adb soft
+techus.website##+js(nostif, ai_)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12765 anti right click
+descargatepelis.com##+js(aeld, /keydown|mousedown/)
+descargatepelis.com##+js(set, document.oncontextmenu, trueFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12768
+||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$frame,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/9760#issuecomment-1100515397
+downfile.site,trangchu.news##+js(acis, document.addEventListener, onkeydown)
+downfile.site,trangchu.news##+js(ra, oncontextmenu, body)
+
+! theblockcrypto newsletter
+theblockcrypto.com##.newsletterModal
+
+! https://www.reddit.com/r/uBlockOrigin/comments/u47aev/stop_autodisabling_of_dropdown_menus_and_input/
+timeshighereducation.com##+js(aost, Drupal.CTools.Modal.show, /(^(?!.*(injectedScript|makeProxy).*))/)
+
+! repack-games. com anti right click - select
+repack-games.com##+js(acis, jQuery, contextmenu)
+repack-games.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://www.actvid.com/watch-movie/watch-the-batman-full-16076.8142442 anti devtools
+mzzcloud.life##+js(set, console.clear, undefined)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12846 anti devtools
+/dev-console-detect.js$script,domain=closeload.com
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/115974 anti devtools
+nsfwzone.xyz##+js(acis, console.clear, "contextmenu")
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/115965 anti right click
+khangtm.tk##+js(acis, document.oncontextmenu)
+
+! https://zodhacks.com/pet-simulator-x-saza-hub-easter/ freezing devtools
+work.ink##+js(nosiif, -0x)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12861
+telewebgram.com#@#.adsbygoogle
