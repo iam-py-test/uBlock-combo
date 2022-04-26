@@ -33260,8 +33260,8 @@ descargatepelis.com##+js(set, document.oncontextmenu, trueFunc)
 ||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$frame,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9760#issuecomment-1100515397
-downfile.site,trangchu.news##+js(acis, document.addEventListener, onkeydown)
-downfile.site,trangchu.news##+js(ra, oncontextmenu, body)
+downfile.site,memangbau.com,trangchu.news##+js(acis, document.addEventListener, onkeydown)
+downfile.site,memangbau.com,trangchu.news##+js(ra, oncontextmenu, body)
 
 ! theblockcrypto newsletter
 theblockcrypto.com##.newsletterModal
@@ -33308,3 +33308,13 @@ lxhentai.com##+js(acis, document.addEventListener, contextmenu)
 
 ! https://thememypc.net/macos-transformation-pack/ anti right click
 thememypc.net##+js(ra, oncontextmenu, a#download_link, stay)
+
+! https://tecmundo.net/verify/?HUuun2= anti right click
+tecmundo.net##+js(aopr, alert)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/116504
+rawneix.in##+js(acis, disableEnterKey)
+rawneix.in##+js(acis, document.ondragstart)
+rawneix.in##+js(acis, document.getElementsByTagName, 'unselectable')
+rawneix.in##body:style(cursor: auto !important)
+rawneix.in##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
