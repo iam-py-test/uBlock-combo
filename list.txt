@@ -33347,3 +33347,17 @@ pvstreams.com##*:style(-webkit-touch-callout: default !important; -webkit-user-s
 chronicle.com##.ArticleFullBleedLeadPage-summary
 chronicle.com##.ArticlePage-summary
 chronicle.com##[data-content-body]:style(height:initial!important;visibility:initial!important;overflow:initial!important;opacity:initial!important)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12986
+ggwash.org##+js(set, Object.prototype.bgOverlay, noopFunc)
+ggwash.org##+js(set, Object.prototype.fixedContentPos, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12989
+news.ntv.co.jp##+js(set, document.oncontextmenu, trueFunc)
+www.ntv.co.jp##+js(aeld, contextmenu, preventDefault)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12991
+umk.co.jp##+js(ra, oncontextmenu, body)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12992
+bpcj.or.jp##+js(acis, document.oncontextmenu)
