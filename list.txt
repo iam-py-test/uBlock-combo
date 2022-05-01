@@ -7484,8 +7484,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 4/30/2022
-! Version: 4302022-2
+! Last updated: 5/1/2022
+! Version: 512022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22736,6 +22736,22 @@ expmediadirect1.com
 ||groups.google.com/g/discord-nitro-hack-generator-no-survey-or-verification^$document
 ||groups.google.com/g/discord-nitro-hack-generator-no-survey-or-verification?msclkid=316e2fa7c87e11ec972f52d4d5e431fd^$document
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/115955
+||family24rx.com^$all
+||37.187.88.137^$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/115960
+||onpharmvermen.com^$all
+! https://github.com/AdguardTeam/AdguardFilters/issues/115959
+||classpharmenado.com^$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/115958
+||sale24-pills.com^$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/115957
+||helppharmlead.com^$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/115954
+||everypdnsharmacy.com^$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/115953
+||happypharmproduct.com^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23568,7 +23584,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29April2022v1
+! Version: 01May2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24001,6 +24017,8 @@ $removeparam=at_gd
 
 ! https://www.gamerevolution.com/guides/685650-windows-11-tpm-2-0-pc-cant-run-install?amp, https://www.independent.co.uk/sport/scotland-france-antoine-dupont-grand-slam-finn-russell-b2024042.html?amp, pcmag.com, theathletic.com (No one on fast networks really likes AMP, least of all uBlock Origin + 'Firefox for Android' users; 25/06/2021)
 $removeparam=/^amp$/
+! https://www.tokopedia.com/legoclassic/my-little-pony-a-new-generation-crystal-princess-petals-figure-set?src=topads&xClientId=amp-IWyM3dL4bS8QlacnZO4hyg&cid=amp-IWyM3dL4bS8QlacnZO4hyg&amp=true
+$removeparam=/^amp=true$/
 
 ! https://inews.co.uk/opinion/matt-hancock-health-bill-huge-row-no10-boris-johnson-1067703?_gl=1*1l47swq*_ga*OUp3WnF6dklkRHNVaHBfaDJmUnFHSkR5VFBtMzV5enpSWk1XUENzWlNENGg2VmdQZHZoRVFfV3BmNXV2ZjREYQ
 $removeparam=_gl
@@ -24915,7 +24933,7 @@ $removeparam=rpcid
 ! ——— Specific remove rules ——— !
 !! ——— Can never be made generic ———
 ! (e.g. due to sparebank1.no, RARbg.to, Disney+ newsletter unsubscriptions)
-$removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|elmundo.es|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|marca.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
+$removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|elmundo.es|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|marca.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tokopedia.com|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
@@ -24925,7 +24943,7 @@ $removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|albiononline
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com
 ! https://addons.thunderbird.net/en-GB/thunderbird/addon/mailbox-alert/?src=cb-dl-users
 ! https://twitter.com/hashtag/mlpg5?src=hashtag_click (23/04/2021)
-$removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|newbalance.com|nexo.io|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
+$removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|newbalance.com|nexo.io|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 ! No particular example
 ! https://github.com/DandelionSprout/adfilt/pull/474
 ! https://user.qzone.qq.com/1250252459?source=aiostar (01/02/2022)
@@ -26920,6 +26938,9 @@ $removeparam=rfrr,domain=ebookers.*
 
 ! https://gitlab.com/ClearURLs/rules/-/issues/222
 $removeparam=fbid,domain=festo-didactic.com
+
+! https://www.tokopedia.com/legoclassic/my-little-pony-a-new-generation-crystal-princess-petals-figure-set?src=topads&xClientId=amp-IWyM3dL4bS8QlacnZO4hyg&cid=amp-IWyM3dL4bS8QlacnZO4hyg&amp=true
+||tokopedia.com^$removeparam=xClientId
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -30914,10 +30935,6 @@ clipartmax.com##+js(aopw, document.oncontextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/7867
 anauk.net##+js(ra, oncontextmenu|onselectstart|onselect|ondragstart|ondrag, body)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/63020
-miniroyale2.io##+js(nofab)
-miniroyale2.io###miniroyale2-io_728x90
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7871
 memorialrecord.jp##+js(aopw, document.oncontextmenu)
 memorialrecord.jp##+js(aopw, document.onselectstart)
@@ -33388,3 +33405,7 @@ videovard.*##+js(set, console.clear, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13037
 @@||ruyamanga.com^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/pull/13040
+gmarket.co.kr##+js(set, document.oncontextmenu, noopFunc)
+gmarket.co.kr##+js(set, document.onmousedown, noopFunc)
