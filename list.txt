@@ -23584,7 +23584,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 01May2022v1
+! Version: 02May2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23998,7 +23998,7 @@ $removeparam=refer_code
 $removeparam=AFID,domain=~chggtrx.com|~state.gov
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1412160
-$removeparam=loc,domain=~geizhals.*|~ebay.*|~myanimelist.net
+$removeparam=loc,domain=~geizhals.*|~ebay.*|~myanimelist.net|~microsoft.com
 $removeparam=acampID
 $removeparam=pj_creativeid
 $removeparam=pj_publisherid
@@ -32201,7 +32201,7 @@ televisiongratishd.com##+js(set, document.onkeydown, null)
 televisiongratishd.com##+js(set, document.onkeypress, null)
 
 ! renditepassive. net anti right click / select / drag
-renditepassive.net##+js(acis, disableSelection, reEnable)
+renditepassive.net##+js(set, disableEnterKey, noopFunc)
 renditepassive.net##+js(acis, document.ondragstart)
 
 ! onlinecoursebay. com anti right click / select / f keys
@@ -33054,6 +33054,8 @@ visefierbinti.ro##style:has-text(@media print):remove()
 ! https://github.com/uBlockOrigin/uAssets/issues/3068
 pornhub.*##+js(rc, hasAdAlert, header)
 pornhub.*###js-abContainterMain
+! interstitial page
+pornhub.*##+js(cookie-remover, views)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11762
 grandoldteam.com##+js(acis, $, test)
@@ -33409,3 +33411,6 @@ videovard.*##+js(set, console.clear, undefined)
 ! https://github.com/uBlockOrigin/uAssets/pull/13040
 gmarket.co.kr##+js(set, document.oncontextmenu, noopFunc)
 gmarket.co.kr##+js(set, document.onmousedown, noopFunc)
+
+! https://digital.elmercurio.com/2022/05/02/A/SN44A2B9 private mode detection
+||digital.elmercurio.com/assets/js/detectPrivateMode.js$script,1p
