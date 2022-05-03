@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 29April2022v1
+! Version: 03May2022v2
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2084,7 +2084,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||www.upload-4ever.com^$doc
 ||upload-4ever.com^$doc
 ||worldcoolfeed.com^$all
-! Fake discord nitro 
+! Fake Discord Nitro 
 ||myget.org/feed/discord-nitro-hack/package/nuget/Free-discord-nitro-codes-2021^$doc
 ||lucymods.com^$all
 ||gluegames.xyz^$all
@@ -2127,6 +2127,9 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||198.199.120.251^$all
 ||mediafire.com/file/8h91fn11fa1dacu/Latest_Setup_active.rar/file^$all
 ||download2325.mediafire.com/pmth9b9cwtkg/8h91fn11fa1dacu/Latest_Setup_active.rar^$all
+! https://www.telia.no/kundeservice/mobil/malware-flubot-android/
+!+ NOT_OPTIMIZED
+/^https?://(www\.)?[a-z0-9-]{1,}\.[a-z]{2,17}/[a-z0-9]/\?[a-z0-9.-]{8,}$/$doc
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -23584,7 +23587,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 02May2022v1
+! Version: 03May2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23998,7 +24001,7 @@ $removeparam=refer_code
 $removeparam=AFID,domain=~chggtrx.com|~state.gov
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1412160
-$removeparam=loc,domain=~geizhals.*|~ebay.*|~myanimelist.net|~microsoft.com
+$removeparam=loc,domain=~geizhals.*|~ebay.*|~myanimelist.net|~microsoft.com|~liveperson.net
 $removeparam=acampID
 $removeparam=pj_creativeid
 $removeparam=pj_publisherid
@@ -25409,7 +25412,7 @@ $removeparam=aff_click_id
 ! https://baike.baidu.com/tashuo/browse/content?id=90920d34ee1ab7d8f0531794&lemmaId=554903&fromLemmaModule=pcBottom&lemmaTitle=%E8%96%9B%E5%AE%9A%E8%B0%94%E7%9A%84%E7%8C%AB (18/11/2021)
 ||baike.baidu.com^$removeparam=fromLemmaModule
 ||baike.baidu.com/tashuo/browse/content?$removeparam=lemmaId
-||baike.baidu.com^$removeparam=lemmaTitle
+||baike.baidu.com/tashuo/browse/content?$removeparam=lemmaTitle
 ! https://baike.baidu.com/tashuo/browse/content?id=84d19be0ff2608324a4bdf94&fromModule=pcArticleMoreRecommend (18/11/2021)
 ||baike.baidu.com^$removeparam=fromModule
 ! https://github.com/DandelionSprout/adfilt/pull/364
@@ -32638,6 +32641,9 @@ blog.csdn.net##.hljs-button.signin
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10039
 cda-hd.cc,hqq.to##+js(set, document.oncontextmenu, null)
+hqq.to##+js(set, document.onkeydown, trueFunc)
+hqq.to##+js(nostif, debugger)
+hqq.to##+js(set, console.clear, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10040
 blogpascher.com##.CampaignFullscreen__bravoLayer
@@ -33419,3 +33425,9 @@ gmarket.co.kr##+js(set, document.onmousedown, noopFunc)
 
 ! https://digital.elmercurio.com/2022/05/02/A/SN44A2B9 private mode detection
 ||digital.elmercurio.com/assets/js/detectPrivateMode.js$script,1p
+
+! https://www.thetodaypost.com/365-days-2020-hindi-dubbed/ anti right click + dev tools
+thetodaypost.com##+js(set, document.oncontextmenu, trueFunc)
+thetodaypost.com##+js(set, document.onkeydown, trueFunc)
+thetodaypost.com##+js(set, document.onselectstart, trueFunc)
+dlmovies.link##+js(acis, console.clear, contextmenu)
