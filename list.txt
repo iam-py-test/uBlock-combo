@@ -7487,8 +7487,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/1/2022
-! Version: 512022-1
+! Last updated: 5/3/2022
+! Version: 532022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21081,6 +21081,9 @@ expmediadirect1.com
 ||mega.nz/file/hmJxDS7a#uAzFyACvLJ0nhPdIq0yJ9WJ7jpD4lQiDBfOV68cVc7U^$all
 ||mega.nz/file/hmJxDS7a^$all
 
+! https://forums.malwarebytes.com/topic/286125-riskware-when-doing-a-google-search/
+||flydogy.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23587,7 +23590,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 03May2022v1
+! Version: 04May2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24083,7 +24086,7 @@ $removeparam=affname
 $removeparam=MID
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
+$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
@@ -24950,7 +24953,7 @@ $removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|br
 ! No particular example
 ! https://github.com/DandelionSprout/adfilt/pull/474
 ! https://user.qzone.qq.com/1250252459?source=aiostar (01/02/2022)
-$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|sonos.com|spiceworks.com|squarespace.com|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
+$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|sonos.com|spiceworks.com|squarespace.com|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
@@ -25614,7 +25617,7 @@ $removeparam=p,domain=banggood.com|sogou.com
 $removeparam=linkId,domain=amazon.*|disneyplus.com
 $removeparam=trkid,domain=netflix.com|tokopedia.com
 ! (Exceptions: Discord's app download buttons)
-$removeparam=channel,domain=rei.com|squarespace.com|privateinternetaccess.com|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io
+$removeparam=channel,domain=rei.com|squarespace.com|privateinternetaccess.com|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io|reddit.app.link
 $removeparam=fr,domain=baidu.com|thegay.com
 $removeparam=promo,domain=thegay.com|hammacher.com
 $removeparam=sref,domain=bloomberg.com|go.skimresources.com|go.skimlinks.com|go.redirectingat.com
@@ -25726,7 +25729,9 @@ $removeparam=hpt,domain=cnn.com
 
 ! https://www.tv2.no/?r=refresh (16/12/2020)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-987226
-$~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1914216
+$~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com
 
 ! https://no.pinterest.com/pin/371476669268114259/?d=t&mt=signupOrPersonalizedLogin (21/03/2021)
 ||pinterest.*mt=signup$removeparam=d
@@ -25860,7 +25865,6 @@ $removeparam=tracker,domain=dustdeal.nl|batteryupgrade.*
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 ||simplelogin.io^$removeparam=slref
-||ledger.$removeparam=r
 ||roboform.com^$removeparam=rec
 
 ! https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTQ_thTIPr-4kGYMHEyfPeD9YN_0fwvx4-fQ&usqp=CAU
@@ -26374,7 +26378,8 @@ $removeparam=marketing_id
 $removeparam=s,domain=spreadprivacy.com|youku.com|greenhouse.io
 
 ! https://twitter.com/chrissteinplays/status/1461003062936547331?t=CXBXxSiUKI8wPAkoGMH7zg
-$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2580104
+$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
 
 ! https://market.yandex.ru/promo/hasbro_special?clid=602&cpa-perf=1#c
 ||yandex.$removeparam=clid
@@ -26645,7 +26650,6 @@ $removeparam=loid,domain=reddit.app.link
 $removeparam=loid_created,domain=reddit.app.link
 $removeparam=reddaid,domain=reddit.app.link
 $removeparam=campaign,domain=reddit.app.link
-$removeparam=channel,domain=reddit.app.link
 $removeparam=feature,domain=reddit.app.link|youtube.com
 $removeparam=keyword,domain=reddit.app.link
 $removeparam=mweb_subreddit_ids,domain=reddit.app.link
@@ -26674,9 +26678,6 @@ $removeparam=breadcrumb,domain=shopbop.com
 
 ! https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-1476216186%3A1641712437682727&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp (09/01/2022)
 ||accounts.google.com^$removeparam=dsh
-
-! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1914216
-$removeparam=r,domain=mrgay.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1935694
 ! https://go.skimresources.com/?id=76112X1604401&xs=1&xcreo=500004&url=https://www.matchesfashion.com/us/products/Raf-Simons-Children-of-the-Revolution-roll-neck-jersey-top-1414525&xed=1&xcust=julydigitalcover
@@ -26765,7 +26766,6 @@ $removeparam=clickPR,domain=argos.co.uk
 ||buzzfeednews.com^$removeparam=d_id
 
 ! https://blog.getadblock.com/getting-started-with-the-adblock-extension-2219b3c7878c?gi=285fe5d9ab7d
-||blog.getadblock.com^$removeparam=source
 ||blog.getadblock.com^$removeparam=gi
 
 ! https://www.pinkbike.com/news/all-the-winners-of-the-2021-pinkbike-advent-calendar.html?pbref=p
@@ -26899,7 +26899,6 @@ $removeparam=response_type,domain=udemy.com
 ||lookmovie211.xyz^$removeparam=mid
 ||lookmovie211.xyz^$removeparam=sid
 ||lookmovie211.xyz^$removeparam=sec
-||lookmovie211.xyz^$removeparam=t
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2581603
 ||nortonsafe.search.ask.com^$removeparam=installsource
@@ -26944,6 +26943,9 @@ $removeparam=fbid,domain=festo-didactic.com
 
 ! https://www.tokopedia.com/legoclassic/my-little-pony-a-new-generation-crystal-princess-petals-figure-set?src=topads&xClientId=amp-IWyM3dL4bS8QlacnZO4hyg&cid=amp-IWyM3dL4bS8QlacnZO4hyg&amp=true
 ||tokopedia.com^$removeparam=xClientId
+
+! https://ekstrabladet.dk/?ilc=c
+||ekstrabladet.dk^$removeparam=ilc
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -27495,6 +27497,8 @@ omr.com##body:style(overflow: auto !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3553
 indiatimes.com##+js(aeld, copy)
+! https://github.com/uBlockOrigin/uAssets/issues/4151#issuecomment-1116715077
+economictimes.indiatimes.com##+js(aeld, mouseout)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/911#issuecomment-423771909
 ||adsrt.com/assets/js/particles.min.js$script
@@ -33431,3 +33435,13 @@ thetodaypost.com##+js(set, document.oncontextmenu, trueFunc)
 thetodaypost.com##+js(set, document.onkeydown, trueFunc)
 thetodaypost.com##+js(set, document.onselectstart, trueFunc)
 dlmovies.link##+js(acis, console.clear, contextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/13066
+celtadigital.com##+js(aeld, contextmenu)
+celtadigital.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://ask4movie.me/sonic-the-hedgehog-2-2022/ anti right click + devtools
+ask4movie.*##+js(ra, oncontextmenu, html)
+ask4movie.*##+js(set, console.dir, noopFunc)
+ask4movie.*##+js(set, navigator.userAgent, '')
+cinegrabber.com##+js(set, devtoolIsOpening, noopFunc)
