@@ -7510,8 +7510,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/5/2022
-! Version: 552022-1
+! Last updated: 7/5/2022
+! Version: 752022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -22739,7 +22739,7 @@ expmediadirect1.com
 ||disq.us/p/2o9pztr^$document
 ||disq.us/p/2o9qqsl^$document
 ||disq.us/p/2o9pmyi^$document
-||fast-date.site^$document
+||fast-date.site^$all
 ||2horney-girls.life^$document
 ||localdates16s.com^$document
 ||popupchat-live.com^$document
@@ -23300,6 +23300,14 @@ expmediadirect1.com
 ! "free registry cleaner"
 ||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
 
+! adware downloader - https://app.any.run/tasks/d1918395-7080-4292-9a71-1059bc7a90cf
+||sway.office.com/flj90JK1oswcTJEO^$document
+||certatd.ru^$all
+||ticmayhongfartei.ga^$all
+||oxanas.ml^$all
+! https://www.virustotal.com/gui/url/889d00904cb6a9fa09248bab674f8d908ad0f165df96a41f58cd91f40c8017d7?nocache=1
+||souffcomo.gq^$document
+
 ! ----- Spam -----
 
 ! https://forums.malwarebytes.com/topic/281397-how-to-update-my-adwcleaner/
@@ -23323,6 +23331,11 @@ expmediadirect1.com
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1029244954
 ||quickdates1.com^$document
 ||lovesingle.xyz^$document
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1120210042
+||super-dating.life^$all
+||www.fuckbookmobile.com^$document
+||fuckbookmobile.com^$document
 
 ! ----- Cryptominers -----
 
@@ -33504,3 +33517,7 @@ dubznetwork.com##+js(acis, jQuery, keydown)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117803 clear console
 justswallows.net##+js(set, console.clear, undefined)
+
+! light.gg soft anti-adb
+light.gg##.items-right-square
+light.gg##.remove-turtles
