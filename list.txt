@@ -7507,8 +7507,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 18/5/2022
-! Version: 1852022-1
+! Last updated: 19/5/2022
+! Version: 1952022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -21159,6 +21159,14 @@ expmediadirect1.com
 ||rickmemeoapz.firebaseapp.com/bnmyssrthsdvzxv/themes/imgs/microsoft_logo.svg^$all
 ||etools.page^$document
 
+! https://bazaar.abuse.ch/sample/17f5cb1dba8dd540465e9135d6541f2a7f871caee59c8afc63cf17e820c0f22f/
+||gdyhjjdhbvxgsfe.gotdns.ch^$all
+||2.58.149.219^$all
+! https://www.virustotal.com/gui/domain/gotdns.ch/relations
+||macusecureaccess.gotdns.ch^$document
+||macuaccr.gotdns.ch^$document
+||securauth.gotdns.ch^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22854,6 +22862,9 @@ expmediadirect1.com
 ||pushnow.net^$document
 ||drakefollow.com^$all
 
+! https://www.virustotal.com/gui/url/9dfce1c855c4ad3bfc6b95ec8ec80090b7eecd1cc93eab1f39e456e9cdec4496/community
+||ethereum-tesla.net^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23703,7 +23714,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 19May2022v2
+! Version: 19May2022v3
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23915,7 +23926,7 @@ $removeparam=curator_clanid
 $removeparam=snr,domain=~thalmaier.de
 
 ! https://www.trouw.nl/nieuws/het-draagvlak-in-crisistijd-doet-premier-rutte-bijna-zweven-maar-hij-kan-ook-hard-vallen~bf367a86/?referrer=https%3A%2F%2Fwww.theguardian.com%2Fworld%2Fcommentisfree%2F2021%2Fmar%2F04%2Fcovid-derailed-great-hope-dutch-far-right-thierry-baudet (05/03/2021)
-$removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com
+$removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*
 $removeparam=ext_source
 
 ! https://graphicriver.net/item/invoice-estimation-brief/20668760?iradid=275988&irpid=1288974&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1 (17/03/2021)
@@ -32762,7 +32773,10 @@ ijr.com##+js(acis, document.createElement, admiral)
 *$image,redirect-rule=1x1.gif,domain=guardian.gg
 
 ! https://github.com/uBlockOrigin/uAssets/pull/9925
+! https://github.com/uBlockOrigin/uAssets/issues/13297
 outlook.live.com##div[class][tabindex="-1"][role=region][aria-label][data-min-width][data-max-width] ~ div[class][data-max-width="2400"] + div[class]
+outlook.live.com###MainModule + div[class] > div[style^="width"] > div > i[data-icon-name="OutlookLogo"]:upward(3)
+outlook.live.com###MainModule div[data-max-width="2400"] + div[class]
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/pjhnuc/site_crippling_basic_browser_functions/
 naaree.com##+js(aopw, disableEnterKey)
