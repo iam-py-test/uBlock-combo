@@ -23714,7 +23714,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 20May2022v1
+! Version: 22May2022v4
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25296,6 +25296,11 @@ $removeparam=rpp_cid
 ||ebay.*$removeparam=bu
 ||ebay.*$removeparam=crd
 ||ebay.*$removeparam=sojTags
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2727233
+||ebay.$removeparam=ch
+||ebay.$removeparam=ut
+||ebay.$removeparam=osub
+||ebay.$removeparam=segname
 
 !!! ——— Facebook ———
 ! https://gitlab.com/KevinRoebert/ClearUrls/-/issues/157
@@ -25742,7 +25747,7 @@ $removeparam=report_recomm_player
 $removeparam=app,domain=tiktok.com|music.apple.*
 ! (Do not add to the below entry: play.google.com; see https://github.com/DandelionSprout/adfilt/issues/475)
 $removeparam=c,domain=tiktok.com|norton.com|farfetch.com|hepsiburada.com|appsflyer.com|onelink.me|shopee.*
-$removeparam=campaign,domain=blue-tomato.com|sitepoint.com|sportler.com|peterhahn.*|outnorth.fi|shopee.*|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|discord.*|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io|scmp.com
+$removeparam=campaign,domain=blue-tomato.com|sitepoint.com|sportler.com|peterhahn.*|outnorth.fi|shopee.*|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|discord.*|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io|scmp.com|bdsmx.tube
 $removeparam=/^pf_rd_/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
 $removeparam=Source,domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com|evga.com
 $removeparam=version,domain=mp.weixin.qq.com|us.norton.com
@@ -26513,6 +26518,8 @@ $removeparam=s,domain=spreadprivacy.com|youku.com|greenhouse.io
 ! https://twitter.com/chrissteinplays/status/1461003062936547331?t=CXBXxSiUKI8wPAkoGMH7zg
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2580104
 $removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2798305
+@@||duckduckgo.com/tty^$removeparam=t
 
 ! https://market.yandex.ru/promo/hasbro_special?clid=602&cpa-perf=1#c
 ||yandex.$removeparam=clid
@@ -27128,6 +27135,14 @@ $removeparam=ch,domain=studio.co.uk
 ||techcrunch.com^$removeparam=guce_referrer
 ||techcrunch.com^$removeparam=guce_referrer_sig
 ||techcrunch.com^$removeparam=guccounter
+
+! https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html?instance_id=61795&nl=zeynep-tufekci&regi_id=179812617&segment_id=92715&te=1&user_id=9a6c865300954a1dcdbb5f83549d656a
+||nytimes.com^$removeparam=instance_id
+||nytimes.com^$removeparam=nl
+||nytimes.com^$removeparam=regi_id
+||nytimes.com^$removeparam=segment_id
+||nytimes.com^$removeparam=te
+||nytimes.com^$removeparam=user_id
 
 !#if !env_mobile
 ! ——— Mobile ——— !
