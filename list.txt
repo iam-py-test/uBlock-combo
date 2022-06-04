@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 31May2022v2
+! Version: 04June2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -314,6 +314,7 @@ msn.com##.irisbanner
 ||soft-load.com^$doc
 ||getgamespc.com^$doc
 ||ps1games.online^$doc
+||roms-download.com^$doc
 coolrom.com.au,coolrom.com##.download_link
 
 ! ——— Entries from «abuse.ch ZeuS Blocklist», which was discontinued on the 8th of July 2019. ———
@@ -8524,6 +8525,12 @@ toorgle.net##.join
 ! Other
 ||foxsportnetwork.com^$all
 ||pksauniversity.com^$all
+||rmterlowst.com^$doc
+||sharedmega.com^$doc
+||dorderstar.xyz^$all
+||greaterfiledownload.com^$all
+||vlcmediadownload.com^$all
+||quiremuken.xyz^$all
 cdburnerxp.se##[href*="/downloadsetup.exe"]
 
 ! ——— Horrendously bad copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
@@ -32587,3 +32594,8 @@ asia2tv.cn##+js(aeld, contextmenu)
 
 ! vupload. com anti right click
 vupload.com##+js(aeld, contextmenu)
+
+! j-novel. club anti right click, select
+labs.j-novel.club##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+labs.j-novel.club##::selection:style(background: Highlight !important; color: HighlightText !important)
+labs.j-novel.club##+js(aeld, contextmenu)
