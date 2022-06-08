@@ -1991,7 +1991,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||discrode-app.com^$all
 ! https://scammer.info/t/1-month-nitro-for-free-take-it-scam/86166
 ||discrode-gifte.club^$all
-! fake MediaFire scam domains 
+! fake MediaFire scam domains
 ||overeverything.co^$doc
 ||wrappdt.cloudcircuit.co^$doc
 ||blacknumbers.co^$doc
@@ -2077,7 +2077,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||www.upload-4ever.com^$doc
 ||upload-4ever.com^$doc
 ||worldcoolfeed.com^$all
-! Fake Discord Nitro 
+! Fake Discord Nitro
 ||myget.org/feed/discord-nitro-hack/package/nuget/Free-discord-nitro-codes-2021^$doc
 ||lucymods.com^$all
 ||gluegames.xyz^$all
@@ -8671,8 +8671,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 7/6/2022
-! Version: 762022-2
+! Last updated: 8/6/2022
+! Version: 862022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -8700,7 +8700,7 @@ get.adobe.com###offersInformationPane
 ! Phishing identified by Google Safe Browsing
 ! https://www.virustotal.com/gui/url/ab4e55cf3a5a2c02b2e7c956fa692f06770c81cd02a4b7741793b9c4b73e7e88/detection
 ! https://www.virustotal.com/gui/domain/facebok.xyz/detection
-||facebok.xyz^$all
+||facebok.xyz^$document
 
 ! https://www.bleepingcomputer.com/news/security/fbi-spots-spear-phishing-posing-as-truist-bank-bank-to-deliver-malware/
 ! https://www.virustotal.com/gui/domain/secureportal.online/detection
@@ -19274,9 +19274,9 @@ doppk.com4all
 ||verify.stc.tools^$all
 ||1980s.click^$all
 ||0x41414141.net^$all
-
-! https://www.reddit.com/r/uBlockOrigin/comments/rwzdvk/ublock_is_blocking_the_livestream_as_well_as/
-||188.72.201.207^$all
+||yatsura.0x41414141.net^$all
+||chrome.google.com/webstore/detail/ultimate-ad-eraser/hkmfdialkjnljbcnincgpollobclebaf^$document
+||ultimate-eraser.com^$document
 
 ! https://www.virustotal.com/gui/url/747b8465c517261eb6c5bc1a6c4fa281dc309caecf4a283f9bfb4fe2ba795bd0
 ||mailsecure-helpdesk.azurefd.net^$all
@@ -19297,11 +19297,8 @@ doppk.com4all
 ! https://scammer.info/t/discord-nitro-scam-23/87273
 ||discqrdapp.com^$all
 
-! https://www.virustotal.com/gui/file/4cd2974db0f14230a40b59377b4831ce265681e15f927d77b4771649738a89e8/community
-||aggressivepvp.cf^$all
-
 ! VirusTotal typosquatt
-||virusttotal.com^$all
+||virusttotal.com^$document
 
 ! https://blog.malwarebytes.com/threat-intelligence/2022/01/patchwork-apt-caught-in-its-own-web/
 ||bgre.kozow.com^$all
@@ -19334,10 +19331,6 @@ doppk.com4all
 ||animalkingdompro.com^$all
 ||bitcoin-up.fomentomunivina.cl^$all
 ||cr.almalunatural.com^$all
-
-! https://www.virustotal.com/gui/file/72bee02689b41c5a5e2898068ab392122875618588c6cf064146cadd0aa7139e/community
-||www.back-control.de^$all
-||back-control.de^$document
 
 ! https://github.com/blocklistproject/Lists/issues/623
 ||bookitlab.tech^$all
@@ -21141,6 +21134,7 @@ doppk.com4all
 ||windows-secureit.com^$all
 
 ! fake game cheat download buttons redirecting to "press allow to continue" and Norton
+! also https://forums.malwarebytes.com/topic/287349-my-google-browser-could-be-infected-need-help-removing-it/
 ||anonmods.com^$all
 ||freychang.fun^$all
 
@@ -21746,6 +21740,9 @@ doppk.com4all
 ||uprimp.com^$document
 ||odaba.live^$all
 ||us.r-q.media^$document
+
+! https://www.youtube.com/watch?v=se4HVtBN3bM
+||postoffice-depot38.com^$document
 
 ! ----- PUPs -----
 
@@ -22644,14 +22641,14 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 01June2022v2
+! Version: 08June2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
 ! Homepage for the repository: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Opt-in allowlist for affiliate support tags: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
 ! Special thanks to https://github.com/git-101-collab for providing a 3-digit amount of new entries to this list, and to https://github.com/iam-py-test for volunteering to speed up the addition of user-submitted entries.
-! Important notes: 
+! Important notes:
 ! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view parameters on the strict-block page or tools to bypass it.
 ! - this list can not remove anything after the # in URLs. This is impossible in uBlock Origin and AdGuard.
 ! - this list can not remove parameters added using https://developer.mozilla.org/en-US/docs/Web/API/History/replaceState
@@ -23923,7 +23920,7 @@ $removeparam=/^target=admitad$/
 ! https://www.inredningsvaruhuset.se/ios/63223-apple-iphone-13-128gb-midnight-0194252707203.html?referer=prisjakt
 $removeparam=/^referer=prisjakt/i
 
-! https://digicom.nu/sv/produkter/xiaomi-box-s-4k-hdr.html?ref_lp=prisjakt 
+! https://digicom.nu/sv/produkter/xiaomi-box-s-4k-hdr.html?ref_lp=prisjakt
 $removeparam=ref_lp
 
 ! https://www.wsj.com/articles/what-the-metaverse-has-to-do-with-microsofts-deal-for-activision-11642674603?cx_testId=3&cx_testVariant=cx_2&cx_artPos=5#cxrecs_s
@@ -23992,6 +23989,9 @@ $removeparam=/^amp;utm_/
 
 ! https://www.gigantti.fi/product/tietokoneet-ja-toimistotarvikkeet/naytot-ja-tarvikkeet/naytot/msi-optix-g271-27-pelinaytto/357445?sap-outbound-id=FDF2695F7CA22FD871A6CCE768E64005CDAE4D30
 $removeparam=sap-outbound-id
+
+! https://www.canva.com/design/play?locale=en&analyticsCorrelationId=8681c886-a258-4cf6-9de4-b3d86c2781ab
+$removeparam=analyticsCorrelationId
 
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
@@ -25904,7 +25904,7 @@ $removeparam=mwv_rm,domain=dailymail.co.uk|thisismoney.co.uk
 $removeparam=mrn_rm,domain=dailymail.co.uk|thisismoney.co.uk
 
 ! https://www.comodo.com/home/browsers-toolbars/browser.php?track=14596&af=14596
-||comodo.com^$removeparam=track 
+||comodo.com^$removeparam=track
 ||comodo.com^$removeparam=af
 
 ! https://fortune.com/2021/03/11/amazon-fresh-retail-stores-vacant-plan/?queryly=related_article
@@ -26130,7 +26130,7 @@ actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuut
 ! Temp fix for Bing - https://github.com/DandelionSprout/adfilt/issues/508
 @@||bing.*/ws/redirect/$removeparam
 
-! Fix the video player 'Invalid signature' - https://www.fox.com/watch/ffae8bb93256fb0d0b3a4b30f00e0ada/ 
+! Fix the video player 'Invalid signature' - https://www.fox.com/watch/ffae8bb93256fb0d0b3a4b30f00e0ada/
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
 
 !#if adguard
