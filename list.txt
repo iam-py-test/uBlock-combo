@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 04June2022v1
+! Version: 08June2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -719,6 +719,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||xystoiwkly.cam^$all
 ||yuechioman.cam^$all
 ||zincidcough.cam^$all
+||adblockerapp.com^$doc,popup
 ||172.255.6.107^$all
 ||172.255.6.147^$all
 ||172.255.6.219^$all
@@ -8671,7 +8672,7 @@ get.adobe.com###offersInformationPane
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 7/6/2022
-! Version: 762022-1
+! Version: 762022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Long Description: This list aims to protect against malware, phishing, and scams by blocklisting websites which are known to be malicious, and also provides one extra level of protection by protecting against hacked sites, removing known scams and PUPs from websites, blocking YouTube spam, preventing (some) unauthorized resource abuse, and warning about deceptive joke programs.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
@@ -19952,6 +19953,42 @@ doppk.com4all
 ||textbin.net/raw/2tgh7yhhzs^$all
 ||rick63.publicvm.com^$all
 
+! https://twitter.com/Artilllerie/status/1534076124829036544
+||bbleepingcomputer.com^$document
+||bleepingc0mputer.com^$document
+||bleepingccomputer.com^$document
+||bleepingcimputer.com^$document
+||bleepingcmoputer.com^$document
+||bleepingcmputer.com^$document
+||bleepingcommputer.com^$document
+||bleepingcomouter.com^$document
+||bleepingcompiter.com^$document
+||bleepingcompouter.com^$document
+||bleepingcompputer.com^$document
+||bleepingcomptuer.com^$document
+||bleepingcompurer.com^$document
+||bleepingcomputee.com^$document
+||bleepingcomputeer.com^$document
+||bleepingcomputerr.com^$document
+||bleepingcomputet.com^$document
+||bleepingcomputor.com^$document
+||bleepingcomputre.com^$document
+||bleepingcomputrr.com^$document
+||bleepingcomputter.com^$document
+||bleepingcomputwr.com^$document
+||bleepingcompuuter.com^$document
+||bleepingcompuyer.com^$document
+||bleepingcompyter.com^$document
+||bleepingcomupter.com^$document
+||bleepingconputer.com^$document
+||bleepingcoomputer.com^$document
+||bleepingcopmuter.com^$document
+||bleepingcoputer.com^$document
+||bleepingcpmputer.com^$document
+||bleepingocmputer.com^$document
+||bleepingvomputer.com^$document
+||bleepingxomputer.com^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22310,7 +22347,7 @@ doppk.com4all
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 11/1/2021
+! Last updated: 7/6/2022
 
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
@@ -22567,6 +22604,43 @@ cioubfiare.com$document
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
 cdn.cookieslaw.org$all
 cookieslaw.org$doc
+
+! https://twitter.com/Artilllerie/status/1534076124829036544
+||bbleepingcomputer.com^$document
+||bleepingc0mputer.com^$document
+||bleepingccomputer.com^$document
+||bleepingcimputer.com^$document
+||bleepingcmoputer.com^$document
+||bleepingcmputer.com^$document
+||bleepingcommputer.com^$document
+||bleepingcomouter.com^$document
+||bleepingcompiter.com^$document
+||bleepingcompouter.com^$document
+||bleepingcompputer.com^$document
+||bleepingcomptuer.com^$document
+||bleepingcompurer.com^$document
+||bleepingcomputee.com^$document
+||bleepingcomputeer.com^$document
+||bleepingcomputerr.com^$document
+||bleepingcomputet.com^$document
+||bleepingcomputor.com^$document
+||bleepingcomputre.com^$document
+||bleepingcomputrr.com^$document
+||bleepingcomputter.com^$document
+||bleepingcomputwr.com^$document
+||bleepingcompuuter.com^$document
+||bleepingcompuyer.com^$document
+||bleepingcompyter.com^$document
+||bleepingcomupter.com^$document
+||bleepingconputer.com^$document
+||bleepingcoomputer.com^$document
+||bleepingcopmuter.com^$document
+||bleepingcoputer.com^$document
+||bleepingcpmputer.com^$document
+||bleepingocmputer.com^$document
+||bleepingvomputer.com^$document
+||bleepingxomputer.com^$document
+
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
