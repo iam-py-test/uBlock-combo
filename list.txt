@@ -22816,7 +22816,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 11June2022v1
+! Version: 14June2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24742,6 +24742,8 @@ $removeparam=aff_click_id
 ||b23.tv^$removeparam=/^share_/
 ||b23.tv^$removeparam=bbid
 ||b23.tv^$removeparam=ts
+! https://www.bilibili.com/video/BV1DY4y1G7tc?vd_source=33a986dae9358e2f068c82adcd1688e4 (13/06/2022)
+||bilibili.com^$removeparam=vd_source
 
 !!!! ——— iQIYI ———
 ! https://github.com/DandelionSprout/adfilt/pull/390
@@ -24891,8 +24893,8 @@ $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|a
 $removeparam=epi2,domain=tradedoubler.com
 
 ! https://www.hs.fi/talous/art-2000006474289.html?share=095cb51bfd3619323ff183dd633ae8ab
-! https://www.quora.com/What-are-some-of-the-greatest-tennis-matches-ever-played?share=1
-$removeparam=share,domain=hs.fi|oerproject.com|quora.com
+! https://www.quora.com/What-are-some-of-the-greatest-tennis-matches-ever-played?share=1 --> https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2943328
+$removeparam=share,domain=hs.fi|oerproject.com
 
 ! https://www.loistoristeilyt.fi/?agency=napsu
 $removeparam=agency,domain=loistoristeilyt.fi
@@ -26273,6 +26275,9 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ! ——— Scriptlets ———
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1352038
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
+
+! https://buffalonews.com/news/#tracking-source=main-nav
+buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 
 ! ——— Allowlist ——— !
 ! https://github.com/DandelionSprout/adfilt/commit/6dd010c70438a84cae7cf6b683d0d99dc56794ad
@@ -32884,3 +32889,7 @@ lightnovelpub.com##*:style(-webkit-touch-callout: default !important; -webkit-us
 
 ! viafarmaciaonline. it anti right click
 viafarmaciaonline.it##+js(aopr, document.oncontextmenu)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/vc2zuj/kindle_copy_paste_restriction/
+read.amazon.com##+js(aeld, contextmenu)
+read.amazon.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
