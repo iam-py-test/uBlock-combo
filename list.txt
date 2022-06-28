@@ -20370,6 +20370,9 @@ doppk.com4all
 ||importadoracandy.com^$all
 ||xfilesreborn.ru^$all
 
+! https://twitter.com/malwrhunterteam/status/1541694571461201928
+||online-basvuru-yap.app^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23070,7 +23073,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 21June2022v1
+! Version: 28June2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24486,7 +24489,7 @@ $~xmlhttprequest,removeparam=qid,domain=~ebay.*|~zhidao.baidu.com|~tastedive.com
 ||amazon.$removeparam=creative
 $removeparam=creativeASIN
 ! https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-max-instance-lifetime.html?sc_icampaign=Adoption_Campaign_pac-optimize-2020-console-1-asg-max&sc_ichannel=ha&sc_icontent=awssm-5270&sc_ioutcome=Enterprise_Digital_Marketing&sc_iplace=console-ec2autoscaling_infobar&trk=ha_a121p21423yfe1DAD~ha_awssm-5270&trkCampaign=pac-edm-2019-optimize-autoscaling-instance-asg (28/02/2021)
-$removeparam=/^sc_i/
+||amazon.$removeparam=/^sc_i/
 $removeparam=trkCampaign
 $removeparam=trk,domain=splashthat.com|aws.amazon.com|aws|xkcd.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-700946
@@ -25472,7 +25475,7 @@ $removeparam=CID,domain=burpee.com|chegg.com|express.com|farmandfleet.com|marvel
 $removeparam=DZID,domain=autoanything.com
 $removeparam=PID,domain=1800getlens.com|ae.com|allmodern.com|applevacations.com|ashford.com|autoanything.com|autodesk.com|bedbathandbeyond.com|booksamillion.com|boscovs.com|buschgardens.com|cheapcaribbean.com|chicos.com|choicehotels.com|ecampus.com|expedia.com|express.com|factoryoutletstore.com|farmandfleet.com|hammacher.com|intuit.com|jockey.com|kennethcole.com|landsend.com|lenovo.com|lens.com|mcafee.com|overstock.com|perfumania.com|samsung.com|sears.com|sierra.com|soma.com|staples.com|teleflora.com|ulta.com|verizon.com|virginatlantic.com|vistaprint.com|walgreens.com|wayfair.com|whitehouseblackmarket.com|wwe.com|yahoo.com|zchocolat.com|hawaiianairlines.com|dermstore.com
 $removeparam=SID,domain=ae.com|anntaylor.com|applevacations.com|ashford.com|autodesk.com|bedbathandbeyond.com|bhphotovideo.com|booksamillion.com|cheapcaribbean.com|chegg.com|chggtrx.com|ecampus.com|expedia.com|express.com|intuit.com|jockey.com|loft.com|mcafee.com|norton.com|overstock.com|perfumania.com|samsung.com|sierra.com|staples.com|taskrabbit.com|teleflora.com|verizon.com|vistaprint.com|walgreens.com|wwe.com|yahoo.com|zchocolat.com|zulily.com
-$removeparam=adref,domain=ancestry.*
+$removeparam=adref,domain=ancestry.*|wolfram.com|wolframalpha.com
 $removeparam=acid,domain=lenovo.com
 $removeparam=aid,domain=brownells.*|viator.com|adguard.com|adguard-vpn.com|adguard-dns.com|get.protonvpn.com|get.protonmail.com|wevpn.com|cafago.com|tomtop.com
 $removeparam=camp,domain=calvinklein.*|dickssportinggoods.com|dockers.com|dressbarn.com|lanebryant.com|levi.com|maurices.com|worldmarket.com|xg4ken.com|amazon.*
