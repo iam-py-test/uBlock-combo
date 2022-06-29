@@ -20373,6 +20373,20 @@ doppk.com4all
 ! https://twitter.com/malwrhunterteam/status/1541694571461201928
 ||online-basvuru-yap.app^$document
 
+! YouTube video on a probably hacked channel --> https://bazaar.abuse.ch/sample/786947bd41f7be120bc82fd563b5658ff319bcb45f8e3a35e9e4c62a03ef103e/
+||youtube.com/watch?v=k3wEO4Kw600^$all
+||telegra.ph/Sony-Vegas-Pro-19-Crack-06-28-3^$all
+||mega.nz/file/nWhSiBRQ#DfJfKPJFf6EiWI3vrVp2IvbBgbsmAqIid9l0H_e3ngE^$all
+||github.com/bestcrack/SonyVegas/raw/main/MAGIX.Vegas.Pro.v19.0.532.rar^$all
+||github.com/bestcrack/$document
+||raw.githubusercontent.com/bestcrack/SonyVegas/main/MAGIX.Vegas.Pro.v19.0.532.rar^$all
+
+! https://www.virustotal.com/gui/url/419dcd36895e1822796c14fa169a191eeda2f03013bd8f225aef6ba2f22aad3a/community
+||v3.gigilist.com/~gorarbazar/js.php?get=Ly9pbnN0YWdyYW0vP2k9JmFtcDtpPUQ2MTJE&BPHzX^$all
+! https://app.any.run/tasks/85e32268-b888-4dfb-bb30-c7cec084039c
+||us.r-q.media^$all
+||r-q.media^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22707,6 +22721,13 @@ doppk.com4all
 ||regcure.com^$document
 ||directbrand.com/dl/asr_regcure.php^$document
 
+! https://blog.malwarebytes.com/threat-analysis/2022/06/forced-chrome-extensions-keep-reappearing/
+||activesearchbar.me^$all
+||customsearchbar.me^$all
+||optimizerupdate.com^$all
+||securedatacorner.com^$all
+||wincloudservice.com^$all
+
 ! ----- Spam -----
 
 ! https://forums.malwarebytes.com/topic/281397-how-to-update-my-adwcleaner/
@@ -23073,7 +23094,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 28June2022v3
+! Version: 29June2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24430,6 +24451,16 @@ $removeparam=analyticsCorrelationId
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2839266
 $removeparam=Affiliate_id
 $removeparam=Cvosrc
+
+! https://github.com/brave/brave-browser/issues/22082
+$removeparam=oft_id
+$removeparam=oft_k
+$removeparam=oft_lk
+$removeparam=oft_d
+$removeparam=oft_c
+$removeparam=oft_ck
+$removeparam=oft_ids
+$removeparam=oft_sk
 
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
