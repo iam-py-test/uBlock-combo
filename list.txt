@@ -23073,7 +23073,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 28June2022v1
+! Version: 28June2022v3
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -23282,7 +23282,7 @@ $removeparam=rlz
 $removeparam=pcampaignid
 $removeparam=igshid
 $removeparam=curator_clanid
-$removeparam=snr,domain=~thalmaier.de
+$removeparam=snr,domain=~thalmaier.de|~post.at
 
 ! https://www.trouw.nl/nieuws/het-draagvlak-in-crisistijd-doet-premier-rutte-bijna-zweven-maar-hij-kan-ook-hard-vallen~bf367a86/?referrer=https%3A%2F%2Fwww.theguardian.com%2Fworld%2Fcommentisfree%2F2021%2Fmar%2F04%2Fcovid-derailed-great-hope-dutch-far-right-thierry-baudet (05/03/2021)
 $removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*
@@ -33192,3 +33192,6 @@ readawrite.com##+js(set, securityTool.disablePrintScreen, noopFunc)
 readawrite.com##+js(set, securityTool.disablePrintThisPage, noopFunc)
 readawrite.com##+js(set, securityTool.disableElementForPrintThisPage, noopFunc)
 readawrite.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/122950
+wrestlezone.com##+js(acis, document.createElement, admiral)
