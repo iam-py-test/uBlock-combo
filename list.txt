@@ -23129,7 +23129,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29June2022v3
+! Version: 30June2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24497,6 +24497,10 @@ $removeparam=oft_c
 $removeparam=oft_ck
 $removeparam=oft_ids
 $removeparam=oft_sk
+
+! https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html
+! https://shopping.tallink.com/fi/shop/?adobe_mc=MCORGID%3DAE8B5AD7591AC1560A495D25%2540AdobeOrg%7CTS%3D1656533002
+$removeparam=adobe_mc
 
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
@@ -33266,3 +33270,6 @@ readawrite.com##*:style(-webkit-touch-callout: default !important; -webkit-user-
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122950
 wrestlezone.com##+js(acis, document.createElement, admiral)
+
+! http://tv.xemphimaz.com/xem-phim/luoi-hai-tu-than-2-tap-1-server-1/ anti right click
+xemphimaz.com##+js(acis, document.oncontextmenu)
