@@ -20393,6 +20393,24 @@ doppk.com4all
 ||sbnue.com^$document
 ||starwhitlirateadro.gq^$all
 
+! https://forums.malwarebytes.com/topic/287876-im-posting-a-malware-to-ask-if-anyone-know-the-type-of-this-malware/
+||gg.gg/11600n^$document
+||anonfiles.com/13X0qbj5y9/RiseSkinchanger_rar^$all
+||baconaces.pro^$document
+||cdn.adx1.com/df60634899739d9c8ce9ae33940358dd.jpeg^$all
+||cdn.adx1.com/8b678aab9185cb333cc7c1bf3442adcb.jpeg^$all
+||www.esoftwareplus.live^$all
+||esoftwareplus.live^$document
+||esoftwareplus.online^$document
+||www.esoftwareplus.online^$document
+||surofim.life^$all
+! https://app.any.run/tasks/85cfa904-06c4-4603-82ec-7a3db8db8df9
+||tjzaj.comfortykive.xyz^$all
+||comfortykive.xyz^$all
+||safefastfreesmart.rest^$document
+||rewards-giant.uk^$document
+||bepoha.live^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22224,6 +22242,9 @@ doppk.com4all
 ||doodlekit.gotorange.top^$document
 ||certainspendcrowd.buzz^$document
 ||knrtpn.certainspendcrowd.buzz^$all
+
+! tech support scam - https://forums.malwarebytes.com/topic/287438-excel-macro-40-abuse-protection-prevents-opening-password-protected-files/?do=findComment&comment=1519928
+||ewebprotection.info^$document
 
 ! ----- PUPs -----
 
@@ -32298,7 +32319,7 @@ blog.csdn.net##.hljs-button.signin
 cda-hd.cc,hqq.to##+js(set, document.oncontextmenu, null)
 hqq.to##+js(set, document.onkeydown, trueFunc)
 hqq.to##+js(nostif, debugger)
-hqq.to##+js(set, console.clear, undefined)
+hqq.to##+js(set, console.clear, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10040
 blogpascher.com##.CampaignFullscreen__bravoLayer
