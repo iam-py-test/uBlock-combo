@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 26June2022v1
+! Version: 05July2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -39,6 +39,7 @@
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
 .life/*/?*=*&*=*&*=*&*=*&*=$doc
 .live/*/?*=*&*=*&*=*&*=*&*=$doc
+.xyz/*/?*=*&*=*&*=*&*=*&*=$doc
 
 !#if !env_mobile
 ! ——— Attempted removal of Google search result entries that lead to the above top-level domains (Advanced adblockers only) ———
@@ -1472,7 +1473,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||info.leadid.com^$all
 ||listrakbi.com^$all
 ||partner.mediawallahscript.com^$doc,popup
-||rlcdn.com^$all
 ||signupandturnyourscreenoffsafepowernow.date^$all
 ||tag.cogocast.net^$all
 ||tag.yieldoptimizer.com^$doc,popup
@@ -2249,6 +2249,10 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||31.220.27.134^$doc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122757
 ://adbrbk.$doc
+! https://github.com/AdguardTeam/AdguardFilters/issues/123544
+||saferedirects.xyz^$all
+||online-guard.com^$all
+/mcafee-safe-browsing/?*=*&*=*&*=*&*=*&*=*&*=$doc,popup
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -22246,6 +22250,13 @@ doppk.com4all
 ! tech support scam - https://forums.malwarebytes.com/topic/287438-excel-macro-40-abuse-protection-prevents-opening-password-protected-files/?do=findComment&comment=1519928
 ||ewebprotection.info^$document
 
+! hxxps://iyoutubetomp4[.]com/en/
+||img.pushflow.net/creatives/11/6706/1654098151508-push-preview-img.png^$all
+||img.pushflow.net/creatives/11/6706/1654098151508-push-body-img.png^$all
+||img.pushflow.net/creatives/11/5543/1646745691054-push-preview-img.png^$all
+||img.pushflow.net/creatives/11/6706/1654098151508-push-body-img.png^$all
+||justtrck.net/run.php^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23150,7 +23161,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 03July2022v2
+! Version: 04July2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26615,6 +26626,9 @@ $removeparam=ch,domain=studio.co.uk
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-3048458
 ^fs=e$doc,removeparam=fs
 ^s=cl$doc,removeparam=s
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-3079679
+$removeparam=publisher_id,domain=t-mobile.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
