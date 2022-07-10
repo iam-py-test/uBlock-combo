@@ -16114,10 +16114,6 @@ doppk.com4all
 ||45.148.123.10^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927151458
-! https://www.virustotal.com/gui/url/c9ded02c50f3047557fcf0f0bbcd34ca4d9e34a5df83b9715d1d705420ed6352/community
-||vur.fyi^$all
-! https://www.virustotal.com/gui/url/1ad809b7fb61aacf42b220a53909ce18d955b9ad6fe1fa9e7b0e3f70ba8eadf5?nocache=1
-||vun.fyi^$document
 ! https://www.virustotal.com/gui/url/a7fb846c9f8aefecbe0ffda1aecbb6a3d257f0b31a9b922aa49d494af0f0c112
 ||findyour-realsex2.com^$all
 ! https://www.virustotal.com/gui/domain/findyour-realsex2.com/relations
@@ -23239,7 +23235,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 08July2022v2
+! Version: 09July2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24664,7 +24660,7 @@ $removeparam=refRID
 @@||amazon.*/gp/slredirect/picassoRedirect.html^$removeparam
 ! https://www.amazon.com/Disney-Fairies-Lessons-Chapter-ebook-ebook/dp/B007R6UWG2/ref=sr_1_16?dchild=1&keywords=disney+fairies&qid=1606488113&sr=8-16 (27/11/2020)
 $removeparam=dchild
-$~xmlhttprequest,removeparam=qid,domain=~ebay.*|~zhidao.baidu.com|~tastedive.com
+$~xmlhttprequest,removeparam=qid,domain=~ebay.*|~zhidao.baidu.com|~tastedive.com|~hkex.com.hk
 ||amazon.$removeparam=sr
 ! https://www.amazon.co.uk/dp/B08K443FBQ/ref=asc_df_B08K443FBQ1606003200000/?creative=22374&creativeASIN=B08K443FBQ (28/11/2020)
 ||amazon.$removeparam=creative
@@ -26721,6 +26717,9 @@ $removeparam=x50878,domain=pmctraining.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13958#issuecomment-1178776992
 ||redirect.appmetrica.yandex.com^$removeparam=c
+
+! https://www.bloomberg.com/news/articles/2022-07-07/stocks-set-to-rise-as-recession-obsession-cools-markets-wrap?fromMostRead=true
+$removeparam=fromMostRead,domain=bloomberg.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
@@ -29000,8 +28999,8 @@ tekloggers.com##+js(ra, oncontextmenu|onkeydown|onmousedown)
 molineuxmix.co.uk##+js(acis, $, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6520
-defenseone.com,govexec.com,nextgov.com,routefifty.com##.conversion-module, .conversion-module-bootstrap, .gemg-interstitial
-defenseone.com,govexec.com,nextgov.com,routefifty.com##body:style(overflow-x: auto !important; overflow-y: scroll !important; margin-right: 0 !important;)
+defenseone.com,govexec.com,nextgov.com,route-fifty.com##.interstitial
+defenseone.com,govexec.com,nextgov.com,route-fifty.com##body:style(overflow-x: auto !important; overflow-y: scroll !important; margin-right: 0 !important;)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2240
 foxnews.com##:xpath(//*[contains(text(),"blocking software")]/../../..)
@@ -33403,3 +33402,9 @@ langweiledich.net##+js(nostif, Delay)
 
 ! nullphpscript. com anti select
 nullphpscript.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/8373
+||fastly.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js$script
+dropgalaxy.com##+js(ra, oncontextmenu)
+dropgalaxy.com##+js(acis, document.onkeydown)
+dropgalaxy.com##+js(set, mousehandler, noopFunc)
