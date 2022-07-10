@@ -20478,6 +20478,18 @@ doppk.com4all
 ||youtube.com/watch?v=9Tt_wRvN60k^$all
 ||crackload.net^$all
 
+! malware
+||youtube.com/watch?v=bRfD1lBh0Lo^$all
+||mediafire.com/folder/chga256moyooc/^$all
+||mediafire.com/file/mkewv8mtnm8tzrc/RedmixPC.zip/file^$all
+||download1442.mediafire.com/1tcsa023vc7g/mkewv8mtnm8tzrc/RedmixPC.zip^$all
+
+! more malware
+||youtube.com/watch?v=O4F38LlqG6w^$all
+||rotf.lol/Av4stfu11^$all
+||mediafire.com/file/roh6ujj3zfcfcgc/Avast_Premium_Security_21.4.2464.rar/file^$all
+||download1496.mediafire.com/m05akizbkl4g/roh6ujj3zfcfcgc/Avast+Premium+Security+21.4.2464.rar^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22869,6 +22881,13 @@ doppk.com4all
 ||securedatacorner.com^$all
 ||wincloudservice.com^$all
 
+! adware
+||pdfconverterpower.net^$document
+||downpdfpwr.com^$document
+||goto.searchpoweronline.com^$document
+||www.searchpoweronline.com^$document
+||searchpoweronline.com^$document
+
 ! ----- Spam -----
 
 ! https://forums.malwarebytes.com/topic/281397-how-to-update-my-adwcleaner/
@@ -22897,6 +22916,12 @@ doppk.com4all
 ||super-dating.life^$all
 ||www.fuckbookmobile.com^$document
 ||fuckbookmobile.com^$document
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1179770663
+||like.xcat.buzz^$document
+||disqus.com/by/disqus_AIqzI15v88/^$document
+||get-partner.life^$document
+||hookup33s.com^$document
 
 ! ----- Cryptominers -----
 
@@ -33408,3 +33433,10 @@ nullphpscript.com##*:style(-webkit-touch-callout: default !important; -webkit-us
 dropgalaxy.com##+js(ra, oncontextmenu)
 dropgalaxy.com##+js(acis, document.onkeydown)
 dropgalaxy.com##+js(set, mousehandler, noopFunc)
+
+! viatasisanatate. com anti right click, select, ctrl-u, print
+viatasisanatate.com##+js(acis, document.ondragstart)
+viatasisanatate.com##+js(aeld, keydown)
+viatasisanatate.com##+js(acis, disableSelection, reEnable)
+viatasisanatate.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+viatasisanatate.com##style:has-text(@media print):remove()
