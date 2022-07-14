@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 10July2022v1
+! Version: 14July2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2259,6 +2259,22 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123968
 178.253.36.*$network
 178.253.37.*$network
+! https://kommunikasjon.ntb.no/pressemelding/power-advarer-mot-sms-svindel?publisherId=17847615&releaseId=17937583
+||bzsx.link^$all
+||dfvd.link^$all
+||dsvs.link^$all
+||frbj.link^$all
+||iobj.me^$all
+||jlea.link^$all
+||jtaa.link^$all
+||lurr.link^$all
+||rbas.link^$all
+||sinv.link^$all
+||szxo.link^$all
+||ujtj.link^$all
+||wznp.link^$all
+||158.247.212.220^$doc
+||165.227.168.212^$doc
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -22406,9 +22422,9 @@ doppk.com4all
 ! https://discussions.apple.com/thread/8226797
 ! https://malwaretips.com/threads/total-av-is-it-a-scam.80362/
 ! https://github.com/uBlockOrigin/uAssets/issues/9355
-! VM used to confirm
+! https://github.com/notracking/hosts-blocklists/issues/756#issuecomment-1172973042
+! many shady ads
 ! If you are infected with TotalAv, download and run ADWCleaner from https://malwarebytes.com/adwcleaner
-! As the main download is very skechy, and is detected as a PUP by several AVs, I will block this
 ||www.totalav.com^$all
 ||totalav.com^$all
 ! https://www.virustotal.com/gui/file/7a75c2c9695157772541cd426d057ff382d011a2791bcc3e511d94592ab0dbb7/relations
