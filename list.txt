@@ -7,7 +7,7 @@
 ! ----- BEGIN DandelionSprout Antimalware -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 27July2022v1
+! Version: 27July2022v3
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -759,6 +759,68 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||23.109.87.169^$all
 ||23.109.87.207^$all
 ||23.109.87.208^$all
+||entwithou.xyz^$all
+||chedstimaarr.pics^$all
+||yctamonieomgb.com^$all
+||wrxqupnusmdewe.com^$all
+||blueoyster.click^$all
+||ohaaobhvnztj.com^$all
+||chgzguhkue.com^$all
+||flvrbgvpbehhu.com^$all
+||yxytiixolce.com^$all
+||npcwfrohnshriw.com^$all
+||dkuiefdtuwnfo.com^$all
+||jqyexkcsd.com^$all
+||gnyergfy.com^$all
+||obctooauvzjo.com^$all
+||vycqmzwftktb.com^$all
+||azygeydluhz.com^$all
+||yxsgrdxga.com^$all
+||ihfmftmhdfw.com^$all
+||vahfzpfyg.com^$all
+||eqsstvfotd.com^$all
+||orqsvaxn.com^$all
+||taioncgaiynzt.com^$all
+||yxpyjyhjj.com^$all
+||kqeehoptcroxf.com^$all
+||vswlxqhvjiz.com^$all
+||fcouvtlwzocok.com^$all
+||jhlcrejfi.com^$all
+||mynkzqogcd.com^$all
+||ecybnxxpeq.com^$all
+||ksdlzcmvmj.com^$all
+||jfecfzzuwevyqc.com^$all
+||xryecggeczcvpk.com^$all
+||fpetwqpzqf.com^$all
+||zcuuqnrb.com^$all
+||qocvicklgcgr.com^$all
+||tyiqebrbpxc.com^$all
+||qlmqzznfcb.com^$all
+||goxonnawhmkqq.com^$all
+||zeikvvbobop.com^$all
+||heplhvadpmkq.com^$all
+||igreskfq.com^$all
+||vhrtgvzcmrfoo.com^$all
+||ucbnxsmgdf.com^$all
+||xwvbbphb.com^$all
+||xlvludsigt.com^$all
+||iwkexdab.com^$all
+||preurllvrbrvng.com^$all
+||yajlpetccbodq.com^$all
+||ttwscqlqmbcb.com^$all
+||pncqcqdj.com^$all
+||mqqrcdxbnog.com^$all
+||rzqqpamj.com^$all
+||pzwbihxey.com^$all
+||kgftlnvgql.com^$all
+||wmkqxqwpyodrl.com^$all
+||zaamuvqteety.com^$all
+||oeyiamwpj.com^$all
+||jijpbehzw.com^$all
+||216.21.13.14^$all
+||216.21.13.15^$all
+/\.(cloudfront\.net|xyz|pics)/[a-zA-Z0-9]{130,}/$doc,script,subdocument,image
+/\.(cloudfront\.net|xyz|pics)/[a-zA-Z0-9]{20,}/[a-zA-Z0-9]{25,}\+[a-zA-Z0-9+]{90,}$/$doc,script,subdocument,image
 ! https://twitter.com/SUNgoddessOKAMI/status/1221295265195405315
 ||deviuser.com^$doc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61838
@@ -2613,6 +2675,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||165.227.168.212^$doc
 ! https://www.reddit.com/r/engrish/comments/w6u4uy/received_this_text_message_yesterday_i_am_very/
 162.241.115.*$network
+! https://dinside.dagbladet.no/mobil/ikke-la-deg-friste/76730599
+||k-yw.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
@@ -7452,8 +7516,6 @@ toorgle.net##.join
 ||qocvicklgcgr.com^$all
 ||qrclevrfjw.com^$all
 ||ijwtkojhc.com^$all
-||216.21.13.14^$doc
-||216.21.13.15^$doc
 ! Googling Aksel Hennie (Results for prior week) in late July 2021
 ||okmx.org^$all
 ||nickswheels.com^$all
@@ -9184,8 +9246,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 25/7/2022
-! Version: 2572022-1
+! Last updated: 27/7/2022
+! Version: 2772022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -22823,6 +22885,10 @@ doppk.com4all
 ! possible tech support scam, might be dead
 ||vyredis.bio^$document
 
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1195654525
+! https://github.com/DandelionSprout/adfilt/commit/5ca8e833c7817f2d5929a4adf4792fdcbb822fc0
+||k-yw.com^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23740,7 +23806,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 24July2022v4
+! Version: 27July2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24173,6 +24239,8 @@ $removeparam=at_gd
 $removeparam=/^amp$/
 ! https://www.tokopedia.com/legoclassic/my-little-pony-a-new-generation-crystal-princess-petals-figure-set?src=topads&xClientId=amp-IWyM3dL4bS8QlacnZO4hyg&cid=amp-IWyM3dL4bS8QlacnZO4hyg&amp=true
 $removeparam=/^amp=true$/
+! https://www.newsweek.com/housing-market-falls-sales-new-homes-down-1727968?amp=1
+$removeparam=/^amp=1$/
 
 ! https://inews.co.uk/opinion/matt-hancock-health-bill-huge-row-no10-boris-johnson-1067703?_gl=1*1l47swq*_ga*OUp3WnF6dklkRHNVaHBfaDJmUnFHSkR5VFBtMzV5enpSWk1XUENzWlNENGg2VmdQZHZoRVFfV3BmNXV2ZjREYQ
 $removeparam=_gl
