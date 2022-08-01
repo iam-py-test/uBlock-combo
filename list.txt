@@ -8979,8 +8979,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/7/2022
-! Version: 2772022-1
+! Last updated: 31/7/2022
+! Version: 3172022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -22622,6 +22622,18 @@ doppk.com4all
 ! https://github.com/DandelionSprout/adfilt/commit/5ca8e833c7817f2d5929a4adf4792fdcbb822fc0
 ||k-yw.com^$all
 
+! McAfee-themed scam
+||d3f068fvt45f1f.cloudfront.net^$all
+||eastrk-dn.com^$document
+
+! Fake giveaway
+||teenmas46.tistory.com^$all
+||teenymi.tistory.com^$all
+||foradream.top^$document
+||myapplesite.us^$all
+||feuvpu.evidencelonglie.top^$all
+||evidencelonglie.top^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -32280,9 +32292,6 @@ flipmsg.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sel
 ! https://github.com/uBlockOrigin/uAssets/issues/9388
 wattpad.com##+js(ra, oncontextmenu)
 wattpad.com##+js(aeld, /copy|dragstart/)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/85350
-babiato.co##+js(acis, $, test)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81440
 lazytranslations.com##+js(aopw, disableEnterKey)
