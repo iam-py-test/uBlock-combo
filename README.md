@@ -1,5 +1,5 @@
 # uBlock-combo
-A filter list complied out of other major lists to fight malware, scams, and phishing in uBlock Origin <br>
+A filter list complied out of other filterlists to fight malware, scams, and phishing in uBlock Origin <br>
 Note: This is designed to work _alongside_ the default lists in uBo
 
 ### Lists used
