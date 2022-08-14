@@ -9218,8 +9218,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 10/8/2022
-! Version: 1082022-1
+! Last updated: 13/8/2022
+! Version: 1382022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21053,6 +21053,74 @@ doppk.com4all
 ! https://forums.malwarebytes.com/topic/289086-antivirus-keeps-telling-me-blocked-3523615979-and-cant-find-a-solution/
 ||35.236.159.79^$document
 
+! https://bazaar.abuse.ch/sample/78bcb53e3e0bca3655038c80eb9339d94f4a52b614b2ae072c171925099bcca8/
+! https://www.virustotal.com/gui/file/6679a9fafa55cd95f682e35649413de7d36e81d7eb77736f888d98e5ac4ccf91
+||youtube.com/watch?v=fErPw95RDkI^$all
+||telegra.ph/Download-Page-07-30^$all
+||qaz.su/load/inFFaH/de367fba-5307-479f-b71f-eeee1cfc3773^$all
+||qaz.su^$document
+! same malware?
+||youtube.com/watch?v=eKdHoJvn5j8^$document
+||youtube.com/watch?v=uNToj-my3GA^$document
+||youtube.com/watch?v=IFNExRloGAo^$document
+||youtube.com/watch?v=2Vn-wy5JvoM^$document
+||youtube.com/watch?v=w5GuyJ_0cmU^$document
+||youtube.com/watch?v=rwXWuqlPOlQ^$document
+||youtube.com/watch?v=bIqLd3AS-X8^$document
+||youtube.com/watch?v=3f6rXl88SG0^$document
+||youtube.com/watch?v=h3qvNANawP8^$document
+||youtube.com/watch?v=5bj8-1BkS4w^$document
+||youtube.com/watch?v=F7Qej71_D34^$document
+||youtube.com/watch?v=a2khWhRVy50^$document
+||youtube.com/watch?v=Qzjw_iXe4OI^$document
+||youtube.com/watch?v=KqWmJDT2tF8^$document
+||youtube.com/watch?v=F7820k-PkPE^$document
+||youtube.com/watch?v=PXiOuBY-S5s^$document
+||youtube.com/watch?v=MmviHBRiyJ0^$document
+||youtube.com/watch?v=gi6TCY2UqNA^$document
+||youtube.com/watch?v=-VdRb6Sn5PA^$document
+||bit.ly/2THQIfs^$document
+||greponozy.com/1Gcf^$document
+||youtube.com/watch?v=PHGc5qm1zkg^$document
+||youtube.com/watch?v=qbQYXGEMsfM^$document
+||youtube.com/watch?v=bdIBX4L-VCY^$document
+||youtube.com/watch?v=w_yKAcScwcI^$document
+||youtube.com/watch?v=wbyl2uDabk0^$document
+||youtube.com/watch?v=vOgKYV9MOw4^$document
+||youtube.com/watch?v=mj7Gljnb8ac^$document
+||youtube.com/watch?v=Yfqtm1VoKKs^$document
+||youtube.com/watch?v=XGwoTmg2b48^$document
+||youtube.com/watch?v=heaz5Fz4EKI^$document
+||youtube.com/watch?v=q-g7wMLHuN4^$document
+||youtube.com/watch?v=sfYOxmJiOgM^$document
+||youtube.com/watch?v=pT-StSpmNok^$document
+||youtube.com/watch?v=3BkvamYPEe8^$document
+||youtube.com/watch?v=9KomJDPKiUs^$document
+||youtube.com/watch?v=Pu3LlqSP74o^$document
+||gg.gg/11t6jy^$document
+||youtube.com/watch?v=tV1OUdnO_n4^$document
+||youtube.com/watch?v=9Kvk9h0q3qg^$document
+||youtube.com/watch?v=GsfT47e6Ozw^$document
+||youtube.com/watch?v=zzC0HBVy1I4^$document
+||youtube.com/watch?v=ZnNg7ORZfI4^$document
+||youtube.com/watch?v=O49zoBE_PzU^$document
+||youtube.com/watch?v=rk9MB-sVNl4^$document
+||youtube.com/watch?v=UlUH2m09y2s^$document
+||youtube.com/watch?v=Nh_kgoNrDvk^$document
+||youtube.com/watch?v=yXkLUdZK_fs^$document
+||youtube.com/watch?v=LNrhLKvmK-Y^$document
+||youtube.com/watch?v=QlLYrBvJP0E^$document
+||youtube.com/watch?v=NpBkk3rmdWY^$document
+||youtube.com/watch?v=z6v1E0hapQI^$document
+||youtube.com/watch?v=o0SM-fup_Kg^$document
+||youtube.com/watch?v=8N8KhQkZEHM^$document
+||youtube.com/watch?v=yGQDtZg7T4w^$document
+||youtube.com/watch?v=09K3EZiH37A^$document
+||underthfeoveu.monster^$all
+||www87.davisonbarker.pro^$document
+||rummaringp.pics^$all
+||ndandinter.hair^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -22942,6 +23010,19 @@ doppk.com4all
 ||b.montnotimex.top^$all
 ||sexybltch.net^$document
 
+! https://www.youtube.com/watch?v=6e7MsoThffo
+||loadnova898.netlify.app^$document
+||tonrino.info^$all
+||mubqjh.overloveexperience.top^$all
+||overloveexperience.top^$document
+||new.bestageoffers2022.com^$document
+||d0zi.com^$document
+||rewards-cards.org^$document
+||xmfngo.meanquestiondouble.top^$all
+||meanquestiondouble.top^$document
+||x-delivery.icu^$document
+||nextsoft.icu^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23865,7 +23946,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 10August2022v5
+! Version: 13August2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26894,19 +26975,19 @@ $removeparam=psrc,domain=savagex.com
 ||vimeo.com^$removeparam=owner
 
 ! https://www.lenovo.com/us/en/c/laptops/thinkpad?orgRef=https%253A%252F%252Fduckduckgo.com%252F
-$removeparam=orgRef,domain=lenovo.com
+||lenovo.com^$removeparam=orgRef
 
 ! https://chollometro.digidip.net/visit?url=https%3A%2F%2Fwww.ebay.es%2Fitm%2F313545659728%3Fhash%3Ditem4900c71550%25253Ag%25253AefQAAOSwM%25257EBhkcpH%26_trkparms%3D%26rpp_cid%3D61a98c608d080d0465e9035f&ppref=https%3A%2F%2Fwww.chollometro.com%2Fcupones%2Febay.es
 $removeparam=ppref,domain=digidip.net
 
 ! https://www.dhgate.com/product/global-version-xiaomi-mi-11t-4g-8gb-128gb/740400510.html?f=bda%7Ccontent%7Cchollometro%7Cdeals
-$removeparam=f,domain=dhgate.com
+||dhgate.com^$removeparam=f
 
 ! https://www.cyberghostvpn.com/en_US/offer/xmas?brand=vpnMentor&coupon=3Y3M
 $removeparam=brand,domain=cyberghostvpn.com|privateinternetaccess.com
 
 ! https://safe.cyberghostvpn.com/en_US/xmas?lp=flashdevices&coupon=3Y3M&media_source=CJ_affiliates&channel=External LPs
-$removeparam=media_source,domain=cyberghostvpn.com
+||cyberghostvpn.com^$removeparam=media_source
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10995
 !!! ||zhihu.com^$removeparam=search_source
@@ -26914,13 +26995,13 @@ $removeparam=media_source,domain=cyberghostvpn.com
 ||zhihu.com^$removeparam=hybrid_search_extra
 
 ! https://www.theregister.com/2021/12/20/linux_5_16_rc6/?td=keepreading-btm
-$removeparam=td,domain=theregister.com
+||theregister.com^$removeparam=td
 
 ! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/210
-$removeparam=fromrel,domain=dzone.com
+||dzone.com^$removeparam=fromrel
 
 ! https://blog.feedspot.com/?_src=footer
-$removeparam=_src,domain=feedspot.com
+||feedspot.com^$removeparam=_src
 
 ! https://asunnot.oikotie.fi/vinkit-ja-oppaat/yleinen/suomen-jouluisin-kaupunki/?promo_name=article&promo_creative=kotiinartikkelit&promo_position=listing_page
 $removeparam=promo_name,domain=oikotie.fi|kesaduuni.org
@@ -27384,6 +27465,11 @@ $removeparam=plimit,domain=privatehomeclips.com
 $removeparam=source,domain=privatehomeclips.com
 $removeparam=fr,domain=hclips.com
 $removeparam=rp,domain=hclips.com
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-3391059
+||xhamster.*^$removeparam=pb
+||eporner.*^$removeparam=trx
+$removeparam=sub,domain=allboner.com|twinkvideos.com
 
 !#if !env_mobile
 ! ——— Mobile ——— !
