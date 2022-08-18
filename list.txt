@@ -9216,8 +9216,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 17/8/2022
-! Version: 1782022-1
+! Last updated: 18/8/2022
+! Version: 1882022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21129,6 +21129,12 @@ doppk.com4all
 ! https://www.virustotal.com/gui/domain/twilio-okta.com/community
 ||twilio-okta.com^$all
 
+! https://forums.malwarebytes.com/topic/289254-reoccuring-website-blocked-due-to-malwaretrojan-message/
+||104.155.207.188^$all
+
+! https://forums.malwarebytes.com/topic/289146-contrapersescom-malware-popups/
+||contraperses.com^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23032,8 +23038,8 @@ doppk.com4all
 ||nextsoft.icu^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1218058597
-||smsb.co/3L7Y1j^$all
-||smsb.co/3L7Y0L^$all
+||a2ics.eu^$all
+||smsb.co^$all
 
 ! ----- PUPs -----
 
@@ -23958,7 +23964,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 15August2022v1
+! Version: 18August2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -26165,7 +26171,7 @@ $removeparam=hpt,domain=cnn.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-987226
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1914216
-$~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com
+$~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odysee.com
 
 ! https://no.pinterest.com/pin/371476669268114259/?d=t&mt=signupOrPersonalizedLogin (21/03/2021)
 ||pinterest.*mt=signup$removeparam=d
