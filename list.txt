@@ -9281,26 +9281,6 @@ get.adobe.com###offersInformationPane
 ! https://www.virustotal.com/gui/domain/facebok.xyz/detection
 ||facebok.xyz^$document
 
-! https://www.bleepingcomputer.com/news/security/fbi-spots-spear-phishing-posing-as-truist-bank-bank-to-deliver-malware/
-! https://www.virustotal.com/gui/domain/secureportal.online/detection
-! https://www.siteadvisor.com/sitereport.html?url=secureportal.online
-! https://www.virustotal.com/gui/url/5fdd9dd1fe4eb6a2e3e7cfb348b3f4e97e83991b7c66ca1ade1416878c9dd005/detection
-! https://safeweb.norton.com/report/show?url=secureportal.online
-! https://transparencyreport.google.com/safe-browsing/search?url=secureportal.online
-! https://quttera.com/detailed_report/secureportal.online
-||secureportal.online^$all
-! https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader
-! https://www.bleepingcomputer.com/news/security/microsoft-threat-actors-target-aviation-orgs-with-new-malware/
-! https://www.virustotal.com/gui/url/4871daf641f2b04897c41c7e8dcb1dd076ebfd510d162154ec1e3c67396f0c6f/detection
-! https://www.virustotal.com/gui/domain/kimjoy.ddns.net/detection
-! https://www.fortiguard.com/webfilter?q=kimjoy.ddns.net
-! https://www.urlvoid.com/scan/kimjoy.ddns.net/
-! https://safeweb.norton.com/report/show?url=kimjoy.ddns.net
-! https://sitecheck.sucuri.net/results/kimjoy.ddns.net
-! https://www.siteadvisor.com/sitereport.html?url=kimjoy.ddns.net
-! https://www.mywot.com/scorecard/ddns.net
-||kimjoy.ddns.net^$all
-
 ! https://github.com/iam-py-test/https-upgrade-lists/blob/0aa37721f908395061a03d951bbd40d2c6ce7c06/crawled.txt#L342
 ! https://www.virustotal.com/gui/url/a8f9b74d63d52e61779e96404ecdb2c0ab82f5876b420c0c6432e624503c07f0/detection
 ! https://www.virustotal.com/gui/domain/sandbox.in/detection
@@ -9311,17 +9291,6 @@ get.adobe.com###offersInformationPane
 ! https://quttera.com/detailed_report/sandbox.in
 ||sandbox.in^$document
 
-! https://safeweb.norton.com/buzz
-! https://safeweb.norton.com/report/show_mobile?name=woningontruimennijmegen.nl
-! https://www.fortiguard.com/webfilter?q=woningontruimennijmegen.nl
-! https://www.siteadvisor.com/sitereport.html?url=woningontruimennijmegen.nl
-! https://transparencyreport.google.com/safe-browsing/search?url=woningontruimennijmegen.nl
-! https://www.urlvoid.com/scan/woningontruimennijmegen.nl/
-! https://sitecheck.sucuri.net/results/woningontruimennijmegen.nl
-! https://www.virustotal.com/gui/domain/woningontruimennijmegen.nl/detection
-! https://quttera.com/detailed_report/woningontruimennijmegen.nl
-! https://www.virustotal.com/gui/url/f2cbc2a3b5726f448d2302f47594e7f8ec840dc775692e494f7bc966f6dd6a0f/detection
-||woningontruimennijmegen.nl^$all
 ! https://safeweb.norton.com/report/show_mobile?name=amazon-signin-871miing11-159.duckdns.org
 ! https://sitecheck.sucuri.net/results/amazon-signin-871miing11-159.duckdns.org
 ! https://www.urlvoid.com/scan/amazon-signin-871miing11-159.duckdns.org/
@@ -23626,6 +23595,46 @@ doppk.com4all
 
 ! https://forums.malwarebytes.com/topic/289030-mbam-browser-guard-identifying-malware-but-mbam-not-removing-malware/
 ||mysearchengine.co^$document
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/128029
+||search.freddostagione.com^$all
+||freddostagione.com^$all
+||147.135.253.55^$document
+||search.motherpipe.net^$document
+||search.scuroporta.com^$document
+||humanverified.net^$all
+||search.potestainsula.com^$document,popup
+||search.husmicto.com^$document,popup
+||search.splendidus.net^$document,popup
+||search.optimusquaero.com^$document,popup
+||search.potenzamano.com^$document,popup
+||search.tutatagliente.com^$document,popup
+||search.megliolavoro.com^$document,popup
+||search.luminosoocchio.com^$document,popup
+||search.osservareimmaginare.com^$document,popup
+||search.frescopartito.com^$document,popup
+||search.flussofoglio.com^$document,popup
+||search.avantiwendo.com^$document,popup
+||search.desideriosoldi.com^$document,popup
+||search.sottilesezione.com^$document,popup
+||search.alcunirisposta.com^$document,popup
+||search.thecanem.net^$document,popup
+||video-ad-skipper.com^$document,popup
+||search.becovi.com^$document,popup
+||luminosoocchio.com^$document,popup
+||quick-speedtest.com^$document,popup
+||husmicto.com^$document,popup
+||splendidus.net^$document,popup
+||optimusquaero.com^$document,popup
+||potenzamano.com^$document,popup
+||tutatagliente.com^$document,popup
+||megliolavoro.com^$document,popup
+||luminosoocchio.com^$document,popup
+||osservareimmaginare.com^$document,popup
+||desideriosoldi.com^$document,popup
+||sottilesezione.com^$document,popup
+||alcunirisposta.com^$document,popup
+||www.humanverified.net^$document,popup
 
 ! ----- Spam -----
 
