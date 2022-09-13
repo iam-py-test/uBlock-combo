@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 12September2022v1
+! Version: 13September2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -32,7 +32,7 @@
 ||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$doc
-||agency^$doc,domain=~battlefield.agency
+||agency^$doc,domain=~battlefield.agency|~shortcut.agency
 ||gdn^$doc
 ||bid^$doc
 ||ooo^$doc
@@ -9269,8 +9269,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 11/9/2022
-! Version: 1192022-1
+! Last updated: 13/9/2022
+! Version: 1392022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21205,6 +21205,29 @@ doppk.com4all
 ! https://forums.malwarebytes.com/topic/289986-what-is-plusclick/
 ||plusclick.biz^$all
 
+! https://www.virustotal.com/gui/url/d4c898d706383367e90f7dabe340b63ab5a3245834bfea5417406f5d16d9a1e2/community
+||216.189.145.246^$document
+
+! https://www.virustotal.com/gui/url/16134b536ddf476faedd91fe7f5f92ffefe8a9645755c33188647839fe2609cc/community
+||clck.ru/sdToA^$all
+||steamcomunlty.ru^$all
+
+! https://bazaar.abuse.ch/sample/60d3fbde28010f86727b2e42f463b32cbd734b16e07f1173ee8c8f9875bcacdb/
+! https://www.virustotal.com/gui/file/60d3fbde28010f86727b2e42f463b32cbd734b16e07f1173ee8c8f9875bcacdb/relations
+||lilisjjoer44.com^$document
+||limo00ruling.org^$document
+||luxulixionus.net^$document
+||mini55tunul.com^$document
+||moroitomo4.net^$document
+||nikogkojam.org^$document
+||nikogminut88.at^$document
+||nunuslushau.com^$document
+||nusurionuy5ff.at^$document
+||samnutu11nuli.com^$document
+||susuerulianita1.net^$document
+||cucumbetuturel4.com^$document
+
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23142,6 +23165,10 @@ doppk.com4all
 ||a.captchaless.top^$all
 ||pshmetrk.com^$document
 
+! https://www.virustotal.com/gui/url/32a954671b94eadde836daf80357740d3f49f9bfe53ef8f894773e13a128b83a/community
+||www.getamz.app^$all
+||getamz.app^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -24105,7 +24132,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 12September2022v1
+! Version: 13September2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24606,7 +24633,7 @@ $removeparam=affname
 $removeparam=MID,domain=~media-cdn.costco.*|~community.arubanetworks.com
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com
+$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~jugem.jp
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
