@@ -9273,8 +9273,8 @@ get.adobe.com###offersInformationPane
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 20/9/2022
-! Version: 1492022-1
+! Last updated: 22/9/2022
+! Version: 2292022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21264,6 +21264,20 @@ doppk.com4all
 ! https://www.virustotal.com/gui/url/94532535b8591efdebf95cf3c463f4b6116c76a354320676d38ab1384d40d26f/community
 ||sukudoanalytica.com^$all
 
+! https://twitter.com/UK_Daniel_Card/status/1573038624853082128
+! https://twitter.com/MBThreatIntel/status/1571949584943054848
+||parrable.com^$all
+||h.parrable.com^$all
+
+! https://twitter.com/MBThreatIntel/status/1573059941619081221
+||guyacave.fr/js/tiny_mce/themes/modern/validate.js^$all
+
+! https://twitter.com/iam_py_test/status/1573078196010078210
+||youtube.com/watch?v=3ccLmu7BeWI^$all
+||telegra.ph/An-article-on-How-To-Download-Crack-and-Hack-For-Free-08-12^$all
+||mediafire.com/file/5bbg7hjejhrqr60/Installer_2.0.rar/file^$all
+||download2298.mediafire.com/7qjipvwwdfzg/5bbg7hjejhrqr60/Installer+2.0.rar^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -24205,7 +24219,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 20September2022v1
+! Version: 23September2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24612,12 +24626,13 @@ $removeparam=ASID
 $removeparam=cm_sp
 $removeparam=cm_re
 $removeparam=/^mbsy[=_]/
-$removeparam=campaignid
 $removeparam=mkref
 $removeparam=refer_code
 ! https://chggtrx.com/clk.trk?CID=267627&AFID=304351
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113875
 $removeparam=AFID,domain=~chggtrx.com|~state.gov
+! (https://github.com/uBlockOrigin/uAssets/issues/14997)
+$~css,~script,removeparam=campaignid
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1412160
 $removeparam=loc,domain=~geizhals.*|~ebay.*|~myanimelist.net|~microsoft.com|~liveperson.net
@@ -25636,7 +25651,7 @@ $removeparam=refRID
 @@||amazon.*/gp/slredirect/picassoRedirect.html^$removeparam
 ! https://www.amazon.com/Disney-Fairies-Lessons-Chapter-ebook-ebook/dp/B007R6UWG2/ref=sr_1_16?dchild=1&keywords=disney+fairies&qid=1606488113&sr=8-16 (27/11/2020)
 $removeparam=dchild
-$~xmlhttprequest,removeparam=qid,domain=~ebay.*|~forum.cantorsys.com|~hkex.com.hk|~tastedive.com|~zhidao.baidu.com
+$~xmlhttprequest,removeparam=qid,domain=~ebay.*|~forum.cantorsys.com|~hkex.com.hk|~tastedive.com|~zhidao.baidu.com|~forums.somethingawful.com
 ||amazon.$removeparam=sr
 ! https://www.amazon.co.uk/dp/B08K443FBQ/ref=asc_df_B08K443FBQ1606003200000/?creative=22374&creativeASIN=B08K443FBQ (28/11/2020)
 ||amazon.$removeparam=creative
@@ -27749,6 +27764,9 @@ $removeparam=sub,domain=allboner.com|twinkvideos.com
 ! https://www.tokopedia.com/lunashop78/buku-stiker-warna-my-little-pony-be-kind-together-coloring-book?extParam=ivf%3Dfalse%26src%3Dsearch&refined=true
 ||tokopedia.com^$removeparam=extParam
 ||tokopedia.com^$removeparam=refined
+
+! https://www.sony.se/electronics/sound-bars/ht-a3000?cpint=homepage_promotion_tiles-Promotion%20Tiles--responsivegrid_structure_top_promotiontiles_copy_1
+||sony.^$removeparam=cpint
 
 !#if !env_mobile
 ! ——— Mobile ——— !
