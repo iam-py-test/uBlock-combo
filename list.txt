@@ -21278,6 +21278,11 @@ doppk.com4all
 ||mediafire.com/file/5bbg7hjejhrqr60/Installer_2.0.rar/file^$all
 ||download2298.mediafire.com/7qjipvwwdfzg/5bbg7hjejhrqr60/Installer+2.0.rar^$all
 
+! https://bazaar.abuse.ch/sample/7205488fe5a1d3d05f0734af8b156d5c1603e9334b407845eb5545950e7b9acc/ (credit to https://bazaar.abuse.ch/user/1169961/)
+! https://app.any.run/tasks/ed58332c-913b-4a8e-8d17-e55c4fb40b76 (my analysis)
+||85.31.46.80^$document
+||85.31.46.80/VVK.exe^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -24219,7 +24224,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 23September2022v1
+! Version: 23September2022v3
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -27767,6 +27772,10 @@ $removeparam=sub,domain=allboner.com|twinkvideos.com
 
 ! https://www.sony.se/electronics/sound-bars/ht-a3000?cpint=homepage_promotion_tiles-Promotion%20Tiles--responsivegrid_structure_top_promotiontiles_copy_1
 ||sony.^$removeparam=cpint
+
+! https://www.smithsonianmag.com/history/real-warriors-woman-king-dahomey-agojie-amazons-180980750/?is_pocket=1
+! https://github.com/DandelionSprout/adfilt/pull/652
+$removeparam=is_pocket
 
 !#if !env_mobile
 ! ——— Mobile ——— !
