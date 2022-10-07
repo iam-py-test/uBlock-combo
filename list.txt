@@ -9325,8 +9325,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 4/10/2022
-! Version: 4102022-1
+! Last updated: 7/10/2022
+! Version: 7102022-3
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for a incomplete list
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21351,6 +21351,18 @@ doppk.com4all
 ! https://forums.malwarebytes.com/topic/290797-drive-by-typosquat/
 ||login.mimecast.cm^$document
 
+! https://www.virustotal.com/gui/file/d04f8915ee7e77951a370e770826926ba1667eab0c3a976152d29c0a6585e439/detection
+||youtube.com/watch?v=JsU1Zy6M-5o^$all
+||bit.ly/3CBERWl^$all
+||mega.nz/file/hWN0gQoQ#jRjxLrh0v0P4ru1KkA83PMHn7Pco3quhO91JHS_1Z90^$all
+
+! https://twitter.com/iam_py_test/status/1578112473768644611
+||youtube.com/watch?v=uf5KSftY9Xc^$all
+||pastebin.com/DyG0qkdA^$document
+||bit.ly/3EhFS7k^$document
+||mediafire.com/file/ig3e6zgpcbmqict/Adobe+Photoshop.rar/file^$all
+||download2276.mediafire.com/wq9mvvr39hqg/ig3e6zgpcbmqict/Adobe+Photoshop.rar^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -23342,6 +23354,16 @@ doppk.com4all
 ||wiswentidea.live^$document
 ||54.37.5.34^$document
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/131156
+||s41sg.tyhogot.sbs^$all
+||tyhogot.sbs^$document
+
+! redirects from a hacked website
+||rx-qualityshop.com^$all
+||momentxshop.com^$all
+||distrbxshop.com^$all
+||grabxshop.com^$all
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -23966,6 +23988,10 @@ doppk.com4all
 ||get-partner.life^$document
 ||hookup33s.com^$document
 
+! https://web.archive.org/web/20221007114132/https://forums.malwarebytes.com/topic/290873-whats-the-hottest-temperature-in-your-city/
+||rathbunlakeassoc.com^$document
+||ufadeal.info^$document
+
 ! ----- Cryptominers -----
 
 ! Was to be used for Cryptomining  - this website seems to no longer used for those
@@ -24306,7 +24332,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 05October2022v1
+! Version: 07October2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25685,6 +25711,23 @@ $removeparam=oft_sk
 ! https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html
 ! https://shopping.tallink.com/fi/shop/?adobe_mc=MCORGID%3DAE8B5AD7591AC1560A495D25%2540AdobeOrg%7CTS%3D1656533002
 $removeparam=adobe_mc
+
+! https://segmentify.github.io/segmentify-dev-doc/integration_web/
+$removeparam=/^_sgm_/i
+
+! Below in this paragraph are entries that we borrowed from AdGuard URL Tracking Protection, which is maintained by the AdGuard team at https://github.com/AdguardTeam/AdguardFilters, and which is licenced under GPL-3.0.
+$removeparam=_zucks_suid
+$removeparam=adfrom
+$removeparam=aiad_clid
+$removeparam=maf
+$removeparam=mindbox-message-key
+$removeparam=nx_source
+$removeparam=oprtrack
+$removeparam=ysclid
+&uclick=*&uclickhash=$removeparam
+/?r=dir&zoneid=$removeparam
+/?rb=*&zoneid=$removeparam
+/?uclick=*;uclickhash=$removeparam
 
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
