@@ -19685,9 +19685,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||checkitemtt.top^$document
 ||conv-alida-recapiro-com.preview-domain.com^$document
 
-! https://forums.malwarebytes.com/topic/282345-tech-support-scam/
-||gemininiklkskig.azurewebsites.net^$all
-
 ! https://forums.malwarebytes.com/topic/282353-peruvian-netflix-phishing/
 ||juandfar.github.io^$all
 
@@ -23181,6 +23178,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||grabxshop.com^$all
 ||canadatrustmed.com^$all
 
+! https://github.com/DandelionSprout/adfilt/commit/f60df9e069b404ce56727cc1b734b89ba7241849
+! https://github.com/AdguardTeam/AdguardFilters/issues/132079
+||www64.davisonbarker.pro^$all
+||www31.davisonbarker.pro^$all
+||davisonbarker.pro^$document
+
 ! ----- PUPs -----
 
 ! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
@@ -24150,7 +24153,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 13October2022v2
+! Version: 15October2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -25532,6 +25535,9 @@ $removeparam=adobe_mc
 
 ! https://segmentify.github.io/segmentify-dev-doc/integration_web/
 $removeparam=/^_sgm_/i
+
+! https://gitlab.com/ClearURLs/rules/-/issues/254
+$removeparam=omnisendContactID
 
 ! Below in this paragraph are entries that we borrowed from AdGuard URL Tracking Protection, which is maintained by the AdGuard team at https://github.com/AdguardTeam/AdguardFilters, and which is licenced under GPL-3.0.
 $removeparam=_zucks_suid
@@ -27379,9 +27385,10 @@ $removeparam=rcode,domain=kucoin.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1979025
 $removeparam=Bibblio_source,domain=macrumors.com
 
-! https://www.goodeeworld.com/products/pluviophile-rain-candle?pr_prod_strat=copurchase&pr_rec_pid=4780770132108&pr_ref_pid=5263231090828&pr_seq=uniform
+! https://fluffnest.com/products/may-the-bee-pre-order?pr_prod_strat=collection_fallback&pr_rec_id=b614090d7&pr_rec_pid=7101857890455&pr_ref_pid=7812473159938&pr_seq=uniform
 $removeparam=/^pr_/,domain=goodeeworld.com|lacemade.com|lifamasks.shop|willi.fi
 $removeparam=pr_prod_strat
+$removeparam=pr_rec_id
 $removeparam=pr_rec_pid
 $removeparam=pr_ref_pid
 $removeparam=pr_seq
