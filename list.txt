@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 14October2022v1
+! Version: 15October2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -9082,6 +9082,13 @@ apkfab.com##.tip-extension
 ||vlcmediadownload.com^$all
 ||quiremuken.xyz^$all
 cdburnerxp.se##[href*="/downloadsetup.exe"]
+||sexy-egirls-leaked.com^$doc
+||file2share.co^$all
+||erothots.co^$all
+||only2leaked.co^$doc
+||only4leaked.co^$doc
+||thotsbay-leaked.com^$doc
+||cbox.ws^$domain=chicks.cam
 
 ! ——— Horrendously bad copypasted Android rooting "guides" (often with fake titles) that bricked two of my phones ———
 ! Most of the guides haven't even accounted for how modern phones have replaced the recovery environment with an extra boot environment, leading to very critical Fastboot commands not working and/or bricking the phone.
@@ -25755,7 +25762,7 @@ $removeparam=_from
 $removeparam=sacat
 ! ||ebay.$removeparam=rt (Believed to break search filter buttons; #174)
 ! https://www.ebay.com/sch/i.html?_from=R40&_nkw=Ugreen&_blrs=spell_auto_correct (27/11/2020)
-$removeparam=_blrs
+!!!$removeparam=_blrs (Interferes with the ability to confirm that you really wanted to search for the term you searched for.)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-700500 (06/05/2021)
 $removeparam=amdata,domain=ebay.*
 $removeparam=hash,domain=ebay.*
