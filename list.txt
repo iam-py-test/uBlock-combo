@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 19October2022v1
+! Version: 20October2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -40,6 +40,8 @@
 ||monster^$doc,domain=~egybest.monster|~yts.monster|~cloudcdn.monster
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131156
 ||sbs^$doc
+! https://github.com/DandelionSprout/adfilt/issues/659
+||discount^$doc
 ! Experimental attempt to cover a few hardcore spam ASNs
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
 .life/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -24092,7 +24094,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 18October2022v1
+! Version: 20October2022v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -24594,7 +24596,7 @@ $removeparam=affname
 $removeparam=MID,domain=~media-cdn.costco.*|~community.arubanetworks.com
 
 ! https://www.greatrun.org/train-and-prepare/training-plans/?eid=AJ935930567982484926441023zzzzz64bccfd443fc61ff2c06e3cf8c7b889a2061064e5d5db55e171241354f241bed00
-$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp
+$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 $removeparam=nr_email_referer
@@ -27682,6 +27684,12 @@ $document,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-3889813
 ! https://github.com/uBlockOrigin/uAssets/issues/15281
 ||startribune.com^$removeparam=refresh
+
+! https://www.baike.com/wikiid/7504757876798179444?search_id=1rbwh1s2axuo00&prd=search_sug&view_id=o1oipiacwtc00 (19/10/2022)
+! https://github.com/DandelionSprout/adfilt/pull/666
+||baike.com^$removeparam=prd
+||baike.com^$removeparam=view_id
+||baike.com^$removeparam=search_id
 
 !#if !env_mobile
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
