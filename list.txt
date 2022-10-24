@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 20October2022v1
+! Version: 24October2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -160,6 +160,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdto
 ||138.68.252.54^$doc
 ||useragentswitch.com^$all
 ||dev-nano.com^$all
+||adblocker-app.info^$all
 ! Presumed to be fraudulent antivirus extensions on app/extension sites where it's perfectly probable that everyday people could install them.
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=free])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=clean])
@@ -9338,8 +9339,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 23/10/2022
-! Version: 23102022-3
+! Last updated: 24/10/2022
+! Version: 24102022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21148,6 +21149,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||github.com/megabrain97/CrackedPhotoshop^$all
 ||raw.githubusercontent.com/megabrain97/CrackedPhotoshop/main/Photoshop%2023.zip^$all
 ||104.168.44.52^$all
+
+! https://github.com/VernonStow/Filterlist/commit/cb04d77547497a1cd211d2eac20f8af10de01a76 (all credit to https://github.com/VernonStow for finding these domains)
+! https://app.any.run/tasks/f204948b-3940-41d2-af50-b3db789d4ac3
+! https://www.virustotal.com/gui/file/e34575d69ee7a2c0231982d4c2e47edc9adbf7c9290caedd69ad7598a2ae759c (with junk data deleted)
+||notepads-plus-plus.org^$all
+! same file
+||thundersbird.org^$all
+||codevisualstudio.org^$all
+||braves-browsers.org^$all
 
 ! ----- Scams -----
 
