@@ -9340,7 +9340,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 24/10/2022
-! Version: 24102022-1
+! Version: 24102022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -21080,8 +21080,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://twitter.com/iam_py_test/status/1573078196010078210
 ||youtube.com/watch?v=3ccLmu7BeWI^$all
 ||telegra.ph/An-article-on-How-To-Download-Crack-and-Hack-For-Free-08-12^$all
-||mediafire.com/file/5bbg7hjejhrqr60/Installer_2.0.rar/file^$all
-||download2298.mediafire.com/7qjipvwwdfzg/5bbg7hjejhrqr60/Installer+2.0.rar^$all
 
 ! https://bazaar.abuse.ch/sample/7205488fe5a1d3d05f0734af8b156d5c1603e9334b407845eb5545950e7b9acc/ (credit to https://bazaar.abuse.ch/user/1169961/)
 ! https://app.any.run/tasks/ed58332c-913b-4a8e-8d17-e55c4fb40b76 (my analysis)
@@ -21095,7 +21093,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||medijaplus.com/wp-admin/network/ATOPSpA/^$all
 
 ! https://twitter.com/iam_py_test/status/1576210230119403520
-||youtube.com/watch?v=71oBwGTl8Hg^$all
 ||komarusoft.org^$all
 
 ! https://twitter.com/MBThreatIntel/status/1577039325157822464
@@ -21105,8 +21102,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||login.mimecast.cm^$document
 
 ! https://www.virustotal.com/gui/file/d04f8915ee7e77951a370e770826926ba1667eab0c3a976152d29c0a6585e439/detection
-||youtube.com/watch?v=JsU1Zy6M-5o^$all
-||bit.ly/3CBERWl^$all
 ||mega.nz/file/hWN0gQoQ#jRjxLrh0v0P4ru1KkA83PMHn7Pco3quhO91JHS_1Z90^$all
 
 ! https://twitter.com/iam_py_test/status/1578112473768644611
@@ -23764,6 +23759,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||sottilesezione.com^$document,popup
 ||alcunirisposta.com^$document,popup
 ||www.humanverified.net^$document,popup
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/132840
+||adblocker-app.info^$all
+||chrome.google.com/webstore/detail/ad-blocker-app/iamhhblhmpldjchjecmapgoikpjmmfoe^$document
 
 ! ----- Spam -----
 
