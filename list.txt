@@ -9339,13 +9339,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 24/10/2022
-! Version: 24102022-2
+! Last updated: 25/10/2022
+! Version: 25102022-4
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Format notes:  This format is designed for uBlock Origin and the AdGuard extension. See https://github.com/iam-py-test/my_filters_001/tree/main/Alternative%20list%20formats for formats designed for other tools
+! Format notes:  This format is designed for uBlock Origin and the AdGuard extension. See https://github.com/iam-py-test/my_filters_001/#the-malicious-website-blocklist for formats designed for other tools
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
 
 ! ----- Malware and phishing -----
@@ -21139,10 +21139,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||i4rry-tiaaa-aaaag-aaycq-cai.ic0.app^$all
 
 ! https://twitter.com/iam_py_test/status/1584189355559907335
-! NOTE TO SELF: Recheck in a few days to see if it is dead
-||github.com/megabrain97/$document
-||github.com/megabrain97/CrackedPhotoshop^$all
-||raw.githubusercontent.com/megabrain97/CrackedPhotoshop/main/Photoshop%2023.zip^$all
 ||104.168.44.52^$all
 
 ! https://github.com/VernonStow/Filterlist/commit/cb04d77547497a1cd211d2eac20f8af10de01a76 (all credit to https://github.com/VernonStow for finding these domains)
@@ -21153,6 +21149,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||thundersbird.org^$all
 ||codevisualstudio.org^$all
 ||braves-browsers.org^$all
+
+! https://twitter.com/l205306/status/1584804864013479936
+||software-plus.space^$all
+||dropbox.com/s/e4d9uv1pkn1eiu8/Setup.zip?dl=1^$all
+! https://twitter.com/JAMESWT_MHT/status/1584811225720164357
+||45.15.156.81^$all
+||79.137.202.36^$all
 
 ! ----- Scams -----
 
@@ -23148,15 +23151,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://forums.malwarebytes.com/topic/291290-infected-with-chilichicytriecom/
 ||chilichicytrie.com^$all
 
+! https://twitter.com/MBThreatIntel/status/1584963701974929408 (note to self: recheck soon)
+||zerotrf.store^$all
+
 ! ----- PUPs -----
 
-! https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
-! Markets fake AV
-! https://webcache.googleusercontent.com/search?q=cache:nDl5qluBcAEJ:https://www.safetydetectives.com/blog/speeding-up-your-pc/+&cd=12&hl=en&ct=clnk&gl=us
-! https://safeweb.norton.com/report/show?url=https://www.safetydetectives.com/blog/speeding-up-your-pc/
-! https://www.mywot.com/scorecard/safetydetectives.com
-! Has link which redirects to hxxps://www.totalav[.]com/ultra-deal?exit which is a known fake AV
-||safetydetectives.com^$document
 ! https://www.virustotal.com/gui/url/c7e3137c4baaad64dcbbafd1938f581f264944fa1e2c1aa1ebcff77ed2959082/links
 ! https://www.siteadvisor.com/sitereport.html?url=https://www.totalav.com/ultra-deal?exit
 ! https://safeweb.norton.com/report/show?url=https://www.totalav.com/ultra-deal?exit
@@ -23263,13 +23262,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! other related
 ||download.totalwebshield.com^$all
 ||totalwebshield.com^$document
-
-! https://duckduckgo.com/?q=best+antivirus&ia=web without adblocker
-! Promotes PCProtect and TotalAV, along with other Protected net scams
-||trustedantiviruscompare.com^$document
-! Also promotes Protected net scams. Popups with coupons for TotalAV.
-! Reports TotalAV/PCProtect/Scanguard as best at everything
-||10bestantivirus.com^$document
 
 ! https://www.virustotal.com/gui/url/69029515f1f0b5bb9988640141c2d13676fc027429036f138851e21366a5a0df/detection
 ! https://www.virustotal.com/gui/url/67291f2c21019a01b70d18da9dcdad5d0d75d3c77c0b85b0e590e089e101c2e1/detection
@@ -23387,7 +23379,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.totaladblock.com^$document
 ||download.totaladblock.com^$document
 
-! Found in the shady Bing-ads when searching for ADWCleaner
+! Found in the shady Bing ads when searching for ADWCleaner
 ! Before downloading, ADWCleaner detected no adware. After downloading, ADWCleaner detected adware, which included the program. Program claims that buying the paid version (and entering private data) will fix issues with a clean VM. 
 ! This also adds unneeded start up tasks (why would it need start up tasks?). In total, Malwarebytes detected 99 threats.
 ! https://www.virustotal.com/gui/url/681984dd59e84ade5ad3c7b93842dd3b8b759992e7a5f5a1a2aa8dd04f4c823e/community
@@ -23415,7 +23407,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.iolostore.com^$popup
 ! the main website for the company
 ||realdefen.se^$document
-! other 'products' which all appear to be PUPs/scams
+! other 'products' which all appear to be PUPs
 ||getmydrivers.com^$document
 ||www.getmydrivers.com^$document
 ||app.getmydrivers.com^$all
@@ -23447,10 +23439,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.mywot.com/scorecard/iobit.com
 ! https://forums.malwarebytes.com/topic/29681-iobit-steals-malwarebytes-intellectual-property/page/5/#elControls_152972_menu
 ! https://www.virustotal.com/gui/url/1a381bcdd30c4fafbe50baa12a0446c18b875e2221330ffe2adec106f14904f4/community
-||iobit.com^$all
+||iobit.com^$document
 ! Subdomains
-||cdn.iobit.com^$all
-||stats.iobit.com^$all
+||cdn.iobit.com^$document
+||stats.iobit.com^$document
 ||estore.iobit.com^$all
 ||update.iobit.com^$all
 ||jp.iobit.com^$all
@@ -23630,11 +23622,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||enigmasoftware.com^$document
 ||spyhunter.com^$document
 ||www.spyhunter.com^$document
-
-! https://scammer.info/t/2-spyware-com-is-a-fake-technical-website/69836
-! promotes known PUPs i.e. Reimage, Spyhunter as 'solutions'. Better yet, they say ' you cannot remove every virus with only one security tool [...]  After trying Reimage, you should also run a free SpyHunter scanner'. Twice the PUPs, twice the fun?
-||2-spyware.com^$document
-||www.2-spyware.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-968062965
 ||wavebrowser.co^$document
