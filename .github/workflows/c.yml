@@ -3,27 +3,29 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '16 20,9 * * *'
+    - cron: '16 20 * * *'
   workflow_dispatch:
 jobs:
   mkcombo:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
     - name: Build
       run: |
         echo 0 > "status.txt" 
+        uname
+        pip3 --version
         pip3 install requests
         python combo.py
         echo 1 > "status.txt"
     - name: Commit & Push
       uses: actions-x/commit@v5
       with:
-          email: noreply@example.com
+          email: updatebot@iam-py-test.github.io
           name: Update bot
           branch: main
           message: Update the comobo list
