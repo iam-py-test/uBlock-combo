@@ -11233,8 +11233,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 11/11/2022
-! Version: 11112022-1
+! Last updated: 12/11/2022
+! Version: 12112022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -19621,7 +19621,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://github.com/blocklistproject/Lists/issues/538
 ||gosusugiru.ru^$all
 ||gosustugi.su^$all
-||gosusslugi.xyz^$all
 ||gosuslugiugi.ru^$all
 ||gosuslugiudmurtia.ru^$all
 ||gosuslugii-ru.ru^$all
@@ -19639,7 +19638,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gosuslugv.ru^$all
 ||gosuslugi-vladimir.ru^$all
 ||gosuslugim.ru^$all
-||gosuslugi59.xyz^$all
 ||gosuslugi.social^$all
 ||gosuslugi.quest^$all
 ||gosuslqgi.ru^$all
@@ -19677,7 +19675,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||g0suslugi.xyz^$all
 ||g0susligi.ru^$all
 ||g0sulugl.ru^$all
-||госулуги.рф^$all
 ||qr-info-gosuslugi.ru^$all
 ||i-gosuslygi.ru^$all
 ||gosyslugi.su^$all
@@ -19791,7 +19788,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gosulsugl.ru^$all
 ||gosuclugii.ru^$all
 ||goslusugj.ru^$all
-||госуслуги-ру.рф^$all
 ||gos-yslugi.ru^$all
 ||gosuzslugi.ru^$all
 ||gosusluslugi.ru^$all
@@ -19806,7 +19802,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gosulugi.online^$all
 ||gosnuslugi.ru^$all
 ||gosguslugi.ru^$all
-||гослуги.рф^$all
 ||m-gosuslugii.ru^$all
 ||kazan-gosuslugi.ru^$all
 ||gosusslugi.space^$all
@@ -19860,19 +19855,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gosuslugii.online^$all
 ||gosuslugic.ru^$all
 ||gosuslugi.wtf^$all
-||gosuslugi.team^$all
 ||gosuslugi.life^$all
 ||gosuslugi.co.uk^$all
-||gosuslug.run^$all
 ||gosulslsugi.ru^$all
 ||gossuuslugi.ru^$all
 ||gossusluugii.ru^$all
 ||gossuslugiy.ru^$all
 ||gossuslugi.su^$all
 ||gocusluga.ru^$all
-||госсуслуга.рф^$all
-||госсуслуугии.рф^$all
-||госуспуги.рф^$all
 ||vgosuslugi.ru^$all
 ||gosusslygi.ru^$all
 ||gosuslugivrn.ru^$all
@@ -19883,7 +19873,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gos-uslug.ru^$all
 ||gosusllugi.site^$all
 ||gosulugi-anticovid.ru^$all
-||gosulsugi.run^$all
 ||gosnomera-gosuslugi.ru^$all
 ||goslusgi.ru^$all
 ||госуслуги-госномера.рф^$all
@@ -19929,28 +19918,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||45.77.0.96^$all
 
 ! https://www.virustotal.com/gui/file/0a2b70617c3867acb5c762b8cb1136d2cf67b09eedfaa6d5c0c22f8adf8f68ee/community
-! https://www.virustotal.com/gui/url/926e0f8c7512197165661fa2f688899c271e3664690ac78d515bee957211b551?nocache=1
-! https://www.virustotal.com/gui/url/6ecb9b0d93a1c7377ecccf2a06ea970a1e368d102bd4b4b8a4d18a7af1ef4ac9?nocache=1
-||webschool.quicksoft.in^$all
 ! https://www.virustotal.com/gui/url/4af299d39303fce61705804b80e05aae005917eb659367dbe409afe54254eef9?nocache=1
 ! https://safeweb.norton.com/report/show?url=quicksoft.in
 ||quicksoft.in^$document
-||gym.quicksoft.in^$all
 
 ! https://blog.talosintelligence.com/2021/10/squirrelwaffle-emerges.html
 ||168betclub.com^$all
 ||360digidives.com^$all
-||5track.link^$all
 ||abogadoaccidentedetransito.com^$all
-||abogados-en-medellin.com^$all
 ||abogadosnegocios.co^$all
 ||abufarees.com^$all
-||academiademusicayanez.com^$all
 ||acordimobiliar.ro^$all
 ||acquafontana.com^$all
 ||acuafuego.com^$all
-||afrizam.360cyberlink.com^$all
-||afvina.org^$all
 
 ! https://www.virustotal.com/gui/file/711a5e2cd2dc83c0711b9995db62072da4cba477cd21a1a9a95cd5d92e6f9185/community
 ! https://www.virustotal.com/gui/url/1a8cfe7b5f57bb3b1a4cb40ef2627065a22b9df80d6529ccea5a9ac5dc518671?nocache=1
@@ -19958,36 +19938,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||adityasolsurf.in^$all
 
 ! https://blog.google/threat-analysis-group/phishing-campaign-targets-youtube-creators-cookie-theft-malware/
-! https://www.virustotal.com/gui/url/1c6099c0aa5b453bff1903720573220a7cf1f63f25cae0614a074acf01d895b9?nocache=1
-||pro-swapper.com^$all
-! https://www.virustotal.com/gui/ip-address/194.67.71.90/relations
-! https://www.virustotal.com/gui/url/f468aaf7c38ce6416a361e932e0d78414045cafdaa4db5e72f042873dfcd094d?nocache=1
-||key-drop.in^$all
-! https://www.virustotal.com/gui/url/8cd30aaa26d30ee94a0ec3a78caa6a0c49c60da9cddd6eeb04e65fb04cb3ac6a?nocache=1
-||slide-systems.acepr.ru^$all
-! https://www.virustotal.com/gui/url/b9c7fda128294c545e541d3b912e1261c209cb2e625eda981159dbf7aa783ef6?nocache=1
-||acepr.ru^$all
-! https://www.virustotal.com/gui/url/25e08873202a0ca29b0673131ffad4265b3ed96eae47594bd36aed910bf410e8?nocache=1
-||caserock.xyz^$all
 ! https://www.virustotal.com/gui/url/498cb2174736cedece47080f5f35f1ce1eb7aa759d361ddd9c106c26bb3b8a05?nocache=1
 ||qznr.lkd.cioubfiare.com^$all
 ||swth.lkd.cioubfiare.com^$all
 ||00001011111101.lkd.ge5r6h7tjrfrhegs.top^$all
 ||ge5r6h7tjrfrhegs.top^$all
-||com-its.ru^$all
-||avitolit.ru^$document
 
 ! https://www.virustotal.com/gui/file/0e2f7af509abfb3389320e195944b5702317bf0553169f9350afaacc16529307/relations
-! https://www.virustotal.com/gui/url/2f82136a0b75f81c0b82f1157ea4f8a58ca3e42c5923b40337762f6773c9921f
-||ksbyz.jelikob.ru^$all
 ! https://www.virustotal.com/gui/url/4ceb6da6f85c060299a5bab40880ab95f4c401c2f3bbfcca5d2ad7307c2d1289
 ||jelikob.ru^$all
-! https://www.virustotal.com/gui/url/95cba7c35ffd7cda40dc9b21f1d287e7e9e464887e0b2c87db865542759e6219?nocache=1
-! https://www.virustotal.com/gui/url/2b3379de1b823e59d17827b15614be016f1eb6c8310c6755c4af62d8cb1be5fe
-||ve0.popmonster.ru^$all
-||popmonster.ru^$all
-||xre.popmonster.ru^$all
-||6b4s.popmonster.ru^$all
 
 ! https://www.virustotal.com/gui/file/6102a4bde8d14f7e5de7b73a8aea5c4880e298928a11a3a60c22c97dffcae473/relations
 ||telegin.top^$all
@@ -20026,8 +19985,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||prismarepres.com.br^$all
 
 ! https://www.virustotal.com/gui/file/fdadaa29cddfdc73c668258fea6614be64a933dcfa19072a6342024985a0a68b/relations
-! https://www.virustotal.com/gui/url/21012bdb262aee3239a31ebdbf3fca917e5ab3b43858c625d5464cb07659ec8c?nocache=1
-||9zgr.komawai.ru^$all
 ! https://www.virustotal.com/gui/url/64125a9f54ae4b8692db8bcaaab8ce09d1f6fe3aad667d48999c8f579b8546aa?nocache=1
 ! https://safeweb.norton.com/report/show?url=komawai.ru
 ! https://www.urlvoid.com/scan/komawai.ru/
@@ -20094,14 +20051,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.virustotal.com/gui/url/99ac6c08f09b562fb9fa69f0c73b9b4727f4276e474e9b5661107b7c2b5d6e75
 ||103.171.0.220^$all
 
-! https://www.virustotal.com/gui/file/daa6fa6c72c4f045eef9b09f12d4a975c4762a06677c68975773d76e7b429420/community
-! https://www.virustotal.com/gui/url/ecd1a2d3cddb614bd6efd1b9a8fb75253854ef5e9328039c92330ff30e4da71b?nocache=1
-! https://www.virustotal.com/gui/url/ab1e570882684a2d3f1ae7a9d6bd77ccccc6c9c015f5094b3d90088eab63b9c6?nocache=1
-||itisalllove.servepics.com^$all
-! https://www.virustotal.com/gui/file/daa6fa6c72c4f045eef9b09f12d4a975c4762a06677c68975773d76e7b429420/relations
-! https://www.virustotal.com/gui/url/f824ac71ca88b9a724f1f71b5e24ce19a00cb2ed22aab1f6eab26f135ca1528b
-||newme122.3utilities.com^$all
-
 ! https://www.virustotal.com/gui/file/2c9c18cd54e6e08db64b4b5e3f511624287c2ac2ac7d65693a1767424a871d1c/community
 ! https://www.virustotal.com/gui/url/cfd5d596ecaba5ca59d8d5d6f47d236296b7a0baad6e78e0749ef963aae6e31a
 ! https://www.virustotal.com/gui/url/cb7f165247e77e35cf883e04049428dec078c5d9c07f1acfbe538db115e39367
@@ -20118,10 +20067,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||postsupport.net^$all
 ||eu.postsupport.net^$all
 ||cleancrack.tech^$all
-||s1.cleancrack.tech^$all
 ||s4.cleancrack.tech^$all
 ||getblackk.biz^$all
-||chromesupdate.com^$all
+||chromesupdate.com^$document
 ||clickmatters.biz^$all
 ||fastred.biz^$all
 
@@ -20202,14 +20150,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||a.pomf.cat^$all
 
 ! https://www.virustotal.com/gui/file/8021eb6cfa850b00dc489a7c12f2132c7d93d66e7232799ab70ad09e1340f625/relations
-! https://www.virustotal.com/gui/url/20a5085acbd18f7c13633e26dd5a1d63b06ad4c0fc632766c7c43a602b4811ed
-||binatonezx.tk^$all
 ! https://www.virustotal.com/gui/url/bfe41e7ae9953fb749a76086e1e26bd0eebac2acad6e2aafcf919df5e973aa5e
 ||2.56.59.211^$all
 ! https://www.virustotal.com/gui/url/16973b168ca89e297f49805d259fe337d079f6d558408fc1a9e9ff8261a575ec
 ||chrisproperties.xyz^$all
-! https://www.virustotal.com/gui/url/d309da2c7d72c3a627f70b89617e602d981cbd1d9402beaf7a1b546d069dbc70?nocache=1
-||nestlex.tk^$all
 ! https://www.virustotal.com/gui/url/cbde34946a1dc932fc0e602c16acfee9ed7aea4e080cc645e0ec96411b48e9f1?nocache=1
 ||fuckme69.duckdns.org^$all
 
@@ -20280,55 +20224,24 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||49.89.70.101^$all
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
-! https://www.virustotal.com/gui/url/3a93bd6dab14b1d1186cebda290f17dd62180c208e12b413cc4f3eea129e3efe?nocache=1
-||cdn.megalixe.org^$all
 ! https://www.virustotal.com/gui/url/229181849ae5d036ff997645e9cf708d4fe96337d6e68e780777aee382fdccf1?nocache=1
 ||megalixe.org^$all
-||con.digital-speed.net^$all
-||apis.murdoog.org^$all
-||murdoog.org^$document
-||static.opendwin.com^$all
-||opendwin.com^$all
-||mantisadnetwork.org^$all
-||css.tevidon.com^$all
-||static.mantisadnetwork.org^$all
-||tevidon.com^$all
-||stage.sleefnote.com^$all
-||sleefnote.com^$document
 ||troadster.com^$all
 ||nypi.dc-storm.org^$all
 ||webflows.net^$all
 ||web.webflows.net^$all
-||js.speed-metrics.com^$all
 ||js.librarysetr.com^$all
 ||librarysetr.com^$all
-||app.rolfinder.com^$all
-||rolfinder.com^$document
-||libsconnect.net^$all
-||artesfut.com^$all
-||js.artesfut.com^$all
 ||js.rawgit.net^$all
 ||rawgit.net^$all
 ||js.demo-metrics.net^$all
 ||demo-metrics.net^$all
-||dev.crisconnect.net^$all
-||crisconnect.net^$all
-||m.brands-watch.com^$all
-||brands-watch.com^$all
-||cloud-chart.net^$all
-||graph.cloud-chart.net^$all
-||stage.libsconnect.net^$all
 ||hal-data.org^$all
 ||iofrontcloud.com^$all
 ||app.iofrontcloud.com^$all
 ||alligaturetrack.com^$all
-||tag.listrakbi.biz^$all
-||api.abtasty.net^$all
-||abtasty.net^$all
 ||cdn.getambassador.net^$all
 ||getambassador.net^$all
-||stst.climpstatic.com^$all
-||marklibs.com^$all
 ||cdn.cookieslaw.org^$all
 ||st.adsrvr.biz^$all
 ||clickcease.biz^$all
@@ -20346,9 +20259,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.virustotal.com/gui/domain/aman.xyz/relations
 ! https://www.virustotal.com/gui/url/19a46ea93a6974edf3b59461c1c91fb38ddc8286eb58ffd71dc1db594ff96747/community
 ||199.59.242.153^$all
-! https://www.virustotal.com/gui/url/4412e0845f54a4f300ad05e51a2c0bfa6b2fed45c4f35d0bccb09656598c87be?nocache=1
-||agulino.com^$all
-||ww1.agulino.com^$all
 
 ! https://www.virustotal.com/gui/file/c81515e12aadebbd63afbdcc3f469fb3ae6ac20fdee5d26af1ca23eb8a9aad30/relations
 ! https://www.virustotal.com/gui/file/9f62f582fc02ae7b3b5df9a8a90718a80773eed10828014cee2a938976ab056b/relations
@@ -20361,18 +20271,17 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||182.116.73.192^$all
 
 ! https://www.virustotal.com/gui/file/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/community
-! https://www.virustotal.com/gui/url/835ad0ffade5f6f724b1e1c460baf064777b90bc687272f1e9e82fa40b1807ef?nocache=1
-! https://www.virustotal.com/gui/url/fad3abb3cec6e93f82cebf924ef44621f8f377c60eafaf590df2081d7726dd8f?nocache=1
+! https://www.virustotal.com/gui/url/835ad0ffade5f6f724b1e1c460baf064777b90bc687272f1e9e82fa40b1807ef
+! https://www.virustotal.com/gui/url/fad3abb3cec6e93f82cebf924ef44621f8f377c60eafaf590df2081d7726dd8f
 ||115.58.71.181^$all
-||hk2ideous-wrench.xyz^$document
-! https://www.virustotal.com/gui/url/ec79057500371ef6fb530f75e8701e152bdefea363178003f01fee314bba9a0b?nocache=1
-! https://www.virustotal.com/gui/url/ac3bcc96e61fa61bc10f27784021448b8db0c1db7c5588188698adcc769de13b?nocache=1
+! https://www.virustotal.com/gui/url/ec79057500371ef6fb530f75e8701e152bdefea363178003f01fee314bba9a0b
+! https://www.virustotal.com/gui/url/ac3bcc96e61fa61bc10f27784021448b8db0c1db7c5588188698adcc769de13b
 ||182.117.182.173^$all
-! https://www.virustotal.com/gui/url/5772533fa93cc140ca683ec099307d250ae63a0a49df94136c8c8e01fc0072f1?nocache=1
+! https://www.virustotal.com/gui/url/5772533fa93cc140ca683ec099307d250ae63a0a49df94136c8c8e01fc0072f1
 ! https://www.virustotal.com/gui/url/c1f565264a9d658fb34f79460e2c0b6b23837c4f9d047e713439df36a57f6512
 ||27.5.44.161^$all
 ! https://www.virustotal.com/gui/url/aabfea4f2c8a304e8c86b381c254ad8f63fb1277ea0c0d6882c8faeb9b094aea
-! https://www.virustotal.com/gui/url/85f3716cb4936399e2da0c8f8e4be0176b28ac94d87b70c602ce24c19714fb26?nocache=1
+! https://www.virustotal.com/gui/url/85f3716cb4936399e2da0c8f8e4be0176b28ac94d87b70c602ce24c19714fb26
 ||42.228.217.88^$all
 ! https://www.virustotal.com/gui/url/b6571f86a056a911839e235d69aa420a290336bb0b3e507ca687b6f8ee028776?nocache=1
 ! https://www.virustotal.com/gui/url/f114e59a0da416a3d6532bddf74d15c00a5533310b006d8796f96fb1cb1fcbef?nocache=1
@@ -20426,11 +20335,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! https://github.com/uBlockOrigin/uAssets/commit/735e892964aca36946d9d6874aac9964acb94b10
 ||techgadgetsy.com^$all
-
-! https://safeweb.norton.com/report/show_mobile?name=pgnpjohkcx.duckdns.org
-! https://www.virustotal.com/gui/url/9cd8b029257dc3248e53908c69b36f56ca87ef4d39b41831c570a125b397054d?nocache=1
-! https://www.siteadvisor.com/sitereport.html?url=pgnpjohkcx.duckdns.org
-||pgnpjohkcx.duckdns.org^$all
 
 ! https://forums.malwarebytes.com/topic/280735-removal-instructions-for-gocouponsearch/
 ||gocouponsearch.com^$all
@@ -20496,34 +20400,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.rdietsch.com^$document
 ||rdietsch.com^$document
 
-! https://scammer.info/t/chase-phishing-3/83324
-||exploredate.com^$document
-
-! https://scammer.info/t/at-t-phishing-22/83323
-||attdkdjk.weebly.com^$document
-
 ! https://scammer.info/t/yahoo-phishing-4/83322
 ||yaahhraead.weebly.com^$document
 
-! https://scammer.info/t/at-t-phishing-21/83321
-||attlogservins.weebly.com^$document
-
-! https://scammer.info/t/xfinity-phishing-1/83320
-||xfolarankyy.weebly.com^$document
-
-! https://scammer.info/t/cox-communications-phishing-3/83319
-||onlinemainservercvs.weebly.com^$document
-
 ! https://scammer.info/t/redline-malware/83121
-||youtube.com/watch?v=H8_ufqH7ibo^$all
-||mega.nz/file/6wIT3a5T#KaU7PnHMohnW05E5FE6LOK47xJeCpKtqI4x_KfkLXHc^$document
 ||45.67.228.152^$document
-
-! https://scammer.info/t/paypal-phishing-10/83309
-||paysuportes.000webhostapp.com^$document
-
-! https://scammer.info/t/espiv-net-phishing-1/83315
-||espiv.weebly.com^$document
 
 ! https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html
 ||pcsecucheck.scienceontheweb.net^$all
@@ -20545,14 +20426,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.virustotal.com/gui/ip-address/46.242.232.202/relations
 ! https://www.virustotal.com/gui/url/75ea70d543f6009284e91be48b3b4d455d047380769f51bd4ba78ddf91ac5844
 ||fkty224wazne.pl^$all
-||www.fkty224wazne.pl^$all
 ! https://www.virustotal.com/gui/url/8b6e00f2a6355452de1fcd5e95360c75f1dedb1f5fc1299d530fdef3181079c2?nocache=1
 ||hosting2047279.online.pro^$document
-! same hosting
-||az-serwer1817112.online.pro^$all
-||hosting2024700.online.pro^$all
-||hosting2021623.online.pro^$all
-||hosting2086464.online.pro^$all
 
 ! https://www.virustotal.com/gui/url/5c3db4bc306f7e587391b493173af2bf4995d915a9675fb4dfddd68530a247ec
 ! https://www.virustotal.com/gui/url/7b60d15a9f6fd868fef0747607b1f13135c63fbebab0f2c243a52019e0246edd?nocache=1
@@ -20568,21 +20443,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hastrama.com^$all
 ! https://www.virustotal.com/gui/url/49084a6ebf5edfb36a61fd95a7f5acf47eebc6b597ac078f2b7514f4aba73d4c
 ||dfgerta.com^$all
-! https://www.virustotal.com/gui/url/60dcc5ca39b4980910ede80d6fe0a6e86f0fac3e6b7597425b19e941148a8867
-||adobeview.z13.web.core.windows.net^$all
 ||storage.googleapis.com/adobe-pdf-review/report.html^$all
 ||storage.googleapis.com/preview-pdf/report.html^$all
-! https://www.virustotal.com/gui/url/8bc4b7982df90fade63c415a9743fc28036abafb2dfba3b74b2c2008973b4caa
-||adobe-views.azurewebsites.net^$all
-||openpdf.z5.web.core.windows.net^$document
 ! https://www.virustotal.com/gui/url/a0c4731dfc864387318b5937bb509f0d73b866c12a5f1d3058234c30cf1dcf2b
 ||asdlfkasklf.com^$all
 ||aslflasf.com^$all
 ||falomana.com^$all
 ||gakosafd.com^$all
-||adobepdf.z13.web.core.windows.net^$all
-||adobe-view.azurewebsites.net^$all
-||adobe-pdf-review.azurewebsites.net^$all
 ||joramanmnbman.com^$all
 
 ! https://www.virustotal.com/gui/file/7930bf3f1be9acdf429e2433aa7d0c36985d9a97e580571fee1ffe8cbc0d8f5a/community
@@ -20670,7 +20537,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hh3valve.com^$all
 ||g-localdevice.biz^$all
 ||querahinor.xyz^$all
-||t.gogamec.com^$all
 ||gogamec.com^$all
 ||server9.trumops.com^$all
 ||trumops.com^$document
@@ -22403,14 +22269,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||download2338.mediafire.com/9j4nj1ohhgug/eeqo14m9t7mqvdr/Install.rar^$all
 
 ! https://blog.malwarebytes.com/threat-intelligence/2022/06/client-side-magecart-attacks-still-around-but-more-covert/
-||abtasty.net^$all
 ||accdn.lpsnmedia.org^$all
 ||amplify.outbrains.net^$all
-||apis.murdoog.org^$all
 ||app.iofrontcloud.com^$all
 ||app.nomalert.org^$all
 ||app.purechat.org^$all
-||app.rolfinder.com^$all
 ||cdn.accutics.org^$all
 ||cdn.alexametrics.net^$all
 ||cdn.alligaturetrack.com^$all
@@ -22424,52 +22287,35 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cdn.pinnaclecart.io^$all
 ||cdn.speedcurve.org^$all
 ||cdn.tomafood.org^$all
-||clickcease.biz^$all
 ||common.quatserve.com^$all
-||con.digital-speed.net^$all
 ||content.digital-metric.org^$all
-||css.tevidon.com^$all
 ||demo-metrics.net^$all
-||dev.crisconnect.net^$all
 ||dwin1.org^$all
 ||epos.bayforall.biz^$all
 ||feedaty.org^$all
-||graph.cloud-chart.net^$all
 ||h.lookmind.net^$all
 ||hal-data.org^$all
 ||img.etakeawaymax.biz^$all
-||js.artesfut.com^$all
 ||js.g-livestatic.com^$all
 ||js.imagero.org^$all
-||js.librarysetr.com^$all
-||libsconnect.net^$all
 ||listrakbi.io^$all
 ||lp.celebrosnlp.org^$all
-||m.brands-watch.com^$all
 ||m.sleeknote.org^$all
 ||marklibs.com^$all
-||nypi.dc-storm.org^$all
-||opendwin.com^$all
 ||pepperjams.org^$all
 ||px.owneriq.org^$all
 ||r.klarnacdn.org^$all
-||rawgit.net^$all
-||rolfinder.com^$all
 ||s1.listrakbi.org^$all
 ||sdk.moonflare.org^$all
 ||search.global-search.net^$all
 ||shopvisible.org^$all
 ||sjsmartcontent.org^$all
 ||snapengage.io^$all
-||st.adsrvr.biz^$all
-||stage.sleefnote.com^$all
 ||stat-analytics.org^$all
 ||static.clarlity.com^$all
 ||static.druapps.org^$all
 ||static.lookmetric.com^$all
-||static.mantisadnetwork.org^$all
 ||static.newrelc.net^$all
-||static.opendwin.com^$all
 ||t.trackedlink.org^$all
 ||troadster.com^$all
 ||trustedport.org^$all
@@ -23114,7 +22960,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||akintor.com^$all
 ||alabamamedicaid.org^$all
 ||alamoinsurancegroup.com^$all
-||alhizaperfumes.co
+||alhizaperfumes.co^$all
 ||allsttae.com^$all
 ||alojamientogratuito.info^$all
 ||altesino.com^$all
@@ -26226,6 +26072,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||1263dcb80ec5.789offers.net^$all
 ||789offers.net^$document
 
+! https://forums.malwarebytes.com/topic/291952-mb-keeps-finding-same-4-pups/#comment-1541507
+||a.wilycaptcha.live^$all
+||wilycaptcha.live^$document
+||captchasee.live^$document
+||captchatotal.live^$document
+||pushycaptcha.live^$document
+
 ! ----- PUPs -----
 
 ! https://www.virustotal.com/gui/url/c7e3137c4baaad64dcbbafd1938f581f264944fa1e2c1aa1ebcff77ed2959082/links
@@ -26901,16 +26754,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 29/10/2022
+! Last updated: 12/11/2022
 
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 ! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
-xn--gogle-jua.com$all
+||xn--gogle-jua.com^$all
 ! https://www.mywot.com/scorecard/vrustotal.com
 ! https://safeweb.norton.com/report/show?url=vrustotal.com
-vrustotal.com$document
+||vrustotal.com^$document
 ! https://www.virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
 ! https://www.virustotal.com/gui/domain/googlec.om/detection
 ! https://www.siteadvisor.com/sitereport.html?url=http%3A%2F%2Fgooglec.om
@@ -26919,245 +26772,245 @@ vrustotal.com$document
 ! https://sitecheck.sucuri.net/results/googlec.om
 ! https://safeweb.norton.com/reviews?url=googlec.om
 ! Can not resolve host but might come back some day
-googlec.om$all
+||googlec.om^$all
 ! https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
 ! https://www.urlvoid.com/scan/accountgoogle.com/
 ! https://www.mywot.com/scorecard/accountgoogle.com
-accountgoogle.com$all
-accountsgoogle.net$all
-googlesignin.xyz$all
-signingoogle.xyz$all
-logingoogle.xyz$all
+||accountgoogle.com^$all
+||accountsgoogle.net^$all
+||googlesignin.xyz^$all
+||signingoogle.xyz^$all
+||logingoogle.xyz^$all
 ! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
-malwarebytes.xyz$doc
+||malwarebytes.xyz^$doc
 !!! w3school.com$document
 ! https://github.com/easylist/easylist/pull/7950
 ! https://www.siteadvisor.com/sitereport.html?url=xozilla.com
 !!! xozilla.com$all
 ! https://sitecheck.sucuri.net/results/bit.lu
-bit.lu$doc
+||bit.lu^$doc
 ! https://www.mywot.com/scorecard/alwarebytes.com
-alwarebytes.com$document
+||alwarebytes.com^$document
 ! inkbunny[.]net typosquatt
-inkbunny.xyz$document
+||inkbunny.xyz^$document
 ! duckDuckGo typosquatt - https://www.fortiguard.com/webfilter?q=dukduckgo.com&version=8
-dukduckgo.com$document
+||dukduckgo.com^$document
 ! https://blog.dynamoo.com/2011/04/alisa-cartercom-lizamooncom-and-worid.html
 ! https://safeweb.norton.com/report/show?url=google-1aa.com
-google-1aa.com$all
+||google-1aa.com^$all
 ! https://safeweb.norton.com/report/show?url=googlesite.ws
-googlesite.ws$document
+||googlesite.ws^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85224
-www.youtubewon.com$document
-youtubewon.com$document
+||www.youtubewon.com^$document
+||youtubewon.com^$document
 ! https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
 ! https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
-paypl.com$all
-paypal.xyz$document
+||paypl.com^$all
+||paypal.xyz^$document
 ! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
-payapl.com$all
+||payapl.com^$all
 ! https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
 ! https://www.siteadvisor.com/sitereport.html?url=cchase.com
-cchase.com$document
+||cchase.com^$document
 ! https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
 ! https://www.mywot.com/scorecard/blogsopt.com
-blogsopt.com$all
+||blogsopt.com^$all
 ! https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
 ! https://www.mywot.com/scorecard/g0ogle.com
-g0ogle.com$document
+||g0ogle.com^$document
 ! https://github.com/SOBotics/Belisarius/issues/5
-stackoverflows.com$document
+||stackoverflows.com^$document
 ! https://safeweb.norton.com/reviews?url=googe.com
-googe.com$all
+||googe.com^$all
 ! https://forum.mywot.com/24626-whatsmyipaddress-com
-whatsmyipaddress.com$document
+||whatsmyipaddress.com^$document
 ! https://www.fortiguard.com/webfilter?q=appple.com&version=8
-appple.com$all
-bankofamericaa.com$document
-rasberrypi.org$document
-google.xyz$document
+||appple.com^$all
+||bankofamericaa.com^$document
+||rasberrypi.org^$document
+||google.xyz^$document
 ! https://www.scamner.com/check/irs.guv
-irs.guv$document
+||irs.guv^$document
 ! Look-alikes using non-ascii
-discōrd.com$document
-xn--discrd-egb.com$document
-rėddit.com$document
-xn--rddit-6za.com$document
+||discōrd.com^$document
+||xn--discrd-egb.com^$document
+||rėddit.com^$document
+||xn--rddit-6za.com^$document
 ! https://www.virustotal.com/gui/user/Site.safetychecker
 ! https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
-yotube.com$all
+||yotube.com^$all
 ! https://github.com/rcmaehl/WhyNotWin11/issues/66
-whynotwin11.com$document
+||whynotwin11.com^$document
 ! https://github.com/blocklistproject/Lists/blob/master/malware.txt
 ! https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 ! https://www.siteadvisor.com/sitereport.html?url=01apple.com
-01apple.com$all
+||01apple.com^$all
 ! Does not resolve to anything - yet...
-duckduckgo.net$document
+||duckduckgo.net^$document
 ! Might be typosquatts of yahoo
-yahooc.com$document
-yahooc.om$document
+||yahooc.com^$document
+||yahooc.om^$document
 ! https://www.virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
-virustotl.com$document
+||virustotl.com^$document
 ! https://www.virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
-yutube.com$document
+||yutube.com^$document
 ! https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
 ! https://safeweb.norton.com/report/show?url=virusttal.com
-virusttal.com$document,popup
+||virusttal.com^$document,popup
 ! https://www.virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
 ! https://www.siteadvisor.com/sitereport.html?url=virustota.com
 ! https://safeweb.norton.com/report/show?url=virustota.com
-virustota.com$all
+||virustota.com^$all
 
 ! https://www.virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
 ! https://safeweb.norton.com/report/show?url=discordapp.cam
 ! https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
-discordapp.cam$all
+||discordapp.cam^$all
 
-old.ereddit.com$document
-ereddit.com$document
-craisglist.org$document
+||old.ereddit.com^$document
+||ereddit.com^$document
+||craisglist.org^$document
 ! https://new.reddit.com/r/dwarffortress/comments/e4srco/be_sure_to_use_org_instead_of_com_when_going_to/
-dwarffortresswiki.com$doc
+||dwarffortresswiki.com^$doc
 
-bitdefneder.com$document
+||bitdefneder.com^$document
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/09/the-many-tentacles-of-magecart-group-8/
-googheusercontent.com$document
-googlatagmanager.com$document
-googlausercontent.com$document
-google5sercontent.com$document
-googleafalytics.com$document
-googleanadytics.com$document
-googleanahytics.com$document
-googleanal9tics.com$document
-googleanalxtics.com$document
-googleanaly4ics.com$document
-googleanalydics.com$document
-googleanalypics.com$document
-googleanalytacs.com$document
-googleanalytias.com$document
-googleanalytibs.com$document
-googleanalyticc.com$document
-googleanalyticr.com$document
-googleanalyticw.com$document
-googleanalytigs.com$document
-googleanalytiks.com$document
-googleanalytkcs.com$document
-googleanalytmcs.com$document
-googleanalytycs.com$document
-googleanalyuics.com$document
-googleanalyvics.com$document
-googleanamytics.com$document
-googleananytics.com$document
-googleanclytics.com$document
-googleanelytics.com$document
-googleanilytics.com$document
-googleanqlytics.com$document
-googleaoalytics.com$document
-googlecnalytics.com$document
-googledagmanager.com$document
-googleenalytics.com$document
-googleesercontent.com$document
-googleinalytics.com$document
-googlepagmanager.com$document
-googleqnalytics.com$document
-googleqsercontent.com$document
-googletacmanager.com$document
-googletaemanager.com$document
-googletag-anager.com$document
-googletageanager.com$document
-googletagianager.com$document
-googletaglanager.com$document
-googletagmafager.com$document
-googletagmajager.com$document
-googletagmalager.com$document
-googletagmanacer.com$document
-googletagmanaeer.com$document
-googletagmanafer.com$document
-googletagmanagar.com$document
-googletagmanagdr.com$document
-googletagmanage2.com$document
-googletagmanageb.com$document
-googletagmanagep.com$document
-googletagmanages.com$document
-googletagmanagev.com$document
-googletagmanagez.com$document
-googletagmanaggr.com$document
-googletagmanagmr.com$document
-googletagmanagur.com$document
-googletagmanaoer.com$document
-googletagmanawer.com$document
-googletagmancger.com$document
-googletagmaneger.com$document
-googletagmaniger.com$document
-googletagmanqger.com$document
-googletagmaoager.com$document
-googletagmcnager.com$document
-googletagminager.com$document
-googletagmqnager.com$document
-googletagoanager.com$document
-googletaomanager.com$document
-googletawmanager.com$document
-googletcgmanager.com$document
-googletigmanager.com$document
-googletqgmanager.com$document
-googletsercontent.com$document
-googleu3ercontent.com$document
-googleuagmanager.com$document
-googleucercontent.com$document
-googleuqercontent.com$document
-googleurercontent.com$document
-googleusarcontent.com$document
-googleusdrcontent.com$document
-googleuse2content.com$document
-googleusebcontent.com$document
-googleusepcontent.com$document
-googleuseraontent.com$document
-googleuserbontent.com$document
-googleusercgntent.com$document
-googleuserckntent.com$document
-googleusercmntent.com$document
-googleusercnntent.com$document
-googleusercoftent.com$document
-googleusercojtent.com$document
-googleusercoltent.com$document
-googleusercon4ent.com$document
-googleusercondent.com$document
-googleuserconpent.com$document
-googleusercontant.com$document
-googleusercontdnt.com$document
-googleuserconteft.com$document
-googleusercontejt.com$document
-googleusercontelt.com$document
-googleuserconten4.com$document
-googleusercontend.com$document
-googleusercontenp.com$document
-googleusercontenu.com$document
-googleusercontenv.com$document
-googleuserconteot.com$document
-googleusercontgnt.com$document
-googleusercontmnt.com$document
-googleusercontunt.com$document
-googleuserconuent.com$document
-googleusescontent.com$document
-googleusgrcontent.com$document
-googleusmrcontent.com$document
-googlevagmanager.com$document
-googlganalytics.com$document
-googluanalytics.com$document
-googlutagmanager.com$document
-googmeanalytics.com$document
+||googheusercontent.com^$document
+||googlatagmanager.com^$document
+||googlausercontent.com^$document
+||google5sercontent.com^$document
+||googleafalytics.com^$document
+||googleanadytics.com^$document
+||googleanahytics.com^$document
+||googleanal9tics.com^$document
+||googleanalxtics.com^$document
+||googleanaly4ics.com^$document
+||googleanalydics.com^$document
+||googleanalypics.com^$document
+||googleanalytacs.com^$document
+||googleanalytias.com^$document
+||googleanalytibs.com^$document
+||googleanalyticc.com^$document
+||googleanalyticr.com^$document
+||googleanalyticw.com^$document
+||googleanalytigs.com^$document
+||googleanalytiks.com^$document
+||googleanalytkcs.com^$document
+||googleanalytmcs.com^$document
+||googleanalytycs.com^$document
+||googleanalyuics.com^$document
+||googleanalyvics.com^$document
+||googleanamytics.com^$document
+||googleananytics.com^$document
+||googleanclytics.com^$document
+||googleanelytics.com^$document
+||googleanilytics.com^$document
+||googleanqlytics.com^$document
+||googleaoalytics.com^$document
+||googlecnalytics.com^$document
+||googledagmanager.com^$document
+||googleenalytics.com^$document
+||googleesercontent.com^$document
+||googleinalytics.com^$document
+||googlepagmanager.com^$document
+||googleqnalytics.com^$document
+||googleqsercontent.com^$document
+||googletacmanager.com^$document
+||googletaemanager.com^$document
+||googletag-anager.com^$document
+||googletageanager.com^$document
+||googletagianager.com^$document
+||googletaglanager.com^$document
+||googletagmafager.com^$document
+||googletagmajager.com^$document
+||googletagmalager.com^$document
+||googletagmanacer.com^$document
+||googletagmanaeer.com^$document
+||googletagmanafer.com^$document
+||googletagmanagar.com^$document
+||googletagmanagdr.com^$document
+||googletagmanage2.com^$document
+||googletagmanageb.com^$document
+||googletagmanagep.com^$document
+||googletagmanages.com^$document
+||googletagmanagev.com^$document
+||googletagmanagez.com^$document
+||googletagmanaggr.com^$document
+||googletagmanagmr.com^$document
+||googletagmanagur.com^$document
+||googletagmanaoer.com^$document
+||googletagmanawer.com^$document
+||googletagmancger.com^$document
+||googletagmaneger.com^$document
+||googletagmaniger.com^$document
+||googletagmanqger.com^$document
+||googletagmaoager.com^$document
+||googletagmcnager.com^$document
+||googletagminager.com^$document
+||googletagmqnager.com^$document
+||googletagoanager.com^$document
+||googletaomanager.com^$document
+||googletawmanager.com^$document
+||googletcgmanager.com^$document
+||googletigmanager.com^$document
+||googletqgmanager.com^$document
+||googletsercontent.com^$document
+||googleu3ercontent.com^$document
+||googleuagmanager.com^$document
+||googleucercontent.com^$document
+||googleuqercontent.com^$document
+||googleurercontent.com^$document
+||googleusarcontent.com^$document
+||googleusdrcontent.com^$document
+||googleuse2content.com^$document
+||googleusebcontent.com^$document
+||googleusepcontent.com^$document
+||googleuseraontent.com^$document
+||googleuserbontent.com^$document
+||googleusercgntent.com^$document
+||googleuserckntent.com^$document
+||googleusercmntent.com^$document
+||googleusercnntent.com^$document
+||googleusercoftent.com^$document
+||googleusercojtent.com^$document
+||googleusercoltent.com^$document
+||googleusercon4ent.com^$document
+||googleusercondent.com^$document
+||googleuserconpent.com^$document
+||googleusercontant.com^$document
+||googleusercontdnt.com^$document
+||googleuserconteft.com^$document
+||googleusercontejt.com^$document
+||googleusercontelt.com^$document
+||googleuserconten4.com^$document
+||googleusercontend.com^$document
+||googleusercontenp.com^$document
+||googleusercontenu.com^$document
+||googleusercontenv.com^$document
+||googleuserconteot.com^$document
+||googleusercontgnt.com^$document
+||googleusercontmnt.com^$document
+||googleusercontunt.com^$document
+||googleuserconuent.com^$document
+||googleusescontent.com^$document
+||googleusgrcontent.com^$document
+||googleusmrcontent.com^$document
+||googlevagmanager.com^$document
+||googlganalytics.com^$document
+||googluanalytics.com^$document
+||googlutagmanager.com^$document
+||googmeanalytics.com^$document
 
 ! random domains
-pay-pal.club$document
-tw1tch.info$document
-cioubfiare.com$document
+||pay-pal.club^$document
+||tw1tch.info^$document
+||cioubfiare.com^$document
 ||exampe.com^$document
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
-cdn.cookieslaw.org$all
-cookieslaw.org$doc
+||cdn.cookieslaw.org^$all
+||cookieslaw.org^$doc
 
 ! https://twitter.com/Artilllerie/status/1534076124829036544
 ||bbleepingcomputer.com^$document
@@ -27213,7 +27066,7 @@ cookieslaw.org$doc
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 11November2022v1
+! Version: 12November2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -28672,7 +28525,7 @@ $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobi
 $removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 ! https://github.com/DandelionSprout/adfilt/pull/474
 ! https://user.qzone.qq.com/1250252459?source=aiostar (01/02/2022)
-$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
+$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
@@ -28717,7 +28570,7 @@ $removeparam=trk,domain=splashthat.com|aws.amazon.com|aws|xkcd.com
 ||amazon.*^$removeparam=crid
 ||amazon.*^$removeparam=/^cv_ct_/
 !!! ||amazon.$removeparam=ie - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2611566
-||amazon.*^$removeparam=rnid
+!!! ||amazon.*^$removeparam=rnid - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4123725
 ! ||amazon.$removeparam=s
 ||amazon.*^$removeparam=sprefix
 ||amazon.*^$removeparam=ac_md
@@ -30856,6 +30709,10 @@ $document,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch
 
 ! https://sp.seiga.nicovideo.jp/comic/33962?track=mym_favorite
 ||nicovideo.jp/comic^$removeparam=track
+
+! https://www.onenote.com/notebooks?auth=1&nf=1&fromAR=1 (The result of using the «OneNote Online» Chrome "app" that simply opens a OneDrive tab)
+||onenote.com^$removeparam=nf
+||onenote.com^$removeparam=fromAR
 
 !#if !env_mobile
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
