@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 11November2022v4
+! Version: 13November2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -232,7 +232,7 @@ majorgeeks.com#?#b:has(a[target^=reimage])
 ! ¤¤¤ ScanUtilities ¤¤¤
 ! https://www.bynarycodes.com/fix-windows-10-update-error-0x80070006/
 bynarycodes.com##div[class^=bynar-content_]
-bynarycodes.com#?#.panel:has-text(a[href*="scanutilities.com"])
+bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
 ! ¤¤¤ Driver Easy ¤¤¤
 ! https://www.drivereasy.com/knowledge/fix-critical-service-failed-blue-screen-error-on-windows-10/
 drivereasy.com#?#.pakb-content ol:has-text(Download and install Driver Easy)
@@ -11976,11 +11976,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://yandex.com/safety/?url=google-stats50.info
 ! https://www.fortiguard.com/webfilter?q=http%3A%2F%2Fgoogle-stats50.info&version=8
 ||google-stats50.info^$all
-! https://safeweb.norton.com/report/show?url=pop-stats.info
-! https://www.mywot.com/scorecard/pop-stats.info
-! https://www.fortiguard.com/webfilter?q=http%3A%2F%2Fpop-stats.info&version=8
-||pop-stats.info^$3p
-||pop-stats.info^$document,popup
 ! https://safeweb.norton.com/report/show?url=sol-stats.info
 ! https://www.mywot.com/scorecard/sol-stats.info
 ! https://www.virustotal.com/gui/url/7a926e631e4f31819fe1473b49df3cbefbc6d538f6db674fcc6f86e942eace63/detection
@@ -11992,11 +11987,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.virustotal.com/gui/url/938e2c8a1c9fe1b6dabb5131997170ee032a2498da57181e8652952b9da8b732/detection
 ! https://sitecheck.sucuri.net/results/online-guest.info
 ||online-guest.info^$all
-! https://www.mywot.com/scorecard/google-stats48.info
-! https://sitecheck.sucuri.net/results/google-stats48.info
-! https://yandex.com/safety/?url=http://google-stats48.info
-||google-stats48.info^$3p
-||google-stats48.info^$document
 ! https://www.virustotal.com/gui/url/7b1a3dad055efc6c78dd9f15045ca5e8ddb373b49a9c7a1e3db0809ee6eadb1c/detection
 ! https://safeweb.norton.com/report/show?url=http://multi-stats.info
 ! https://www.mywot.com/scorecard/multi-stats.info
@@ -12562,7 +12552,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.virustotal.com/gui/url/8d91b224b62e8002ab9bfa5314717fc61a2cd2c74e228f26093decdd070bfb0a/detection
 ! https://safeweb.norton.com/report/show?url=blastnotificationx.com
 ||blastnotificationx.com^$document
-||blastnotificationx.com^$3p
 
 ! https://www.virustotal.com/gui/ip-address/54.38.220.85/relations
 ! https://www.virustotal.com/gui/url/6dea788ead6c71535df1b3ff4c74f3db9a7230509a3f1586d8a8a3e2fbebc678/detection
@@ -20226,7 +20215,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
 ! https://www.virustotal.com/gui/url/229181849ae5d036ff997645e9cf708d4fe96337d6e68e780777aee382fdccf1?nocache=1
 ||megalixe.org^$all
-||troadster.com^$all
 ||nypi.dc-storm.org^$all
 ||webflows.net^$all
 ||web.webflows.net^$all
@@ -20235,14 +20223,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||js.rawgit.net^$all
 ||rawgit.net^$all
 ||js.demo-metrics.net^$all
-||demo-metrics.net^$all
-||hal-data.org^$all
 ||iofrontcloud.com^$all
-||app.iofrontcloud.com^$all
 ||alligaturetrack.com^$all
-||cdn.getambassador.net^$all
 ||getambassador.net^$all
-||cdn.cookieslaw.org^$all
 ||st.adsrvr.biz^$all
 ||clickcease.biz^$all
 ||89.108.127.254^$all
@@ -21043,7 +21026,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||4howcrack.com^$all
 ||crackshere.com^$all
 ||crackdj.com^$all
-||procrackpc.com^$all
 ||cracksray.com^$all
 ||crackkits.com^$all
 ||trycracksoftware.com^$all
@@ -21051,7 +21033,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cracktopc.com^$all
 ||filepapa.com^$all
 ||crackkey4u.com^$all
-||cyberspc.com^$all
 ||rootcracks.org^$all
 ||getproductkey.co^$all
 ||idmfullcrack.info^$all
@@ -21345,7 +21326,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mediafire.com/coe39m9f9tyg/pu0m2luacc3fh8h/file-password___2345%282%29.rar$all
 
 ! fake Flash Player
-||lekms.com^$document
 ||restorehighlyadvancedthefile.vip^$all
 ||restorecurrenthighlythefile.vip^$all
 ||microsoftedge.microsoft.com/addons/detail/ecosia-the-search-engin/fhfidmlnclkepgapcephbaciajegheco^$doc
@@ -22317,12 +22297,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||static.lookmetric.com^$all
 ||static.newrelc.net^$all
 ||t.trackedlink.org^$all
-||troadster.com^$all
 ||trustedport.org^$all
 ||web.dwin-co.jp^$all
 ||web.livechatsinc.net^$all
 ||web.speedstester.com^$all
-||web.webflows.net^$all
 ||185.253.32.174^$all
 ||185.253.32.42^$all
 ||185.253.32.44^$all
@@ -24431,7 +24409,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||helpmight.online^$all
 ||cakemoney004.space^$document
 ||cakemoney005.space^$document
-||listen-heres.com^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/1.md
 ||updsec.builtfromzero.com^$all
