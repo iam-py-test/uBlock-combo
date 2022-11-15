@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 13November2022v1
+! Version: 15November2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -4814,6 +4814,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||69.162.80.56^$all,~inline-font,~inline-script
 ! Random Discord servers
 ||newntflix-$doc,popup
+||giveawaycord.$all,~inline-font,~inline-script
 ||162.241.124.200^$doc
 
 ! ——— Standard malware that I stumbled upon on my own ———
@@ -11233,8 +11234,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 12/11/2022
-! Version: 12112022-2
+! Last updated: 14/11/2022
+! Version: 14112022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -22397,7 +22398,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! https://forums.malwarebytes.com/topic/287876-im-posting-a-malware-to-ask-if-anyone-know-the-type-of-this-malware/
 ||gg.gg/11600n^$document
-||anonfiles.com/13X0qbj5y9/RiseSkinchanger_rar^$all
 ||baconaces.pro^$document
 ||cdn.adx1.com/df60634899739d9c8ce9ae33940358dd.jpeg^$all
 ||cdn.adx1.com/8b678aab9185cb333cc7c1bf3442adcb.jpeg^$all
@@ -22412,6 +22412,63 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||safefastfreesmart.rest^$document
 ||rewards-giant.uk^$document
 ||bepoha.live^$all
+! (14/11/2022) https://app.any.run/tasks/508eecd4-0573-433f-9888-ea4bfe10e5d5
+||fbuww.ewoverth.buzz^$all
+||ewoverth.buzz^$all
+||cemgf.ewoverth.buzz^$all
+||paylk.ewoverth.buzz^$all
+||krtbw.ewoverth.buzz^$all
+||lyirs.ewoverth.buzz^$all
+||stijy.ewoverth.buzz^$all
+||pwazc.ewoverth.buzz^$all
+||uxdpj.ewoverth.buzz^$all
+||jxaox.ewoverth.buzz^$all
+||fqdbx.ewoverth.buzz^$all
+||qakbs.ewoverth.buzz^$all
+||wfarv.ewoverth.buzz^$all
+||tepmv.ewoverth.buzz^$all
+||ivuvh.ewoverth.buzz^$all
+||rqsyl.ewoverth.buzz^$all
+||hhqdq.ewoverth.buzz^$all
+||eysei.ewoverth.buzz^$all
+||jdmhf.ewoverth.buzz^$all
+||xdgip.ewoverth.buzz^$all
+||qdudm.ewoverth.buzz^$all
+||xdnpv.ewoverth.buzz^$all
+||ytsiw.ewoverth.buzz^$all
+||aqxzv.ewoverth.buzz^$all
+||akawl.ewoverth.buzz^$all
+||pvrqg.ewoverth.buzz^$all
+||oyffo.ewoverth.buzz^$all
+||woorz.ewoverth.buzz^$all
+||whqqm.ewoverth.buzz^$all
+||apgib.ewoverth.buzz^$all
+||bsrhu.ewoverth.buzz^$all
+||lipwq.ewoverth.buzz^$all
+||yzivj.ewoverth.buzz^$all
+||cgwvb.ewoverth.buzz^$all
+||zijim.ewoverth.buzz^$all
+||fvpki.ewoverth.buzz^$all
+||deqkr.ewoverth.buzz^$all
+||qtngs.ewoverth.buzz^$all
+||jgdvx.ewoverth.buzz^$all
+||vovle.ewoverth.buzz^$all
+||oqcqa.ewoverth.buzz^$all
+||nruzo.ewoverth.buzz^$all
+||cnwlv.ewoverth.buzz^$all
+||waneo.ewoverth.buzz^$all
+||fmrdm.ewoverth.buzz^$all
+||pzktf.ewoverth.buzz^$all
+||uivzc.ewoverth.buzz^$all
+! look-alike domains on the same IP, some with AV detections
+||sweredth.buzz^$document
+||reamsan.buzz^$document
+||ecityalittl.buzz^$document
+||toftheussi.xyz^$document
+||sfriend.buzz^$document
+||ewallowi.buzz^$document
+! trys to install extension
+||antivirushub.co^$all
 
 ! https://forums.malwarebytes.com/topic/288114-website-blocked-due-to-riskware-wmail-endpointcom-and-wmail-chatcom/
 ||wmail-endpoint.com^$document
@@ -24052,6 +24109,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! a "Yahoo" email claiming I will be locked out if I don't "correct my email"
 ||yahooo-mail-service.webflow.io^$all
 
+! https://app.any.run/tasks/1dafbc8d-84d8-4e42-a96a-fffdc9d644e7/
+||kmspico-official.xyz^$all
+
+! https://forums.malwarebytes.com/topic/292016-keep-getting-outbound-website-blocked-due-to-trojan-cant-find-threats/
+||humman.art^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -24711,7 +24774,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.jsscportal.co^$all
 ||jsscportal.co^$all
 ||slqome.knewkeptthe.top^$all
-||knewkeptthe.top^$document
 ||fast.captoro.co^$all
 ||tuckets.moanas.us^$all
 ||static.cdnativepush.com/contents/s/b8/4e/1d/153294973f0fff7258e8f43d7c/0647024544646.jpeg^$all
@@ -25770,7 +25832,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ebaaa.xyz^$all
 ||uprimp.com^$document
 ||odaba.live^$all
-||us.r-q.media^$document
 
 ! https://www.youtube.com/watch?v=se4HVtBN3bM
 ||postoffice-depot38.com^$document
@@ -25895,9 +25956,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://app.any.run/tasks/a7cc86ee-a604-4a65-968c-26c237620b2b (nsfw)
 ||girlluscious.com^$document
 ||fuckbook.tv^$document
-||hushlove.com^$document
 ||a.montnotimex.top^$all
 ||b.montnotimex.top^$all
+||montnotimex.top^$document
 ||sexybltch.net^$document
 
 ! https://www.youtube.com/watch?v=6e7MsoThffo
@@ -25976,7 +26037,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||getlaid-chat.com^$document
 ||hottieswantu.com^$document
 ||offers.usabangpalace.com^$document
-||jucydate.com^$document
 ||w86a5jeili53sd6j26lv71h0.find-singles-online.com^$all
 ||find-singles-online.com^$document
 
@@ -26055,6 +26115,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||captchasee.live^$document
 ||captchatotal.live^$document
 ||pushycaptcha.live^$document
+
+! https://app.any.run/tasks/c87a34ca-0d2f-43cb-be6d-8f48506bd723
+||ftuyn.ewoverth.buzz^$all
+||elooksjustli.one^$document
+||www10.davisonbarker.pro^$document
+||www24.davisonbarker.pro^$document
 
 ! ----- PUPs -----
 
@@ -26280,6 +26346,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||totaladblock.com^$document
 ||www.totaladblock.com^$document
 ||download.totaladblock.com^$document
+||blockpage.totaladblock.com^$all
+||stats.totaladblock.com^$all
+||affiliates.totaladblock.com^$document
+||affiliate.totaladblock.com^$document
+||url.totaladblock.com^$document
+||api.totaladblock.com^$document
 
 ! Found in the shady Bing ads when searching for ADWCleaner
 ! Before downloading, ADWCleaner detected no adware. After downloading, ADWCleaner detected adware, which included the program. Program claims that buying the paid version (and entering private data) will fix issues with a clean VM. 
@@ -26423,6 +26495,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://github.com/DandelionSprout/adfilt/issues/254
 ! https://blog.malwarebytes.com/detections/onesafe-software-com/
 ||onesafesoftware.com^$all
+||vpn.onesafesoftware.com^$all
+||blog.onesafesoftware.com^$all
+||drivers.onesafesoftware.com^$all
+||updates.onesafesoftware.com^$all
+||support.onesafesoftware.com^$all
+||cdn.onesafesoftware.com^$all
+||subscriptions.onesafesoftware.com^$all
+||notifications.onesafesoftware.com^$all
+||stats.onesafesoftware.com^$all
+||www.onesafesoftware.com^$all
 
 ! https://www.virustotal.com/gui/file/a6e89d2bb1c2da1d852fb8e248f39cf7b3d4b0ea05a8d8f343d1b8e74d271d43/relations
 ||driversupport.com^$document
@@ -26492,6 +26574,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! The PUP from this website looks like a past one; maybe a variant or another download location
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/PCCleaner_1
 ||advancedsystemrepair.com^$all
+||support.advancedsystemrepair.com^$all
+||secure.advancedsystemrepair.com^$all
+||lp.advancedsystemrepair.com^$all
+||track.advancedsystemrepair.com^$all
+||www.advancedsystemrepair.com^$all
+||checkout.advancedsystemrepair.com^$all
 
 ! Found this PUP on someone else's computer, so I decided to figure more about it. It does look very old; even the UI sometimes looks like Windows 7 despite the VM running 10
 ! The (working) installer (from Softonic) - https://www.virustotal.com/gui/file/863adfe03c1ea35c424817274eabe4eef02fe4a2d6428f8718e61655fb8bc49c/detection
@@ -26514,6 +26602,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! WinZip ads
 ! https://www.virustotal.com/gui/url/cad59b610a95e69019638d171c2df89adb7eac183968e102e37396b806fa57bd/community
 ||winzipdriverupdater.com^$all
+||slowness.winzipdriverupdater.com^$all
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/5/1.md
 ||certified.windowserrorhelp.com^$document
@@ -26525,6 +26614,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://en.wikipedia.org/wiki/SpyHunter_(software)
 ||www.enigmasoftware.com^$document
 ||enigmasoftware.com^$document
+||installer.enigmasoftware.com^$all
+||download.enigmasoftware.com^$document
+||dl.enigmasoftware.com^$document
+||instcfg.enigmasoftware.com^$all
+||tt.web.enigmasoftware.com^$document
 ||spyhunter.com^$document
 ||www.spyhunter.com^$document
 
@@ -26565,12 +26659,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://www.virustotal.com/gui/url/889d00904cb6a9fa09248bab674f8d908ad0f165df96a41f58cd91f40c8017d7?nocache=1
 ||souffcomo.gq^$document
 
-! https://forums.malwarebytes.com/topic/286395-microsoft-edge-custom-search-bar-extension-redirects-to-rbfastsearchme/
-||customsearchbar.me^$document
-||rb.fastsearch.me^$all
-! https://forums.malwarebytes.com/topic/287338-browser-hi-jacker-royb2fastsearchme/
-||royb2.fastsearch.me^$all
-
 ! Bundled installer & PUP
 ||www.sysdriverupdater.com^$document
 ||sysdriverupdater.com^$document
@@ -26586,6 +26674,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||optimizerupdate.com^$all
 ||securedatacorner.com^$all
 ||wincloudservice.com^$all
+! https://forums.malwarebytes.com/topic/286395-microsoft-edge-custom-search-bar-extension-redirects-to-rbfastsearchme/
+||rb.fastsearch.me^$all
+! https://forums.malwarebytes.com/topic/287338-browser-hi-jacker-royb2fastsearchme/
+||royb2.fastsearch.me^$all
 
 ! adware
 ||pdfconverterpower.net^$document
@@ -26630,7 +26722,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||potenzamano.com^$document,popup
 ||tutatagliente.com^$document,popup
 ||megliolavoro.com^$document,popup
-||luminosoocchio.com^$document,popup
 ||osservareimmaginare.com^$document,popup
 ||desideriosoldi.com^$document,popup
 ||sottilesezione.com^$document,popup
@@ -26725,15 +26816,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! END
 
 ! ----- BEGIN The anti-typo list -----
-! List title: The antitypo list
-! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent you from ending up in the wrong website
+! List title: iam-py-test's antitypo list
+! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent that
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 12/11/2022
+! Last updated: 14/11/2022
 
-! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 ! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -26810,9 +26900,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||irs.guv^$document
 ! Look-alikes using non-ascii
 ||discōrd.com^$document
-||xn--discrd-egb.com^$document
 ||rėddit.com^$document
-||xn--rddit-6za.com^$document
 ! https://www.virustotal.com/gui/user/Site.safetychecker
 ! https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
 ||yotube.com^$all
