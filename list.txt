@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 17November2022v4
+! Version: 20November2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -29,7 +29,7 @@
 ! Palau
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~b00k.pw|~gopass.pw
 ! Legitimate use is almost non-existent, but has a tiny userbase in Japan. Its extreme common-ness in malware redirections means that the entry will be kept forever.
-||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top
+||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$doc
 ||agency^$doc,domain=~battlefield.agency|~shortcut.agency
@@ -60,7 +60,7 @@ www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="shortcut.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"]))
 
 ! ——— You know those ultra-fraudulent auto-generated things that clutter up Google searches? These entries should remove some of them. ———
 www.google.*##.g:has(a[href*=".php?xxx="])
@@ -81,7 +81,7 @@ www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="shortcut.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 !#endif
@@ -97,7 +97,7 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="shortcut.agency"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"], [data-domain*="pressplay.top"])
 
 ! ——— For Bing ———
 !!!bing.com##.b_algo:has(a[href*=".tk/"]:not([href*="coolcmd.tk"], [href*="budterence.tk"], [href*="google.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="anonytext.tk"], [href*="tokelau-info.tk"], [href*="fakaofo.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="coppersurfer.tk"], [href*="restricted-functions.tk"], [href*="nbd-media.tk"], [href*="bstweaker.tk"], [href*="gotofap.tk"], [href*="somepythonthings.tk"]))
@@ -110,7 +110,7 @@ bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="shortcut.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"]))
 
 ! ——— Old dead tech-related domains ———
 ! Domains that used to host lists for adblockers or "hosts" tools, but which are now either used by malware pushers, or could potentially be snapped up by them.
@@ -11369,8 +11369,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 18/11/2022
-! Version: 18112022-1
+! Last updated: 19/11/2022
+! Version: 19112022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -24261,6 +24261,18 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://github.com/uBlockOrigin/uAssets/issues/15650
 ||give-crypto.com^$all
 
+! https://app.any.run/tasks/2de64615-6df3-457f-bfb8-3e207b44667c
+||ukstorepc.dedyn.io^$all
+||ngxqvvpwkumowm.click^$all
+||kmmd6i2bg0rs.click^$all
+||mega.nz/file/2kIAhSSS#RfpDvKxaabLwA-3WA9Qm7HOsYHQg1_g3oMEykkNrZMY^$all
+||mega.nz/file/2kIAhSSS^$document
+||116.202.5.101^$all
+
+! https://forums.malwarebytes.com/topic/292218-malwarebytes-says-that-vbcexe-is-a-virus-please-help/
+! https://threatfox.abuse.ch/ioc/840342/
+||193.106.191.160^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -24378,6 +24390,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||youotube.com^$document
 ||googlep.com^$document
 ||feedproxy.googlep.com^$all
+! 19/11/2022: https://sitecheck.sucuri.net/results/get-the-prize-ht3.live
+||get-the-prize-ht3.live^$document
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9344
 ! https://github.com/iam-py-test/Assets-001/tree/main/uiz.io_scam
@@ -26177,7 +26191,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! Porn scam
 ||Instagramm.com^$document
-||her-cupid.com^$document
+||her-cupid.com^$all
 ||getlaid-snaphookupna.com^$document
 ||getlaid-chat.com^$document
 ||hottieswantu.com^$document
@@ -26263,7 +26277,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! https://app.any.run/tasks/c87a34ca-0d2f-43cb-be6d-8f48506bd723
 ||ftuyn.ewoverth.buzz^$all
-||elooksjustli.one^$document
+||elooksjustli.one^$all
 ||www10.davisonbarker.pro^$document
 ||www24.davisonbarker.pro^$document
 
@@ -26280,13 +26294,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! porn-related scams
 ||flirtclub.life^$document
-||getlaid-chat.com^$document
 ||bumble-me.com^$document
 ||localhookup5.com^$document
 ||i.placefordating.live^$all
 ||placefordating.live^$all
-||elooksjustli.one^$document
-||her-cupid.com^$document
 ||eroticmadness.com^$document
 ||jtdn2.datingtopgirls.com^$all
 ||datingtopgirls.com^$all
@@ -26997,7 +27008,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 18/11/2022
+! Last updated: 20/11/2022
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -27313,6 +27324,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||googlo.co^$all
 ||8l.googlo.co^$all
 ||yahoo-news.co^$all
+
+! https://dnstwister.report/search?ed=676f6f676c652e636f6d
+||googloe.com^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
