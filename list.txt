@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 20November2022v1
+! Version: 21November2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -4812,6 +4812,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||niderschlagsradar.de^$all,~inline-font,~inline-script
 ||2c236979-b1bb-4c7a-915c-df74dbad0d8c.s3.ap-northeast-2.amazonaws.com^$all,~inline-font,~inline-script
 ||69.162.80.56^$all,~inline-font,~inline-script
+! https://github.com/AdguardTeam/AdguardFilters/issues/134903
+||smartlink.name^$all,~inline-font,~inline-script
 ! Random Discord servers
 ||newntflix-$doc,popup
 ||giveawaycord.$all,~inline-font,~inline-script
@@ -11369,8 +11371,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 19/11/2022
-! Version: 19112022-1
+! Last updated: 21/11/2022
+! Version: 21112022-2
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -24273,6 +24275,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://threatfox.abuse.ch/ioc/840342/
 ||193.106.191.160^$all
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/134903
+||znakomy.club^$all
+||smartlink.name^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -26437,8 +26443,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ww.winzipregistryoptimizer.com^$all
 ||mail.winzipregistryoptimizer.com^$all
 ||www.www.winzipregistryoptimizer.com^$all
-! An ip which the domains above resolve to
-||3.222.136.53^$document
 ! Webpages loaded by the malware
 ! https://www.virustotal.com/gui/url/ac8ca6c9868dc34259397e88d53861eaf558f2c6fd928cb65021152101e70790/community
 ! https://safeweb.norton.com/reviews?url=winzip.com
@@ -26470,8 +26474,17 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||donwload.winzip.com^$all
 ||www6.winzip.com^$document
 ||openvpn.winzip.com^$document
+! WinZip ads
+! https://www.virustotal.com/gui/url/cad59b610a95e69019638d171c2df89adb7eac183968e102e37396b806fa57bd/community
+||winzipdriverupdater.com^$all
+||slowness.winzipdriverupdater.com^$all
 ! https://www.virustotal.com/gui/url/e5e8624a07064fc3a296dcab3b0b578ac0ed6d841094489e8bec989653deb93c/detection
 ||winzipssytemtools.com^$document
+! https://www.virustotal.com/gui/ip-address/3.222.136.53/relations
+||winzipultimatepccare.com^$document
+||www.winzipultimatepccare.com^$document
+||winzipdisktools.com^$document
+||winzipsystemtools.com^$document
 
 ! https://www.virustotal.com/gui/file/c190a676d707f290a0f6fccb60ecbc4b3b5dea5ea27d552095acd4110aff51bc/relations -> https://www.virustotal.com/gui/file/33f1e7e43ededca200bda52cc9df5b2af315505fde83cab5c25d3604bfe73294/detection -> https://duckduckgo.com/?q=ScanGuard&ia=web
 ! This is owned by Protected[.]net, who also is responsible for the TotalAV scam. Can not get an exe as it requires me to pay first...
@@ -26783,11 +26796,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Other TLDs
 ||slimcleaner-plus.softonic.com.tr^$document
 ||slimcleaner-plus.softonic.vn^$document
-
-! WinZip ads
-! https://www.virustotal.com/gui/url/cad59b610a95e69019638d171c2df89adb7eac183968e102e37396b806fa57bd/community
-||winzipdriverupdater.com^$all
-||slowness.winzipdriverupdater.com^$all
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/5/1.md
 ||certified.windowserrorhelp.com^$document
@@ -27330,7 +27338,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 19November2022v5
+! Version: 19November2022v6
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -31017,6 +31025,7 @@ $removeparam=src_term,document
 $removeparam=src_content
 $removeparam=src_custom
 ||bbc.*^$removeparam=at_campaign
+||bbc.*^$removeparam=at_campaign_type
 ||bbc.*^$removeparam=at_type
 ||bbc.*^$removeparam=at_identifier
 ||bbc.*^$removeparam=at_format
