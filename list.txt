@@ -8,7 +8,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 [Adblock Plus 3.13]
 ! List title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 21November2022v1
+! Version: 22November2022v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -524,7 +524,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||couponbybox.com^$doc
 ||newpage.in^$doc
 ||digitalantivirus.org^$all,~inline-font,~inline-script
-*/mcaf04/$doc
+/mcaf04/*=$doc
 ||34.204.214.165^$doc
 ||54.85.113.62^$doc
 ||54.205.83.61^$doc
@@ -24278,6 +24278,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134903
 ||znakomy.club^$all
 ||smartlink.name^$all
+
+! https://forums.malwarebytes.com/topic/292268-phishing-html-download-url/ (account required)
+! https://app.any.run/tasks/1758a17e-86da-4472-88c2-bc21dfe25c47
+||mediafire.com/view/rrsgixa0xvc3q59^$all
+||davestillshoeshop.com^$all
 
 ! ----- Scams -----
 
