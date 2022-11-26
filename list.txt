@@ -11371,8 +11371,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 21/11/2022
-! Version: 21112022-2
+! Last updated: 26/11/2022
+! Version: 26112022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -24284,6 +24284,26 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mediafire.com/view/rrsgixa0xvc3q59^$all
 ||davestillshoeshop.com^$all
 
+! https://app.any.run/tasks/2309c8ba-3e9f-41f2-8a5c-f15f7411ac58#
+||www.sadeempc.com^$all
+||sadeempc.com^$all
+||iplogger.org/2AnXe7^$all
+||bit.ly/Password-1234-FullSetups^$all
+||iplogger.com/Sadeempcfullversins^$all
+||cfg6yh.cfd^$all
+
+! https://www.youtube.com/watch?v=xwJJkvIsEJQ
+||torrent-protection.com^$document
+||downloadfilearea.com^$document
+
+! https://app.any.run/tasks/e5ba6bf3-98ee-46bf-b9ee-406b1bbebe1f
+||freversionpc.dedyn.io^$all
+||u8gr576y.cfd^$all
+||rotf.lol/BDFG-KZTP-QAYW^$all
+||88.198.106.9^$all
+! https://app.any.run/tasks/89b3e663-ea70-43fe-89f0-af05c1c9af2e
+||95.217.31.208^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -26318,6 +26338,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://app.any.run/tasks/87b656b2-3fd6-4bae-9267-f918ea4189ac
 ||dating-hotcontacts.com^$all
 
+! https://youtu.be/GiixWxddP_M?t=1237
+||caren.live^$document
+
 ! ----- PUPs -----
 
 ! https://www.virustotal.com/gui/url/c7e3137c4baaad64dcbbafd1938f581f264944fa1e2c1aa1ebcff77ed2959082/links
@@ -27343,7 +27366,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 ! List title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 25November2022v1
+! Version: 25November2022v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -28773,6 +28796,9 @@ $removeparam=as_camptype
 $removeparam=as_channel
 $removeparam=as_source
 
+! https://www.telia.fi/kauppa/tuote/jbl-tune-710bt/jblt710btblk?source=igodigital
+$removeparam=/^source=igodigital$/
+
 ! Below in this paragraph are entries that we borrowed from AdGuard URL Tracking Protection, which is maintained by the AdGuard team at https://github.com/AdguardTeam/AdguardFilters, and which is licenced under GPL-3.0.
 $removeparam=_zucks_suid
 $removeparam=adfrom
@@ -28936,6 +28962,8 @@ $removeparam=returnFromLogin,domain=amazon.*
 !!! ||amazon.*^$removeparam=psc - breaks size selection (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-3932394)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-3941487
 ||amazon.*^$removeparam=qu
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4239354
+||amazon.*/dp/$removeparam=rps,document
 
 !!! ——— Bing ———
 ! https://www.bing.com/search?q=hello&form=QBLH&sp=-1&pq=hello&sc=8-5&qs=n&sk=&cvid=49B83A335B1C4884B71B2FAD4A8027A9 (02/03/2021)
