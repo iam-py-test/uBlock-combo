@@ -24304,6 +24304,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://app.any.run/tasks/89b3e663-ea70-43fe-89f0-af05c1c9af2e
 ||95.217.31.208^$all
 
+! https://forums.malwarebytes.com/topic/292452-strange-malwareconnections/
+||ns1usaupload.myphotos.cc^$document
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -26341,6 +26344,22 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://youtu.be/GiixWxddP_M?t=1237
 ||caren.live^$document
 
+! https://scammer.info/t/discord-nitro-scam/113648
+||132.226.203.60^$all
+||www.iphonediscord.info^$all
+||iphonediscord.info^$all
+
+! popups from shady URL shorteners
+||muchnow.net^$popup
+||us.muchnow.net^$document
+||mediasama.com^$document
+||nadjustifygas.com^$document
+||ufacw.com^$document
+||lyconery-readset.com^$document
+||fralstamp-genglyric.icu^$document
+||m1dnightclubx.com^$document
+||haxbyq.com^$document
+
 ! ----- PUPs -----
 
 ! https://www.virustotal.com/gui/url/c7e3137c4baaad64dcbbafd1938f581f264944fa1e2c1aa1ebcff77ed2959082/links
@@ -26796,7 +26815,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 
 ! https://www.virustotal.com/gui/url/27307acb5b127114423ed0d7c63aaed0013d1833f56c158a3b049f8d1c98dcbc/detection
 ! Download button redirects to advancedsystemrepair.com
-||pccleaner.com^$all
+||pccleaner.com^$document
 ! The PUP from this website looks like a past one; maybe a variant or another download location
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/PCCleaner_1
 ||advancedsystemrepair.com^$all
@@ -26964,7 +26983,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://forums.malwarebytes.com/topic/281787-how-many-types-of-malware-are-there/ (https://web.archive.org/web/20211214132150/https://forums.malwarebytes.com/topic/281787-how-many-types-of-malware-are-there/) -> hxxpx[:]//ilovealgarve[.]net[/]web-football-no-agents[/])
 ||ilovealgarve.net^$document
 
-! https://forums.malwarebytes.com/topic/282084-keeping-laptop-safe/ (https://web.archive.org/web/20211222121009/https://forums.malwarebytes.com/topic/282084-keeping-laptop-safe/) -> hxxpx[:]//nbgpapartmani[.]com[/]register-web-ball-ufadeal[/]
+! https://web.archive.org/web/20211222121009/https://forums.malwarebytes.com/topic/282084-keeping-laptop-safe/ -> hxxpx[:]//nbgpapartmani[.]com[/]register-web-ball-ufadeal[/]
 ||nbgpapartmani.com^$document
 
 ! https://forums.malwarebytes.com/topic/282082-hi-working-a-spreadsheet-more-than-8-years-history-mb-crashed-it/ (https://web.archive.org/web/20211222121637/https://forums.malwarebytes.com/topic/282082-hi-working-a-spreadsheet-more-than-8-years-history-mb-crashed-it/) -> hxxpx[:]//superagentconcierge[.]com[/]casino-ebet-entrance[/]
