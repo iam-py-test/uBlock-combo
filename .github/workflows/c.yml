@@ -17,13 +17,19 @@ jobs:
     - name: Build
       run: |
         echo 0 > "status.txt" 
+        echo Debugging output
         uname
         pip3 --version
+        python --version
+        which python
+        id
+        
+        echo make the list
         pip3 install requests
         python combo.py
         echo 1 > "status.txt"
     - name: Commit & Push
-      uses: actions-x/commit@v5
+      uses: actions-x/commit@v6
       with:
           email: updatebot@iam-py-test.github.io
           name: Update bot
