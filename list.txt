@@ -11628,8 +11628,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 28/11/2022
-! Version: 28112022-1
+! Last updated: 29/11/2022
+! Version: 29112022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -24809,6 +24809,21 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||zoawufoy.net^$all
 ||139.45.197.239^$all
 
+! https://www.bleepingcomputer.com/news/security/fake-msi-afterburner-targets-windows-gamers-with-miners-info-stealers/
+||msi-afterburner--download.site^$all
+||msi-afterburner-download.site^$all
+||msi-afterburner-download.tech^$all
+||msi-afterburner-download.online^$all
+||msi-afterburner-download.store^$all
+||msi-afterburner-download.ru^$all
+||msi-afterburner.download^$all
+||mslafterburners.com^$all
+||msi-afterburnerr.com^$all
+||git.git.skblxin.matrizauto.net^$all
+||git.git.git.skblxin.matrizauto.net^$all
+||git.git.git.git.skblxin.matrizauto.net^$all
+||git.git.git.git.git.skblxin.matrizauto.net^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -26873,6 +26888,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dwmsurhf1svv8.cloudfront.net^$document,frame
 ! https://app.any.run/tasks/f7cdecba-0b76-4a5f-9d19-c36a453130dc
 ||contact.nationalconsumerscenter.co.uk^$document
+
+! https://forums.malwarebytes.com/topic/292511-phishing-site-for-fake-usps-shipping-validation-information/ (account required)
+! https://www.virustotal.com/gui/url/fdefaa6e73e722536cd080b4e820f8b69b6678d5f0c74268de126d2435369386
+||uspftiltedt.info^$all
+
 
 ! ----- PUPs -----
 
