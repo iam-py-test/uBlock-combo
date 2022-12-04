@@ -11630,8 +11630,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! List title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 29/11/2022
-! Version: 29112022-2
+! Last updated: 4/12/2022
+! Version: 4122022-1
 ! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -24842,6 +24842,32 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! https://forums.malwarebytes.com/topic/292568-ironmodalcom/
 ||ironmodal.com^$all
 
+! https://app.any.run/tasks/fbb04c5d-ce57-4eaa-937b-20b014ed7c19#
+||rsmerchantservices.com^$all
+||oolomos.com^$all
+||cdn.discordapp.com/attachments/1045660833943928856/1048563018402897950/File.zip^$all
+||privacy-tools-for-you-453.com^$all
+||gcrpgqhhmf.com^$document
+||kokoko-24.online^$all
+||bestsmartfind.com^$all
+||xv.yxzgamen.com^$all
+||yxzgamen.com^$all
+||77.73.133.72^$all
+||31.41.244.167^$all
+||163.123.143.4^$all
+||45.139.105.171^$all
+||107.182.129.235^$all
+||45.15.156.105^$all
+||135.125.27.235^$all
+
+! https://app.any.run/tasks/df07016b-df4a-47d2-8ef4-3764547ccb7b (website)
+! https://app.any.run/tasks/30bb18a1-ea92-4208-91a1-e1b964930fa5 (file)
+! https://threatfox.abuse.ch/ioc/1028938/
+||youtube.com/watch?v=5BENKhxzBGI^$all
+||rebrand.ly/McAfeeSecurity2022ActivateDownload^$all
+||pixeldrain.com/api/file/52LgfWw8^$all
+||45.15.157.132^$all
+
 ! ----- Scams -----
 
 ! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
@@ -27187,6 +27213,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.cyberdefender.com^$popup
 ||virusfix.com^$document
 ||www.virusfix.com^$popup
+! Owned by them (they admit it)
+! 4/12/2022: https://app.any.run/tasks/82c340da-6ab4-4398-86bd-2bd368c018ce
+||iolo.com^$document
+||www.iolo.com^$document
+||secure1.iolo.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/compare/c3d04d61c9...4a2d9d2efa
 ! link on https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
