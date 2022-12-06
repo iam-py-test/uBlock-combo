@@ -2,6 +2,21 @@ import requests
 import os
 lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
 
+donelines = []
+donedomains = []
+excludes = []
+
+def extdomain(line):
+	try:
+		domain = ""
+		if line.startswith("||") and line.endswith("^$all"):
+			domain = line[2:-6]
+		elif line.startswith("||") and line.endswith("^$all,~inline-font,~inline-script"):
+			domain = line[2:-33]
+		return domain
+	except:
+		return ""
+
 mainlist = """! Title: uBlock combo list
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
@@ -10,11 +25,38 @@ mainlist = """! Title: uBlock combo list
 
 """
 
+eadd = 0
+ered = 0
+
 for list in lists:
-  l = requests.get(lists[list]).text.replace("[Adblock Plus 3.6]","").replace("! Title: ","! List title: ")
-  mainlist += "\n! ----- BEGIN {} -----\n".format(list)
-  mainlist += l
-with open("list.txt","w") as f:
-  f.write(mainlist)
-  f.close()
+	l = requests.get(lists[list]).text.replace("[Adblock Plus 3.6]","").replace("! Title: ","! List title: ").split("\n")
+	mainlist += "\n! ----- BEGIN {} -----\n".format(list)
+	for line in l:
+		if (line.startswith("!") or line.startswith("#")) and "include" not in line:
+			continue
+		elif line.startswith("[Adblock") and line.endswith("]"):
+			continue
+		elif line in donelines:
+			ered += 1
+		elif line in excludes:
+			continue
+		elif line == "":
+			continue
+		elif extdomain(line) != "" and extdomain(line) in donedomains:
+			continue
+		else:
+			mainlist += "{}\n".format(line)
+			eadd += 1
+			donelines.append(line)
+			edomain = extdomain(line)
+			if edomain != "":
+				donedomains.append(edomain)
+with open("list.txt","w",encoding="UTF-8") as f:
+	f.write(mainlist)
+	f.close()
 print("Complete")
+print("""Stats:
+{} entries added
+{} redundant entries removed
+{} domains added
+""".format(eadd,ered,len(donedomains)))
