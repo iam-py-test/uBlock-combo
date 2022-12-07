@@ -110,6 +110,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="corriente.top"], [href*="gdto
 ||useragentswitch.com^$all,~inline-font,~inline-script
 ||dev-nano.com^$all,~inline-font,~inline-script
 ||adblocker-app.info^$all,~inline-font,~inline-script
+||block-ads-now.com^$doc,popup
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=free])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=clean])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=boost])
@@ -10990,7 +10991,7 @@ www.microsoft.com##.card[data-bi-cn*="super bob" i]
 www.microsoft.com##.card[data-bi-cn*=" craft " i]
 www.microsoft.com##.card[data-bi-cn*= crafts i]
 www.microsoft.com##.card[data-bi-cn^="sonik " i]
-www.microsoft.com##.card[data-bi-cn*= run faster i]
+www.microsoft.com##.card[data-bi-cn*=" run faster" i]
 www.microsoft.com##.card[data-bi-cn*=super i][data-bi-cn*=craft i]
 www.microsoft.com##.card[data-bi-cn*="a mong" i]
 www.microsoft.com##.card[data-bi-cn*="among them" i]
@@ -11007,7 +11008,7 @@ www.microsoft.com##.card[data-bi-cn*=pixelmon i]
 www.microsoft.com##.card[data-bi-cn*="us among" i]
 www.microsoft.com##.card[data-bi-cn$="ario world" i]
 www.microsoft.com##.card[data-bi-cn*="need for rac" i]
-www.microsoft.com##.card[data-bi-cn*= sim 20 i]
+www.microsoft.com##.card[data-bi-cn*=" sim 20" i]
 www.microsoft.com##.card[data-bi-cn*="car racing" i]
 www.microsoft.com##.card[data-bi-cn*="birth game" i]
 www.microsoft.com##.card[data-bi-cn*="bus sim" i]
@@ -21084,7 +21085,7 @@ $removeparam=token,domain=x-kom.pl|al.to|combat.pl|substack.com
 $removeparam=/^tc_/,domain=bodenusa.com
 $removeparam=name,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=m_sc,domain=bloomingdales.com
-$removeparam=/^\$/,domain=boohoo.com|forever21.com
+$removeparam=/^[$],domain=boohoo.com|forever21.com
 $removeparam=/^\~/,domain=boohoo.com|forever21.com
 $removeparam=nid,domain=columbia.com|sorel.com
 $removeparam=uid,domain=columbia.com|sorel.com|entradas.com|tomtop.com
@@ -21641,7 +21642,7 @@ $removeparam=refresh,domain=cnn.com
 ||realestate.com.au^$removeparam=rsf
 ||mail.ru^$removeparam=mt_click_id
 $removeparam=rec,domain=argos.co.uk
-$removeparam=/[$]ja/,domain=argos.co.uk
+$removeparam=/\$ja/,domain=argos.co.uk
 $removeparam=clickPR,domain=argos.co.uk
 ||blog.getadblock.com^$removeparam=gi
 $removeparam=pbref,domain=pinkbike.com
