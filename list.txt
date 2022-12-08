@@ -200,6 +200,8 @@ cyclonis.com##div.rotatead-container:has(.download[data-params*="dl.enigmasoftwa
 windowsdispatch.com##strong
 dlldownloads.com##.page-container > p
 windowsreport.com##.bnr-block
+windowsreport.com##div[class^=restoro-download] + section
+windowsreport.com##div[class^=refmed]
 appuals.com##.wptp
 appuals.com#?#h3:has(+ p:has-text(Download and run Restoro ))
 appuals.com#?#p:has-text(Download and run Restoro )
@@ -17857,6 +17859,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bmvbj.adthereis.buzz^$all
 ||wmsxu.adthereis.buzz^$all
 ||mfxzk.adthereis.buzz^$all
+||mediafire.com/file/bu394h0oi025wpt/ExtremeUpdate.exe/file^$all
+||download2278.mediafire.com/6kgabdluwlbg/bu394h0oi025wpt/ExtremeUpdate.exe^$all
+||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
+||bit.ly/fitgirl-repacks-site^$all
+||fitgirl-repacks-site.org^$all
+||bluemediafiles.top^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -20101,7 +20109,7 @@ $removeparam=mkt_tok
 $removeparam=ampcid
 $removeparam=affname
 $removeparam=MID,domain=~media-cdn.costco.*|~community.arubanetworks.com
-$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi
+$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*
 $removeparam=nr_email_referer
 $removeparam=in_source
 $removeparam=srnd
@@ -21851,6 +21859,7 @@ $removeparam=src_custom
 ||bbc.*^$removeparam=at_ptr_name
 ||bbc.*^$removeparam=at_link_id
 ||bbc.*^$removeparam=at_link_origin
+||linkedin.com^$removeparam=updateEntityUrn
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
