@@ -17857,6 +17857,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||vlcdownloads.com^$all
 ||t20boltmig.click^$document
 ||offsebike.cyou^$all
+||storageapi.fleek.co/65d6137a-aa68-4f10-9b8d-3763e277f165-bucket/fav/indexxxxxx.html^$all
+||awareofthat.za.com^$all
+||desinvca.ru^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -19396,6 +19399,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||search.securedbrowser.net^$document
 ||microsoftedge.microsoft.com/addons/detail/gfbbhkcipmfiidllnalpchabihdgklnl^$document
 ||microsoftedge.microsoft.com/addons/detail/secured-browse/gfbbhkcipmfiidllnalpchabihdgklnl^$document
+||kms-auto.site^$document
+||gwe92vt.cfd^$all
+||coacytecarni.ga^$all
 ||z83z9.com^$document
 ||zcelv.toftheca.buzz^$all
 ||toftheca.buzz^$all
@@ -21938,6 +21944,7 @@ $removeparam=src_custom
 ||bbc.*^$removeparam=at_link_id
 ||bbc.*^$removeparam=at_link_origin
 ||linkedin.com^$removeparam=updateEntityUrn
+||whatsapp.com^$removeparam=helpref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
