@@ -294,6 +294,8 @@ chrome.google.com#?#.webstore-test-wall-tile:has-text(Adresist)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(otih-oith.us.to)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock adblock/i)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock Origin/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblocker for Browser/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Total Adblock/i)
 addons.mozilla.org#?#li.SearchResult:has-text(uBlock, LLC)
 addons.mozilla.org#?#li.SearchResult:has-text(Adblocker for Firefox)
 addons.mozilla.org#?#li.SearchResult:has-text(AdsBlocker)
@@ -4694,6 +4696,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zoawufoy.net^$all,~inline-font,~inline-script
 ||139.45.197.239^$all,~inline-font,~inline-script
 ||glthub.$document,popup
+||adblock-chrome.net^$all,~inline-font,~inline-script
 ||downloadprovider.me^$all,~inline-font,~inline-script
 toorgle.net##.join
 ||cash93.com^$all,~inline-font,~inline-script
@@ -17860,6 +17863,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||storageapi.fleek.co/65d6137a-aa68-4f10-9b8d-3763e277f165-bucket/fav/indexxxxxx.html^$all
 ||awareofthat.za.com^$all
 ||desinvca.ru^$all
+||glthub.org^$document
+||glthub.pro^$document
+||nothfnw.shop^$document
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -19402,6 +19408,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||kms-auto.site^$document
 ||gwe92vt.cfd^$all
 ||coacytecarni.ga^$all
+||phenotypeguide.com^$all
+||onesocialimpactnow.com^$all
+||globaledyta.com^$all
+||topcontactinc.com^$all
+||adsforcomputertech.com^$all
+||pushuworld.com^$all
+||managecompletelyquickinfo-file.info^$all
+||torrent-protection.com^$all
+||jytibarose.xyz^$all
+||adblock-chrome.net^$all
 ||z83z9.com^$document
 ||zcelv.toftheca.buzz^$all
 ||toftheca.buzz^$all
