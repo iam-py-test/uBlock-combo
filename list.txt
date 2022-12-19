@@ -15582,7 +15582,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||jetiparfilezho.xyz^$all
 ||mega.nz/file/5mg1lBSC^$document
 ||mega.nz/file/5mg1lBSC#h-GCG_6oWzInph2mfLWYGbfaGzYvzpjZI5g4f3mYckg^$all
-||cdn.discordapp.com/attachments/969894199124176909/971692487511007262/Main_Setup_Pass_1234.rar^$all
 ||188.166.138.48^$all
 ||104.248.97.164^$document
 ||95.217.246.15^$all
@@ -15931,9 +15930,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||youtube.com/watch?v=k3wEO4Kw600^$all
 ||telegra.ph/Sony-Vegas-Pro-19-Crack-06-28-3^$all
 ||mega.nz/file/nWhSiBRQ#DfJfKPJFf6EiWI3vrVp2IvbBgbsmAqIid9l0H_e3ngE^$all
-||github.com/bestcrack/SonyVegas/raw/main/MAGIX.Vegas.Pro.v19.0.532.rar^$all
-||github.com/bestcrack/$document
-||raw.githubusercontent.com/bestcrack/SonyVegas/main/MAGIX.Vegas.Pro.v19.0.532.rar^$all
 ||v3.gigilist.com/~gorarbazar/js.php?get=Ly9pbnN0YWdyYW0vP2k9JmFtcDtpPUQ2MTJE&BPHzX^$all
 ||us.r-q.media^$all
 ||r-q.media^$document
@@ -17865,6 +17861,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hypixei.com^$all
 ||msverify.dev^$all
 ||microauth.ru^$all
+||goog.goodsearchez.com^$document
+||goodsearchez.com^$document
+||daggerhashimoto.eu.nicehash.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -19329,7 +19328,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||s1cp.xyz^$document
 ||dlinkrdr.com^$document
 ||s.viichxt.com^$document
-||getsecures.com^$document
+||getsecures.com^$all
 ||s.viiqvmfb.com^$document
 ||flirtclub.life^$document
 ||bumble-me.com^$document
@@ -19443,6 +19442,18 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||spr.belohnung24.com^$all
 ||expensivesurvey.click^$all
 ||af.247games.mobi^$document
+||easy-sexxx.com^$document
+||recodetime.com^$all
+||updateinfoacademy.com^$all
+||setupgreatlylatestinfo-file.info^$all
+||sv.uggfzaj.icu^$all
+||uggfzaj.icu^$all
+||updaterglobal.com^$all
+||phooking-nearected.com^$all
+||deten.live^$all
+||kfl86.xyz^$all
+||70uj5.xyz^$all
+||7l087.xyz^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
