@@ -20087,6 +20087,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||coin-have.com^$all
 ||monerominer.rocks^$all
 ||xmr.2miners.com^$all
+||xmr-eu1.nanopool.org^$all
 ! ----- include rules for just uBlock Origin and AdGuard, and the VXVault list -----
 !#include special_lists/anti-malware-ubo-extension.txt
 !#include antipup.txt
