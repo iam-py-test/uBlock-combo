@@ -11183,6 +11183,7 @@ www.microsoft.com##a[data-pfns][href*=amoong]
 www.microsoft.com##a[data-pfns][href*=run-fall]
 www.microsoft.com##a[data-pfns][href*=endless-running]
 www.microsoft.com##a[data-pfns][href*=princess-runner]
+www.microsoft.com##a[data-pfns][href*=poppyes]
 www.microsoft.com##.card[data-bi-cn*=imposter i]
 www.microsoft.com##.card[data-bi-cn*=impostor i]
 www.microsoft.com##.card[data-bi-cn*="super bob" i]
@@ -11270,6 +11271,7 @@ www.microsoft.com##.card[data-bi-cn*=amoong i]
 www.microsoft.com##.card[data-bi-cn*=" run fall" i]
 www.microsoft.com##.card[data-bi-cn*="endless running" i]
 www.microsoft.com##.card[data-bi-cn*="princess runner" i]
+www.microsoft.com##.card[data-bi-cn*=poppyes i]
 www.microsoft.com##a[data-pfns][data-pfns*=pedriapps]
 www.microsoft.com##a[data-pfns][data-pfns*=gameboxstudios]
 www.microsoft.com##a[data-pfns][data-pfns*=singleton]
@@ -19731,6 +19733,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||discordnitrocodegeneratorfree2022nohumanverification.weebly.com^$all
 ||gainforfree.com^$all
 ||freegamingreward.com^$all
+||bubuxflow.com^$all
+||nationalconsumerscenter.co.uk^$document
+||expresscommusa.com^$document
+||flirtingworld.com^$document
+||befjajh.hornydats.com^$all
+||hornydats.com^$document
+||date.sofortdates69.com^$document
+||sofortdates69.com^$document
+||idealhackers.com^$document
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -22268,6 +22279,7 @@ $removeparam=src_custom
 ||linkedin.com^$removeparam=updateEntityUrn
 ||whatsapp.com^$removeparam=helpref
 ||nvidia.com^$removeparam=jso
+$removeparam=srsltid,document
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
