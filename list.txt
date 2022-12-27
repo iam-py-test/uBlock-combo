@@ -20984,7 +20984,7 @@ $removeparam=oft_sk
 $removeparam=adobe_mc
 $removeparam=/^_sgm_/i
 $removeparam=omnisendContactID
-$removeparam=affiliate
+$removeparam=affiliate,domain=~justice.gov
 $removeparam=trco_id
 $removeparam=nosto_source
 $removeparam=nosto
@@ -22280,6 +22280,10 @@ $removeparam=src_custom
 ||whatsapp.com^$removeparam=helpref
 ||nvidia.com^$removeparam=jso
 $removeparam=srsltid,document
+||dl-protect.net^$removeparam=fn
+||dl-protect.net^$removeparam=rl
+||1fichier.com^$removeparam=af
+||discoveryplus.com^$removeparam=_referrer
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
