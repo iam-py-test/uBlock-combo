@@ -18461,6 +18461,20 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||52.24.156.12^$document
 ||52.25.6.134^$document
 ||100.20.13.49^$document
+||loopsoft.dedyn.io^$all
+||1weset6y.cfd^$all
+||bit.ly/FinalLatest_FiIe-Now^$all
+||mediafire.com/file/c5s4sjahksyod94/Use_2022_As-P@Sw0rd-New&FinaI-N4.rar/file^$all
+||download2430.mediafire.com/fixy529tvhlg/c5s4sjahksyod94/Use_2022_As-P%40Sw0rd-New%26FinaI-N4.rar^$all
+||88.119.161.188^$all
+||88.119.161.19^$all
+||wwww-dlscord.top^$all
+||wwww-discord.top^$all
+||wwwwdiscord.top^$all
+||www-discord.top^$all
+||vvv-discord.top^$all
+||vwvv-discord.top^$all
+||68.60.77.128^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -20079,6 +20093,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||thunderfiles.co^$document
 ||g.luckycashzone.com^$document
 ||isixsigma.com/members/malwarebytesmailcxsupport$document
+||discordt.com^$all
+||wildberriessgift.pw^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -20587,6 +20603,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||duckduckfo.com^$document
 ||duckduckg0.com^$document
 ||virtualboc.org^$document
+||discordi.com^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
@@ -21082,7 +21099,7 @@ $removeparam=afftrack
 $removeparam=atid
 $removeparam=/^clickref[0-9]?=/
 $removeparam=cuid
-$removeparam=data1
+$removeparam=data1,domain=~web3.cmvm.pt
 $removeparam=data2
 $removeparam=data3
 $removeparam=effi_id
@@ -21352,6 +21369,7 @@ $removeparam=as_channel
 $removeparam=as_source
 $removeparam=/^source=igodigital$/
 $removeparam=qq-pf-to
+$removeparam=mibextid
 /auto-append-spmid.js
 $removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|childrensplace.com|dcard.tw|elmundo.es|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|marca.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|tokopedia.com|tommy.com|toms.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|microsoft.com|xg4ken.com|zales.com
 $removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|proton.me|puutarha.net|rakentaja.fi|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com
