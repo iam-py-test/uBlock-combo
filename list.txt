@@ -18466,6 +18466,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||tracking.latedreamdate.com^$document,popup
 ||web.gristwattle.online^$document,popup
 ||ipfs.io/ipfs/QmeN4qGR81wa5dcJvtsxV73voUVSV2eyke3aQS7KtAWGmM?filename=index%20virus%20link.html^$all
+||detail-booking-reservation.com^$all
+||skynetx.com.br^$all
+||cdt2023.ddns.net^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -22656,6 +22659,11 @@ $removeparam=srsltid,document
 ||reddit.com^$removeparam=%243p
 ||reddit.com^$removeparam=%24deep_link
 ||reddit.com^$removeparam=post_index
+$removeparam=auto_token,domain=nextdoor.com
+$removeparam=mobile_deeplink_data,domain=nextdoor.com
+$removeparam=link_source_user_id,domain=nextdoor.com
+$removeparam=is,domain=nextdoor.com
+$removeparam=mar,domain=nextdoor.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
