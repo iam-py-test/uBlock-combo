@@ -22670,6 +22670,7 @@ $removeparam=link_source_user_id,domain=nextdoor.com
 $removeparam=is,domain=nextdoor.com
 $removeparam=mar,domain=nextdoor.com
 ||cbs42.com^$removeparam=ipid
+||dzen.ru^$removeparam=yredirect
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -22689,4 +22690,5 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||bing.*/ws/redirect/$removeparam
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
 @@/unsub/?$removeparam
+@@||canon.*/supportproduct/gettabcontent$removeparam=referrer
 @@|wss://$removeparam
