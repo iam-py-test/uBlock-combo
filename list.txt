@@ -23084,6 +23084,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||1522.tapwhomjay.live^$all
 ||1518.tapwhomjay.live^$all
 ||1515.tapwhomjay.live^$all
+||sadaasend.live^$all
+||mindkneenay.live^$document
 ||2022crucialcatch.store^$all
 ||adidascostarica.com^$all
 ||adidasencostarica.com^$all
