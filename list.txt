@@ -23122,6 +23122,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||1515.tapwhomjay.live^$all
 ||sadaasend.live^$all
 ||mindkneenay.live^$document
+||hiowmas.live^$all
+||sagahaclub.live^$all
+||2021.sagahaclub.live^$all
+||f9rlf.yachts^$document
+||itthis.f9rlf.yachts^$all
+||2022.sagahaclub.live^$all
+||tecappcloud.com^$document
+||totalrecaptcha.top^$all
+||prizehunters.life^$document
 ||2022crucialcatch.store^$all
 ||adidascostarica.com^$all
 ||adidasencostarica.com^$all
@@ -25254,6 +25263,17 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||vans-finland.com^$all
 ||martensbratislava.sk^$all
 ||zapatillasmcqueen.com^$all
+||darkinfotale.xyz^$all
+||f.estivaltodayz.com^$document
+||hollandcash.nl^$all
+||exit.hollandcash.nl^$all
+||premium.cyou^$all
+||yt.premium.cyou^$all
+||broadmaster.top^$all
+||fly.broadmaster.top^$all
+||trk.lnkshr.cyou^$document
+||clean-blocker.com^$all
+||chrome.google.com/webstore/detail/cleanblocker/obhoainpkkkkjeegnbaobapedpfdhbdl^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -25775,6 +25795,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||discordi.com^$document
 ||netfllpl.com^$all
 ||facebooklcom.com^$all
+||virustotal.co^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
@@ -26645,9 +26666,8 @@ $removeparam=sk,domain=bing.com|aliexpress.*
 ||bing.com^$removeparam=pglt
 ||bing.com^$removeparam=pq
 ||bing.com^$removeparam=refig
-$removeparam=cvid,domain=bing.com|msn.com
-@@||bing.com/AS/Suggestions?$removeparam=cvid
 ||bing.com^$removeparam=go
+||bing.com/search?$removeparam=cvid
 ||bing.com^$removeparam=/^sh/
 ||bing.com^$removeparam=nclid
 ||bing.com^$removeparam=crslsl
@@ -27857,6 +27877,7 @@ $removeparam=mar,domain=nextdoor.com
 ||notion.so^$removeparam=gsxid
 ||notion.so^$removeparam=pscd
 ||apnews.com/article$removeparam=user_email
+$removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
