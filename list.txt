@@ -6785,7 +6785,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||danskosaldi.it^$all,~inline-script,~inline-font
 ||demonia-portugal.net^$all,~inline-script,~inline-font
 ||demoniachaussuresparis.fr^$all,~inline-script,~inline-font
-||demoniacipő.com^$all,~inline-script,~inline-font
+||xn--demoniacip-84b.com^$all,~inline-script,~inline-font
 ||demonialaarzenkopen.com^$all,~inline-script,~inline-font
 ||demonias-danmark.com^$all,~inline-script,~inline-font
 ||demonias-portugal.com^$all,~inline-script,~inline-font
@@ -6794,7 +6794,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||demoniasshoesgreece.com^$all,~inline-script,~inline-font
 ||demoniasshoesgreece.net^$all,~inline-script,~inline-font
 ||demoniastopankysk.sk^$all,~inline-script,~inline-font
-||demoniatürkiye.com^$all,~inline-script,~inline-font
+||xn--demoniatrkiye-3ob.com^$all,~inline-script,~inline-font
 ||diesel-helsinki.com^$all,~inline-script,~inline-font
 ||dmgreece.com^$all,~inline-script,~inline-font
 ||docmartens-canada.com^$all,~inline-script,~inline-font
@@ -6981,7 +6981,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||sauconyclearance.us^$all,~inline-script,~inline-font
 ||sauconyfactoryoutlet.us^$all,~inline-script,~inline-font
 ||sauconyirelandoutlet.com^$all,~inline-script,~inline-font
-||sauconyløbesko.com^$all,~inline-script,~inline-font
+||xn--sauconylbesko-inb.com^$all,~inline-script,~inline-font
 ||sauconymalaysiaonline.com^$all,~inline-script,~inline-font
 ||sauconyphilippinesoutlet.com^$all,~inline-script,~inline-font
 ||sauconyrunningshoes.us^$all,~inline-script,~inline-font
@@ -7127,7 +7127,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||keen-footwear-nz.com^$all,~inline-script,~inline-font
 ||keenitaliait.com^$all,~inline-script,~inline-font
 ||keenscarpeitalia.it^$all,~inline-script,~inline-font
-||keentürkiye.com^$all,~inline-script,~inline-font
+||xn--keentrkiye-eeb.com^$all,~inline-script,~inline-font
 ||kengatsuomikauppa.com^$all,~inline-script,~inline-font
 ||magazincrocsromania.com^$all,~inline-script,~inline-font
 ||mammutsverige.com.se^$all,~inline-script,~inline-font
@@ -7398,7 +7398,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||nobullro.ro^$all,~inline-script,~inline-font
 ||nobullskosalg.com^$all,~inline-script,~inline-font
 ||nobullsuomiale.com^$all,~inline-script,~inline-font
-||nobulltürkiye.com^$all,~inline-script,~inline-font
+||xn--nobulltrkiye-jlb.com^$all,~inline-script,~inline-font
 ||outletjordanitalia.com^$all,~inline-script,~inline-font
 ||palladium-chile.com^$all,~inline-script,~inline-font
 ||palladium-finland.com^$all,~inline-script,~inline-font
@@ -7557,7 +7557,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||enucuzsuperdry.com^$all,~inline-script,~inline-font
 ||gorrabogota.com^$all,~inline-script,~inline-font
 ||gummistiefelhunter.de^$all,~inline-script,~inline-font
-||gummistøvlerhunter.com^$all,~inline-script,~inline-font
+||xn--gummistvlerhunter-60b.com^$all,~inline-script,~inline-font
 ||hokalopesko.com^$all,~inline-script,~inline-font
 ||hokanorgeno.com^$all,~inline-script,~inline-font
 ||hokaonelopesko.com^$all,~inline-script,~inline-font
@@ -14485,7 +14485,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 !#include uBO%20list%20extensions/AdGuardSafeBrowsing-ReverseEngineered.txt
 
 ! ----- BEGIN The malicious website blocklist -----
-! Description: This list aims to protect against scams, phishing, and malware. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
+! Description: This list aims to protect against scams, phishing, malware, and *some* cryptominers. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
 ||0redirb.com^$document
 ||xn--faebook-64a.com^$document
@@ -25274,6 +25274,28 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||trk.lnkshr.cyou^$document
 ||clean-blocker.com^$all
 ||chrome.google.com/webstore/detail/cleanblocker/obhoainpkkkkjeegnbaobapedpfdhbdl^$all
+||omclyzyapf.com^$all
+||godpvqnszo.com^$popup
+||news-mapara.com^$all
+||vipdatingtoday.top^$all
+||mo4ckid.click^$all
+||xxxnewvideos.com^$document
+||secureinternetpanel.com^$document
+||us.secureinternetpanel.com^$all
+||bostewsom.shop^$all
+||iseult-aplite.xyz^$all
+||img.pushflow.net/creatives/11/5645/1649754393755-push-preview-img.png^$all
+||theantivirusprotection.xyz^$all
+||1.news-mapara.com^$all
+||battik-bowwow.xyz^$all
+||2.news-mapara.com^$all
+||pshsbscapr.xyz^$all
+||cdn.pncloudfl.com/pn/f83/d57/83b/f83d5783b20e21e0de65e6f7f632cde8a29b9ef6.jpg^$all
+||click01.pshtrkg.com^$document
+||4bd71.trknovi.com^$document
+||jergocast.com^$document
+||news-pelivo.com^$all
+||img.pushflow.net/creatives/11/5645/1649755151938-push-preview-img.png^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -27878,6 +27900,9 @@ $removeparam=mar,domain=nextdoor.com
 ||notion.so^$removeparam=pscd
 ||apnews.com/article$removeparam=user_email
 $removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.com
+||github.com^$removeparam=ref_cta
+||github.com^$removeparam=ref_loc
+||github.com^$removeparam=ref_page
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
