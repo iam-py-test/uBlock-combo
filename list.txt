@@ -21248,6 +21248,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||circuitingratitude.com^$all
 ||5.61.55.143^$all
 ||84df4578bffsd.info^$all
+||dellenshop.top^$document
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -26980,6 +26981,7 @@ $removeparam=aff_click_id
 ||bilibili.com/video/*$removeparam=buvid
 ||bilibili.com/video/*$removeparam=mid
 ||bilibili.com^$removeparam=up_id
+||bilibili.com^$removeparam=plat_id
 ||iqiyi.com^$removeparam=vfrm
 ||iqiyi.com^$removeparam=vfrmblk
 ||iqiyi.com^$removeparam=vfrmrst
@@ -27904,12 +27906,13 @@ $removeparam=mar,domain=nextdoor.com
 ||notion.so^$removeparam=gsxid
 ||notion.so^$removeparam=pscd
 ||apnews.com/article$removeparam=user_email
-$removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.com
+$removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.com|eastday.com
 ||github.com^$removeparam=ref_cta
 ||github.com^$removeparam=ref_loc
 ||github.com^$removeparam=ref_page
 ||quizlet.com^$removeparam=funnelUUID
 ||quizlet.com^$removeparam=signupOrigin
+||eastday.com^$removeparam=qid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
