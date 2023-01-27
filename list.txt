@@ -37,6 +37,11 @@ www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrien
 www.google.*##.g:has(a[href*=".php?xxx="])
 www.google.*##.g:has(cite:has-text(.it › )):has(a[href*="-"][href$=".html"]:not([href*="://www."], [href*="://m."], [href*="carrefour.it"], [href*="gospesa.it"]))
 www.google.*##.g:has(a[href^="https://books.google."])
+www.google.*##.g:has(a[href*="?event=ad.logClickampadvert="])
+www.google.*##.g:has(a[href*="/redirect.asp?url="]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/go_links.php?"]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/redir?dir="]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/link?url="]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
@@ -21249,6 +21254,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||5.61.55.143^$all
 ||84df4578bffsd.info^$all
 ||dellenshop.top^$document
+||fuzionblox.com^$all
+||cdn.discordapp.com/attachments/1067911713963397223/1068274673726533743/AudioTools.zip^$all
+||194.36.177.164^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -26945,6 +26953,9 @@ $removeparam=aff_click_id
 ||zhidao.baidu.com^$removeparam=qbl
 ||wenku.baidu.com/search?$removeparam=cc
 ||baike.baidu.com^$removeparam=lemmaFrom
+||wenku.baidu.com^$removeparam=_wkts_
+wenku.baidu.com##+js(set,history.replaceState,noopFunc)
+||wenku.baidu.com^$removeparam=aggId
 ||bilibili.com^$removeparam=/^current/
 ||bilibili.com^$removeparam=/^from/
 ||bilibili.com^$removeparam=/^network/
