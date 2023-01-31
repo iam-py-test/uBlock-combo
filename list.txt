@@ -227,6 +227,8 @@ winaero.com##.entry-content > div:has([href="/fix-classic-issues-performance/"])
 dll4free.com#?#.leftdiv:has-text(PC Reviver)
 dll-found.com#?#p:has(a[href*=tweakbit])
 azdll.net##.dllhelper-banner
+||solvusoft.com^$doc
+exefiles.com##.panel:has([href*="/en/recommended/winthruster/"])
 /^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
 /^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
@@ -10501,6 +10503,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||liveupdate.zeroredirect1.com^$all
 ||l.zeroredirect1.com^$all
 ||nuada-the.com^$all
+||vzvnjw.delicatedates.net^$all
+||delicatedates.net^$document
 ||f.ls^$all
 ||hiokurl.com^$all
 ||itsssl.com^$document
@@ -11125,6 +11129,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||119.36.68.244^$all
 ||45.146.165.222^$all
 ||driverfix.com^$document
+||www.driverfix.com^$document
 ||systemini-com.tk^$all
 ||micropcsupport.com^$all
 ||telete.in^$all
@@ -16860,6 +16865,27 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mediafireqqwbaok.aqz-xpr.me^$document
 ||obsproicet.net^$all
 ||driveusercontent.us^$document
+||rocketpool-net.website^$all
+||135.181.41.147^$all
+||ycxrl.com^$all
+||ycxrldow.com^$all
+||cbphe.com^$all
+||cbpheback.com^$all
+||niua9f.tabcoperoo.sbs^$all
+||noicuckoo.cfd^$all
+||oqzxtzpjagh.buzz^$all
+||pusgpaxnddw.top^$all
+||qlmhxmwlyhr.top^$all
+||qmudnleqjjx.top^$all
+||1r2d76nob3mu.yachts^$all
+||58sozi3fke55.yachts^$all
+||cjdadpbxjtk.yachts^$all
+||dcascfymifzm.yachts^$all
+||f0ksf1lkyjj3.yachts^$all
+||jh9y4fr53c2s.yachts^$all
+||xer382yrotxz.yachts^$all
+||watch-online.7oc5b1i3v4iu.top^$all
+||7oc5b1i3v4iu.top^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -21324,6 +21350,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dsc.searchlightpro.com^$all
 ||www.solvusoft.com^$document
 ||solvusoft.com^$document
+||exefiles.com/*/recommended/winthruster/$document
 ||totalsystemcare.com^$document
 ||www.totalsystemcare.com^$document
 ||safebytes.com^$document
@@ -21336,6 +21363,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||d3pxa1onb1zy4q.cloudfront.net/custom_search_tool-2022.7.15-fx.xpi^$all
 ||gosearches.gg^$document
 ||search-fine.com^$document
+||easyprint.app^$document
+||cdn.easyprint-cdn.app^$document
+||freshysearch.com^$all
+||tor-browser.app^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -21366,6 +21397,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||link.sv^$document
 ||to.sv^$document
 ||go.sv^$document
+||scuekpza.ws^$document
 ||mailboxdelivery.com^$all
 ||csgo.xyz^$all
 ||contribute.to-support.me^$all
@@ -21449,6 +21481,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||virustptal.com^$document
 ||mediafiire.com^$all
 ||malwarebytes.support^$document
+||download-metamask.com^$all
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
