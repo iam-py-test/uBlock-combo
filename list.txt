@@ -10116,7 +10116,6 @@ www.microsoft.com##a[data-pfns][data-pfns^="8"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][href*=pacman]
 www.microsoft.com##a[data-pfns][href*=pac-men]
-!#include uBO%20list%20extensions/AdGuardSafeBrowsing-ReverseEngineered.txt
 
 ! ----- BEGIN The malicious website blocklist -----
 ! Description: This list aims to protect against scams, phishing, malware, and *some* cryptominers. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
@@ -21433,8 +21432,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||xmr.2miners.com^$all
 ||xmr-eu1.nanopool.org^$all
 ! ----- include rules for just uBlock Origin and AdGuard, and the VXVault list -----
-!#include special_lists/anti-malware-ubo-extension.txt
-!#include antipup.txt
 
 ! ----- BEGIN The anti-typo list -----
 ||xn--gogle-jua.com^$all
