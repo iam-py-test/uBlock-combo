@@ -30,8 +30,6 @@ mainlist = """! Title: iam-py-test's Combo List
 eadd = 0
 ered = 0
 
-replacecomments = re.compile("! .*\n")
-
 for clist in lists:
 	l = requests.get(lists[clist]).text.replace("! Title: ","! List title: ").split("\n")
 	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
@@ -52,12 +50,12 @@ for clist in lists:
 			try:
 				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
-				try:
-					inccontents = re.sub(replacecomments,inccontents,"")
-				except:
-					# if the regex fails, just continue on
-					pass
-				mainlist += "{}\n".format(inccontents)
+				endcontents = ""
+				for tmpl in inccontents.split("\n"):
+					if tmpl.startswith("!") or tmpl == "":
+						continue
+					endcontents += "{}\n".format(tmpl)
+				mainlist += "{}\n".format(endcontents)
 			except Exception as err:
 				print(line,err)
 		else:
