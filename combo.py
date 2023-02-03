@@ -1,6 +1,7 @@
 import requests
 import os
 import urllib.parse
+import re
 lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
 
 donelines = []
@@ -29,8 +30,10 @@ mainlist = """! Title: iam-py-test's Combo List
 eadd = 0
 ered = 0
 
+replacecomments = re.compile("!.*\n")
+
 for clist in lists:
-	l = requests.get(lists[clist]).text.replace("[Adblock Plus 3.6]","").replace("! Title: ","! List title: ").split("\n")
+	l = requests.get(lists[clist]).text.replace("! Title: ","! List title: ").split("\n")
 	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
 	for line in l:
 		if (line.startswith("!") or line.startswith("#")) and "include" not in line:
@@ -49,9 +52,14 @@ for clist in lists:
 			try:
 				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
+				try:
+					inccontents = re.sub(replacecomments,inccontents,"")
+				except:
+					# if the regex fails, just continue on
+					pass
 				mainlist += "{}\n".format(inccontents)
 			except Exception as err:
-				print(err)
+				print(line,err)
 		else:
 			mainlist += "{}\n".format(line)
 			eadd += 1
@@ -59,6 +67,7 @@ for clist in lists:
 			edomain = extdomain(line)
 			if edomain != "":
 				donedomains.append(edomain)
+mainlist = mainlist.replace("[Adblock Plus 3.8]","").replace("[Adblock Plus 3.6]","")
 with open("list.txt","w",encoding="UTF-8") as f:
 	f.write(mainlist)
 	f.close()
