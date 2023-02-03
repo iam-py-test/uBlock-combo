@@ -57,7 +57,7 @@ for clist in lists:
 					if tmpl in donelines:
 						continue
 					tmpdomain = extdomain(tmpl)
-					if tmpdomain in donedomains:
+					if tmpdomain in donedomains and tmpdomain != "":
 						continue
 					endcontents += "{}\n".format(tmpl)
 					donelines.append(tmpl)
