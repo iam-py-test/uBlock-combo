@@ -47,7 +47,7 @@ for list in lists:
 			continue
 		elif line.startswith("!#include "):
 			try:
-				incpath = urllib.parse.urljoin(list,line[10:])
+				incpath = urllib.parse.urljoin(list,line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
 				mainlist += "{}\n".format(inccontents)
 			except Exception as err:
