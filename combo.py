@@ -44,7 +44,7 @@ for list in lists:
 			continue
 		elif extdomain(line) != "" and extdomain(line) in donedomains:
 			continue
-		elif line.startswith("#!include "):
+		elif line.startswith("!#include "):
 			try:
 				incpath = os.path.abspath(line[10:])
 				inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
