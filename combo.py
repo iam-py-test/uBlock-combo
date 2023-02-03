@@ -15,6 +15,8 @@ def extdomain(line):
 			domain = line[2:-6]
 		elif line.startswith("||") and line.endswith("^$all,~inline-font,~inline-script"):
 			domain = line[2:-33]
+		elif line.startswith("||") and line.endswith("^"):
+			domain = line[2:-1]
 		return domain
 	except:
 		return ""
