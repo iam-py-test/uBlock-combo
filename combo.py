@@ -54,7 +54,14 @@ for clist in lists:
 				for tmpl in inccontents.split("\n"):
 					if tmpl.startswith("!") or tmpl == "":
 						continue
+					if tmpl in donelines:
+						continue
+					tmpdomain = extdomain(tmpl)
+					if tmpdomain in donedomains:
+						continue
 					endcontents += "{}\n".format(tmpl)
+					donelines.append(tmpl)
+					donedomains.append(tmpdomain)
 				mainlist += "{}\n".format(endcontents)
 			except Exception as err:
 				print(line,err)
@@ -65,7 +72,7 @@ for clist in lists:
 			edomain = extdomain(line)
 			if edomain != "":
 				donedomains.append(edomain)
-mainlist = mainlist.replace("[Adblock Plus 3.8]","").replace("[Adblock Plus 3.6]","")
+mainlist = mainlist.replace("[Adblock Plus 3.8]","").replace("[Adblock Plus 3.6]","").replace("[Adblock Plus 2.0]","")
 with open("list.txt","w",encoding="UTF-8") as f:
 	f.write(mainlist)
 	f.close()
