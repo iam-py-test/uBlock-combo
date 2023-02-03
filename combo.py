@@ -29,9 +29,9 @@ mainlist = """! Title: iam-py-test's Combo List
 eadd = 0
 ered = 0
 
-for list in lists:
-	l = requests.get(lists[list]).text.replace("[Adblock Plus 3.6]","").replace("! Title: ","! List title: ").split("\n")
-	mainlist += "\n! ----- BEGIN {} -----\n".format(list)
+for clist in lists:
+	l = requests.get(lists[clist]).text.replace("[Adblock Plus 3.6]","").replace("! Title: ","! List title: ").split("\n")
+	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
 	for line in l:
 		if (line.startswith("!") or line.startswith("#")) and "include" not in line:
 			continue
@@ -47,7 +47,7 @@ for list in lists:
 			continue
 		elif line.startswith("!#include "):
 			try:
-				incpath = urllib.parse.urljoin(list,line[10:],allow_fragments=True)
+				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
 				mainlist += "{}\n".format(inccontents)
 			except Exception as err:
