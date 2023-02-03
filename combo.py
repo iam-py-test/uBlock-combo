@@ -17,7 +17,7 @@ def extdomain(line):
 	except:
 		return ""
 
-mainlist = """! Title: uBlock combo list
+mainlist = """! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
@@ -44,6 +44,13 @@ for list in lists:
 			continue
 		elif extdomain(line) != "" and extdomain(line) in donedomains:
 			continue
+		elif line.startswith("#!include "):
+			try:
+				incpath = os.path.abspath(line[10:])
+				inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title"
+				mainlist += "{}\n".format(inccontents)
+			except Exception as err:
+				print(err)
 		else:
 			mainlist += "{}\n".format(line)
 			eadd += 1
