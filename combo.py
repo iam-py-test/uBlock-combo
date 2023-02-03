@@ -1,5 +1,6 @@
 import requests
 import os
+import urllib.parse
 lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
 
 donelines = []
@@ -46,8 +47,8 @@ for list in lists:
 			continue
 		elif line.startswith("!#include "):
 			try:
-				incpath = os.path.abspath(line[10:])
-				inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
+				incpath = urllib.parse.urljoin(list,line[10:])
+				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
 				mainlist += "{}\n".format(inccontents)
 			except Exception as err:
 				print(err)
