@@ -1,4 +1,4 @@
-! Title: uBlock combo list
+! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
