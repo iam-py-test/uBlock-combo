@@ -16904,6 +16904,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cdn.discordapp.com/attachments/1070079222170787951/1070142745336889495/BrowserNews.exe^$all
 ||82.115.223.46^$all
 ||21bustqisw2.top^$document
+||331454283.jirikrcmar-photography.cz^$all
+||jirikrcmar-photography.cz^$document
+||dh4jf8fjs.affiliatemarketing.news^$all
+||affiliatemarketing.news^$document
+||ccleaner-download.xyz^$all
+||35.181.110.225^$all
+||service-domain.xyz^$all
+||www-biccamera-com.xdtylc468.com^$all
+||www-biccamera-com.jycfmf.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -22359,6 +22368,7 @@ $removeparam=returnFromLogin,domain=amazon.*
 ||amazon.*^$removeparam=colid
 ||amazon.*/dp/$removeparam=s,document
 ||gaming.amazon.com^$removeparam=redirectRoute
+||amazon.$removeparam=sbo
 ||bing.com/search?$removeparam=/^form=/i
 ||bing.com^$removeparam=sp
 $removeparam=sc,domain=bing.com|qvc.com|startpage.com
