@@ -30,7 +30,7 @@ mainlist = """! Title: iam-py-test's Combo List
 eadd = 0
 ered = 0
 
-replacecomments = re.compile("!.*\n")
+replacecomments = re.compile("! .*\n")
 
 for clist in lists:
 	l = requests.get(lists[clist]).text.replace("! Title: ","! List title: ").split("\n")
