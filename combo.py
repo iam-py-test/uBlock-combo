@@ -47,7 +47,7 @@ for list in lists:
 		elif line.startswith("#!include "):
 			try:
 				incpath = os.path.abspath(line[10:])
-				inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title"
+				inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
 				mainlist += "{}\n".format(inccontents)
 			except Exception as err:
 				print(err)
