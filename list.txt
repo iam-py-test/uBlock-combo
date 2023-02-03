@@ -8850,7 +8850,6 @@ toorgle.net##.join
 ||csgogift*.xyz^$all,~inline-font,~inline-script
 ||discord*.gift^$all,~inline-font,~inline-script
 @@||discord.gift^$all
-||discord*.gift^
 ||discord*.gift^$popup
 @@||discord.gift^
 @@||discord.gift^$popup
