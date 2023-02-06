@@ -17024,6 +17024,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||tiktok.topprofile24.site^$all
 ||topprofile24.site^$all
 ||rdr.mobiletime.net^$document
+||quickttax.top^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
