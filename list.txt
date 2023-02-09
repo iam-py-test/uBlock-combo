@@ -21300,6 +21300,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||affiliate.totaladblock.com^$document
 ||url.totaladblock.com^$document
 ||api.totaladblock.com^$document
+||signup.totaladblock.com^$document
+||track.totaladblock.com^$document
+||my.totaladblock.com^$document
+||support.totaladblock.com^$document
 ! Before downloading, ADWCleaner detected no adware. After downloading, ADWCleaner detected adware, which included the program. Program claims that buying the paid version (and entering private data) will fix issues with a clean VM. 
 ||mycleanpc.com^$document
 ||www.mycleanpc.com^$all
@@ -21622,6 +21626,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||to.sv^$document
 ||go.sv^$document
 ||scuekpza.ws^$document
+||thedrivingtutors.com^$document
 ||mailboxdelivery.com^$all
 ||csgo.xyz^$all
 ||contribute.to-support.me^$all
