@@ -22086,6 +22086,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||malwarebytes.support^$document
 ||download-metamask.com^$all
 ||mediafire1.com^$document
+||com.com^$all
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
