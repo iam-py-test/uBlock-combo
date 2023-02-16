@@ -10734,6 +10734,7 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||v1asy4ncr.click^$all,~inline-font,~inline-script
 ||p5tvhrlw30h.click^$all,~inline-font,~inline-script
 ||8narwi309.click^$all,~inline-font,~inline-script
+||sbjjzdwqg41ps.click^$all,~inline-font,~inline-script
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||hardreset.info^$doc
@@ -17973,7 +17974,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gamebee.club^$document
 ||tiktok.topprofile24.site^$all
 ||topprofile24.site^$all
-||rdr.mobiletime.net^$document
 ||quickttax.top^$all
 ||qfdsq.inghesatin.com^$all
 ||blockadsez.info^$all
@@ -22252,6 +22252,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||512.witcotwait.live^$all
 ||elon23.page.link^$all
 ||teslaev.d1v854kgghhsze.amplifyapp.com^$all
+||apkmirror.co^$all
+||webogram.org^$all
+||webogram.ru^$all
+||xn--80affa3aj0al.xn--80asehdb^$all
+||telegr.am/user_mgt/login$all
+||tgram.ru^$all
+||telegramm.site^$all
+||web-telegram.net^$all
+||atm-receipts.neocities.org^$document
+||apkmirror.net^$document
+||github.me^$document
+||yandec.ru^$document
+||yandex.co^$document
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
