@@ -6,13 +6,13 @@
 
 
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
-||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga
+||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga
 ||gq^$doc,domain=~inege.gq|~tvgelive.gq
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw
 ||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top
 ||loan^$doc
-||agency^$doc,domain=~battlefield.agency|~shortcut.agency
+||agency^$doc,domain=~battlefield.agency|~baam.agency|~uphotel.agency
 ||gdn^$doc
 ||bid^$doc
 ||ooo^$doc
@@ -25,12 +25,12 @@
 .live/*/?*=*&*=*&*=*&*=*&*=$doc
 .xyz/*/?*=*&*=*&*=*&*=*&*=$doc
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$doc
-www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"]))
+www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
-www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="shortcut.agency"]))
+www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
 www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"]))
@@ -42,32 +42,32 @@ www.google.*##.g:has(a[href*="/redirect.asp?url="]):has(a[href*=".tk/"], a[href*
 www.google.*##.g:has(a[href*="/go_links.php?"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/redir?dir="]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/link?url="]):has(a[href*=".tk/"], a[href*=".ml/"])
-www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="shortcut.agency"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ga"]:not([data-domain*="google.ga"], [data-domain*="filtri-dns.ga"], [data-domain*="dgdi.ga"], [data-domain*="9191.ga"], [data-domain*="animevsub.ga"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ga"]:not([data-domain*="google.ga"], [data-domain*="filtri-dns.ga"], [data-domain*="dgdi.ga"], [data-domain*="9191.ga"], [data-domain*="animevsub.ga"], [data-domain*="my.ga"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gq"]:not([data-domain*="inege.gq"], [data-domain*="tvgelive.gq"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".cf"]:not([data-domain*="google.cf"], [data-domain*="rths.cf"], [data-domain*="acap.cf"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw"], [data-domain*="xor.pw"], [data-domain*="fullhdfilmizlesene.pw"], [data-domain*="gopass.pw"], [data-domain*="vost.pw"], [data-domain*="core.pw"], [data-domain*="bittor.pw"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".loan"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="shortcut.agency"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([href*="caitlin.top"], [data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"], [data-domain*="pressplay.top"])
-bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"]))
+bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
-bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="shortcut.agency"]))
+bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
 bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"]))
@@ -18152,6 +18152,28 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mega.nz/file/5w4QWZCR#pYyDSqxzjS4LzhLW9ZYvAWzxhuM3rPGh0wl7r64tDLs^$all
 ||83.217.11.27^$all
 ||77.73.134.35^$all
+||176.57.150.117^$all
+||ru-torproject.ru^$all
+||anapatformacion.org/modules/file/tor/tor-browser.zip^$all
+||n.fcd.su^$document
+||install1nstall1.com^$all
+||kochava.com^$all
+||neptunclicks.com^$all
+||arakusus.com^$all
+||imgfil.com^$all
+||urlcod.com^$all
+||tiurll.com^$all
+||neppe.studio^$all
+||startex3download.com^$all
+||gowtos.com^$all
+||lomogd.com^$all
+||nosnou.com^$all
+||steam.steampoweredartwork.com^$all
+||steampoweredartwork.com^$all
+||wgreplay.fun^$all
+||mesoftwares.vip^$all
+||cdn.discordapp.com/attachments/1069292766246469732/1076118263186063481/Installer.rar^$all
+||drive.google.com/uc?export=download&confirm=no_antivirus&id=11WhDE3Xy7c5AkKS24P0EzS8S8LUNjIAY^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -19587,9 +19609,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www76.davisonbarker.pro^$document
 ||www39.davisonbarker.pro^$document
 ||www28.davisonbarker.pro^$document
+||www3.davisonbarker.pro^$document
+||www75.davisonbarker.pro^$document
 ||lowrihouston.pro^$document
 ||www53.lowrihouston.pro^$document
 ||www44.lowrihouston.pro^$document
+||www48.lowrihouston.pro^$document
+||davisonbarker.pro/am-push-cps.js$script
 ||chilichicytrie.com^$all
 ||zerotrf.store^$all
 ||linkedin.com/pulse/free-discord-nitro-generator-verification-maxpro-game-gadget-2022^$all
@@ -22280,6 +22306,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||github.me^$document
 ||yandec.ru^$document
 ||yandex.co^$document
+||67rd5b.ml^$all
+||paleks.live^$all
+||kempus.click^$all
+||www.kempus.click^$all
+||webpick-cdn.s3.amazonaws.com/2%20-%20pending%20massage.jpeg$all
+||make0match.com^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
