@@ -12,7 +12,7 @@
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw
 ||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top
 ||loan^$doc
-||agency^$doc,domain=~battlefield.agency|~baam.agency|~uphotel.agency
+||agency^$doc,domain=~battlefield.agency|~baam.agency|~robotzebra.agency|~uphotel.agency
 ||gdn^$doc
 ||bid^$doc
 ||ooo^$doc
@@ -30,7 +30,7 @@ www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
-www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
+www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
 www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
@@ -58,7 +58,7 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".cf"]:not([data-domain*="google.cf"], [data-domain*="rths.cf"], [data-domain*="acap.cf"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw"], [data-domain*="xor.pw"], [data-domain*="fullhdfilmizlesene.pw"], [data-domain*="gopass.pw"], [data-domain*="vost.pw"], [data-domain*="core.pw"], [data-domain*="bittor.pw"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".loan"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"], [data-domain*="robotzebra.agency"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([href*="caitlin.top"], [data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"], [data-domain*="pressplay.top"], [data-domain*="strims.top"])
@@ -67,7 +67,7 @@ bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.g
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
-bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
+bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"] ))
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
 bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
@@ -229,8 +229,8 @@ dll-found.com#?#p:has(a[href*=tweakbit])
 azdll.net##.dllhelper-banner
 ||solvusoft.com^$doc
 exefiles.com##.panel:has([href*="/en/recommended/winthruster/"])
-/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
-/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
+/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$1p,doc
+/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$1p,doc
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https?:\/\/(?:www\.)?[-0-9a-z]{14,}\.(?:biz|fun|live)\/[a-zA-Z]{10,}\.php/$doc,domain=biz|fun|live
@@ -1192,8 +1192,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||uptodater.net^$all,~inline-font,~inline-script
 ||virnews.club^$all,~inline-font,~inline-script
 ||vviewpoint.biz^$all,~inline-font,~inline-script
-/^http://[0-9]{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$doc
-/^https://[0-9]{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$doc
+/^http://\d{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$doc
+/^https://\d{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$doc
 ||134.209.136.174^$doc
 ||whiteclick.biz^$all,~inline-font,~inline-script
 ||dreamnews.biz^$all,~inline-font,~inline-script
@@ -1236,7 +1236,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||moststraightmoment-10.live^$all,~inline-font,~inline-script
 /^http://([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/
 /^https://([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/
-/^(https?://)?[0-9]{1,2}\.[a-z0-9-]{1,}\.biz(/|$)/$doc
+/^(https?://)?\d{1,2}\.[a-z0-9-]{1,}\.biz(/|$)/$doc
 ||safe-offers.net^$doc
 /bitcoinrevolution/lp.php^$doc
 ||gogle.net^$all,~inline-font,~inline-script
@@ -2097,10 +2097,10 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||online-guard.com^$all,~inline-font,~inline-script
 /mcafee-safe-browsing/?*=*&*=*&*=*&*=*&*=*&*=$doc,popup
 ||amazon-security-info.lnk.to^$all,~inline-font,~inline-script
-/(\.|//|^)1xslot[0-9]{5,}\.com(/|$)/$all,~inline-font,~inline-script
-/(\.|//|^)linebet[0-9]{4}\.com(/|$)/$all,~inline-font,~inline-script
-/(\.|//|^)linebet[0-9]{5,}[a-z]\.com(/|$)/$all,~inline-font,~inline-script
-/(\.|//|^)lite-1x[0-9]{5,}\.com(/|$)/$all,~inline-font,~inline-script
+/(\.|//|^)1xslot\d{5,}\.com(/|$)/$all,~inline-font,~inline-script
+/(\.|//|^)linebet\d{4}\.com(/|$)/$all,~inline-font,~inline-script
+/(\.|//|^)linebet\d{5,}[a-z]\.com(/|$)/$all,~inline-font,~inline-script
+/(\.|//|^)lite-1x\d{5,}\.com(/|$)/$all,~inline-font,~inline-script
 ||11promo.icu^$all,~inline-font,~inline-script
 ||1x-asiabet.mobi^$all,~inline-font,~inline-script
 ||1x-bet-co.com^$all,~inline-font,~inline-script
@@ -2380,11 +2380,11 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||z-prize.icu^$all,~inline-font,~inline-script
 ||zfcurqe.art^$all,~inline-font,~inline-script
 ||zuginmw.art^$all,~inline-font,~inline-script
-/^178\.253\.[0-7]\.[0-9]{1,3}$/$network
+/^178\.253\.[0-7]\.\d{1,3}$/$network
 178.253.14.*$network
 178.253.15.*$network
-/^178\.253\.2[0145]\[0-9]{1,3}$/$network
-/^178\.253\.3[04-7]\.[0-9]{1,3}$/$network
+/^178\.253\.2[0145]\\d{1,3}$/$network
+/^178\.253\.3[04-7]\.\d{1,3}$/$network
 178.253.46.*$network
 178.253.47.*$network
 178.253.54.*$network
@@ -9890,7 +9890,7 @@ toorgle.net##.join
 ||192.243.59.12^$doc
 ||192.243.59.13^$doc
 ||192.243.59.20^$doc
-/^(https?://)?192\.243\.59\.[0-9]{1,3}($|/)/$doc
+/^(https?://)?192\.243\.59\.\d{1,3}($|/)/$doc
 192.243.59.*$network
 ||eivbjsegbino.com^$all,~inline-font,~inline-script
 ||jpjmpqaupc.com^$all,~inline-font,~inline-script
@@ -9966,14 +9966,14 @@ toorgle.net##.join
 46.161.31.*$network
 91.243.41.*$network
 91.243.42.*$network
-/^5\.8\.4[4-7]\.[0-9]{1,3}$/$network
-/^5\.101\.4[67]\.[0-9]{1,3}$/$network
-/^5\.188\.5[01]\.[0-9]{1,3}$/$network
-/^5\.188\.17[67]\.[0-9]{1,3}$/$network
-/^5\.188\.19[45]\.[0-9]{1,3}$/$network
-/^5\.189\.21[89]\.[0-9]{1,3}$/$network
-/^31\.184\.20[0-3]\.[0-9]{1,3}$/$network
-/^185\.238\.15[2-5]\.[0-9]{1,3}$/$network
+/^5\.8\.4[4-7]\.\d{1,3}$/$network
+/^5\.101\.4[67]\.\d{1,3}$/$network
+/^5\.188\.5[01]\.\d{1,3}$/$network
+/^5\.188\.17[67]\.\d{1,3}$/$network
+/^5\.188\.19[45]\.\d{1,3}$/$network
+/^5\.189\.21[89]\.\d{1,3}$/$network
+/^31\.184\.20[0-3]\.\d{1,3}$/$network
+/^185\.238\.15[2-5]\.\d{1,3}$/$network
 ||dispositionadverb.com^$all,~inline-font,~inline-script
 ||wednesdayexpandingbarb.com^$all,~inline-font,~inline-script
 ||broadslippery.com^$all,~inline-font,~inline-script
@@ -15132,8 +15132,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||134.122.115.190^$all
 ||cybermicto768jubileejhsye6yt6543.s3.us-east-1.amazonaws.com^$all
 ||hopelandishomeground1098alone43jk.s3.amazonaws.com^$all
-||sites.google.com/view/hypixeldupemethod/*^$doc
-||mcdupe.xyz^$all
 ||cdn.discordapp.com/attachments/916391647955279943/*^$all
 ||gigapurbalingga.net^$all
 ||rigrosehostingz.xyz^$document
@@ -22846,6 +22844,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||goto.searchpoweronline.com^$document
 ||www.searchpoweronline.com^$document
 ||searchpoweronline.com^$document
+||gifsearchutils.com^$document
+||start.gifsearchutils.com^$document
+||pdfsharkapp.com^$document
+||start.pdfsharkapp.com^$document
+||searchmagiconline.com^$document
+||start.searchmagiconline.com^$document
+||pdfsuperhero.com^$document
+||stats.pdfsuperhero.com^$all
+||bl.searchpoweronline.com^$document
 ||mysearchengine.co^$document
 ||search.freddostagione.com^$all
 ||freddostagione.com^$all
@@ -23226,6 +23233,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/serch\d{2}\.biz\/\?p=/$document,domain=biz
 /^https:\/\/money\d{2}game\.site\/\?u=/$document,domain=site
 /^https:\/\/to\ds\.biz\/\?p=/$document,domain=biz
+/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
+/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$document,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https?:\/\/(?:www\.)?[-0-9a-z]{14,}\.(?:biz|fun|live)\/[a-zA-Z]{10,}\.php/$document,domain=biz|fun|live
@@ -23270,7 +23279,7 @@ game3rb.com##+js(acs, navigator, FingerprintJS)
 ||www.safetydetectives.com^$document
 ||trustedantiviruscompare.com^$document
 ||10bestantivirus.com^$document
-||youtube.com/watch?v=9ocPeo-y6t4^$doc
+||youtube.com/watch?v=9ocPeo-y6t4^$document
 ||youtube.com/c/TotalAV^$document
 ||addons.mozilla.org/en-US/firefox/user/13039502/^$document
 ||addons.mozilla.org/en-US/firefox/addon/total-adblock/^$document
@@ -23375,7 +23384,7 @@ appuals.com##.wptp
 appuals.com#?#h3:has(+ p:has-text(Download and run Restoro ))
 appuals.com#?#p:has-text(Download and run Restoro )
 appuals.com##p + div > div:first-of-type
-||driver-soft.com^$doc
+||driver-soft.com^$document
 wikidll.com,dllfile.net,dll-files.org##.detection-os
 wikidll.com,dllfile.net,dll-files.org##.detection-desc
 wikidll.com,dllfile.net,dll-files.org#?#.method:has-text(Outbyte)
@@ -23390,7 +23399,7 @@ dllfile.net##.sticky-link
 fix4dll.com##.file__download
 fix4dll.com#?#.sidebar__block:has-text(Outbyte)
 winaero.com##.entry-content > div:has([href="/fix-classic-issues-performance/"])
-||outbyte.com^$doc
+||outbyte.com^$document
 ||testedforyou.net^$all,~inline-font,~inline-script
 dll4free.com#?#.leftdiv:has-text(PC Reviver)
 dll-found.com#?#p:has(a[href*=tweakbit])
@@ -23409,13 +23418,13 @@ download.cnet.com##div.c-productCard-search:has-text(/iobit uninstaller/i)
 download.cnet.com##div.c-productCard-search:has-text(/TotalAV/i)
 download.cnet.com##div.c-productCard-search:has-text(/PC Protect for Android/i)
 download.cnet.com##div.c-productCard-search:has-text(/Scanguard/i)
-||download.cnet.com/Advanced-SystemCare-Free$doc
-||download.cnet.com/Driver-Easy$doc
-||download.cnet.com/IObit-Uninstaller$doc
-||download.cnet.com/TotalAV$doc
-||download.cnet.com/ScanGuard$doc
-||download.cnet.com/developer/SS%20Protect$doc
-||download.cnet.com/developer/Security%20Suite$doc
+||download.cnet.com/Advanced-SystemCare-Free$document
+||download.cnet.com/Driver-Easy$document
+||download.cnet.com/IObit-Uninstaller$document
+||download.cnet.com/TotalAV$document
+||download.cnet.com/ScanGuard$document
+||download.cnet.com/developer/SS%20Protect$document
+||download.cnet.com/developer/Security%20Suite$document
 softonic.com##.top-app:has-text(/TotalAV/i)
 softonic.com##.top-app:has-text(/iobit uninstaller/i)
 softonic.com##.top-app:has-text(/iobit malware fighter/i)
@@ -23433,12 +23442,12 @@ softonic.com##.app-list-item:has-text(/Driver Easy/i)
 softonic.com##.app-list-item:has-text(/MyCleanPC/i)
 softonic.com##.app-list-item:has-text(/PC SpeedCAT/i)
 softonic.com##.app-list-item:has-text(/DLL Helper/i)
-||totalav-essential-antivirus.en.softonic.com^$doc
-||iobit-uninstaller.en.softonic.com^$doc
-||drivereasy.en.softonic.com^$doc
-||mycleanpc-pc-optimizer.en.softonic.com^$doc
-||pc-speedcat.en.softonic.com^$doc
-||advanced-systemcare-ultimate.en.softonic.com^$doc
+||totalav-essential-antivirus.en.softonic.com^$document
+||iobit-uninstaller.en.softonic.com^$document
+||drivereasy.en.softonic.com^$document
+||mycleanpc-pc-optimizer.en.softonic.com^$document
+||pc-speedcat.en.softonic.com^$document
+||advanced-systemcare-ultimate.en.softonic.com^$document
 softonic.com##.modal-di__content
 softonic.com##.modal-di__header
 softonic.com##.modal-di__button-wrapper:has(#download-recommended-app)
@@ -23446,15 +23455,15 @@ softonic.com##.modal-di__button-wrapper:has(#download-recommended-app)
 play.google.com##div.mpg5gc.ImZGtf:has-text(/TotalAV/i)
 play.google.com##div.mpg5gc.ImZGtf:has-text(/scanguard/i):has-text(/Protected.net/i)
 play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.net/i)
-||play.google.com/store/apps/details?id=com.totalav.android$doc
-||play.google.com/store/apps/details?id=com.scanguard.android$doc
-||play.google.com/store/apps/details?id=com.pcprotect.android$doc
-||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$doc
-||apps.apple.com/us/app/totalav/id1130411958$doc
-||apps.apple.com/us/app/total-adblock-ad-blocker/id1564900435$doc
-||apps.apple.com/us/app/pcprotect/id1130412321$doc
-||apps.apple.com/us/app/totalav-safe-site/id1403850681$doc
-||apps.apple.com/us/developer/protected-net-group-limited$doc
+||play.google.com/store/apps/details?id=com.totalav.android$document
+||play.google.com/store/apps/details?id=com.scanguard.android$document
+||play.google.com/store/apps/details?id=com.pcprotect.android$document
+||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$document
+||apps.apple.com/us/app/totalav/id1130411958$document
+||apps.apple.com/us/app/total-adblock-ad-blocker/id1564900435$document
+||apps.apple.com/us/app/pcprotect/id1130412321$document
+||apps.apple.com/us/app/totalav-safe-site/id1403850681$document
+||apps.apple.com/us/developer/protected-net-group-limited$document
 
 
 ! ----- BEGIN The anti-typo list -----
@@ -23757,7 +23766,7 @@ $removeparam=tblci
 $removeparam=tcid,domain=~rug.nl
 $removeparam=/^dv_adwords_/
 $removeparam=wdorigin
-$removeparam=/^aff_id[0-9]?=/i,domain=~affiliate.salestring.com
+$removeparam=/^aff_id\d?=/i,domain=~affiliate.salestring.com
 $removeparam=twitchReferral
 $removeparam=elqTrackId
 $removeparam=tctx
@@ -24025,10 +24034,10 @@ $removeparam=__s
 @@||instagram.com/ajax^$xmlhttprequest,removeparam=__s
 $removeparam=_kx
 $removeparam=/^affsrc=/i
-$removeparam=/^aff_sub[0-9]?=/
+$removeparam=/^aff_sub\d?=/
 $removeparam=afftrack
 $removeparam=atid
-$removeparam=/^clickref[0-9]?=/
+$removeparam=/^clickref\d?=/
 $removeparam=cuid
 $removeparam=data1,domain=~web3.cmvm.pt
 $removeparam=data2
@@ -24115,7 +24124,7 @@ $removeparam=af_referrer_customer_id
 $removeparam=af_referrer_name
 $removeparam=af_referrer_uid
 $removeparam=af_siteid
-$removeparam=/^af_sub[0-9]=/
+$removeparam=/^af_sub\d=/
 $removeparam=af_sub_siteid
 $removeparam=is_retargeting
 $removeparam=shortlink
@@ -24128,7 +24137,7 @@ $removeparam=affc
 $removeparam=byp455
 $removeparam=detail_from
 $removeparam=sub_aff_id
-$removeparam=/^sub_id[0-9]=/
+$removeparam=/^sub_id\d=/
 $removeparam=tg_ref
 $removeparam=dt_dapp
 $removeparam=dt_platform
@@ -24839,7 +24848,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ||tcgplayer.com^$removeparam=setName
 ||humblebundle.com^$removeparam=linkID
 ||humblebundle.com^$removeparam=mcID
-||artstation.com^$removeparam=/^[0-9]/
+||artstation.com^$removeparam=/^\d/
 ||thedailybeast.com^$removeparam=via
 $removeparam=context,domain=imdb.com|fiverr.com
 $removeparam=action,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
@@ -25225,7 +25234,7 @@ $removeparam=f_id,domain=admitad.com
 ||sporcle.com^$removeparam=rp
 ||localmonero.co^$removeparam=rc
 $removeparam=mv_pc,domain=fragrancenet.com
-||walmart.$removeparam=/^wl[0-9]=/
+||walmart.$removeparam=/^wl\d=/
 ||walmart.$removeparam=wl10
 ||walmart.$removeparam=wl11
 ||walmart.$removeparam=wl12
@@ -25347,7 +25356,7 @@ $removeparam=block,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3
 ||milanoo.com^$removeparam=Promotion
 ||milanoo.com^$removeparam=deduplication_channel
 $removeparam=rcode,domain=kucoin.com
-||adressa.no^$removeparam=/^rs[0-9]/
+||adressa.no^$removeparam=/^rs\d/
 ||deezer.com^$removeparam=deferredFl
 $removeparam=Bibblio_source,domain=macrumors.com
 $removeparam=/^pr_/,domain=goodeeworld.com|lacemade.com|lifamasks.shop|willi.fi
@@ -25649,7 +25658,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@mailinglist$removeparam=/^utm_/i
 @@||web.archive.org/*_/http$removeparam
 @@||img*.nga$removeparam=cmpid
-@@/aff_c?$removeparam=/^aff_id[0-9]?=/i
+@@/aff_c?$removeparam=/^aff_id\d?=/i
 @@||hitta.se^$removeparam=ad_id
 @@||mywot.com/user/*/confirmNewEmail$removeparam=/^utm_/i
 @@||cdon.*/td_redirect^$removeparam=tduid
