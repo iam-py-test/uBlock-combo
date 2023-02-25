@@ -25648,6 +25648,7 @@ $removeparam=pk_vid,document
 ||tiktok.com^$removeparam=embed_source
 ||login.afreecatv.com^$removeparam=szFrom
 ||typeform.com^$removeparam=typeform-source
+||selected.com^$removeparam=clickedFromCategory
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
