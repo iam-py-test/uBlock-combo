@@ -11311,7 +11311,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! ----- BEGIN The malicious website blocklist -----
 ! Description: This list aims to protect against scams, phishing, malware, and *some* cryptominers. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
-||0redirb.com^$document
 ||xn--faebook-64a.com^$document
 ||facebok.xyz^$document
 ||0-app.com^$document
@@ -11330,7 +11329,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||google-analytisc.co.cc^$all
 ||oiwdd.co.cc^$all
 ||pojdue.co.cc^$all
-||js-o-kcjh.cz.cc^$all
 ||mcloudjs.com^$all
 ||googieapls.com^$all
 ||alertreceived.com^$all
@@ -17659,7 +17657,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||glthub.org^$document
 ||glthub.pro^$document
 ||nothfnw.shop^$document
-||tinyurl.com/27jmkjhz^$all
 ||roskoierser15.co.vu^$all
 ||hypixei.com^$all
 ||msverify.dev^$all
@@ -18216,6 +18213,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||uspsnewinfo.link^$all
 ||change.uspsnewinfo.link^$all
 ||dfg.uspsnewinfo.link^$all
+||dlscord-nltro.com^$all
+||uaery.top^$all
+||jiqaz.com^$all
+||ewzsvl72.top^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -22370,6 +22371,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bqcqw.top^$all
 ||understatedworking.com^$all
 ||jatostepa.com^$all
+||powerpcsupport.com^$document
+||mereqishe.live^$all
+||2620.mereqishe.live^$all
+||antbenjaw.live^$all
+||babyebbwow.live^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -23561,7 +23567,7 @@ $removeparam=cmpid
 $removeparam=CMP
 $removeparam=/^OCID=/i,domain=~youtube.com|~reiseauskunft.bahn.de
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
-$removeparam=tduid,domain=~redir.tradedoubler.com
+$removeparam=tduid,domain=~tradedoubler.com
 $removeparam=irclickid
 $removeparam=irclicid
 $removeparam=intcmp
@@ -25512,6 +25518,11 @@ $removeparam=pk_vid,document
 ||login.afreecatv.com^$removeparam=szFrom
 ||typeform.com^$removeparam=typeform-source
 ||selected.com^$removeparam=clickedFromCategory
+$removeparam=natb,domain=duckduckgo.com
+||duckduckgo.com^$removeparam=cp
+||cdc.gov^$removeparam=ACSTrackingID
+||cdc.gov^$removeparam=ACSTrackingLabel
+||cdc.gov^$removeparam=deliveryName
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
