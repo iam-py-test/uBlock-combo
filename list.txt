@@ -30,7 +30,7 @@ www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
-www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"))
+www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"])
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
 www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
@@ -67,7 +67,7 @@ bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.g
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
-bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"] ))
+bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"])
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
 bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
@@ -13435,15 +13435,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||85.237.217.143^$all
 ||gcl-page.biz^$all
 ||update.myiphost.com^$all
-||paishancho17.top^$all
 ||hsiens.xyz^$all
 ||remotenetwork.xyz^$all
-||2no.co^$all
 ||5.181.80.16^$all
 ||secure-recovery03.ddns.net^$all
 ||secure-recovery02.ddns.net^$all
 ||secure02p-login.ddns.net^$all
-||skoromoh.com^$all
 ||188.127.235.211^$all
 ||no-vac.ru^$all
 ||screenshoter.site^$all
@@ -18217,6 +18214,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||uaery.top^$all
 ||jiqaz.com^$all
 ||ewzsvl72.top^$all
+||dash.blastchallenger-intel.pro^$all
+||blastchallenger-intel.pro^$document
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -22372,10 +22371,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||understatedworking.com^$all
 ||jatostepa.com^$all
 ||powerpcsupport.com^$document
-||mereqishe.live^$all
-||2620.mereqishe.live^$all
-||antbenjaw.live^$all
-||babyebbwow.live^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -24689,7 +24684,7 @@ $removeparam=token,domain=x-kom.pl|al.to|combat.pl|substack.com
 $removeparam=/^tc_/,domain=bodenusa.com
 $removeparam=name,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=m_sc,domain=bloomingdales.com
-$removeparam=/^[$],domain=boohoo.com|forever21.com
+$removeparam=/^(\$)/,domain=boohoo.com|forever21.com
 $removeparam=/^\~/,domain=boohoo.com|forever21.com
 $removeparam=nid,domain=columbia.com|sorel.com
 $removeparam=uid,domain=alldebrid.fr|columbia.com|sorel.com|entradas.com|tomtop.com|links.e.malwarebytes.com
@@ -24820,7 +24815,7 @@ $removeparam=soc_trk
 ||blue-tomato.com^$removeparam=varid
 $removeparam=ia-pkpmtrack
 ||blue-tomato.com^$removeparam=zanox
-||blue-tomato.com^$removeparam=/_[$]ja/
+||blue-tomato.com^$removeparam=/_(\$)ja/
 ||spartoo.$removeparam=sx
 ||spartoo.$removeparam=track_id
 $removeparam=impression_id,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
@@ -25246,8 +25241,9 @@ $removeparam=refresh,domain=cnn.com
 ||realestate.com.au^$removeparam=rsf
 ||mail.ru^$removeparam=mt_click_id
 $removeparam=rec,domain=argos.co.uk
-$removeparam=/[$]ja/,domain=argos.co.uk
+$removeparam=/(\$)ja/,domain=argos.co.uk
 $removeparam=clickPR,domain=argos.co.uk
+$removeparam=clickCSR,domain=argos.co.uk
 ||blog.getadblock.com^$removeparam=gi
 $removeparam=pbref,domain=pinkbike.com
 $removeparam=INITD,domain=tuclothing.sainsburys.co.uk
