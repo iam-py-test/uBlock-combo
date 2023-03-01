@@ -25239,7 +25239,7 @@ $removeparam=refresh,domain=cnn.com
 ||emag.ro^$removeparam=recid
 ||emag.ro^$removeparam=scenario_ID
 ||realestate.com.au^$removeparam=rsf
-||mail.ru^$removeparam=mt_click_id
+$removeparam=mt_click_id,domain=mail.ru|vkplay.ru
 $removeparam=rec,domain=argos.co.uk
 $removeparam=/(\$)ja/,domain=argos.co.uk
 $removeparam=clickPR,domain=argos.co.uk
@@ -25519,6 +25519,7 @@ $removeparam=natb,domain=duckduckgo.com
 ||cdc.gov^$removeparam=ACSTrackingID
 ||cdc.gov^$removeparam=ACSTrackingLabel
 ||cdc.gov^$removeparam=deliveryName
+$removeparam=_1lr
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
