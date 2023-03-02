@@ -24282,7 +24282,7 @@ $removeparam=sk,domain=bing.com|aliexpress.*
 ||bing.com^$removeparam=refig
 ||bing.com^$removeparam=go
 ||bing.com/search?$removeparam=cvid
-||bing.com^$removeparam=/^sh/
+||bing.com^$removeparam=/^sh[a-np-z0-9]/
 ||bing.com^$removeparam=nclid
 ||bing.com^$removeparam=crslsl
 ||bing.com^$removeparam=ecount
