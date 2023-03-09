@@ -22257,6 +22257,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||185.155.184.98^$document
 ||luckyydayzz-offfersss-forrryouuu.co.in^$all
 ||myspecialdates.com^$document
+||landings.cbdswef.com^$document
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
