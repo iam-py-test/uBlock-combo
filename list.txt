@@ -101,6 +101,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||oldgames.4all.cc^$all,~inline-font,~inline-script
 ||cloudyvideogame.com^$doc
 ||marsshooter.org^$doc
+||fortevr.com^$doc
 ||tplinklogin.net^$doc
 ||tplinkextender.net^$doc
 ||dreamlinux.net^$doc
@@ -12556,7 +12557,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||postal-23.ioomoo.xyz^$all
 ||91.235.129.150^$all
 ||192.243.59.13^$all
-||obliteratebedblue.com^$document
 ||dustymural.com^$all
 ||disappearanceinspiredscan.com^$all
 ||m.windowsupdatesupport.org^$all
@@ -17582,7 +17582,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||vwvv-discord.top^$all
 ||68.60.77.128^$all
 ||fitgirlrepack.games^$document
-||floppyredirect.click^$document
+||floppyredirect.click^$all
 ||losstub.icu^$document
 ||fitgirl-repacks.proxy2link.com^$document
 ||nortvpn-app.com^$document
@@ -18031,11 +18031,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ooumoughtcall.com^$document
 ||s2cp.xyz^$all
 ||yuppdownload.com^$all
-||floppyredirect.click^$all
 ||cabbageknee.site^$all
 ||suntrees.icu^$all
 ||sparkrainstorm.host^$all
-||riversnails.club^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -22662,6 +22660,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.auslogics.com^$all
 ||download.auslogics.com^$all
 ||ashampoo.com^$document
+||riversnails.club^$all
 ||walliant.com^$document
 ||www.gifsmakerpro.com^$document
 ||gifsmakerpro.com^$document
@@ -25392,7 +25391,7 @@ $removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.c
 ||github.com^$removeparam=ref_page
 ||quizlet.com^$removeparam=funnelUUID
 ||quizlet.com^$removeparam=signupOrigin
-||eastday.com^$removeparam=qid
+$removeparam=qid,domain=eastday.com|bookdepository.com
 $removeparam=pk_vid,document
 ||xiaohongshu.com^$removeparam=app_platform,document
 ||xiaohongshu.com^$removeparam=app_version,document
@@ -25410,6 +25409,10 @@ $removeparam=natb,domain=duckduckgo.com
 ||cdc.gov^$removeparam=ACSTrackingLabel
 ||cdc.gov^$removeparam=deliveryName
 $removeparam=_1lr
+||css-tricks.com^$removeparam=relatedposts_hit
+||css-tricks.com^$removeparam=relatedposts_origin
+||css-tricks.com^$removeparam=relatedposts_position
+||bookdepository.com^$removeparam=sr
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
