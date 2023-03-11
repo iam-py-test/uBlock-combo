@@ -11410,11 +11410,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||eyourcom.fun^$all
 ||xcrke.eyourcom.fun^$all
 ||blastnotificationx.com^$document
-||steamstorepowered.club^$all
 ||3phone5.com^$all
 ||dm.3phone5.com^$all
-||trancebeg.com^$all
-||myparcel-uk.com^$all
 ||145.14.144.143^$all
 ||googe.com^$all
 ||proasdf.com^$document
@@ -11424,8 +11421,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||default7.com^$all
 ||test246.com^$all
 ||test0.com^$all
-||distinctfestive.com^$all
-||ableoccassion.com^$all
 ||lopiax.us^$all
 ||chrom-update.online^$all
 ||xyxyxyxyxy.xyz^$all
@@ -11453,7 +11448,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ww12.wow-robotics.xyz^$all
 ||comawww.wow-robotics.xyz^$all
 ||security.fblaster.com^$all
-||fblaster.com^$all
 ||ww16.albumzips.xyz^$all
 ||bitminer.ga^$all
 ||camillesanz.com^$all
@@ -22256,6 +22250,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||luckyydayzz-offfersss-forrryouuu.co.in^$all
 ||myspecialdates.com^$document
 ||landings.cbdswef.com^$document
+||tesla4eth.net^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
