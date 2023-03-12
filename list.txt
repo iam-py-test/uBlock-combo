@@ -19252,7 +19252,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||static.cdnativepush.com/contents/s/6e/aa/67/726cd9cf6ea6a525bbb628cab3/0303553451413.png^$all
 ||littlecdn.com/apps/contents/s/e1/43/b6/8d4db17f1838a03992a72e9dbf/01412844174435.png^$all
 ||gapscult.com^$all
-||sandreel.site^$all
 ||legendarytable.com^$all
 ||local.drakefollow.com^$all
 ||links.drakefollow.com^$all
@@ -19444,11 +19443,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www28.davisonbarker.pro^$document
 ||www3.davisonbarker.pro^$document
 ||www75.davisonbarker.pro^$document
+||www78.davisonbarker.pro^$document
+||davisonbarker.pro/am-push-cps.js$script
 ||lowrihouston.pro^$document
 ||www53.lowrihouston.pro^$document
 ||www44.lowrihouston.pro^$document
 ||www48.lowrihouston.pro^$document
-||davisonbarker.pro/am-push-cps.js$script
+||www91.lowrihouston.pro^$document
 ||nathanaeldan.pro^$document
 ||www97.nathanaeldan.pro^$document
 ||www61.nathanaeldan.pro^$document
@@ -22186,7 +22187,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.68437w.top^$all
 ||goldtimeinvest.com^$all
 ||nirvezal.com^$all
-||aldi-life.vip^$all
 ||tesla-make.com^$all
 ||2023spacexevent.com^$all
 ||eg-ame.com^$all
@@ -22251,6 +22251,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||myspecialdates.com^$document
 ||landings.cbdswef.com^$document
 ||tesla4eth.net^$all
+||tesla2023.live^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -22951,8 +22952,10 @@ youtube.com##.ytd-comment-replies-renderer.style-scope > .ytd-comment-renderer.s
 youtube.com###comment:has-text(/VGminers [a-zA-Z]* telegram/i)
 youtube.com###comment:has-text(/billhacker [A-Z]* telegram/i)
 youtube.com###comment:has-text(/𝙸𝚍𝚎𝚊𝚕𝚑𝚊𝚌𝚔𝚎𝚛𝚜.𝙲𝚘𝚖/i)
+youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||romanhackers.com^$document
 ||telegram.me/Cryptoboost01^$document
+||youtube.com/@TeslaUS-Live/$document
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
