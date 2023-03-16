@@ -42,6 +42,16 @@ www.google.*##.g:has(a[href*="/redirect.asp?url="]):has(a[href*=".tk/"], a[href*
 www.google.*##.g:has(a[href*="/go_links.php?"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/redir?dir="]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/link?url="]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/redirect.aspx?url=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="?url=//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="redirect=//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="return_url=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="returnurl=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*=pag-redireciona i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/jump.cfm" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/www/delivery/"]):has(a[href*=".php?"])
+www.google.*##.g:has([href*="?link=//"]):has(a[href*=".tk/"], a[href*=".ml"])
+www.google.*##.g:has([href*="&url=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
@@ -7871,7 +7881,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||alia-iso.com^$all,~inline-script,~inline-font
 ||altwi-cha.com^$all,~inline-script,~inline-font
 ||amanda-cle.info^$all,~inline-script,~inline-font
-||amazonaws.com^$all,~inline-script,~inline-font
 ||animikii-ana.com^$all,~inline-script,~inline-font
 ||apoll-amp.com^$all,~inline-script,~inline-font
 ||aries-nbl.com^$all,~inline-script,~inline-font
@@ -11394,6 +11403,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.goldenpalace.com^
 ||www.xxsy.net^
 
+||amazonaws.com^$all,~inline-script,~inline-font,badfilter
+||amazonaws.com^$all,~inline-font,~inline-font,badfilter
+||amazonaws.com^$all,badfilter
+||amazonaws.com^$doc,popup,badfilter
+||amazonaws.com^$doc,badfilter
+||amazonaws.com^$badfilter
 
 ! ----- BEGIN The malicious website blocklist -----
 ! Description: This list aims to protect against scams, phishing, malware, and *some* cryptominers. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
