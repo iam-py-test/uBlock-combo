@@ -21526,6 +21526,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||landings.cbdswef.com^$document
 ||tesla4eth.net^$all
 ||tesla2023.live^$all
+||s3.amazonaws.com/extpro/speed4.html$all
+||chrome.google.com/webstore/detail/speed-dial/pbclkopbecbmkiijepgjoodiidfkbchn/$document
+||www.addonsearch.net^$document
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -22098,6 +22101,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||zqkgit.hundebedarf-boettcher.de^$document
 ||anonigstalk.com^$document
 ||bingenerator.one^$document
+||discord.onl^$document
 ||mailboxdelivery.com^$all
 ||csgo.xyz^$all
 ||contribute.to-support.me^$all
