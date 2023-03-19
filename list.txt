@@ -6,17 +6,17 @@
 
 
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
-||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga
+||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga
 ||gq^$doc,domain=~inege.gq|~tvgelive.gq
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw
-||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top
+||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top
 ||loan^$doc
 ||agency^$doc,domain=~battlefield.agency|~baam.agency|~robotzebra.agency|~uphotel.agency
 ||gdn^$doc
 ||bid^$doc
 ||ooo^$doc
-||monster^$doc,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster
+||monster^$doc,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster|~tts.monster
 ||sbs^$doc
 ||discount^$doc
 ||cfd^$doc
@@ -25,7 +25,7 @@
 .live/*/?*=*&*=*&*=*&*=*&*=$doc
 .xyz/*/?*=*&*=*&*=*&*=*&*=$doc
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$doc
-www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
@@ -33,7 +33,7 @@ www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 www.google.*##.g:has(a[href*=".php?xxx="])
 www.google.*##.g:has(cite:has-text(.it › )):has(a[href*="-"][href$=".html"]:not([href*="://www."], [href*="://m."], [href*="carrefour.it"], [href*="gospesa.it"]))
 www.google.*##.g:has(a[href^="https://books.google."])
@@ -60,10 +60,10 @@ www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
@@ -71,8 +71,8 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
-bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
+bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
@@ -80,7 +80,7 @@ bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ||adblock.gjtech.net^$doc
 ||spam404bl.com^$doc
 ||109.201.135.46^$doc
@@ -7958,6 +7958,28 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||redirect.newprogrammatic.click^$doc
 ||3.231.116.86^$all,~inline-script,~inline-font
 ||54.237.193.255^$all,~inline-script,~inline-font
+||jonathanbartz.com^$all,~inline-script,~inline-font
+||jp.imonitorsoft.com^$all,~inline-script,~inline-font
+||junk-bros.com^$all,~inline-script,~inline-font
+||kakiosk.adsparkdev.com^$all,~inline-script,~inline-font
+||kepw.org^$all,~inline-script,~inline-font
+||kristinee.com^$all,~inline-script,~inline-font
+||lakeside-fishandchips.com^$all,~inline-script,~inline-font
+||system-libs.com^$all,~inline-script,~inline-font
+||usa-winwin.com^$all,~inline-script,~inline-font
+||optercore.com^$all,~inline-script,~inline-font
+||optimizewin.com^$all,~inline-script,~inline-font
+||office-softs.com^$all,~inline-script,~inline-font
+||office-checker.com^$all,~inline-script,~inline-font
+||system-checker.com^$all,~inline-script,~inline-font
+||center-main.com^$all,~inline-script,~inline-font
+||office-view.com^$all,~inline-script,~inline-font
+||i-likefood.co^$doc
+||108.61.242.65^$all,~inline-script,~inline-font
+||146.70.78.43^$all,~inline-script,~inline-font
+||87.120.254.39^$all,~inline-script,~inline-font
+||45.150.108.213^$all,~inline-script,~inline-font
+||92.204.160.240^$all,~inline-script,~inline-font
 ||downloadprovider.me^$all,~inline-font,~inline-script
 toorgle.net##.join
 ||cash93.com^$all,~inline-font,~inline-script
@@ -11415,7 +11437,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
 ||xn--faebook-64a.com^$document
 ||facebok.xyz^$document
-||0-app.com^$document
 ||strawberry6532210.brizy.site^$all
 ||starlangbank.com^$all
 ||aloha-news.net^$all
@@ -17216,7 +17237,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||4b34eusvcxsdublb6f.runoj.click^$all
 ||runoj.click^$all
 ||achilles-par.com^$all
-||zeroredirect1.com^$document,popup
 ||adrastos-eli.com^$document,popup
 ||aegid-bal.com^$document,popup
 ||aesch-mko.com^$document,popup
@@ -17301,6 +17321,42 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||redirect.newprogrammatic.click^$document
 ||3.231.116.86^$document
 ||54.237.193.255^$document
+||moresknock.click^$document
+||b7iexw24.cfd^$all
+||u1500oyc.cfd^$all
+||nzjal5ou.cfd^$all
+||krimahoriz.click^$all
+||telegra.ph/Software-2023-02-21-6^$document
+||en.bestadultdatinglist-com.ru^$document
+||fuckbookmobile.org^$document
+||new.bonebow.top^$all
+||bonebow.top^$all
+||theparlornextthef.com^$document,popup
+||dtsdr.theparlornextthef.com^$all
+||findc-download2.cfd^$document
+||lxyrlp.shop^$all
+||jonathanbartz.com^$all
+||jp.imonitorsoft.com^$all
+||junk-bros.com^$all
+||kakiosk.adsparkdev.com^$all
+||kepw.org^$all
+||kristinee.com^$all
+||lakeside-fishandchips.com^$all
+||system-libs.com^$all
+||usa-winwin.com^$all
+||optercore.com^$all
+||optimizewin.com^$all
+||office-softs.com^$all
+||office-checker.com^$all
+||system-checker.com^$all
+||center-main.com^$all
+||office-view.com^$all
+||i-likefood.co^$document
+||108.61.242.65^$all
+||146.70.78.43^$all
+||87.120.254.39^$all
+||45.150.108.213^$all
+||92.204.160.240^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -17552,7 +17608,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||swojmf.drysugardiffer.top^$document
 ||riteupd.mimanduca.co^$all
 ||oaesso.info^$document
-||abcwkv.naturaloffsteam.top^$document
 ||bestlifeoffer20.com^$all
 ||momupd.enuguhomes.com^$all
 ||fifxuq.granddidrepeat.top^$all
@@ -18718,12 +18773,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www75.davisonbarker.pro^$document
 ||www78.davisonbarker.pro^$document
 ||www15.davisonbarker.pro^$document
+||www29.davisonbarker.pro^$document
 ||davisonbarker.pro/am-push-cps.js$script
 ||lowrihouston.pro^$document
 ||www53.lowrihouston.pro^$document
 ||www44.lowrihouston.pro^$document
 ||www48.lowrihouston.pro^$document
 ||www91.lowrihouston.pro^$document
+||www57.lowrihouston.pro^$document
+||www1.lowrihouston.pro^$document
 ||nathanaeldan.pro^$document
 ||www97.nathanaeldan.pro^$document
 ||www61.nathanaeldan.pro^$document
@@ -18777,7 +18835,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||s.viichxt.com^$document
 ||getsecures.com^$all
 ||s.viiqvmfb.com^$document
-||flirtclub.life^$document
+||flirtclub.life^$all
 ||bumble-me.com^$document
 ||localhookup5.com^$all
 ||i.placefordating.live^$all
@@ -21531,6 +21589,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.addonsearch.net^$document
 ||70k-free-robux-generator-no-human-verification.statuspage.io^$all
 ||bettertool.xyz^$all
+||spacex-new2023.net^$all
+||elon-gpt4.net^$all
+||x2-promo.net^$all
+||futuretesla.net^$all
+||teslasend.io^$all
+||best-datepop.life^$all
+||f.vipcooldating.top^$all
+||vipcooldating.top^$all
+||i.vipcooldating.top^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -21971,6 +22038,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||pdftab.com^$document
 ||cdn.pdftab.com^$document
 ||findmanualsnow.com^$document
+||ww1.pwnz.org^$document
+||thesafersearch.com^$document
+||get.thesafersearch.com^$all
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
