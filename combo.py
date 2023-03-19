@@ -2,6 +2,7 @@ import requests
 import os
 import urllib.parse
 import re
+import datetime
 lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
 
 donelines = []
@@ -13,6 +14,12 @@ def extdomain(line):
 		domain = ""
 		if line.startswith("||") and line.endswith("^$all"):
 			domain = line[2:-6]
+		if line.startswith("||") and line.endswith("^$doc"):
+			domain = line[2:-6]
+		if line.startswith("||") and line.endswith("^$document"):
+			domain = line[2:-10]
+		if line.startswith("||") and line.endswith("^$3p"):
+			domain = line[2:-5]
 		elif line.startswith("||") and line.endswith("^$all,~inline-font,~inline-script"):
 			domain = line[2:-33]
 		elif line.startswith("||") and line.endswith("^"):
@@ -23,11 +30,13 @@ def extdomain(line):
 
 mainlist = """! Title: iam-py-test's Combo List
 ! Expires: 1 day
+! Script last updated: 19/3/2023
+! Last updated: {}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-"""
+""".format(datetime.date.today().strftime("%d/%m/%Y"))
 
 eadd = 0
 ered = 0
@@ -54,7 +63,7 @@ for clist in lists:
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
 				endcontents = ""
 				for tmpl in inccontents.split("\n"):
-					if tmpl.startswith("!") or tmpl == "":
+					if tmpl.startswith("!") or tmpl == "" or tmpl == " " or tmpl.startswith("#"):
 						continue
 					if tmpl in donelines:
 						continue
@@ -72,7 +81,7 @@ for clist in lists:
 			eadd += 1
 			donelines.append(line)
 			edomain = extdomain(line)
-			if edomain != "":
+			if edomain != "" and edomain != " ":
 				donedomains.append(edomain)
 mainlist = mainlist.replace("[Adblock Plus 3.8]","").replace("[Adblock Plus 3.6]","").replace("[Adblock Plus 2.0]","")
 with open("list.txt","w",encoding="UTF-8") as f:
