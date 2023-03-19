@@ -1,5 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
+! Script last updated: 19/3/2023
+! Last updated: 19/03/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -1229,7 +1231,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||notified-today.com^
 ||antivirus-update.com^$doc
 ||new-message.cc^$doc
-||new-message.co^$doc
 ||new-message.email^$doc
 ||new-notification.live^$doc
 ||new-notifications.live^$doc
@@ -1289,7 +1290,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||securebankapp.online^$all,~inline-font,~inline-script
 ||securemailbox.online^$all,~inline-font,~inline-script
 ||66.85.156.85^$doc
-||66.85.156.86^$doc
 ||108.170.31.123^$doc
 ||108.170.52.156^$doc
 ||mysecrethoookup.com^$all,~inline-font,~inline-script
@@ -2021,7 +2021,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||partners-club.life^$all,~inline-font,~inline-script
 ||cumpussyy.uno^$all,~inline-font,~inline-script
 ||195.201.253.130^$doc
-||195.201.253.131^$doc
 ||installiq.com^$all,~inline-font,~inline-script
 ||specgoal.com^$all,~inline-font,~inline-script
 ||sandhyapi.online^$all,~inline-font,~inline-script
@@ -2041,8 +2040,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||cpmverdirect.com^$doc
 ||15.197.244.48^$doc
 ||96.47.230.67^$doc
-||96.47.230.68^$doc
-||96.47.230.69^$doc
 ||96.47.230.70^$doc
 ||highercaptcha-settle.$all,~inline-font,~inline-script
 ||highercaptchasettle.$all,~inline-font,~inline-script
@@ -2636,7 +2633,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 /^http://imgblaze.net/[a-z0-9]{6}$/$doc,popup
 /^http://imgblaze.net/[a-z0-9]{6}$/$third-party,subdocument
 ||146.19.169.98^$doc
-||146.19.169.99^$doc
 /pushredirect/?$doc
 ||1000girl.com^$all,~inline-font,~inline-script
 ||1000islandsinfo.com^$all,~inline-font,~inline-script
@@ -10014,7 +10010,6 @@ toorgle.net##.join
 ||zypy2h6rgfux.com^$all,~inline-font,~inline-script
 ||zzdb5p4upiug.com^$all,~inline-font,~inline-script
 ||192.243.59.12^$doc
-||192.243.59.13^$doc
 ||192.243.59.20^$doc
 /^(https?://)?192\.243\.59\.\d{1,3}($|/)/$doc
 192.243.59.*$network
@@ -11577,11 +11572,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||product.directpower.download^$all
 ||directpower.download^$document
 ||toksearches.xyz^$all
-||smashapps.net^$document
-||smashappsearch.com^$document
 ||new-message.live^$all
 ||click-now-on.me^$all
-||private-message.live^$document
 ||desktop-signal.digital^$all
 ||1qw.us^$all
 ||rpc.1qw.us^$all
@@ -11651,7 +11643,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||shugardaddy.ddns.net^$all
 ||79.134.225.18^$all
 ||judge777.ddns.net^$all
-||searchpowerapp.com^$document
 ||lp.searchdimension.com^$all
 ||searchdimension.com^$document
 ||malwarebytes-free.com^$all
@@ -12469,7 +12460,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||45.14.49.109^$all
 ||195.133.40.212^$all
 ||danylmassey574.xyz^$all
-||afobal.cl^$all
 ||67.213.75.205^$all
 ||51.178.161.32^$all
 ||162.144.127.197^$all
@@ -12481,7 +12471,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||server777.shared-lvps08.com^$document
 ||nanorgin.ydns.eu^$all
 ||discordapp.cam^$all
-||37.34.176.37^$all
 ||atvcampingtrips.com^$all
 ||thegymmum.com^$all
 ||exoduseu.net^$document
@@ -12582,7 +12571,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||a.uguu.se^$all
 ||lakshmiwafered.cam^$all
 ||update-portal.com^$all
-||tw-goldenwinner-57.com^$document
 ||www.tw-goldenwinner-57.com^$all
 ||artebythesea.com^$all
 ||microsoftpods.com^$all
@@ -12618,7 +12606,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.ubsco.uk^$all
 ||postal-23.ioomoo.xyz^$all
 ||91.235.129.150^$all
-||192.243.59.13^$all
 ||dustymural.com^$all
 ||disappearanceinspiredscan.com^$all
 ||m.windowsupdatesupport.org^$all
@@ -12633,14 +12620,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||down.dd799aa.com^$all
 ||wcf.seven1029.com^$all
 ||foodin.site^$all
-||lucdream.com^$all
-||beastbuying.com^$all
 ||kokotrokot.com^$all
-||pesoaniz.com^$all
 ||rtb-8.novitrk1.com^$all
 ||cu27t-evo29lution.xyz^$all
 ||sothis-sayers.xyz^$all
-||doneonline.xyz^$all
 ||possessedcrackinghart.com^$all
 ||typiccor.com^$all
 ||apsolutamente.com^$all
@@ -12651,10 +12634,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||eu.pushmeup.art^$all
 ||trc.artofads.co^$all
 ||pc-my-protection.xyz^$all
-||beta-news.org^$all
 ||serena-west.com^$all
 ||www.serena-west.com^$all
-||socialsearchconverter.com^$all
 ||install.socialsearchconverter.com^$all
 ||feed.socialsearchconverter.com^$all
 ||api.socialsearchconverter.com^$all
@@ -12679,16 +12660,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||serrtjw256jw565w.gq^$all
 ||91.241.19.38^$all
 ||kiff.tech^$all
-||45.90.58.90^$all
 ||95.85.89.98^$all
 ||tekhacks.net^$all
 ||codedexchange.com^$all
-||trkk4.com^$all
 ||us1.trkk4.com^$all
 ||hpprintersupportservice.com^$document
 ||how.hpprintersupportservice.com^$document
 ||navman-gpsupdate.online^$document
-||1redirb.com^$document
 ||repeatstomach.cyou^$all
 ||greenadblocker.com^$document
 ||lp1.limafoxtrot.online^$document
@@ -13112,12 +13090,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||privacy-toolz-for-you-403.top^$all
 ||dz.qd388.cn^$all
 ||youtuba.com^$all
-||polyhymnia-mar.com^$document
 ||trktrk.club^$document
 ||virpropcnow.xyz^$all
 ||betacdn.xyz^$document
 ||www.avprotectionoverview.com^$document
-||avprotectionoverview.com^$document
 ||znpst.top^$all
 ||186.74.208.84^$all
 ||revgmkegctflpes.ru^$all
@@ -13322,7 +13298,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||71.163.222.223^$all
 ||207.246.116.237^$all
 ||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen$document
-||allblock.net^$all
 ||45.148.120.80^$all
 ||85.239.33.9^$all
 ||leak.serveftp.com^$all
@@ -13452,7 +13427,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||zbpfrd.powerskyslip.top^$all
 ||xdqsrg.powerskyslip.top^$all
 ||disturbative-descriptively-undeflectability.xyz^$all
-||cloud-apps.store^$all
 ||citationsherbe.at^$all
 ||159.148.186.228^$all
 ||dirfgame.com^$all
@@ -13562,9 +13536,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||194.5.212.190^$all
 ||honawey70.top^$all
 ||youutube.com^$all
-||youvetube.com^$document
 ||www.youvetube.com^$all
-||mediadlvr.com^$document
 ||safejokesearch.com^$all
 ||www.safejokesearch.com^$all
 ||gervenez.xyz^$all
@@ -13718,7 +13690,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||172.67.186.189^$all
 ||querahinor.xyz^$all
 ||server9.trumops.com^$all
-||trumops.com^$all
 ||runmodes.com^$all
 ||91.121.67.60^$all
 ||107.173.219.26^$all
@@ -16446,7 +16417,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||throughdfp.com^$all
 ||timecrom.com^$all
 ||toateeli.net^$all
-||toglooman.com^$all
 ||toshelmeton.com^$all
 ||tosuicunea.com^$all
 ||totentacruelor.com^$all
@@ -16481,7 +16451,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||yonabrar.com^$all
 ||zagtertda.com^$all
 ||zoawufoy.net^$all
-||139.45.197.239^$all
 ||msi-afterburner--download.site^$all
 ||msi-afterburner-download.site^$all
 ||msi-afterburner-download.tech^$all
@@ -17367,13 +17336,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||extragifis.site^$all
 ||captcharesolving-universe.com^$all
 ||roaddrinkfun.live^$all
-||5.8.47.3^$all
-||5.8.34.26^$all
 ||captcharesolver.com^$all
 ||chatroom33.com^$all
-||cpmstatsart.com^$all
 ||instantfwding.com^$all
-||103.224.182.251^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
 ||fwdservice.com^$all
@@ -17389,26 +17354,18 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||avqhqc.nextarrangewent.top^$all
 ||smartcaptchasolve.top^$all
 ||pvzksi.nextarrangewent.top^$all
-||cloud-repos.store^$document
 ||retailproductsusa.com^$all
 ||www.retailproductsusa.com^$all
-||findanswersnow.net^$document
 ||two.findanswersnow.net^$document
 ||diabasewoodhouse.xyz^$document
-||signupandturnyourscreenoffsafepowernow.date^$document
 ||www.signupandturnyourscreenoffsafepowernow.date^$all
 ||capitaldearrub.top^$document
 ||iytjki.capitaldearrub.top^$all
 ||captchafilter.top^$all
-||best-prizes.life^$document
 ||fivqnt.capitaldearrub.top^$all
-||jsontdsexit.com^$document
 ||therewardboost.com^$all
 ||t.therewardboost.com^$all
-||natnlconsmrctr.com^$document
 ||lore.deduce.com^$document
-||d2m2wsoho8qq12.cloudfront.net^$document
-||jpgtrk.com^$document
 ||pnghst.com^$document
 ||watchhighlyspeedythefile.vip^$all
 ||softstreamstore.com^$document
@@ -17432,18 +17389,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||uiz.io^$document
 ||ogtrk.net^$all
 ||rewardsavenue.net^$all
-||rewardsgiantusa.com^$all
 ||rewardgiantztesters.com^$document
 ||gooooooooogle.com^$all
 ||p185689.mybetterdl.com^$all
-||r-tb.com^$document
 ||feed.r-tb.com^$all
 ||t.r-tb.com^$all
-||cdn.hoood.info^$document
-||barah-flo.com^$document
 ||beta-one.net^$all
 ||ny-t.r-tb.com^$all
-||pisism.com^$document
 ||czyzd.xyz^$all
 ||r1it6.xyz^$all
 ||sqjxp.xyz^$all
@@ -17455,7 +17407,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||c2egp.xyz^$all
 ||ese40.xyz^$all
 ||e07wm.xyz^$all
-||news-back.org^$document
 ||www1.news-back.org^$all
 ||www2.news-back.org^$all
 ||www3.news-back.org^$all
@@ -17470,7 +17421,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||flexroll.online^$document
 ||earnestbee.info^$document
 ||weaknessnill.shop^$all
-||aquariuminn.com^$document
 ||army-glo.scrollingsystem.com^$document
 ||mcafee12.tt.omtrdc.net^$document
 ||trolleydrop.info^$document
@@ -17486,7 +17436,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mediafiire.com^$document
 ||d1xkyo9j4r7vnn.cloudfront.net^$all
 ||www.onlinepromotionsusa.com^$all
-||onlinepromotionsusa.com^$all
 ||w.promotionsonlineusa.com^$all
 ||slobodapatient.me^$all
 ||www.slobodapatient.me^$all
@@ -17530,7 +17479,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||gemini-telephonecompany.business.site^$document
 ||your-ladie-fun.life^$all
 ||e.datingmap.top^$all
-||datingmap.top^$all
 ||tonightshookup.com^$document
 ||members.tonightshookup.com^$all
 ||t.tonightshookup.com^$all
@@ -17556,21 +17504,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.yasir252.com^$all
 ||safelink.kadal.club^$document
 ||iclickcdn.com^$all
-||bedrapiona.com^$all
-||dozubatan.com^$all
 ||onmarshtompor.com^$all
 ||chultoux.com^$document
 ||yonhelioliskor.com^$document
 ||ptauxofi.net^$document
-||betshucklean.com^$document
 ||buncoswosh.com^$document
-||b58ncoa1c07f.com^$document
 ||t.avroute01.com^$document
 ||ultimate-detection.com^$all
 ||gammamkt.com^$document
 ||leadgentrk.com^$document
 ||chirkacylal.com^$document
-||phooreew.net^$document
 ||shoksips.com^$all
 ||alphgr-live.com^$all
 ||www.faremart.com^$document,image
@@ -17608,7 +17551,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||swojmf.drysugardiffer.top^$document
 ||riteupd.mimanduca.co^$all
 ||oaesso.info^$document
-||bestlifeoffer20.com^$all
 ||momupd.enuguhomes.com^$all
 ||fifxuq.granddidrepeat.top^$all
 ||granddidrepeat.top^$document
@@ -17715,7 +17657,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||nlnvan.garydouglasnewell.co^$all
 ||garydouglasnewell.co^$document
 ||partdate.yaspiq.co^$document
-||jmtrading.co^$all
 ||monkeyselite.tonick.co^$document
 ||rappersonal.paradisedestination.co^$all
 ||kqnpcp.friendmagnetcool.top^$all
@@ -18231,7 +18172,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||libertatea.net^$document
 ||techhubtools.com^$all
 ||q.promotionsonlineusa.com^$all
-||reward4spot.com^$all
 ||www.reward4spot.com^$all
 ||iget4free.com^$all
 ||www.iget4free.com^$all
@@ -18616,7 +18556,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||100800.lifeimpressions.net^$document
 ||fdb51a.lifeimpressions.net^$document
 ||3ceeb9.lifeimpressions.net^$document
-||trafredirtds.com^$document
 ||oqepaeogab924.ml^$all
 ||may8forstudents.org/free-discord-nitro-codes-list-no-human-verification/^$all
 ||www.easyrobuxtoday.org^$document
@@ -18695,7 +18634,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||rewards-cards.org^$document
 ||xmfngo.meanquestiondouble.top^$all
 ||meanquestiondouble.top^$document
-||x-delivery.icu^$document
 ||nextsoft.icu^$all
 ||a2ics.eu^$all
 ||amazononlinewinners.in^$document
@@ -18745,7 +18683,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||nextpsh.top^$all
 ||216.wiswentidea.live^$all
 ||wiswentidea.live^$document
-||54.37.5.34^$document
 ||s41sg.tyhogot.sbs^$all
 ||tyhogot.sbs^$document
 ||rx-qualityshop.com^$all
@@ -19018,8 +18955,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||sagpewzoo.live^$document
 ||intoobut.live^$document
 ||214.logomuado.live^$document
-||logomuado.live^$document
-||caphiresite.live^$document
 ||lifealsosen.live^$document
 ||enimpdoor.live^$document
 ||wrymofive.live^$document
@@ -20394,15 +20329,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cooldates.life^$document
 ||bestflirtzone.life^$document
 ||dating-better.life^$document
-||getsexy.life^$document
-||lovers-finder.life^$document
-||lover-finder.life^$document
-||findsexy.life^$document
-||super-datings.life^$document
-||magic-dating.life^$document
-||datings-club.life^$document
-||datingsclub.life^$document
-||magic-datings.life^$document
 ||2020klassiskaskor.com^$all
 ||academiabureus.com^$all
 ||adidas-budapest.com^$all
@@ -21733,7 +21659,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www-click-cf.pcspeedcat.com^$all
 ||mantis.pcspeedcat.com^$all
 ! Before downloading, ADWCleaner detected no adware. After downloading, ADWCleaner detected adware, which included the program. Program claims that buying the paid version (and entering private data) will fix issues with a clean VM. 
-||mycleanpc.com^$document
 ||www.mycleanpc.com^$all
 ||reviews.mycleanpc.com^$all
 ||software.mycleanpc.com^$all
@@ -21821,7 +21746,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||driveragent.com^$all
 ||secure.driveragent.com^$all
 ||driveragent-web-126513135.us-east-1.elb.amazonaws.com^$third-party
-||onesafesoftware.com^$all
 ||vpn.onesafesoftware.com^$all
 ||blog.onesafesoftware.com^$all
 ||drivers.onesafesoftware.com^$all
@@ -21998,7 +21922,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||es.bytefence.com^$document
 ||shield.bytefence.com^$document
 ||new.bytefence.com^$document
-||auslogics.com^$all
 ||www.auslogics.com^$all
 ||download.auslogics.com^$all
 ||ashampoo.com^$document
@@ -22362,7 +22285,6 @@ game3rb.com##+js(acs, navigator, FingerprintJS)
 ||www.amazceon-co-jp.amazccen.$document
 ||www.amazconn-co-jp.amazccne.$document
 ||totaladblocker.com^$all
-||ublock.org^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
 ||djamol.com^$all
@@ -22637,7 +22559,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||virustotal.co^$document
 ||virusotal.com^$document
 ||virustptal.com^$document
-||mediafiire.com^$all
 ||malwarebytes.support^$document
 ||download-metamask.com^$all
 ||mediafire1.com^$document
