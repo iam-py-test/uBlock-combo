@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 19/03/2023
+! Last updated: 20/03/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -9,7 +9,7 @@
 
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 ||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga
-||gq^$doc,domain=~inege.gq|~tvgelive.gq
+||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf
 ||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw
 ||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top
@@ -28,7 +28,7 @@
 .xyz/*/?*=*&*=*&*=*&*=*&*=$doc
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$doc
 www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
-www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
@@ -55,7 +55,7 @@ www.google.*##.g:has(a[href*="/www/delivery/"]):has(a[href*=".php?"])
 www.google.*##.g:has([href*="?link=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 www.google.*##.g:has([href*="&url=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]):upward(2)
+www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
@@ -66,7 +66,7 @@ www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*=
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
@@ -75,7 +75,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
-bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
