@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 25/03/2023
+! Last updated: 26/03/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18,7 +18,6 @@
 ||gdn^$doc
 ||bid^$doc
 ||ooo^$doc
-||monster^$doc,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster|~tts.monster
 ||sbs^$doc
 ||discount^$doc
 ||cfd^$doc
@@ -10963,6 +10962,7 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||123secure.org^$all,~inline-font,~inline-script
 ||sup2.10239.org^$all,~inline-font,~inline-script
 ||yuppdownload.com^$all,~inline-font,~inline-script
+||34.80.59.191^$all,~inline-font,~inline-script
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||hardreset.info^$doc
@@ -11428,7 +11428,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||amazonaws.com^$badfilter
 
 ! ----- BEGIN The malicious website blocklist -----
-! Description: This list aims to protect against scams, phishing, malware, and *some* cryptominers. This list also includes a version of vxvault.net's list, modified by me to work in adblockers
+! Description: This list aims to protect against scams, phishing, malware, and *some* cryptominers. This list also includes a version of vxvault.net's list, modified by me to work in adblockers, and "iam-py-test's anti-PUP list", which is designed to address scummy tactics which might be not be fit to block in this list.
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
 ||xn--faebook-64a.com^$document
 ||facebok.xyz^$document
@@ -17304,6 +17304,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dtsdr.theparlornextthef.com^$all
 ||findc-download2.cfd^$document
 ||lxyrlp.shop^$all
+||palons.live^$all
 ||jonathanbartz.com^$all
 ||jp.imonitorsoft.com^$all
 ||junk-bros.com^$all
@@ -21964,6 +21965,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ww1.pwnz.org^$document
 ||thesafersearch.com^$document
 ||get.thesafersearch.com^$all
+||avanquest.com^$document
+||www.avanquest.com^$document
+||webtools.avanquest.com^$document
+||wisecleaner.com^$document
+||wisecleaner.net^$document
+||wisecleaner.eu^$document
+||wisecleaner.com.cn^$document
+||wavebrowser.co^$document
+||download.wavebrowser.co^$all
+||wavebrowser.com^$document
+||dl.gowavebrowser.com^$all
+||gowavebrowser.com^$document
+||dll-helper.en.softonic.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -22319,25 +22333,12 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||pcsafetygeek.com^$document
 ||cybosectech.com^$document
 ||cfoc.org^$document
-||wavebrowser.co^$document
-||download.wavebrowser.co^$all
-||wavebrowser.com^$document
-||dl.gowavebrowser.com^$all
-||gowavebrowser.com^$document
-||dll-helper.en.softonic.com^$document
 ||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
 ||chrome.google.com/webstore/detail/zeta-adblock/okfdbakkmcdmbmfnjeiifakgjgdfhddf^$document
 ||docs.google.com/document/d/1FS7-6-nEO4nVv8fqhbbS_4kSIBRg0Uy54Gx7ErDS6cg/edit^$all
-||avanquest.com^$document
-||www.avanquest.com^$document
-||webtools.avanquest.com^$document
 ||byebyeads.org^$document
 ||chrome.google.com/webstore/detail/bye-bye-ads/hmhhfebnmmdjdpmcognacjklpbcepjak^$document
 ||vought.removeads.workers.dev^$third-party
-||wisecleaner.com^$document
-||wisecleaner.net^$document
-||wisecleaner.eu^$document
-||wisecleaner.com.cn^$document
 windowsreport.com##.code-block
 appuals.com##.info.box
 appuals.com##.appua-reimage-top
@@ -22487,6 +22488,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/us/app/pcprotect/id1130412321$document
 ||apps.apple.com/us/app/totalav-safe-site/id1403850681$document
 ||apps.apple.com/us/developer/protected-net-group-limited$document
+||work-ink.github.io^$document
 
 
 ! ----- BEGIN The anti-typo list -----
