@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 27/03/2023
+! Last updated: 28/03/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -53,6 +53,13 @@ www.google.*##.g:has(a[href*="/jump.cfm" i]):has(a[href*=".tk/"], a[href*=".ml/"
 www.google.*##.g:has(a[href*="/www/delivery/"]):has(a[href*=".php?"])
 www.google.*##.g:has([href*="?link=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 www.google.*##.g:has([href*="&url=//"]):has(a[href*=".tk/"], a[href*=".ml"])
+www.google.*##.g:has(a[href*="/?//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/AdRedirector.asp" i])
+www.google.*##.g:has(a[href*="&uri=/" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/global_outurl.php" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/redirect/" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="&loc=/" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="&orig_url=/" i]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
@@ -17257,6 +17264,21 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||lxyrlp.shop^$all
 ||palons.live^$all
 ||alertci.click^$all
+||9ijgfdc4rf56.click^$all
+||nbsb7nr44.cfd^$all
+||pingatinga.click^$all
+||srinaboglad.click^$all
+||fcfervkcx.cfd^$all
+||bvnie.taitlastwebegan.com^$all
+||taitlastwebegan.com^$document
+||162.243.164.175^$all
+||jikabotlan.click^$all
+||trackyouswin.com^$all
+||tgbhi8i.click^$all
+||justfreesetuphere.xyz^$all
+||hit5k.one^$all
+||zdr566yh.click^$all
+||ghu86tyh.cfd^$all
 ||jonathanbartz.com^$all
 ||jp.imonitorsoft.com^$all
 ||junk-bros.com^$all
