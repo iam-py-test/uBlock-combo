@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 31/03/2023
+! Last updated: 01/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16915,7 +16915,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ifmom.top^$all
 ||yhvua.top^$all
 ||dejig.live^$all
-||webmail1-mailcheckalu247ak.com^$all
 ||ask.elbwaba.com^$all
 ||btc.latest-articles.com^$all
 ||en.firstgooal.com^$all
@@ -17279,6 +17278,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hit5k.one^$all
 ||zdr566yh.click^$all
 ||ghu86tyh.cfd^$all
+||getnomadtblog.com^$all
 ||jonathanbartz.com^$all
 ||jp.imonitorsoft.com^$all
 ||junk-bros.com^$all
@@ -21218,7 +21218,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||futuretesla.net^$all
 ||teslasend.io^$all
 ||teslaprice.io^$all
-||new-spacex-2023.com^$all
+||teslaether.net^$all
 ||best-datepop.life^$all
 ||f.vipcooldating.top^$all
 ||vipcooldating.top^$all
@@ -21675,6 +21675,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dl.gowavebrowser.com^$all
 ||gowavebrowser.com^$document
 ||dll-helper.en.softonic.com^$document
+||manualsdirectory.org^$document
+||tab.freshymanuals-site.com^$document
+||search.freshy.com^$document
+||freshysearch-api.net^$document
+||search.freshysearch-api.net^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -22186,7 +22191,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/app/totalav-safe-site/id1403850681$document
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||work-ink.github.io^$document
-||topcashback.co.uk/misc/AdBlockWhiteList.aspx^$document
+||topcashback.*/misc/AdBlockWhiteList.aspx^$document
 
 
 ! ----- BEGIN The anti-typo list -----
@@ -24333,7 +24338,6 @@ $removeparam=srsltid,document
 ||mcafee.com^$removeparam=adid
 ||malwarebytes.com^$removeparam=x-affid
 ||malwarebytes.com^$removeparam=ADDITIONAL_AFFID
-||malwarebytes.com^$removeparam=s
 ||malwarebytes.com^$removeparam=x-wts
 ||reddit.com^$removeparam=%243p
 ||reddit.com^$removeparam=%24deep_link
@@ -24393,6 +24397,7 @@ $removeparam=_1lr
 ||bookdepository.com^$removeparam=sr
 $removeparam=ymid
 ^z=*&var=$removeparam=var
+$removeparam=via,domain=sincode.ai
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
