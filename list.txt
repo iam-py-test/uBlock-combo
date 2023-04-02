@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 01/04/2023
+! Last updated: 02/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -241,6 +241,9 @@ dllfile.net##.sticky-link
 fix4dll.com##.file__download
 fix4dll.com#?#.sidebar__block:has-text(Outbyte)
 winaero.com##.entry-content > div:has([href="/fix-classic-issues-performance/"])
+softwaretested.com##.st-alternative
+softwaretested.com##.snippet-content
+processlibrary.com##.bottom > .row:last-of-type
 ||outbyte.com^$doc
 ||testedforyou.net^$all,~inline-font,~inline-script
 dll4free.com#?#.leftdiv:has-text(PC Reviver)
@@ -248,6 +251,7 @@ dll-found.com#?#p:has(a[href*=tweakbit])
 azdll.net##.dllhelper-banner
 ||solvusoft.com^$doc
 exefiles.com##.panel:has([href*="/en/recommended/winthruster/"])
+exefiles.com##.row:has(a[href*="/recommended/"])
 /^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$1p,doc
 /^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$1p,doc
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
@@ -17269,7 +17273,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||srinaboglad.click^$all
 ||fcfervkcx.cfd^$all
 ||bvnie.taitlastwebegan.com^$all
-||taitlastwebegan.com^$document
+||taitlastwebegan.com^$all
 ||162.243.164.175^$all
 ||jikabotlan.click^$all
 ||trackyouswin.com^$all
@@ -17279,6 +17283,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||zdr566yh.click^$all
 ||ghu86tyh.cfd^$all
 ||getnomadtblog.com^$all
+||urhandups.xyz^$all
+||qtgsr.taitlastwebegan.com^$all
+||yt93231mn.click^$all
+||crackedroot.com^$document
+||aswedfcv6ty.click^$all
+||i3edtgyu.cfd^$all
+||ko04rf8.cfd^$all
+||dr6ghyu7.click^$all
+||entry4hide.cyou^$all
 ||jonathanbartz.com^$all
 ||jp.imonitorsoft.com^$all
 ||junk-bros.com^$all
@@ -21224,6 +21237,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||vipcooldating.top^$all
 ||i.vipcooldating.top^$all
 ||adzfree-watch.net^$document
+||ikouthaupi.com^$all
+||instreamersdian.com^$all
+||applover.net^$all
+||youtubgenerator.w3spaces.com^$all
+||rewards24.onlinewebshop.net^$all
+||locked3.com^$document
+||cdn.locked3.com^$document
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -21514,8 +21534,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dl.enigmasoftware.com^$document
 ||instcfg.enigmasoftware.com^$all
 ||tt.web.enigmasoftware.com^$document
+||myaccount.enigmasoftware.com^$document
+||purchase.enigmasoftware.com^$document
+||spyhunter.enigmasoftware.com^$document
+||spyhunter-update.enigmasoftware.com^$document
+||download2.enigmasoftware.com^$document
 ||spyhunter.com^$document
 ||www.spyhunter.com^$document
+||spyhunter-download-v2.b-cdn.net^$document
 ||mackeeper.com^$document
 ||secure-browser.io^$document
 ||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
@@ -22277,6 +22303,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||coinbases.org^$document
 ||instagramm.com^$document
 ||nottepad-plus-plus.org^$all
+||wolfamalpha.com^$document
+||wolfremalpha.com^$document
+||woldramalpha.com^$document
+||woolframalpha.com^$document
+||www.woolframalpha.com^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
