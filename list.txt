@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 08/04/2023
+! Last updated: 09/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23620,6 +23620,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||rewardsgiantca.com^$document
 ||earnpets.com^$document
 ||tsla-stock.com^$all
+||emeraldtrking.com^$all
+||bbxxvwb.tk^$all
+||transive.top^$document
+||warehousesale.shop^$document
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -23818,6 +23822,20 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||giveaway.iobit.com^$document
 ||uninstall.iobit.com^$document
 ||de.iobit.com^$document
+||codes.iobit.com^$document
+||forums.iobit.com^$document
+||recorder.iobit.com^$document
+||www.windowserrorfixer.com^$document
+||windowserrorfixer.com^$document
+||itopvpn.com^$document
+||update.itopvpn.com^$document
+||api.itopvpn.com^$document
+||stats.itopvpn.com^$document
+||stats.itopreport.com^$document
+||itopreport.com^$document
+||update.itopupdate.com^$document
+||stats.itopupdate.com^$document
+||itopupdate.com^$document
 ||2-spyware.com/reimage/download$all
 ||2-spyware.com/download/ReimageRepair$all
 ||reimageplus.com^$all
@@ -24672,7 +24690,7 @@ $removeparam=pcampaignid
 $removeparam=igshid
 $removeparam=curator_clanid,domain=~store.steampowered.*
 $removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
-$removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
+$~subdocument,removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 $removeparam=ext_source
 $removeparam=iradid
 $removeparam=irpid
@@ -25442,7 +25460,7 @@ $removeparam=sk,domain=bing.com|aliexpress.*
 ||bing.com^$removeparam=refig
 ||bing.com^$removeparam=go
 ||bing.com/search?$removeparam=cvid
-||bing.com^$removeparam=/^sh[a-np-z0-9]/
+||bing.com^$removeparam=/^sh[b-np-z0-9]/
 ||bing.com^$removeparam=nclid
 ||bing.com^$removeparam=crslsl
 ||bing.com^$removeparam=ecount
