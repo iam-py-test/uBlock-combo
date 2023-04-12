@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 11/04/2023
+! Last updated: 12/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25213,6 +25213,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mewed.ulitron.ru^$document
 ||poloniumo.ru^$document
 ||alley.sorting88.cavalierso.ru^$document
+||q3i5q2r6.stackpathcdn.com^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -25328,6 +25329,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||track.totaladblock.com^$all
 ||my.totaladblock.com^$all
 ||support.totaladblock.com^$all
+||login.totaladblock.com^$all
+||totaladblock.protected.net^$all
+||extension.protected.net^$all
+||totaladblocker.xyz^$document
+||www.totaladblocker.xyz^$document
 ||winzipregistryoptimizer.com^$document
 ||download.winzipregistryoptimizer.com^$document
 ||winzipdriverupdater.com^$document
@@ -25519,12 +25525,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||tt.web.enigmasoftware.com^$document
 ||myaccount.enigmasoftware.com^$document
 ||purchase.enigmasoftware.com^$document
-||spyhunter.enigmasoftware.com^$document
-||spyhunter-update.enigmasoftware.com^$document
-||download2.enigmasoftware.com^$document
-||spyhunter.com^$document
-||www.spyhunter.com^$document
-||spyhunter-download-v2.b-cdn.net^$document
+||spyhunter.enigmasoftware.com^$all
+||spyhunter-update.enigmasoftware.com^$all
+||download2.enigmasoftware.com^$all
+||spyhunter.com^$all
+||www.spyhunter.com^$all
+||spyhunter-download-v2.b-cdn.net^$all
 ||mackeeper.com^$document
 ||secure-browser.io^$document
 ||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
@@ -26213,7 +26219,7 @@ $removeparam=afid
 $removeparam=WebSiteMapNodeID
 $removeparam=tt_content
 $removeparam=tt_medium
-$removeparam=scid
+$removeparam=scid,domain=~pnc.com
 $document,removeparam=trackID
 $removeparam=dTribesID
 $removeparam=awc
@@ -26950,7 +26956,7 @@ $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.co
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
-$removeparam=from,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|onlinepngtools.com
+$removeparam=from,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|onlinepngtools.com
 $removeparam=keyword,domain=bindright.com|lendgo.com
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
@@ -27229,7 +27235,7 @@ $removeparam=aff_trace_key
 ||aliexpress.$removeparam=cv
 $removeparam=spm
 $removeparam=tracelog
-$removeparam=cardId
+$removeparam=cardId,document,domain=alibaba.com
 $removeparam=aff_click_id
 ||aliexpress.$removeparam=gatewayAdapt
 ||aliexpress.$removeparam=pdp_pi
@@ -27735,7 +27741,7 @@ $removeparam=ds_e_target_id,domain=clickserve.dartsearch.net
 $removeparam=ds_e_network,domain=clickserve.dartsearch.net
 $removeparam=ds_url_v,domain=clickserve.dartsearch.net
 ||jasonsavard.com^$removeparam=cUrl
-$removeparam=ab,domain=fanatics.com|nhl.com
+$removeparam=ab,domain=fanatics.com|hbr.org|nhl.com
 $removeparam=_ref,domain=fanatics.com|nhl.com
 ||xg4ken.com^$removeparam=prof
 ||xg4ken.com^$removeparam=kct
@@ -28297,6 +28303,8 @@ $removeparam=via,domain=sincode.ai
 $removeparam=rm,domain=jackjones.com|jjxx.com|mamalicious.com|only.com|onlyandsons.com|veromoda.com
 $removeparam=ad_sub,domain=homo.xxx
 ||ilo.org^$removeparam=ssSourceSiteId
+||store.hbr.org^$removeparam=fromSku
+||store.hbr.org^$removeparam=fromSkuRelated
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
