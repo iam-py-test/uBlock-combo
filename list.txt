@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 13/04/2023
+! Last updated: 14/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14013,22 +14013,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||update.flash-installer.com^$all
 ||flash-installer.com^$all
 ||47.57.140.149^$document
-||2.56.59.45^$all
-||ufpcdn.com^$all
-||pwanroyale.com^$all
-||62.113.118.16^$all
-||185.227.139.18^$all
-||ebie.xyz^$all
-||183.78.205.92^$all
-||ne12.biz^$all
-||www.theduke.de^$all
-||theduke.de^$all
-||goliath-productions.com^$all
-||doppk.com^$all
-||organixearth.co.uk^$all
-||gillianstravers.com^$all
-||194.67.92.207^$all
-||136.144.41.127^$all
 ||goetm1.com.ar^$all
 ||2m.ma^$all
 ||paymetconfirm.com^$all
@@ -14138,6 +14122,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||193.142.59.119^$all
 ||185.227.139.5^$all
 ||194.226.139.141^$all
+||136.144.41.122^$all
 ||iyfsearch.com^$all
 ||104.144.69.55^$all
 ||45.137.190.197^$all
@@ -15061,6 +15046,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mail.totallyanonymous.com^$all
 ||totallyanonymous.com^$all
 ||103.171.0.220^$all
+||2.56.59.42^$all
 ||63.250.40.204^$all
 ||updateslives.com^$all
 ||eu.postsupport.net^$all
@@ -18150,7 +18136,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||plazaboulevard.com.br^$all
 ||authentication-vmail.us-east-1.linodeobjects.com^$all
 ||tomcleaneraddon.com^$all
-||microsoftedge.microsoft.com/addons/detail/magic-cleaner/caaipkhpabicbdbkiccamfgeniiamigp^$document
 ||youtube.com/watch?v=NTrWmbbLebA^$all
 ||thebestwesoft.org^$all
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_DownloadApp.rar^$all
@@ -18851,6 +18836,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ko04rf8.cfd^$all
 ||dr6ghyu7.click^$all
 ||entry4hide.cyou^$all
+||ovhoq.nkingwitheaam.com^$all
+||nkingwitheaam.com^$all
 ||jonathanbartz.com^$all
 ||jp.imonitorsoft.com^$all
 ||junk-bros.com^$all
@@ -19082,7 +19069,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||21steditionnaturalgh.com^$all
 ||avengeradblocker.com^$document
 ||poweradblocker.com^$document
-||microsoftedge.microsoft.com/addons/detail/power-blocker/lkeckmmaeplfnhmbdceobfnpbgnpcpjl^$document
 ||steamkeygiveaway.net^$all
 ||fasterfiles.net^$all
 ||inteledirect.com^$all
@@ -19602,7 +19588,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||k316u.xyz^$document
 ||clk.hosting-redirect.com^$document
 ||robertprotectsyourpc-us1.com^$all
-||microsoftedge.microsoft.com/addons/detail/browse-safe/halaijeoccdjjoknnkcejljcimnfbmkf^$document
 ||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022?$document
 ||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022/$document
 ||ragamer.com^$document
@@ -24770,7 +24755,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||kraxig.live^$document
 ||krazig.live^$document
 ||kramig.live^$document
-||palons.live^$document
 ||kragig.live^$document
 ||kradig.live^$document
 ||kracig.live^$document
@@ -25214,6 +25198,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||poloniumo.ru^$document
 ||alley.sorting88.cavalierso.ru^$document
 ||q3i5q2r6.stackpathcdn.com^$all
+||rblx.land^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -25695,6 +25680,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||search.freshy.com^$document
 ||freshysearch-api.net^$document
 ||search.freshysearch-api.net^$document
+||n.wigglewurm.com^$all
+||wigglewurm.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -25839,7 +25826,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||storecollegeonline.com^$document
 ||shoptcuhornedonline.com^$document
 ||shopsyracuseonline.com^$document
-||mailboxdelivery.com^$all
 ||csgo.xyz^$all
 ! ----- include rules for just uBlock Origin and AdGuard, and the VXVault list -----
 
@@ -26869,7 +26855,7 @@ $removeparam=/^ref=rss$/
 $removeparam=/^via=rss$/
 $removeparam=mindbox-click-id
 $removeparam=dtpid
-$removeparam=tj
+$removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tagtag_uid
 $removeparam=afCampaignId
 $removeparam=afCreativeId
@@ -27309,6 +27295,28 @@ $removeparam=aff_click_id
 ||wenku.baidu.com^$removeparam=_wkts_
 wenku.baidu.com##+js(set,history.replaceState,noopFunc)
 ||wenku.baidu.com^$removeparam=aggId
+||baidu.com^$removeparam=fenlei
+||baidu.com^$removeparam=ie
+||baidu.com^$document,removeparam=/^rsv_/
+||baidu.com^$document,removeparam=pn
+||baidu.com^$document,removeparam=rn
+||baidu.com^$removeparam=bsst
+||baidu.com^$removeparam=p_tk
+||baidu.com^$document,removeparam=ps
+||baidu.com^$document,removeparam=nc
+||baidu.com^$document,removeparam=xzhid
+||baidu.com^$document,removeparam=fid
+||baidu.com^$document,removeparam=pi
+||baidu.com^$document,removeparam=iid
+||baidu.com^$document,removeparam=query
+||baidu.com^$document,removeparam=lattr
+||baidu.com^$document,removeparam=category
+||baidu.com^$document,removeparam=jid
+||baidu.com^$document,removeparam=prod_type
+||baidu.com^$document,removeparam=cf
+||baidu.com^$document,removeparam=miniId
+||baidu.com^$document,removeparam=/^from/
+||baidu.com^$document,removeparam=tpl_from
 ||bilibili.com^$removeparam=/^current/
 ||bilibili.com^$removeparam=/^from/
 ||bilibili.com^$removeparam=/^network/
