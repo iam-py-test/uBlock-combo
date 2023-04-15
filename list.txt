@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 14/04/2023
+! Last updated: 15/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25199,6 +25199,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||alley.sorting88.cavalierso.ru^$document
 ||q3i5q2r6.stackpathcdn.com^$all
 ||rblx.land^$all
+||webstore.getsecuredsetup.com^$document
+||www.webstore.getsecuredsetup.com^$document
+||gpt-open23.com^$all
+||tslaeth.live^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -27125,7 +27129,6 @@ $removeparam=_nc_cat,domain=~instagram.com
 ||instagram.*.fna.fbcdn.net^$removeparam=ccb,domain=~instagram.com
 ||facebook.$document,removeparam=hoisted_section_header_type
 $removeparam=store_visit_source,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
-$removeparam=eav,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 $removeparam=entrypoint,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 $removeparam=paipv,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 $removeparam=cp_ksver
@@ -28084,7 +28087,6 @@ $removeparam=zsource,domain=slashgear.com
 $removeparam=searchResultPosition,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=tck,domain=mongodb.com
 $removeparam=locale,domain=udemy.com
-$removeparam=response_type,domain=udemy.com
 ||zoho.com^$removeparam=zsrc
 ||lookmovie211.xyz^$removeparam=mid
 ||lookmovie211.xyz^$removeparam=sid
