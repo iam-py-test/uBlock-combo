@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 15/04/2023
+! Last updated: 16/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18838,6 +18838,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||entry4hide.cyou^$all
 ||ovhoq.nkingwitheaam.com^$all
 ||nkingwitheaam.com^$all
+||niceelitdating.top^$document,popup
+||b.niceelitdating.top^$all
+||bigosext1s.com^$document
 ||jonathanbartz.com^$all
 ||jp.imonitorsoft.com^$all
 ||junk-bros.com^$all
@@ -25203,6 +25206,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.webstore.getsecuredsetup.com^$document
 ||gpt-open23.com^$all
 ||tslaeth.live^$all
+||openai.faith^$all
+||allprizesforme.com^$all
+||tesla2023.store^$all
+||musk-bit.com^$all
+||elontsla.com^$all
+||openai-give.online^$all
+||msaylor2x.com^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -25298,6 +25308,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||scanguard.com^$all
 ||my.scanguard.com^$all
 ||secure.scanguard.com^$all
+||download.scanguard.com^$all
 ||pcprotect.com^$all
 ||secure.pcprotect.com^$all
 ||protected.net^$document
@@ -25323,6 +25334,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||extension.protected.net^$all
 ||totaladblocker.xyz^$document
 ||www.totaladblocker.xyz^$document
+||34.117.171.15^$document
+||totalwebshield.xyz^$document
+||www.totalwebshield.xyz^$document
+||secure.totalwebshield.xyz^$document
+||login.totalwebshield.xyz^$document
+||download.totalwebshield.xyz^$document
 ||winzipregistryoptimizer.com^$document
 ||download.winzipregistryoptimizer.com^$document
 ||winzipdriverupdater.com^$document
@@ -25669,10 +25686,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||avanquest.com^$document
 ||www.avanquest.com^$document
 ||webtools.avanquest.com^$document
-||wisecleaner.com^$document
-||wisecleaner.net^$document
-||wisecleaner.eu^$document
-||wisecleaner.com.cn^$document
 ||wavebrowser.co^$document
 ||download.wavebrowser.co^$all
 ||wavebrowser.com^$document
@@ -25686,6 +25699,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||search.freshysearch-api.net^$document
 ||n.wigglewurm.com^$all
 ||wigglewurm.com^$document
+||www8.getsecurify.com^$document
+||getsecurify.com^$document
+||chrome.google.com/webstore/detail/browsing-overview-by-secu/njfkgeajknkffkngdmjmjninkbgjedlo/$document
+||mysecurify.com^$document
+||search.mysecurify.com^$document
+||ext.mysecurify.com^$all
+||ext.securifythis.com^$all
+||securifythis.com^$document
+||kpmk.info^$all
+||privacykeeperapp.com^$document
+||get.privacykeeperapp.com^$document
+||chrome.google.com/webstore/detail/privacy-keeper/acdkbikhkmpbfdmfmcogpnjchcniiipa^$document
+||privacykeepersearch.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -27157,6 +27183,7 @@ $removeparam=ogbl
 ://www.google.*/search^$removeparam=entrypoint
 ||google.*/search$removeparam=sqi
 ||google.$removeparam=gs_ssp
+||www.google.*/search?$document,removeparam=client
 ||google.$removeparam=prds
 ||googleadservices.com^$removeparam=ae
 ||googleadservices.com^$removeparam=agsac
@@ -27165,6 +27192,7 @@ $removeparam=ogbl
 ||googleadservices.com^$removeparam=dsh
 ||googleadservices.com^$removeparam=ms
 ||googleadservices.com^$removeparam=ohost
+||www.google.*/search?$document,removeparam=sclient
 ||tiktok.com^$removeparam=_r
 $removeparam=share_ab_group
 $removeparam=u_code
