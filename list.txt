@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 16/04/2023
+! Last updated: 17/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -10325,6 +10325,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||87.120.254.39^$all,~inline-script,~inline-font
 ||45.150.108.213^$all,~inline-script,~inline-font
 ||92.204.160.240^$all,~inline-script,~inline-font
+/land/*&afftrack=$doc
 ||downloadprovider.me^$all,~inline-font,~inline-script
 toorgle.net##.join
 ||cash93.com^$all,~inline-font,~inline-script
@@ -25213,6 +25214,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||elontsla.com^$all
 ||openai-give.online^$all
 ||msaylor2x.com^$all
+||microstrategy2023.net^$all
+||elonlive2x.com^$all
+||muskai.net^$all
+||tslawill.com^$all
+||xrp-give.pro^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -26443,7 +26449,7 @@ $removeparam=mkref
 $removeparam=refer_code
 $removeparam=AFID,domain=~chggtrx.com|~state.gov
 $~css,~script,removeparam=campaignid
-$removeparam=loc,document,domain=~geizhals.*|~ebay.*|~myanimelist.net|~microsoft.com|~liveperson.net|~saltenposten.no
+$removeparam=loc,document,domain=bestbuy.*|shopping.google.com
 $removeparam=acampID
 $removeparam=pj_creativeid
 $removeparam=pj_publisherid
@@ -26455,7 +26461,7 @@ $removeparam=extcmp
 $removeparam=at_gd
 $removeparam=/^amp$/,domain=~eurasiantimes.com
 $removeparam=/^amp=true$/
-$removeparam=/^amp=1$/,domain=~listafriikki.com
+$removeparam=/^amp=1$/,document,domain=~listafriikki.com|~londonjazznews.com
 $removeparam=_gl
 $removeparam=gtmtrack
 $removeparam=vifAdCount
@@ -27169,6 +27175,8 @@ $removeparam=cshid
 $removeparam=sxsrf
 $removeparam=tbas
 $removeparam=fir
+||google.*/books$removeparam=source
+||google.*/flights$removeparam=source
 ||google.*/search$removeparam=source
 @@||google.*&tbm=isch&*#imgrc=$removeparam=fir
 @@||google.*&tbm=isch&*#imgrc=$removeparam=usg
