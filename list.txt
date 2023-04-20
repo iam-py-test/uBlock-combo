@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 19/04/2023
+! Last updated: 20/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18888,6 +18888,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||js.msedgeupdate.com^$all
 ||msedgeupdate.com^$all
 ||full-nitro.com^$all
+||github.com/MasnyBen420/Nitro-Generator-Python-2023^$all
+||portalproveedores.com.mx^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -25244,6 +25246,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||spacex-starship.net^$all
 ||gamingnewsanalyst.com^$all
 ||gamingdebates.com^$all
+||flirt4free.com^$document
+||entrance.flirt4free.com^$popup
+||123moviesgo.ga^$all
+||now-openai.site^$all
+||ms-event.tech^$all
+||tslaget.live^$all
+||tesla-openai.com^$all
+||2023-openai.com^$all
+||musk-aigpt.com^$all
 ||www.totalav.com^$all
 ||totalav.com^$all
 ||api.totalav.com^$all
@@ -25889,7 +25900,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||shopsyracuseonline.com^$document
 ||csgo.xyz^$all
 ||app.phonespying.com^$document
-||phonespying.com^$document
+||phonespying.com^$all
 ||copy9.com^$document
 ||fonetracker.com^$document
 ||thetruthspy.com^$all
@@ -25933,7 +25944,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||my.ispyoo.com^$all
 ||my.thetruthspy.com^$all
 ||my.thespyapp.com^$all
-||phonespying.com^$all
 ||phonetracking.net^$all
 ||protocol-a.copy9.com^$all
 ||protocol-a.exactspy.com^$all
