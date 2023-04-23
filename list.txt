@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 22/04/2023
+! Last updated: 23/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18903,6 +18903,20 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ledgerlives.live^$all
 ||ledgers.network^$all
 ||wilkinson-intl.powerappsportals.com^$all
+||cv-builder.site^$all
+||siamaster.com.mx^$all
+||chatgptex.us^$all
+||allfreesoftware.online^$all
+||all-free-software.online^$all
+||45.15.156.182^$all
+||45.15.156.70^$all
+||45.132.106.77^$all
+||199.127.62.3^$all
+||94.142.138.73^$all
+||94.142.138.84^$all
+||94.142.138.218^$all
+||199.247.24.79^$all
+||5.34.180.208^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -19206,12 +19220,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.fling.com^$document
 ||lekms.com^$document
 ||yourcoolfeed.com^$all
-||overeverything.co^$document
-||wrappdt.cloudcircuit.co^$document
-||blacknumbers.co^$document
-||hunterbid.exacad.co^$document
 ||songlos.com^$document
-||lorweo.info^$all
 ||royaltees.co^$all
 ||correctwantserve.top^$document
 ||qilihi.correctwantserve.top^$all
@@ -26716,7 +26725,7 @@ $removeparam=extcmp
 $removeparam=at_gd
 $removeparam=/^amp$/,domain=~eurasiantimes.com
 $removeparam=/^amp=true$/
-$removeparam=/^amp=1$/,document,domain=~listafriikki.com|~londonjazznews.com
+$removeparam=/^amp=1$/,document,domain=newsweek.com
 $removeparam=_gl
 $removeparam=gtmtrack
 $removeparam=vifAdCount
@@ -27746,8 +27755,7 @@ $removeparam=ws,domain=ds1.nl
 $removeparam=u1,domain=linksynergy.com|shop-links.co
 $removeparam=article_name,domain=shop-links.co
 $removeparam=article_url,domain=shop-links.co
-$removeparam=/^shared%3D/,domain=seura.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
-$removeparam=shared,domain=seura.fi|kotiliesi.fi|tekniikanmaailma.fi|anna.fi|rakennusmaailma.fi|alibi.fi|hymy.fi|eralehti.fi
+$removeparam=/^shared/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
 $removeparam=origin,denyallow=platform.twitter.com,domain=archive.org|buzzfeed.com|buzzfeednews.com|drop.com|flaticon.com|nordstrom.com|norton.com|philips.*|symbolab.com|yle.fi
 $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|adtraction.com|tradedoubler.com
 $removeparam=epi2,domain=tradedoubler.com
