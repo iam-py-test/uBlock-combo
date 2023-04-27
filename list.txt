@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 26/04/2023
+! Last updated: 27/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18918,6 +18918,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||199.247.24.79^$all
 ||5.34.180.208^$all
 ||olympofreptiles.io^$all
+||actionclassicgames.com^$document
+||allin1convert.com^$document
+||allinonedocs.com^$document
+||anytimeastrology.com^$document
+||myway.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -25305,6 +25310,21 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www6.renhadmasandbab.info^$popup
 ||mobilesecuremail.com^$document
 ||wormair.bio^$document
+||bitcompay.org^$all
+||miningpror.top^$all
+||paypartc.top^$all
+||bitcllpay.top^$all
+||tdsintegrations11.online^$all
+||crypto022.online^$all
+||crypto023.online^$all
+||crypto024.online^$all
+||crypto025.online^$all
+||crypto026.online^$all
+||crypto027.online^$all
+||crypto028.online^$all
+||crypto029.online^$all
+||crypto030.online^$all
+||crypto031.online^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28627,6 +28647,8 @@ $removeparam=ad_sub,domain=homo.xxx
 ||store.hbr.org^$removeparam=fromSku
 ||store.hbr.org^$removeparam=fromSkuRelated
 ||kongregate.com^$document,removeparam=acomplete
+||bloomberg.com^$removeparam=re_source
+$document,removeparam=waporef
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
