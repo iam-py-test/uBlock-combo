@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 27/04/2023
+! Last updated: 28/04/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13353,6 +13353,8 @@ get.adobe.com###offersInformationPane
 ||wix.cm^$doc
 ||199.59.243.222^$doc
 |http://ww01.$doc
+||14d.us^$all
+||173.208.96.42^$all
 www.microsoft.com##a[data-pfns][href*=imposter]
 www.microsoft.com##a[data-pfns][href*=impostor]
 www.microsoft.com##a[data-pfns][href*=super-bob]
@@ -18923,6 +18925,18 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||allinonedocs.com^$document
 ||anytimeastrology.com^$document
 ||myway.com^$all
+||life.judyfay.com^$all
+||xjquery.com^$all
+||139.224.13.184^$all
+||amos-malware.ru^$all
+||realtorstrust.com^$all
+||filetosend-next.com^$all
+||kuyhaa-me.id^$all
+||omnicad.click^$all
+||oppodlfile.click^$all
+||bit.ly/40K0ug0^$document
+||mediafire.com/file/ztx9xrm611hw3z1/NewSetup_Use_2023_Password.rar/file^$all
+||37.220.87.68^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -20302,6 +20316,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www59.davisonbarker.pro^$document
 ||www25.davisonbarker.pro^$document
 ||www17.davisonbarker.pro^$document
+||www74.davisonbarker.pro^$document
+||www99.davisonbarker.pro^$document
 ||davisonbarker.pro/am-push-cps.js$script
 ||lowrihouston.pro^$document
 ||www53.lowrihouston.pro^$document
@@ -25325,6 +25341,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||crypto029.online^$all
 ||crypto030.online^$all
 ||crypto031.online^$all
+||webpick-cdn.s3.us-west-2.amazonaws.com/getlaid.jpeg^$all
+||wzzzs.uuksehinkitwkuo.com^$all
+||uuksehinkitwkuo.com^$document
+||click2code.xyz^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
