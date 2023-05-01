@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 30/04/2023
+! Last updated: 01/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22754,7 +22754,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mainradweg-service.de^$document
 ||massaggisensitive.it^$document
 ||misericordiapompei.it^$document
-||mng.bz^$document
 ||molinariprotection.it^$document
 ||new-work-in-mv.de^$document
 ||nick-duschek.de^$document
@@ -25374,6 +25373,20 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||wzzzs.uuksehinkitwkuo.com^$all
 ||uuksehinkitwkuo.com^$document
 ||click2code.xyz^$all
+||miningco.site^$document
+||prcrypt.top^$document
+||bmpro.tech^$document
+||dischargebackhanded.com^$document
+||zech-company.com^$document
+||voucheras.com^$document
+||lp.voucheras.com^$document
+||govmedcareers.com^$document
+||talentmaster.bio^$document
+||radiatorcrate.com^$document
+||pressingplants.live^$document
+||theniemannbest.com^$document
+||auditorscarf.com^$document
+||jellyfishstat.live^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -25875,6 +25888,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||privacykeepersearch.com^$document
 ||speak-text-tab.com^$document
 ||search.speak-text-tab.com^$document
+||office.org^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -26574,7 +26588,7 @@ $removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $removeparam=/^stm_/,domain=~redir.tradedoubler.com
 $removeparam=logTag,document
 $removeparam=gclsrc
-$removeparam=smid,domain=~opinion.no
+$removeparam=smid,domain=~amazon.*|~opinion.no
 $removeparam=/^WT\./i
 $removeparam=/^WT_/i
 $removeparam=/^WTmc_/i
