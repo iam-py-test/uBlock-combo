@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 01/05/2023
+! Last updated: 02/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18966,6 +18966,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bit.ly/40K0ug0^$document
 ||mediafire.com/file/ztx9xrm611hw3z1/NewSetup_Use_2023_Password.rar/file^$all
 ||37.220.87.68^$all
+||youtubebplan.com^$all
+||www.youtubebplan.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -28712,6 +28714,7 @@ $removeparam=ad_sub,domain=homo.xxx
 ||kongregate.com^$document,removeparam=acomplete
 ||bloomberg.com^$removeparam=re_source
 $document,removeparam=waporef
+||carsales.com.au^$removeparam=Cr,document
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
