@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 19/3/2023
-! Last updated: 02/05/2023
+! Last updated: 03/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -7001,7 +7001,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||throughdfp.com^$all,~inline-font,~inline-script
 ||timecrom.com^$all,~inline-font,~inline-script
 ||toateeli.net^$all,~inline-font,~inline-script
-||toglooman.com^$all,~inline-font,~inline-script
 ||toshelmeton.com^$all,~inline-font,~inline-script
 ||tosuicunea.com^$all,~inline-font,~inline-script
 ||totentacruelor.com^$all,~inline-font,~inline-script
@@ -9748,7 +9747,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||doruffletr.com^$all,~inline-script,~inline-font
 ||doseadraa.com^$all,~inline-script,~inline-font
 ||dosliggooor.com^$all,~inline-script,~inline-font
-||dozubatan.com^$all,~inline-script,~inline-font
 ||drylnk.com^$all,~inline-script,~inline-font
 ||ducubchooa.com^$all,~inline-script,~inline-font
 ||dulatiosa.com^$all,~inline-script,~inline-font
@@ -9893,7 +9891,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||lowgraveleron.com^$all,~inline-script,~inline-font
 ||lowleafeontor.com^$all,~inline-script,~inline-font
 ||lowremoraidon.com^$all,~inline-script,~inline-font
-||lowseelan.com^$all,~inline-script,~inline-font
 ||lowtyruntor.com^$all,~inline-script,~inline-font
 ||ltengronsa.com^$all,~inline-script,~inline-font
 ||lurgaimt.net^$all,~inline-script,~inline-font
@@ -9992,7 +9989,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||rdsddand.com^$all,~inline-script,~inline-font
 ||redonetype.com^$all,~inline-script,~inline-font
 ||relkconka.com^$all,~inline-script,~inline-font
-||reykijnoac.com^$all,~inline-script,~inline-font
 ||ringairs.xyz^$all,~inline-script,~inline-font
 ||rndskittytor.com^$all,~inline-script,~inline-font
 ||roinduk.com^$all,~inline-script,~inline-font
@@ -10038,7 +10034,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||togranbulla.com^$all,~inline-script,~inline-font
 ||tomilotica.com^$all,~inline-script,~inline-font
 ||toninjaska.com^$all,~inline-script,~inline-font
-||breakingfeedz.com^$all,~inline-script,~inline-font
 ||torioluor.com^$all,~inline-script,~inline-font
 ||trafficportsrv.com^$all,~inline-script,~inline-font
 ||treenghsas.com^$all,~inline-script,~inline-font
@@ -10287,7 +10282,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||phoka-mps.com^$all,~inline-script,~inline-font
 ||ponti-pzk.com^$all,~inline-script,~inline-font
 ||pritha-ner.com^$all,~inline-script,~inline-font
-||proserpina-zeb.com^$all,~inline-script,~inline-font
 ||pyrrh-xbf.com^$all,~inline-script,~inline-font
 ||quinctus-isb.com^$all,~inline-script,~inline-font
 ||rama-bac.com^$all,~inline-script,~inline-font
@@ -13285,6 +13279,24 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||123secure.org^$all,~inline-font,~inline-script
 ||yuppdownload.com^$all,~inline-font,~inline-script
 ||34.80.59.191^$all,~inline-font,~inline-script
+|http://www6.$doc
+|http://www1.*&kw$doc
+||megabooru.com^$all,~inline-script,~inline-font
+||zombooru.com^$all,~inline-script,~inline-font
+||kusubooru.com^$all,~inline-script,~inline-font
+||wh40kart.im^$all,~inline-script,~inline-font
+||45.33.2.79^$doc
+||45.33.18.44^$doc
+||45.33.20.235^$doc
+||45.33.23.183^$doc
+||45.33.30.197^$doc
+||45.56.79.23^$doc
+||45.79.19.196^$doc
+||72.14.178.174^$doc
+||72.14.185.43^$doc
+||96.126.123.244^$doc
+||173.255.194.134^$doc
+||198.58.118.167^$doc
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||hardreset.info^$doc
@@ -14528,8 +14540,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hiibs.com^$all
 ||frankohacker.strangled.net^$all
 ||198.12.107.117^$all
-||45.33.23.183^$all
-||45.33.2.79^$all
 ||abrosnm3.com^$all
 ||www.abrosnm3.com^$all
 ||192.227.158.110^$all
@@ -18968,6 +18978,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||37.220.87.68^$all
 ||youtubebplan.com^$all
 ||www.youtubebplan.com^$all
+||87cibrsm009t2lj.buzz^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -25389,6 +25400,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||theniemannbest.com^$document
 ||auditorscarf.com^$document
 ||jellyfishstat.live^$document
+||intgblockchain.online^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
