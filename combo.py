@@ -44,7 +44,7 @@ eadd = 0
 ered = 0
 parselist = None
 
-def parselist(l):
+def parselist(l,curl=""):
 	global donedomains
 	global donelines
 	global eadd
@@ -65,9 +65,9 @@ def parselist(l):
 			continue
 		elif line.startswith("!#include "):
 			try:
-				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
+				incpath = urllib.parse.urljoin(curl,line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.split("\n")
-				endcontents = parselist(inccontents)
+				endcontents = parselist(inccontents,incpath)
 				plist += "{}\n".format(endcontents)
 			except Exception as err:
 				print(line,err)
@@ -83,7 +83,7 @@ def parselist(l):
 for clist in lists:
 	l = requests.get(lists[clist]).text.split("\n")
 	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
-	mainlist += parselist(l)
+	mainlist += parselist(l,lists[clist])
 
 with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
 	f.write(mainlist)
