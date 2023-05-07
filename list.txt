@@ -27260,7 +27260,7 @@ $removeparam=/^WT_/i
 $removeparam=/^WTmc_/i
 $removeparam=/^WTmc\./i
 $removeparam=ref_src
-$removeparam=ref_url
+$removeparam=ref_url,domain=~randalls.com
 $removeparam=dclid
 $removeparam=afid
 $removeparam=WebSiteMapNodeID
@@ -29313,9 +29313,9 @@ $removeparam=srsltid,document
 ||malwarebytes.com^$removeparam=x-affid
 ||malwarebytes.com^$removeparam=ADDITIONAL_AFFID
 ||malwarebytes.com^$removeparam=x-wts
-||reddit.com^$removeparam=%243p
-||reddit.com^$removeparam=%24deep_link
-||reddit.com^$removeparam=post_index
+$removeparam=%243p,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+$removeparam=%24deep_link,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+$removeparam=post_index,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=auto_token,domain=nextdoor.com
 $removeparam=mobile_deeplink_data,domain=nextdoor.com
 $removeparam=link_source_user_id,domain=nextdoor.com
@@ -29381,6 +29381,7 @@ $document,removeparam=waporef
 $removeparam=sdsrc,document
 $removeparam=/^ref=troyhunt\.com/
 ||shrunken.com^$document,removeparam=shortUrlDomain
+||lnkd.in^$removeparam=trk
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
