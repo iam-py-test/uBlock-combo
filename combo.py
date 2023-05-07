@@ -45,6 +45,11 @@ ered = 0
 parselist = None
 
 def parselist(l):
+	global donedomains
+	global donelines
+	global eadd
+	global ered
+	plist = ""
 	for line in l:
 		if (line.startswith("!") or line.startswith("#")) and "include" not in line:
 			continue
@@ -63,16 +68,17 @@ def parselist(l):
 				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
 				endcontents = parselist(inccontents)
-				mainlist += "{}\n".format(endcontents)
+				plist += "{}\n".format(endcontents)
 			except Exception as err:
 				print(line,err)
 		else:
-			mainlist += "{}\n".format(line)
+			plist += "{}\n".format(line)
 			eadd += 1
 			donelines.append(line)
 			edomain = extdomain(line)
 			if edomain != "" and edomain != " ":
 				donedomains.append(edomain)
+	return plist
 
 for clist in lists:
 	l = requests.get(lists[clist]).text.split("\n")
