@@ -3,7 +3,9 @@ import os
 import urllib.parse
 import re
 import datetime
-lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","The anti-typo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
+LIST_FILENAME = "list.txt"
+STATUS_FILENAME = "status.txt"
+lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","iam-py-test's antitypo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
 
 donelines = []
 donedomains = []
@@ -30,7 +32,7 @@ def extdomain(line):
 
 mainlist = """! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 19/3/2023
+! Script last updated: 7/5/2023
 ! Last updated: {}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
@@ -40,10 +42,9 @@ mainlist = """! Title: iam-py-test's Combo List
 
 eadd = 0
 ered = 0
+parselist = None
 
-for clist in lists:
-	l = requests.get(lists[clist]).text.replace("! Title: ","! List title: ").split("\n")
-	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
+def parselist(l):
 	for line in l:
 		if (line.startswith("!") or line.startswith("#")) and "include" not in line:
 			continue
@@ -61,18 +62,7 @@ for clist in lists:
 			try:
 				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
 				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
-				endcontents = ""
-				for tmpl in inccontents.split("\n"):
-					if tmpl.startswith("!") or tmpl == "" or tmpl == " " or tmpl.startswith("#"):
-						continue
-					if tmpl in donelines:
-						continue
-					tmpdomain = extdomain(tmpl)
-					if tmpdomain in donedomains and tmpdomain != "":
-						continue
-					endcontents += "{}\n".format(tmpl)
-					donelines.append(tmpl)
-					donedomains.append(tmpdomain)
+				endcontents = parselist(inccontents)
 				mainlist += "{}\n".format(endcontents)
 			except Exception as err:
 				print(line,err)
@@ -83,13 +73,19 @@ for clist in lists:
 			edomain = extdomain(line)
 			if edomain != "" and edomain != " ":
 				donedomains.append(edomain)
-mainlist = mainlist.replace("[Adblock Plus 3.8]","").replace("[Adblock Plus 3.6]","").replace("[Adblock Plus 2.0]","")
-with open("list.txt","w",encoding="UTF-8") as f:
+
+for clist in lists:
+	l = requests.get(lists[clist]).text.split("\n")
+	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
+	mainlist += parselist(l)
+
+with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
 	f.write(mainlist)
 	f.close()
-print("Complete")
-print("""Stats:
+with open(STATUS_FILENAME,'w') as status:
+	status.write("""Stats:
 {} entries added
 {} redundant entries removed
 {} domains added
 """.format(eadd,ered,len(donedomains)))
+	status.close()

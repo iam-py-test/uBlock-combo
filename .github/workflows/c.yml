@@ -16,7 +16,6 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
-        echo 0 > "status.txt" 
         echo Debugging output
         uname
         pip3 --version
@@ -27,7 +26,6 @@ jobs:
         echo make the list
         pip3 install requests
         python combo.py
-        echo 1 > "status.txt"
     - name: Commit & Push
       uses: actions-x/commit@v6
       with:
