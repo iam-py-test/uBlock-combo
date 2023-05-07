@@ -66,7 +66,7 @@ def parselist(l):
 		elif line.startswith("!#include "):
 			try:
 				incpath = urllib.parse.urljoin(lists[clist],line[10:],allow_fragments=True)
-				inccontents = requests.get(incpath).text.replace("! Title","! Included title").replace("[Adblock Plus 3.6]","")
+				inccontents = requests.get(incpath).text.split("\n")
 				endcontents = parselist(inccontents)
 				plist += "{}\n".format(endcontents)
 			except Exception as err:
