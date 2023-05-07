@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 19/3/2023
-! Last updated: 06/05/2023
+! Script last updated: 7/5/2023
+! Last updated: 07/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14223,101 +14223,75 @@ www.microsoft.com##a[data-pfns][data-pfns^="8"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][href*=pacman]
 www.microsoft.com##a[data-pfns][href*=pac-men]
+[
+A
+d
+b
+l
+o
+c
+k
+ 
+P
+u
+s
+3
+.
+8
+]
 
-||oxtop.ru^
-||fotoredactor.com^
-||vmuzone.com^
-||dojki.biz^
-||bigdata.advmob.cn^
-||bigdata.adfuture.cn^
-||img.adtiming.com^
-||lnk.pepipost.net^
-||rainmeter-skins.com^
-||ubsco.uk^
-||securebiz.org^
-||oligarph.club^
-||certificamayor.com^
-||2freeprivacytoolsforyou.xyz^
-||kygoibatdongsan.com^
-||www.bhyxj.com^
-||oneup.cc^
-||a0568605.xsph.ru^
-||a.ninis.us^
-||push.soft-com.biz^
-||mycleanpc.com^
-||spy-sheriff.com^
-||dedr.ru^
-||getyoutube.net^
-||msplash1.downdepo.com^
-||www.new.net^
-||intercepter.nerf.ru^
-||p.delivercdn.com^
-||www.emetincelle.com^
-||informtime.social^
-||phod.ru^
-||faridabadrepair.in^
-||msplash5.downdepo.com^
-||msplash6.downdepo.com^
-||censor.be^
-||weddingstory.gr^
-||123movieshub.re^
-||filmhdplay.stream^
-||fullmoviedvd.rip^
-||hdqputlocker.com^
-||movies.123hdfree.com^
-||netmovies.co^
-||pirateiro.com^
-||putlockerxyz.com^
-||vanmovies4k.com^
-||watchfree.ws^
-||watchputlocker.site^
-||fantasyfacesbybelle.com.au^
-||vivaberlin.net^
-||2ad.ir^
-||sp.cwfservice.net^
-||amirweb.me^
-||amazonaax.com^
-||boyporn.net^
-||cdn-bimi.akamaized.net^
-||gen.mactechright.com^
-||nsis.bisrv.com^
-||cdn.bisrv.com^
-||www.candelliran.com^
-||amoviemedia.com^
-||service.wemass.com^
-||pdfzon.com^
-||lxd.host.org^
-||hard-xxx-tube.com^
-||afiliacion.net^
-||m.naughtydate.com
-||dropmb.com^
-||gammaentertainment.com^
-||md.thefilipinodoctor.com^
-||pavmhh.com^
-||qttjjw.com^
-||store1.gofile.io^
-||techsupport.smartpcupdate.com^
-||uhakhh.com^
-||www.webku.net^
-||1abzar.ir^
-||bufedr.com^
-||bwukxn.com^
-||exit.streamoptim.com^
-||image.hnol.net^
-||mhtykx.com^
-||qvhtar.com^
-||rafvbs.com^
-||sxzmaf.com^
-||www.yopsy.com^
-||wzstatic.streamoptim.com^
-||yiport.com^
-||bafybeibwzifw52ttrkqlikfzext5akxu7lz4xiwjgwzmqcpdzmp3n5vnbe.ipfs.ipfs.fleek.co^
-||i.wmgtr.com^
-||imgdl1.topnop.ir^
-||ipfs.fleek.co^
-||money.dailyhunt.in^
-||www.goldenpalace.com^
-||www.xxsy.net^
+
+I
+n
+e
+t
+i
+:
+G
+a
+r
+S
+f
+B
+w
+g
+R
+v
+-
+E
+V
+1
+5
+p
+2
+0
+x
+D
+T
+h
+q
+«
+'
+O
+N
+»
+y
+m
+(
+)
+,
+%
+J
+|
+^
+z
+j
+6
+4
+7
+9
+F
+M
 
 ||amazonaws.com^$all,~inline-script,~inline-font,badfilter
 ||amazonaws.com^$all,~inline-font,~inline-script,badfilter
@@ -26106,6 +26080,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www-click-cf.pcspeedcat.com^$all
 ||mantis.pcspeedcat.com^$all
 ! Before downloading, ADWCleaner detected no adware. After downloading, ADWCleaner detected adware, which included the program. Program claims that buying the paid version (and entering private data) will fix issues with a clean VM. 
+||mycleanpc.com^$document
 ||www.mycleanpc.com^$document
 ||reviews.mycleanpc.com^$all
 ||software.mycleanpc.com^$all
@@ -26797,253 +26772,78 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||myspyapps.com^$document
 ||my-spy-a9c92.firebaseio.com^$document
 ! ----- include rules for just uBlock Origin and AdGuard, and the VXVault list -----
-
-||youtube.com/channel/UCZrAzmvX3RFXW_aQLq9jP4A^$document
-||youtube.com/channel/UCYFbUq2TA5XKS5gQjs2Tuug^$document
-||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
-||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCZftc38yW5yqZI2tNsJt1sQ^$document
-||youtube.com/channel/UCI2KAIrfY5Lggly7BmonC6A^$document
-||youtube.com/channel/UCwMe941WEwthn8zH72Z-7jw^$document
-||youtube.com/channel/UCc3Vmwa4H_7d_TqPMM2QKAw^$document
-||youtube.com/channel/UCrp5QRVp6PFHIrNg7gD4YZQ^$document
-||youtube.com/channel/UC98HAYotaYL_GHD_ejmxX7g^$document
-||youtube.com/channel/UCur-kJc2fk3AkDimvCd4U_g^$document
-||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
-||youtube.com/channel/UCEBXm13iwQAXN2Kz4YV5rVQ^$document
-||youtube.com/channel/UCtjaY3UG_5KxQRMDUczFMXQ^$document
-||youtube.com/channel/UC3Iqfjqv79rOqZcbrUBzB8Q^$document
-||youtube.com/channel/UCR3GagpPBSlCegUOrlWiuqQ^$document
-||youtube.com/channel/UC9o2JoFCpUBjxLxYSNLtIqw^$document
-||youtube.com/channel/UCLJuDTN9-RwCKZfiTQSmQNw^$document
-||youtube.com/channel/UCcPnuqWCtMJK4rrVhTiDtlg^$document
-||youtube.com/channel/UCC_2xhblgtcA1YoS8Rr6mOQ^$document
-||youtube.com/channel/UCSr4quHpOpm0mwPQ4_0wz1g^$document
-||youtube.com/channel/UCzynpoHU3QF4nw4AYTY8CsA^$document
-||youtube.com/channel/UCXadJ8WXmlbeGbmxlY7foWg^$document
-||youtube.com/channel/UCgSlARY1XMjOmBc_TWVIokQ^$document
-||youtube.com/channel/UCCUbeSnqfvdhGDnavmPO7vQ^$document
-||youtube.com/channel/UCXYuZPnivfpLQFol_-AMqEA^$document
-||youtube.com/channel/UC4BA48f2crsX-Gf1wMcb7eg^$document
-||youtube.com/channel/UCGWJ20THLElJxRU2EB4WBRQ^$document
-||youtube.com/channel/UCXcYQa5hgMic4EOo4syR8Nw^$document
-||youtube.com/channel/UC90u7VCSfmLUvMJeuvbEz1g^$document
-||youtube.com/channel/UCqV8bLGbLKvSUVDZtfEYz8g^$document
-||youtube.com/channel/UCUUKlL3uzVmFQ1vtd-jpAlw^$document
-||youtube.com/channel/UCA6vBoVGTXXLNCIq2Mp1tXA^$document
-||youtube.com/channel/UCf2aBb8v-q2jUg-kdAo_emQ^$document
-||youtube.com/channel/UC0cDYHKKI3WuHY6PT-YsBTw^$document
-||youtube.com/channel/UCf9PTi384IFnBjH5FbGvoag^$document
-||youtube.com/channel/UCDTcPk8eNOP4FDTRTGFdo4A^$document
-||youtube.com/channel/UCslhNIF-vTeYnL4W8yg9F1Q^$document
-||youtube.com/channel/UCWjGB-2evM8AB9rj6fVxmcA^$document
-||youtube.com/channel/UCNEuUGHoTTyt1247GzNdfbA^$document
-||youtube.com/channel/UC1HVJDDHoSVcerD46K-J6ng^$document
-||youtube.com/channel/UCGaMJeO7YClK_dmoHB4-BIw^$document
-||youtube.com/channel/UCszV4lSIfrZVwZE1YiANUzw^$document
-||youtube.com/channel/UCyeh7kwrZGgmDUmkw1Svkuw^$document
-||youtube.com/channel/UCWaneJzQcS5WhaaerEuSg1g^$document
-||youtube.com/channel/UC8-4-iapLTjw-MUi72kaDiQ^$document
-||youtube.com/channel/UC3qrUm-HpLdin8q-IGQ4UMQ^$document
-||youtube.com/channel/UCGUEvZCqa4a8S_n6UN1Vtuw^$document
-||youtube.com/channel/UCd-l4COpGbWCxYddh6ZwLoQ^$document
-||youtube.com/channel/UC2aUB8zP6YpfgNiy2-tNtYA^$document
-||youtube.com/channel/UCcO6DL9RgbRo2BfBYXayP-Q^$document
-||youtube.com/channel/UCuNFh80aT9Avdhw9jr7TX8A^$document
-||youtube.com/channel/UCikppjadTAgFj7QFKPfE6YQ^$document
-||youtube.com/channel/UCY-mjAhqC7-Lkv0Qv5nS1yA^$document
-||youtube.com/channel/UCRYvu6p4-T3RCyl7tgtfC_Q^$document
-||youtube.com/channel/UCzSW21exQQ_6DJO0GjPr8Dw^$document
-||youtube.com/channel/UC4H0NSb0XAzRAT9NQ4h08jA^$document
-||youtube.com/channel/UCwcAbWsLU8unC4gfvIEHoow^$document
-||youtube.com/channel/UChE-nOGOh96pDowEsMloOLg^$document
-||youtube.com/channel/UC_gq1KHg8zw7Xvrb2n1y_rA^$document
-||youtube.com/channel/UCqlhhYDT7P0IStLbb-L2nZA^$document
-||youtube.com/watch?v=4XsnniuVG3c^$document
-hanoiopentourism.com##[id*=comment-] > .comment-wrap:has-text(/DINOSONTECH ON INSTAGRAM/i)
-vixencrypto.com##.comment_content:has-text(/dinosontech on Instagram/i)
-piped.kavin.rocks##.replies > div.uk-width-expand.uk-align-left.uk-tile-default > .uk-flex.comment:has-text(/DINOSONTECH on Instagram /i)
-youtube.com###body.ytd-comment-renderer.style-scope:has-text(/DINOSONTECH on Instagram/i)
-youtube.com###body.ytd-comment-renderer.style-scope:has-text(/Cytro44 on IG/i)
-youtube.com###body:has-text(/hackertage on telegram/i)
-youtube.com###body:has-text(/RANKINGHACKS ON TELEGRAM/i)
-youtube.com###body:has-text(/DAHCYBER ON INSTAGRAM/i)
-youtube.com###body:has-text(/immediatelyhacker.tech/i):has-text(y)
-youtube.com###body:has-text(/william_hacktools (on|is|at)/i)
-youtube.com###comment:has-text(/jacksontechie on /i)
-youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:has-text(/hackermendax (is|on|from|at) telegram/i)
-youtube.com###body:has(#author-text:has-text(/Vanessa Bakery/i))
-youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:has-text(/ZhiyongFx (is|on|from|at) telegram/i)
-youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:has-text(/Godhakz01 (is|on|from|at) (telegram|Instagram)/i)
-youtube.com###contents > .ytd-comment-replies-renderer.style-scope:has-text(/darkweb_DKcc (on|is|at) (telegram|instagram)/i)
-youtube.com##.ytd-comment-renderer.style-scope:has-text(/rogersfloyd1998 (on|at|is) telegram/i)
-youtube.com##ytd-comment-thread-renderer:has-text(/cardholders1 (on|at|is) telegram/i)
-youtube.com##.ytd-comment-thread-renderer:has-text(/cashcards20 (on|os|at|is) telegram/i)
-youtube.com##.ytd-comment-renderer:has-text(/Ddoncarder (os|is|when|at|on|go) telegram/i)
-youtube.com##.ytd-comment-renderer:has-text(/southhack1/i):has-text(/agram/i)
-youtube.com##.ytd-comment-renderer:has-text(/Beastclone (on|at|his|will|is) telegram/i)
-youtube.com##.ytd-comment-renderer:has-text(/legitboss10 (at|on|is) telegram/i)
-youtube.com##.ytd-comment-renderer:has-text(/Joecarder112 (or|on|at) telegram/i)
-youtube.com##.ytd-comment-thread-renderer:has-text(/veehackservice (at|on|is|when|did|can|contact on|who) telegram/i)
-youtube.com##.ytd-comment-thread-renderer:has-text(/Godsenthack (On|at|is|going|be|is on) telegram/i)
-youtube.com##.ytd-comment-renderer:has-text(/EYEONSIGHT/i):has-text(/NET (on|gives|has|will|is)/i)
-youtube.com##.ytd-comment-renderer:has-text(𝗩𝗟𝗔𝗡𝗧5)
-youtube.com##.ytd-comment-renderer:has-text(/Bones_hack11/i):has-text(/instagram/i)
-youtube.com##.ytd-comment-renderer:has-text(/albert__kev (on|at) (instagram|telegram)/i)
-youtube.com##.ytd-comment-renderer:has-text(/with/i):has-text(/Romanhackers,com/i)
-youtube.com##.ytd-comment-renderer:has-text(/Vest_hackss09 (on|at|is|go|DM|access) Instagram/i)
-youtube.com##.ytd-comment-renderer:has-text(/ProJasontrade/i):has-text(/(h|i|$)/i)
-youtube.com##.ytd-comment-renderer:has-text(/MARKHACKS10 (on|at|is|for|be|is on)/i)
-youtube.com##.ytd-comment-renderer:has-text(/LAMOCRACK (on|at|is|for|be|is on)/i)
-youtube.com##.ytd-comment-renderer:has-text(/𝐒𝐀𝐂𝐓𝐀𝐂𝐑𝐀𝐂𝐊 (on|at|is|for|be|is on)/i)
-youtube.com##.ytd-comment-renderer:has-text(/KASPERSKYSUDO (on|at|is|for|be|is on)/i)
-youtube.com###body:has-text(/SARZY_CRACKS (on|at) Instagram/i)
-youtube.com###body:has-text(/Graysonm19 .* tele/i)
-youtube.com###body:has-text(/(without any doubt,|reaching out to |I still use )Grayson/i)
-youtube.com###body:has-text(/(Tobiasmeylan|Tobias Meylan)/i)
-youtube.com###body:has-text(/dip in crypto/):has-text(/Vellajean Scarlett/i)
-youtube.com###body:has-text(/Mrs(\.|) Deborah/i):has-text(/my life (have|has) totally changed/i)
-youtube.com###body:has-text(Mrs Deborah):has-text(/handles my account/i)
-youtube.com###body:has-text(/@deborah901/i)
-youtube.com###body:has-text(/Jim Detterick/i):has-text(/(pro|trader)/i)
-youtube.com###body:has-text(/dettericktrade/i)
-youtube.com###body:has-text(/Mrs Kiana Daniel/i):has-text(/(trad|!!)/i)
-youtube.com###body:has-text(𝟏𝟐𝟎𝟓𝟔𝟖𝟑𝟓𝟓𝟏𝟔)
-youtube.com###body:has-text(/godwinmyers/i)
-youtube.com###body:has-text(/Godwin Myers/i):has-text(/(market|gain|trad)/i)
-youtube.com###body:has-text(/hackersharron/i)
-youtube.com###body:has-text(/mileshacks/i)
-youtube.com##.ytd-comment-replies-renderer.style-scope > .ytd-comment-renderer.style-scope:has-text(/pp♰④④⑦④③⑧⑤⑧②⑨⑦①/i)
-youtube.com###comment:has-text(/VGminers [a-zA-Z]* telegram/i)
-youtube.com###comment:has-text(/billhacker [A-Z]* telegram/i)
-youtube.com###comment:has-text(/𝙸𝚍𝚎𝚊𝚕𝚑𝚊𝚌𝚔𝚎𝚛𝚜.𝙲𝚘𝚖/i)
-youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
-||romanhackers.com^$document
-||telegram.me/Cryptoboost01^$document
-||youtube.com/@TeslaUS-Live/$document
-cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
-cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
-cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
-cryptocurrencyvideogroup.com##.comment-body:has-text(/HACKERMEMPHIS (on|at|is|via) telegram/i)
-cryptocurrencyvideogroup.com##.comment-body:has-text(/Johnson Crypto crown0 (on|at|is|via) telegram/i)
-cryptocurrencyvideogroup.com##.comment-body:has-text(/Dillard To Crypto crown0 (on|at|is|via) telegram/i)
-okashimag.com,tech4yougadgets.com##^meta[http-equiv="refresh"]
-okashimag.com,tech4yougadgets.com##^script[src^="data:text/javascript;base64,"]
-okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
-||ads.sophiapoole.com^
-/^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$document,domain=live
-/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$document,domain=top
-/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$document,domain=top
-/^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&/$document,domain=life
-/^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$document,domain=biz
-/^https:\/\/feedbackip\d{2}\.pw/$document,domain=pw
-/^https:\/\/capitalping\d{2}\.online\/\?u=/$document,domain=online
-/^https:\/\/moneymake\d{2}\.online\/\?u=/$document,domain=online
-/^https:\/\/traffichub\d{2}\.[a-z]{2,6}\/\?u=/$document
-/^https:\/\/cakemoney\d{3}\.space\/\?u=/$document,domain=space
-/^https?:\/\/adserveryo\d\.xyz\/\?/$document,domain=xyz
-/^https:\/\/serch\d{2}\.biz\/\?p=/$document,domain=biz
-/^https:\/\/money\d{2}game\.site\/\?u=/$document,domain=site
-/^https:\/\/to\ds\.biz\/\?p=/$document,domain=biz
-/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
-/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$1p,doc
-/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$document,match-case,domain=com|fun|guru|life|online|pw|site|space|top
-/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,match-case,domain=com|fun|guru|life|online|pw|site|space|top
-/^https?:\/\/(?:www\.)?[-0-9a-z]{14,}\.(?:biz|fun|live)\/[a-zA-Z]{10,}\.php/$document,domain=biz|fun|live
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,match-case
-rarbg.to##a[href*="furiousfar.com"]
-||furiousfar.com^$document,popup
-/^https?:\/\/(www\.)?get-the-prize-ht[0-9]\.live/$document
-/^https?:\/\/(www\.)?prize-of-[0-9]win\.live/$document
-/^https?:\/\/(www\.)?prizeclaim-t[0-9]n\.live/$document
-/^https?:\/\/(www\.)?xmas-prize-p[0-9][a-z]\.live/$document
-/^https?:\/\/(www\.)?winner-g[0-9]sf\.live/$document
-/^https?:\/\/(www\.)?we-will-win-b[0-9]tc\.live/$document
-/^https?:\/\/(www\.)?my-game-winner-p[0-9]lk\.live/$document
-/^https?:\/\/(www\.)?my-prize-here-i[0-9]\.live/$document
-/^https?:\/\/(www\.)?winyourprize[0-9]*\.com/$document
-/^https?:\/\/[a-zA-Z0-9]*\.(com|xyz|top|live|net|org|bid|github.io|weebly.com|wordpress.org)\/roblox-hacks-download-free-no-virus.html/$document
-/^https?:\/\/(www\.)?click-video[a-zA-Z]\.com/$document
-kolompc.com##[href="javascript:void(0);"][onclick]
-/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect/.*&site=adfly&/$document
-/\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$document
-game3rb.com##+js(acs, navigator, FingerprintJS)
-||cdn-static3.com/cdn/push.min.js$script
-/^https?:\/\/bestcasual-dates\./$document
-||www.amazceon-co-jp.amazccen.$document
-||www.amazconn-co-jp.amazccne.$document
-||totaladblocker.com^$all
-||derwerbeblocker.com^$all
-||adlock.com^$all
-||djamol.com^$all
-||ultrablock.org^$all
-||adblock-unicorn.com^$all
-||adblock.biz^$document
-||the1adblocker.com^$document
-||otih-oith.us.to^$document
-||apps.apple.com/*/app/*/id1564900435^$document
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Advanced SystemCare Free/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/driver easy/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/iobit uninstaller/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/totalav/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/PC Protect for Android/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Scanguard/i)
-download.cnet.com##div.c-productCard-search:has-text(/Advanced SystemCare/i)
-download.cnet.com##div.c-productCard-search:has-text(/driver easy/i)
-download.cnet.com##div.c-productCard-search:has-text(/iobit uninstaller/i)
-download.cnet.com##div.c-productCard-search:has-text(/TotalAV/i)
-download.cnet.com##div.c-productCard-search:has-text(/PC Protect for Android/i)
-download.cnet.com##div.c-productCard-search:has-text(/Scanguard/i)
-||download.cnet.com/Advanced-SystemCare-Free$document
-||download.cnet.com/Driver-Easy$document
-||download.cnet.com/IObit-Uninstaller$document
-||download.cnet.com/TotalAV$document
-||download.cnet.com/ScanGuard$document
-||download.cnet.com/developer/SS%20Protect$document
-||download.cnet.com/developer/Security%20Suite$document
-softonic.com##.top-app:has-text(/TotalAV/i)
-softonic.com##.top-app:has-text(/iobit uninstaller/i)
-softonic.com##.top-app:has-text(/iobit malware fighter/i)
-softonic.com##.top-app:has-text(/Driver Easy/i)
-softonic.com##.top-app:has-text(/MyCleanPC/i)
-softonic.com##.top-app:has-text(/PC SpeedCAT/i)
-softonic.com##.top-app:has-text(/DLL Helper/i)
-softonic.com##.top-app:has-text(/Advanced SystemCare/i)
-softonic.com##[href="https://advanced-systemcare-ultimate.en.softonic.com"] > .app-list-item--interactive.app-list-item
-softonic.com##.app-list-item:has-text(/TotalAV/)
-softonic.com##.app-list-item:has-text(/iobit uninstaller/i)
-softonic.com##.app-list-item:has-text(/iobit malware fighter/i)
-softonic.com##.app-list-item:has-text(/Advanced SystemCare/)
-softonic.com##.app-list-item:has-text(/Driver Easy/i)
-softonic.com##.app-list-item:has-text(/MyCleanPC/i)
-softonic.com##.app-list-item:has-text(/PC SpeedCAT/i)
-softonic.com##.app-list-item:has-text(/DLL Helper/i)
-||totalav-essential-antivirus.en.softonic.com^$document
-||iobit-uninstaller.en.softonic.com^$document
-||drivereasy.en.softonic.com^$document
-||mycleanpc-pc-optimizer.en.softonic.com^$document
-||pc-speedcat.en.softonic.com^$document
-||advanced-systemcare-ultimate.en.softonic.com^$document
-softonic.com##.modal-di__content
-softonic.com##.modal-di__header
-softonic.com##.modal-di__button-wrapper:has(#download-recommended-app)
-||images.sftcdn.net/images/*/di/winzip-compression/$all
-play.google.com##div.mpg5gc.ImZGtf:has-text(/TotalAV/i)
-play.google.com##div.mpg5gc.ImZGtf:has-text(/scanguard/i):has-text(/Protected.net/i)
-play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.net/i)
-||play.google.com/store/apps/details?id=com.totalav.android$document
-||play.google.com/store/apps/details?id=com.scanguard.android$document
-||play.google.com/store/apps/details?id=com.pcprotect.android$document
-||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$document
-||apps.apple.com/*/app/totalav/id1130411958$document
-||apps.apple.com/*/app/total-adblock-ad-blocker/id1564900435$document
-||apps.apple.com/*/app/pcprotect/id1130412321$document
-||apps.apple.com/*/app/totalav-safe-site/id1403850681$document
-||apps.apple.com/*/developer/protected-net-group-limited$document
-||iam-py-test.github.io/malware.html^$document
+W
+_
+/
+L
+Y
+?
+=
+K
+U
+C
+Z
+X
+Q
+$
+H
+*
+>
+ 
+𝗩
+𝗟
+𝗔
+𝗡
+𝗧
+𝐒
+𝐀
+𝐂
+𝐓
+𝐑
+𝐊
+\
+@
+𝟏
+𝟐
+𝟎
+𝟓
+𝟔
+𝟖
+𝟑
+♰
+④
+⑦
+③
+⑧
+⑤
+②
+⑨
+①
+𝙸
+𝚍
+𝚎
+𝚊
+𝚕
+𝚑
+𝚌
+𝚔
+𝚛
+𝚜
+𝙲
+𝚘
+𝚖
+&
+"
+;
++
+{
+}
+—
+¤
+~
 
 
-! ----- BEGIN The anti-typo list -----
+! ----- BEGIN iam-py-test's antitypo list -----
 ||xn--gogle-jua.com^$all
 ||vrustotal.com^$document
 ||googlec.om^$all
@@ -27622,8 +27422,7 @@ $removeparam=_vsrefdom
 $removeparam=ceneo_spo
 $removeparam=/^from=ceneo$/
 $removeparam=/^ref=ceneo$/
-$removeparam=__s
-@@||instagram.com/ajax^$xmlhttprequest,removeparam=__s
+$removeparam=__s,document
 $removeparam=_kx
 $removeparam=/^affsrc=/i
 $removeparam=/^aff_sub\d?=/
@@ -29293,6 +29092,7 @@ $document,removeparam=waporef
 ||carsales.com.au^$removeparam=Cr,document
 $removeparam=sdsrc,document
 $removeparam=/^ref=troyhunt\.com/
+||shrunken.com^$document,removeparam=shortUrlDomain
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
