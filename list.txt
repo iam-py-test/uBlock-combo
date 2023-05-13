@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 12/05/2023
+! Last updated: 13/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15337,9 +15337,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||smtp.hermanosflerro.com^$all
 ||205.185.126.200^$all
 ||medpro-131.getfoxyproxy.org^$document
-||trytogoi.xyz^$all
-||apple-technicalsupport-icloud.com^$all
-||www.apple-technicalsupport-icloud.com^$all
 ||605b10322b729.site123.me^$all
 ||185.243.56.167^$all
 ||123.10.224.135^$all
@@ -15418,7 +15415,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||smevhi.sentencesavedress.top^$all
 ||apk-top.cloud^$document
 ||captcha-smart.top^$all
-||pushbizapi.com^$all
 ||wcvydp.sentencesavedress.top^$all
 ||streamamongcotton.top^$all
 ||coxtuh.streamamongcotton.top^$all
@@ -17947,7 +17943,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||joovideo.us^$all
 ||journeykids.com^$all
 ||jquerylenslider.com^$all
-||jrnrvu.org^$all
 ||jspecialjapan.com^$all
 ||juanselaverde.com^$all
 ||jumpstar.com^$all
@@ -19567,6 +19562,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||zexeq.com^$all
 ||colisumy.com^$all
 ||csgo-twitch.tv^$all
+||0ffice-3-6-5.ltd^$all
+||87.121.221.106^$all
+||45.9.74.99^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -20447,8 +20445,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||sites.google.com/view/groundworkssolutions/contact-us^$all
 ||sites.google.com/view/groundworkssolutions/^$all
 ||sites.google.com/mytv/maintenance^$all
-||juy0g.xyz^$all
-||jpuou.xyz^$all
 ||voecf.xyz^$all
 ||dn34q.xyz^$all
 ||ieond.xyz^$all
@@ -20492,7 +20488,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||boxes.loading-win-wait-4.buzz^$all
 ||loading-win-wait-4.buzz^$document
 ||happy.loading-win-wait-4.buzz^$all
-||t6pay.top^$all
 ||x6pay.top^$all
 ||o6pay.info^$all
 ||n6pay.icu^$all
@@ -20533,7 +20528,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||s0pay.icu^$document
 ||lotoq.ru^$document
 ||190.115.26.220^$document
-||ukraineglobalaid.com^$all
 ||buymeacoffee.com/GamingZonebd/free-discord-nitro-codes-generator-2022-latest-working-100^$document
 ||gamecodeclaim.com^$all
 ||www.gamecodeclaim.com^$all
@@ -26110,6 +26104,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||lynku.mingotime.com^$document
 ||secret-list.yasdoodl.com^$all
 ||smcdsecure.com^$all
+||teslalive23.pro^$all
+||muskbtc.io^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -26471,9 +26467,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||royb2.fastsearch.me^$all
 ||pdfconverterpower.net^$document
 ||downpdfpwr.com^$document
+||searchpoweronline.com^$document
 ||goto.searchpoweronline.com^$document
 ||www.searchpoweronline.com^$document
-||searchpoweronline.com^$document
 ||gifsearchutils.com^$document
 ||start.gifsearchutils.com^$document
 ||pdfsharkapp.com^$document
@@ -27374,6 +27370,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||ww7.gitub.com^$all
 ||girhub.com^$document
 ||linkefdin.com^$document
+||dischrdapp.com^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
@@ -29432,7 +29429,7 @@ $removeparam=glbnav,domain=hallmark.com|hallmarkchannel.com|hallmarkchannelwines
 ||columbiasportswear.$removeparam=mid
 ||columbiasportswear.$removeparam=nid
 ||columbiasportswear.$removeparam=oid
-||puma.com^$removeparam=amp
+$removeparam=amp,document,domain=puma.com|businessinsider.com
 $removeparam=src_medium,document
 $removeparam=src_source,document
 $removeparam=src_campaign,document
