@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 16/05/2023
+! Last updated: 17/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16036,7 +16036,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||107.172.191.148^$all
 ||telegra.ph/Install-3-06-11^$all
 ||mediafire.com/file/eeqo14m9t7mqvdr/Install.rar/file^$all
-||download2338.mediafire.com/9j4nj1ohhgug/eeqo14m9t7mqvdr/Install.rar^$all
 ||accdn.lpsnmedia.org^$all
 ||app.iofrontcloud.com^$all
 ||app.nomalert.org^$all
@@ -16192,7 +16191,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||telegra.ph/Best-tutorial-04-30^$all
 ||gg.gg/11nfvn^$all
 ||mediafire.com/file/iqamfvx8teaq9y2/SoftwareInstaller.rar/file^$all
-||download2262.mediafire.com/vuiwp8s6onyg/iqamfvx8teaq9y2/SoftwareInstaller.rar^$all
 ||77.91.102.23^$all
 ||crackload.net^$all
 ||pegaz-paragliding.com^$all
@@ -16209,12 +16207,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||telegra.ph/INSTALLER-07-22-2^$all
 ||bit.ly/3b39wkA^$all
 ||mediafire.com/file/b0shvy4kbs26yro/Installer.rar/file^$all
-||download2280.mediafire.com/m6lgxju62ysg/b0shvy4kbs26yro/Installer.rar^$all
 ||telegra.ph/autotune-pro-07-16^$all
 ||telegra.ph/file/b98cb101d9b7798329580.jpg^$all
 ||bit.ly/3PzDpaL^$all
 ||mediafire.com/file/r4fodu1r8tk0f5s/spotify_premium.rar/file^$all
-||download1505.mediafire.com/ias1d2g3ou8g/r4fodu1r8tk0f5s/spotify+premium.rar^$all
 ||robloxscript.site^$all
 ||youtube.com/watch?v=_URFTXX2EEU^$all
 ||software-universe-pro.space^$all
@@ -16315,7 +16311,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bit.ly/3EhFS7k^$document
 ||bit.ly/3W5iqkk^$all
 ||mediafire.com/file/48babb7qlspz6dd/Adobe+Photoshop.rar/file^$all
-||download1647.mediafire.com/m4jyxojvtz9g/48babb7qlspz6dd/Adobe+Photoshop.rar^$all
 ||5.161.120.43^$all
 ||micrsoft-covid-19-login.web.app^$all
 ||34.80.59.191^$all
@@ -17796,7 +17791,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||wmsxu.adthereis.buzz^$all
 ||mfxzk.adthereis.buzz^$all
 ||mediafire.com/file/bu394h0oi025wpt/ExtremeUpdate.exe/file^$all
-||download2278.mediafire.com/6kgabdluwlbg/bu394h0oi025wpt/ExtremeUpdate.exe^$all
 ||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
 ||bit.ly/fitgirl-repacks-site^$all
 ||fitgirl-repacks-site.org^$all
@@ -17880,18 +17874,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bit.ly/3zKpp8y^$all
 ||mediafire.com/folder/bftfjxk7na4m8/Setup^$all
 ||mediafire.com/file/kfjdexcnso6l3uk/Installer.rar/file^$all
-||download2275.mediafire.com/65rwcv0jw3jg/kfjdexcnso6l3uk/Installer.rar^$all
 ||telegra.ph/TeamViewer-11-16^$all
 ||gg.gg/teamviewer-prem-free^$all
 ||mediafire.com/file/z0mvgi2bjbotamf/TeamViewerPremium.rar/file^$all
-||download1505.mediafire.com/ickhc4n6zzcg/z0mvgi2bjbotamf/TeamViewerPremium.rar^$all
 ||youtube.com/watch?v=rybiOJqXqYc^$all
 ||github.com/vilma683/$document
 ||raw.githubusercontent.com/vilma683/vilma/main/Desktop_Full.rar^$all
 ||youtube.com/watch?v=IlpvSYMHWO8^$all
 ||bit.ly/3VtsAd2^$document
 ||mediafire.com/file/umf43herutudu71/After+Effects.rar/file^$all
-||download2355.mediafire.com/nnnv7x50jddg/umf43herutudu71/After+Effects.rar^$all
 ||ecomefuk.xyz^$all
 ||thyr65qw.cfd^$all
 ||5rd5tgh.cfd^$all
@@ -18081,7 +18072,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||79.137.206.31^$all
 ||85.192.40.253^$all
 ||mediafire.com/file/4n5bc37ank892fh/Expert-PC_2023.rar/file^$all
-||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
 ||vserpg.ru^$all
 ||teslacar.io^$all
 ||wlbss.inghesatin.com^$all
@@ -20878,7 +20868,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hollandcash.nl^$all
 ||exit.hollandcash.nl^$all
 ||clean-blocker.com^$all
-||chrome.google.com/webstore/detail/cleanblocker/obhoainpkkkkjeegnbaobapedpfdhbdl^$all
 ||omclyzyapf.com^$all
 ||godpvqnszo.com^$popup
 ||news-mapara.com^$all
@@ -23598,6 +23587,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||smcdsecure.com^$all
 ||teslalive23.pro^$all
 ||muskbtc.io^$all
+||i-grade.online^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -23978,7 +23968,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||alcunirisposta.com^$document
 ||www.humanverified.net^$document
 ||adblocker-app.info^$all
-||chrome.google.com/webstore/detail/ad-blocker-app/iamhhblhmpldjchjecmapgoikpjmmfoe^$document
 ||download.cnet.com/ByteFence-Anti-Malware/$document
 ||bytefence.com^$document
 ||cdn.bytefence.com^$all
@@ -24060,6 +24049,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||search.speak-text-tab.com^$document
 ||office.org^$document
 ||templatesearch.org^$all
+||securybrowse.com^$document
+||search.securybrowse.com^$document
+||ext.securybrowse.com^$all
+||chrome.google.com/webstore/detail/my-family-protect-by-secu/ghaojflgonndmkaknkocggkmkbjjbgho^$all
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
