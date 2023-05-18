@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 17/05/2023
+! Last updated: 18/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18464,6 +18464,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||elontesla23.pro^$all
 ||join2musk.com^$all
 ||teslabrc.com^$all
+||redirection-to-the-offer.info^$document
+||maxstream.video/*.php$document
+||needyscarcasserole.com^
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23588,6 +23591,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||teslalive23.pro^$all
 ||muskbtc.io^$all
 ||i-grade.online^$all
+||successglossary.com^$all
+||mybestautologin567.com^$all
+||microngroup.pro^$all
+||abncbp.com^$all
+||hotgirlsj8k8.com^$document
+||locasualx.com^$document
+||web.locasualx.com^$document
+||datingcentral.top^$all
+||i.datingcentral.top^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -24053,6 +24065,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||search.securybrowse.com^$document
 ||ext.securybrowse.com^$all
 ||chrome.google.com/webstore/detail/my-family-protect-by-secu/ghaojflgonndmkaknkocggkmkbjjbgho^$all
+||gamefabrique.com^$all
+||chrome.google.com/webstore/detail/my-notes-extension/jekjflpbfegfepdioebbpanjkjhcihoi^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
