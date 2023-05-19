@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 18/05/2023
+! Last updated: 19/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23600,6 +23600,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||web.locasualx.com^$document
 ||datingcentral.top^$all
 ||i.datingcentral.top^$all
+||tushura.life^$all
+||0a317d9d6b.79c4215c89.com^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
