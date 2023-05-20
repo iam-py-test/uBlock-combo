@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 19/05/2023
+! Last updated: 20/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18467,6 +18467,21 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||redirection-to-the-offer.info^$document
 ||maxstream.video/*.php$document
 ||needyscarcasserole.com^
+||baltic79.wordpress.com^$all
+||visoedifica.com^$all
+||balticpipe.wordpress.com^$all
+||baltic-pipe-finansowy.blogspot.com^$all
+||kneel-offers.com^$all
+||dunkansp.info^$all
+||finnews7.wordpress.com^$all
+||tbg-lmtd.com^$all
+||crm2.tbg-lmtd.xyz^$all
+||tbg-lmtd.xyz^$all
+||polish-money-matters.blogspot.com^$all
+||fazpowerdenet.tumblr.com^$all
+||dgbdhvqpwvplersqjytw.dunkansp.info^$all
+||drive.google.com/uc?export=download&confirm=no_antivirus&id=1A9NdUYUf5k-qcrYlGfffVBqql6g4bLfv^$all
+||195.123.227.138^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -24592,6 +24607,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||h169056.srv22.test-hf.su/135.exe^$all
 ||akrostools.com/baz_uniq.exe^$all
 ||37.220.87.61/Clip1.exe^$all
 ||85.217.144.143/files/123.exe^$all
@@ -24676,7 +24692,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||94.142.138.116/dashboard/installer.exe^$all
 ||94.142.138.116/dashboard/pay/new.exe.exe^$all
 ||193.233.20.19/mi/sonto.exe^$all
-||github.com/Crysiz2631/sup/raw/main/Software_Requirements.exe^$all
 
 
 
