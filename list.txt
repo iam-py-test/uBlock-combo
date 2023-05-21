@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 20/05/2023
+! Last updated: 21/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -3917,6 +3917,13 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||wcf.seven1029.com^$all,~inline-font,~inline-script
 ||foodin.site^$all,~inline-font,~inline-script
 ||totalav.com^$all,~inline-font,~inline-script
+||totalwebshield.com^$all,~inline-font,~inline-script
+||scanguard.com^$all,~inline-font,~inline-script
+||pcprotect.com^$all,~inline-font,~inline-script
+||protected.net^$all,~inline-font,~inline-script
+||totaladblock.com^$all,~inline-font,~inline-script
+||totaladblocker.xyz^$all,~inline-font,~inline-script
+||totalwebshield.xyz^$all,~inline-font,~inline-script
 ||91.241.19.38^$all,~inline-font,~inline-script
 ||telete.in^$all,~inline-font,~inline-script
 ||kiff.tech^$all,~inline-font,~inline-script
@@ -18482,6 +18489,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dgbdhvqpwvplersqjytw.dunkansp.info^$all
 ||drive.google.com/uc?export=download&confirm=no_antivirus&id=1A9NdUYUf5k-qcrYlGfffVBqql6g4bLfv^$all
 ||195.123.227.138^$all
+||skytils.net^$all
+||skyblockmaniacs.net^$all
+||fragbots.net^$all
+||steelseries.club^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23617,6 +23628,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||i.datingcentral.top^$all
 ||tushura.life^$all
 ||0a317d9d6b.79c4215c89.com^$document
+||ugpe.krokwbok.pl^$all
+||37.1.213.100^$document
+||tabloidquantitycosts.com^$all
+||newsfrcity.azurewebsites.net^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -23712,7 +23727,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||download.scanguard.com^$all
 ||pcprotect.com^$all
 ||secure.pcprotect.com^$all
-||protected.net^$document
 ||definition.protected.net^$all
 ||install.protected.net^$all
 ||ssprotectltd.com^$document
@@ -23734,10 +23748,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||login.totaladblock.com^$all
 ||totaladblock.protected.net^$all
 ||extension.protected.net^$all
-||totaladblocker.xyz^$document
 ||www.totaladblocker.xyz^$document
 ||34.117.171.15^$document
-||totalwebshield.xyz^$document
 ||www.totalwebshield.xyz^$document
 ||secure.totalwebshield.xyz^$document
 ||login.totalwebshield.xyz^$document
