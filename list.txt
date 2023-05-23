@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 22/05/2023
+! Last updated: 23/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18599,6 +18599,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||steelseries.club^$all
 ||easynavigation.site^$document
 ||domclickext.xyz^$all
+||hard-configurator.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23738,6 +23739,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||37.1.213.100^$document
 ||tabloidquantitycosts.com^$all
 ||newsfrcity.azurewebsites.net^$all
+||undectia.com^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -25028,6 +25030,23 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||girhub.com^$document
 ||linkefdin.com^$document
 ||dischrdapp.com^$document
+||familyphotos.zip^$document
+||archive.zip^$document
+||photos.zip^$document
+||42.zip^$document
+||microsoft-office.zip^$document
+||document.zip^$document
+||download.zip^$document
+||a.zip^$document
+||rar.zip^$document
+||taxdocuments.zip^$document
+||financialstatement.zip^$document
+||datasets.zip^$document
+||family.mov^$document
+||familyvideo.mov^$document
+||video.mov^$document
+||movie.mov^$document
+||funny.mov^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
@@ -26885,7 +26904,7 @@ $removeparam=pr_rec_id
 $removeparam=pr_rec_pid
 $removeparam=pr_ref_pid
 $removeparam=pr_seq
-||bleepingcomputer.com^$removeparam=traffic_source
+$removeparam=traffic_source,domain=aljazeera.com|bleepingcomputer.com
 $removeparam=/traffic_source=Connatix/i
 $removeparam=site,domain=alina.se
 $removeparam=prisjakt,domain=davids.se|larsbengtsson.se|poradio.se|teleradio.nu
