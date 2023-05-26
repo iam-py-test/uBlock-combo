@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 25/05/2023
+! Last updated: 26/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18602,6 +18602,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hard-configurator.com^$all
 ||fitgirl.cc^$document
 ||fitgirlrepacksite.com^$document
+||185.209.161.89^$all
+||telegra.ph/FL-Studio-05-10^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23853,6 +23855,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||secure.scanguard.com^$all
 ||download.scanguard.com^$all
 ||pcprotect.com^$all
+||www.pcprotect.com^$all
 ||secure.pcprotect.com^$all
 ||definition.protected.net^$all
 ||install.protected.net^$all
@@ -23875,7 +23878,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||login.totaladblock.com^$all
 ||totaladblock.protected.net^$all
 ||extension.protected.net^$all
-||www.totaladblocker.xyz^$document
+||totaladblocker.xyz^$all
+||www.totaladblocker.xyz^$all
 ||34.117.171.15^$document
 ||www.totalwebshield.xyz^$document
 ||secure.totalwebshield.xyz^$document
