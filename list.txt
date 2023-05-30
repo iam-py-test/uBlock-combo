@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 29/05/2023
+! Last updated: 30/05/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23759,6 +23759,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||onlyfanstake.pro^$all
 ||filedenzu.com^$all
 ||85.192.63.194^$all
+||elonmix.org^$all
+||musklink.org^$all
+||muskbot.io^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -24237,6 +24240,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||search.weather-in.xyz^$document
 ||atala-apw.com^$document
 ||linkvertise.download^$document
+||serasearchtop.com^$all
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -24739,6 +24743,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||94.142.138.148/clp6.exe^$all
+||94.142.138.116/bebra.exe^$all
 ||h169056.srv22.test-hf.su/135.exe^$all
 ||akrostools.com/baz_uniq.exe^$all
 ||37.220.87.61/Clip1.exe^$all
@@ -24823,7 +24829,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||a0782451.xsph.ru/vr/st/Reb.exe^$all
 ||94.142.138.116/dashboard/installer.exe^$all
 ||94.142.138.116/dashboard/pay/new.exe.exe^$all
-||193.233.20.19/mi/sonto.exe^$all
 
 
 
@@ -26361,7 +26366,7 @@ $removeparam=/^pf_rd_/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*
 $removeparam=Source,domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com|evga.com
 $removeparam=version,domain=mp.weixin.qq.com|us.norton.com
 $removeparam=p,domain=banggood.com|sogou.com
-$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com
+$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com|sporza.be
 $removeparam=trkid,domain=netflix.com|tokopedia.com
 $removeparam=channel,domain=1sol.io|bybit.com|coinpanel.com|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|privateinternetaccess.com|reddit.app.link|rei.com|runnode.com|squarespace.com|t.me|twitter.com|youtube.com
 $removeparam=fr,domain=baidu.com|thegay.com
@@ -27225,7 +27230,7 @@ $removeparam=natb,domain=duckduckgo.com
 $removeparam=_1lr
 ||bookdepository.com^$removeparam=sr
 $removeparam=ymid
-^z=*&var=$removeparam=var
+^z=*&var=$removeparam=var,document
 $removeparam=via,domain=sincode.ai
 $removeparam=rm,domain=jackjones.com|jjxx.com|mamalicious.com|only.com|onlyandsons.com|veromoda.com
 $removeparam=ad_sub,domain=homo.xxx
@@ -27245,6 +27250,7 @@ $removeparam=/^ref=troyhunt\.com/
 ||youtube.com^$removeparam=embeds_referring_euri
 ||store.thesims3.com^$removeparam=section
 ||bugs.co.kr^$removeparam=wl_ref
+||bild.de^$document,removeparam=t_ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
