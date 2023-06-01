@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 31/05/2023
+! Last updated: 01/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14471,6 +14471,7 @@ www.microsoft.com##a[data-pfns][data-pfns^="8"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][href*=pacman]
 www.microsoft.com##a[data-pfns][href*=pac-men]
+|http://mb.download.gigabyte.com/FileList/Swhttp/LiveUpdate4^
 ||oxtop.ru^
 ||fotoredactor.com^
 ||vmuzone.com^
@@ -14590,7 +14591,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||pojdue.co.cc^$all
 ||mcloudjs.com^$all
 ||wherewedev.com^$all
-||infinitypr.in^$3p
+||infinitypr.in^$third-party
 ||integra-lernwerkstatt.de^$all
 ||kjwre77638dfqwieuoi.info^$all
 ||kukutrustnet777.info^$all
@@ -14599,7 +14600,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||lizamoon.com^$all
 ||worid-of-books.com^$all
 ||robint.us^$all
-||www.robint.us^$3p
+||www.robint.us^$third-party
 ||2677.in^$all
 ||199.59.242.150^$all
 ||alphastand.win^$all
@@ -18523,7 +18524,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||setupspeedyhighlyinfo-file.info^$document
 ||startd0wnload22x.com^$all
 ||skillfactsim.com^$all
-||burningpushing.info^$3p
+||burningpushing.info^$third-party
 ||catomernsuents.com^$all
 ||xrepositoryx.name^$all
 ||erdjknfweklsgwfmewfgref.com^$all
@@ -18535,7 +18536,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||eatablehelprut.com^$all
 ||mignished-sility.com^$all
 ||hyjecr.gernebult.com^$document,xhr,script
-||curvyalpaca.cc^$3p
+||curvyalpaca.cc^$third-party
 ||zxbfm.ooumoughtcall.com^$all
 ||ooumoughtcall.com^$document
 ||s2cp.xyz^$all
@@ -18679,7 +18680,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||drroham.ir^$document
 ||updatefreecompletelytheproduct.vip^$all
 ||revanced.io^$all
-||gdpr.web0.eu^$3p
+||gdpr.web0.eu^$third-party
 ||threatdetect.org^$all
 ||qqtube.ru^$all
 ||194.58.112.173^$all
@@ -18749,6 +18750,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||78.47.9.120^$all
 ||162.55.212.236^$all
 ||45.159.189.105^$all
+||softronline.click^$all
+||bibtu.com^$all
+||xajibur.ru^$all
+||ponafet.ru^$all
+||baarspo.ru^$all
+||crophysi.ru^$all
+||gimoguvi.ru^$all
+||goglel.com^$all
+||mreilly.s3.eu-central-003.backblazeb2.com^$all
+||zen-leakey.138-68-80-63.plesk.page^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23865,7 +23876,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||microgull.com^$document
 ||msmcompare.com^$all
 ||teslatucker.com^$all
-||filmshngjbzix.blogspot.com^$document
+||filmshngjbzix.blogspot.com^$all
 ||mopiez.com^$all
 ||lynku.mingotime.com^$document
 ||secret-list.yasdoodl.com^$all
@@ -23924,6 +23935,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hypercracker.com^$all
 ||jakedstake.com^$all
 ||improtants.space^$all
+||azmovies.io^$all
+||pdtrax.g2afse.com^$document
+||tr.trackingit.site^$all
+||trackingit.site^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -25246,7 +25261,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||funny.mov^$document
 ||locahost^$document
 ||readme.md^$document
-||goglel.com^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
