@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 04/06/2023
+! Last updated: 05/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14700,7 +14700,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mail.zeroredirect1.com^$all
 ||liveupdate.zeroredirect1.com^$all
 ||l.zeroredirect1.com^$all
-||f.ls^$all
 ||itsssl.com^$document
 ||173.232.146.118^$all
 ||shugardaddy.ddns.net^$all
@@ -14891,22 +14890,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||houseof2.com^$all
 ||identityofplace.com^$all
 ||shpwmy.com^$all
-||steevya.com^$all
 ||192.169.69.25^$all
-||prizesworldcenter.com^$all
-||video-adblock.com^$all
-||vid-adblocker.com^$all
-||multiadblock.com^$all
-||rsafrwd.com^$all
-||adverdirect.com^$all
-||bestwinexperience.com^$all
-||triumphantplace.com^$all
-||traffic-go.com^$all
-||wignewsee.club^$all
-||bainushe.com^$all
-||streamssitesearch.com^$all
-||catbeardx.com^$all
-||wdeliv.net^$all
 ||a1l.no-ip.biz^$all
 ||91.235.129.150^$all
 ||dustymural.com^$all
@@ -14921,7 +14905,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||down.dd799aa.com^$all
 ||wcf.seven1029.com^$all
 ||foodin.site^$all
-||kokotrokot.com^$all
 ||rtb-8.novitrk1.com^$all
 ||cu27t-evo29lution.xyz^$all
 ||possessedcrackinghart.com^$all
@@ -15278,7 +15261,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||185.215.113.77^$all
 ||rarshare.com^$all
 ||www0019876.com^$all
-||megapolis-hack.com^$all
 ||4291g.com^$all
 ||cheatsbasis.com^$all
 ||www.cheatsbasis.com^$all
@@ -15374,7 +15356,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||63.250.40.204^$all
 ||cleancrack.tech^$all
 ||s4.cleancrack.tech^$all
-||clickmatters.biz^$all
+||clickmatters.biz^$document
 ||117.251.56.13^$document
 ||218.247.161.230^$document
 ||search-streamly.com^$document
@@ -15711,7 +15693,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||crackproductkey.com^$all
 ||profullversion.com^$all
 ||vcracks.com^$all
-||keysfull.net^$all
 ||crackswall.com^$all
 ||crackthere.com^$all
 ||crackpcsoft.net^$all
@@ -16189,7 +16170,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||anthracnosis-jackscrew-rubine.s3.eu-central-003.backblazeb2.com^$all
 ||windows11-upgrade11.com^$all
 ||codesbro.com^$document
-||isiontalents.cfd^$document
 ||flydogy.com^$all
 ||portabledownloads.com^$all
 ||jetiparfilezho.xyz^$all
@@ -18765,6 +18745,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ww38.easylist.club^$all
 ||jp6yze3jwx6462c537686e2.inetpr.ru^$all
 ||transporting-api-dlhl.crufaoci.org^$all
+||tryimv3srvsts.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23954,6 +23935,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bestextensionegde.com^
 ||onevenadvnow.com^$all
 ||nodritsissub.com^$all
+||roundyearfun.org^$document
+||anyplacehere.me^$document
+||funaroundy.click^$document
+||dr-farfar.com^$all
+||darkskin.world^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -25386,7 +25372,6 @@ $removeparam=c[0]
 $removeparam=rlz
 $removeparam=pcampaignid
 $removeparam=igshid
-$removeparam=curator_clanid,domain=~store.steampowered.*
 $removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
 $~subdocument,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 $removeparam=ext_source
