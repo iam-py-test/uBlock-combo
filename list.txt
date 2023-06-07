@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 06/06/2023
+! Last updated: 07/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26552,7 +26552,7 @@ $removeparam=report_recomm_player
 ^via=toolbar^$removeparam=via,domain=user.qzone.qq.com
 $removeparam=app,domain=tiktok.com|music.apple.*
 $removeparam=c,domain=appsflyer.com|farfetch.com|hepsiburada.com|norton.com|onelink.me|shopee.*|tiktok.com
-$removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|outnorth.fi|peterhahn.*|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|t.me|twitter.com|youtube.com
+$removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|mrgay.tube|outnorth.fi|peterhahn.*|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|t.me|twitter.com|youtube.com
 $removeparam=/^pf_rd_/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
 $removeparam=Source,domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com|evga.com
 $removeparam=version,domain=mp.weixin.qq.com|us.norton.com
@@ -27154,7 +27154,7 @@ $removeparam=INITD,domain=tuclothing.sainsburys.co.uk
 $removeparam=nvid,domain=nvidia.com
 $removeparam=article-trending,domain=sportskeeda.com
 $removeparam=_amp,domain=latimes.com
-$removeparam=ico,domain=inews.co.uk|metro.co.uk|thisismoney.co.uk
+$removeparam=ico,domain=dailymail.co.uk|inews.co.uk|metro.co.uk|thisismoney.co.uk
 $removeparam=/^cid=DSS-Affiliate/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid=DSS-Search-/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid=DTCI_STAR-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
@@ -27461,6 +27461,7 @@ $document,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepag
 ||espn.$removeparam=RuleNumber,document
 ||deepl.com^$document,removeparam=cta
 ||deepl.com/pro$removeparam=pdf
+||kahoot.it^$removeparam=refer_method
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
