@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 07/06/2023
+! Last updated: 08/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18750,6 +18750,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||jp6yze3jwx6462c537686e2.inetpr.ru^$all
 ||transporting-api-dlhl.crufaoci.org^$all
 ||tryimv3srvsts.com^$all
+||usaday.biz^$all
+||abu.usaday.biz^$all
+||us.usaday.biz^$all
+||onepro.club^$all
+||c822c1b63853ed273b89687ac505f9fa.onepro.club^$all
+||738aa8d3bc02eb8712acd0eb2cf6dfd5.onepro.club^$all
+||241fe8af1e038118cd817048a65f803e.onepro.club^$all
+||ba9bf05693b9fa202d922dd43a08f281.onepro.club^$all
+||rewardarium.com^$document
+||acarcheartheles.com^$document
+||boraflow.click^$all
+||65.21.240.228^$all
+||telegra.ph/T-Soft-06-02^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23949,6 +23962,17 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||stucktimeoutvexed.com^$document
 ||sembilme.com^$all
 ||axufcs.space^$document
+||leverage-btc.com^$all
+||trendingentertainers.com^$all
+||trendingfilmreviews.com^$all
+||trendingshowbiz.com^$all
+||trendingtvshows.com^$all
+||usunveiled.net^$all
+||viralcelebrityzone.com^$all
+||viralfamezone.com^$all
+||virallaughtrack.com^$all
+||viralstargossip.com^$all
+||viralfunnylaugh.com^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -24933,6 +24957,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||109.205.213.7/bins/UnHAnaAW.x86^$all
 ||192.210.215.42/860/cache_cleaner.exe^$all
 ||koiniosportsde.com/bRzNAmYd/ddsc.exe^$all
 ||79.137.195.246/client12/enc.exe^$all
@@ -25020,7 +25045,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||zexeq.com/files/1/build3.exe^$all
 ||eboka.vip/stream.exe^$all
 ||cdn.discordapp.com/attachments/483916447823822851/1079722023502217216/EasyCrypterSupport.exe^$all
-||cdn.discordapp.com/attachments/1066774563054157866/1067847877860270181/Ace.exe^$all
 
 
 
@@ -25536,7 +25560,7 @@ $removeparam=track_keyword
 $removeparam=cmt
 $removeparam=extcmp
 $removeparam=at_gd
-$removeparam=/^amp$/,domain=~eurasiantimes.com
+$removeparam=/^amp=$/,domain=~eurasiantimes.com
 $removeparam=/^amp=true$/
 $removeparam=/^amp=1$/,document,domain=newsweek.com
 $removeparam=_gl
@@ -27469,6 +27493,7 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ||ikea.com/*/images/products^$removeparam=f
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
+forbes.com##+js(set, trackingService.track, noopFunc)
 @@mailinglist$removeparam=/^utm_/i
 @@||web.archive.org/*_/http$removeparam
 @@||img*.nga$removeparam=cmpid
