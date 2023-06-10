@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 09/06/2023
+! Last updated: 10/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18764,6 +18764,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||65.21.240.228^$all
 ||telegra.ph/T-Soft-06-02^$all
 ||skinport.com.mx^$all
+||doenerium.kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
+||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$document
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23974,6 +23976,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||virallaughtrack.com^$all
 ||viralstargossip.com^$all
 ||viralfunnylaugh.com^$all
+||sirisangabofoundation.org^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -24958,6 +24961,12 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||134.122.135.4/datelog.dll^$all
+||distroforex.com/crona.exe^$all
+||89.185.85.117/laupdate.exe^$all
+||94.142.138.116/bebra.exe^$all
+||filebin.net/zexd4wguldbgaetq/rh1.exe^$all
+||raw.githubusercontent.com/duantienty/client/main/tdc.jpg^$all
 ||file.gta5cheatcode.world/dashboard/file/dxpserver.exe^$all
 ||109.205.213.7/bins/UnHAnaAW.x86^$all
 ||192.210.215.42/860/cache_cleaner.exe^$all
@@ -24971,7 +24980,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||ji.jahhaega2qq.com/m/p0aw25.exe^$all
 ||ji.ase6gasdegkk.com/m/ss49.exe^$all
 ||94.142.138.148/clp6.exe^$all
-||94.142.138.116/bebra.exe^$all
 ||h169056.srv22.test-hf.su/135.exe^$all
 ||akrostools.com/baz_uniq.exe^$all
 ||37.220.87.61/Clip1.exe^$all
@@ -25040,11 +25048,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||15.204.49.145/files/HAD.exe^$all
 ||transfer.sh/get/t5y8BV/ChatGPT.exe^$all
 ||194.87.35.101/nigga.exe^$all
-||tap-taptap.com/1488/106.exe^$all
-||oof00.com/666/105.exe^$all
-||oof00.com/666/106.exe^$all
-||uaery.top/dl/build2.exe^$all
-||zexeq.com/files/1/build3.exe^$all
 
 
 
@@ -27494,6 +27497,7 @@ $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.co
 ||businessinsider.com^$doc,removeparam=r
 ||businessinsider.com^$doc,removeparam=IR
 ||businessinsider.com^$removeparam=op,doc
+$removeparam=/^ref=spreadprivacy.com$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
