@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 10/06/2023
+! Last updated: 11/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18766,6 +18766,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||skinport.com.mx^$all
 ||doenerium.kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
 ||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$document
+||garuq.com^$all
 ||ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -23977,6 +23978,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||viralstargossip.com^$all
 ||viralfunnylaugh.com^$all
 ||sirisangabofoundation.org^$document
+||SEXUS.ML^$all
+||c.dateperfectly.top^$all
+||dateperfectly.top^$all
+||geminifond.com^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -25304,6 +25309,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||funny.mov^$document
 ||locahost^$document
 ||readme.md^$document
+||fllwers.com^$document
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
