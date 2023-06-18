@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 17/06/2023
+! Last updated: 18/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25865,6 +25865,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||galotop1.com^$document
 ||together.com^$document
 ||maturedating.com^$document
+||whaujimisurvey.top^$all
+||eehuzaih.com^$document
+||toodownload.com^$document
+||subscribe-notifications.com^$document
+||user0.subscribe-notifications.com^$document
+||user1.subscribe-notifications.com^$document
+||yourstented.azurewebsites.net^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -26487,6 +26494,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||m-contact.site^$all
 ||fuckmebaby.click^$all
 ||vipdeit.com^$all
+||getcutt.fun^$document
 ||csgo.xyz^$all
 ||phonespying.com^$all
 ||app.phonespying.com^$document
@@ -29391,7 +29399,6 @@ $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.co
 ||cnbc.com^$doc,removeparam=__source
 ||cnbc.com^$doc,removeparam=par
 ||businessinsider.com^$doc,removeparam=r
-||businessinsider.com^$doc,removeparam=IR
 ||businessinsider.com^$removeparam=op,doc
 $removeparam=/^ref=spreadprivacy.com$/
 $removeparam=caniuse_source,doc
