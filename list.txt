@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 19/06/2023
+! Last updated: 20/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26861,6 +26861,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||23.94.148.6/GIB.exe^$all
 ||23.94.144.13/555/vbc.exe^$all
 ||bluestaks.novationgroups.com/post/ClipperDoej4oa.exe^$all
 ||bluestaks.novationgroups.com/post/Upshotox64.exe^$all
@@ -26947,7 +26948,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||80.66.75.36/p-Qfdyajl.exe^$all
 ||80.66.75.36/a-Yfgvvxyduvu.exe^$all
 ||ji.jhia6gyygcc.com/m/ss27.exe^$all
-||www.cpasdrole.com/handdiy6/handdiy_6.exe^$all
 
 
 
@@ -27208,6 +27208,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||malwarebyttes.com^$document
 ||dev.craftbukkit.org^$document
 ||craftbukkit.org^$document
+||pronhubb.com^$all
+||yyooutube.com^$all
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
@@ -27989,7 +27991,7 @@ $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|aso
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
-$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|onlinepngtools.com|indiatimes.com
+$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|onlinepngtools.com|indiatimes.com|jetbrains.com
 $removeparam=keyword,domain=bindright.com|lendgo.com
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
