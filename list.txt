@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 21/06/2023
+! Last updated: 22/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28065,7 +28065,8 @@ $removeparam=pldnSite,domain=amazon.*
 $removeparam=newts,domain=amazon.*
 $removeparam=returnFromLogin,domain=amazon.*
 @@/b/ref=$removeparam=ie
-||amazon.$removeparam=tag
+||amazon.*/dp/$removeparam=tag
+||amazon.*/stores/$removeparam=tag
 ||amazon.$removeparam=qu
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.$removeparam=content-id
@@ -28202,7 +28203,6 @@ $removeparam=ogbl
 ://www.google.*/search^$removeparam=entrypoint
 ||google.*/search$removeparam=sqi
 ||google.$removeparam=gs_ssp
-||www.google.*/search?$doc,removeparam=client
 ||google.$removeparam=prds
 ||googleadservices.com^$removeparam=ae
 ||googleadservices.com^$removeparam=agsac
@@ -28557,7 +28557,7 @@ $removeparam=module,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj
 $removeparam=pgtype,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|scmp.com
 $removeparam=section,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|imdb.com|primevideo.com|shopbop.com|awesomeopensource.com|amazon.*
-$removeparam=tag,domain=amazon.*|argos.co.uk|habitat.co.uk|tv2.no
+$removeparam=tag,domain=argos.co.uk|habitat.co.uk|tv2.no
 ||udemy.com^$removeparam=publisher_id
 ||udemy.com^$removeparam=website_id
 ||hostinger.$removeparam=session
@@ -29407,6 +29407,7 @@ $removeparam=caniuse_source,doc
 ||theathletic.com^$removeparam=checkout_entry_point,doc
 ||theathletic.com^$removeparam=ref_page,doc
 ||theathletic.com^$removeparam=login_source,doc
+||github.com^$removeparam=reference_location
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
