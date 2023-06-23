@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 22/06/2023
+! Last updated: 23/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17133,23 +17133,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||eftrenet.000webhostapp.com^$all
 ||kjilod.000webhostapp.com^$all
 ||185.215.113.77^$all
-||rarshare.com^$all
-||www0019876.com^$all
-||4291g.com^$all
-||cheatsbasis.com^$all
-||www.cheatsbasis.com^$all
-||2014tools.com^$all
-||surveyvoicesresearch.com^$all
-||b.surveyvoicesresearch.com^$all
-||surveyvoicespaidsurveys.com^$all
-||usarewardspot.com^$all
-||o.usarewardspot.com^$all
-||peoplesearchusa.org^$all
-||www.peoplesearchusa.org^$all
-||free-hack-tool.com^$all
-||online-secure.free-hack-tool.com^$all
-||festinus.xyz^$all
-||apkhackz.com^$all
 ||47.107.60.212^$all
 ||test-sumanshop.i-retail.club^$document
 ||47.112.197.119^$all
@@ -17202,7 +17185,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||143.244.140.214^$all
 ||185.56.219.47^$all
 ||45.77.0.96^$all
-||168betclub.com^$all
 ||abogadoaccidentedetransito.com^$all
 ||abogadosnegocios.co^$all
 ||abufarees.com^$all
@@ -18313,11 +18295,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bit.ly/3PzDpaL^$all
 ||mediafire.com/file/r4fodu1r8tk0f5s/spotify_premium.rar/file^$all
 ||robloxscript.site^$all
-||youtube.com/watch?v=_URFTXX2EEU^$all
 ||software-universe-pro.space^$all
-||drive.google.com/uc?export=download&confirm=no_antivirus&id=1gdvS1_qYnp--dM2DPtNC3IWQr48rJjre^$all
 ||35.236.159.79^$all
-||youtube.com/watch?v=fErPw95RDkI^$all
 ||telegra.ph/Download-Page-07-30^$all
 ||qaz.su/load/inFFaH/de367fba-5307-479f-b71f-eeee1cfc3773^$all
 ||qaz.su^$document
@@ -18385,7 +18364,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||es-sign-caieyna-b65164.ingress-florina.ewp.live^$all
 ||104.155.207.188^$all
 ||45.227.254.52^$document
-||cdn.discordapp.com/attachments/601028724606894082/1013911373635399722/CopyrightReport.zip^$all
 ||65.21.195.97^$document
 ||ibkrs.xyz^$all
 ||hgoawa.xyz^$all
@@ -20635,12 +20613,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||telegra.ph/T-Soft-06-02^$all
 ||skinport.com.mx^$all
 ||doenerium.kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
-||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$document
 ||garuq.com^$all
 ||josemonila.ddnsfree.com^$all
 ||assistant-chronopost.com^$all
 ||canadapost-tracking.net^$document
+||aoikerala.in^$all
+||promo-cccleaner.org^$all
+||5.42.66.3^$document
 ||ublock.org^$document
+||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -25872,6 +25853,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||user0.subscribe-notifications.com^$document
 ||user1.subscribe-notifications.com^$document
 ||yourstented.azurewebsites.net^$all
+||coinaps.com^$all
+||www.mistiotia.com^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -26861,6 +26844,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||sofancy.co.za/data/IqXYLXKzl6.exe^$all
+||192.3.109.146/325/DaHost.exe^$all
+||161.35.160.195/P9G9T9M9D7P/18715498712833059056.bin^$all
+||141.98.6.99/Uzlrz.exe^$all
+||192.3.109.135/24/Dahost.exe^$all
 ||23.94.148.6/GIB.exe^$all
 ||23.94.144.13/555/vbc.exe^$all
 ||bluestaks.novationgroups.com/post/ClipperDoej4oa.exe^$all
@@ -26944,10 +26932,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||208.67.105.179/robinzx.exe^$all
 ||46.3.197.29/bins/sora.x86^$all
 ||cdn.discordapp.com/attachments/849373097303080960/1077991259299393606/Cleaner8.exe^$all
-||185.106.94.190/file1.exe^$all
-||80.66.75.36/p-Qfdyajl.exe^$all
-||80.66.75.36/a-Yfgvvxyduvu.exe^$all
-||ji.jhia6gyygcc.com/m/ss27.exe^$all
 
 
 
@@ -27991,7 +27975,7 @@ $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|aso
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
-$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|onlinepngtools.com|indiatimes.com|jetbrains.com
+$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com
 $removeparam=keyword,domain=bindright.com|lendgo.com
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
@@ -29408,6 +29392,8 @@ $removeparam=caniuse_source,doc
 ||theathletic.com^$removeparam=ref_page,doc
 ||theathletic.com^$removeparam=login_source,doc
 ||github.com^$removeparam=reference_location
+||aliexpress.com^$removeparam=afSmartRedirect
+||app.snyk.io^$removeparam=page,doc
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
