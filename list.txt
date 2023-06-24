@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 23/06/2023
+! Last updated: 24/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20620,6 +20620,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||aoikerala.in^$all
 ||promo-cccleaner.org^$all
 ||5.42.66.3^$document
+||45.15.159.27^$all
+||scholadvice.com^$all
+||pejik.com^$all
+||bthp.com.pk^$all
+||dokumentasoluciones.com^$all
+||208.67.104.60^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -25855,6 +25861,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||yourstented.azurewebsites.net^$all
 ||coinaps.com^$all
 ||www.mistiotia.com^$document
+||winkcap.net^$all
+||discordnitro.live^$all
+||www.discordnitro.live^$all
+||rapidownload.online^$all
+||qoaaa.com^$document
+||d.rapidownload.online^$all
+||freevbucks2022.online^$all
+||letmimy.com^$document
+||ufile.io/p4nduixt^$all
+||ereallywasnoth.com^$all
+||czpcc.nereherewetem.info^$all
+||free.premiumworldapp.com^$document
+||www.chromnius.com^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -27181,6 +27200,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||taxdocuments.zip^$document
 ||datasets.zip^$document
 ||setup.zip^$document
+||java.util.zip^$document
 ||family.mov^$document
 ||familyvideo.mov^$document
 ||video.mov^$document
