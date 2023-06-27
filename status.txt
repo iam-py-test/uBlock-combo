@@ -1,4 +1,4 @@
 Stats:
-29422 entries added
+29705 entries added
 240 redundant entries removed
-17883 domains added
+17882 domains added
