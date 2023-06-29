@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 28/06/2023
+! Last updated: 29/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -10909,6 +10909,33 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||37.48.80.112^$all,~inline-script,~inline-font
 ||95.168.170.165^$all,~inline-script,~inline-font
 ||213.227.149.216^$all,~inline-script,~inline-font
+||cojcdn.net^$all,~inline-script,~inline-font
+||collecl.cc^$all,~inline-script,~inline-font
+||date4sex.pro^$all,~inline-script,~inline-font
+||defre.net^$all,~inline-script,~inline-font
+||megaevent.cc^$all,~inline-script,~inline-font
+||pocrd.cc^$all,~inline-script,~inline-font
+||puredi.net^$all,~inline-script,~inline-font
+||redic.net^$all,~inline-script,~inline-font
+||redic2.net^$all,~inline-script,~inline-font
+||redic3.com^$all,~inline-script,~inline-font
+||redic4.com^$all,~inline-script,~inline-font
+||redir2.net^$all,~inline-script,~inline-font
+||redir3.net^$all,~inline-script,~inline-font
+||redir4.net^$all,~inline-script,~inline-font
+||redir5.net^$all,~inline-script,~inline-font
+||redir6.net^$all,~inline-script,~inline-font
+||redir7.net^$all,~inline-script,~inline-font
+||redir8.net^$all,~inline-script,~inline-font
+||redir9.net^$all,~inline-script,~inline-font
+||rejco.online^$all,~inline-script,~inline-font
+||rejco2.store^$all,~inline-script,~inline-font
+||spinwincas.online^$all,~inline-script,~inline-font
+||tapore.net^$all,~inline-script,~inline-font
+||totadblock.com^$all,~inline-script,~inline-font
+||updateasap.online^$all,~inline-script,~inline-font
+||109.206.168.16^$all,~inline-script,~inline-font
+||109.206.168.17^$all,~inline-script,~inline-font
 ||downloadprovider.me^$all,~inline-font,~inline-script
 toorgle.net##.join
 ||cash93.com^$all,~inline-font,~inline-script
@@ -20909,7 +20936,18 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bthp.com.pk^$all
 ||dokumentasoluciones.com^$all
 ||208.67.104.60^$all
-||sites.google.com/view/newbardai^$llll
+||sites.google.com/view/newbardai^$all
+||infinitycrypto.app^$all
+||store1.gofile.io/download/direct/d8c2a667-c088-4a39-9cdd-efe0b47d735c/InfinityWallet-Setup.exe^$all
+||infinitywallet-dapps.b-cdn.net^$all
+||167.86.74.95^$all
+||roundyearfun.com^$all
+||nekogram.org^$all
+||t188telegram.xyz^$all
+||websocket40001.hgspz.com^$all
+||netkefu.hgspz.com^$all
+||imganalyze.hgspz.com^$all
+||www.tellegrom.xyz^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -26158,6 +26196,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||czpcc.nereherewetem.info^$all
 ||free.premiumworldapp.com^$document
 ||www.chromnius.com^$document
+||anglebank.space^$all
+||funtwitter.games^$all
+||twitter-circle.com^$all
+||family-simulators.io^$all
+||familyfornicate.com^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -27147,6 +27190,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||45.66.230.149/offer/updChrome.exe^$all
+||allansworthng.com/1/data64_2.exe^$all
 ||sofancy.co.za/data/IqXYLXKzl6.exe^$all
 ||192.3.109.146/325/DaHost.exe^$all
 ||161.35.160.195/P9G9T9M9D7P/18715498712833059056.bin^$all
@@ -27233,8 +27278,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||77.73.134.35/bebra.exe^$all
 ||77.73.134.24/Clip1.exe^$all
 ||208.67.105.179/robinzx.exe^$all
-||46.3.197.29/bins/sora.x86^$all
-||cdn.discordapp.com/attachments/849373097303080960/1077991259299393606/Cleaner8.exe^$all
 
 
 
