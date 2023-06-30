@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 29/06/2023
+! Last updated: 30/06/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20948,6 +20948,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||netkefu.hgspz.com^$all
 ||imganalyze.hgspz.com^$all
 ||www.tellegrom.xyz^$all
+||biustargamez.itch.io^$all
+||213.255.247.174^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27190,6 +27192,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||103.95.196.149/mips^$all
 ||45.66.230.149/offer/updChrome.exe^$all
 ||allansworthng.com/1/data64_2.exe^$all
 ||sofancy.co.za/data/IqXYLXKzl6.exe^$all
@@ -27277,7 +27280,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||95.214.55.109/bins/zwx86_64^$all
 ||77.73.134.35/bebra.exe^$all
 ||77.73.134.24/Clip1.exe^$all
-||208.67.105.179/robinzx.exe^$all
 
 
 
@@ -28682,7 +28684,6 @@ $removeparam=aff_click_id
 wenku.baidu.com##+js(set,history.replaceState,noopFunc)
 ||wenku.baidu.com^$removeparam=aggId
 ||baidu.com^$removeparam=fenlei
-||baidu.com^$removeparam=ie
 ||baidu.com^$doc,removeparam=/^rsv_/
 ||baidu.com^$doc,removeparam=rn
 ||baidu.com^$removeparam=bsst
