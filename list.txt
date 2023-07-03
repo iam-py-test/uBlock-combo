@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 02/07/2023
+! Last updated: 03/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -10856,6 +10856,22 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||updateasap.online^$all,~inline-font
 ||109.206.168.16^$all,~inline-font
 ||109.206.168.17^$all,~inline-font
+||cadstoppam.live^$all,~inline-font
+||cottodwin.live^$all,~inline-font
+||cumwaysroe.live^$all,~inline-font
+||galgempub.live^$all,~inline-font
+||giftfillpair.live^$all,~inline-font
+||gotfadays.live^$all,~inline-font
+||kinoipark.live^$all,~inline-font
+||landwishma.live^$all,~inline-font
+||oreradand.live^$all,~inline-font
+||paidsuenut.live^$all,~inline-font
+||ramourasp.live^$all,~inline-font
+||rodrevtill.live^$all,~inline-font
+||showjoinnip.live^$all,~inline-font
+||usedhutsold.live^$all,~inline-font
+||57.128.71.215^$all,~inline-font
+/&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$doc
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -20672,6 +20688,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.tellegrom.xyz^$all
 ||biustargamez.itch.io^$all
 ||213.255.247.174^$all
+||searchokay.com^$document
+||srvtrck.com^$document
+||r.srvtrck.com^$all
+||extappupdate.com^$all
+||find.fnavigate-now.com^$document
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -25943,10 +25964,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||free.premiumworldapp.com^$document
 ||www.chromnius.com^$document
 ||anglebank.space^$all
+||crummygoddess.com^$all
 ||funtwitter.games^$all
 ||twitter-circle.com^$all
 ||family-simulators.io^$all
 ||familyfornicate.com^$all
+||bigosext9s.com^$document
+||muskday.org^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
