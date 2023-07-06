@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 05/07/2023
+! Last updated: 06/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25973,6 +25973,35 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||muskday.org^$all
 ||xmegaxvideox.com^$all
 ||neeglashsurvey.top^$all
+||l0ktf.com^$document
+||babydegods.com^$document
+||soaplooparrowstereo.click^$document
+||apecoin.group^$document
+||app.uniswap.cam^$document
+||bbhjb.com^$document
+||blur-nft.xyz^$document
+||bridge-claim.xyz^$document
+||claim-booster.xyz^$document
+||claim-pepe-airdrop.xyz^$document
+||claimairdrop.online^$document
+||crypto-claims.io^$document
+||dev851.d3710yoqrad6y3.amplifyapp.com^$document
+||email-metamask.com^$document
+||enter-uniswap.net^$document
+||get-uniswap.org^$document
+||join-whatisthissorcery.com^$document
+||lensprotocols-claim.com^$document
+||live-update-security.com^$document
+||loyaldrops.life^$document
+||metamaskdrop.fun^$document
+||metamasks.best^$document
+||newsletter-metamask.com^$document
+||nft-free.store^$document
+||notify-metamask.com^$document
+||psydex.gl^$document
+||register-ether.com^$document
+||whitelist-ether.site^$document
+||rabbit.claims^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -26458,6 +26487,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||safeplexsearch.com^$all
 ||addons.mozilla.org/*/firefox/addon/safeplex-search/^$document
 ||fontdeterminer.com^$document
+||ofoseveralyea.info^$all
+||ratefinaukncei.info^$all
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
