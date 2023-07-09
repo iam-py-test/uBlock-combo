@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 08/07/2023
+! Last updated: 09/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -10872,6 +10872,9 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||usedhutsold.live^$all,~inline-font
 ||57.128.71.215^$all,~inline-font
 /&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$doc
+||truanet.com^$all,~inline-font
+||rumadel.com^$all,~inline-font
+103.224.182.*$network
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -20693,6 +20696,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||r.srvtrck.com^$all
 ||extappupdate.com^$all
 ||find.fnavigate-now.com^$document
+||5.42.86.86^$all
+||77.105.147.158^$all
+||southbayleadgen.com^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -26002,6 +26008,31 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||register-ether.com^$document
 ||whitelist-ether.site^$document
 ||rabbit.claims^$document
+||beze.co^$document
+||laro.co^$document
+||haso.co^$document
+||fessy.co^$document
+||zatte.co^$document
+||lanno.co^$document
+||detty.co^$document
+||durro.co^$document
+||rightsapphiresand.info^$all
+||aonforhaving.info^$all
+||download7locked.com^$all
+||install-check.com^$all
+||zz6av.top^$all
+||ptrmx.top^$all
+||p5s12.top^$all
+||pnw9r.top^$all
+||kn3vp.top^$all
+||eyq2w.top^$all
+||edsn6.top^$all
+||c8pjg.top^$all
+||kwptr.top^$all
+||ese04.top^$all
+||uldmakefeagre.com^$all
+||ourmarketingefi.info^$all
+||dacins.xyz^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -26921,11 +26952,19 @@ rarbg.to##a[href*="furiousfar.com"]
 /^https?:\/\/(www\.)?winyourprize[0-9]*\.com/$document
 /^https?:\/\/[a-zA-Z0-9]*\.(com|xyz|top|live|net|org|bid|github.io|weebly.com|wordpress.org)\/roblox-hacks-download-free-no-virus.html/$document
 /^https?:\/\/(www\.)?click-video[a-zA-Z]\.com/$document
-/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect/.*&site=adfly&/$document
+/^https?:\/\/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect/.*&site=adfly&/$document
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$document
 /^https?:\/\/bestcasual-dates\./$document
 ||www.amazceon-co-jp.amazccen.$document
 ||www.amazconn-co-jp.amazccne.$document
+/^https?:\/\/[a-z0-9]{5}\.top\/images\/campaigns\/creativity-/$image,domain=anonfiles.com
+||cdn4image.com^$domain=anonfiles.com
+||come-get-s0me.com^$image,3p
+||click.pclk.name^$domain=anonfiles.com
+||pushub.net^$image,domain=anonfiles.com
+||img.cdn.house^$domain=anonfiles.com
+||anonfiles.com/sw_anonfiles.js$image
+anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
@@ -26998,6 +27037,10 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||91.234.99.110/mipsel^$all
+||103.95.196.149/x86^$all
+||cdn.discordapp.com/attachments/1124469077491069010/1124473530491338752/inteldrv.exe^$all
+||23.137.249.127/ddw23/pstol1.exe^$all
 ||103.95.196.149/mips^$all
 ||45.66.230.149/offer/updChrome.exe^$all
 ||allansworthng.com/1/data64_2.exe^$all
@@ -27082,10 +27125,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||ji.jhia6gy44dd.com/m/ss47.exe^$all
 ||79.137.203.144/white.exe^$all
 ||cdn.discordapp.com/attachments/1072409919527067670/1085902945905811507/fleint.exe^$all
-||insellerate.net/doc/taskshostw.exe^$all
-||95.214.55.109/bins/zwx86_64^$all
-||77.73.134.35/bebra.exe^$all
-||77.73.134.24/Clip1.exe^$all
 
 
 
