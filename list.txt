@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 09/07/2023
+! Last updated: 10/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15966,6 +15966,107 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||zygomasnugify.uno^$all,~inline-font
 188.42.84.*$network
 203.195.121.*$network
+||gantdanmark.com^$all,~inline-font
+||gantnorge.com^$all,~inline-font
+||gantnorges.com^$all,~inline-font
+||gymsharkdanmark.com^$all,~inline-font
+||gymsharkdanmarks.com^$all,~inline-font
+||gymsharkldanmark.com^$all,~inline-font
+||gymsharklnorge.com^$all,~inline-font
+||gymsharknorge.com^$all,~inline-font
+||gymsharknorgno.com^$all,~inline-font
+||gymsharnorge.com^$all,~inline-font
+||monclernorges.com^$all,~inline-font
+||underarmour-dk.com^$all,~inline-font
+||underarmourdk.com^$all,~inline-font
+||underarmourdks.com^$all,~inline-font
+||xeroshoes-danmark.com^$all,~inline-font
+||xeroshoesdanmark.com^$all,~inline-font
+||xeroshoesdanmarks.com^$all,~inline-font
+||montecsalg.com^$all,~inline-font
+||gymshark-no.com^$all,~inline-font
+||montec-danmark.com^$all,~inline-font
+||montecnorge.com^$all,~inline-font
+||salgvejanorge.com^$all,~inline-font
+||vejadanmarkudsalg.com^$all,~inline-font
+||hugobossbutikk.com^$all,~inline-font
+||gymsharkno.com^$all,~inline-font
+||umbrono.com^$all,~inline-font
+||umbrodk.com^$all,~inline-font
+||sanukdk.com^$all,~inline-font
+||gymsharkidanmark.com^$all,~inline-font
+||sanuksandaler.com^$all,~inline-font
+||hilfigerdenmark.com^$all,~inline-font
+||hilfigernorge.com^$all,~inline-font
+||altrasgshoes.com^$all,~inline-font
+||altrask.com^$all,~inline-font
+||gymshark-norgesalg.com^$all,~inline-font
+||gymsharknl.com^$all,~inline-font
+||altrashoesch.com^$all,~inline-font
+||altrashoesat.com^$all,~inline-font
+||gymsharkiesale.com^$all,~inline-font
+||gymsharknorge-no.com^$all,~inline-font
+||gymsharkoutletsnorge.com^$all,~inline-font
+||gymsharkbutikdanmark.com^$all,~inline-font
+||merrellnorge-no.com^$all,~inline-font
+||calzasgymshark-chile.com^$all,~inline-font
+||gymshark-danmarkudsalg.com^$all,~inline-font
+||gymshark-nederlandsale.com^$all,~inline-font
+||gymsharktightsnorge.com^$all,~inline-font
+||gym-shark-norge.com^$all,~inline-font
+||lojaoakleyportugal.com^$all,~inline-font
+||quay-australia.de^$all,~inline-font
+||pitviperitalia.com^$all,~inline-font
+||pitviperitalias.it^$all,~inline-font
+||gymsharknorgestores.com^$all,~inline-font
+||quayaustraliashop.de^$all,~inline-font
+||gymsharknorgestore.com^$all,~inline-font
+||mizunosireland.com^$all,~inline-font
+||mizunoireland.com^$all,~inline-font
+||championslovensko.com^$all,~inline-font
+||gymsharknorgebutikk.com^$all,~inline-font
+||blundstoneskooslo.com^$all,~inline-font
+||hokacanadaoutlet.ca^$all,~inline-font
+||sauconybutypolska.pl^$all,~inline-font
+||nikeisraeloutlet.com^$all,~inline-font
+||gymsharksalg.com^$all,~inline-font
+||nauticadanmark.com^$all,~inline-font
+||gymsharkklærnorge.com^$all,~inline-font
+||bershkadenmark.com^$all,~inline-font
+||louboutinnorges.com^$all,~inline-font
+||bershka-norge.com^$all,~inline-font
+||dswuxd.shop^$all,~inline-font
+||g-ymsharknorge.com^$all,~inline-font
+||dsjifs.shop^$all,~inline-font
+||nauticanorge.com^$all,~inline-font
+||louboutinnorge.com^$all,~inline-font
+||dsbuhw.shop^$all,~inline-font
+||dscvsb.shop^$all,~inline-font
+||gymsharkbutikkoslo.com^$all,~inline-font
+||joyaskobutikks.com^$all,~inline-font
+||hunterstovlerbutikk.com^$all,~inline-font
+||brunateskonorge.com^$all,~inline-font
+||joyaskobutikk.com^$all,~inline-font
+||kybunskodanmark.com^$all,~inline-font
+||gymsharkbutikksoslo.com^$all,~inline-font
+||josefseibeloutletnorge.com^$all,~inline-font
+-norgesalg.com^$doc
+*danmarks.com^$doc
+*norgno.com^$doc
+*norges.com^$doc
+*norgebutikk.com^$doc
+*norgestore.com^$doc
+*norge-no.com^$doc
+*norgestores.com^$doc
+*skobutikks.com^$doc
+*butikksoslo.com^$doc
+||196.196.153.151^$all,~inline-font
+||158.222.7.116^$all,~inline-font
+||196.245.152.139^$all,~inline-font
+||165.231.251.197^$all,~inline-font
+||196.242.16.29^$all,~inline-font
+||165.231.4.90^$all,~inline-font
+||158.222.7.83^$all,~inline-font
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||androidgreek.com^$doc
@@ -26032,7 +26133,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ese04.top^$all
 ||uldmakefeagre.com^$all
 ||ourmarketingefi.info^$all
+||goph.club^$all
+||ebutiseemedlikea.com.ua^$all
+||alargeredrubygsw.info^$all
 ||dacins.xyz^$all
+||zat.io^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -26137,7 +26242,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ssprotectltd.com^$all
 ||www.ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
-||totaladblock.com^$all
+||totaladblock.com^
 ||www.totaladblock.com^$all
 ||download.totaladblock.com^$all
 ||blockpage.totaladblock.com^$all
@@ -26952,7 +27057,7 @@ rarbg.to##a[href*="furiousfar.com"]
 /^https?:\/\/(www\.)?winyourprize[0-9]*\.com/$document
 /^https?:\/\/[a-zA-Z0-9]*\.(com|xyz|top|live|net|org|bid|github.io|weebly.com|wordpress.org)\/roblox-hacks-download-free-no-virus.html/$document
 /^https?:\/\/(www\.)?click-video[a-zA-Z]\.com/$document
-/^https?:\/\/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect/.*&site=adfly&/$document
+/^https?:\/\/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect\/.*&site=adfly&/$document
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$document
 /^https?:\/\/bestcasual-dates\./$document
 ||www.amazceon-co-jp.amazccen.$document
@@ -26965,6 +27070,8 @@ rarbg.to##a[href*="furiousfar.com"]
 ||img.cdn.house^$domain=anonfiles.com
 ||anonfiles.com/sw_anonfiles.js$image
 anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
+startpage.com##.total-adblock-desktop
+||startpage.com/sp/cdn/bundles/*/*/lib/TotalAdBlockAdultWidget.js^$script
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
