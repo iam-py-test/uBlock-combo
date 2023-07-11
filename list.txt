@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 10/07/2023
+! Last updated: 11/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20800,6 +20800,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||5.42.86.86^$all
 ||77.105.147.158^$all
 ||southbayleadgen.com^$all
+||ezsoftware.fun^$all
+||185.106.93.193^$all
+||truanet.com^$document
+||logictrackngs.com^$all
+||super-trackings.com^$all
+||web-trackings.com^$all
+||tracks4me.biz^$all
+||forgetrackng.com^$all
+||chijkkkll.pages.dev^$all
+||decentrall.online^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -29677,7 +29687,6 @@ $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.co
 ||espn.$doc,removeparam=platform
 ||tsn.ca^$doc,removeparam=tsn-amp
 ||iplt20.com^$doc,removeparam=tagNames
-||pnas.org^$doc,removeparam=af
 ||espn.$removeparam=appsrc,doc
 ||espn.$removeparam=RuleNumber,doc
 ||deepl.com^$doc,removeparam=cta
