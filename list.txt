@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 11/07/2023
+! Last updated: 12/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20810,6 +20810,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||forgetrackng.com^$all
 ||chijkkkll.pages.dev^$all
 ||decentrall.online^$all
+||thepcworlds.com^$all
+||tdamassoficial.com^$all
+||t.me/rifbef734frbe43jfef^$all
+||t.me/eagl3z^$all
+||193.27.90.10^$all
+||5.75.211.167^$all
+/PASSWD_2023_ThePcworldsPublics.rar|$all
+||reserchvpn.com^$all
+||razesoft.mdetecnologia.com^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27154,6 +27163,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||cdn.discordapp.com/attachments/906552604258082849/1127979465348218900/Output.bin^$all
+||87.121.47.63/lend/YoDo_Fake.exe^$all
 ||91.234.99.110/mipsel^$all
 ||103.95.196.149/x86^$all
 ||cdn.discordapp.com/attachments/1124469077491069010/1124473530491338752/inteldrv.exe^$all
@@ -27240,8 +27251,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||filebin.net/al5dqiowja8bpmov/explorer.exe^$all
 ||103.170.255.139/B191206/vbc.exe^$all
 ||ji.jhia6gy44dd.com/m/ss47.exe^$all
-||79.137.203.144/white.exe^$all
-||cdn.discordapp.com/attachments/1072409919527067670/1085902945905811507/fleint.exe^$all
 
 
 
@@ -28378,6 +28387,8 @@ $removeparam=returnFromLogin,domain=amazon.*
 ||amazon.$removeparam=R
 ||amazon.$removeparam=T
 $removeparam=/^asc_/,doc,domain=amazon.*|aboutamazon.com|amzn.to
+||amazon.*/primeday/$removeparam=tag
+||amazon.*/primeday/$removeparam=mfadid
 ||bing.com/search?$removeparam=/^form=/i
 ||bing.$removeparam=sp
 $removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
@@ -29712,7 +29723,8 @@ $removeparam=repost,domain=nbcnews.com|sacurrent.com
 ||wsj.com^$removeparam=st
 ||uslecce.it^$removeparam=et
 ||skinnytaste.com^$removeparam=adt_ei
-$document,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
+$doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
+$removeparam=/^ref=workingsoftware\.dev$/,doc
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
