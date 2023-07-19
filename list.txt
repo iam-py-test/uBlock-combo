@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 18/07/2023
+! Last updated: 19/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -29610,8 +29610,9 @@ $removeparam=pldnSite,domain=amazon.*
 $removeparam=newts,domain=amazon.*
 $removeparam=returnFromLogin,domain=amazon.*
 @@/b/ref=$removeparam=ie
-||amazon.*/dp/$removeparam=tag
-||amazon.*/stores/$removeparam=tag
+||amazon.*/dp/$removeparam=tag,doc
+||amazon.*/stores/$removeparam=tag,doc
+||amazon.*/product/$removeparam=tag,doc
 ||amazon.$removeparam=qu
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.$removeparam=content-id
@@ -29750,6 +29751,7 @@ $removeparam=ogbl
 ://www.google.*/search^$removeparam=entrypoint
 ||google.*/search$removeparam=sqi
 ||google.$removeparam=gs_ssp
+||www.google.*/search?$doc,removeparam=client
 ||google.$removeparam=prds
 ||googleadservices.com^$removeparam=ae
 ||googleadservices.com^$removeparam=agsac
@@ -30962,6 +30964,7 @@ $removeparam=repost,domain=nbcnews.com|sacurrent.com
 ||skinnytaste.com^$removeparam=adt_ei
 $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 ^ref=workingsoftware.dev^$doc,removeparam=ref
+||reddit.com^$removeparam=rdt,doc
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
