@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 20/07/2023
+! Last updated: 21/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18671,7 +18671,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||124.163.130.175^$all
 ||118.75.87.102^$all
 ||drive.google.com/file/d/1lvkYzenTwpcsl7vjsbds1J7MKSFxv-4D/view^$document
-||doc-0s-6k-docs.googleusercontent.com/docs/securesc/rfercc3a76jeult4d0h2382iop9rvhs7/bkokfcop5q4c5nh6ab7ua8fqrvfhqbut/1639701150000/13045886741651917350/15048584419024227515Z/1lvkYzenTwpcsl7vjsbds1J7MKSFxv-4D?e=download&nonce=m87re19eg7bia&user=15048584419024227515Z&hash=e46r3l57308v862803q96485oi1sd2jp^$all
 ||10dimensions.com^$all
 ||222.136.75.93^$all
 ||115.59.8.61^$all
@@ -18895,7 +18894,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||104.189.11.61^$all
 ||111.235.253.81^$all
 ||rutracker-org.appspot.com^$all
-||program-moderator.com^$all
 ||6201375e287cc50016414168.2go.me^$all
 ||splendid-fallacious-anaconda.glitch.me^$all
 ||91.240.118.172^$all
@@ -21644,6 +21642,38 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||85.208.139.35^$all
 ||updateadobeflash.website^$all
 ||194.169.175.93^$all
+||bgrfmi.com^$all
+||bpdnct.com^$all
+||bphfmm.com^$all
+||eweukr.com^$all
+||gycqna.com^$all
+||hcafpg.com^$all
+||ingzhe.com^$all
+||irtvro.com^$all
+||jggjh.com^$all
+||mnawew.com^$all
+||nlxini.com^$all
+||nvcrcf.com^$all
+||qmsvnh.com^$all
+||ritedn.com^$all
+||rrtype.com^$all
+||vgrcxa.com^$all
+||vgsksc.com^$all
+||whcfmp.com^$all
+||xyzgnc.com^$all
+||ybcgju.com^$all
+||jhzhis.com^$all
+||udwuyw.com^$all
+||zayatr.com^$all
+||ve2fjo6twajohak.top^$all
+||zappiehost.com^$all
+||tchangway.hk^$all
+||bafkreibm2c232v5uuz7vkxcdkwdjye6oaoasxg5zkye7y3oyodm6olulou.ipfs.dweb.link^$all
+||lkalzzop.online^$all
+||softwarextra.com^$all
+||tds-packages-update.com^$all
+||168.119.178.159^$all
+||tracking-express-ups.com^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27389,6 +27419,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||nip100.com^$document
 ||bcb.game^$all
 ||us-trendingtoday.com^$document,popup
+||truebuyerreview.com^$all
+||areyourealhuman.com^$all
+||cdn.areyourealhuman.com^$all
+||eu.gtrxlnd7.com^$all
+||gtrxlnd7.com^$document
+||hotdebrid.com^$document
+||debridlink.com^$document
+||maxdebrid.com^$document
+||anydebrid.com^$document
+||performintenselydevelopedinfo-product.info^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -27734,7 +27774,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||start.pdfsharkapp.com^$document
 ||searchmagiconline.com^$document
 ||start.searchmagiconline.com^$document
-||pdfsuperhero.com^$document
+||pdfsuperhero.com^$all
 ||stats.pdfsuperhero.com^$all
 ||bl.searchpoweronline.com^$document
 ||mysearchengine.co^$document
@@ -27876,7 +27916,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||fontdeterminer.com^$document
 ||ofoseveralyea.info^$all
 ||ratefinaukncei.info^$all
-||pdfsuperhero.com^$all
 ||pdfsuperhero.azureedge.net^$all
 ||pdfconverty.com^$all
 ||gettoptemplates.com^$document
@@ -28400,6 +28439,9 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||raw.githubusercontent.com/duantienty/miner/main/Client.jpg^$all
+||raw.githubusercontent.com/duantienty/miner/main/Jcojp.jpg^$all
+||107.189.3.174/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
 ||103.110.33.164/mips^$all
 ||cdn.discordapp.com/attachments/906552604258082849/1127979465348218900/Output.bin^$all
 ||87.121.47.63/lend/YoDo_Fake.exe^$all
@@ -28485,9 +28527,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||intercross.shop/index/kXFpZBb.exe^$all
 ||bitbucket.org/dushanbepromo/kingsoft/downloads/OriginalBuild.exe^$all
 ||bitbucket.org/dushanbepromo/kingsoft/downloads/tmpF82D.tmp.exe^$all
-||simplmizer.duckdns.org/GamingBooster.exe^$all
-||filebin.net/al5dqiowja8bpmov/explorer.exe^$all
-||103.170.255.139/B191206/vbc.exe^$all
 
 
 
