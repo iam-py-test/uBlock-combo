@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 21/07/2023
+! Last updated: 22/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -21674,6 +21674,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||tds-packages-update.com^$all
 ||168.119.178.159^$all
 ||tracking-express-ups.com^$all
+||nht42we.click^$all
+||3efrewss.click^$all
+||gstatic-node.io^$all
+||freesoftonic.cc^$all
+||kitchx.click^$all
+||ki8hy78.click^$all
+||cdn-prok.site^$document
+||igsufb.top^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27429,6 +27437,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||maxdebrid.com^$document
 ||anydebrid.com^$document
 ||performintenselydevelopedinfo-product.info^$all
+||qk0im.top^$all
+.top/images/campaigns/creativity-2417060-16841547425159.png^$image
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28439,6 +28449,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.i686^$all
+||165.232.162.31/udp/taskhostamd.exe^$all
 ||raw.githubusercontent.com/duantienty/miner/main/Client.jpg^$all
 ||raw.githubusercontent.com/duantienty/miner/main/Jcojp.jpg^$all
 ||107.189.3.174/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
@@ -28525,8 +28537,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||65.21.3.192/msiexp.exe^$all
 ||45.15.159.42/XSS1.exe^$all
 ||intercross.shop/index/kXFpZBb.exe^$all
-||bitbucket.org/dushanbepromo/kingsoft/downloads/OriginalBuild.exe^$all
-||bitbucket.org/dushanbepromo/kingsoft/downloads/tmpF82D.tmp.exe^$all
 
 
 
@@ -31004,6 +31014,9 @@ $removeparam=repost,domain=nbcnews.com|sacurrent.com
 $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 ^ref=workingsoftware.dev^$doc,removeparam=ref
 ||reddit.com^$removeparam=rdt,doc
+||easyfundraising.org.uk^$doc,removeparam=efr_source
+||easyfundraising.org.uk^$doc,removeparam=efr_medium
+||easyfundraising.org.uk^$doc,removeparam=efr_campaign
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
