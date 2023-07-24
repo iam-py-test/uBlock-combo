@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 23/07/2023
+! Last updated: 24/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -21682,6 +21682,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ki8hy78.click^$all
 ||cdn-prok.site^$document
 ||igsufb.top^$all
+||45.9.74.141^$all
+||45.9.74.166^$all
+||168.119.51.197^$all
+||posthu-parcel.com^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -26898,7 +26902,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||roundyearfun.org^$document
 ||anyplacehere.me^$document
 ||funaroundy.click^$document
-||dr-farfar.com^$all
 ||darkskin.world^$all
 ||errors.pro^$document
 ||donwloadkeepet.buzz^$all
@@ -27438,7 +27441,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||anydebrid.com^$document
 ||performintenselydevelopedinfo-product.info^$all
 ||qk0im.top^$all
-.top/images/campaigns/creativity-2417060-16841547425159.png^$image
+||primeleech.com^$all
+||www.primeleech.com^$all
+||ak.deephicy.net^$popup
+||qr-captcha.com^$document
+||haffnetworkmm.com^$document
+||cdn4.haffnetworkmm.com^$document
+||im2easy.site^$document
+||downlon.com^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28377,6 +28387,7 @@ rarbg.to##a[href*="furiousfar.com"]
 anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
 startpage.com##.total-adblock-desktop
 ||startpage.com/sp/cdn/bundles/*/*/lib/TotalAdBlockAdultWidget.js^$script
+$popup, third-party, domain=up-4ever.net
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
@@ -28865,7 +28876,7 @@ $removeparam=cotracking
 $removeparam=ectrans
 $removeparam=dartycid
 $removeparam=bbaid
-$removeparam=ppid
+||paypal.$removeparam=ppid
 $removeparam=unptid
 $removeparam=unp_tpcid
 $removeparam=pgrp
