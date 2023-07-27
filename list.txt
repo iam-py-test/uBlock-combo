@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 26/07/2023
+! Last updated: 27/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22083,6 +22083,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cleaner-update.club^$document
 ||speedupdate.club^$document
 ||good-update.club^$document
+||eclatearns.documentbusinesses.online^$all
+||documentbusinesses.online^$document
+||formulagile.xyz^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27850,6 +27853,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||singlewomenmeet.com^$document
 ||only2date.online^$document
 ||amnotification.com^$all
+||desbiens123.net^$all
+||sex-dating.qbig.site^$all
+||anesthesia2000.com^$all
+||balladoron.life^$all
+||avprotect.store^$all
+||www.pioxe.live^$all
+||86ff56b6d5.com^$all
+||030e9b0efb.47aead8f05.com^$all
+||47aead8f05.com^$3p
+||systemoon.co.in^$all
+||moontrck.xyz^$all
+||donemileliondol.info^$all
+||inarilyhukel.info^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28862,6 +28878,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.m68k^$all
 ||ha5hfiles.xyz/jusched.exe^$all
 ||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.i686^$all
 ||165.232.162.31/udp/taskhostamd.exe^$all
@@ -28949,7 +28966,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||140.99.221.199/001.exe^$all
 ||asalroshani.ir/user/uni.exe^$all
 ||65.21.3.192/msiexp.exe^$all
-||45.15.159.42/XSS1.exe^$all
 
 
 
