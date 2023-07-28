@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 27/07/2023
+! Last updated: 28/07/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -31450,6 +31450,7 @@ $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldsci
 ||easyfundraising.org.uk^$doc,removeparam=efr_campaign
 ||lego.com^$removeparam=icmp
 ||linkedin.com/feed/update$removeparam=origin
+$doc,removeparam=plcmt,domain=grafana.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
