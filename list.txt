@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 31/07/2023
+! Last updated: 01/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17301,6 +17301,7 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||196.242.16.29^$all,~inline-font
 ||165.231.4.90^$all,~inline-font
 ||158.222.7.83^$all,~inline-font
+tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||androidgreek.com^$doc
@@ -22087,6 +22088,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||documentbusinesses.online^$document
 ||formulagile.xyz^$all
 ||csgofloat.br.com^$all
+||licensevilla.com^$all
+||kemmakhao.click^$all
+||24.199.69.78^$all
+||trapmusics.xyz^$all
+||hopvibestravel.co.za^$document
+||49.13.60.242^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27860,6 +27867,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||balladoron.life^$all
 ||avprotect.store^$all
 ||www.pioxe.live^$all
+||pioxe.live^$all
 ||86ff56b6d5.com^$all
 ||030e9b0efb.47aead8f05.com^$all
 ||47aead8f05.com^$3p
@@ -27882,6 +27890,23 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||zaffirosas.it^$all
 ||alimentasegovia.es^$all
 ||upstrick.com^$all
+||waratlas.org^$all
+||cpabuild.com^$all
+||94.142.138.131^$all
+||krasnaya-talka-sanatoriy-gelendzhik.ru^$all
+||p9a3g5g2.stackpathcdn.com^$all
+||fixextremelyoriginalinfo-product.info^$all
+||dfxtg.top^$all
+||d7s62.top^$all
+||dlvur.top^$all
+||dcnhx.top^$all
+||ops7s.top^$all
+||downloadelz.website^$all
+||downloadelz.buzz^$all
+||downloadfilekee.lol^$all
+||browser-app.co^$popup
+||golend.xyz^$all
+||seduction-simple.fr^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28983,6 +29008,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||akmalhost21.cfd^$all
 ||vmlx98.codes^$all
 ||67.205.178.82^$all
+||almiramoney.kz^$all
 
 ||securebiz.org^$all
 ||83.97.20.139^$all
@@ -29015,6 +29041,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||muskcrypto.io^$all
 
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||20.234.58.62/x.exe^$all
 ||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.m68k^$all
 ||ha5hfiles.xyz/jusched.exe^$all
 ||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.i686^$all
@@ -29102,7 +29129,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.tobimar.ro/tmp/index.php^$all
 ||140.99.221.199/001.exe^$all
 ||asalroshani.ir/user/uni.exe^$all
-||65.21.3.192/msiexp.exe^$all
 
 
 
