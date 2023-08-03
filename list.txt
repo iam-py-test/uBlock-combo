@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 02/08/2023
+! Last updated: 03/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22094,6 +22094,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||trapmusics.xyz^$all
 ||hopvibestravel.co.za^$document
 ||49.13.60.242^$all
+||revanced.net^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27907,6 +27908,18 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||browser-app.co^$popup
 ||golend.xyz^$all
 ||seduction-simple.fr^$all
+||farmrrlendsee.ru^$all
+||mokha.top^$all
+||voecf.top^$all
+||a7afn.top^$all
+||zn4hk.top^$all
+||t0hgf.top^$all
+||kuq2s.top^$all
+||o8he3.top^$all
+||expressionsvegetales.fr^$all
+||kfl86.top^$all
+||aroyf.top^$all
+||aord3.top^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28835,15 +28848,16 @@ rarbg.to##a[href*="furiousfar.com"]
 /^https?:\/\/bestcasual-dates\./$document
 ||www.amazceon-co-jp.amazccen.$document
 ||www.amazconn-co-jp.amazccne.$document
-/^https?:\/\/[a-z0-9]{5}\.top\/images\/campaigns\/creativity-/$image,domain=anonfiles.com
+/^https?:\/\/[a-z0-9]{5}\.top\/images\/campaigns\/creativity-/$image,third-party
 ||cdn4image.com^$domain=anonfiles.com
 ||come-get-s0me.com^$image,3p
 ||click.pclk.name^$domain=anonfiles.com
 ||pushub.net^$image,domain=anonfiles.com
 ||img.cdn.house^$domain=anonfiles.com
-||anonfiles.com/sw_anonfiles.js$image
+||anonfiles.com/sw_anonfiles.js
 anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
 ||info^$domain=anonfiles.com
+||clicksmint.site^$image,domain=ru
 startpage.com##.total-adblock-desktop
 ||startpage.com/sp/cdn/bundles/*/*/lib/TotalAdBlockAdultWidget.js^$script
 $popup, third-party, domain=up-4ever.net
@@ -29041,6 +29055,10 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||muskcrypto.io^$all
 
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||erfolgsgruender.com/Profistiler763432_ping.exe^$all
+||wtmc.com.pk/TurnedYOU749sampls.exe^$all
+||20.234.58.62/xClient.html^$all
+||20.234.58.62/sd.exe^$all
 ||20.234.58.62/x.exe^$all
 ||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.m68k^$all
 ||ha5hfiles.xyz/jusched.exe^$all
@@ -29125,10 +29143,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||files.catbox.moe/xfcdu9.dll^$all
 ||ji.ghwiwwff.com/m/oskg25^$all
 ||140.99.221.199/w01.exe^$all
-||www.ddtools.top/handdiy6/handdiy_6.exe^$all
-||www.tobimar.ro/tmp/index.php^$all
-||140.99.221.199/001.exe^$all
-||asalroshani.ir/user/uni.exe^$all
 
 
 
@@ -31620,6 +31634,7 @@ $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldsci
 ||lego.com^$removeparam=icmp
 ||linkedin.com/feed/update$removeparam=origin
 $doc,removeparam=plcmt,domain=grafana.com
+||make.com^$removeparam=fromImt
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
