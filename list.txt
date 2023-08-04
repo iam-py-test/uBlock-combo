@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 03/08/2023
+! Last updated: 04/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22095,6 +22095,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||hopvibestravel.co.za^$document
 ||49.13.60.242^$all
 ||revanced.net^$all
+||psequeldegaste.com^$all
+||cdn.discordapp.com/attachments/1134016230697738250/1135932753301475328/Setup.rar^$all
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -27920,6 +27922,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||kfl86.top^$all
 ||aroyf.top^$all
 ||aord3.top^$all
+||flipperzero.at^$all
+||trkrspace.com^$all
+||kncecafvdeuk.info^$all
+||karbe.live^$all
+||downloadpeso.space^$all
+||rewovucikaf.shop^$document
+||outhjkm.ezasutuduwife.online^$document
+||wtfgep.xyz^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28856,6 +28866,7 @@ rarbg.to##a[href*="furiousfar.com"]
 ||img.cdn.house^$domain=anonfiles.com
 ||anonfiles.com/sw_anonfiles.js
 anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
+||imghst-de.com^$image,domain=anonfiles.com|expressionsvegetales.fr
 ||info^$domain=anonfiles.com
 ||clicksmint.site^$image,domain=ru
 startpage.com##.total-adblock-desktop
