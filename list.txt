@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 04/08/2023
+! Last updated: 05/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27930,6 +27930,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||rewovucikaf.shop^$document
 ||outhjkm.ezasutuduwife.online^$document
 ||wtfgep.xyz^$document
+||eudmail.com^$all
+||musk-x.org^$all
+||give2x.net^$all
+||2xtesla.net^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -28421,6 +28425,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||pdfconverty.com^$all
 ||gettoptemplates.com^$document
 ||downloadonelaunchnow.com^$document
+||mobilisearch.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -29066,6 +29071,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||muskcrypto.io^$all
 
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||africatechs.com/Amdaygo.exe^$all
+||193.233.255.9/lend/Documents-EnemyFrauz.exe^$all
 ||erfolgsgruender.com/Profistiler763432_ping.exe^$all
 ||wtmc.com.pk/TurnedYOU749sampls.exe^$all
 ||20.234.58.62/xClient.html^$all
@@ -29152,8 +29159,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||famileai.com/php/upsoft/milmonjey.txt^$all
 ||cdn.discordapp.com/attachments/1098002440479064067/1098002456824270959/YeniLib.dll^$all
 ||files.catbox.moe/xfcdu9.dll^$all
-||ji.ghwiwwff.com/m/oskg25^$all
-||140.99.221.199/w01.exe^$all
 
 
 
@@ -31646,6 +31651,7 @@ $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldsci
 ||linkedin.com/feed/update$removeparam=origin
 $doc,removeparam=plcmt,domain=grafana.com
 ||make.com^$removeparam=fromImt
+||geoguessr.com/join/$doc,domain=geoguessr.com,removeparam=s
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
