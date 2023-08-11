@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 10/08/2023
+! Last updated: 11/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22253,6 +22253,9 @@ www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="dev."]
 www.microsoft.com##a[data-pfns][href*=pacman]
 www.microsoft.com##a[data-pfns][href*=pac-men]
 |http://mb.download.gigabyte.com/FileList/Swhttp/LiveUpdate4^
+||s.free.fr^$all
+||trmff.wpengine.com^$all
+||212.27.60.108^$all
 ||oxtop.ru^
 ||fotoredactor.com^
 ||vmuzone.com^
@@ -26635,6 +26638,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||keenfrancefr.com^$document
 ||keenfr.com^$document
 ||keen-chaussures.fr^$document
+||pnsys.info^$all
+||drto.info^$all
+||dowloadkeepfilezzz.website^$all
+||dowloadslek2.website^$popup
 ||ublock.org^$document
 ||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
@@ -32505,6 +32512,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||usadailysweepswinners.com^$all
 ||okdebrid.com^$document
 ||youdebrid.com^$document
+||graduatedgroan.com^$document,popup
+||oudguide.com^$all
+||uidhealth.com^$all
+||repairmostspeedyinfo-product.info^$all
+||popgoldblocker.info^$document
+||adblockology.net^$document
+||download-adblock-zen.com^$document
+||blockadsology.net^$document
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -32805,6 +32820,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||spyhunter.com^$document
 ||www.spyhunter.com^$document
 ||spyhunter-download-v2.b-cdn.net^$document
+||enigmasoft.net^$document
+||rh.downloads.enigmasoft.net^$document
 ||mackeeper.com^$document
 ||secure-browser.io^$document
 ||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
@@ -33648,6 +33665,10 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||muskcrypto.io^$all
 
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||193.31.28.13/mips^$all
+||artmediastudio.ro/Amdau.exe^$all
+||github.com/ZiliBoba1488/TempFiles/raw/main/Client.exe^$all
+||gecitartandmore.com/purchaseorder.exe^$all
 ||africatechs.com/Amdaygo.exe^$all
 ||193.233.255.9/lend/Documents-EnemyFrauz.exe^$all
 ||erfolgsgruender.com/Profistiler763432_ping.exe^$all
@@ -33732,10 +33753,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||cdn.discordapp.com/attachments/1096076829531574352/1097477404122939422/XWorm.exe^$all
 ||103.189.202.201/0000213/vbc.exe^$all
 ||85.217.144.143/files/haddd.exe^$all
-||famileai.com/php/upsoft/zov.txt^$all
-||famileai.com/php/upsoft/milmonjey.txt^$all
-||cdn.discordapp.com/attachments/1098002440479064067/1098002456824270959/YeniLib.dll^$all
-||files.catbox.moe/xfcdu9.dll^$all
 
 
 
@@ -36238,6 +36255,9 @@ $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldsci
 $doc,removeparam=plcmt,domain=grafana.com
 ||make.com^$removeparam=fromImt
 ||geoguessr.com/join/$doc,domain=geoguessr.com,removeparam=s
+||gamedeveloper.com^$removeparam=iiris-ref
+$doc,removeparam=user_email_address
+@@/subscribe?$doc,removeparam=user_email_address
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
