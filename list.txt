@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 11/08/2023
+! Last updated: 12/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -36026,8 +36026,8 @@ $removeparam=segment_id,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytb
 $removeparam=te,doc,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=user_id,doc,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 ||mothership.sg^$removeparam=fs
-^fs=e$doc,removeparam=fs
-^s=cl$doc,removeparam=s
+^fs=e&s=cl$doc,removeparam=fs
+^fs=e&s=cl$doc,removeparam=s
 $removeparam=publisher_id,domain=t-mobile.com
 $removeparam=x50878,domain=pmctraining.com
 ||redirect.appmetrica.yandex.com^$removeparam=c
@@ -36258,6 +36258,7 @@ $doc,removeparam=plcmt,domain=grafana.com
 ||gamedeveloper.com^$removeparam=iiris-ref
 $doc,removeparam=user_email_address
 @@/subscribe?$doc,removeparam=user_email_address
+||twitter.com^$doc,removeparam=cn
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
