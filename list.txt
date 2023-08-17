@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 16/08/2023
+! Last updated: 17/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -10,7 +10,7 @@
 ! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 ||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf
-||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw|~plutonium.pw|~nitter.pw
+||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw|~plutonium.pw|~nitter.pw|~kge.pw
 ||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top
 ||loan^$doc
 ||agency^$doc,domain=~battlefield.agency|~baam.agency|~robotzebra.agency|~uphotel.agency|~ws.agency
@@ -27,7 +27,7 @@
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$doc
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
-www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"]))
+www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"], [href*="kge.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
@@ -61,7 +61,7 @@ www.google.*##.g:has(a[href*="&orig_url=/" i]):has(a[href*=".tk/"], a[href*=".ml
 www.google.*##.g:has(a[href*="=//"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"], [href*="kge.pw"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="ws.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
@@ -71,7 +71,7 @@ www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"], [href*="kge.pw"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"])
@@ -79,7 +79,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
-bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"]))
+bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"], [href*="plutonium.pw"], [href*="nitter.pw"], [href*="kge.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"])
@@ -213,6 +213,32 @@ virusresearch.org##.virus-after-content
 cyclonis.com##div.rotatead-container:has(.download[data-params*="dl.enigmasoftware.com"])
 2-viruses.com##.active.prods-win.prod-download
 ||2-viruses.com/downloads/spyhunter2^$all,~inline-font
+||cfoc.org/go-to-spyhunter/^$all,~inline-font
+||cfoc.org/spyhunter-download-and-install-instructions/^$all,~inline-font
+cfoc.org###top_custom_banner
+cfoc.org##.custom_banner_top_btn
+cfoc.org##tr:has([href="https://cfoc.org/go-to-spyhunter/"])
+cfoc.org##a[href="https://cfoc.org/spyhunter-download-and-install-instructions/"]:upward(2)
+cfoc.org##.su-button[href^="https://link.safecart.com/"]:upward(3)
+cfoc.org##.widget_text.widget:has([href^="https://cfoc.org/spyhunter-"])
+||cfoc.org/combocleaner-download-mac/^$doc
+cfoc.org##tr:has([href="https://cfoc.org/combocleaner-download-mac/"])
+cfoc.org##p:has(font:has-text( could remain on your Mac if you are not careful during removal. We recommend that you download and run a scan with Combo Cleaner now to professionally clean up your Mac in ))
+cfoc.org##font:has(center:has([href="https://cfoc.org/combocleaner-download-mac/"]))
+||sensorstechforum.com/spyhunter-download-and-install-instructions/^$all,~inline-font
+||sensorstechforum.com/spyhunter-for-mac-download-install/^$all,~inline-font
+||sensorstechforum.com/wp-content/uploads/2020/04/SpyHunter-Install-And-Free-Scan-$image
+||youtube.com/embed/KbGF_fvsRU4^$all
+sensorstechforum.com##tr:has([href="https://sensorstechforum.com/spyhunter-download-and-install-instructions/"])
+sensorstechforum.com##center:has([href="https://www.enigmasoftware.com/spyhunter5-eula/"])
+sensorstechforum.com##[href="https://sensorstechforum.com/spyhunter-download-and-install-instructions/"]
+sensorstechforum.com##.top_banner_custom
+sensorstechforum.com##center:has-text(Click the button below):has-text(SpyHunter for Mac)
+sensorstechforum.com##p:has([href="https://sensorstechforum.com/spyhunter-mac-review-advanced-anti-malware/"])
+sensorstechforum.com##p:has([src^="https://sensorstechforum.com/wp-content/uploads/2020/04/SpyHunter-Install-And-Free-Scan-"])
+sensorstechforum.com##center:has([title="Download SpyHunter for Mac"])
+sensorstechforum.com##p:has([src="https://www.youtube.com/embed/KbGF_fvsRU4"])
+sensorstechforum.com###win_top_new_hidden
 windowsdispatch.com##strong
 dlldownloads.com##.page-container > p
 windowsreport.com##.bnr-block
@@ -21830,6 +21856,74 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||165.231.4.90^$all,~inline-font
 ||158.222.7.83^$all,~inline-font
 tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
+||95-214-26-78.plesk.page^$all,~inline-script
+||account-limitato.org^$all,~inline-script
+||accueil-ameli.ddns.net^$all,~inline-script
+||amende-telepaiements.com^$all,~inline-script
+||antai-infoo.com^$all,~inline-script
+||bank-authenticatorpay.com^$all,~inline-script
+||chronopost-incident-colis.com^$all,~inline-script
+||colis-centre.fr^$all,~inline-script
+||colischronopost-support.info^$all,~inline-script
+||contact-delivery-armx.com^$all,~inline-script
+||contravention-info.ddns.net^$all,~inline-script
+||custom-assisttracking.com^$all,~inline-script
+||customers-qa-post.com^$all,~inline-script
+||customs-customer-assist.com^$all,~inline-script
+||depot-colis.fr^$all,~inline-script
+||deutsche-tracking.de^$all,~inline-script
+||myaccount-world.com^$all,~inline-script
+||duties-support.com^$all,~inline-script
+||espace-authentification.fr^$all,~inline-script
+||espace-laposte.fr^$all,~inline-script
+||expedition-customs-support.com^$all,~inline-script
+||info-custom.com^$all,~inline-script
+||kosten-support.de^$all,~inline-script
+||lieferung-support.com^$all,~inline-script
+||livraison-colis-suivi.fr^$all,~inline-script
+||monespace-iaposte.fr^$all,~inline-script
+||monespacesantéfr.com^$all,~inline-script
+||netfiixhungary.net^$all,~inline-script
+||myupdate-hu.com^$all,~inline-script
+||package-elta-regularization.com^$all,~inline-script
+||payout-ups.com^$all,~inline-script
+||poczta-polska-pakiet.com^$all,~inline-script
+||pocztapoiska.com^$all,~inline-script
+||tracking-sk.com^$all,~inline-script
+||postacg-track-me.com^$all,~inline-script
+||poste-suivi-expedition.fr^$all,~inline-script
+||postnl-track-shipping.com^$all,~inline-script
+||retardpayement.com^$all,~inline-script
+||s-paylibrecup.com^$all,~inline-script
+||sante-securite.ddns.net^$all,~inline-script
+||secure-connexion.ddns.net^$all,~inline-script
+||suivicolischronopost.info^$all,~inline-script
+||support-armx-qa.com^$all,~inline-script
+||support-taxes.fr^$all,~inline-script
+||supportduties.com^$all,~inline-script
+||supportnetflix.com^$all,~inline-script
+||taxes-custom-track.com^$all,~inline-script
+||taxes-shipments-support.com^$all,~inline-script
+||trackdhlparcel-pt.com^$all,~inline-script
+||tracking-colis.net^$all,~inline-script
+||tracking-ups-client.com^$all,~inline-script
+||tracking-ups-clients.com^$all,~inline-script
+||ups-colislivraison.com^$all,~inline-script
+||ups-cutsom.com^$all,~inline-script
+||ups-livraisonrestriction.com^$all,~inline-script
+||ups-track-shipping.com^$all,~inline-script
+||ups-trackingservice.com^$all,~inline-script
+||ups-worldtrack.com^$all,~inline-script
+||ups-zustellung.de^$all,~inline-script
+||deutschetrack.de^$all,~inline-script
+||info-antai.services^$all,~inline-script
+||meinedatenbestatigen.com^$all,~inline-script
+||restricted-account.org^$all,~inline-script
+||trackingdhl-dk.com^$all,~inline-script
+||your-track-ups.net^$all,~inline-script
+||your-ups-track.com^$all,~inline-script
+||zoll-pakete-support.com^$all,~inline-script
+||95.214.26.78^$all,~inline-script
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||androidgreek.com^$doc
@@ -24198,7 +24292,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||nftmatrixed.info^$all
 ||109.201.133.100^$all
 ||81.17.18.58^$all
-||199.58.81.140^$all
 ||jinjarsoft.com^$all
 ||clayroot2016.linkpc.net^$all
 ||ovz1.j19544519.pr46m.vps.myjino.ru^$all
@@ -24214,31 +24307,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||35.236.159.79^$all
 ||telegra.ph/Download-Page-07-30^$all
 ||greponozy.com/1Gcf^$document
-||youtube.com/watch?v=bdIBX4L-VCY^$document
-||youtube.com/watch?v=w_yKAcScwcI^$document
-||youtube.com/watch?v=wbyl2uDabk0^$document
-||youtube.com/watch?v=vOgKYV9MOw4^$document
-||youtube.com/watch?v=mj7Gljnb8ac^$document
-||youtube.com/watch?v=Yfqtm1VoKKs^$document
-||youtube.com/watch?v=XGwoTmg2b48^$document
-||youtube.com/watch?v=heaz5Fz4EKI^$document
-||youtube.com/watch?v=q-g7wMLHuN4^$document
-||youtube.com/watch?v=GsfT47e6Ozw^$document
-||youtube.com/watch?v=zzC0HBVy1I4^$document
-||youtube.com/watch?v=ZnNg7ORZfI4^$document
-||youtube.com/watch?v=O49zoBE_PzU^$document
-||youtube.com/watch?v=rk9MB-sVNl4^$document
-||youtube.com/watch?v=UlUH2m09y2s^$document
-||youtube.com/watch?v=Nh_kgoNrDvk^$document
-||youtube.com/watch?v=yXkLUdZK_fs^$document
-||youtube.com/watch?v=LNrhLKvmK-Y^$document
-||youtube.com/watch?v=QlLYrBvJP0E^$document
-||youtube.com/watch?v=NpBkk3rmdWY^$document
-||youtube.com/watch?v=z6v1E0hapQI^$document
-||youtube.com/watch?v=o0SM-fup_Kg^$document
-||youtube.com/watch?v=8N8KhQkZEHM^$document
-||youtube.com/watch?v=yGQDtZg7T4w^$document
-||youtube.com/watch?v=09K3EZiH37A^$document
 ||underthfeoveu.monster^$all
 ||rummaringp.pics^$all
 ||ndandinter.hair^$all
@@ -32523,97 +32591,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||blockadsology.net^$document
 ||lido-pass.org^$all
 ||householdresponses.com^$document
-||worldcoins.bond^$document
-||worldcoin-get.com^$document
-||worldcoin-airdrop.pro^$document
-||worldcoins-pro.org^$document
-||worldcoins-pro.net^$document
-||theotherdao.xyz^$document
-||blurredapeclub.xyz^$document
-||degods.pro^$document
-||news-worldcoin.org^$document
-||worldtoken.live^$document
-||verify-worldcoin.org^$document
-||apecoin.boo^$document
-||apecoinmax.com^$document
-||b0redapeyachtclub.com^$document
-||race-pudgypenguins.com^$document
-||upgrade-degods.com^$document
-||blurshare.live^$document
-||blur-gateway.com^$document
-||punks-2023.com^$document
-||degods-app.com^$document
-||leyerzero.network^$document
-||layerzero-airdrop.us^$document
-||stargate-event.net^$document
-||stargatebridga.com^$document
-||layerzero-dash.com^$document
-||layerzero-dashboards.com^$document
-||layer-zeros.com^$document
-||layerzeroclaims.org^$document
-||laeyrzeros.com^$document
-||layerzero-web.com^$document
-||legacy-degods.com^$document
-||layerzero-supports.com^$document
-||layerzero-support.com^$document
-||zappers-me.com^$document
-||zapper-about.com^$document
-||enter-doodles2.app^$document
-||worldcoin-3vp.pages.dev^$document
-||eventworldcoin.com^$document
-||worldcoin-secure.org^$document
-||pudgypenguins-pass.com^$document
-||uniswap.com.im^$document
-||kanpaipandas.online^$document
-||claim-worldcoin.tech^$document
-||claimworldcoin.com^$document
-||layerzero-drop.net^$document
-||layer-zero.cc^$document
-||network-layerzero.org^$document
-||sui-ledger.xyz^$document
-||bidding.trade^$document
-||world-coin-one.pages.dev^$document
-||worldscoin-claim.top^$document
-||worldcoin.baby^$document
-||drop-worldcoin.site^$document
-||solana-erc.click^$document
-||worldcoin-airdrops.com^$document
-||ai-worldcoin.net^$document
-||solana2.pro^$document
-||network-asset.eu.org^$document
-||bocaratonwebdevelopment.com^$document
-||pro-worldcoin.club^$document
-||pro-worldcoin.org^$document
-||pro-worldcoin.net^$document
-||pro-worldcoin.vip^$document
-||ai-worldcoin.online^$document
-||pro-worldcoin.com^$document
-||pro-worldcoin.me^$document
-||redirecttodrop.top^$document
-||world-coin.pro^$document
-||worldcoin-giveaway.com^$document
-||x-worldscoint.com^$document
-||x-claimworld.com^$document
-||xworldcoin-easy.com^$document
-||xworldcoin-club.com^$document
-||worldcoins-pro.com^$document
-||xworldscoint.com^$document
-||worldcoins-pro.co^$document
-||enter-degods.net^$document
-||gmxiux.com^$document
-||labs-layerzero.network^$document
-||finance.hn^$document
-||layerzeronetwork.site^$document
-||pudgyspace.com^$document
-||premint.tf^$document
-||uniswap-airdrop3.com^$document
-||get-uniswap.com^$document
-||looksrare-web3.net^$document
 ||equity-invest.ch^$document
 ||diligere.co.uk^$document
 ||optimismtokens-drop.com^$document
 ||optimisim.io^$document
 ||arkhaminteiligence.com^$document
+||ceramic.gift^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -33113,6 +33096,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cloudfront.websearchextension.info^$document
 ||websearchextension-api.info^$document
 ||api.websearchextension-api.info^$document
+||madqudden.com^$document
+||santknow.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -33574,8 +33559,14 @@ $popup, third-party, domain=up-4ever.net
 ||the1adblocker.com^$document
 ||otih-oith.us.to^$document
 ||apps.apple.com/*/app/*/id1564900435^$document
-||2-viruses.com/downloads/spyhunter2^$all,~inline-font,~inline-script
+||2-viruses.com/downloads/spyhunter2^$all
+||cfoc.org/go-to-spyhunter/^$all
+||cfoc.org/spyhunter-download-and-install-instructions/^$all
+||cfoc.org/combocleaner-download-mac/^$document
+||sensorstechforum.com/spyhunter-download-and-install-instructions/^$all
+||sensorstechforum.com/spyhunter-for-mac-download-install/^$all
 ||driver-soft.com^$document
+||testedforyou.net^$all
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Advanced SystemCare Free/i)
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/driver easy/i)
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/iobit uninstaller/i)
@@ -33758,6 +33749,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||muskcrypto.io^$all
 
 ! include VXVault.net's threat feed parsed for uBlock Origin
+||fidelbringas.com/amday.exe^$all
 ||xn----8sbkbfthkmkkzmo6dvh.xn--p1ai/crypted.exe^$all
 ||193.31.28.13/mips^$all
 ||artmediastudio.ro/Amdau.exe^$all
