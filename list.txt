@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 7/5/2023
-! Last updated: 17/08/2023
+! Last updated: 18/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -239,6 +239,8 @@ sensorstechforum.com##p:has([src^="https://sensorstechforum.com/wp-content/uploa
 sensorstechforum.com##center:has([title="Download SpyHunter for Mac"])
 sensorstechforum.com##p:has([src="https://www.youtube.com/embed/KbGF_fvsRU4"])
 sensorstechforum.com###win_top_new_hidden
+macsecurity.net##.banner
+macsecurity.net##.btn-download.btn-lg.btn
 windowsdispatch.com##strong
 dlldownloads.com##.page-container > p
 windowsreport.com##.bnr-block
@@ -16663,6 +16665,55 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zapprecisionadmire.com^$all,~inline-font
 ||zealousstraitcommit.com^$all,~inline-font
 ://trk.*.run/$document
+||apbbjmp.com^$all,~inline-script
+||apptjmp.com^$all,~inline-script
+||awbbgate.com^$all,~inline-script
+||awbbjmp.com^$all,~inline-script
+||awecrjmp.com^$all,~inline-script
+||awecrptjmp.com^$all,~inline-script
+||awejmp.com^$all,~inline-script
+||aweptjmp.com^$all,~inline-script
+||awptjmp.com^$all,~inline-script
+||bbcrgate.com^$all,~inline-script
+||bbentgate.com^$all,~inline-script
+||chryjmp.com^$all,~inline-script
+||click.jasmin.com^$all,~inline-script
+||crbbgate.com^$all,~inline-script
+||crbbjmp.com^$all,~inline-script
+||crengate.com^$all,~inline-script
+||crentexgate.com^$all,~inline-script
+||crentgate.com^$all,~inline-script
+||crepgate.com^$all,~inline-script
+||cretgate.com^$all,~inline-script
+||crjpgate.com^$all,~inline-script
+||crjpingate.com^$all,~inline-script
+||crjugate.com^$all,~inline-script
+||crmentjg.com^$all,~inline-script
+||crptentry.com^$all,~inline-script
+||crptgate.com^$all,~inline-script
+||crtajmp.com^$all,~inline-script
+||crtjmp.com^$all,~inline-script
+||crtmainjmp.com^$all,~inline-script
+||entjgcr.com^$all,~inline-script
+||jsmcrjmp.com^$all,~inline-script
+||jsmcrptjmp.com^$all,~inline-script
+||jsmentry.com^$all,~inline-script
+||jsmjmp.com^$all,~inline-script
+||jsmptjmp.com^$all,~inline-script
+||mptentry.com^$all,~inline-script
+||mptgate.com^$all,~inline-script
+||protojsmgw.com^$all,~inline-script
+||prtord.com^$all,~inline-script
+||ptapjmp.com^$all,~inline-script
+||ptbbjmp.com^$all,~inline-script
+||ptcrwmjmp.com^$all,~inline-script
+||ptentry.com^$all,~inline-script
+||ptosrd.com^$all,~inline-script
+||ptwmbed.com^$all,~inline-script
+||ptwmjmp.com^$all,~inline-script
+||wmptengate.com^$all,~inline-script
+||93.93.51.223^$all,~inline-script
+||livejasmin.com/*&origin=$doc
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -32597,6 +32648,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||optimisim.io^$document
 ||arkhaminteiligence.com^$document
 ||ceramic.gift^$all
+||seasonsofficial.com^$document
+||investmusk.org^$all
 ||totalav.com^$all
 ||www.totalav.com^$all
 ||api.totalav.com^$all
@@ -34402,7 +34455,7 @@ $removeparam=mkt_tok
 $removeparam=ampcid
 $removeparam=affname
 $removeparam=MID,domain=~media-cdn.costco.*|~community.arubanetworks.com
-$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*
+$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*|~getqpay.com
 $removeparam=nr_email_referer
 $removeparam=in_source
 $removeparam=srnd
