@@ -5,7 +5,12 @@ import re
 import datetime
 LIST_FILENAME = "list.txt"
 STATUS_FILENAME = "status.txt"
-lists = {"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt","The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt","iam-py-test's antitypo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt","Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"}
+lists = {
+	"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt",
+	"The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt",
+	"iam-py-test's antitypo list":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt",
+	"Actually Legitimate URL Shortener Tool":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
+}
 
 donelines = []
 donedomains = []
@@ -26,13 +31,15 @@ def extdomain(line):
 			domain = line[2:-33]
 		elif line.startswith("||") and line.endswith("^"):
 			domain = line[2:-1]
+		elif line.startswith("||") and line.endswith("^$all,~inline-font"):
+			domain = line[2:-1]
 		return domain
 	except:
 		return ""
 
 mainlist = """! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 7/5/2023
+! Script last updated: 19/8/2023
 ! Last updated: {}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
