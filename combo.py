@@ -33,11 +33,11 @@ def extdomain(line):
 		elif line.startswith("||") and line.endswith("^"):
 			domain = line[2:-1]
 		elif line.startswith("||") and line.endswith("^$all,~inline-font"):
-			domain = line[2:-1]
+			domain = line[2:-18]
 		elif line.startswith("||") and line.endswith("^$doc,popup"):
-			domain = line[2:-1]
+			domain = line[2:-11]
 		elif line.startswith("||") and line.endswith("^$all,~inline-script"):
-			domain = line[2:-1]
+			domain = line[2:-20]
 		return domain
 	except:
 		return ""
@@ -100,8 +100,12 @@ for clist in lists:
 with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
 	f.write(mainlist)
 	f.close()
+justdomains = []
+for d in donedomains:
+	if "/" not in d and "." in d and "*" not in d and d != "":
+		justdomains.append(d)
 with open(DOMAIN_FILENAME, "w", encoding="UTF-8") as f:
-	f.write("\n".join(donedomains))
+	f.write("\n".join(justdomains))
 	f.close()
 with open(STATUS_FILENAME,'w') as status:
 	status.write("""Stats:
