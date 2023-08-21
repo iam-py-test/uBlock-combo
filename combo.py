@@ -21,9 +21,9 @@ def extdomain(line):
 	try:
 		domain = ""
 		if line.startswith("||") and line.endswith("^$all"):
-			domain = line[2:-6]
+			domain = line[2:-5]
 		if line.startswith("||") and line.endswith("^$doc"):
-			domain = line[2:-6]
+			domain = line[2:-5]
 		if line.startswith("||") and line.endswith("^$document"):
 			domain = line[2:-10]
 		if line.startswith("||") and line.endswith("^$3p"):
@@ -44,7 +44,7 @@ def extdomain(line):
 
 mainlist = """! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 19/8/2023
+! Script last updated: 20/8/2023
 ! Last updated: {}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
@@ -77,9 +77,9 @@ def parselist(l,curl=""):
 			continue
 		elif line.startswith("!#include "):
 			try:
-				incpath = urllib.parse.urljoin(curl,line[10:],allow_fragments=True)
+				incpath = urllib.parse.urljoin(curl,line[10:], allow_fragments=True)
 				inccontents = requests.get(incpath).text.split("\n")
-				endcontents = parselist(inccontents,incpath)
+				endcontents = parselist(inccontents, incpath)
 				plist += "{}\n".format(endcontents)
 			except Exception as err:
 				print(line,err)
