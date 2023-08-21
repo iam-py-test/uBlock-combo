@@ -5,6 +5,7 @@ import re
 import datetime
 LIST_FILENAME = "list.txt"
 STATUS_FILENAME = "status.txt"
+DOMAIN_FILENAME = "domains.txt"
 lists = {
 	"Dandelion Sprout's Anti-Malware List":"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt",
 	"The malicious website blocklist":"https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt",
@@ -98,6 +99,9 @@ for clist in lists:
 
 with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
 	f.write(mainlist)
+	f.close()
+with open(DOMAIN_FILENAME, "w", encoding="UTF-8") as f:
+	f.write("\n".join(donedomains))
 	f.close()
 with open(STATUS_FILENAME,'w') as status:
 	status.write("""Stats:

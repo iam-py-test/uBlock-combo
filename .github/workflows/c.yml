@@ -19,6 +19,7 @@ jobs:
         echo Debugging output
         uname
         pip3 --version
+        pip3 list
         python --version
         which python
         id
