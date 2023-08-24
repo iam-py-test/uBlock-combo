@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 23/08/2023
+! Last updated: 24/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24878,6 +24878,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||dropbox.com/scl/fi/r3firsxixp8h4qv69gurt/A.Objectives-of-Facebook-Marketing-AD-Campaign-2023-NEW-Obag-Handbags.zip$all
 ||ttschmidt.de^$all
 ||tfdee.tempurl.host^$document
+||revanced.info^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -30212,6 +30213,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||computer.zip^$document
 ||cringe.zip^$document
 ||yahootk.tk^$all
+||www.paypal-com-verify.$document,domain=~translate.goog
 
 ! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
@@ -32440,6 +32442,7 @@ $doc,removeparam=user_email_address
 @@/subscribe?$doc,removeparam=user_email_address
 ||twitter.com^$doc,removeparam=cn
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
+||demo.thisischip.com^$doc,removeparam=o
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
