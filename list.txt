@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 29/08/2023
+! Last updated: 30/08/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24878,6 +24878,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ttschmidt.de^$all
 ||tfdee.tempurl.host^$document
 ||revanced.info^$all
+||changzhoujijinxuexi.cn^$all
+||qftwpl.icu^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -29410,6 +29412,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||kingsoftz.com^$all
 ||msm-coop.co.uk^$all
 ||presonsinatize.com^$all
+||push-ebfhafd-6311.boustahe.com^$all
+||push-*.boustahe.com^$document
+||nomadsfit.com^$all
+||mackledcity.com^$all
+||onebiensillc.com^$all
+||wejds.co.in^$document
+||apedodo8.fun^$document
+||derytc.click^$all
+/light/av/nrtn03/index.php?lpkey=$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -29868,14 +29879,8 @@ rarbg.to##a[href*="furiousfar.com"]
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$document
 ||www.amazceon-co-jp.amazccen.$document
 ||www.amazconn-co-jp.amazccne.$document
-||cdn4image.com^$domain=anonfiles.com
 ||come-get-s0me.com^$image,3p
-||click.pclk.name^$domain=anonfiles.com
-||pushub.net^$image,domain=anonfiles.com
-||img.cdn.house^$domain=anonfiles.com
-||anonfiles.com/sw_anonfiles.js
-anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
-||imghst-de.com^$image,domain=anonfiles.com|expressionsvegetales.fr
+||imghst-de.com^$image,domain=expressionsvegetales.fr
 ||clicksmint.site^$image,domain=ru
 startpage.com##.total-adblock-desktop
 ||startpage.com/sp/cdn/bundles/*/*/lib/TotalAdBlockAdultWidget.js^$script
@@ -31262,7 +31267,7 @@ $removeparam=share_link_id
 ||tiktok.com^$removeparam=share_author_id
 $removeparam=/^web_id\d+/,domain=tiktok.com
 ||tiktok.com^$removeparam=embed_source
-$removeparam=si,domain=open.spotify.com|zappos.com
+$removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtube.com|youtu.be|zappos.com
 ||open.spotify.com^$removeparam=/advertising_partner_name=/i
 ||open.spotify.com^$removeparam=%243p
 $removeparam=gtm
@@ -31897,7 +31902,7 @@ $removeparam=eml,domain=endesa.com|scholastic.com
 ||despegar.$removeparam=/^clt_/
 ||despegar.$removeparam=mktdata
 ||entradas.com^$removeparam=referer_info
-$removeparam=referer,domain=bodykind.com
+$removeparam=referer,domain=bodykind.com|clink2.com|dlink2.com
 ||officemonster.co.uk^$removeparam=/^fo_/
 ||viglink.com^$removeparam=vgref
 ||analytics.bluekai.com^$removeparam=phint
@@ -31979,7 +31984,6 @@ $removeparam=psrc,domain=savagex.com
 ||gearbest.$removeparam=lkid
 ||banggood.com^$removeparam=custlinkid
 ||newark.com^$removeparam=COM
-||soundcloud.com^$removeparam=si
 ||market.yandex.ru^$removeparam=cpc
 ||everesttech.net^$removeparam=/^ev_/
 ||promofarma.com^$removeparam=etf-name
@@ -32450,6 +32454,7 @@ $doc,removeparam=user_email_address
 ||twitter.com^$doc,removeparam=cn
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
 ||demo.thisischip.com^$doc,removeparam=o
+$removeparam=dyn,domain=clink2.com|dlink2.com,doc
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
