@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 06/09/2023
+! Last updated: 07/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24881,6 +24881,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||changzhoujijinxuexi.cn^$all
 ||qftwpl.icu^$all
 ||appykidsco.com^$document
+||corrpls-it-cl.top^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -31937,7 +31938,7 @@ $removeparam=eml,domain=endesa.com|scholastic.com
 ||despegar.$removeparam=/^clt_/
 ||despegar.$removeparam=mktdata
 ||entradas.com^$removeparam=referer_info
-$removeparam=referer,domain=bodykind.com|clink2.com|dlink2.com
+$removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 ||officemonster.co.uk^$removeparam=/^fo_/
 ||viglink.com^$removeparam=vgref
 ||analytics.bluekai.com^$removeparam=phint
