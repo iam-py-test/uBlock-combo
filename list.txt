@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 08/09/2023
+! Last updated: 09/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24795,6 +24795,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||allcommonstories.com^$all
 ||fitgirl-repack.com^$all
 ||62.182.156.148^$all
+||spexjs.com^$document
 ||95.216.94.138^$all
 ||kellmda.click^$all
 ||te.legra.ph/Download-07-02-11^$all
@@ -24882,6 +24883,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||qftwpl.icu^$all
 ||appykidsco.com^$document
 ||corrpls-it-cl.top^$all
+/wp-admin/Install.exe|$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -29507,6 +29509,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||nearbyme.io^$document
 ||lp.pcsystemfix.com^$document
 ||pcsystemfix.com^$document
+||xoomber.com^$document
 ||searchtoolshub.com^$document
 ||drivermax.com^$document
 ||techloris.com/go/restoro/$document
@@ -30714,7 +30717,7 @@ $removeparam=actId
 $removeparam=actCampaignType
 $removeparam=actSource
 $removeparam=oly_anon_id
-$removeparam=oly_enc_id
+$removeparam=oly_enc_id,doc,domain=~greenbuildingadvisor.com
 $doc,removeparam=/^wickedid=/i
 $doc,removeparam=/^wickedsource=/i
 $doc,removeparam=/^wickedplacement=/i
@@ -31276,7 +31279,7 @@ $removeparam=ogbl
 $removeparam=_x_tr_pto
 ||google.$removeparam=/^sa=X$/
 ||google.$removeparam=/^sa=N$/
-||support.google.com^$removeparam=sjid
+||support.google.com^$doc,removeparam=sjid
 ||www.google.$doc,removeparam=gs_lp
 ||www.google.*/search$removeparam=oq,doc
 ||google.$doc,removeparam=sca_esv
@@ -31956,7 +31959,7 @@ $removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org
 @@||duckduckgo.com/tty^$removeparam=t
 ||yandex.$removeparam=clid
 $removeparam=cpa-perf
-$removeparam=visit_id,domain=bilibili.com|google.*
+$removeparam=visit_id,doc,domain=bilibili.com|google.*
 ||cc.loginfra.com/cc$removeparam=a
 ||cc.loginfra.com/cc$removeparam=bw
 ||cc.loginfra.com/cc$removeparam=px
