@@ -6,8 +6,6 @@
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-
-! ----- BEGIN Dandelion Sprout's Anti-Malware List -----
 ||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf
 ||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top
@@ -22497,8 +22495,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||amazonaws.com^$doc,popup,badfilter
 ||amazonaws.com^$doc,badfilter
 ||amazonaws.com^$badfilter
-
-! ----- BEGIN The malicious website blocklist -----
 ||xn--faebook-64a.com^$document
 ||strawberry6532210.brizy.site^$all
 ||starlangbank.com^$all
@@ -29985,8 +29981,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||apps.apple.com/*/app/totalav-safe-site/id1403850681$document
 ||apps.apple.com/*/developer/protected-net-group-limited$document
 ||iam-py-test.github.io/malware.html^$document
-
-! ----- BEGIN iam-py-test's antitypo list -----
 ||xn--gogle-jua.com^$all
 ||vrustotal.com^$document
 ||googlec.om^$all
@@ -30259,8 +30253,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||cringe.zip^$document
 ||yahootk.tk^$all
 ||www.paypal-com-verify.$document,domain=~translate.goog
-
-! ----- BEGIN Actually Legitimate URL Shortener Tool -----
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
@@ -30840,7 +30832,7 @@ $removeparam=af_siteid
 $removeparam=/^af_sub\d=/
 $removeparam=af_sub_siteid
 $removeparam=is_retargeting
-$removeparam=shortlink
+$doc,removeparam=shortlink
 $removeparam=/^pid=.*_int$/
 $removeparam=deep_link_sub1
 $removeparam=ClickThruEmail
