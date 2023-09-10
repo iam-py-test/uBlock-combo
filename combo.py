@@ -94,7 +94,6 @@ def parselist(l,curl=""):
 
 for clist in lists:
 	l = requests.get(lists[clist]).text.split("\n")
-	mainlist += "\n! ----- BEGIN {} -----\n".format(clist)
 	mainlist += parselist(l,lists[clist])
 
 with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
@@ -102,7 +101,7 @@ with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
 	f.close()
 justdomains = []
 for d in donedomains:
-	if "/" not in d and "." in d and "*" not in d and d != "":
+	if "/" not in d and "." in d and "*" not in d and d != "" and d.endswith(".") == False:
 		justdomains.append(d)
 with open(DOMAIN_FILENAME, "w", encoding="UTF-8") as f:
 	f.write("\n".join(justdomains))
