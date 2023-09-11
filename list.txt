@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 10/09/2023
+! Last updated: 11/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25191,7 +25191,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||static.cdnativepush.com/contents/s/6e/aa/67/726cd9cf6ea6a525bbb628cab3/0303553451413.png^$all
 ||littlecdn.com/apps/contents/s/e1/43/b6/8d4db17f1838a03992a72e9dbf/01412844174435.png^$all
 ||gapscult.com^$all
-||supercillious.xyz^$all
 ||walkeryellow141.weebly.com^$all
 ||www.rewards-cards.org^$document
 ||www.dealskeeper.com^$document
@@ -25201,7 +25200,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ebaaa.xyz^$all
 ||uprimp.com^$document
 ||odaba.live^$all
-||postoffice-depot38.com^$document
 ||lifeimpressions.net^$popup
 ||may8forstudents.org/free-discord-nitro-codes-list-no-human-verification/^$all
 ||www.easyrobuxtoday.org^$document
@@ -28296,7 +28294,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||ereallywasnoth.com^$all
 ||czpcc.nereherewetem.info^$all
 ||free.premiumworldapp.com^$document
-||www.chromnius.com^$document
+||chromnius.com^$document
 ||anglebank.space^$all
 ||funtwitter.games^$all
 ||twitter-circle.com^$all
@@ -29448,6 +29446,23 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||binomo.broker^$document
 ||binomo-brokers.com^$document
 ||coinreq.com^$document
+||uplevelrewards.com^$document
+||liveappsearch.com^$document
+||oasoomsa.top^$all
+||wholedailyjournal.com^$all
+||fubsoupt.top^$all
+||adblocked-supreme.net^$document
+||5hgawd5145.monster^$all
+||another-seem.monster^$document
+||ptbqre.com^$all
+||datinghere-top.life^$document
+||cuddleyadmire.com^$document
+||mcaverify.click^$all
+||w61.1piecemanga.com^$document
+||fbet.com^$all
+||onwardrespirationcommandment.com^$all
+||odesbest.com^$all
+||loadoverlylatestinfo-program.info^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
