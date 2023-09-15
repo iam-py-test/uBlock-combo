@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 14/09/2023
+! Last updated: 15/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25102,6 +25102,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 /wp-admin/Install.exe|$document
 ||telegrnm.org^$all
 ||fdmpkg.org^$all
+||blogspot.edolio5.com^$document
+||pdfviewer.app^$document
+||efsyn.news^$document
+||zougla.news^$document
+||tvxs.news^$document
+||lubentv.com^$document
+||emvolio-gov.gr^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -29693,6 +29700,9 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 /light/QfhuPJ/index.php?lpkey=$document
 ||rtmladweb.com^$all
 ||best-pc-protect.xyz^$all
+||odessystems.com^$all
+||saniceproxic.com^$all
+||derryneeptedle.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30076,10 +30086,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||youtube.com/channel/UCRYvu6p4-T3RCyl7tgtfC_Q^$document
 ||youtube.com/channel/UCzSW21exQQ_6DJO0GjPr8Dw^$document
 ||youtube.com/channel/UC4H0NSb0XAzRAT9NQ4h08jA^$document
-||youtube.com/channel/UCwcAbWsLU8unC4gfvIEHoow^$document
-||youtube.com/channel/UChE-nOGOh96pDowEsMloOLg^$document
-||youtube.com/channel/UC_gq1KHg8zw7Xvrb2n1y_rA^$document
-||youtube.com/channel/UCqlhhYDT7P0IStLbb-L2nZA^$document
 ||youtube.com/watch?v=4XsnniuVG3c^$document
 hanoiopentourism.com##[id*=comment-] > .comment-wrap:has-text(/DINOSONTECH ON INSTAGRAM/i)
 vixencrypto.com##.comment_content:has-text(/dinosontech on Instagram/i)
@@ -30141,7 +30147,6 @@ youtube.com###comment:has-text(/𝙸𝚍𝚎𝚊𝚕𝚑𝚊𝚌𝚔𝚎𝚛𝚜
 youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||romanhackers.com^$document
 ||telegram.me/Cryptoboost01^$document
-||youtube.com/@TeslaUS-Live/$document
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
@@ -30164,6 +30169,7 @@ $popup,third-party,domain=up-4ever.net
 ||ropesunfamiliar.com^$popup,third-party
 ||grumbletonight.com^$popup,third-party
 .com/nQPFw.asp$popup,third-party,domain=r18.best
+www.google.*##[data-dtld="totalav.com"]
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
@@ -32585,7 +32591,7 @@ $removeparam=src_custom
 ||bbc.$removeparam=at_link_id
 ||bbc.$removeparam=at_link_origin
 ||linkedin.com^$removeparam=updateEntityUrn
-||whatsapp.com^$removeparam=helpref
+$doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 ||nvidia.com^$removeparam=jso
 $removeparam=srsltid,doc
 ||dl-protect.$removeparam=fn
