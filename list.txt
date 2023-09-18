@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 17/09/2023
+! Last updated: 18/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25110,6 +25110,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||lubentv.com^$document
 ||emvolio-gov.gr^$document
 ||yourfirstfunnelchallenge.com^
+||libretube.app^$all
+||bookingcomdetails.blogspot.com^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -29704,6 +29706,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||odessystems.com^$all
 ||saniceproxic.com^$all
 ||derryneeptedle.com^$all
+||bitoxies.com^$document
+||moonexio.com^$document
+||altgetxio.com^$document
+||cratopex.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30171,6 +30177,7 @@ $popup,third-party,domain=up-4ever.net
 ||grumbletonight.com^$popup,third-party
 .com/nQPFw.asp$popup,third-party,domain=r18.best
 www.google.*##[data-dtld="totalav.com"]
+allaboutcookies.org###offer-review-widget-container
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
@@ -30510,6 +30517,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||cringe.zip^$document
 ||yahootk.tk^$all
 ||www.paypal-com-verify.$document,domain=~translate.goog
+||bookingcomdetails.$document,domain=~booking.com|~translate.goog
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
