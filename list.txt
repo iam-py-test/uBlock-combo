@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 18/09/2023
+! Last updated: 19/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -3989,7 +3989,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||findanswersnow.net^$all,~inline-font
 ||gpush.cogocast.net^$all,~inline-font
 ||info.leadid.com^$all,~inline-font
-||listrakbi.com^$all,~inline-font
 ||partner.mediawallahscript.com^$doc,popup
 ||signupandturnyourscreenoffsafepowernow.date^$all,~inline-font
 ||tag.cogocast.net^$all,~inline-font
@@ -10506,6 +10505,63 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||watchrenewedcompletelyinfo-product.info^$all,~inline-font
 ||watchuberdevelopedinfo-product.info^$all,~inline-font
 ||34.200.46.148^$all,~inline-font
+||abstorick.com^$all,~inline-font
+||affienness.com^$all,~inline-font
+||ailippiess.co.in^$all,~inline-font
+||anknulachemila.com^$all,~inline-font
+||baculforynal.com^$all,~inline-font
+||beboasty.co.in^$all,~inline-font
+||belshivers.com^$all,~inline-font
+||braphones.com^$all,~inline-font
+||bumberoval.com^$all,~inline-font
+||ceninemiacty.com^$all,~inline-font
+||chakfoliked.com^$all,~inline-font
+||delepednery.com^$all,~inline-font
+||derhostrins.com^$all,~inline-font
+||dientailines.co.in^$all,~inline-font
+||eprevabirs.com^$all,~inline-font
+||esolobent.com^$all,~inline-font
+||fecurpenled.com^$all,~inline-font
+||fleocenached.com^$all,~inline-font
+||fruffoussaitte.com^$all,~inline-font
+||grapless.com^$all,~inline-font
+||guitmestra.com^$all,~inline-font
+||hiddydale.com^$all,~inline-font
+||hotomeloinia.com^$all,~inline-font
+||hureclas.com^$all,~inline-font
+||hytortial.com^$all,~inline-font
+||inconers.com^$all,~inline-font
+||kaphomet.com^$all,~inline-font
+||lambatorkincer.co.in^$all,~inline-font
+||listamuddly.com^$all,~inline-font
+||moutovens.com^$all,~inline-font
+||nuoutple.com^$all,~inline-font
+||patravers.com^$all,~inline-font
+||pickwolize.com^$all,~inline-font
+||pordindaunme.com^$all,~inline-font
+||praccitenite.com^$all,~inline-font
+||psatraum.com^$all,~inline-font
+||pstatoxers.co.in^$all,~inline-font
+||qualloidarphal.com^$all,~inline-font
+||racaisforre.com^$all,~inline-font
+||rishalcowl.com^$all,~inline-font
+||rowdonizal.com^$all,~inline-font
+||sangentrolon.com^$all,~inline-font
+||sheobured.com^$all,~inline-font
+||sopiones.com^$all,~inline-font
+||soruracenic.com^$all,~inline-font
+||tadifirdemotomy.com^$all,~inline-font
+||tomasturcupse.com^$all,~inline-font
+||trophional.com^$all,~inline-font
+||unchacting.co.in^$all,~inline-font
+||unflobaillon.com^$all,~inline-font
+||unpetfavaratess.com^$all,~inline-font
+||unresmassela.com^$all,~inline-font
+||unvidarm.com^$all,~inline-font
+||urnigarted.com^$all,~inline-font
+||wuruclas.co.in^$all,~inline-font
+||zondeucearixes.com^$all,~inline-font
+||85.17.80.16^$all,~inline-font
 ||sitey.me^$doc
 ||agazpeppily.live^$all,~inline-font
 ||agraffesalps.com^$all,~inline-font
@@ -32752,6 +32808,7 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,doc
 ||gitlab.$removeparam=ref_type
 ||google.$removeparam=fg
 ||bk8win8.com^$doc,removeparam=aftcamp
+||avast.com^$doc,removeparam=__cf_chl_rt_tk
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
