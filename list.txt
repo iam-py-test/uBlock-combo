@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 20/09/2023
+! Last updated: 21/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16990,6 +16990,29 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||no-oppdatere.$all,~inline-script
 ||no-oppdatert.$all,domain=~no
 ||179.43.189.62$all,~inline-script
+||authde.us^$all,~inline-script
+||dc-r.us^$all,~inline-script
+||de-po.us^$all,~inline-script
+||fr-p.us^$all,~inline-script
+||ge-op.us^$all,~inline-script
+||gr-ui.us^$all,~inline-script
+||irsac.us^$all,~inline-script
+||irsad.us^$all,~inline-script
+||irsae.us^$all,~inline-script
+||irsam.us^$all,~inline-script
+||irsat.us^$all,~inline-script
+||irsaz.us^$all,~inline-script
+||irsbh.us^$all,~inline-script
+||irsdj.us^$all,~inline-script
+||m-ir.us^$all,~inline-script
+||mag-er.us^$all,~inline-script
+||tr-po.us^$all,~inline-script
+||upsmo.us^$all,~inline-script
+||upsre.us^$all,~inline-script
+||upste.us^$all,~inline-script
+||upstr.us^$all,~inline-script
+||reschedule-delivery.ups.com.$doc
+||103.174.102.240^$all,~inline-script
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
