@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 21/09/2023
+! Last updated: 22/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16765,7 +16765,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||wmptengate.com^$all,~inline-script
 ||93.93.51.223^$all,~inline-script
 ||livejasmin.com/*&origin=$doc
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev
 ||github.sale^$all,~inline-script
 ||0nedr1ved0cumentonline.com^$all,~inline-script
 ||88godetailsvc.com^$all,~inline-script
@@ -25191,6 +25191,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||yourfirstfunnelchallenge.com^
 ||libretube.app^$all
 ||bookingcomdetails.blogspot.com^$all
+||bsc-dataseed1.binance.org^
+||ioiubby73b1n.com^
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
