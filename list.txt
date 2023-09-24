@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 23/09/2023
+! Last updated: 24/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15,7 +15,7 @@
 ||bid^$doc
 ||ooo^$doc,domain=~toast.ooo
 ||sbs^$doc
-||discount^$doc
+||discount^$doc,domain=~real.discount
 ||cfd^$doc,domain=~frcoal.cfd
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
 .life/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -32426,7 +32426,7 @@ $removeparam=loid,domain=reddit.app.link
 $removeparam=loid_created,domain=reddit.app.link
 $removeparam=reddaid,domain=reddit.app.link
 $removeparam=campaign,domain=reddit.app.link
-$removeparam=feature,domain=reddit.app.link|youtube.com
+$doc,removeparam=feature,domain=reddit.app.link|youtube.com|youtu.be
 $removeparam=keyword,domain=reddit.app.link
 $removeparam=mweb_subreddit_ids,domain=reddit.app.link
 $removeparam=mweb_loid,domain=reddit.app.link
