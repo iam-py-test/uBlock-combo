@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 27/09/2023
+! Last updated: 28/09/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25198,6 +25198,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||nightnitroglass.com^$all
 ||whitelinetosplit.com^$document
 ||bluesmallbutterfly.com^$document
+||bitwariden.com^$all
+||crazygameis.com^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
