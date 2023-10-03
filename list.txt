@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 02/10/2023
+! Last updated: 03/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23941,7 +23941,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bisbenefits.solutions^$all
 ||136.144.41.109^$all
 ||okra-grouper-hny2.squarespace.com^$all
-||thaisethalitaconfeccoes.com.br^$all
 ||pirate4.life^$all
 ||891706.com^$all
 ||www.njgummys.com^$all
@@ -25215,6 +25214,25 @@ ostrowlubelski.pl##^responseheader(location)
 ||violationphysics.click^$all
 ||buadss.com^$all
 ||dateadore.com^$document
+||scribdbook.top^$all
+||librilibs.com^$all
+||dleggere.com^$all
+||mujib-store28.blogspot.com^$all
+||xn4iqv.succyarthyry.com^$all
+||kxkxgw.succyarthyry.com^$all
+||581358.succyarthyry.com^$all
+||2ntrfi.succyarthyry.com^$all
+||fjvv2i.succyarthyry.com^$all
+||hyjecr.succyarthyry.com^$all
+||mkhvuv.succyarthyry.com^$all
+||37yito.succyarthyry.com^$all
+||0wvghk.succyarthyry.com^$all
+||invv7n.succyarthyry.com^$all
+||nze0xw.succyarthyry.com^$all
+||ixzc4t.succyarthyry.com^$all
+||bdhze4.succyarthyry.com^$all
+||hzgsp3.succyarthyry.com^$all
+||qwwnvw.succyarthyry.com^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
