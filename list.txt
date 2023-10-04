@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 03/10/2023
+! Last updated: 04/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25190,7 +25190,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||yourfirstfunnelchallenge.com^
 ||libretube.app^$all
 ||bookingcomdetails.blogspot.com^$all
-||bsc-dataseed1.binance.org^
 ||ioiubby73b1n.com^
 ||zlibrary-africa.se^$all
 ||uspscd.com^$all
@@ -25233,6 +25232,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||bdhze4.succyarthyry.com^$all
 ||hzgsp3.succyarthyry.com^$all
 ||qwwnvw.succyarthyry.com^$all
+||37.139.129.145^$all
+||meshitislaw.com^$all
+||uploaddeimagens.com.br^$all
+||coloradokibosafarihostel.co.tz^$all
+||qpurrybeatmecamtest.ddns.net^$all
+||www.transportesevaristomadero.com/profilecontent/*.exe$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -29838,6 +29843,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||secondquaver.com^$document
 ||gentlynudegranny.com^$document
 ||ramlexdigital.com^$all
+||z-lib.is^$all
+||zlib.is^$all
+||zlib.to^$all
+||zlibrary.to^$all
+||zlibrary.is^$all
+||z-lib.to^$all
+||z-lib.io^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30647,6 +30659,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.paypal-com-verify.$document,domain=~translate.goog
 ||bookingcomdetails.$document,domain=~booking.com|~translate.goog
 ||anonfiles.com^$document
+||steamcomunity.ru^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
@@ -32893,6 +32906,7 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,doc
 ||discordapp.$removeparam=ex
 ||discordapp.$removeparam=is
 ||discordapp.$removeparam=hm
+||slack.com/downloads/$doc,removeparam=t
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
