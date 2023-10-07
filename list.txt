@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 06/10/2023
+! Last updated: 07/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22959,9 +22959,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||lifecom24.co.cc^$all
 ||206.189.61.126^$all
 ||45.227.253.62^$all
-||dhafj.youneerdmo.top^$all
-||lprde.youneerdmo.top^$all
-||45.142.214.207^$all
 ||45.61.185.83^$all
 ||uehge4g6gh.2ihsfa.com^$all
 ||2ihsfa.com^$all
@@ -23623,7 +23620,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||idmpatched.com^$all
 ||getprocrack.co^$all
 ||autocracking.com^$all
-||macwinsofts.com^$all
 ||productkeyfree.org^$all
 ||chcracked.com^$all
 ||cracksdat.com^$all
@@ -25239,6 +25235,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||qpurrybeatmecamtest.ddns.net^$all
 ||www.transportesevaristomadero.com/profilecontent/*.exe$document
 ||millionjobs.works^$all
+||libretube.net^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -32924,6 +32921,7 @@ $doc,removeparam=method,domain=peacocktv.com
 ||researchgate.net^$doc,removeparam=_tp
 ||bet.com^$removeparam=xrs
 $doc,removeparam=share_id,domain=reddit.com
+||xvideos.$doc,removeparam=sxcaf
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
