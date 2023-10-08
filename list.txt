@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 07/10/2023
+! Last updated: 08/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -31553,7 +31553,6 @@ $removeparam=adnxs_uid
 $removeparam=CookieSyncId
 $removeparam=variationId
 $removeparam=ayl_id
-$removeparam=user_session_id
 $removeparam=prev_scp
 $removeparam=beeswax_id
 $removeparam=ses_id
@@ -31595,7 +31594,6 @@ $removeparam=impr_uid
 $removeparam=ucf_user_id
 $removeparam=prx_referrer
 $removeparam=lotamePanoramaId
-$removeparam=dtm_token
 $removeparam=GoogleAnalytics__ga
 $removeparam=yandexuid
 $removeparam=uniq_req_id
@@ -31605,11 +31603,9 @@ $removeparam=cbuster
 $removeparam=__aast
 $removeparam=__aasi
 $removeparam=vgd_vstrid
-$removeparam=sessionStarted
 $removeparam=quantcastid
 $removeparam=ns_ts
 $removeparam=ns__p
-$removeparam=mapValue
 $removeparam=iiqnodata
 $removeparam=AV_C_USER_ID
 $removeparam=sv_origin
@@ -31635,17 +31631,14 @@ $removeparam=desturl
 $removeparam=cachebuster
 $removeparam=adtech_uid
 $removeparam=adroll_insertion_id
-$removeparam=_viewts
 $removeparam=__cq_uuid
-$removeparam=visitor_token
-$removeparam=session_token
 $removeparam=apnx_uid
 $removeparam=__aavt
 $removeparam=__aavi
 $removeparam=quantcastId
 $removeparam=pmUserId
 $removeparam=p_gpid
-$removeparam=msToken
+$doc,removeparam=msToken
 $removeparam=mboxSession
 $removeparam=mboxMCGVID
 $removeparam=jsession
@@ -31654,8 +31647,8 @@ $removeparam=bx_uid
 $removeparam=adroll_ad_payload
 $removeparam=_mchHr
 $removeparam=DVP_PP_BUNDLE_ID
-$removeparam=uid_bam
-$removeparam=sspUserID
+$doc,removeparam=uid_bam
+$doc,removeparam=sspUserID
 $removeparam=pv_ts
 $removeparam=pc_i
 $removeparam=na_ci
