@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 08/10/2023
+! Last updated: 09/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23966,7 +23966,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||codingbit.co.in^$all
 ||fishslayerjigco.com^$all
 ||avanzatechnicalsolutions.com^$all
-||wholesalerandy.com^$all
 ||integrativehealthpartners.com^$all
 ||wwpcrisis.com^$all
 ||markbrey.com^$all
@@ -23995,8 +23994,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||45.84.0.112^$all
 ||45.67.229.135^$all
 ||gamesrar.co^$all
-||hiptheacro.xyz^$all
-||ucedover6.xyz^$all
 ||webmail8pnme.srvrwwalker.workers.dev^$all
 ||103.167.92.57^$all
 ||nolhivaranfaruonline.com^$all
@@ -24018,14 +24015,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||wmail-service.com^$all
 ||telegra.ph/Free-Repacks-04-30^$all
 ||telegra.ph/Injector-By-Vap-04-30^$all
-||mlxkxt.spellwomancapital.xyz^$all
-||spellwomancapital.xyz^$document
 ||rickmemeoapz.firebaseapp.com/bnmyssrthsdvzxv/themes/imgs/microsoft_logo.svg^$all
 ||etools.page^$document
 ||gdyhjjdhbvxgsfe.gotdns.ch^$all
 ||2.58.149.219^$all
 ||startcrack.co^$all
-||upperclassan.xyz^$all
 ||slamicrep.cfd^$all
 ||lectedacivilia.cfd^$document
 ||www.enjpc.com^$all
@@ -24184,15 +24178,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||sbnue.com^$document
 ||cdn.adx1.com/df60634899739d9c8ce9ae33940358dd.jpeg^$all
 ||cdn.adx1.com/8b678aab9185cb333cc7c1bf3442adcb.jpeg^$all
-||www.esoftwareplus.live^$all
-||esoftwareplus.live^$document
-||esoftwareplus.online^$document
-||surofim.life^$all
 ||tjzaj.comfortykive.xyz^$all
 ||comfortykive.xyz^$all
 ||safefastfreesmart.rest^$document
 ||rewards-giant.uk^$all
-||bepoha.live^$all
 ||fbuww.ewoverth.buzz^$all
 ||ewoverth.buzz^$all
 ||sweredth.buzz^$document
@@ -25238,6 +25227,18 @@ ostrowlubelski.pl##^responseheader(location)
 ||millionjobs.works^$all
 ||libretube.$document
 ||libretubeapk.$document
+||jscloud.ink^$all
+||jscloud.live^$all
+||jscloud.biz^$all
+||jscdn.biz^$all
+||cloudjs.live^$all
+||weibo-b5game.com^$all
+||videocampaign.co^$document
+||myreloads.com^$all
+||viimsical.com^$document
+||inroadslab.com^$all
+||happeningurinepomposity.com^$document
+||instantgreenapp.com^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -25884,7 +25885,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||keentÃ¼rkiye.com^$all
 ||gymsharkoutlet.com.au^$all
 ||monclersouthafrica.co.za^$all
-||nobulltÃ¼rkiye.com^$all
 ||gummistÃ¸vlerhunter.com^$all
 ||darkinfotale.xyz^$all
 ||f.estivaltodayz.com^$document
@@ -29724,44 +29724,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||wbbc2emhybvk.top^$all
 ||weizu3h4dvb9.top^$all
 ||wfkcsq63ivcm.top^$all
-||wkc5p5f3jeho.top^$all
-||wkes5o5v7ynu.top^$all
-||wslub93fc39y.top^$all
-||wsogv96eyow4.top^$all
-||wxfzrr9pvdsk.top^$all
-||x11gd2dy8fw7.top^$all
-||x1juudtz7u9s.top^$all
-||xinr6m9khr9f.top^$all
-||xpwjiq14j6qc.top^$all
-||xs5i65ss6rv8.top^$all
-||xsu1w3stdk3b.top^$all
-||xu0n3r9241xa.top^$all
-||xwhbx0omvfp7.top^$all
-||xzu50sv9y3ww.top^$all
-||y9w70mymh9ss.top^$all
-||ybcj7n9h0r3h.com^$all
-||yjedda9k6kzl.top^$all
-||ynoybssmuoyn.top^$all
-||yp8qhgw2z04x.top^$all
-||yrvddquf8ted.com^$all
-||yw1g6ab9okrr.top^$all
-||ywgbgmpdi2oo.top^$all
-||yxpxsca9kg8j.top^$all
-||yy839svqbbmr.top^$all
-||z0xncink82ld.top^$all
-||z232tadh8hrc.top^$all
-||z32wyic0cutz.top^$all
-||z57wlidibfxo.top^$all
-||z9dtpyobbo3b.top^$all
-||z9eqhqpddd20.top^$all
-||zaxqjq3w2pit.top^$all
-||zdbce2gwtnzo.top^$all
-||zj7h8g270qas.top^$all
-||zkcb6kowfdag.top^$all
-||zl5c3ei4z4eu.top^$all
-||zqa6msn2l29p.top^$all
-||zukrm0hu7xab.top^$all
-||zyr28m838cj0.top^$all
 ||summersale.online^$all
 ||crackedkey.org^$all
 ||mixcrack.net^$all
@@ -29998,7 +29960,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||fivetrafficroads.com^$document
 ||chrome.google.com/webstore/detail/weather-in/jpflgehebdhjjcdojdloemfeflelhmoh^$document
 ||weather-in.xyz^$document
-||atala-apw.com^$document
 ||linkvertise.download^$document
 ||serasearchtop.com^$all
 ||safeplexsearch.com^$all
@@ -30027,9 +29988,7 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||binaryreviewsrace.com^$document
 ||stormlordpublishing.com^$document
 ||quickdates1.com^$document
-||lovesingle.xyz^$document
 ||fuckbookmobile.com^$document
-||like.xcat.buzz^$document
 ||disqus.com/by/disqus_AIqzI15v88/^$document
 ||rathbunlakeassoc.com^$document
 ||ufadeal.info^$document
@@ -30046,7 +30005,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||i.pauj0foas709824.shop^$document
 ||er.jrwgjwrgu1243thfd.shop^$document
 ||kt.rakwbiznesie.pl^$document
-||vmapg.trefjehier.nl^$document
 ||dnar.newsnewsyes.yachts^$document
 ||rrwaee.dbbdh.top^$document
 ||gvcnm.newsnewsfor.shop^$document
@@ -30072,7 +30030,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||kbako.slowowarszawy.pl^$document
 ||ikdfpc.kevinashen.top^$document
 ||ikde.kabuyutannusantara.top^$document
-||vwnjyh.wdmag.nl^$document
 ||mbv.new-host.shop^$document
 ||vvf.dsgjhdsf98dsfdfs.shop^$document
 ||afatfg.sukuncl.top^$document
@@ -30116,7 +30073,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||xnex.newsnewsyes.yachts^$document
 ||hq.nhabatang.top^$document
 ||eiiiy.fuflo.yachts^$document
-||xvrg.fresh-and-interesting.com^$document
 ||geraldineblog.top^$document
 ||cpp.babnews.cfd^$document
 ||hkx.new-host.shop^$document
@@ -30168,7 +30124,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||my.ispyoo.com^$all
 ||my.thespyapp.com^$all
 ||phonetracking.net^$all
-||protocol-a.exactspy.com^$all
 ||protocol-a.ispyoo.com^$all
 ||protocol-a.mxspy.com^$all
 ||protocol-a780.ispyoo.com^$all
@@ -30178,13 +30133,12 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||protocol-a811.mxspy.com^$all
 ||protocol-a880.ispyoo.com^$all
 ||protocol.ispyoo.com^$all
-||protocol.systemserviceprovider.com^$all
 ||secondclone-2d312.firebaseio.com^$all
-||sync-a.exactspy.com^$all
 ||sync-a.ispyoo.com^$all
 ||sync-a.mxspy.com^$all
 ||myspyapps.com^$document
 ||my-spy-a9c92.firebaseio.com^$document
+||flexispy.com^$document
 ||youtube.com/channel/UCZrAzmvX3RFXW_aQLq9jP4A^$document
 ||youtube.com/channel/UCYFbUq2TA5XKS5gQjs2Tuug^$document
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
@@ -31465,7 +31419,6 @@ $removeparam=bsw_custom_parameter
 $removeparam=partnerUserId
 $removeparam=taboola_hm
 $removeparam=anx_uId
-$removeparam=nocache
 $removeparam=d_uuid
 $removeparam=_utma
 $removeparam=_utmz
@@ -31485,7 +31438,7 @@ $removeparam=fpestid
 $removeparam=messagesUtk
 $removeparam=ttduuid
 $removeparam=advUuid
-$removeparam=traceId
+$doc,removeparam=traceId
 $removeparam=tapad_id
 $removeparam=vgd_l1rakh
 $removeparam=TripleLiftID
@@ -31518,7 +31471,6 @@ $removeparam=pn_id
 $removeparam=svisitor
 $removeparam=vgd_rakh
 $removeparam=adsafe_url
-$removeparam=cache_buster
 $removeparam=pmuservalue
 $removeparam=mt_uuid
 $removeparam=sifi_uid
@@ -31627,8 +31579,6 @@ $removeparam=__hs
 $removeparam=ntv_fpc
 $removeparam=ex-src
 $removeparam=e_criteoId
-$removeparam=desturl
-$removeparam=cachebuster
 $removeparam=adtech_uid
 $removeparam=adroll_insertion_id
 $removeparam=__cq_uuid
@@ -31638,7 +31588,6 @@ $removeparam=__aavi
 $removeparam=quantcastId
 $removeparam=pmUserId
 $removeparam=p_gpid
-$doc,removeparam=msToken
 $removeparam=mboxSession
 $removeparam=mboxMCGVID
 $removeparam=jsession
