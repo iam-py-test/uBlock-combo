@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 17/10/2023
+! Last updated: 18/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22977,7 +22977,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||179.43.187.188^$all
 ||trust-safe.com^$all
 ||116.203.127.162^$all
-||keocial.pw^$all
 ||193.142.59.119^$all
 ||185.227.139.5^$all
 ||194.226.139.141^$all
@@ -23028,8 +23027,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||findmyautoparts.com^$all
 ||grandpaurbanfarm.net^$all
 ||guide4idiots.com^$all
-||holdergear.com^$all
-||houseof2.com^$all
 ||identityofplace.com^$all
 ||shpwmy.com^$all
 ||a1l.no-ip.biz^$all
@@ -23085,10 +23082,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||foodandcot.com^$all
 ||freshdepor.com^$all
 ||hottrackcdn.com^$all
-||hqassets.com^$all
 ||mechat.info^$all
 ||paypaypay.org^$all
-||scriptdesire.com^$all
 ||stairany.com^$all
 ||verywellfitnesse.com^$all
 ||gctatic.com^$all
@@ -23172,7 +23167,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||cp45362.tmweb.ru^$all
 ||ci69056.tmweb.ru^$all
 ||co89927.tmweb.ru^$all
-||cnw-offers.live^$all
 ||193.142.59.150^$all
 ||104.244.78.138^$all
 ||89.223.70.202^$all
@@ -23236,7 +23230,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||221.15.216.46^$all
 ||59.93.23.101^$all
 ||tristreamstv.com^$all
-||cocolatest.sbs^$all
 ||pinokio.online^$all
 ||sitetraffic.site^$all
 ||spacecom.site^$all
@@ -25281,6 +25274,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||nobistech.net^$all
 ||qlsn5.ru.com^$all
 ||arduino.uk.eu.org^$all
+||bestcrutches.com^$all
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
