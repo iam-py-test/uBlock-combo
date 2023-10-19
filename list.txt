@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 18/10/2023
+! Last updated: 19/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -30198,6 +30198,14 @@ $popup,third-party,domain=up-4ever.net
 .com/nQPFw.asp$popup,third-party,domain=r18.best
 www.google.*##[data-dtld="totalav.com"]
 allaboutcookies.org###offer-review-widget-container
+||www.coinbase-wallet.$document,domain=~coinbase.com|~translate.goog
+||steamc0ommunity.$document,domain=~translate.goog
+||facebooksecuritys.$document,domain=~facebook.*|~translate.goog
+||feceboolk.$document
+||barclaysnet-support.$document
+||instragramsecurity.$document
+.top/_errorpages/*.exe|$document,domain=top
+/hiddenbin/boatnet.spc|$document
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
@@ -30540,11 +30548,13 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||bookingcomdetails.$document,domain=~booking.com|~translate.goog
 ||anonfiles.com^$document
 ||steamcomunity.ru^$all
-||www.coinbase-wallet.$document,domain=~coinbase.com|~translate.goog
-||steamc0ommunity.$document,domain=~translate.goog
-||facebooksecuritys.$document,domain=~facebook.*|~translate.goog
-||feceboolk.$document,domain=blogspot.*|top|xyz|github.io
 /^https?:\/\/whatsapp-com-video/$document,domain=~translate.goog
+||fb-account-restricted-$document
+||fb-reserve-noreply-$document
+||meta-account-review-$document
+||metabusiness-support-$document
+||resolve-user-violation-$document
+||downlod.com^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
@@ -32254,7 +32264,7 @@ $removeparam=publishername,domain=vistaprint.com
 $removeparam=PublisherSID,domain=gucci.com
 $removeparam=pzid,domain=emirates.com
 $removeparam=/^refID=/i,domain=allmodern.com|calphalon.com|priceline.com|questrade.com|wayfair.*|yankeecandle.com
-$removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|elfcosmetics.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
+$doc,removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
 $removeparam=/^srcCode=/i,domain=jcrew.com|magellans.com|teleflora.com|tigerdirect.com
 $removeparam=scd,domain=ashleystewart.com
 ||casper.com^$removeparam=gwlurl
