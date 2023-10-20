@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 19/10/2023
+! Last updated: 20/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25275,6 +25275,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||qlsn5.ru.com^$all
 ||arduino.uk.eu.org^$all
 ||bestcrutches.com^$all
+||ķeepass.info^$all
+||ķeepass.$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -30204,6 +30206,7 @@ allaboutcookies.org###offer-review-widget-container
 ||feceboolk.$document
 ||barclaysnet-support.$document
 ||instragramsecurity.$document
+||metamask.matamaskloen.$document
 .top/_errorpages/*.exe|$document,domain=top
 /hiddenbin/boatnet.spc|$document
 ||totaladblocker.com^$all
@@ -30819,7 +30822,6 @@ $removeparam=_gl
 $removeparam=gtmtrack
 $removeparam=vifAdCount
 $removeparam=vifNav
-$removeparam=afcode
 $removeparam=_source_page
 $removeparam=vfadid
 $doc,removeparam=/^outputType=amp$/
@@ -31142,8 +31144,6 @@ $removeparam=/^pid=.*_int$/
 $removeparam=deep_link_sub1
 $removeparam=ClickThruEmail
 $removeparam=ClickThruCustomerNumber
-$removeparam=/^tracker=affiliatefuture$/i
-$removeparam=affc
 $removeparam=byp455
 $removeparam=detail_from
 $removeparam=sub_aff_id
@@ -31167,7 +31167,6 @@ $removeparam=ko_click_id
 $removeparam=rbx_source
 $removeparam=rbx_medium
 $removeparam=rbx_campaign
-$removeparam=a_fid
 $removeparam=mr%3AtrackingCode
 $removeparam=mr%3AreferralID
 $removeparam=mr%3Adevice
@@ -31192,7 +31191,6 @@ $removeparam=nrtv_as_src
 $removeparam=trk_ref
 $removeparam=ircid
 $removeparam=cf_affiliate_id
-$removeparam=rndad
 $removeparam=ad_config_id
 $removeparam=dfw_tracker
 $removeparam=/^src=rss$/
@@ -31202,6 +31200,13 @@ $removeparam=awinaffid
 $removeparam=cje
 $removeparam=removedParams
 $removeparam=iclid
+$removeparam=rndad
+$removeparam=/^tracker=affiliatefuture$/i
+$removeparam=affc
+$removeparam=a_fid
+$removeparam=afCampaignId
+$removeparam=afCreativeId
+$removeparam=afcode
 $removeparam=_bta_tid
 $removeparam=_bta_c
 $removeparam=trk_contact
@@ -31248,8 +31253,6 @@ $removeparam=mindbox-click-id
 $removeparam=dtpid
 $removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tagtag_uid
-$removeparam=afCampaignId
-$removeparam=afCreativeId
 $removeparam=affiliateCode
 $removeparam=affcode
 $removeparam=/^ref=admitad$/
@@ -31547,7 +31550,7 @@ $removeparam=cid,domain=8days.sg|abcnews.go.com|adguard.com|adshares.net|ae.com|
 $removeparam=ref,doc,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|umami.is|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|nhl.com|zulily.com
 $removeparam=src,doc,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|x.com|yahoo.com
-$doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|netflix.com|nortonsafe.search.ask.com|ngx.me|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|remppatori.fi|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|x.com|ylighting.com|youtube.com|yubo.live
+$doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cmswire.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|netflix.com|nortonsafe.search.ask.com|ngx.me|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|remppatori.fi|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|x.com|ylighting.com|youtube.com|yubo.live
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
@@ -32158,11 +32161,6 @@ $removeparam=ad_content,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.c
 $removeparam=ad_prodid,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
 ||rei.com^$removeparam=target_id
 ||squarespace.com^$removeparam=subchannel
-$removeparam=partner,domain=accuweather.com|fastcompany.com|humblebundle.com
-||mechanicalkeyboards.com^$removeparam=creator
-||audible.$removeparam=source_code
-||audible.$removeparam=ipRedirectFrom
-||audible.$removeparam=ipRedirectOriginalURL
 $removeparam=tracker,domain=dustdeal.nl|batteryupgrade.*
 ||verizon.com^$removeparam=vendorid
 ||discoveryplus.$removeparam=idp
@@ -32416,7 +32414,6 @@ $removeparam=frs,domain=etsy.com
 $removeparam=click_key,domain=etsy.com
 $removeparam=click_sum,domain=etsy.com
 $removeparam=share_time,domain=etsy.com
-||linkvertise.com^$removeparam=o
 $removeparam=trk,domain=linkedin.com
 ||community.spiceworks.com^$removeparam=carPos
 ||bleepingcomputer.com^$removeparam=cx
@@ -32446,7 +32443,6 @@ $removeparam=eml,domain=endesa.com|scholastic.com
 ||entradas.com^$removeparam=referer_info
 $removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 ||officemonster.co.uk^$removeparam=/^fo_/
-||viglink.com^$removeparam=vgref
 ||analytics.bluekai.com^$removeparam=phint
 ||hao123.com^$removeparam=tn
 ||wsj.com^$removeparam=reflink
@@ -32470,7 +32466,6 @@ $removeparam=visit_id,doc,domain=bilibili.com|google.*
 ||cc.loginfra.com/cc$removeparam=sx
 ||cc.loginfra.com/cc$removeparam=sy
 ||cc.loginfra.com/cc$removeparam=nsc
-||cyber-ad01.cc^$removeparam=ip
 ||listelerim.hepsiburada.com^$removeparam=c
 ||coupang.com^$removeparam=wRef
 ||coupang.com^$removeparam=traceid
@@ -32486,8 +32481,6 @@ $removeparam=hoas,domain=hotspotshield.com|gethotspotshield.com
 $removeparam=hoaci,domain=hotspotshield.com|gethotspotshield.com
 $removeparam=tvh,domain=hotspotshield.com|gethotspotshield.com
 $removeparam=vh,domain=hotspotshield.com|gethotspotshield.com
-||tkqlhce.com^$removeparam=sdate
-$removeparam=f_id,domain=admitad.com
 ||pulseway.com^$removeparam=rfid
 ||dw.com^$removeparam=maca
 ||reuters.com^$removeparam=edition-redirect
@@ -32501,7 +32494,6 @@ $removeparam=f_id,domain=admitad.com
 ||fiverr.com^$removeparam=afp
 ||fiverr.com^$removeparam=cxd_token
 ||sporcle.com^$removeparam=rp
-||localmonero.co^$removeparam=rc
 $removeparam=mv_pc,domain=fragrancenet.com
 ||walmart.$removeparam=/^wl\d=/
 ||walmart.$removeparam=wl10
@@ -32578,7 +32570,6 @@ $removeparam=is_manual_change_site,domain=shein.com
 $removeparam=is_from_origin_btn,domain=shein.com
 $removeparam=from_country,domain=shein.com
 $removeparam=_t,domain=shein.com
-$removeparam=referrer_code,domain=hodlhodl.com
 $removeparam=sr_id,domain=reddit.app.link
 $removeparam=sr_name,domain=reddit.app.link
 $removeparam=domain,domain=reddit.app.link
@@ -32618,7 +32609,6 @@ $removeparam=ad_name
 $removeparam=rs,domain=gamereactor.*
 $removeparam=alpha,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=block,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
-||domains.ch^$removeparam=REF
 ||greenhouse.io^$removeparam=/^lever-/
 ||milanoo.com^$removeparam=Promotion
 ||milanoo.com^$removeparam=deduplication_channel
@@ -33022,6 +33012,24 @@ $doc,removeparam=method,domain=peacocktv.com
 $doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 ||xvideos.$doc,removeparam=sxcaf
 $doc,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+||cmswire.com^$doc,removeparam=topic_id
+||cmswire.com^$doc,removeparam=is_rec
+||simplermedia.com^$doc,removeparam=smg_source
+||simplermedia.com^$doc,removeparam=smg_medium
+||simplermedia.com^$doc,removeparam=smg_campaign
+||simplermedia.com^$doc,removeparam=smg_content
+||tkqlhce.com^$removeparam=sdate
+||localmonero.co^$removeparam=rc
+||linkvertise.com^$removeparam=o
+$removeparam=partner,domain=accuweather.com|fastcompany.com|humblebundle.com
+||mechanicalkeyboards.com^$removeparam=creator
+||audible.$removeparam=source_code
+||audible.$removeparam=ipRedirectFrom
+||audible.$removeparam=ipRedirectOriginalURL
+$removeparam=f_id,domain=admitad.com
+||cyber-ad01.cc^$removeparam=ip
+$removeparam=referrer_code,domain=hodlhodl.com
+||domains.ch^$removeparam=REF
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
