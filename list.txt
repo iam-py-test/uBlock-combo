@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 23/10/2023
+! Last updated: 24/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24295,8 +24295,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||virutalbox.org^$all
 ||get.safety-search.com^$all
 ||safety-search.com^$document
-||ngxqvvpwkumowm.click^$all
-||kmmd6i2bg0rs.click^$all
 ||mega.nz/file/2kIAhSSS#RfpDvKxaabLwA-3WA9Qm7HOsYHQg1_g3oMEykkNrZMY^$all
 ||mega.nz/file/2kIAhSSS^$document
 ||116.202.5.101^$all
@@ -25280,6 +25278,26 @@ ostrowlubelski.pl##^responseheader(location)
 ||qrone1vs.top^$all
 ||iniwork.4cloud.click^$document
 ||idolforloves.sbs^$document
+||magiskzip.net^$all
+||magiskmanagerroot.com^$all
+||magisk.download^$all
+||magiskmanager.com^$all
+||magisk.$document,domain=~topjohnwu.github.io
+||magiskzip.$document,domain=~topjohnwu.github.io
+||magiskmanagerroot.$document,domain=~topjohnwu.github.io
+||magiskmanager.$document,domain=~topjohnwu.github.io
+||magiskcn.$document,domain=~topjohnwu.github.io
+||magiskroot.$document,domain=~topjohnwu.github.io
+||magiskapp.$document,domain=~topjohnwu.github.io
+||magisk.info^$all
+||securescanmtde.com^$all
+||ninzatool.pw^$all
+||powerboostup.com^$all
+||www.ontajdu3js.com^$document
+||arty2night.com^$all
+||quiztionnaire.biz^$all
+||offer-select.com^$document
+||rewardflux.com^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -31714,6 +31732,8 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=CREA
 @@||bing.*/account/action$removeparam=cc
 ||bing.$removeparam=PTAG
+||bing.com/search?$removeparam=gs_lcrp
+||bing.com/search?$removeparam=FPIG
 $removeparam=_trkparms
 $removeparam=_trksid
 $removeparam=_from
@@ -33029,6 +33049,8 @@ $doc,removeparam=aoOfferParams,domain=citi.com
 $removeparam=ProspectID,domain=citi.com
 $removeparam=Promo_ID,domain=citi.com
 $removeparam=BT_VanityDomain,domain=citi.com
+||patreon.com/posts/$doc,removeparam=token
+$doc,removeparam=deliveryName,domain=abp.nl
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
