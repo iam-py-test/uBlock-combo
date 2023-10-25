@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 24/10/2023
+! Last updated: 25/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25298,6 +25298,21 @@ ostrowlubelski.pl##^responseheader(location)
 ||quiztionnaire.biz^$all
 ||offer-select.com^$document
 ||rewardflux.com^$document
+||herew-lmq.com^$document
+||findbestop.com^$document
+||kenant.xyz^$all
+/74Dl/7.html?cep=$document
+||thefinanceadvice.com^$all
+||adblock1.com^$all
+/3-blck-thefinadv-2clks.html?kw=$document
+||newupdatesnow.com^$all
+||dms1708.art^$all
+||154.223.16.114^$third-party
+||oliga.canadacentral.cloudapp.azure.com^$document
+||raw.githubusercontent.com/awsd22/1/main/about.md^$all
+||dropbox.com/scl/fi/q0wq1lha5o0rkgdy9rdr4/m.zip$document
+||set4theupdatesforever.click^$document
+||goads.pro^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||ublockerext.com^$all
@@ -25751,7 +25766,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||nadjustifygas.com^$document
 ||ufacw.com^$document
 ||lyconery-readset.com^$document
-||fralstamp-genglyric.icu^$document
+||fralstamp-genglyric.icu^$all
 ||m1dnightclubx.com^$document
 ||form.run/@fortnite-v-bucks-codes-hack-generator-no-human-verification^$all
 ||free-fortnitevbucksgenerator.blogspot.com^$all
