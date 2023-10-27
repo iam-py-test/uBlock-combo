@@ -17,6 +17,20 @@ donelines = []
 donedomains = []
 excludes = []
 
+# https://www.geeksforgeeks.org/how-to-validate-an-ip-address-using-regex/
+is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
+is_ip_v6 = "((([0-9a-fA-F]){1,4})\\:){7}"\
+             "([0-9a-fA-F]){1,4}"
+is_ip_v4_reg = re.compile(is_ip_v4)
+is_ip_v6_reg = re.compile(is_ip_v6)
+
+def isipdomain(domain):
+	if re.search(is_ip_v4_reg,domain):
+		return True
+	if re.search(is_ip_v6_reg,domain):
+		return True
+	return False
+
 def extdomain(line):
 	try:
 		domain = ""
@@ -101,7 +115,7 @@ with open(LIST_FILENAME,"w",encoding="UTF-8") as f:
 	f.close()
 justdomains = []
 for d in donedomains:
-	if "/" not in d and "." in d and "*" not in d and d != "" and d.endswith(".") == False:
+	if "/" not in d and "." in d and "*" not in d and d != "" and d.endswith(".") == False and isipdomain(d) == False:
 		justdomains.append(d)
 with open(DOMAIN_FILENAME, "w", encoding="UTF-8") as f:
 	f.write("\n".join(justdomains))
