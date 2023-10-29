@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 28/10/2023
+! Last updated: 29/10/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25317,9 +25317,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||ad-blocking24.net^$document
 ||dwnld-here.com^$document
 ||thatmonkeybites3.com^$document
-||download-portal-now.com^$document
+||download-portal-now.com^$all
 ||kerant.xyz^$all
 /74Ib/7.html?cep=$document
+||stratum-eu.rplant.xyz^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30409,6 +30410,11 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||techadsology.com^$all
 ||drivereasy.com^$document
 ||trovi.com^$document
+||sensorstechforum.com^$document
+||donwnaloadeluzal.cfd^$all
+||donwnaloadezzal.sbs^$all
+||ivedmanyyea.org^$document
+||townrusisedprivat.info^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -31082,6 +31088,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||xn--mtamask-$document,domain=io
 /^http:\/\/linkedindocumentinquiry\..*\/linkedinindex\.html$/$document
 ||downlod.com^$all
+||adblockplu.org^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
