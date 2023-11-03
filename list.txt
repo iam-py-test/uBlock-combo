@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 02/11/2023
+! Last updated: 03/11/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -1191,7 +1191,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ://popupblockergold.$all,~inline-font
 ://adblock-pro-download.$all,~inline-font
 142.91.159.*$network
-172.255.6.*$network
+/^172\.255\.6\.([0-9]{1,2}|[12][0-689][0-9]|17[0-689])$/$network
 23.109.150.*$network
 23.109.248.*$network
 ||abbotinexperienced.com^$all,~inline-font
@@ -22104,6 +22104,7 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||zoysiasdossil.live^$all,~inline-font
 ||zunianmedici.website^$all,~inline-font
 ||zygomasnugify.uno^$all,~inline-font
+172.255.6.*$network
 188.42.84.*$network
 203.195.121.*$network
 ||gantdanmark.com^$all,~inline-font
@@ -22276,6 +22277,10 @@ tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
 ||your-ups-track.com^$all,~inline-font
 ||zoll-pakete-support.com^$all,~inline-font
 ||95.214.26.78^$all,~inline-font
+||fed-packs.no^$all
+||har-freight.us^$all
+||wirexapp.africa.com^$all
+||tachyoniums.eu.com^$all
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||androidgreek.com^$doc
@@ -25321,6 +25326,14 @@ ostrowlubelski.pl##^responseheader(location)
 ||kerant.xyz^$all
 /74Ib/7.html?cep=$document
 ||stratum-eu.rplant.xyz^$all
+||walknotice.com^$all
+||thedentadsi24.com^$all
+||ruiukp.top^$all
+||synergyproz.com^$all
+||apparaatbeheer-online-abnamro-icscards.codeanyapp.com^$all
+||apparaatbeheer-online-abnamro-icscards.$document
+||mouseoiet.fun^$all
+||ddos.dnsnb8.net^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31088,6 +31101,14 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||account-restriction-$document
 ||xn--mtamask-$document,domain=io
 /^http:\/\/linkedindocumentinquiry\..*\/linkedinindex\.html$/$document
+||metamchromextensoin.$document
+||www.lnstagram-$document,domain=com|top|xyz
+||subscription-netflix-support.$document
+||promote-warning-meta.$document
+||mailoutlook365login.us-$document
+||office356domainlistmaintainnance$document
+||me-metamasklogin.$document
+||matamask-logi.$document
 ||downlod.com^$all
 ||adblockplu.org^$document
 $removeparam=yclid
@@ -33339,7 +33360,7 @@ $removeparam=src_custom
 ||bbc.$removeparam=at_link_id
 ||bbc.$removeparam=at_link_origin
 ||linkedin.com^$removeparam=updateEntityUrn
-$doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
+$doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|instagram.com
 ||nvidia.com^$removeparam=jso
 $removeparam=srsltid,doc
 ||dl-protect.$removeparam=fn
@@ -33535,6 +33556,8 @@ $removeparam=BT_VanityDomain,domain=citi.com
 $doc,removeparam=deliveryName,domain=abp.nl
 $doc,removeparam=wt_mc
 $doc,removeparam=wt_zmc
+*ref=exploit.media*$doc,removeparam=/^ref=exploit.media$/
+$doc,removeparam=bpli,domain=blogger.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -33555,6 +33578,7 @@ forbes.com##+js(set, trackingService.track, noopFunc)
 @@||bing.*/ws/redirect/$removeparam
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
 @@/unsub/?$removeparam
+@@||email-link.$removeparam
 @@||canon.*/supportproduct/gettabcontent$removeparam=referrer
 @@||urldefense.com^$removeparam
 @@||startpage.com/sp/qi$removeparam=sc
