@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 03/11/2023
+! Last updated: 04/11/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22281,6 +22281,9 @@ tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
 ||har-freight.us^$all
 ||wirexapp.africa.com^$all
 ||tachyoniums.eu.com^$all
+||shua999.com^$all
+||ybd001.com^$all
+tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text( click & chat me ):has-text(🔞)
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||androidgreek.com^$doc
@@ -25334,6 +25337,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||apparaatbeheer-online-abnamro-icscards.$document
 ||mouseoiet.fun^$all
 ||ddos.dnsnb8.net^$all
+||69.49.246.187^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -25400,7 +25404,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||turapport-strience.icu^$document
 ||americanwinnerscircle.com^$all
 ||freeco.xyz^$all
-||modgjn.uno^$all
 ||golemgreat122.000webhostapp.com^$all
 ||aceelectricalny.com^$all
 ||www.appninjas.xyz^$all
@@ -25414,7 +25417,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||88btbtt.com^$all
 ||musmentportal.com^$all
 ||casualdating.com^$document
-||www.iflirts.com^$document
 ||iflirts.com^$document
 ||ourcoolstories.com^$all
 ||javsidblog.com^$document
@@ -25475,14 +25477,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||clickgadgets.club^$all
 ||crackthisgame.com^$document
 ||pseepsie.com^$document
-||www.carnalcams.com^$document
 ||carnalcams.com^$document
 ||fbookhookups.com^$document
 ||fuckpal.com^$document
 ||fuck-me.io^$document
-||0.acceptww.com^$all
 ||acceptww.com^$all
-||get.safelyonline.net^$all
 ||live.newsvot.com^$document
 ||secure-access-981cd52a6hqpm8e2.gate23.xyz^$document
 ||clk.hosting-redirect.com^$document
@@ -32100,6 +32099,7 @@ $removeparam=_biz_z
 $removeparam=_biz_t
 $removeparam=_biz_l
 $removeparam=__aait
+$removeparam=tgclid
 /auto-append-spmid.js
 $removeparam=cid,domain=8days.sg|abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|channelnewsasia.com|childrensplace.com|dcard.tw|elmundo.es|emirates.com|factoryoutletstore.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|marca.com|microsoft.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|todayonline.com|tokopedia.com|tommy.com|toms.com|totalbeauty.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|xg4ken.com|zales.com
 $removeparam=ref,doc,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|umami.is|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com|emag.ro
