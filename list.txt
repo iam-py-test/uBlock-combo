@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 13/11/2023
+! Last updated: 14/11/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -4438,7 +4438,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 78.128.112.*$network
 179.60.146.*$network
 ||trafredirtds.com^$all,~inline-font
-.com/landers/iphone*_spin$doc
+||com/landers/iphone*_spin$doc
 ||pu020ev.com^$all,~inline-font
 ||kadam.net^$all,~inline-font
 ||kdtrk.net^$all,~inline-font
@@ -25448,6 +25448,41 @@ ostrowlubelski.pl##^responseheader(location)
 ||downloading-free.com^$document
 ||anacondastoresaleau.com^$all
 ||anacondasale.com^$all
+||youcineapp.com^$all
+||magistv.video^$all
+||tele-latino.com^$all
+||telelatino.app^$all
+||youcineapk.org^$all
+||btvapp.net^$all
+||youcine.one^$all
+||youcinetv.app^$all
+||youcinetv.page.link^$all
+||latino9.com^$all
+||fadfatest.pneydn.com^$all
+||pandoramain-1794008345.us-west-2.elb.amazonaws.com^$all
+||romatotti520.oicp.io^$all
+||pandorabackup-1322908155.us-west-2.elb.amazonaws.com^$all
+||pcn.panddna.com^$all
+||ok3.mflve.com^$all
+||apz.bsaldo.com^$all
+||abcr.ftsym1.com^$all
+||fadfa.gdalieyw.com^$all
+||more-power-tool.com^$all
+||ryzen-master.com^$all
+||atiflash.ru^$all
+||polaris-bios-editor.ru^$all
+||btc-tools.ru^$all
+||techpowerup-gpu-z.com^$all
+||sapphiretrixx.com^$all
+||srbpolaris.ru^$all
+||clockgen64.com^$all
+||balena-etcher.com^$all
+||nvidiainspector.ru^$all
+||evga-precision.com^$all
+||riva-tuner.com^$all
+||nvflash.ru^$all
+||atikmdagpatcher.com^$all
+||overdriventool.ru^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
