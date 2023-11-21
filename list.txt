@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 20/8/2023
-! Last updated: 20/11/2023
+! Last updated: 21/11/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25492,6 +25492,57 @@ ostrowlubelski.pl##^responseheader(location)
 ||cloudtrck.com^$all
 ||badbull.pro^$all
 ||server31.weebly.com^$all
+||adups.com^$all
+||ozaharso.ru^$all
+||nubiumbi.ru^$all
+||acaenaso.ru^$all
+||atonpi.ru^$all
+||suizibel.ru^$all
+||dakareypa.ru^$all
+||ahmozpi.ru^$all
+||nebtoizi.ru^$all
+||squeamish.ru^$all
+||nahtizi.ru^$all
+||crisiumbi.ru^$all
+||arabianos.ru^$all
+||gayado.ru^$all
+||quyenzo.ru^$all
+||credomched.ru^$all
+||lestemps.ru^$all
+||urdevont.ru^$all
+||hoanzo.ru^$all
+||absorbeni.ru^$all
+||aethionemaso.ru^$all
+||aychobanpo.ru^$all
+||ayzakpo.ru^$all
+||badrupi.ru^$all
+||barakapi.ru^$all
+||boskatrem.ru^$all
+||brudimar.ru^$all
+||decorous.ru^$all
+||dumerilipi.ru^$all
+||heartbreaking.ru^$all
+||judicious.ru^$all
+||karoanpa.ru^$all
+||lamentable.ru^$all
+||procellarumbi.ru^$all
+||ragibpo.ru^$all
+||raidla.ru^$all
+||ramizla.ru^$all
+||samiseto.ru^$all
+||superficial.ru^$all
+||talehgi.ru^$all
+||undesirable.ru^$all
+||valefgo.ru^$all
+||vasifgo.ru^$all
+||vilaverde.ru^$all
+||vloperang.ru^$all
+||zerodems.ru^$all
+||geminiso.ru^$all
+||sabirpo.ru^$all
+||andamanos.ru^$all
+||triticumos.ru^$all
+||tesla3-model.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30419,6 +30470,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||revoketokens.io^$all
 ||revokea.sh^$all
 ||altdentifiers.com^$all
+||cyber-wizard.com^$all
+||iboltcyberhacker.wixsite.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30587,6 +30640,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||townrusisedprivat.info^$document
 ||ccleaner.com^$document
 ||joinhoney.com^$document
+||fortect.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -30867,6 +30921,7 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtube.com/watch?v=Akp_aLQE3fo^$document
 ||youtu.be/TWMhdIuEpk4^$document
 ||youtube.com/watch?v=oqL_qItz-m8^$document
+||youtube.com/watch?v=S6fj4Pzry6E^$document
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
@@ -33725,6 +33780,20 @@ $doc,removeparam=bpli,domain=blogger.com
 $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 *ref=beep.blog*$doc,removeparam=/^ref=beep.blog$/
 ||tempo.co^$doc,removeparam=tracking_page_direct
+||trendyol.com^$doc,removeparam=link_userID
+||trendyol.com^$doc,removeparam=link_contentid
+||teknosa.com^$doc,removeparam=adp_cid
+||teknosa.com^$doc,removeparam=adp_oid
+||n11.com^$doc,removeparam=pfx
+||n11.com^$doc,removeparam=adj_adnomia_click_id
+||n11.com^$doc,removeparam=adj_t
+||cimri.com^$doc,removeparam=platformName
+||cimri.com^$doc,removeparam=offerSponsored
+||cimri.com^$doc,removeparam=commentCount
+||cimri.com^$doc,removeparam=photoCount
+||cimri.com^$doc,removeparam=offerCount
+||cimri.com^$doc,removeparam=offerFiltered
+||cimri.com^$doc,removeparam=hasFavorite
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
