@@ -15,7 +15,7 @@ lists = {
 
 donelines = []
 donedomains = []
-excludes = []
+excludes = requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt").text.split("\n")
 
 # https://www.geeksforgeeks.org/how-to-validate-an-ip-address-using-regex/
 is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
@@ -58,7 +58,7 @@ def extdomain(line):
 
 mainlist = """! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 20/8/2023
+! Script last updated: 22/11/2023
 ! Last updated: {}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
@@ -92,7 +92,7 @@ def parselist(l,curl=""):
 		elif line.startswith("!#include "):
 			try:
 				incpath = urllib.parse.urljoin(curl,line[10:], allow_fragments=True)
-				inccontents = requests.get(incpath).text.split("\n")
+				inccontents = requests.get(incpath).text.replace("\r", "").split("\n")
 				endcontents = parselist(inccontents, incpath)
 				plist += "{}\n".format(endcontents)
 			except Exception as err:
