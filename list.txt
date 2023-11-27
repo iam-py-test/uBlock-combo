@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 26/11/2023
+! Last updated: 27/11/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -7251,6 +7251,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||100.20.104.229^$doc
 ||link.sv^$doc,popup
 ||4.fo^$doc,popup
+||kckb.st^$all,~inline-font
 ||*-trk.xyz^$all,~inline-font
 ||loadingnow.me^$all,~inline-font
 ||gsecurecontent.com^$all,~inline-font
@@ -17112,6 +17113,12 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||wazusoft.com^$all,~inline-font
 ||crackzoom.com^$all,~inline-font
 ||activators4windows.com^$all,~inline-font
+||cfgy6tg.pro^$all,~inline-font
+||hji98ik.click^$all,~inline-font
+||ko04rf8.cfd^$all,~inline-font
+||i3edtgyu.cfd^$all,~inline-font
+||pqlbh88z7.cfd^$all,~inline-font
+||i3s5qfuvs.cfd^$all,~inline-font
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -24959,8 +24966,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||getnomadtblog.com^$all
 ||urhandups.xyz^$all
 ||yt93231mn.click^$all
-||i3edtgyu.cfd^$all
-||ko04rf8.cfd^$all
 ||dr6ghyu7.click^$all
 ||entry4hide.cyou^$all
 ||ovhoq.nkingwitheaam.com^$all
