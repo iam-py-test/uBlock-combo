@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 27/11/2023
+! Last updated: 28/11/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25657,6 +25657,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||revanced.to^$document
 ||67.217.57.54^$all
 ||89.190.156.180^$all
+||modulo.servegame.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30903,6 +30904,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||fuckmebaby.click^$all
 ||vipdeit.com^$all
 ||getcutt.fun^$document
+||free-amore.online^$all
+||t.affoth2.com^$document
+||newfast.pics^$all
 ||csgo.xyz^$all
 ||phonespying.com^$all
 ||copy9.com^$document
@@ -30928,13 +30932,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||myspyapps.com^$document
 ||my-spy-a9c92.firebaseio.com^$document
 ||flexispy.com^$document
-||youtube.com/channel/UCZrAzmvX3RFXW_aQLq9jP4A^$document
-||youtube.com/channel/UCYFbUq2TA5XKS5gQjs2Tuug^$document
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCZftc38yW5yqZI2tNsJt1sQ^$document
-||youtube.com/channel/UCI2KAIrfY5Lggly7BmonC6A^$document
-||youtube.com/channel/UCwMe941WEwthn8zH72Z-7jw^$document
 ||youtube.com/channel/UCc3Vmwa4H_7d_TqPMM2QKAw^$document
 ||youtube.com/channel/UCrp5QRVp6PFHIrNg7gD4YZQ^$document
 ||youtube.com/channel/UC98HAYotaYL_GHD_ejmxX7g^$document
@@ -31051,6 +31050,7 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtu.be/TWMhdIuEpk4^$document
 ||youtube.com/watch?v=oqL_qItz-m8^$document
 ||youtube.com/watch?v=S6fj4Pzry6E^$document
+||youtube.com/watch?v=PtIVwTMcJn0^$document
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
@@ -33922,6 +33922,7 @@ $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyi
 ||cimri.com^$doc,removeparam=hasFavorite
 *ref=blog.roboflow.com*$doc,removeparam=/^ref=blog.roboflow.com$/
 ||gitlab.com^$doc,removeparam=nav_source
+*ref=buffer.com*$doc,removeparam=/^ref=buffer.com$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
