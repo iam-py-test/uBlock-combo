@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 01/12/2023
+! Last updated: 02/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22397,6 +22397,7 @@ tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[dat
 /^https?://[a-z0-9.-]{1,}\.([a-z]{3,}|[a-z][a-tv-z]|[a-qs-z][a-z])/.*(go\.php|redirect|url=|\?re=).*\.(xn--p1ai|рф|%D1%80%D1%84)$/$doc
 ||adservice.google.*/ddm/clk/$doc
 /ad_click/q?&url=$doc
+||cosercosplay.com^$all,~inline-font
 ||unofficialtwrp.com^$doc
 ||androidweblog.com^$doc
 ||androidgreek.com^$doc
@@ -25697,6 +25698,26 @@ ostrowlubelski.pl##^responseheader(location)
 ||systemmeasures.life^$all
 ||xyzcreators.xyz^$all
 ||hotkabachok.com^
+||dbmobile-phototan.de^$all
+||ne-correos.top^$document
+||unikey.vn^$document
+||104.194.130.185^$all
+||109.234.156.180^$all
+||128.140.123.187^$all
+||149.248.76.158^$all
+||152.89.198.77^$all
+||193.106.175.11^$all
+||195.85.115.195^$all
+||212.193.48.80^$all
+||213.227.154.170^$all
+||217.12.206.218^$all
+||45.129.14.157^$all
+||45.143.136.123^$all
+||45.144.28.76^$all
+||45.87.154.158^$all
+||78.24.222.162^$all
+||85.208.107.228^$all
+||91.203.193.162^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31497,6 +31518,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||office356domainlistmaintainnance$document
 ||me-metamasklogin.$document
 ||matamask-logi.$document
+||optusnet-com.$document
 ||downlod.com^$all
 ||adblockplu.org^$document
 ||drive-google-com.$document,domain=~google.*|~translate.goog
