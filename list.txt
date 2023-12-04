@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 03/12/2023
+! Last updated: 04/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25739,6 +25739,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||78.24.222.162^$all
 ||85.208.107.228^$all
 ||91.203.193.162^$all
+||190.104.187.127^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
