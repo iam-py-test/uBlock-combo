@@ -25,7 +25,7 @@ jobs:
         id
         
         echo make the list
-        pip3 install requests
+        pip3 install requests publicsuffixlist
         python combo.py
     - name: Commit & Push
       uses: actions-x/commit@v6
