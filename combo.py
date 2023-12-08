@@ -22,6 +22,8 @@ donelines = []
 donedomains = []
 excludes = requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt").text.split("\n")
 subdomains = requests.get("https://raw.githubusercontent.com/iam-py-test/tracker_analytics/main/kdl.txt").text.split("\n")
+subdomains += requests.get("https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_domains.txt").text.split("\n")
+subdomains += requests.get("https://raw.githubusercontent.com/iam-py-test/cloudflare-usage/main/cnames.txt").text.split("\n")
 
 # https://www.geeksforgeeks.org/how-to-validate-an-ip-address-using-regex/
 is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
