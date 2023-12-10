@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 09/12/2023
+! Last updated: 10/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23,7 +23,7 @@
 .xyz/*/?*=*&*=*&*=*&*=*&*=$doc
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$doc
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
-www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"))
+www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
 www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
@@ -65,7 +65,7 @@ www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*=
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
