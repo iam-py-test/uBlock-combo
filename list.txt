@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 12/12/2023
+! Last updated: 13/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25437,6 +25437,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||demoncitygame.000webhostapp.com^$all
 ||up-nowservice.com^$all
 ||ihrkontosichern.eu^$all
+||fraavy.com^$document
+||base-usps.top^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29916,9 +29918,9 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||z-lib.io^$all
 ||bridgelinering.com^$document
 ||daynitroglass.com^$all
-/av_sw.js?uid=*-*-*-*-*&sid=*-*-*-*-*&sd=*==$first-party,script, domain=com|top|xyz
+/av_sw.js?uid=*-*-*-*-*&sid=*-*-*-*-*&sd=*==$first-party,script,domain=com|top|xyz
 /click.php?key=*&zone_id=$document
-$popup,third-party,denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
+$popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 /landers/mcafee_mac_os_scanner_multilang/alert.png|$image,domain=~mcafee.com|~archive.org
 ||rmut-glo.brandandgift.com/t/clk?id=$popup,third-party
 ||keyimaginarycomprise.com^$document
@@ -30859,6 +30861,7 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtube.com/watch?v=oqL_qItz-m8^$document
 ||youtube.com/watch?v=S6fj4Pzry6E^$document
 ||youtube.com/watch?v=PtIVwTMcJn0^$document
+||youtube.com/watch?v=6FPVqU4n8uo^$all
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
