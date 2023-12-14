@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 13/12/2023
+! Last updated: 14/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -55,6 +55,8 @@ www.google.*##.g:has(a[href*="/redirect/" i]):has(a[href*=".tk/"], a[href*=".ml/
 www.google.*##.g:has(a[href*="&loc=/" i]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="&orig_url=/" i]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="=//"]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*=redirect][href*=".%D1%80%D1%84"])
+www.google.*##.g:has(a[href*="/go/"][href*=".%D1%80%D1%84"])
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
@@ -25439,6 +25441,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||ihrkontosichern.eu^$all
 ||fraavy.com^$document
 ||base-usps.top^$all
+||121.37.215.155^$all
+||pertidose.site^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30862,6 +30866,11 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtube.com/watch?v=S6fj4Pzry6E^$document
 ||youtube.com/watch?v=PtIVwTMcJn0^$document
 ||youtube.com/watch?v=6FPVqU4n8uo^$all
+||youtube.com/watch?v=SQHNWCZNy0w^$all
+||youtube.com/channel/UCZa3tmImIR-1_hXSu6QCYyQ^$all
+||youtube.com/channel/UCUbyp0ZFaBVHifnBR6Fa2Gw^$all
+||youtube.com/channel/UC7jjRUjOAAhrJsS4LvpSsLg^$all
+youtube.com###body:has(#author-text:has-text(@Julliana_beautiful_and_Single))
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
@@ -33160,8 +33169,7 @@ $removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 ||target.com^$removeparam=lnk
 $removeparam=marketing_id
 $removeparam=s,domain=greenhouse.io|mothership.sg|spreadprivacy.com|youku.com|nextdoor.com
-$removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
-@@||duckduckgo.com/tty^$removeparam=t
+$doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
 ||yandex.$removeparam=clid
 $removeparam=cpa-perf
 $removeparam=visit_id,doc,domain=bilibili.com|google.*
@@ -33647,7 +33655,7 @@ $removeparam=rdt,doc,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4ky
 ||easyfundraising.org.uk^$doc,removeparam=efr_source
 ||easyfundraising.org.uk^$doc,removeparam=efr_medium
 ||easyfundraising.org.uk^$doc,removeparam=efr_campaign
-||lego.com^$removeparam=icmp
+$doc,removeparam=icmp,domain=fortnite.com|lego.com
 ||linkedin.com/feed/update$removeparam=origin
 $doc,removeparam=plcmt,domain=grafana.com
 ||make.com^$removeparam=fromImt
@@ -33741,6 +33749,8 @@ $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyi
 $doc,removeparam=gci
 $doc,removeparam=af_reengagement_window
 ||instagram.com^$doc,removeparam=short_redirect
+||privatbank.ua^$removeparam=visit_id
+||yandex.com/portal/set/any$removeparam=sk
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
