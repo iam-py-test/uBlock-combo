@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 15/12/2023
+! Last updated: 16/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -58,7 +58,7 @@ www.google.*##.g:has(a[href*="=//"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*=redirect][href*=".%D1%80%D1%84"])
 www.google.*##.g:has(a[href*="/go/"][href*=".%D1%80%D1%84"])
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"):upward(2)
+www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="ws.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:not([href*="cst.gdn"], [href*="pss.gdn"]):upward(2)
@@ -1192,10 +1192,10 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zimmisballet.tech^$all,~inline-font
 ://popupblockergold.$all,~inline-font
 ://adblock-pro-download.$all,~inline-font
-142.91.159.*$network
+://142.91.159.$doc
 /^172\.255\.6\.([0-9]{1,2}|[12][0-689][0-9]|17[0-689])$/$network
-23.109.150.*$network
-23.109.248.*$network
+://23.109.150.$doc
+://23.109.248.$doc
 ||abbotinexperienced.com^$all,~inline-font
 ||abedwithdrawalautograph.com^$all,~inline-font
 ||abnegateexcavator.com^$all,~inline-font
@@ -3569,10 +3569,10 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zeroclampentice.com^$all,~inline-font
 ||zillionable.com^$all,~inline-font
 ||zonedummy.com^$all,~inline-font
-173.233.137.*$network
-173.233.139.*$network
-192.243.59.*$network
-192.243.61.*$network
+://173.233.137.$doc
+://173.233.139.$doc
+://192.243.59.$doc
+://192.243.61.$doc
 ||deviuser.com^$doc
 /scan-update-and-protect-your-browser.html$doc
 /^(https?://)?(www\.)?cunt[a-z]{3,8}\.com(/|$)/$doc,popup
@@ -4432,9 +4432,9 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||telemetry-urs-microsoft.com^$all,~inline-font
 ||top-captcharesolver.$all,~inline-font
 ||winrar-desktop.com^$all,~inline-font
-46.161.27.*$network
-78.128.112.*$network
-179.60.146.*$network
+://46.161.27.$doc
+://78.128.112.$doc
+://179.60.146.$doc
 ||trafredirtds.com^$all,~inline-font
 ||com/landers/iphone*_spin$doc
 ||pu020ev.com^$all,~inline-font
@@ -4750,13 +4750,13 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zfcurqe.art^$all,~inline-font
 ||zuginmw.art^$all,~inline-font
 /^178\.253\.[0-7]\.\d{1,3}$/$network
-178.253.14.*$network
-178.253.15.*$network
+://178.253.14.$doc
+://178.253.15.$doc
 /^178\.253\.2[0145]\\d{1,3}$/$network
 /^178\.253\.3[04-7]\.\d{1,3}$/$network
-178.253.46.*$network
-178.253.47.*$network
-178.253.54.*$network
+://178.253.46.$doc
+://178.253.47.$doc
+://178.253.54.$doc
 ||85.17.31.152^$all,~inline-font
 ||95.211.26.202^$all,~inline-font
 ||bzsx.link^$all,~inline-font
@@ -4773,7 +4773,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||wznp.link^$all,~inline-font
 ||158.247.212.220^$doc
 ||165.227.168.212^$doc
-162.241.115.*$network
+://162.241.115.$doc
 ||k-yw.com^$all,~inline-font
 ||fearconic.com^$all,~inline-font
 ||atobunderevenes.com^$all,~inline-font
@@ -8277,8 +8277,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zamberlanireland.com^$all,~inline-font
 ||zapatillasvejacl.com^$all,~inline-font
 ||zapatosaldochile.org^$all,~inline-font
-104.160.10.*$network
-165.231.154.*$network
+://104.160.10.$doc
+://165.231.154.$doc
 ||adidas--*$all,~inline-font
 ||adidas-outlet*$all,~inline-font
 ||adidasfactoryoutlet*$all,~inline-font
@@ -9029,14 +9029,14 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||vans-finland.com^$all,~inline-font
 ||martensbratislava.sk^$all,~inline-font
 ||zapatillasmcqueen.com^$all,~inline-font
-165.231.10.*$network
-165.231.152.*$network
-196.196.52.*$network
-196.196.155.*$network
-196.240.121.*$network
-196.242.179.*$network
-196.245.52.*$network
-196.245.56.*$network
+://165.231.10.$doc
+://165.231.152.$doc
+://196.196.52.$doc
+://196.196.155.$doc
+://196.240.121.$doc
+://196.242.179.$doc
+://196.245.52.$doc
+://196.245.56.$doc
 ://rufus.download.$doc,popup
 ://virtualbox.download.$doc,popup
 ://vidiq.download.$doc,popup
@@ -10061,7 +10061,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zevaimsu.net^$all,~inline-font
 ||zewoagoo.com^$all,~inline-font
 ||zoozistu.net^$all,~inline-font
-139.45.197.*$network
+://139.45.197.$doc
 ||academic-information.com^$all,~inline-font
 ||academicvast.com^$all,~inline-font
 ||amused-ground.com^$all,~inline-font
@@ -10659,7 +10659,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||moneystartup.live^$all,~inline-font
 ||fintechbest.online^$all,~inline-font
 &trafficsource=Kadam&$doc
-5.61.60.*$network
+://5.61.60.$doc
 ||algazira-updates.com^$all,~inline-font
 ||articles-news-magazine.com^$all,~inline-font
 ||bellisimo-news.com^$all,~inline-font
@@ -10906,7 +10906,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 /&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$doc
 ||truanet.com^$all,~inline-font
 ||rumadel.com^$all,~inline-font
-103.224.182.*$network
+://103.224.182.$doc
 ||apigroup.xyz^$all,~inline-font
 ||apihouse.xyz^$all,~inline-font
 ||apiinfo.xyz^$all,~inline-font
@@ -11705,7 +11705,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||[2a02:b48:207:1::6]^$all,~inline-font
 ||[2a02:b48:207:1::7]^$all,~inline-font
 ||[2a02:b48:207:1::8]^$all,~inline-font
-||192.243.58.*$network
+://||192.243.58.$doc
 ||abdoser.co.in^$all,~inline-font
 ||acelim.co.in^$all,~inline-font
 ||adsos.xyz^$all,~inline-font
@@ -17035,6 +17035,21 @@ zombooru.com##a[href="http://www.hard55.com"]
 ://ktraks.$all,~inline-font
 ://flow-clck.$all,~inline-font
 ://apps-trk.$all,~inline-font
+||betzykrisesenter.no^$doc
+||citra2010oslo.no^$doc
+||digiter.no^$doc
+||easydisplay.no^$doc
+||kjaerra.no^$doc
+||kontrast1.no^$doc
+||norskmatkultur.no^$doc
+||norskoffroadteknikk.no^$doc
+||nyematoghelse.no^$doc
+||securmarksykkel.no^$doc
+||thecoolgirl.no^$doc
+||topshineauto.no^$doc
+||vossblues.no^$doc
+||yttersiden.no^$doc
+://162.214.80.$doc
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -19016,19 +19031,19 @@ toorgle.net##.join
 ||194.226.139.7^$all,~inline-font
 ||95.181.157.36^$all,~inline-font
 ||95.181.172.204^$all,~inline-font
-194.226.139.*$network
-5.8.67.*$network
-5.101.45.*$network
-5.188.178.*$network
-5.188.200.*$network
-5.188.203.*$network
-5.189.217.*$network
-5.189.252.*$network
-46.148.113.*$network
-46.148.114.*$network
-46.161.31.*$network
-91.243.41.*$network
-91.243.42.*$network
+://194.226.139.$doc
+://5.8.67.$doc
+://5.101.45.$doc
+://5.188.178.$doc
+://5.188.200.$doc
+://5.188.203.$doc
+://5.189.217.$doc
+://5.189.252.$doc
+://46.148.113.$doc
+://46.148.114.$doc
+://46.161.31.$doc
+://91.243.41.$doc
+://91.243.42.$doc
 /^5\.8\.4[4-7]\.\d{1,3}$/$network
 /^5\.101\.4[67]\.\d{1,3}$/$network
 /^5\.188\.5[01]\.\d{1,3}$/$network
@@ -21936,9 +21951,9 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||zoysiasdossil.live^$all,~inline-font
 ||zunianmedici.website^$all,~inline-font
 ||zygomasnugify.uno^$all,~inline-font
-172.255.6.*$network
-188.42.84.*$network
-203.195.121.*$network
+://172.255.6.$doc
+://188.42.84.$doc
+://203.195.121.$doc
 ||gantdanmark.com^$all,~inline-font
 ||gantnorge.com^$all,~inline-font
 ||gantnorges.com^$all,~inline-font
