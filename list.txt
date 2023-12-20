@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 19/12/2023
+! Last updated: 20/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17050,6 +17050,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||vossblues.no^$doc
 ||yttersiden.no^$doc
 ://162.214.80.$doc
+||monetrizer*.$all
+||38.180.96.244^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -25461,6 +25463,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||91.215.85.23^$all
 ||89.23.98.92^$all
 ||forensicswiki.xyz^$document
+||thumbzoner.com^$all
+||offalrouts.xyz^$all
+||mirrorvine.store^$all
+||pushub.net^$all
+||monetrizer.online^$document
+||monetrizer.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33353,9 +33361,9 @@ $removeparam=pr_ref_pid
 $removeparam=pr_seq
 $removeparam=traffic_source,domain=aljazeera.com|bleepingcomputer.com
 $removeparam=/traffic_source=Connatix/i
-$removeparam=site,domain=alina.se
+$doc,removeparam=site,domain=affiliate.insider.com|alina.se
 $removeparam=prisjakt,domain=davids.se|larsbengtsson.se|poradio.se|teleradio.nu
-$removeparam=refresh,domain=cnn.com|startribune.com
+$doc,removeparam=refresh,domain=cnn.com|startribune.com
 ||tradingview.com^$removeparam=feature
 ||emag.ro^$removeparam=recid
 ||emag.ro^$removeparam=scenario_ID
@@ -33771,6 +33779,11 @@ $doc,removeparam=af_reengagement_window
 ||yandex.com/portal/set/any$removeparam=sk
 ||cmp.inmobi.com/tcfv2/cmp2.js$removeparam=referer
 ||fifa.com^$doc,removeparam=entryPoint
+||affiliate.insider.com^$doc,removeparam=amazonTrackingID
+||affiliate.insider.com^$doc,removeparam=h
+||affiliate.insider.com^$doc,removeparam=platform
+||affiliate.insider.com^$doc,removeparam=postID
+||affiliate.insider.com^$doc,removeparam=postSlug
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
