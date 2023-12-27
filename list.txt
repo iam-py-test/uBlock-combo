@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 26/12/2023
+! Last updated: 27/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25468,6 +25468,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||pushub.net^$all
 ||monetrizer.online^$document
 ||monetrizer.com^$document
+||deutschebank-kundendienst.comidrekt.net^$all
+||comidrekt.net^$document
+||energie-portal-24.de^$document
+||streamjumpstart.com^$document
+||thebeneclinic.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30429,6 +30434,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||directchats.site^$document
 ||heylink.me^$document
 ||qdyqdym.shop^$all
+||schnellmpu.com^$all
+||america4internationalstudents.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -33785,6 +33792,28 @@ $doc,removeparam=af_reengagement_window
 ||affiliate.insider.com^$doc,removeparam=postSlug
 ||wordpress.com^$removeparam=/^ref=[a-z-]{5,}$/
 $removeparam=context,domain=avito.ru|avito.ma
+$doc,removeparam=_x_ns_sku_id,domain=temu.com 
+$doc,removeparam=_x_ads_channel,domain=temu.com
+$doc,removeparam=_x_gmc_account,domain=temu.com
+$doc,removeparam=_x_gmc_catalog,domain=temu.com
+$doc,removeparam=_x_ads_creative_id,domain=temu.com
+$doc,removeparam=_x_ns_device,domain=temu.com
+$doc,removeparam=_x_ads_account,domain=temu.com
+$doc,removeparam=refer_page_sn,domain=temu.com
+$doc,removeparam=_x_ns_match_type,domain=temu.com
+$doc,removeparam=_x_ns_msclkid,domain=temu.com
+$doc,removeparam=_x_ads_set,domain=temu.com
+$doc,removeparam=_x_ns_source,domain=temu.com
+$doc,removeparam=_x_ads_id,domain=temu.com
+$doc,removeparam=_p_rfs,domain=temu.com
+$doc,removeparam=_x_ads_sub_channel,domain=temu.com
+$doc,removeparam=_x_vst_scene,domain=temu.com
+$doc,removeparam=mkt_rec,domain=temu.com
+$doc,removeparam=refer_page_el_sn,domain=temu.com
+$doc,removeparam=refccid,domain=bedbathandbeyond.com
+$doc,removeparam=osp,domain=bedbathandbeyond.com
+$doc,removeparam=lyceumGuid,domain=bedbathandbeyond.com
+$doc,removeparam=searchidx,domain=bedbathandbeyond.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
