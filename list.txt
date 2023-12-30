@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/12/2023
+! Last updated: 30/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25488,6 +25488,18 @@ ostrowlubelski.pl##^responseheader(location)
 ||fitgirl-repacks.to^$all
 ||fitgirl-repacks.$document
 ||mediatrackerr.com^$document
+||casinos-austria.install-app.com^$document
+||haxnode.net^$all
+||cleinpuz.cfd^$document
+||tech-pros.pro^$document
+||fitgirlrepackz.com^$all
+||fitgirlrepackz.$document
+||updates.adobe-soft.$document
+||liwishacks.com^$all
+||reviveincapablewew.pw^$all
+||opposesicknessopw.pw^$all
+||politefrightenpowoa.pw^$all
+||chincenterblandwka.pw^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30925,6 +30937,7 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtube.com/channel/UCUbyp0ZFaBVHifnBR6Fa2Gw^$all
 ||youtube.com/channel/UC7jjRUjOAAhrJsS4LvpSsLg^$all
 youtube.com###body:has(#author-text:has-text(@Julliana_beautiful_and_Single))
+||youtube.com/watch?v=n4rDvjvyiM0^$all
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
@@ -30963,6 +30976,15 @@ allaboutcookies.org###offer-review-widget-container
 ||metazmskloign.$document
 ||apple.appleid$document,domain=top
 ||usps.com-$document,domain=~usps.com|~translate.goog
+||metamchromextensoin.$document
+||www.lnstagram-$document,domain=com|top|xyz
+||subscription-netflix-support.$document
+||promote-warning-meta.$document
+||mailoutlook365login.us-$document,domain=~microsoft.com|~outlook.com
+||me-metamasklogin.$document
+||matamask-logi.$document
+||optusnet-com.$document
+||met0amaskl0gin1.$document
 .top/_errorpages/*.exe|$document,domain=top
 /hiddenbin/boatnet.spc|$document
 ||refusedfellow.com^$popup
@@ -31323,15 +31345,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||account-restriction-$document
 ||xn--mtamask-$document,domain=io
 /^http:\/\/linkedindocumentinquiry\..*\/linkedinindex\.html$/$document
-||metamchromextensoin.$document
-||www.lnstagram-$document,domain=com|top|xyz
-||subscription-netflix-support.$document
-||promote-warning-meta.$document
 ||mailoutlook365login.us-$document
 ||office356domainlistmaintainnance$document
-||me-metamasklogin.$document
-||matamask-logi.$document
-||optusnet-com.$document
 ||downlod.com^$all
 ||adblockplu.org^$document
 ||drive-google-com.$document,domain=~google.*|~translate.goog
@@ -32936,7 +32951,7 @@ $removeparam=TheTime,domain=cnet.*|gamespot.com
 ||babbel.com^$removeparam=bsc
 ||babbel.com^$removeparam=btp
 ||microsoft.com^$removeparam=destrt
-$removeparam=ad,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|moosejaw.com|multitronic.fi|scandinavianphoto.fi|swamp.fi|ocado.com|ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|indeed.com
+$removeparam=ad,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|moosejaw.com|multitronic.fi|scandinavianphoto.fi|swamp.fi|ocado.com|ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $removeparam=ad_src,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
 $removeparam=ad_content,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
 $removeparam=ad_prodid,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
@@ -33837,6 +33852,20 @@ $doc,removeparam=refccid,domain=bedbathandbeyond.com
 $doc,removeparam=osp,domain=bedbathandbeyond.com
 $doc,removeparam=lyceumGuid,domain=bedbathandbeyond.com
 $doc,removeparam=searchidx,domain=bedbathandbeyond.com
+$doc,removeparam=tk,domain=indeed.com
+$removeparam=from,domain=indeed.com
+$removeparam=advn,domain=indeed.com
+$removeparam=xkcb,domain=indeed.com
+$removeparam=xpse,domain=indeed.com
+$removeparam=sjdu,domain=indeed.com
+$doc,removeparam=bb,domain=indeed.com
+$doc,removeparam=pub,domain=indeed.com
+$doc,removeparam=jsa,domain=indeed.com
+$doc,removeparam=oc,domain=indeed.com
+$doc,removeparam=sal,domain=indeed.com
+$doc,removeparam=vjk,domain=indeed.com
+$doc,removeparam=fvj,domain=indeed.com
+||bp.blogspot.com^$removeparam=/^r[hn].*$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -33861,11 +33890,4 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||urldefense.com^$removeparam
 @@||startpage.com/sp/qi$removeparam=sc
 @@||flagpedia.net^$ping,xhr,removeparam=gtm
-$removeparam=tk,domain=indeed.com
-$removeparam=from,domain=indeed.com
-$removeparam=vjs,domain=indeed.com
-$removeparam=advn,domain=indeed.com
-$removeparam=xkcb,domain=indeed.com
-$removeparam=xpse,domain=indeed.com
-$removeparam=sjdu,domain=indeed.com
 @@|wss://$removeparam
