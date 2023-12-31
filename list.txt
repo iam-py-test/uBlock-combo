@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 30/12/2023
+! Last updated: 31/12/2023
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25500,6 +25500,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||opposesicknessopw.pw^$all
 ||politefrightenpowoa.pw^$all
 ||chincenterblandwka.pw^$all
+||lnformationalerts.info^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30470,6 +30471,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||america4internationalstudents.com^$document
 ||bonprix-sale.shop^$all
 ||bonprix-sale.$document
+||bite-life.com^$all
+||medium.com/@liamm7203/hire-a-hacker-to-change-university-grades-transcripts-lee-ultimate-hac-0ea869b69aca^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30651,6 +30654,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||topcashback.co.uk^$document
 ||topcashback.com^$document
 ||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
+||mysearchdial.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -30787,7 +30791,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||free-amore.online^$all
 ||t.affoth2.com^$document
 ||newfast.pics^$all
+||newdate32.site^$all
+||gimail.su^$document
+||qimail.su^$document
+||cyberservices.com^$document
+||cybergeniehackpro.xyz^$document
 ||csgo.xyz^$all
+||brightdata.com^$document
+||brightdata.de^$document
+||bright-sdk.com^$document
 ||phonespying.com^$all
 ||copy9.com^$document
 ||fonetracker.com^$document
@@ -31351,6 +31363,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||adblockplu.org^$document
 ||drive-google-com.$document,domain=~google.*|~translate.goog
 ||easypark-$document,domain=~translate.goog|~easypark.com|~easypark.net|~easyparkgroup.com|~easyparkpartners.com|~easyparksystem.net
+||deepl.cm^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
