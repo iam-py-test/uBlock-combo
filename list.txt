@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 07/01/2024
+! Last updated: 08/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25503,6 +25503,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||lnformationalerts.info^$all
 ||zustellungkontrolle.net^$all
 ||sanityflash.mom^$document
+||89.23.96.177^$all
+||msdownloadhub.mdx-ux.com^$document
+||duchessefit.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30479,6 +30482,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||pregnantsimulator.com^$document
 ||adultonlineplay.com^$document
 ||cryptoslugs-hubs.com^$document
+||fazeskins.ru^$all
+||realboos.online^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30800,8 +30805,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||newdate32.site^$all
 ||gimail.su^$document
 ||qimail.su^$document
-||cyberservices.com^$document
 ||cybergeniehackpro.xyz^$document
+||cyberservices.com^$document
 ||csgo.xyz^$all
 ||brightdata.com^$document
 ||brightdata.de^$document
@@ -30956,6 +30961,7 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtube.com/channel/UC7jjRUjOAAhrJsS4LvpSsLg^$all
 youtube.com###body:has(#author-text:has-text(@Julliana_beautiful_and_Single))
 ||youtube.com/watch?v=n4rDvjvyiM0^$all
+||youtube.com/channel/UCo3fS-4D_DEgHAhLruLlP3Q^$all
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
