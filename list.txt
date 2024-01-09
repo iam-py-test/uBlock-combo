@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 08/01/2024
+! Last updated: 09/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16707,7 +16707,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||wmptengate.com^$all,~inline-font
 ||93.93.51.223^$all,~inline-font
 ||livejasmin.com/*&origin=$doc
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
 ||github.sale^$all,~inline-font
 ||0nedr1ved0cumentonline.com^$all,~inline-font
 ||88godetailsvc.com^$all,~inline-font
@@ -31399,7 +31399,7 @@ $removeparam=ysclid
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
 /?uclick=*;uclickhash=$removeparam
-$removeparam=/^utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+$removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
 $doc,removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^stm_/,domain=~redir.tradedoubler.com
 $removeparam=logTag,doc
@@ -31482,7 +31482,7 @@ $removeparam=rlz
 $removeparam=pcampaignid
 $removeparam=igshid
 $removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
-$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk
+$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com
 $removeparam=ext_source
 $removeparam=iradid
 $removeparam=irpid
