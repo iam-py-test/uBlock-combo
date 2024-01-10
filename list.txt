@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 09/01/2024
+! Last updated: 10/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16707,7 +16707,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||wmptengate.com^$all,~inline-font
 ||93.93.51.223^$all,~inline-font
 ||livejasmin.com/*&origin=$doc
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=github.*|~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
 ||github.sale^$all,~inline-font
 ||0nedr1ved0cumentonline.com^$all,~inline-font
 ||88godetailsvc.com^$all,~inline-font
@@ -25506,6 +25506,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||89.23.96.177^$all
 ||msdownloadhub.mdx-ux.com^$document
 ||duchessefit.com^$all
+||steamcommuaity.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32897,7 +32898,7 @@ $removeparam=u1,domain=linksynergy.com|shop-links.co
 $removeparam=article_name,domain=shop-links.co
 $removeparam=article_url,domain=shop-links.co
 $removeparam=/^shared/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
-$removeparam=origin,denyallow=platform.twitter.com,domain=archive.org|buzzfeed.com|buzzfeednews.com|drop.com|flaticon.com|nordstrom.com|norton.com|philips.*|symbolab.com|yle.fi
+$removeparam=origin,denyallow=platform.twitter.com,domain=archive.org|buzzfeed.com|buzzfeednews.com|drop.com|flaticon.com|nordstrom.com|norton.com|philips.*|symbolab.com|yle.fi|dressmann.com
 $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|adtraction.com|tradedoubler.com
 $removeparam=epi2,domain=tradedoubler.com
 $removeparam=share,domain=hs.fi|oerproject.com
