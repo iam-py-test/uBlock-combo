@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 10/01/2024
+! Last updated: 11/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25507,6 +25507,21 @@ ostrowlubelski.pl##^responseheader(location)
 ||msdownloadhub.mdx-ux.com^$document
 ||duchessefit.com^$all
 ||steamcommuaity.com^$all
+||com-panel.com^$document
+||account-booking-pulseapp.com^$document
+||admin-login-account.com^$document
+||extranet-admin.com^$document
+||booking-admins.com^$document
+||158.160.5.182^$document
+||galactiq.life^$document
+||mediago.io^$document
+||sehprotokoll.com^$document
+||smartlifeguides.top^$document
+||kleinezeitung.co^$document
+||gesundheitleber.com^$document
+||​​​​​oe24.co^$document
+||busterry.com^$document
+||bullionbreeze.xyz^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30963,6 +30978,7 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 youtube.com###body:has(#author-text:has-text(@Julliana_beautiful_and_Single))
 ||youtube.com/watch?v=n4rDvjvyiM0^$all
 ||youtube.com/channel/UCo3fS-4D_DEgHAhLruLlP3Q^$all
+||youtube.com/@Everything-Network^$all
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
@@ -31377,6 +31393,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||drive-google-com.$document,domain=~google.*|~translate.goog
 ||easypark-$document,domain=~translate.goog|~easypark.com|~easypark.net|~easyparkgroup.com|~easyparkpartners.com|~easyparksystem.net
 ||deepl.cm^$all
+||booking.com-panel.com^$all
+||mail.com-panel.com^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
