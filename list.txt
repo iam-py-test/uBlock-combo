@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 12/01/2024
+! Last updated: 13/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25519,9 +25519,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||smartlifeguides.top^$document
 ||kleinezeitung.co^$document
 ||gesundheitleber.com^$document
-||​​​​​oe24.co^$document
+||oe24.co^$document
 ||busterry.com^$document
 ||bullionbreeze.xyz^$document
+||185.215.113.66^$all
+||mimicmaster.online^$all
+||mimicer.online^$all
+||melovingsangria.online^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30500,6 +30504,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||cryptoslugs-hubs.com^$document
 ||fazeskins.ru^$all
 ||realboos.online^$document
+||jaynapatel.co.uk^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30823,6 +30828,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||qimail.su^$document
 ||cybergeniehackpro.xyz^$document
 ||cyberservices.com^$document
+||t.me/+8q8i5Dl-lws4NTU6^$document
 ||csgo.xyz^$all
 ||brightdata.com^$document
 ||brightdata.de^$document
@@ -30979,6 +30985,8 @@ youtube.com###body:has(#author-text:has-text(@Julliana_beautiful_and_Single))
 ||youtube.com/watch?v=n4rDvjvyiM0^$all
 ||youtube.com/channel/UCo3fS-4D_DEgHAhLruLlP3Q^$all
 ||youtube.com/@Everything-Network^$all
+||youtube.com/watch?v=sFTeR0rYifY^$all
+||youtube.com/watch?v=1HwPz_Wr3a4^$all
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
