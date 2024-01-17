@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/01/2024
+! Last updated: 17/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -19778,7 +19778,7 @@ toorgle.net##.join
 ||medicinehelp.news^$doc
 ||147.135.16.27^$doc
 ||ingeniovirtual.com^$doc
-tumblr.com#?#div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
+tumblr.com##div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
 ||scambiofigu.net^$all,~inline-font
 apkfab.com##.tip-extension
 ||xxlmag.com/redirect^$all,~inline-font,domain=~malware-redirection-results.*
