@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 21/01/2024
+! Last updated: 22/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13,7 +13,7 @@
 ||gdn^$doc,domain=~cst.gdn|~pss.gdn
 ||bid^$doc
 ||ooo^$doc,domain=~toast.ooo
-||sbs^$doc
+||sbs^$doc,domain=~ecopulse.sbs
 ||discount^$doc,domain=~real.discount
 ||cfd^$doc,domain=~frcoal.cfd|~freedium.cfd
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -157,8 +157,8 @@ ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es##.download_button_i
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es##.js-download_button_additional_links
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#.ga-download:has-text(/^Reimage$/)
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es##.download-button-offer-header
-ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i)
-ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i) + p
+ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair\syour\sErrors\sautomatically$/i)
+ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair\syour\sErrors\sautomatically$/i) + p
 thewindowsclub.com#?#.entry-content > div > strong:has-text(find & fix Windows error)
 thewindowsclub.com##div[style^="float: none; margin:10px "]
 majorgeeks.com##b:has(a[target^=reimage])
@@ -327,15 +327,15 @@ chrome.google.com#?#.webstore-test-wall-tile:has-text( & AdBlock)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(Adblock for WebSites)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(ADBlock)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(Adblocker.Global)
-chrome.google.com#?#.webstore-test-wall-tile:has-text(/best ?ad ?block/i)
-chrome.google.com#?#.webstore-test-wall-tile:has-text(/(^| )1 ?adblock/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/best\s?ad\s?block/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/(^|\s)1\s?adblock/i)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(Adbear)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(Adresist)
 chrome.google.com#?#.webstore-test-wall-tile:has-text(otih-oith.us.to)
-chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock adblock/i)
-chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock Origin/i)
-chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblocker for Browser/i)
-chrome.google.com#?#.webstore-test-wall-tile:has-text(/Total Adblock/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock\sadblock/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock\sOrigin/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblocker\sfor\sBrowser/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Total\sAdblock/i)
 addons.mozilla.org#?#li.SearchResult:has-text(uBlock, LLC)
 addons.mozilla.org#?#li.SearchResult:has-text(Adblocker for Firefox)
 addons.mozilla.org#?#li.SearchResult:has-text(AdsBlocker)
@@ -22206,13 +22206,13 @@ tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[dat
 ://ww49.$doc,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
 ://ww50.$doc,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
 facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(↓↓↓↓COPY)
-facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/job online from home/i)
-facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/online work from home/i)
-facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/working from home by doing/i)
-facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/work at home opportunity/i)
+facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/job\sonline\sfrom\shome/i)
+facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/online\swork\sfrom\shome/i)
+facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/working\sfrom\shome\sby\sdoing/i)
+facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(/work\sat\shome\sopportunity/i)
 facebook.com#?#div[class*=ImageBlockContent] .clearfix:has-text(0nl!ne)
 $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|ufl.edu|oecd.org|bu.edu|wikidot.com|alternativenation.net
-*#?#.post-list > .post-content:has-text(/Best girls webcam/i)
+*#?#.post-list > .post-content:has-text(/Best\sgirls\swebcam/i)
 *#?#script[src*=disquscdn] + #layout .post-content:has-text(Viagra)
 *#?#script[src*=disquscdn] + #layout .post-content:has-text(We offer unlimited)
 *#?#script[src*=disquscdn] + #layout .post-content:has-text(.com specialize)
@@ -32176,11 +32176,16 @@ $popup,third-party,domain=tii.la
 ||djamol.com^$all
 ||ultrablock.org^$all
 ||adblock-unicorn.com^$all
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/best ?ad ?block/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/(^| )1 ?adblock/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock adblock/i)
+chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock Origin/i)
 ||adblock.biz^$document
 ||otih-oith.us.to^$document
 download.cnet.com#?#.c-globalCard:has(a[href*="/Sir-AdGuard/"])
 download.cnet.com#?#.c-globalCard:has(a[href*="/Ad-Smasher/"])
 download.cnet.com#?#.c-globalCard:has(a[href*="/AdsCleaner/"])
+ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i)
 majorgeeks.com#?#b:has(a[target^=reimage])
 bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
 drivereasy.com#?#.pakb-content li:has(a[href="#automatically"])
