@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/01/2024
+! Last updated: 24/01/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -32117,6 +32117,9 @@ youtube.com###body:has(#author-text:has-text(@Julliana_beautiful_and_Single))
 ||youtube.com/@Everything-Network^$all
 ||youtube.com/watch?v=sFTeR0rYifY^$all
 ||youtube.com/watch?v=1HwPz_Wr3a4^$all
+www.youtube.com###comment:has-text( AWT99K )
+||youtube.com/channel/UCmsXlnWt0T1KzM2mtbkQqQA^$all
+||youtube.com/channel/UCSYnbUnaPfgmGHSGfQJnXKQ^$all
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Godhakz01 (on|at|is|via) telegram/i)
 cryptocurrencyvideogroup.com##.comment-body:has-text(/Mitnickhack1 (on|at|is|via) telegram/i)
