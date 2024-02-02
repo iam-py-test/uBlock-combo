@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 01/02/2024
+! Last updated: 02/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -32584,6 +32584,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.telegwam.work^$document
 ||www.telebriun.work^$document
 ||business-manage-facebook.com^$document
+||privacyguides.io^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
@@ -34848,7 +34849,7 @@ $removeparam=post_index,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy
 $removeparam=auto_token,domain=nextdoor.com
 $removeparam=mobile_deeplink_data
 $removeparam=link_source_user_id,domain=nextdoor.com
-$removeparam=is,domain=nextdoor.com|discordapp.*
+$removeparam=is,domain=nextdoor.com|media.discordapp.*
 $removeparam=mar,domain=nextdoor.com
 ||cbs42.com^$removeparam=ipid
 ||dzen.ru^$removeparam=yredirect
@@ -34979,8 +34980,8 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,doc
 ||adguard.info^$removeparam=nc
 *ref=404media.co*$doc,removeparam=/^ref=404media.co$/
 *ref=easywithai*$doc,removeparam=/^ref=easywithai$/
-||discordapp.$removeparam=ex
-||discordapp.$removeparam=hm
+||media.discordapp.$removeparam=ex
+||media.discordapp.$removeparam=hm
 ||slack.com/downloads/$doc,removeparam=t
 $doc,removeparam=jp_cmp,domain=chase.com
 $doc,removeparam=orig_ref,domain=peacocktv.com
