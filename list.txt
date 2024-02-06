@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 05/02/2024
+! Last updated: 06/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -32816,7 +32816,7 @@ $removeparam=CAWELAID
 $removeparam=partition_id
 $removeparam=adgroup_id
 $removeparam=rlsatarget
-$removeparam=targetid
+$doc,removeparam=targetid,domain=~myanonamouse.net
 $removeparam=elqCampaignId
 $removeparam=dc_campid
 $removeparam=dc_adgroupid
@@ -33706,7 +33706,7 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=CREA
 @@||bing.*/account/action$removeparam=cc
 ||bing.$removeparam=PTAG
-||bing.com/search?$removeparam=gs_lcrp
+/search?$doc,removeparam=gs_lcrp,domain=bing.com|google.com
 ||bing.com/search?$removeparam=FPIG
 $removeparam=_trkparms
 $removeparam=_trksid
@@ -35111,6 +35111,9 @@ $doc,removeparam=af_xp
 $doc,removeparam=km_partner
 ||smartrecruiters.com^$doc,removeparam=km_matchtype
 $doc,removeparam=km_adgroup
+||streamable.com^$doc,removeparam=src_internal
+||streamable.com^$doc,removeparam=src_player
+||thefocusfuel.com^$removeparam=snowball,doc
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
