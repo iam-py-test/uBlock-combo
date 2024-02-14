@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 13/02/2024
+! Last updated: 14/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -33217,7 +33217,7 @@ $removeparam=mkt_tok
 $removeparam=ampcid
 $removeparam=affname
 $removeparam=MID,domain=~media-cdn.costco.*|~community.arubanetworks.com
-$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*|~getqpay.com|~qpayhub.com
+$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=greatrun.org|mcafee.com
 $removeparam=nr_email_referer
 $removeparam=in_source
 $removeparam=srnd
@@ -34232,6 +34232,7 @@ $removeparam=aff_click_id
 ||aliexpress.$removeparam=pdp_pi
 ||aliexpress.$removeparam=pdp_npi
 ||aliexpress.$removeparam=curPageLogUid
+||alibaba.com^$removeparam=categoryIds
 ||baidu.com^$removeparam=/^rsv/
 ||baidu.com^$removeparam=euri
 ||baidu.com/s?$removeparam=f
@@ -34485,7 +34486,6 @@ $removeparam=hpt,domain=cnn.com
 ||youtube.com^$removeparam=ab_channel
 ||postnord.$removeparam=mobile
 ||postnord.$removeparam=signed
-||alibaba.com^$removeparam=categoryIds
 ||maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate^$removeparam
 ||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent^$removeparam
 ||ekstrabladet.dk^$removeparam=account
@@ -35327,8 +35327,8 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,doc
 ||instagram.com^$removeparam=ig_rid
 ||cdninstagram.com^$removeparam=_nc_sid
 ||adguard.info^$removeparam=nc
-*ref=404media.co*$doc,removeparam=/^ref=404media.co$/
-*ref=easywithai*$doc,removeparam=/^ref=easywithai$/
+ref=404media.co$doc,removeparam=/^ref=404media.co$/
+ref=easywithai$doc,removeparam=/^ref=easywithai$/
 ||slack.com/downloads/$doc,removeparam=t
 $doc,removeparam=jp_cmp,domain=chase.com
 $doc,removeparam=orig_ref,domain=peacocktv.com
@@ -35372,10 +35372,10 @@ $removeparam=BT_VanityDomain,domain=citi.com
 $doc,removeparam=deliveryName,domain=abp.nl
 $doc,removeparam=wt_mc
 $doc,removeparam=wt_zmc
-*ref=exploit.media*$doc,removeparam=/^ref=exploit.media$/
+ref=exploit.media$doc,removeparam=/^ref=exploit.media$/
 $doc,removeparam=bpli,domain=blogger.com
 $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
-*ref=beep.blog*$doc,removeparam=/^ref=beep.blog$/
+ref=beep.blog$doc,removeparam=/^ref=beep.blog$/
 ||tempo.co^$doc,removeparam=tracking_page_direct
 ||trendyol.com^$doc,removeparam=link_userID
 ||trendyol.com^$doc,removeparam=link_contentid
@@ -35391,9 +35391,9 @@ $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyi
 ||cimri.com^$doc,removeparam=offerCount
 ||cimri.com^$doc,removeparam=offerFiltered
 ||cimri.com^$doc,removeparam=hasFavorite
-*ref=blog.roboflow.com*$doc,removeparam=/^ref=blog.roboflow.com$/
+ref=blog.roboflow.com$doc,removeparam=/^ref=blog.roboflow.com$/
 ||gitlab.com^$doc,removeparam=nav_source
-*ref=buffer.com*$doc,removeparam=/^ref=buffer.com$/
+ref=buffer.com$doc,removeparam=/^ref=buffer.com$/
 ||bybit.com^$doc,removeparam=/^sa_utm_/i
 $doc,removeparam=gci
 $doc,removeparam=af_reengagement_window
@@ -35466,7 +35466,10 @@ $removeparam=cgkit_search_word
 ||shop.samsung.com^$doc,removeparam=hmz_campaign
 ||shop.samsung.com^$doc,removeparam=hmz_inf
 ||shop.samsung.com^$doc,removeparam=hmz_lid
-*ref=labs.watchtowr.com*$doc,removeparam=/^ref=labs.watchtowr.com$/
+ref=labs.watchtowr.com$doc,removeparam=/^ref=labs.watchtowr.com$/
+ref=upstract.com$doc,removeparam=/^ref=upstract.com$/
+||koreaherald.com^$doc,removeparam=ACE_SEARCH
+||abcnyheter.no^$removeparam=nr
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
