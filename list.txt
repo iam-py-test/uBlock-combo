@@ -1,14 +1,14 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/02/2024
+! Last updated: 17/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
 ||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf|~shorter.cf
-||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top
+||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top
 ||loan^$doc
 ||gdn^$doc,domain=~cst.gdn|~pss.gdn
 ||bid^$doc
@@ -28,7 +28,7 @@ www.google.*##.g:has(a[href*=".loan/"])
 www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]))
 www.google.*##.g:has(a[href*=".php?xxx="])
 www.google.*##.g:has(cite:has-text(.it › )):has(a[href*="-"][href$=".html"]:not([href*="://www."], [href*="://m."], [href*="carrefour.it"], [href*="gospesa.it"]))
 www.google.*##.g:has(a[href^="https://books.google."])
@@ -63,7 +63,7 @@ www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="ws.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:not([href*="cst.gdn"], [href*="pss.gdn"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
@@ -72,14 +72,14 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]))
 ||adblock.gjtech.net^$doc
 ||spam404bl.com^$doc
 ||109.201.135.46^$doc
@@ -32957,11 +32957,11 @@ $removeparam=mindbox-message-key
 $removeparam=nx_source
 $removeparam=oprtrack
 $removeparam=ysclid
-&uclick=*&uclickhash=$removeparam
-/?r=dir&zoneid=$removeparam
-/?rb=*&zoneid=$removeparam
-/?uclick=*;uclickhash=$removeparam
-$removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+&uclick=*&uclickhash=$doc,removeparam
+/?r=dir&zoneid=$doc,removeparam
+/?rb=*&zoneid=$doc,removeparam
+/?uclick=*;uclickhash=$doc,removeparam
+$doc,removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
 $doc,removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^stm_/,domain=~redir.tradedoubler.com
 $removeparam=logTag,doc
@@ -33184,7 +33184,7 @@ $doc,removeparam=/^mbsy[=_]/
 $removeparam=mkref
 $removeparam=refer_code
 $removeparam=AFID,domain=~chggtrx.com|~state.gov
-$~css,~script,removeparam=campaignid
+$doc,removeparam=campaignid
 $removeparam=loc,doc,domain=bestbuy.*|shopping.google.com
 $removeparam=acampID
 $removeparam=pj_creativeid
@@ -33422,14 +33422,14 @@ $removeparam=adj_creative
 $removeparam=_vsrefdom
 $removeparam=ceneo_spo
 $doc,removeparam=/^from=ceneo$/
-$removeparam=/^ref=ceneo$/
+$doc,removeparam=/^ref=ceneo$/
 $removeparam=__s,doc
 $removeparam=_kx
-$removeparam=/^affsrc=/i
-$removeparam=/^aff_sub\d?=/
+$doc,removeparam=/^affsrc=/i
+$doc,removeparam=/^aff_sub\d?=/
 $removeparam=afftrack
 $removeparam=atid
-$removeparam=/^clickref\d?=/
+$doc,removeparam=/^clickref\d?=/
 $removeparam=cuid
 $removeparam=data1,domain=~web3.cmvm.pt
 $removeparam=data2
@@ -33443,11 +33443,11 @@ $removeparam=sub2,domain=~go.dgdp.net
 $removeparam=sub3
 $removeparam=sub4
 $removeparam=sub5
-$removeparam=/^subid1=/i
-$removeparam=/^subid2=/i
-$removeparam=/^subid3=/i
-$removeparam=/^subid4=/i
-$removeparam=/^subid5=/i
+$doc,removeparam=/^subid1=/i
+$doc,removeparam=/^subid2=/i
+$doc,removeparam=/^subid3=/i
+$doc,removeparam=/^subid4=/i
+$doc,removeparam=/^subid5=/i
 $removeparam=tid1
 $removeparam=tid2
 $removeparam=tid3
@@ -33456,7 +33456,7 @@ $removeparam=avad
 $removeparam=ckmc
 $removeparam=ckmsc
 $removeparam=__cn_tracker
-$removeparam=/^sfmc_/
+$doc,removeparam=/^sfmc_/
 $removeparam=mktc
 $removeparam=cm_ven
 $removeparam=cm_cat
@@ -33464,24 +33464,24 @@ $removeparam=cm_pla
 $removeparam=cm_ite
 $removeparam=cm_lm
 $removeparam=cm_ainfo
-$removeparam=/^Offers\.com/
+$doc,removeparam=/^Offers\.com/
 $removeparam=CSID
 $removeparam=kpartnerid
-$removeparam=/^source=connexity$/
+$doc,removeparam=/^source=connexity$/
 $removeparam=cnxclid
-$removeparam=/^refsource=webgains$/
-$removeparam=/^source=webgains$/
-$removeparam=/^source=tradedoubler$/
-$removeparam=/^network=webgains$/i
-$removeparam=/^ref=kelkoo/
-$removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
-$removeparam=/^from=kelkoo/
+$doc,removeparam=/^refsource=webgains$/
+$doc,removeparam=/^source=webgains$/
+$doc,removeparam=/^source=tradedoubler$/
+$doc,removeparam=/^network=webgains$/i
+$doc,removeparam=/^ref=kelkoo/
+$doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$doc,removeparam=/^from=kelkoo/
 $removeparam=sClickID
-$removeparam=/^source=partnerads$/
+$doc,removeparam=/^source=partnerads$/
 $removeparam=paid
 $removeparam=pacid
 $removeparam=pa-partnerid
-||prispresseren.dk^$removeparam=/^amp;/
+||prispresseren.dk^$doc,removeparam=/^amp;/
 $removeparam=2p_affiliate_id
 $removeparam=2p_click_token
 $removeparam=mktgcampaignp
@@ -33497,7 +33497,7 @@ $removeparam=int_cmpid
 $removeparam=awid
 $removeparam=szredirectid
 $removeparam=porc
-$removeparam=/^src=aff$/
+$doc,removeparam=/^src=aff$/
 $removeparam=af_ad
 $removeparam=af_ad_id
 $removeparam=af_ad_type
@@ -33516,18 +33516,18 @@ $removeparam=af_referrer_customer_id
 $removeparam=af_referrer_name
 $removeparam=af_referrer_uid
 $removeparam=af_siteid
-$removeparam=/^af_sub\d=/
+$doc,removeparam=/^af_sub\d=/
 $removeparam=af_sub_siteid
 $removeparam=is_retargeting
 $doc,removeparam=shortlink
-$removeparam=/^pid=.*_int$/
+$doc,removeparam=/^pid=.*_int$/
 $removeparam=deep_link_sub1
 $removeparam=ClickThruEmail
 $removeparam=ClickThruCustomerNumber
 $removeparam=byp455
 $removeparam=detail_from
 $removeparam=sub_aff_id
-$removeparam=/^sub_id\d=/
+$doc,removeparam=/^sub_id\d=/
 $removeparam=tg_ref
 $removeparam=dt_dapp
 $removeparam=dt_platform
@@ -33573,15 +33573,15 @@ $removeparam=ircid
 $removeparam=cf_affiliate_id
 $removeparam=ad_config_id
 $removeparam=dfw_tracker
-$removeparam=/^src=rss$/
-$removeparam=/^otm_/
+$doc,removeparam=/^src=rss$/
+$doc,removeparam=/^otm_/
 $removeparam=amp_device_id
 $removeparam=awinaffid
 $removeparam=cje
 $removeparam=removedParams
 $removeparam=iclid
 $removeparam=rndad
-$removeparam=/^tracker=affiliatefuture$/i
+$doc,removeparam=/^tracker=affiliatefuture$/i
 $removeparam=affc
 $removeparam=a_fid
 $removeparam=afCampaignId
@@ -33607,9 +33607,9 @@ $removeparam=ef_id
 $removeparam=s_kwcid
 $removeparam=dm_i
 $removeparam=epik
-$removeparam=/^mtm_/
-$removeparam=/^matomo_/
-$removeparam=/^piwik_/
+$doc,removeparam=/^mtm_/
+$doc,removeparam=/^matomo_/
+$doc,removeparam=/^piwik_/
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
@@ -33627,20 +33627,20 @@ $removeparam=ads_matchtype
 $removeparam=ads_network
 $removeparam=ads_targetid
 $removeparam=elqTrack
-$removeparam=/^from=rss$/
-$removeparam=/^source=rss$/
-$removeparam=/^ref=rss$/
-$removeparam=/^via=rss$/
+$doc,removeparam=/^from=rss$/
+$doc,removeparam=/^source=rss$/
+$doc,removeparam=/^ref=rss$/
+$doc,removeparam=/^via=rss$/
 $removeparam=mindbox-click-id
 $doc,removeparam=dtpid
 $removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tagtag_uid
 $removeparam=affiliateCode
 $removeparam=affcode
-$removeparam=/^ref=admitad$/
-$removeparam=/^source=admitad$/
-$removeparam=/^target=admitad$/
-$removeparam=/^referer=prisjakt/i
+$doc,removeparam=/^ref=admitad$/
+$doc,removeparam=/^source=admitad$/
+$doc,removeparam=/^target=admitad$/
+$doc,removeparam=/^referer=prisjakt/i
 $removeparam=ref_lp
 $removeparam=cx_testId
 $removeparam=cx_testVariant
@@ -33664,9 +33664,9 @@ $removeparam=gaa_sig
 $removeparam=amp_gsa
 $removeparam=vgo_ee
 $removeparam=rpcid
-$removeparam=/^ref=prisjakt/i
-$removeparam=/^ref=pricespy/i
-$removeparam=/^amp;utm_/
+$doc,removeparam=/^ref=prisjakt/i
+$doc,removeparam=/^ref=pricespy/i
+$doc,removeparam=/^amp;utm_/
 $removeparam=sap-outbound-id
 $removeparam=analyticsCorrelationId
 $removeparam=Affiliate_id
@@ -33680,7 +33680,7 @@ $removeparam=oft_ck
 $removeparam=oft_ids
 $removeparam=oft_sk
 $removeparam=adobe_mc
-$removeparam=/^_sgm_/i
+$doc,removeparam=/^_sgm_/i
 $removeparam=omnisendContactID
 $removeparam=affiliate,domain=~justice.gov
 $removeparam=trco_id
@@ -33701,18 +33701,18 @@ $removeparam=as_campaign
 $removeparam=as_camptype
 $removeparam=as_channel
 $removeparam=as_source
-$removeparam=/^source=igodigital$/
+$doc,removeparam=/^source=igodigital$/
 $removeparam=qq-pf-to
 $removeparam=mibextid
 $removeparam=li_source
 $removeparam=li_medium
-$removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
-$removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
+$doc,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$doc,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
 $removeparam=relatedposts_hit
 $removeparam=relatedposts_origin
 $removeparam=relatedposts_position
-$removeparam=/^ref=itsfoss.com$/
-$removeparam=/^ref=news.itsfoss.com$/
+$doc,removeparam=/^ref=itsfoss.com$/
+$doc,removeparam=/^ref=news.itsfoss.com$/
 $removeparam=b_source
 $removeparam=b_medium
 $removeparam=b_campaign
@@ -34440,7 +34440,7 @@ $removeparam=report_recomm_player
 ^via=toolbar^$removeparam=via,domain=user.qzone.qq.com
 $removeparam=app,domain=tiktok.com|music.apple.*
 $removeparam=c,doc,domain=announcements.bybit.com|appsflyer.com|farfetch.com|glami.cz|hepsiburada.com|norton.com|onelink.me|shopee.*|tiktok.com
-$removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|mrgay.tube|outnorth.fi|peterhahn.*|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|t.me|twitter.com|x.com|youtube.com|reddit.app.link
+$doc,removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|mrgay.tube|outnorth.fi|peterhahn.*|reddit.app.link|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|t.me|twitter.com|ubereats.com|x.com|youtube.com
 $removeparam=/^pf_rd_/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
 $removeparam=Source,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com|evga.com
 $removeparam=version,domain=mp.weixin.qq.com|us.norton.com
@@ -34509,7 +34509,7 @@ $removeparam=action,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj
 $removeparam=module,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|scmp.com
 $removeparam=pgtype,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|scmp.com
 $removeparam=section,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|nextdoor.com|store.thesims3.com
-$~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxofficemojo.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|imdb.com|primevideo.com|shopbop.com
+$doc,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxofficemojo.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|imdb.com|primevideo.com|shopbop.com
 $removeparam=tag,domain=argos.co.uk|habitat.co.uk|tv2.no|support.github.com
 $removeparam=publisher_id,domain=t-mobile.com|udemy.com
 ||udemy.com^$removeparam=website_id
@@ -35476,6 +35476,8 @@ ref=upstract.com$doc,removeparam=/^ref=upstract.com$/
 ||koreaherald.com^$doc,removeparam=ACE_SEARCH
 ||abcnyheter.no^$removeparam=nr
 ||windscribe.com^$doc,removeparam=pcpid
+||ubereats.com^$doc,removeparam=marketing-visitor-id
+||ubereats.com^$doc,removeparam=sub-campaign
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
