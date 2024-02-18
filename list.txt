@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 17/02/2024
+! Last updated: 18/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -32938,6 +32938,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.telebriun.work^$document
 ||business-manage-facebook.com^$document
 ||privacyguides.io^$all
+||chasecreditloan.com^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
@@ -35478,6 +35479,20 @@ ref=upstract.com$doc,removeparam=/^ref=upstract.com$/
 ||windscribe.com^$doc,removeparam=pcpid
 ||ubereats.com^$doc,removeparam=marketing-visitor-id
 ||ubereats.com^$doc,removeparam=sub-campaign
+$doc,removeparam=vsm_type
+$doc,removeparam=vsm_cid
+$doc,removeparam=vsm_pid
+||carousell.$removeparam=t-id
+||carousell.$removeparam=t-referrer_browse_type
+||carousell.$removeparam=t-referrer_category_id
+||carousell.$removeparam=t-referrer_page_type
+||carousell.$removeparam=t-referrer_request_id
+||carousell.$removeparam=t-referrer_search_query
+||carousell.$removeparam=t-referrer_search_query_source
+||carousell.$removeparam=t-referrer_sort_by
+||carousell.$removeparam=t-referrer_source
+||carousell.$removeparam=t-source
+||carousell.$removeparam=t-tap_index
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
