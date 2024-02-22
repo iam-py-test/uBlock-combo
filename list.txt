@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 21/02/2024
+! Last updated: 22/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23132,9 +23132,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||blogsopt.com^$document
 ||dacenete.com^$all
 ||coolstats1.net^$all
-||tkkmobileinternetssnstop.ml^$all
 ||convstats.com^$document
-||ibijbdtajblkrwhlzxrttmsmwxxikhjudpty-dot-cryptic-now-290917.ey.r.appspot.com^$all
 ||eyourcom.fun^$all
 ||blastnotificationx.com^$document
 ||3phone5.com^$all
@@ -24618,7 +24616,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||107.182.129.235^$all
 ||45.15.156.105^$all
 ||135.125.27.235^$all
-||youtube.com/watch?v=5BENKhxzBGI^$all
 ||rebrand.ly/McAfeeSecurity2022ActivateDownload^$all
 ||pixeldrain.com/api/file/52LgfWw8^$all
 ||45.15.157.132^$all
@@ -24647,7 +24644,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||daggerhashimoto.eu.nicehash.com^$all
 ||plazaboulevard.com.br^$all
 ||authentication-vmail.us-east-1.linodeobjects.com^$all
-||youtube.com/watch?v=NTrWmbbLebA^$all
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_DownloadApp.rar^$all
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_AdobeLoader_All_In_One.rar^$all
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_AdobeSubstanceDesigner.rar^$all
@@ -24702,7 +24698,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_Surfshark.rar^$all
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_NortonVPN.rar^$all
 ||142.93.198.232^$all
-||youtube.com/watch?v=sByXe6zNWQY^$all
 ||youtube.com/watch?v=U35v0C34ON8^$all
 ||bit.ly/3zKpp8y^$all
 ||mediafire.com/folder/bftfjxk7na4m8/Setup^$all
@@ -24710,10 +24705,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||telegra.ph/TeamViewer-11-16^$all
 ||gg.gg/teamviewer-prem-free^$all
 ||mediafire.com/file/z0mvgi2bjbotamf/TeamViewerPremium.rar/file^$all
-||youtube.com/watch?v=rybiOJqXqYc^$all
-||github.com/vilma683/$document
-||raw.githubusercontent.com/vilma683/vilma/main/Desktop_Full.rar^$all
-||youtube.com/watch?v=IlpvSYMHWO8^$all
 ||bit.ly/3VtsAd2^$document
 ||mediafire.com/file/umf43herutudu71/After+Effects.rar/file^$all
 ||ecomefuk.xyz^$all
@@ -26063,6 +26054,48 @@ ostrowlubelski.pl##^responseheader(location)
 ||22.imohub.workers.dev^$all
 ||imohub.net^$all
 ||apple-health.org^$all
+||195.35.19.138^$all
+||privacyguides.io^$all
+||poperblocker.com^$document
+||skinboxs.com^$all
+||pq.hosting^$all
+||193.233.193.65^$all
+||passwordfix.blogspot.com^$document
+||97tool.github.io^$document
+||apkzpure.com^$document
+||wattfo.com^$document
+||networkpcigniter.com^$document
+||cpmpri.com^$document
+||karan.mobi^$document
+||manizx.com^$document
+||mobdrovip.com^$document
+||theapkhunter.com^$document
+||ehallpasses.info^$document
+||wtmbook.com^$document
+||beacons.ai^$document
+||kmspico.io^$document
+||kmspico.ws^$document
+||kms-full.com^$document
+||kmspico.de.download.it^$document
+||kmspico.to^$document
+||kmspi.co^$document
+||get-kmspico.com^$document
+||kmsauto.info^$document
+||official-kmspico.com^$document
+||dlhk.acehprov.go.id^$document
+||softwared.click^$document
+||kmsauto.org^$document
+||kmsauto.pw^$document
+||kmsavto-net.ru^$document
+||kmsauto.xyz^$document
+||safety-andro1d-n0tice.co^$all
+||unhaka.com^$all
+||safety-andr-sys.info^$all
+||13001.ru^$document
+||ctrl02.ru^$document
+||12001.ru^$document
+||supos911.org^$document
+||supos123.org^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -26430,14 +26463,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||d0zi.com^$all
 ||rewards-cards.org^$document
 ||a2ics.eu^$all
-||youtube.com/channel/UCxpXAcML6p3Ns5T9GwEK5hQ^$all
+||youtube.com/channel/UCxpXAcML6p3Ns5T9GwEK5hQ^$document
 ||stils-top.space^$all
 ||classicsgirl.com^$document
-||youtube.com/channel/UCfSYzJufd7asej1mqg6NXAA^$all
 ||pogothere.xyz^$document
-||czxcm.sihighlyrecom.xyz^$all
-||rwanf.sihighlyrecom.xyz^$all
-||zosuc.sihighlyrecom.xyz^$all
 ||captchaless.top^$document
 ||pshmetrk.com^$document
 ||talkweb.org.uk/cl/36889_md/4/5055/3668/710/150935^$document
@@ -26467,7 +26496,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||lowrihouston.pro^$document
 ||nathanaeldan.pro^$document
 ||freddyoctavio.pro^$document
-||toido.arrowtoldilim.com^$all
 ||chilichicytrie.com^$all
 ||linkedin.com/pulse/free-discord-nitro-generator-verification-maxpro-game-gadget-2022^$all
 ||cutt.ly/YV9jKsf^$all
@@ -26558,7 +26586,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||pushuworld.com^$all
 ||jytibarose.xyz^$all
 ||z83z9.com^$document
-||zcelv.toftheca.buzz^$all
 ||videofon.space^$all
 ||videofen.space^$all
 ||video7top.com^$all
@@ -26659,7 +26686,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||tevafactoryoutletuk.com^$all
 ||underarmour-saudiarabia.com^$all
 ||allreqdusa.com^$all
-||twgfw.eredhadbeen.xyz^$all
 ||nugans.live^$all
 ||chrome.google.com/webstore/detail/cats-fanpage/nkhleengjihjncmbkldpfmoankdkhahg^$document
 ||qualitydating.top^$all
@@ -26854,7 +26880,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||bbxxvwb.tk^$all
 ||transive.top^$document
 ||warehousesale.shop^$document
-||bgqcb.econsultingcoem.com^$all
 ||j4352.top^$all
 ||emqu4.top^$all
 ||kp0z3.top^$all
@@ -29253,7 +29278,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||tronite.xyz^$all
 ||locked4.com^$document
 ||antivirusgaming.com^$all
-||xrlbq.aluationiamcur.com^$all
 ||awesome-blocker.com^$document
 ||mobilesecuremail.com^$document
 ||miningpror.top^$all
@@ -29262,7 +29286,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||tdsintegrations11.online^$all
 ||crypto030.online^$all
 ||webpick-cdn.s3.us-west-2.amazonaws.com/getlaid.jpeg^$all
-||wzzzs.uuksehinkitwkuo.com^$all
 ||click2code.xyz^$all
 ||dischargebackhanded.com^$document
 ||zech-company.com^$document
@@ -29493,7 +29516,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||letmimy.com^$document
 ||ufile.io/p4nduixt^$all
 ||ereallywasnoth.com^$all
-||czpcc.nereherewetem.info^$all
 ||free.premiumworldapp.com^$document
 ||chromnius.com^$document
 ||anglebank.space^$all
@@ -30316,7 +30338,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||o0nerfcw0vsd.top^$all
 ||o3kjm9z8g11w.top^$all
 ||o3oy5wfla2ez.top^$all
-||o4pti29j7pk6.top^$all
 ||o863tmto6ocp.com^$all
 ||oc4sjn8ziyt3.top^$all
 ||oj0in172pri5.com^$all
@@ -31017,7 +31038,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||travix-works.com^$document
 ||xairdrop.biz^$all
 ||directchats.site^$document
-||heylink.me^$document
 ||qdyqdym.shop^$all
 ||schnellmpu.com^$all
 ||america4internationalstudents.com^$document
@@ -32081,6 +32101,23 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||bbbouou.com^$document
 ||zzzopjl.com^$document
 ||bbbiudhs.com^$document
+||guidesite.info^$all
+||ustrack.online^$all
+||cashjuice.com^$document
+||esigningapp.com^$document
+||fastloanassist.com^$document
+||myrequestresults.com^$document
+||myresources-join.resourcesify.com^$document
+||taxreturnoptions.com^$document
+||247lendinggroup.com^$document
+||theconsumerhq.com^$document
+||banktoday.de^$document
+||secureexpressrequest.com^$document
+||cashusa.com^$document
+||choicecreditrepair.life^$document
+||swagbucks.com^$document
+||americanunsecured.com^$document
+||grantsreach.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -32263,6 +32300,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||topcashback.com^$document
 ||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
 ||mysearchdial.com^$document
+||driveridentifier.com^$document
+||driverpack.io^$document
+||driverpack.tilda.ws^$document
+||dwrapper-prod.herokuapp.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -32405,6 +32446,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||cybergeniehackpro.xyz^$document
 ||cyberservices.com^$document
 ||t.me/+8q8i5Dl-lws4NTU6^$document
+||forestver.se^$document
+||discord.gg/ctkpaarr^$document
 ||csgo.xyz^$all
 ||brightdata.com^$document
 ||brightdata.de^$document
@@ -32435,10 +32478,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||flexispy.com^$document
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCc3Vmwa4H_7d_TqPMM2QKAw^$document
-||youtube.com/channel/UCrp5QRVp6PFHIrNg7gD4YZQ^$document
-||youtube.com/channel/UC98HAYotaYL_GHD_ejmxX7g^$document
-||youtube.com/channel/UCur-kJc2fk3AkDimvCd4U_g^$document
 ||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
 ||youtube.com/channel/UCEBXm13iwQAXN2Kz4YV5rVQ^$document
 ||youtube.com/channel/UCtjaY3UG_5KxQRMDUczFMXQ^$document
@@ -32999,7 +33038,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.telegwam.work^$document
 ||www.telebriun.work^$document
 ||business-manage-facebook.com^$document
-||privacyguides.io^$all
 ||chasecreditloan.com^$document
 $removeparam=yclid
 $removeparam=gclid
@@ -35555,6 +35593,7 @@ $doc,removeparam=vsm_pid
 ||carousell.$removeparam=t-referrer_source
 ||carousell.$removeparam=t-source
 ||carousell.$removeparam=t-tap_index
+$doc,removeparam=pk_cid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
