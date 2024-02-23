@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 22/02/2024
+! Last updated: 23/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17439,67 +17439,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||54.225.185.110^$all
 &lp=not_robot_$all
 ||githubtalentcommunity.$all
-||csa-github.com^$all
-||ghaestatus.$all
-||ghconduit.$all
-||ghe-cluster.com^$all
-||ghestatus.com^$all
-||ghub.com^$all
-||gisthub.com^$all
-||git-hub.com^$all
-||gitgub.com^$all
-||github-awards.$all
-||github-camo.$all
-||github-nel.com^$all
-||github-servicedesk.$all
-||github-sso.com^$all
-||github-staging-lab.$all
-||githubarchive.$all
-||githubazure.$all
-||githubber.$all
-||githubbrazil.com^$all
-||githubcloud.com^$all
-||githubcloudusercontent.$all
-||githubcopilot.$all
-||githubcorp.$all
-||githubenterprise.$all
-||githubfi.com^$all
-||githubfitest.$all
-||githubflow.com^$all
-||githubhot.com^$all
-||githubinc.$all
-||githubmaccloud.$all
-||githubpages.$all
-||githubpartners.$all
-||githubsecurity.com^$all
-||githubway.$all
-||githubwebhooks.com^$all
-||gitlfs.com^$all
-||gitmerge.com^$all
-||gitpages.com^$all
-||gitref.$all
-||gitsmart.com^$all
-||gitsplosion.com^$all
-||gittogether.$all
-||guthub.com^$all
-||hackathonhowto.com^$all
-||http-npmjs.$all
-||javascriptsurvey.com^$all
-||looksgoodtome.com^$all
-||meetgit.com^$all
-||nnmjs.info^$all
-||nnmjs.net^$all
-||nnmjs.org^$all
-||npmcamp.com^$all
-||npmjs-www.$all
-||npmjs.app^$all
-||npmjs.site^$all
-||npmms.com^$all
-||nqmjs.com^$all
-||www-npmjs.$all
-||140.82.112.18^$all
-||140.82.112.17^$all
-||[2a09:8280:1::2b:3bcb:0]^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
