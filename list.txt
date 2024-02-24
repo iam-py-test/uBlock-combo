@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/02/2024
+! Last updated: 24/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24401,10 +24401,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||sbnue.com^$document
 ||cdn.adx1.com/df60634899739d9c8ce9ae33940358dd.jpeg^$all
 ||cdn.adx1.com/8b678aab9185cb333cc7c1bf3442adcb.jpeg^$all
-||tjzaj.comfortykive.xyz^$all
 ||safefastfreesmart.rest^$document
 ||rewards-giant.uk^$all
-||fbuww.ewoverth.buzz^$all
 ||sweredth.buzz^$document
 ||ecityalittl.buzz^$document
 ||toftheussi.xyz^$document
@@ -24558,7 +24556,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||rebrand.ly/McAfeeSecurity2022ActivateDownload^$all
 ||pixeldrain.com/api/file/52LgfWw8^$all
 ||45.15.157.132^$all
-||ftrec.adthereis.buzz^$all
 ||mediafire.com/file/bu394h0oi025wpt/ExtremeUpdate.exe/file^$all
 ||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
 ||bit.ly/fitgirl-repacks-site^$all
@@ -25047,7 +25044,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||telegra.ph/Software-2023-02-21-6^$document
 ||en.bestadultdatinglist-com.ru^$document
 ||fuckbookmobile.org^$document
-||theparlornextthef.com^$document,popup
 ||palons.live^$all
 ||alertci.click^$all
 ||9ijgfdc4rf56.click^$all
@@ -26035,6 +26031,17 @@ ostrowlubelski.pl##^responseheader(location)
 ||12001.ru^$document
 ||supos911.org^$document
 ||supos123.org^$document
+||dhl-de-track-ui.cc^$all
+||dhl-de-track-uo.cc^$all
+||dhl-de-track-uu.cc^$all
+||freevbucks2022.online^$document
+||eyx092.github.io^$document
+||davbuckgenerator.weebly.com^$document
+||gemsforfree.com^$document
+||hackzone.me^$document
+||githubtalentcommunity.online^$all
+||modyolo.com^$all
+||googlesavedata.ru^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29451,7 +29458,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||discordnitro.live^$all
 ||rapidownload.online^$all
 ||qoaaa.com^$document
-||freevbucks2022.online^$all
 ||letmimy.com^$document
 ||ufile.io/p4nduixt^$all
 ||ereallywasnoth.com^$all
@@ -32978,6 +32984,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.telebriun.work^$document
 ||business-manage-facebook.com^$document
 ||chasecreditloan.com^$document
+||jobs.githubtalentcommunity.online^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
