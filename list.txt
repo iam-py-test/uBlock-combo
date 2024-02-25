@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 24/02/2024
+! Last updated: 25/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26034,7 +26034,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||dhl-de-track-ui.cc^$all
 ||dhl-de-track-uo.cc^$all
 ||dhl-de-track-uu.cc^$all
-||freevbucks2022.online^$document
 ||eyx092.github.io^$document
 ||davbuckgenerator.weebly.com^$document
 ||gemsforfree.com^$document
@@ -26042,6 +26041,14 @@ ostrowlubelski.pl##^responseheader(location)
 ||githubtalentcommunity.online^$all
 ||modyolo.com^$all
 ||googlesavedata.ru^$all
+||giveawayscord.xyz^$all
+||fundatingquest.fun^$all
+||sharlalias.click^$all
+||mysuperdatingforyou.life^$all
+||chat-o-live.com^$all
+||rozaholshouser.cfd^$all
+||eshaalfawson.shop^$all
+||40PlusShag.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29458,6 +29465,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||discordnitro.live^$all
 ||rapidownload.online^$all
 ||qoaaa.com^$document
+||freevbucks2022.online^$all
 ||letmimy.com^$document
 ||ufile.io/p4nduixt^$all
 ||ereallywasnoth.com^$all
@@ -32985,6 +32993,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||business-manage-facebook.com^$document
 ||chasecreditloan.com^$document
 ||jobs.githubtalentcommunity.online^$all
+||virustotaal.com^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
