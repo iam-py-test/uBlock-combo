@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 26/02/2024
+! Last updated: 27/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26048,7 +26048,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||chat-o-live.com^$all
 ||rozaholshouser.cfd^$all
 ||eshaalfawson.shop^$all
+||kristidamon.beauty^$all
+||bethanytunks.skin^$all
+||localdatez.com^$all
+||leoniaivey.site^$all
 ||40PlusShag.com^$all
+||delivery.40plusshag.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32071,6 +32076,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||swagbucks.com^$document
 ||americanunsecured.com^$document
 ||grantsreach.com^$document
+||z-lib.id^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -32401,6 +32407,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||t.me/+8q8i5Dl-lws4NTU6^$document
 ||forestver.se^$document
 ||discord.gg/ctkpaarr^$document
+||tambayan.us^$document
 ||csgo.xyz^$all
 ||brightdata.com^$document
 ||brightdata.de^$document
@@ -35550,6 +35557,7 @@ $doc,removeparam=vsm_pid
 ||carousell.$removeparam=t-source
 ||carousell.$removeparam=t-tap_index
 $doc,removeparam=pk_cid
+ref=zetter-zeroday.com$doc,removeparam=/^ref=zetter-zeroday.com$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
