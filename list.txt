@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 28/02/2024
+! Last updated: 29/02/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22516,6 +22516,67 @@ tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[dat
 /artstation-*-[fanart]-$doc,domain=~artstation.com
 =artstation-*-[fanart]-$doc,domain=~artstation.com
 ||yasaracarfenlisesi.com^$all
+||abadfaheff4.com^$all,inline-font
+||afflat3a2.com^$all,inline-font
+||afflat3a3.com^$all,inline-font
+||afflat3b1.com^$all,inline-font
+||afflat3b2.com^$all,inline-font
+||afflat3b3.com^$all,inline-font
+||afflat3c1.com^$all,inline-font
+||afflat3c2.com^$all,inline-font
+||afflat3c3.com^$all,inline-font
+||afflat3d1.com^$all,inline-font
+||afflat3d3.com^$all,inline-font
+||afflat3e2.com^$all,inline-font
+||afflat3e3.com^$all,inline-font
+||av-api.com^$all,inline-font
+||bagajffjeb5.com^$all,inline-font
+||btbag8nzdzb.com^$all,inline-font
+||buyjewelry.xyz^$all,inline-font
+||cdbjehadcd3.com^$all,inline-font
+||chant3rm1.com^$all,inline-font
+||chant3rm2.com^$all,inline-font
+||cykvb5symdn.com^$all,inline-font
+||dcjhagebgi10.com^$all,inline-font
+||dhsns9kqjfj.com^$all,inline-font
+||eihigdcchj1.com^$all,inline-font
+||eunzl1ftpxk.com^$all,inline-font
+||fdtqh15avvps.com^$all,inline-font
+||ffatric1.com^$all,inline-font
+||ffatric2.com^$all,inline-font
+||ffatric3.com^$all,inline-font
+||fjecdjgfjh6.com^$all,inline-font
+||ghdbhbjhbc2.com^$all,inline-font
+||gvaxe13ulzbx.com^$all,inline-font
+||hgcecidiig7.com^$all,inline-font
+||hzgdo6zcljw.com^$all,inline-font
+||ibqln4rdirt.com^$all,inline-font
+||ifificiada9.com^$all,inline-font
+||jefgbebgae8.com^$all,inline-font
+||kiwkp20xwcee.com^$all,inline-font
+||lffpy10mnsnp.com^$all,inline-font
+||madjabb.com^$all,inline-font
+||maxbounty.ai^$all,inline-font
+||maxbounty.ca^$all,inline-font
+||mb1-cdn.com^$all,inline-font
+||mb223.com^$all,inline-font
+||mbt3st3r1.com^$all,inline-font
+||mbt3st3r2.com^$all,inline-font
+||midsummer.pw^$all,inline-font
+||oplt20.org^$all,inline-font
+||owliz18qmfml.com^$all,inline-font
+||pmvhv3tpovz.com^$all,inline-font
+||qjmok16pbaqv.com^$all,inline-font
+||racgt2cruho.com^$all,inline-font
+||sljwc17lergu.com^$all,inline-font
+||tkxfm12oheca.com^$all,inline-font
+||vegalforniture.it^$all,inline-font
+||vnubx19yuhiy.com^$all,inline-font
+||wsdcq7wayud.com^$all,inline-font
+||xgptw11vogsh.com^$all,inline-font
+||zeirj14ikqwf.com^$all,inline-font
+||69.172.200.185^$all,inline-font
+||77.220.214.153^$all,inline-font
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidgreek.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
@@ -23168,18 +23229,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||mojobiden.com^$all
 ||paymenthacks.com^$all
 ||humisnee.com^$all
-||149.248.52.61^$all
-||37.0.11.8^$all
-||45.146.165.91^$all
-||2215.site^$all
-||151.237.138.38^$all
-||18.223.199.234^$all
-||118.243.83.70^$all
-||5.189.168.53^$all
-||162.214.68.171^$all
-||83.97.20.174^$all
-||37.0.8.217^$all
-||49.143.32.6^$all
 ||ksandrafashion.com^$all
 ||kulppasur.com^$all
 ||ecole-saint-simon.net^$all
@@ -26052,8 +26101,17 @@ ostrowlubelski.pl##^responseheader(location)
 ||bethanytunks.skin^$all
 ||localdatez.com^$all
 ||leoniaivey.site^$all
+||brooklynalam.mom^$all
+||alisonsweigert.mom^$all
 ||40PlusShag.com^$all
 ||delivery.40plusshag.com^$all
+||foreverinprofitmaking.com^$document
+||pp.45-61-158-129.cprapid.com^$document
+||globalserviceslogistics.com^$document
+||luxurysgift.com^$document
+||athletic-harmony.com^$document
+||knkpublishingsoftware.com^$document
+||obses-sion.info^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
