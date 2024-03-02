@@ -29649,6 +29649,9 @@ sync-a.mxspy.com
 myspyapps.com
 my-spy-a9c92.firebaseio.com
 flexispy.com
+clevguard.com
+clevguard.org
+imyfone.com
 romanhackers.com
 mmczmfgpq.com
 totaladblocker.com
@@ -31066,3 +31069,10 @@ sync-a935.thetruthspy.com
 sync-a940.thetruthspy.com
 sync-a941.thetruthspy.com
 sync-a942.thetruthspy.com
+www.clevguard.com
+images.clevguard.com
+panel.clevguard.com
+public.clevguard.com
+account.clevguard.com
+www.clevguard.org
+images.clevguard.org
