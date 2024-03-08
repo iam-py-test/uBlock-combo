@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 07/03/2024
+! Last updated: 08/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -4306,7 +4306,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||163.125.31.46^$all,~inline-font
 ||163.179.168.44^$all,~inline-font
 ||money-mod.com^$doc
-||gospelchor.info^$doc
 ||reykijnoac.com^$doc
 ||totalnicefeed.com^$all,~inline-font
 ||bestlifeoffer20.com^$doc
@@ -25573,6 +25572,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||revancedapp.download^$all
 ||espacefidelitefree.fr^$all
 ||shopflarehub.com^$all
+||dynamiclink.lol^$all
+||dynamic-linx.com^$all
+||androeed.store^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -25639,6 +25641,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||inteledirect.com^$all
 ||turapport-strience.icu^$document
 ||americanwinnerscircle.com^$all
+||gospelchor.info^$document
 ||freeco.xyz^$all
 ||golemgreat122.000webhostapp.com^$all
 ||aceelectricalny.com^$all
