@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 08/03/2024
+! Last updated: 09/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25574,7 +25574,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
-||androeed.store^$document
+||casino-ice.fun^$document
+||fortuneadvert.com^$document
+||lalielynaualish.com^$document
+||vast-conexxion.com^$all
+||bllthbatnthes.life^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -25641,7 +25645,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||inteledirect.com^$all
 ||turapport-strience.icu^$document
 ||americanwinnerscircle.com^$all
-||gospelchor.info^$document
 ||freeco.xyz^$all
 ||golemgreat122.000webhostapp.com^$all
 ||aceelectricalny.com^$all
@@ -25769,7 +25772,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||masstech.info^$all
 ||windows-secureit.com^$all
 ||anonmods.com^$all
-||freychang.fun^$all
 ||us.doctorpost.net^$document
 ||pastebin.com/qwUbwYbq^$all
 ||richinfo.co^$all
@@ -35147,6 +35149,27 @@ $doc,removeparam=vsm_pid
 ||carousell.$removeparam=t-tap_index
 $doc,removeparam=pk_cid
 ref=zetter-zeroday.com$doc,removeparam=/^ref=zetter-zeroday.com$/
+||qzone.qq.com^$doc,removeparam=loginfrom
+||qzone.qq.com^$doc,removeparam=jumptoqzone
+||qzone.qq.com^$doc,removeparam=subtype
+||qzone.qq.com^$doc,removeparam=ciphertext
+||qzone.qq.com^$doc,removeparam=blog_photo
+||qzone.qq.com^$doc,removeparam=g
+||qzone.qq.com^$doc,removeparam=res_uin
+||qzone.qq.com^$doc,removeparam=cellid
+||qzone.qq.com^$doc,removeparam=subid
+||qzone.qq.com^$doc,removeparam=bp1
+||qzone.qq.com^$doc,removeparam=bp2
+||qzone.qq.com^$doc,removeparam=bp7
+||qzone.qq.com^$doc,removeparam=g_f
+||urlshare.cn^$doc,removeparam=_wv
+||urlshare.cn^$doc,removeparam=srctype
+||urlshare.cn^$doc,removeparam=apptype
+||urlshare.cn^$doc,removeparam=loginuin
+||urlshare.cn^$doc,removeparam=plateform
+||urlshare.cn^$doc,removeparam=src_uin
+||urlshare.cn^$doc,removeparam=src_scene
+||urlshare.cn^$doc,removeparam=cli_scene
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
