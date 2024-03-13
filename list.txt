@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 12/03/2024
+! Last updated: 13/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -1268,6 +1268,15 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zimmisballet.tech^$all,~inline-font
 ://popupblockergold.$all,~inline-font
 ://adblock-pro-download.$all,~inline-font
+||freevideoadblock.$doc,popup
+||provideoadblocker.$doc,popup
+||ultimatevideoadblock.$doc,popup
+||videoadblocker-api.$doc,popup
+||videoadblocker-pro.$doc,popup
+||videoadblockerpro.$doc,popup
+||videoadblockers.$doc,popup
+||videoadblockertou.$doc,popup
+||videoadblockextension.$doc,popup
 ://142.91.159.$doc
 /^172\.255\.6\.(\d{1,2}|[12][0-689]\d|17[0-689])$/
 ://23.109.150.$doc
@@ -23194,11 +23203,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||lahuertasonora.com^$all
 ||twcamel.com^$all
 ||domainvalidation.cabanova.com^$all
-||540430.selcdn.ru^$all
-||576420.selcdn.ru^$all
-||536930.selcdn.ru^$all
-||575031.selcdn.ru^$all
-||567007.selcdn.ru^$all
 ||mojobiden.com^$all
 ||paymenthacks.com^$all
 ||humisnee.com^$all
@@ -25580,6 +25584,30 @@ ostrowlubelski.pl##^responseheader(location)
 ||lalielynaualish.com^$document
 ||vast-conexxion.com^$all
 ||bllthbatnthes.life^$document
+||arcanecheat.com^$all
+||95.216.253.55^$all
+||moddetail.com^$document
+||cvbuilder.staging.standout-cv.com^$document
+||liveinfo.xyz^$document
+||ww3.weweekly.us^$document
+||timesofeuropnews.com^$document
+||cards2024.org^$document
+||getaccess.w3spaces.com^$document
+||ourhealthy.life^$document
+||klospike.online^$document
+||re-captha-version-3-16.live^$document
+||kimona01.com^$document
+||getspins.info^$document
+||storage.canalblog.com^$document
+||vbbv.store^$document
+||vibuxion.top^$document
+||rangerbow.world^$document
+||qrcodes.pro^$document
+||rewards-emirates.com^$document
+||traveltraffic.cc^$all
+||cloudsonicwave.com^$all
+||steam-card50.com^$all
+||stseam.ru^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31764,7 +31792,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||trovi.com^$document
 ||sensorstechforum.com^$document
 ||donwnaloadeluzal.cfd^$all
-||donwnaloadezzal.sbs^$all
 ||ivedmanyyea.org^$document
 ||townrusisedprivat.info^$document
 ||ccleaner.com^$document
@@ -32012,15 +32039,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||phonetracking.net^$all
 ||protocol-a.ispyoo.com^$all
 ||protocol-a.mxspy.com^$all
-||protocol-a780.ispyoo.com^$all
 ||protocol-a780.mxspy.com^$all
-||protocol-a810.ispyoo.com^$all
-||protocol-a811.ispyoo.com^$all
 ||protocol-a811.mxspy.com^$all
-||protocol-a880.ispyoo.com^$all
 ||protocol.ispyoo.com^$all
 ||secondclone-2d312.firebaseio.com^$all
-||sync-a.ispyoo.com^$all
 ||sync-a.mxspy.com^$all
 ||myspyapps.com^$document
 ||my-spy-a9c92.firebaseio.com^$document
