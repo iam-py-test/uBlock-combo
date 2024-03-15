@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 14/03/2024
+! Last updated: 15/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25619,6 +25619,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||today.free.nf^$document
 ||nextmrolympia.com^$document
 ||an1.is^$document
+||spacex-starship.org^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33862,6 +33863,7 @@ $removeparam=_x_tr_pto
 ||www.google.$doc,removeparam=gs_lp
 ||www.google.*/search$removeparam=oq,doc
 ||google.$doc,removeparam=sca_esv
+||www.google.$removeparam=/^udm=$/
 ||tiktok.com^$removeparam=_r
 $removeparam=share_ab_group
 $removeparam=u_code
@@ -35205,6 +35207,8 @@ ref=zetter-zeroday.com$doc,removeparam=/^ref=zetter-zeroday.com$/
 ||urlshare.cn^$doc,removeparam=src_scene
 ||urlshare.cn^$doc,removeparam=cli_scene
 $doc,removeparam=Tcsack
+ref=awesometechstack.com$doc,removeparam=/^ref=awesometechstack.com$/
+ref=gtg.benabraham.net$doc,removeparam=/^ref=gtg.benabraham.net$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
