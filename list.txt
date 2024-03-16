@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 15/03/2024
+! Last updated: 16/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25620,6 +25620,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||nextmrolympia.com^$document
 ||an1.is^$document
 ||spacex-starship.org^$all
+||spacexgive.org^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32994,8 +32995,8 @@ $removeparam=REFERRAL_ID
 $removeparam=impradid
 $removeparam=impradname
 $removeparam=cm_type
-$doc,removeparam=/^ref=cj$/i
-$doc,removeparam=/^ref=awin$/
+Ref=CJ$doc,removeparam=ref
+ref=awin$doc,removeparam=ref
 $doc,removeparam=/^source=pepperjam$/
 $doc,removeparam=/^source=cj$/
 $removeparam=HACMP
@@ -33111,8 +33112,8 @@ $removeparam=adj_adgroup
 $removeparam=adj_creative
 $removeparam=_vsrefdom
 $removeparam=ceneo_spo
-$doc,removeparam=/^from=ceneo$/
-$doc,removeparam=/^ref=ceneo$/
+from=ceneo$doc,removeparam=from
+ref=ceneo$doc,removeparam=ref
 $removeparam=__s,doc
 $removeparam=_kx
 $doc,removeparam=/^affsrc=/i
@@ -33163,7 +33164,7 @@ $doc,removeparam=/^refsource=webgains$/
 $doc,removeparam=/^source=webgains$/
 $doc,removeparam=/^source=tradedoubler$/
 $doc,removeparam=/^network=webgains$/i
-$doc,removeparam=/^ref=kelkoo/
+ref=kelkoo$doc,removeparam=ref
 $doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
 $doc,removeparam=/^from=kelkoo/
 $removeparam=sClickID
@@ -33319,15 +33320,15 @@ $removeparam=ads_targetid
 $removeparam=elqTrack
 $doc,removeparam=/^from=rss$/
 $doc,removeparam=/^source=rss$/
-$doc,removeparam=/^ref=rss$/
-$doc,removeparam=/^via=rss$/
+ref=rss$doc,removeparam=ref
+via=rss$doc,removeparam=via
 $removeparam=mindbox-click-id
 $doc,removeparam=dtpid
 $removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tagtag_uid
 $removeparam=affiliateCode
 $removeparam=affcode
-$doc,removeparam=/^ref=admitad$/
+ref=admitad$doc,removeparam=ref
 $doc,removeparam=/^source=admitad$/
 $doc,removeparam=/^target=admitad$/
 $doc,removeparam=/^referer=prisjakt/i
@@ -33354,8 +33355,8 @@ $removeparam=gaa_sig
 $removeparam=amp_gsa
 $removeparam=vgo_ee
 $removeparam=rpcid
-$doc,removeparam=/^ref=prisjakt/i
-$doc,removeparam=/^ref=pricespy/i
+ref=prisjakt$doc,removeparam=ref
+ref=pricespy$doc,removeparam=ref
 $doc,removeparam=/^amp;utm_/
 $removeparam=sap-outbound-id
 $removeparam=analyticsCorrelationId
@@ -33401,8 +33402,8 @@ $doc,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
 $removeparam=relatedposts_hit
 $removeparam=relatedposts_origin
 $removeparam=relatedposts_position
-$doc,removeparam=/^ref=itsfoss.com$/
-$doc,removeparam=/^ref=news.itsfoss.com$/
+ref=itsfoss.com$doc,removeparam=ref
+ref=news.itsfoss.com$doc,removeparam=ref
 $removeparam=b_source
 $removeparam=b_medium
 $removeparam=b_campaign
@@ -34951,7 +34952,7 @@ $removeparam=ad_sub,domain=homo.xxx
 $doc,removeparam=waporef
 ||carsales.com.au^$removeparam=Cr,doc
 $removeparam=sdsrc,doc
-$removeparam=/^ref=troyhunt\.com/
+ref=troyhunt.com$doc,removeparam=ref
 ||shrunken.com^$doc,removeparam=shortUrlDomain
 ||disneyplus.com^$removeparam=distributionPartner
 ||homedepot.com^$removeparam=fromReminder
@@ -34985,7 +34986,7 @@ $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.co
 ||cnbc.com^$doc,removeparam=par
 ||businessinsider.com^$doc,removeparam=r
 ||businessinsider.com^$removeparam=op,doc
-$removeparam=/^ref=spreadprivacy.com$/
+ref=spreadprivacy.com$removeparam=ref
 $removeparam=caniuse_source,doc
 ||theathletic.com^$removeparam=checkout_entry_point,doc
 ||theathletic.com^$removeparam=ref_page,doc
@@ -35023,8 +35024,8 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,doc
 ||instagram.com^$removeparam=ig_rid
 ||cdninstagram.com^$removeparam=_nc_sid
 ||adguard.info^$removeparam=nc
-ref=404media.co$doc,removeparam=/^ref=404media.co$/
-ref=easywithai$doc,removeparam=/^ref=easywithai$/
+ref=404media.co$doc,removeparam=ref
+ref=easywithai$doc,removeparam=ref
 ||slack.com/downloads/$doc,removeparam=t
 $doc,removeparam=jp_cmp,domain=chase.com
 $doc,removeparam=orig_ref,domain=peacocktv.com
@@ -35068,10 +35069,10 @@ $removeparam=BT_VanityDomain,domain=citi.com
 $doc,removeparam=deliveryName,domain=abp.nl
 $doc,removeparam=wt_mc
 $doc,removeparam=wt_zmc
-ref=exploit.media$doc,removeparam=/^ref=exploit.media$/
+ref=exploit.media$doc,removeparam=ref
 $doc,removeparam=bpli,domain=blogger.com
 $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
-ref=beep.blog$doc,removeparam=/^ref=beep.blog$/
+ref=beep.blog$doc,removeparam=ref
 ||tempo.co^$doc,removeparam=tracking_page_direct
 ||trendyol.com^$doc,removeparam=link_userID
 ||trendyol.com^$doc,removeparam=link_contentid
@@ -35087,9 +35088,9 @@ ref=beep.blog$doc,removeparam=/^ref=beep.blog$/
 ||cimri.com^$doc,removeparam=offerCount
 ||cimri.com^$doc,removeparam=offerFiltered
 ||cimri.com^$doc,removeparam=hasFavorite
-ref=blog.roboflow.com$doc,removeparam=/^ref=blog.roboflow.com$/
+ref=blog.roboflow.com$doc,removeparam=ref
 ||gitlab.com^$doc,removeparam=nav_source
-ref=buffer.com$doc,removeparam=/^ref=buffer.com$/
+ref=buffer.com$doc,removeparam=ref
 ||bybit.com^$doc,removeparam=/^sa_utm_/i
 $doc,removeparam=gci
 $doc,removeparam=af_reengagement_window
@@ -35103,7 +35104,7 @@ $doc,removeparam=af_reengagement_window
 ||affiliate.insider.com^$doc,removeparam=platform
 ||affiliate.insider.com^$doc,removeparam=postID
 ||affiliate.insider.com^$doc,removeparam=postSlug
-||wordpress.com^$removeparam=/^ref=[a-z-]{5,}$/
+||wordpress.com^$doc,removeparam=/^ref=[a-z-]{5,}$/
 $removeparam=context,domain=avito.ru|avito.ma
 $doc,removeparam=_x_ns_sku_id,domain=temu.com 
 $doc,removeparam=_x_ads_channel,domain=temu.com
@@ -35162,8 +35163,8 @@ $removeparam=cgkit_search_word
 ||shop.samsung.com^$doc,removeparam=hmz_campaign
 ||shop.samsung.com^$doc,removeparam=hmz_inf
 ||shop.samsung.com^$doc,removeparam=hmz_lid
-ref=labs.watchtowr.com$doc,removeparam=/^ref=labs.watchtowr.com$/
-ref=upstract.com$doc,removeparam=/^ref=upstract.com$/
+ref=labs.watchtowr.com$doc,removeparam=ref
+ref=upstract.com$doc,removeparam=ref
 ||koreaherald.com^$doc,removeparam=ACE_SEARCH
 ||abcnyheter.no^$removeparam=nr
 ||windscribe.com^$doc,removeparam=pcpid
@@ -35184,7 +35185,7 @@ $doc,removeparam=vsm_pid
 ||carousell.$removeparam=t-source
 ||carousell.$removeparam=t-tap_index
 $doc,removeparam=pk_cid
-ref=zetter-zeroday.com$doc,removeparam=/^ref=zetter-zeroday.com$/
+ref=zetter-zeroday.com$doc,removeparam=ref
 ||qzone.qq.com^$doc,removeparam=loginfrom
 ||qzone.qq.com^$doc,removeparam=jumptoqzone
 ||qzone.qq.com^$doc,removeparam=subtype
@@ -35207,8 +35208,8 @@ ref=zetter-zeroday.com$doc,removeparam=/^ref=zetter-zeroday.com$/
 ||urlshare.cn^$doc,removeparam=src_scene
 ||urlshare.cn^$doc,removeparam=cli_scene
 $doc,removeparam=Tcsack
-ref=awesometechstack.com$doc,removeparam=/^ref=awesometechstack.com$/
-ref=gtg.benabraham.net$doc,removeparam=/^ref=gtg.benabraham.net$/
+ref=awesometechstack.com$doc,removeparam=ref
+ref=gtg.benabraham.net$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
