@@ -1,34 +1,19 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 18/03/2024
+! Last updated: 19/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
-||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf|~shorter.cf
 ||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top
 ||loan^$doc
-||gdn^$doc,domain=~cst.gdn|~pss.gdn
 ||bid^$doc
-||ooo^$doc,domain=~toast.ooo
-@@://oo*.ooo/$doc
-||sbs^$doc,domain=~ecopulse.sbs
-||discount^$doc,domain=~real.discount
-||cfd^$doc,domain=~frcoal.cfd|~freedium.cfd
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
 .life/*/?*=*&*=*&*=*&*=*&*=$doc
 .live/*/?*=*&*=*&*=*&*=*&*=$doc
 .xyz/*/?*=*&*=*&*=*&*=*&*=$doc
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$doc
-www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
-www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
-www.google.*##.g:has(a[href*=".loan/"])
-www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
-www.google.*##.g:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
-www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"], [href*="awavenue.top"]))
 www.google.*##.g:has(a[href*=".php?xxx="])
 www.google.*##.g:has(cite:has-text(.it › )):has(a[href*="-"][href$=".html"]:not([href*="://www."], [href*="://m."], [href*="carrefour.it"], [href*="gospesa.it"]))
 www.google.*##.g:has(a[href^="https://books.google."])
@@ -57,29 +42,8 @@ www.google.*##.g:has(a[href*="&orig_url=/" i]):has(a[href*=".tk/"], a[href*=".ml
 www.google.*##.g:has(a[href*="=//"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*=redirect][href*=".%D1%80%D1%84"])
 www.google.*##.g:has(a[href*="/go/"][href*=".%D1%80%D1%84"])
-www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="ws.agency"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".gdn/"]:not([href*="cst.gdn"], [href*="pss.gdn"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"], [href*="awavenue.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"], [href*="awavenue.top"]))
-bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
-bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
-bing.com##.b_algo:has(a[href*=".loan/"])
-bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"], [href*="ws.agency"]))
-bing.com##.b_algo:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
-bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"], [href*="awavenue.top"]))
 ||adblock.gjtech.net^$doc
 ||spam404bl.com^$doc
 ||109.201.135.46^$doc
@@ -25967,6 +25931,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||spacex-starship.org^$all
 ||spacexgive.org^$all
 ||ccukycu-alert.online^$all
+||new-s24.click^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31987,6 +31952,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||z-lib.id^$document
 ||okun.shop^$document
 ||energydots.com^$document
+||produktretter.at^$document
+||produktretter.com^$document
+||produktretter.org^$document
+||gratis-eltern-produkttests.com^$document
+||produkttest-anmeldung.com^$document
+||maforia-anmeldung.com^$document
+||produkttester-anmeldung.com^$document
+||produkttester-werden.org^$document
+||ruecksendungen-gratis.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -33341,8 +33315,8 @@ $removeparam=REFERRAL_ID
 $removeparam=impradid
 $removeparam=impradname
 $removeparam=cm_type
-Ref=CJ$doc,removeparam=ref
-ref=awin$doc,removeparam=ref
+Ref=CJ^$doc,removeparam=ref
+ref=awin^$doc,removeparam=ref
 $doc,removeparam=/^source=pepperjam$/
 $doc,removeparam=/^source=cj$/
 $removeparam=HACMP
@@ -33458,8 +33432,8 @@ $removeparam=adj_adgroup
 $removeparam=adj_creative
 $removeparam=_vsrefdom
 $removeparam=ceneo_spo
-from=ceneo$doc,removeparam=from
-ref=ceneo$doc,removeparam=ref
+from=ceneo^$doc,removeparam=from
+ref=ceneo^$doc,removeparam=ref
 $removeparam=__s,doc
 $removeparam=_kx
 $doc,removeparam=/^affsrc=/i
@@ -33510,7 +33484,7 @@ $doc,removeparam=/^refsource=webgains$/
 $doc,removeparam=/^source=webgains$/
 $doc,removeparam=/^source=tradedoubler$/
 $doc,removeparam=/^network=webgains$/i
-ref=kelkoo$doc,removeparam=ref
+ref=kelkoo^$doc,removeparam=ref
 $doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
 $doc,removeparam=/^from=kelkoo/
 $removeparam=sClickID
@@ -33666,7 +33640,7 @@ $removeparam=ads_targetid
 $removeparam=elqTrack
 $doc,removeparam=/^from=rss$/
 $doc,removeparam=/^source=rss$/
-ref=rss$doc,removeparam=ref
+ref=rss^$doc,removeparam=ref
 via=rss$doc,removeparam=via
 $removeparam=mindbox-click-id
 $doc,removeparam=dtpid
@@ -33674,7 +33648,7 @@ $removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tagtag_uid
 $removeparam=affiliateCode
 $removeparam=affcode
-ref=admitad$doc,removeparam=ref
+ref=admitad^$doc,removeparam=ref
 $doc,removeparam=/^source=admitad$/
 $doc,removeparam=/^target=admitad$/
 $doc,removeparam=/^referer=prisjakt/i
@@ -33701,8 +33675,8 @@ $removeparam=gaa_sig
 $removeparam=amp_gsa
 $removeparam=vgo_ee
 $removeparam=rpcid
-ref=prisjakt$doc,removeparam=ref
-ref=pricespy$doc,removeparam=ref
+ref=prisjakt^$doc,removeparam=ref
+ref=pricespy^$doc,removeparam=ref
 $doc,removeparam=/^amp;utm_/
 $removeparam=sap-outbound-id
 $removeparam=analyticsCorrelationId
@@ -33982,7 +33956,7 @@ $removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|ettoday.ne
 $removeparam=keyword,domain=bindright.com|lendgo.com
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
-$removeparam=adid,domain=nikkei.co.jp|mcafee.com|indeed.com
+$doc,removeparam=adid,domain=indeed.com|mcafee.com|nikkei.co.jp|tmz.com
 ||amazon.$removeparam=th
 ||amazon.$removeparam=linkCode
 $removeparam=refRID
@@ -35558,6 +35532,7 @@ ref=awesometechstack.com$doc,removeparam=ref
 ref=gtg.benabraham.net$doc,removeparam=ref
 ref=blog.isosceles.com$doc,removeparam=ref
 ||bbc.com^$removeparam=src_origin
+$doc,removeparam=jmtyClId
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
