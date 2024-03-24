@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/03/2024
+! Last updated: 24/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -239,7 +239,7 @@ exefiles.com##.row:has(a[href*="/recommended/"])
 /^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$1p,doc
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
-/^https?:\/\/(?:www\.)?[-0-9a-z]{14,}\.(?:biz|fun|live)\/[a-zA-Z]{10,}\.php/$doc,domain=biz|fun|live
+/^https?:\/\/(?:www\.)?[-0-9a-z]{14,}\.(?:biz|fun|live)\/[a-zA-Z]{10,}\.php$/$doc,domain=biz|fun|live
 msn.com##.irisbanner
 ||freeroms.com^$doc
 ||portalroms.com^$doc
@@ -35547,6 +35547,7 @@ ref=gtg.benabraham.net$doc,removeparam=ref
 ref=blog.isosceles.com$doc,removeparam=ref
 ||bbc.com^$removeparam=src_origin
 $doc,removeparam=jmtyClId
+||asos.com^$removeparam=ctaref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
