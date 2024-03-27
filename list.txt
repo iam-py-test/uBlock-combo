@@ -1,12 +1,12 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 26/03/2024
+! Last updated: 27/03/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top
+||top^$doc,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top|~reyhub.top
 ||loan^$doc
 ||bid^$doc
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -23409,12 +23409,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||amazonaws.com^$doc,popup,badfilter
 ||amazonaws.com^$doc,badfilter
 ||amazonaws.com^$badfilter
-|cisco.com|$dnstype=TXT
-|cloudflare.com|$dnstype=TXT
-|adobe.com|$dnstype=TXT
-|atlassian.com|$dnstype=TXT
-|apple.com|$dnstype=TXT
-|google.com|$dnstype=TXT
+|cisco.com|$domain=for-txt-dnstype-conversions.mint
+|cloudflare.com|$domain=for-txt-dnstype-conversions.mint
+|adobe.com|$domain=for-txt-dnstype-conversions.mint
+|atlassian.com|$domain=for-txt-dnstype-conversions.mint
+|apple.com|$domain=for-txt-dnstype-conversions.mint
+|google.com|$domain=for-txt-dnstype-conversions.mint
 ||avast.$app=CCleaner.exe|CCleaner64.exe|CCleanerCloudAgent.exe|ccsetup617.exe|ccsetup618.exe|ccsetup619.exe|ccsetup620.exe|ccsetup621.exe|ccsetup622.exe|ccsetup623.exe|ccsetup624.exe|ccsetup625.exe|ccsetup70.exe
 ||xn--faebook-64a.com^$document
 ||strawberry6532210.brizy.site^$all
@@ -25893,6 +25893,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||compte-free.hubside.fr^$document
 ||pointsfreemobile.com^$document
 ||espacefidelitefree.fr^$all
+||free-mob2584.hubside.fr^$all
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
@@ -25941,6 +25942,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||new-s24.click^$document
 ||steamcommumtiy.com^$document
 ||wwss.pages.dev^$document
+||usps-delivery-a.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31976,6 +31978,16 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||ffuoouw.shop^$all
 ||nnsnnqn.shop^$all
 ||rrmuumm.shop^$all
+||luizeva.com^$document
+||earnglobal.co^$document
+||prostargift.com^$document
+||quirkleaf.com^$document
+||hft-fyfc.com^$document
+||askotrade.net^$document
+||binozy.com^$document
+||monarchlibertygroup.cc^$document
+||polybox.finance^$document
+||sanexer.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -32964,6 +32976,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||jobs.githubtalentcommunity.online^$all
 ||virustotaal.com^$document
 ||ggogle.de^$document
+||free-mob2584.$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
