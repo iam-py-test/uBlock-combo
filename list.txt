@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 02/04/2024
+! Last updated: 03/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17765,6 +17765,23 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zrl7.com^$all,~inline-font
 ||modreminiapk.com^$all,~inline-font
 ://45.141.59.$doc
+||basicnetworkhistory.com^$all,~inline-font
+||chainedconnections.com^$all,~inline-font
+||chainworkflow.com^$all,~inline-font
+||connectednetworkchain.com^$all,~inline-font
+||fastnetworkchain.com^$all,~inline-font
+||oneconnectionseries.com^$all,~inline-font
+||protocolroutetag.com^$all,~inline-font
+||redirectedflowchain.com^$all,~inline-font
+||redirectlayerprotocol.com^$all,~inline-font
+||redirectoffchain.com^$all,~inline-font
+||routinglinkweb.com^$all,~inline-font
+||routingsequencepriority.com^$all,~inline-font
+||simpledatanetwork.com^$all,~inline-font
+||speednetworkchain.com^$all,~inline-font
+||systemnetworkroute.com^$all,~inline-font
+||trafficredirectchain.com^$all,~inline-font
+||108.62.157.10^$all,~inline-font
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -25849,6 +25866,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||brooklynalam.mom^$all
 ||alisonsweigert.mom^$all
 ||alexiaurlanza.skin^$all
+||lonnabritton.skin^$all
+||datingcompass.fun^$all
 ||40PlusShag.com^$all
 ||delivery.40plusshag.com^$all
 ||foreverinprofitmaking.com^$document
@@ -25894,6 +25913,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||pointsfreemobile.com^$document
 ||espacefidelitefree.fr^$all
 ||free-mob2584.hubside.fr^$all
+||web-free.hubside.fr^$all
+||zimbra-free-com.hubside.fr^$all
+||zimbra-free-com.$document,domain=~translate.goog
+||free-mobi20i2582.hubside.fr^$all
+||zimbra-free-email.hubside.fr^$all
+||freezimbra.hubside.fr^$all
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
@@ -31993,6 +32018,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||monarchlibertygroup.cc^$document
 ||polybox.finance^$document
 ||sanexer.com^$document
+||toughknifes.com^$all
+||darntoughfactory.shop^$all
+||darnroughonline.top^$all
+||darntoughonline.shop^$all
+||darntoughonline-us.top^$all
+||darntoughsales.shop^$all
+||us-darntoughonline.top^$all
+||vipbargainhub.com^$all
+||vpdamai.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
