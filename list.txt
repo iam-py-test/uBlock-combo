@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 03/04/2024
+! Last updated: 04/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17782,6 +17782,16 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||systemnetworkroute.com^$all,~inline-font
 ||trafficredirectchain.com^$all,~inline-font
 ||108.62.157.10^$all,~inline-font
+||avito.avito.avito.$all
+.booking.com-id*$all
+.com-id*.info^$all
+||yandex.avito.sber*$all
+||yandex.avito.www.$all
+||yandex.pay.avito.$all
+.avito.www.booking.$all
+||booklng.com-*$all
+||avito.avito.www.avito.$all
+||booking.com-id*$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -25919,6 +25929,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||free-mobi20i2582.hubside.fr^$all
 ||zimbra-free-email.hubside.fr^$all
 ||freezimbra.hubside.fr^$all
+||web0mail.hubside.fr^$all
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
@@ -33016,6 +33027,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||virustotaal.com^$document
 ||ggogle.de^$document
 ||free-mob2584.$document
+||beachcitiescommercialbank.com^$all
+||americasfirstnationalbank.com^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
@@ -35608,6 +35621,7 @@ ref=blog.isosceles.com$doc,removeparam=ref
 $doc,removeparam=jmtyClId
 ||asos.com^$removeparam=ctaref
 ||intersport.$removeparam=cgid
+||gumroad.com^$removeparam=recommended_by
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
