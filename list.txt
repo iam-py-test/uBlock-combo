@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 10/04/2024
+! Last updated: 11/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24167,6 +24167,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||freezimbra.hubside.fr^$all
 ||web0mail.hubside.fr^$all
 ||free-mobile0021547.hubside.fr^$all
+||free-information.hubside.fr^$all
+||mobiles.hubside.fr^$all
+||freemailzimbra.hubside.fr^$all
+||rivita3106felibgcom.hubside.fr^$all
+||info-free.hubside.fr^$all
+||emails-free.hubside.fr^$all
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
@@ -24461,9 +24467,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||g6pay.top^$all
 ||n6pay.top^$document
 ||c6pay.top^$all
-||190.115.26.220^$document
-||buymeacoffee.com/GamingZonebd/free-discord-nitro-codes-generator-2022-latest-working-100^$document
-||gamecodeclaim.com^$all
 ||foradream.top^$all
 ||dream-singles.com^$document
 ||speedboostpc.com^$document
@@ -24678,7 +24681,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||techplanet1.com^$all
 ||form.run/@free-tiktok-followers-fans-likes-generator^$all
 ||dwmsurhf1svv8.cloudfront.net^$document,frame
-||contact.nationalconsumerscenter.co.uk^$document
+||nationalconsumerscenter.co.uk^$document
 ||uspftiltedt.info^$all
 ||urambled.com^$all
 ||manualmaestro.com^$all
@@ -24748,7 +24751,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||discordnitrocodegeneratorfree2022nohumanverification.weebly.com^$all
 ||gainforfree.com^$all
 ||bubuxflow.com^$all
-||nationalconsumerscenter.co.uk^$document
 ||expresscommusa.com^$document
 ||flirtingworld.com^$document
 ||date.sofortdates69.com^$document
@@ -30300,6 +30302,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americasfirstnationalbank.com^$all
 ||spacex-invest.org^$all
 ||xcorepips.com^$document
+||x2-invest.com^$all
+||websharetday.online^$document
+||gettechreward.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
