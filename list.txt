@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/04/2024
+! Last updated: 17/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24173,6 +24173,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||rivita3106felibgcom.hubside.fr^$all
 ||info-free.hubside.fr^$all
 ||emails-free.hubside.fr^$all
+||freema.hubside.fr^$all
+||free-zimbra.hubside.fr^$all
+||free-mobile1540478.hubside.fr^$all
+||freewebzim.hubside.fr^$all
+||acceder-a-mon-free.hubside.fr^$all
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
@@ -24234,6 +24239,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||account-cfe.mx^$document
 ||gooq1e.com^$all
 ||ecmokdtj.com^$document
+||grapheneos.fr^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30307,6 +30313,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||gettechreward.com^$all
 ||leanbiome-discount.store^$all
 ||gamersahead.com^$all
+||daniellacribbs.lol^$all
+||fatimaforaker.skin^$all
+||oletaburford.buzz^$all
+||hngfck.com^$document
+||mailtknnews.com^$document
+||russiagirlsonline.com^$document
+||charmdate.com^$document
+||slowmitter.top^$document
+||singingfiles.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -31296,7 +31311,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||virustotaal.com^$document
 ||ggogle.de^$document
 ||free-mob2584.$document
-||grapheneos.fr^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
