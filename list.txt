@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 18/04/2024
+! Last updated: 19/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24178,6 +24178,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||free-mobile1540478.hubside.fr^$all
 ||freewebzim.hubside.fr^$all
 ||acceder-a-mon-free.hubside.fr^$all
+||my-acount-free.hubside.fr^$all
 ||shopflarehub.com^$all
 ||dynamiclink.lol^$all
 ||dynamic-linx.com^$all
@@ -24267,6 +24268,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||edcjn.57fe6f5d9d.ipv6.1433.eu.org^$all
 ||srgsdf.842b727ba4.ipv6.1433.eu.org^$all
 ||45.121.51.2^$all
+||dehoe.top^$all
+||notilon.co^$all
+||sivaspastane.com^$all
+||utm-adrooz.com^$all
+||startupzonechanpatia.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31338,6 +31344,15 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||virustotaal.com^$document
 ||ggogle.de^$document
 ||free-mob2584.$document
+||1377x.is^$document
+||1377x.to^$document
+||1337x.tw^$document
+||13377x.tw^$document
+||1337xto.to^$document
+||1337xx.to^$document
+||1337xxx.to^$document
+||1337x-official.to^$document
+||1337x.homes^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
