@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 21/04/2024
+! Last updated: 22/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24048,7 +24048,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||apple-health.org^$all
 ||195.35.19.138^$all
 ||privacyguides.io^$all
-||poperblocker.com^$document
+||poperblocker.com^$all
 ||skinboxs.com^$all
 ||pq.hosting^$all
 ||193.233.193.65^$all
@@ -24273,6 +24273,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||sivaspastane.com^$all
 ||utm-adrooz.com^$all
 ||startupzonechanpatia.com^$all
+||popupblocker-download.com^$document
+||popupblockernow.com^$document
+||popupgoldblocker.net^$document
+||popupsblocker.org^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31344,15 +31348,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||virustotaal.com^$document
 ||ggogle.de^$document
 ||free-mob2584.$document
-||1377x.is^$document
-||1377x.to^$document
-||1337x.tw^$document
-||13377x.tw^$document
-||1337xto.to^$document
-||1337xx.to^$document
-||1337xxx.to^$document
-||1337x-official.to^$document
-||1337x.homes^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
