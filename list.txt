@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 22/04/2024
+! Last updated: 23/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -42,6 +42,7 @@ www.google.*##.g:has(a[href*="&orig_url=/" i]):has(a[href*=".tk/"], a[href*=".ml
 www.google.*##.g:has(a[href*="=//"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*=redirect][href*=".%D1%80%D1%84"])
 www.google.*##.g:has(a[href*="/go/"][href*=".%D1%80%D1%84"])
+www.google.*##.isv-r:has(a[title$="% OFF"]:is([href*=-aa-],[href*=-bb-],[href*=-cc-],[href*=-dd-],[href*=-ee-],[href*=-ff-],[href*=-gg-],[href*=-hh-],[href*=-ii-],[href*=-jj-],[href*=-kk-],[href*=-ll-],[href*=-mm-],[href*=-nn-],[href*=-oo-],[href*=-pp-],[href*=-qq-],[href*=-rr-],[href*=-ss-],[href*=-tt-],[href*=-uu-],[href*=-vv-],[href*=-ww-],[href*=-xx-],[href*=-yy-],[href*=-zz-]))
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 ||adblock.gjtech.net^$doc
@@ -23521,7 +23522,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||veritiesgarlejobade.com^$all
 ||amazingcontent.site^$all
 ||cadrctlnk.com^$document
-||cdn.house^
 ||clickmint3.online^$all
 ||e9a53154b4.com^$all
 ||systemsecurity.click^$all
@@ -30359,6 +30359,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||charmdate.com^$document
 ||slowmitter.top^$document
 ||singingfiles.com^$document
+||gym-sharkfinland.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
