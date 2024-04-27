@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 26/04/2024
+! Last updated: 27/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -21229,7 +21229,6 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||zapsenlight.space^$all,~inline-font
 ||zinoberscripee.digital^$all,~inline-font
 ||zoqueanbannets.tech^$all,~inline-font
-://172.255.6.$doc
 ://188.42.84.$doc
 ://203.195.121.$doc
 ||gantdanmark.com^$all,~inline-font
@@ -21998,6 +21997,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||amazonaws.com^$doc,popup,badfilter
 ||amazonaws.com^$doc,badfilter
 ||amazonaws.com^$badfilter
+www.google.*##.isv-r:has(a[title*=" OFF "][title$="%"]:not([title$="0%"],[title$="5%"]))
+www.google.*##.isv-r:has(a[href*=".aspx?cname="])
 |cisco.com|$domain=for-txt-dnstype-conversions.mint
 |cloudflare.com|$domain=for-txt-dnstype-conversions.mint
 |adobe.com|$domain=for-txt-dnstype-conversions.mint
@@ -22005,6 +22006,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 |apple.com|$domain=for-txt-dnstype-conversions.mint
 |google.com|$domain=for-txt-dnstype-conversions.mint
 ||avast.$app=CCleaner.exe|CCleaner64.exe|CCleanerCloudAgent.exe|ccsetup617.exe|ccsetup618.exe|ccsetup619.exe|ccsetup620.exe|ccsetup621.exe|ccsetup622.exe|ccsetup623.exe|ccsetup624.exe|ccsetup625.exe|ccsetup70.exe
+/^172\.255\.6\.(\d{1,2}|2.*|1[0-689].*|17[0-689])\$/$network
+
 ||xn--faebook-64a.com^$document
 ||strawberry6532210.brizy.site^$all
 ||starlangbank.com^$all
@@ -24278,6 +24281,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||popupgoldblocker.net^$document
 ||popupsblocker.org^$document
 ||sadostic.pl^$document
+||cosmicbetrayers.com^$all
+||4.228.216.231^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33938,8 +33943,10 @@ $doc,removeparam=jmtyClId
 ||asos.com^$removeparam=ctaref
 ||intersport.$removeparam=cgid
 ||gumroad.com^$removeparam=recommended_by
-ref=gandalf$doc,removeparam=/^ref=gandalf$/
+ref=gandalf$doc,removeparam=ref
 src=foodpanda.com$doc,domain=foodpanda.*,removeparam=src
+ref=blog.unpac.me$doc,removeparam=ref
+$doc,removeparam=s_campaign
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
