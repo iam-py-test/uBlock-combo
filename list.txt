@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 27/04/2024
+! Last updated: 28/04/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22710,7 +22710,6 @@ www.google.*##.isv-r:has(a[href*=".aspx?cname="])
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_Surfshark.rar^$all
 ||bitbucket.org/edidervishid46/facebooker/downloads/Passw_wesoft_NortonVPN.rar^$all
 ||142.93.198.232^$all
-||youtube.com/watch?v=U35v0C34ON8^$all
 ||bit.ly/3zKpp8y^$all
 ||mediafire.com/folder/bftfjxk7na4m8/Setup^$all
 ||mediafire.com/file/kfjdexcnso6l3uk/Installer.rar/file^$all
@@ -24283,6 +24282,18 @@ ostrowlubelski.pl##^responseheader(location)
 ||sadostic.pl^$document
 ||cosmicbetrayers.com^$all
 ||4.228.216.231^$all
+||myhermes-sendungs.com^$document
+||torontohack.fun^$all
+||mediafire.com/folder/ux0dk7ist85e1/F0LDER^$all
+||mediafire.com/file/7os5cx2x4rp70nm/UPL0ADER.7z/file^$all
+||productivelookewr.shop^$all
+||tolerateilusidjukl.shop^$all
+||shatterbreathepsw.shop^$all
+||shortsvelventysjo.shop^$all
+||incredibleextedwj.shop^$all
+||alcojoldwograpciw.shop^$all
+||liabilitynighstjsko.shop^$all
+||demonstationfukewko.shop^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -30552,6 +30563,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||driverpack.tilda.ws^$document
 ||dwrapper-prod.herokuapp.com^$document
 ||driverfix.com^$all
+||pdfpilotapp.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
