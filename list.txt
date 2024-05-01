@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 30/04/2024
+! Last updated: 01/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24295,6 +24295,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||liabilitynighstjsko.shop^$all
 ||demonstationfukewko.shop^$all
 ||greatnessappreviews.com^$all
+||percumannue.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33596,7 +33597,6 @@ $removeparam=ifs,domain=pcgamesn.com|pockettactics.com|thedigitalfix.com|theload
 $removeparam=_mak_partner_campaign
 ||courir.$removeparam=/^_mak_partner_.*$/
 $removeparam=glbnav,domain=hallmark.com|hallmarkchannel.com|hallmarkchannelwines.com|hallmarkdrama.com|hallmarkmoviesandmysteries.com|hmnow.com|watchhallmarktv.com
-||adobe.com^$removeparam=mv
 ||adobe.com^$removeparam=mv2
 ||columbiasportswear.$removeparam=oid
 $removeparam=amp,doc,domain=puma.com|businessinsider.com
