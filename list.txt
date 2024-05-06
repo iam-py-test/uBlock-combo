@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 05/05/2024
+! Last updated: 06/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -30382,6 +30382,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||slowmitter.top^$document
 ||singingfiles.com^$document
 ||gym-sharkfinland.com^$all
+||93mobiles.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -30569,6 +30570,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||dwrapper-prod.herokuapp.com^$document
 ||driverfix.com^$all
 ||pdfpilotapp.com^$document
+||restorex360.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
@@ -31372,6 +31374,9 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||virustotaal.com^$document
 ||ggogle.de^$document
 ||free-mob2584.$document
+||washinqtonpost.press^$all
+||bitly.org.il^$all
+||aspenlnstitute.org^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
