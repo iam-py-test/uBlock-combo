@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 14/05/2024
+! Last updated: 15/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18021,7 +18021,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||bendproceed.com^$all,~inline-font
 ||beneathconstellation.com^$all,~inline-font
 ||bennetproblems.com^$all,~inline-font
-||beoutq.xyz^$all,~inline-font
 ||berchchisel.com^$all,~inline-font
 ||bereaveundresscrowded.com^$all,~inline-font
 ||berriescourageous.com^$all,~inline-font
@@ -19628,7 +19627,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||metfoetushandicraft.com^$all,~inline-font
 ||metredaily.com^$all,~inline-font
 ||micechillyorchard.com^$all,~inline-font
-||michaelapplysome.com^$all,~inline-font
 ||midsummertuesdaydistress.com^$all,~inline-font
 ||migrantproof.com^$all,~inline-font
 ||mildlyrambleadroit.com^$all,~inline-font
@@ -19721,7 +19719,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||nearlynightingalebust.com^$all,~inline-font
 ||nearvictorydame.com^$all,~inline-font
 ||neateclipsevehemence.com^$all,~inline-font
-||nectareousoverelate.com^$all,~inline-font
 ||neighbouremployer.com^$all,~inline-font
 ||nephewdin.com^$all,~inline-font
 ||netcpms.com^$all,~inline-font
