@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 19/05/2024
+! Last updated: 20/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -35453,7 +35453,6 @@ $removeparam=si,doc,domain=open.spotify.com|soundcloud.com|zappos.com
 ||open.spotify.com^$removeparam=%243p
 $removeparam=gtm
 $removeparam=referral,domain=tv2.no|spotify.com|yubo.live
-||spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=uid
 ||aliexpress.*/item/$removeparam=pvid
 ||aliexpress.$removeparam=_t
