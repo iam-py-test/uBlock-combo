@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 22/05/2024
+! Last updated: 23/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24624,9 +24624,6 @@ www.google.*##.isv-r:has(a[href*=".aspx?cname="])
 |atlassian.com|$domain=for-txt-dnstype-conversions.mint
 |apple.com|$domain=for-txt-dnstype-conversions.mint
 |google.com|$domain=for-txt-dnstype-conversions.mint
-/^172\.255\.6\.(\d{1,2}|2.*|1[0-689].*|17[0-689])\$/$network
-||avast.$app=CCleaner.exe|CCleaner64.exe|CCleanerCloudAgent.exe|ccsetup617.exe|ccsetup618.exe|ccsetup619.exe|ccsetup620.exe|ccsetup621.exe|ccsetup622.exe|ccsetup623.exe|ccsetup624.exe|ccsetup625.exe|ccsetup70.exe
-
 ||xn--faebook-64a.com^$document
 ||strawberry6532210.brizy.site^$all
 ||starlangbank.com^$all
@@ -34403,7 +34400,7 @@ $doc,removeparam=/^dv_adwords_.*$/
 $removeparam=wdorigin
 $doc,removeparam=/^aff_id\d?=.*$/i,domain=~affiliate.salestring.com
 $removeparam=twitchReferral
-$removeparam=elqTrackId
+$doc,removeparam=elqTrackId,domain=~comcast.com
 $removeparam=tctx
 $removeparam=ad_medium
 $doc,removeparam=/^adgroup=.*$/i
@@ -34414,7 +34411,7 @@ $removeparam=partition_id
 $removeparam=adgroup_id
 $removeparam=rlsatarget
 $doc,removeparam=targetid,domain=~myanonamouse.net
-$removeparam=elqCampaignId
+$doc,removeparam=elqCampaignId,domain=~comcast.com
 $removeparam=dc_campid
 $removeparam=dc_adgroupid
 $removeparam=adgroupid
@@ -34475,12 +34472,12 @@ $removeparam=action_type_map
 $doc,removeparam=/^bsft_.*$/
 $doc,removeparam=/^dpg_.*$/
 $doc,removeparam=/^adjust.*$/,domain=~adj.st
-$removeparam=elq
-$removeparam=elqaid
-$removeparam=elqat
-$removeparam=elqah
-$removeparam=elqcst
-$removeparam=elqcsid
+$doc,removeparam=elq,domain=~comcast.com
+$doc,removeparam=elqaid,domain=~comcast.com
+$doc,removeparam=elqat
+$doc,removeparam=elqah
+$doc,removeparam=elqcst
+$doc,removeparam=elqcsid
 $doc,removeparam=/^ga_.*$/
 $removeparam=_hsenc
 $removeparam=_hsmi
