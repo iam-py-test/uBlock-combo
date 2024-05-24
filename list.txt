@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/05/2024
+! Last updated: 24/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26922,6 +26922,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||urdxh.com^$all
 ||hypernitro.ru^$all
 ||nitrohunt.com^$all
+||urgug.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -34400,7 +34401,7 @@ $doc,removeparam=/^dv_adwords_.*$/
 $removeparam=wdorigin
 $doc,removeparam=/^aff_id\d?=.*$/i,domain=~affiliate.salestring.com
 $removeparam=twitchReferral
-$doc,removeparam=elqTrackId,domain=~comcast.com
+$doc,removeparam=elqTrackId,domain=~comcast.com|~comcastforbusiness.com
 $removeparam=tctx
 $removeparam=ad_medium
 $doc,removeparam=/^adgroup=.*$/i
@@ -34411,7 +34412,7 @@ $removeparam=partition_id
 $removeparam=adgroup_id
 $removeparam=rlsatarget
 $doc,removeparam=targetid,domain=~myanonamouse.net
-$doc,removeparam=elqCampaignId,domain=~comcast.com
+$doc,removeparam=elqCampaignId,domain=~comcast.com|~comcastforbusiness.com
 $removeparam=dc_campid
 $removeparam=dc_adgroupid
 $removeparam=adgroupid
@@ -34472,8 +34473,8 @@ $removeparam=action_type_map
 $doc,removeparam=/^bsft_.*$/
 $doc,removeparam=/^dpg_.*$/
 $doc,removeparam=/^adjust.*$/,domain=~adj.st
-$doc,removeparam=elq,domain=~comcast.com
-$doc,removeparam=elqaid,domain=~comcast.com
+$doc,removeparam=elq,domain=~comcast.com|~comcastforbusiness.com
+$doc,removeparam=elqaid,domain=~comcast.com|~comcastforbusiness.com
 $doc,removeparam=elqat
 $doc,removeparam=elqah
 $doc,removeparam=elqcst
