@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/05/2024
+! Last updated: 30/05/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -35276,10 +35276,13 @@ $removeparam=returnFromLogin,domain=amazon.*
 $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
 ||amazon.*/primeday/$removeparam=tag
 ||amazon.*/primeday/$removeparam=mfadid
-||www.amazon.$removeparam=/^[a-z_]{1,20}=[a-zA-Z0-9._-]{80,}$/
+||www.amazon.$doc,removeparam=/^[a-z_]{1,20}=[a-zA-Z0-9._-]{80,}$/
 ||www.amazon.$removeparam=sp_csd
 ||www.amazon.$removeparam=dib_tag
 @@||amazon.*/profilewidget^$removeparam,~doc
+||amazon.$doc,removeparam=social_share
+||amazon.$doc,removeparam=starsLeft
+||amazon.$doc,removeparam=skipTwisterOG
 ||bing.com/?$removeparam=/^form=.*$/i
 ||bing.$removeparam=sp
 $removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
@@ -36078,7 +36081,7 @@ $removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 ||target.com^$removeparam=lnk
 $removeparam=marketing_id
 $removeparam=s,domain=greenhouse.io|mothership.sg|spreadprivacy.com|youku.com|nextdoor.com
-$doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
+$doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
 ||yandex.$removeparam=clid
 $removeparam=cpa-perf
 $removeparam=visit_id,doc,domain=bilibili.com|google.*
