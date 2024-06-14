@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 13/06/2024
+! Last updated: 14/06/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26990,6 +26990,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||odvanced-ip-scanner.com^$document
 ||lightssplash.shop^$document
 ||wildwestshine.com^$document
+||newincomingmessage.com^$document
+||zaz4o.securesolidlink.com^$document
+||re-captha-version-3-277.buzz^$all
+||inboxtext.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31877,7 +31881,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||timberlandsuomi.net^$document
 ||timberlandsuomifi.com^$document
 ||timberlandxsuomi.com^$document
-||timbsuomi.com^$document
 ||uniqloale.com^$document
 ||uniqlo-finland.com^$document
 ||uniqlofinland.com^$document
@@ -34252,6 +34255,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||witquote.com^$all
 ||yachtatdock.com^$all
 ||yogurthome.org^$all
+||preggophila.com^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
