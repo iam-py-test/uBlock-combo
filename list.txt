@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 21/06/2024
+! Last updated: 22/06/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20682,6 +20682,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||youtrustedprolong.com^$all,~inline-font
 ||yydtbpms8tf4.com^$all,~inline-font
 ||zipinaccurateoffering.com^$all,~inline-font
+||167.71.252.38^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -27000,6 +27001,24 @@ ostrowlubelski.pl##^responseheader(location)
 ||gameportal.casa^$document
 ||gimp.zendesk.com^$all
 ||truefortnite.com^$document
+||kmsauto.uno^$all
+||uploader-rars.com^$document
+||rcfor4ht.top^$all
+||kms-tool.com^$all
+||officialkmspico.com^$all
+||ultrasonica.info^$all
+||kmspicoofficial.com^$all
+||kms-pc.com^$all
+||thewindowsactivator.com^$all
+||rnofor4ht.top^$all
+||getkmspico.com^$all
+||heukmsactivator.com^$all
+||furykms.com^$all
+||kmsofficial.org^$all
+||kmspico-official.org^$all
+||yasir-252.net^$all
+||karanpc.com^$all
+||getintopc.today^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33092,6 +33111,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||5wzgtq8dpk.com^$document
 ||65spy7rgcu.com^$document
 ||service-rundfunkbeitrag.de^$document
+||wowgirl69.site^$all
+||dateflng.com^$all
+||shag2night.com^$document
+||findrussiabrides.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -36884,6 +36907,8 @@ ref=news.risky.biz$doc,removeparam=ref
 $doc,removeparam=entrypoint,domain=bing.com
 ||sky.it^$doc,removeparam=zoneid
 $doc,removeparam=cnt,domain=lastampa.it|ilsecoloxix.it|huffingtonpost.*|themeditelegraph.com|ilgusto.it|italian.tech
+$doc,removeparam=esrc,domain=arstechnica.com|newyorker.com|wired.com
+||zoominfo.com^$doc,removeparam=ch_source
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
