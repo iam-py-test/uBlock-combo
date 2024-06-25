@@ -70,7 +70,7 @@ mainlist = """! Title: iam-py-test's Combo List
 ! Last updated: {}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
-! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
+! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
 """.format(datetime.date.today().strftime("%d/%m/%Y"))
 
