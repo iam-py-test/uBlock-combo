@@ -4,7 +4,7 @@
 ! Last updated: 25/06/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
-! for Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
+! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
 ||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top|~reyhub.top
 ||loan^$doc
@@ -27024,6 +27024,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||us11.org^$document
 ||life2vec.io^$document
 ||dhl-market-service.com^$document
+||get-express-vpn.online^$all
+||ezadblocker.com^$document
+||mfcewkrob.com^$document
+||agabreloomr.com^$all
+||polyfill.io^$all
+||googie-anaiytics.com^$all
+||kuurza.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33127,6 +33134,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||datingdealshub.com^$document
 ||mydirtyneighbour.com^$document
 ||bestflirt.fun^$all
+||midnightsociety-x.com^$all
+||veilcurtin.world^$document
+||yikesgroto.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -34298,6 +34308,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||yachtatdock.com^$all
 ||yogurthome.org^$all
 ||preggophila.com^$document
+||cdn.polyfill.io^$all,important
+||www.googie-anaiytics.com^$all
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
