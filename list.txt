@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 25/06/2024
+! Last updated: 26/06/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24112,6 +24112,12 @@ tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[dat
 ||69.172.200.185^$all,~inline-font
 ||77.220.214.153^$all,~inline-font
 google.*##.isv-r:has-text(/, [1-9][1-46-9]% OF{2}/)
+||googleapis.com/nwfotrac^$all
+||googleapis.com/firsttimesolo^$all
+||googleapis.com/trjhrt3j1erh2fghrth^$all
+||googleapis.com/realizingcrasis^$all
+||googleapis.com/deasastercreations^$all
+||googleapis.com/alphafemale^$all
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidgreek.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
@@ -27027,10 +27033,25 @@ ostrowlubelski.pl##^responseheader(location)
 ||get-express-vpn.online^$all
 ||ezadblocker.com^$document
 ||mfcewkrob.com^$document
+||myfood.ltd^$document
+||newtab.page^$document
+||ourhotposts.com^$all
+||popblockplus.com^$all
+||simplestar.com^$document
 ||agabreloomr.com^$all
 ||polyfill.io^$all
 ||googie-anaiytics.com^$all
 ||kuurza.com^$all
+||apsehick.date^$document
+||composepayyersellew.shop^$all
+||publicitycharetew.shop^$all
+||computerexcudesp.shop^$all
+||leafcalfconflcitw.shop^$all
+||injurypiggyoewirog.shop^$all
+||bargainnygroandjwk.shop^$all
+||disappointcredisotw.shop^$all
+||doughtdrillyksow.shop^$all
+||facilitycoursedw.shop^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -35409,6 +35430,8 @@ $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
 ||amazon.$doc,removeparam=social_share
 ||amazon.$doc,removeparam=starsLeft
 ||amazon.$doc,removeparam=skipTwisterOG
+||amazon.$removeparam=ms3_c
+||amazon.$removeparam=spIA
 ||bing.com/?$removeparam=/^form=.*$/i
 ||bing.$removeparam=sp
 $removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
