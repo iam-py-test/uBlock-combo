@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 27/06/2024
+! Last updated: 28/06/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27054,6 +27054,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||doughtdrillyksow.shop^$all
 ||facilitycoursedw.shop^$all
 ||94.156.79.8^$all
+||arcthost.org^$all
+||arc-download.com^$all
+||zestyahhdog.com^$all
+||79.137.192.4^$all
+||abcmueblesbogota.com^$all
+||click2kikc.xyz^$document
+||adxproofcheck.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33161,6 +33168,16 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||veilcurtin.world^$document
 ||yikesgroto.com^$document
 ||elonweb.org^$all
+||dInp2rm.suitablepartner.life^$document
+||p𝓸𝘳𝘯𝚔𝘢f.net^$document
+||netfucks1.com^$document
+||c.dreamdating1.fun^$document
+||yoursecrethookup.com^$document
+||brttre.com^$document
+||ohmysweetromancespot.life^$document
+||𝚋yest𝚊r.com^$document
+||yourdatefind.com^$document
+||olosex.pics^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
