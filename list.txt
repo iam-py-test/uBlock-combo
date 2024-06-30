@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/06/2024
+! Last updated: 30/06/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26681,14 +26681,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||theapkhunter.com^$document
 ||ehallpasses.info^$document
 ||wtmbook.com^$document
-||kmspico.io^$document
-||kmspico.ws^$document
-||kms-full.com^$document
 ||kmspico.de.download.it^$document
 ||kmspico.to^$document
-||kmspi.co^$document
-||get-kmspico.com^$document
-||kmsauto.info^$document
 ||official-kmspico.com^$document
 ||dlhk.acehprov.go.id^$document
 ||softwared.click^$document
@@ -27008,15 +27002,21 @@ ostrowlubelski.pl##^responseheader(location)
 ||gimp.zendesk.com^$all
 ||truefortnite.com^$document
 ||kmsauto.uno^$all
+||kmspico.io^$all
 ||uploader-rars.com^$document
 ||rcfor4ht.top^$all
+||kmspico.ws^$all
+||kms-full.com^$all
 ||kms-tool.com^$all
+||kmsauto.info^$all
 ||officialkmspico.com^$all
 ||ultrasonica.info^$all
 ||kmspicoofficial.com^$all
+||kmspi.co^$all
 ||kms-pc.com^$all
 ||thewindowsactivator.com^$all
 ||rnofor4ht.top^$all
+||get-kmspico.com^$all
 ||getkmspico.com^$all
 ||heukmsactivator.com^$all
 ||furykms.com^$all
@@ -27052,6 +27052,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||xhsbpza.com^$all
 ||union.macoms.la^$all
 ||newcrbpc.com^$all
+||polyfill.site^$all
+||polyfillcache.com^$all
 ||apsehick.date^$document
 ||composepayyersellew.shop^$all
 ||publicitycharetew.shop^$all
@@ -27072,6 +27074,21 @@ ostrowlubelski.pl##^responseheader(location)
 ||adxproofcheck.com^$document
 ||earth-ling.org^$all
 ||pambi.tech^$all
+||hsuitehub.com^$document
+||teslafond.io^$document
+||pump.fun^$document
+||ousd-vault.com^$document
+||dash.pocketuniverse.app^$document
+||avarik.web.app^$document
+||ddzk513bd.com^$document
+||uprising.kip.pro^$document
+||app.jameswoof.com^$document
+||miles.plumenetwork.xyz^$document
+||pl-2906.com^$document
+||premium-x-notes.com^$document
+||dofuspourlesnoobs.com^$document
+||pacmoonn.icu^$document
+||utpwk.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -27206,7 +27223,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||80302.xyz^$all
 ||nvoddn.hotglrls.net^$all
 ||hotglrls.net^$document
-||hushlove.com^$document
+||hushlove.com^$all
 ||jucydate.com^$document
 ||w17veh63m7o8s4ncihd1jq8i.people-wet.com^$document
 ||bit.ly/3DWxMNv^$all
@@ -33148,7 +33165,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hngfck.com^$document
 ||mailtknnews.com^$document
 ||russiagirlsonline.com^$document
-||charmdate.com^$document
+||charmdate.com^$all
 ||slowmitter.top^$document
 ||singingfiles.com^$document
 ||gym-sharkfinland.com^$all
