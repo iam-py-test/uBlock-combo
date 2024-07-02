@@ -25015,6 +25015,7 @@ pchelprwizardsguide.com
 pchelprwizardpro.com
 pchelperwizard.com
 fixedguides.com
+window-updates-service.com
 ublockerext.com
 catnip.de
 trafcenter.us
@@ -25830,7 +25831,6 @@ lunens.xyz
 lonens.xyz
 logens.xyz
 lanens.xyz
-lofens.xyz
 tesens.xyz
 sibans.xyz
 ricens.xyz

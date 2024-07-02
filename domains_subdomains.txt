@@ -25015,6 +25015,7 @@ pchelprwizardsguide.com
 pchelprwizardpro.com
 pchelperwizard.com
 fixedguides.com
+window-updates-service.com
 ublockerext.com
 catnip.de
 trafcenter.us
@@ -25830,7 +25831,6 @@ lunens.xyz
 lonens.xyz
 logens.xyz
 lanens.xyz
-lofens.xyz
 tesens.xyz
 sibans.xyz
 ricens.xyz
@@ -32159,6 +32159,7 @@ cdn.polyfill.com
 beacon.apsehick.date
 sntander.pl-2906.com
 help.premium-x-notes.com
+www.google.com.859046247270372.window-updates-service.com
 www.retailproductsusa.com
 two.findanswersnow.net
 www.signupandturnyourscreenoffsafepowernow.date
