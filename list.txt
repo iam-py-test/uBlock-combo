@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 02/07/2024
+! Last updated: 03/07/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27095,6 +27095,26 @@ ostrowlubelski.pl##^responseheader(location)
 ||pchelperwizard.com^$document
 ||fixedguides.com^$document
 ||window-updates-service.com^$all
+||62.138.18.13^$all
+||reluzformaturas.com.br^$all
+||doddyfire.linkpc.net^$all
+||43.156.237.181^$all
+||mediafire.com/folder/ygvzvvks1va0b/F0LDER^$all
+||whitegames.pro^$all
+||citizencenturygoodwk.shop^$all
+||bouncedgowp.shop^$all
+||bannngwko.shop^$all
+||bargainnykwo.shop^$all
+||affecthorsedpo.shop^$all
+||radiationnopp.shop^$all
+||answerrsdo.shop^$all
+||publicitttyps.shop^$all
+||benchillppwo.shop^$all
+||reinforcedirectorywd.shop^$all
+||steamcommunity.com/profiles/76561199724331900^$all
+||ucnlkw.cyou^$all
+||detiktotocakep.com^$all
+||flyairprestige.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33211,6 +33231,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||𝚋yest𝚊r.com^$document
 ||yourdatefind.com^$document
 ||olosex.pics^$document
+||adult-gfriend.click^$all
+||yourlocaldate.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
