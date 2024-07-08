@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 07/07/2024
+! Last updated: 08/07/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -41,7 +41,7 @@ www.google.*##.g:has(a[href*="&orig_url=/" i]):has(a[href*=".tk/"], a[href*=".ml
 www.google.*##.g:has(a[href*="=//"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*=redirect][href*=".%D1%80%D1%84"])
 www.google.*##.g:has(a[href*="/go/"][href*=".%D1%80%D1%84"])
-www.google.*##.isv-r:has(a[title$="% OFF"]:is([href*=-aa-],[href*=-bb-],[href*=-cc-],[href*=-dd-],[href*=-ee-],[href*=-ff-],[href*=-gg-],[href*=-hh-],[href*=-ii-],[href*=-jj-],[href*=-kk-],[href*=-ll-],[href*=-mm-],[href*=-nn-],[href*=-oo-],[href*=-pp-],[href*=-qq-],[href*=-rr-],[href*=-ss-],[href*=-tt-],[href*=-uu-],[href*=-vv-],[href*=-ww-],[href*=-xx-],[href*=-yy-],[href*=-zz-]))
+www.google.*##div[data-attrid^="images "]:has(a[title$="% OFF"]:is([href*=-aa-],[href*=-bb-],[href*=-cc-],[href*=-dd-],[href*=-ee-],[href*=-ff-],[href*=-gg-],[href*=-hh-],[href*=-ii-],[href*=-jj-],[href*=-kk-],[href*=-ll-],[href*=-mm-],[href*=-nn-],[href*=-oo-],[href*=-pp-],[href*=-qq-],[href*=-rr-],[href*=-ss-],[href*=-tt-],[href*=-uu-],[href*=-vv-],[href*=-ww-],[href*=-xx-],[href*=-yy-],[href*=-zz-]))
 www.google.*##.g:has(a[href^="https://books.google."])
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
@@ -24111,7 +24111,7 @@ tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[dat
 ||zeirj14ikqwf.com^$all,~inline-font
 ||69.172.200.185^$all,~inline-font
 ||77.220.214.153^$all,~inline-font
-google.*##.isv-r:has-text(/, [1-9][1-46-9]% OF{2}/)
+google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||googleapis.com/nwfotrac^$all
 ||googleapis.com/firsttimesolo^$all
 ||googleapis.com/trjhrt3j1erh2fghrth^$all
@@ -24623,8 +24623,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||amazonaws.com^$doc,popup,badfilter
 ||amazonaws.com^$doc,badfilter
 ||amazonaws.com^$badfilter
-www.google.*##.isv-r:has(a[title*=" OFF "][title$="%"]:not([title$="0%"],[title$="5%"]))
-www.google.*##.isv-r:has(a[href*=".aspx?cname="])
+www.google.*##div[data-attrid^="images "]:has(a[title*=" OFF "][title$="%"]:not([title$="0%"],[title$="5%"]))
+www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 .asp?url=https://xn--*.xn--p1ai/$all
 .asp?url=http://xn--*.xn--p1ai/$all
 ||aussie-gamer.com^$doc,domain=the-site-was-stolen-by-casino-link-spammers.*
@@ -27056,6 +27056,17 @@ ostrowlubelski.pl##^responseheader(location)
 ||midnightblue-lapwing-207108.hostingersite.com^$all
 ||qrco.de^$document
 ||45.207.168.120^$all
+/lander/6cw/PACKAGE_DEMO.exe^$document
+||185.81.115.28^$document
+||79.137.197.154^$document
+||crypto-wave.net^$document
+||crypto-wave.store^$document
+||crypto-wave.top ^$document
+||cutepoochstore.com^$document
+||dubai-never-sleep.agency^$document
+||fsqaj.com^$document
+||michaelconstantinebhanos.com^$document
+||simplylovingproducts.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
