@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 15/07/2024
+! Last updated: 16/07/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25230,6 +25230,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||googleapis.com/realizingcrasis^$all
 ||googleapis.com/deasastercreations^$all
 ||googleapis.com/alphafemale^$all
+||amaskiphirescotland.co.uk^$all
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidgreek.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
@@ -28217,7 +28218,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||wellplayed.ug^$document
 ||zxvbcrt.ug^$document
 ||https.com^$all
-||withsecurify.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31935,6 +31935,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||yourlocaldate.com^$document
 ||getwavemax.com^$document
 ||usonkd.com^$document
+||sakuradate.com^$document
+||amorpulse.com^$document
+||datempire.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -32060,6 +32063,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||getsecurify.com^$document
 ||chrome.google.com/webstore/detail/browsing-overview-by-secu/njfkgeajknkffkngdmjmjninkbgjedlo/$document
 ||mysecurify.com^$document
+||withsecurify.com^$all
+||securifyguard.com^$all
 ||privacykeeperapp.com^$document
 ||chrome.google.com/webstore/detail/privacy-keeper/acdkbikhkmpbfdmfmcogpnjchcniiipa^$document
 ||privacykeepersearch.com^$document
