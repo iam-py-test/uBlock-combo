@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 24/07/2024
+! Last updated: 25/07/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -4341,7 +4341,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||royaltees.co^$all,~inline-font
 ||findes.co^$doc
 ||supersong.nl/upload/6277.rar^$all,~inline-font
-||monkeyselite.tonick.co^$doc
 ||freeprosoftz.com^$all,~inline-font
 ||mediafire.com/file/pu0m2luacc3fh8h/file-password___2345.rar/file$all,~inline-font
 ||mediafire.com/coe39m9f9tyg/pu0m2luacc3fh8h/file-password___2345%282%29.rar$all,~inline-font
@@ -5155,7 +5154,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||awardsdecals.com^$all,~inline-font
 ||awardswlwct.com^$all,~inline-font
 ||b5o.com^$all,~inline-font
-||ba.upyim.co^$all,~inline-font
 ||baadhuset.com^$all,~inline-font
 ||babybud.de^$all,~inline-font
 ||bagandbow.com^$all,~inline-font
@@ -5908,7 +5906,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||maderaplasticamx.com^$all,~inline-font
 ||madereriasaltillo.com^$all,~inline-font
 ||maestriasinternacionales.org^$all,~inline-font
-||magento.expedia.cm^$all,~inline-font
 ||magento.fanmail2u.de^$all,~inline-font
 ||magento.gibco.de^$all,~inline-font
 ||magento.trannydating.nl^$all,~inline-font
@@ -6426,7 +6423,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||smartdrugprice.com^$all,~inline-font
 ||smartrvproducts.com^$all,~inline-font
 ||smokingdeluxe20.com^$all,~inline-font
-||smtp.restauranteturismo.co^$all,~inline-font
 ||hotmial.cm^$all,~inline-font
 ||snandi.com^$all,~inline-font
 ||snapachat.com^$all,~inline-font
@@ -8591,7 +8587,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||clarkswyprzedaz.com^$all,~inline-font
 ||columbiaindiasale.com^$all,~inline-font
 ||columbianzoutlet.com^$all,~inline-font
-||conversevypredaj.sk^$all,~inline-font
 ||crocsacheter.fr^$all,~inline-font
 ||crocsbotyoutlet.cz^$all,~inline-font
 ||deeruptrunner.me^$all,~inline-font
@@ -8706,7 +8701,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||hunter-jp.com^$all,~inline-font
 ||hunter-osterreich.at^$all,~inline-font
 ||hunter-osterreich.com^$all,~inline-font
-||hunter-portugal.pt^$all,~inline-font
 ||hunter-romania.ro^$all,~inline-font
 ||hunter-sk.sk^$all,~inline-font
 ||hunter-slovenija.com^$all,~inline-font
@@ -8726,7 +8720,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||hunterbratislava.com^$all,~inline-font
 ||huntercr.com^$all,~inline-font
 ||hunterfrankfurt.com^$all,~inline-font
-||huntergreece.com.gr^$all,~inline-font
 ||hunterhelsinki.com^$all,~inline-font
 ||hunterhrhrvatska.com^$all,~inline-font
 ||hunterhrvatskahr.com^$all,~inline-font
@@ -8904,7 +8897,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||quiksilverwinkel.com^$all,~inline-font
 ||salomocolombia.com^$all,~inline-font
 ||salomon-danmark.net^$all,~inline-font
-||salomon-greece.com.gr^$all,~inline-font
 ||salomon-pt.com^$all,~inline-font
 ||salomonencolombia.com^$all,~inline-font
 ||salomonfrancesoldes.fr^$all,~inline-font
@@ -8922,7 +8914,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||sendrafrance.com^$all,~inline-font
 ||skecherchile.com^$all,~inline-font
 ||skechers-colombia.com.co^$all,~inline-font
-||skechers-spain.es^$all,~inline-font
 ||skechersfactoryoutletau.com^$all,~inline-font
 ||skechersmexicotienda.com^$all,~inline-font
 ||skechersshoesnzoutlet.com^$all,~inline-font
@@ -8940,7 +8931,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zapatosdudespain.com^$all,~inline-font
 ||alexandermcqueenboty.cz^$all,~inline-font
 ||alexandermcqueentenisce.com^$all,~inline-font
-||alexandermcqueentenisky.sk^$all,~inline-font
 ||alexandermcqueentenls.com^$all,~inline-font
 ||axelarigatoboty.cz^$all,~inline-font
 ||axelarigatokobenhavn.com^$all,~inline-font
@@ -11695,7 +11685,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||answers.bingo^$all,~inline-font
 ||answers.boutique^$all,~inline-font
 ||answers.builders^$all,~inline-font
-||answers.bz^$all,~inline-font
 ||answers.cab^$all,~inline-font
 ||answers.cam^$all,~inline-font
 ||answers.camera^$all,~inline-font
@@ -11955,7 +11944,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||iyfwhost.com^$all,~inline-font
 ||iyfzk.com^$all,~inline-font
 ||jeni.org^$all,~inline-font
-||kas-media.answers.studio^$all,~inline-font
 ||kolmic.com^$all,~inline-font
 ||linkedsearches.com^$all,~inline-font
 ||persistandprogress.com^$all,~inline-font
@@ -17094,7 +17082,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||getnizationedr.info^$all
 ||getseavailan.xyz^$all
 ||gettllingovert.info^$all
-||goveragemlz.club^$all
 ||gtdjidencenha.info^$all
 ||gukthwaalsoex.info^$all
 ||hableleader.xyz^$all
@@ -17140,7 +17127,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||ksehinkitw.hair^$all
 ||ktobedirectu.xyz^$all
 ||ktobedirectuklye.com^$all
-||lattemptaqwe.club^$all
 ||lemopaserawecas.com^$all
 ||leqasforsalesrep.info^$all
 ||liondolularhene.info^$all
@@ -21224,7 +21210,6 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||lherealworld.com^$all,~inline-font
 ||liderazgopentecostal.com^$all,~inline-font
 ||lifeliftusa.com^$all,~inline-font
-||lightaboverubies.com^$all,~inline-font
 ||lilitakahashi.com^$all,~inline-font
 ||lilywhitecosmeticsltd.com^$all,~inline-font
 ||loanwithrakesh.com^$all,~inline-font
@@ -23440,7 +23425,6 @@ toorgle.net##.join
 ||pubggift*.xyz^$all,~inline-font
 ||s-arts.pro^$all,~inline-font
 ||skinosoda.online^$all,~inline-font
-||tradeoffer.com.ru^$all,~inline-font
 ||194.226.139.121^$all,~inline-font
 ||194.226.139.7^$all,~inline-font
 ||95.181.157.36^$all,~inline-font
@@ -24898,7 +24882,6 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||salineiloko.life^$all,~inline-font
 ||salungbhima.store^$all,~inline-font
 ||sariplording.store^$all,~inline-font
-||scatulamalam.life^$all,~inline-font
 ||scrownonslip.website^$all,~inline-font
 ||seamierdotate.uno^$all,~inline-font
 ||sedanjinny.uno^$all,~inline-font
@@ -24912,7 +24895,6 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||slickerunderdo.com^$all,~inline-font
 ||sogetcoupes.com^$all,~inline-font
 ||solidscive.digital^$all,~inline-font
-||sonhoodaneles.guru^$all,~inline-font
 ||speltmacaco.uno^$all,~inline-font
 ||stiposclimath.com^$all,~inline-font
 ||stolentravels.store^$all,~inline-font
@@ -24927,7 +24909,6 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||tearfuldamnii.guru^$all,~inline-font
 ||tenlineunden.uno^$all,~inline-font
 ||thoughgaffer.uno^$all,~inline-font
-||thuliaselates.life^$all,~inline-font
 ||tigrisbewray.life^$all,~inline-font
 ||tipburnproto.tech^$all,~inline-font
 ||tmematapyramid.space^$all,~inline-font
@@ -24949,17 +24930,14 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||upcurlslytic.store^$all,~inline-font
 ||uredialermines.uno^$all,~inline-font
 ||vaidicloured.store^$all,~inline-font
-||veinagecushag.digital^$all,~inline-font
 ||vilelysteri.uno^$all,~inline-font
 ||vrouwschacker.tech^$all,~inline-font
 ||wainsrus.space^$all,~inline-font
-||wheyeybungee.digital^$all,~inline-font
 ||withesajowan.com^$all,~inline-font
 ||yakkamorello.digital^$all,~inline-font
 ||yojanaarabic.life^$all,~inline-font
 ||yuzlikmimed.uno^$all,~inline-font
 ||zapsenlight.space^$all,~inline-font
-||zinoberscripee.digital^$all,~inline-font
 ||zoqueanbannets.tech^$all,~inline-font
 ://188.42.84.$doc
 ://203.195.121.$doc
@@ -26318,6 +26296,7 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||appleisider.com^$all
 ||arcanedevice.com^$all
 ||aristokraftcabinets.com^$all
+||ba.upyim.co^$all
 ||comcmast.net^$all
 ||demo.europadonna.de^$all
 ||doversaddley.com^$all
@@ -26330,6 +26309,7 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||lesbiot.com^$all
 ||llivet.com^$all
 ||login.reserveamerica.co^$all
+||magento.expedia.cm^$all
 ||mixreqq.com^$all
 ||58.252.203.71^$all
 ||yahooo-mail-service.webflow.io^$all
@@ -27719,6 +27699,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||poperblocker.com^$all
 ||skinboxs.com^$all
 ||pq.hosting^$all
+||goveragemlz.club^$all
+||lattemptaqwe.club^$all
 ||193.233.193.65^$all
 ||97tool.github.io^$document
 ||apkzpure.com^$document
@@ -28302,6 +28284,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||onlineenglishteacher.co^$document
 ||www.fling.com^$document
 ||yourcoolfeed.com^$all
+||monkeyselite.tonick.co^$document
 ||kitago.info^$all
 ||herezfile400.weebly.com^$all
 ||hereeup447.weebly.com^$all
@@ -28845,6 +28828,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||pumarea.com.se^$all
 ||aloyogaespana.es^$all
 ||gymsharkoutlet.com.au^$all
+||hunter-portugal.pt^$all
 ||hunter.com.se^$all
 ||hunterbootsnewzealand.co.nz^$all
 ||hunterbootssouthafrica.co.za^$all
@@ -28856,8 +28840,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||quiksilversalesouthafrica.co.za^$all
 ||salomon-spain.es^$all
 ||sauconylaufschuhe.at^$all
+||skechers-spain.es^$all
 ||teniskyvejaobuv.sk^$all
 ||alexandermcqueenskor.com.se^$all
+||alexandermcqueentenisky.sk^$all
 ||axelarigato.com.se^$all
 ||axelarigatos.com.se^$all
 ||gummistiefelhunter.de^$all
