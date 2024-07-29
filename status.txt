@@ -1,5 +1,5 @@
 Stats:
-35751 entries added
-750 redundant entries removed
-31666 domains added
-1136 subdomains added
+35768 entries added
+751 redundant entries removed
+31683 domains added
+1137 subdomains added

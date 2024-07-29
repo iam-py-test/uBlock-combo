@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 28/07/2024
+! Last updated: 29/07/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28202,6 +28202,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||https.com^$all
 ||chromewebstore.google.com/detail/ublock-pro/fmaicbnbcbjgbpecclcnaehmbpjpdane^$all
 ||upsbezorging.com^$all
+||ww1.aniapi.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32328,6 +32329,22 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||h.yqyh571.xyz^$document
 ||likenu.se^$document
 ||fetishes.cam^$document
+||stop-project-paperless.com^$document
+||transaction-2007.com^$document
+||mediaresmi.com^$document
+||fijiluxuryvacation.com^$document
+||www.cinemasaver.com^$document
+||sedationdentistrycenter.com^$document
+||verandasoho.com^$document
+||stream-dna.com^$document
+||www.goldenstatestimulus.com^$document
+||www.bluegatemusicals.com^$document
+||xolopbr.com^$document
+||getannepro.com^$document
+||www.theredbeanannapolis.com^$document
+||www.lilxlotus.com^$document
+||www.plantitmodern.com^$document
+||www.illinoisfiberconnect.com^$document
 ||csgo.xyz^$all
 ||brightdata.com^$document
 ||brightdata.de^$document
