@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/07/2024
+! Last updated: 30/07/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -21780,6 +21780,67 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||185.149.120.163^$all,~inline-font
 ||185.149.120.173^$all,~inline-font
 ||185.149.120.175^$all,~inline-font
+||afro-melanin.com^$all
+||alatterapistroke.com^$all
+||andreasfarago.com^$all
+||astrarestaurant.com^$all
+||babadonews.com^$all
+||bamasolutions.com^$all
+||beginning-end.buzz^$all
+||chinatobd.com^$all
+||citiap.com^$all
+||city-village.buzz^$all
+||day-night.buzz^$all
+||friendship-enmity.buzz^$all
+||home-work.buzz^$all
+||joy-sorrow.buzz^$all
+||kitapradio.com^$all
+||lachitaxom.com^$all
+||laptopcompanion.com^$all
+||latiendadeldeseo.com^$all
+||leadbuzzaar.com^$all
+||learn-it-reviews.com^$all
+||learntohindi.com^$all
+||likelyup.com^$all
+||likimrotambola.com^$all
+||linkslot99jp.com^$all
+||loan1news.com^$all
+||lokalfarma.com^$all
+||love-hate.buzz^$all
+||macrifhsac.com^$all
+||magazinetribune.com^$all
+||maheshchintha.com^$all
+||mahicallgirls.com^$all
+||martinrepuestos.com^$all
+||mclarrenlife.com^$all
+||mellow-face.com^$all
+||memesfera.com^$all
+||miepiematerials.com^$all
+||mmbti.com^$all
+||nembutalonlinestore.com^$all
+||nowfitnesscj.com^$all
+||numberswala.com^$all
+||optoutmydomain.com^$all
+||paqueteaegipto.com^$all
+||peace-motion.buzz^$all
+||purealgermany.com^$all
+||reclinersmall.com^$all
+||sea-beach.buzz^$all
+||silence-storm.buzz^$all
+||skillsastracademy.com^$all
+||summer-winter.buzz^$all
+||sun-moon.buzz^$all
+||thesilverbacksway.com^$all
+||up-2-down.buzz^$all
+||water-fire.buzz^$all
+||webprosystems.com^$all
+||wellbeingxpert.com^$all
+||woobtvprime.com^$all
+||worldbankdc.com^$all
+||yesterday-tomorrow.buzz^$all
+||yourivyonly.com^$all
+||zglobalindia.com^$all
+||zircontahafuz.com^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -28203,6 +28264,19 @@ ostrowlubelski.pl##^responseheader(location)
 ||chromewebstore.google.com/detail/ublock-pro/fmaicbnbcbjgbpecclcnaehmbpjpdane^$all
 ||upsbezorging.com^$all
 ||ww1.aniapi.com^$document
+||45.9.74.36^$document
+||cloudslimit.com^$document
+||dailywebstats.com^$document
+||hertrud.shop^$document
+||hexcrippler.shop^$document
+||hiltrunde.shop^$document
+||iankian.shop^$document
+||ironturner.shop^$document
+||kloisa.shop^$document
+||leopolfa.shop^$document
+||liferacer.shop^$document
+||commodityprocess.top^$document
+||insights.today-time.sitefind.top^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -31927,6 +32001,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||sakuradate.com^$document
 ||amorpulse.com^$document
 ||datempire.com^$document
+||breasts-rule.info^$all
+||hotmatchlyi.com^$document
+||yourexclusiveoffers.com^$document
+||clubforsingles.com^$document
+||sttc.cupidaffairs.com^$image
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
