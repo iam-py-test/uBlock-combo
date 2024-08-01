@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 31/07/2024
+! Last updated: 01/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25269,6 +25269,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||googleapis.com/realizingcrasis^$all
 ||googleapis.com/deasastercreations^$all
 ||googleapis.com/alphafemale^$all
+||agendajacob.com^$all
 ||amaskiphirescotland.co.uk^$all
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
@@ -32006,6 +32007,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||yourexclusiveoffers.com^$document
 ||clubforsingles.com^$document
 ||sttc.cupidaffairs.com^$image
+||bonuspulsefortune.life^$all
+||boxwhatfur.live^$all
+||threejplating.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
