@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 05/08/2024
+! Last updated: 06/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28285,6 +28285,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||xyzxyz55.xyz^$all
 ||m-isist-emai-nmu-ne-*.vercel.app^$document
 ||vah-cont-in-uou-slyle-com-ay7t6dbmag9vhg8srhj4.vercel.app^$document
+||pr-ue-ba-de-lsa-bermu-ne-xre4pgczsk.vercel.app^$document
 ||avast-antivirus.com^$all
 ||nudepopsy71c.com^$document
 ||mamielournes.buzz^$document
@@ -28293,6 +28294,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||viktoriadelenick.za.com^$document
 ||btc24.info^$all
 ||allmostgone.life^$all
+||hkdk.events^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -35846,7 +35848,7 @@ $doc,removeparam=esrc,domain=arstechnica.com|newyorker.com|wired.com
 ||zoominfo.com^$doc,removeparam=ch_source
 ||sky.it^$doc,removeparam=social
 ||landevei.no^$removeparam=email
-ref=producthunt$doc,domain=producthunt.com,removeparam=ref
+ref=producthunt$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
