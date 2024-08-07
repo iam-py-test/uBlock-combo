@@ -28286,6 +28286,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||m-isist-emai-nmu-ne-*.vercel.app^$document
 ||vah-cont-in-uou-slyle-com-ay7t6dbmag9vhg8srhj4.vercel.app^$document
 ||pr-ue-ba-de-lsa-bermu-ne-xre4pgczsk.vercel.app^$document
+||pr-ue-ba-de-lsa-bermu-ne-cp5iah7zlw.vercel.app^$document
 ||avast-antivirus.com^$all
 ||nudepopsy71c.com^$document
 ||mamielournes.buzz^$document
