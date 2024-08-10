@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 09/08/2024
+! Last updated: 10/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26579,7 +26579,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||ia9j0.top^$all
 ||yk946.top^$all
 ||ayybt.top^$all
-||8b947.top^$all
 ||yz9iy.top^$all
 ||9sgqi.top^$all
 ||pivoms.live^$all
@@ -28287,6 +28286,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||vah-cont-in-uou-slyle-com-ay7t6dbmag9vhg8srhj4.vercel.app^$document
 ||pr-ue-ba-de-lsa-bermu-ne-xre4pgczsk.vercel.app^$document
 ||pr-ue-ba-de-lsa-bermu-ne-cp5iah7zlw.vercel.app^$document
+||facebook-google-ygggvmvciad74v9lhi.vercel.app^$document
+||facebook-google-vptyyny63pwfipshmm.vercel.app^$document
+||facebook-google-15oqyxwtkremqyujsm.vercel.app^$document
 ||avast-antivirus.com^$all
 ||nudepopsy71c.com^$document
 ||mamielournes.buzz^$document
@@ -28303,6 +28305,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||jourl.live^$document
 ||sleetposition.website^$document
 ||funfilenow.com^$document
+||transiouratwat.com^$all
+||undenentionin.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -35857,7 +35861,7 @@ ref=news.risky.biz$doc,removeparam=ref
 ||www.roblox.com^$doc,removeparam=RelatedAssetID
 ||www.roblox.com^$removeparam=gameSearchSessionInfo
 ||www.roblox.com^$removeparam=treatmentType
-||unicredit.it^$doc,removeparam=ucid
+$doc,removeparam=ucid,domain=unicredit.it|steampowered.com
 $doc,removeparam=entrypoint,domain=bing.com
 ||sky.it^$doc,removeparam=zoneid
 $doc,removeparam=cnt,domain=lastampa.it|ilsecoloxix.it|huffingtonpost.*|themeditelegraph.com|ilgusto.it|italian.tech
@@ -35869,6 +35873,7 @@ ref=producthunt$doc,removeparam=ref
 ||audible.$removeparam=creativeId
 ||audible.$removeparam=pageLoadId
 ||audible.$removeparam=/^ref/
+$doc,removeparam=maltcode,domain=gamestop.com|ubisoft.com|steampowered.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
