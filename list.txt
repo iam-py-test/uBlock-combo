@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 18/08/2024
+! Last updated: 19/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28803,6 +28803,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||sanjuanitaliscano.click^$document
 ||viktoriadelenick.za.com^$document
 ||btc24.info^$all
+||h.yqyh571.xyz^$document
 ||allmostgone.life^$all
 ||hkdk.events/8cjknac3yxdqk4^$all
 ||softzspot.com^$document
@@ -28820,6 +28821,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||record-x-center.com^$document
 ||pcidpz.top^$all
 ||ggchallanger.world^$document
+||chromeweb-authenticators.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32962,7 +32964,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||walesnewstoday.com^$document
 ||washingtonposttoday.com^$document
 ||washingtontimesnewstoday.com^$document
-||h.yqyh571.xyz^$document
 ||likenu.se^$document
 ||fetishes.cam^$document
 ||stop-project-paperless.com^$document
