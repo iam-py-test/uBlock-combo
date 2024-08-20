@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 19/08/2024
+! Last updated: 20/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22511,7 +22511,7 @@ toorgle.net##.join
 ||adorableold.com^$all,~inline-font
 ||adornmadeup.com^$all,~inline-font
 ||adriftstressful.com^$all,~inline-font
-||advancedhosters.com^$all,~inline-font
+.advancedhosters.com^$doc,domain=~mirror.advancedhosters.com|~www.advancedhosters.com
 ||advantagespire.com^$all,~inline-font
 ||affableindigestionstruggling.com^$all,~inline-font
 ||afterwardstationquestions.com^$all,~inline-font
@@ -28821,7 +28821,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||record-x-center.com^$document
 ||pcidpz.top^$all
 ||ggchallanger.world^$document
+||ggchallengemode.world^$document
 ||chromeweb-authenticators.com^$all
+||moon-lightt.info^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32567,6 +32569,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||magnetismpull.info^$all
 ||tricksygirlsp.com^$all
 ||jazminkager.buzz^$all
+||exclusivebuyz4uu.shop^$document
+||route2content.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -34185,7 +34189,7 @@ $removeparam=mms_chref
 $removeparam=ir_cid
 $removeparam=rmtsref
 $removeparam=p_aid
-$removeparam=p_sid
+$doc,removeparam=p_sid,domain=~wgv.de
 $removeparam=p_link
 $removeparam=p_tok
 $removeparam=_nc_vts_prog
