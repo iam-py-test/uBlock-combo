@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 22/08/2024
+! Last updated: 23/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28826,6 +28826,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||moon-lightt.info^$all
 ||60q565qe5.top^$all
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^$all
+||x-accountrecovery.com^$all
+||mail-cytanet.pages.dev^$document
+||c0nt4ct-me.pages.dev^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -36406,6 +36409,7 @@ $doc,removeparam=maltcode,domain=gamestop.com|ubisoft.com|steampowered.com
 ||youtube.com^$doc,removeparam=bp
 ||walmart.com/ip/$doc,removeparam=classType
 ||walmart.com/ip/$doc,removeparam=from
+$doc,domain=youtube.com,removeparam=embeds_referring_origin
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
