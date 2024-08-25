@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 24/08/2024
+! Last updated: 25/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28829,6 +28829,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||x-accountrecovery.com^$all
 ||mail-cytanet.pages.dev^$document
 ||c0nt4ct-me.pages.dev^$document
+||onevanilla.click^$all
+||bilbocine.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32577,6 +32579,22 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||exclusivebuyz4uu.shop^$document
 ||route2content.com^$document
 ||reviewgiftfb.com^$document
+||dollscumnow.eu^$all
+||englishlang.life^$all
+||wistfulether.info^$all
+||invitingmilfsn2.com^$all
+||dark-silence.info^$all
+||devoutdiscip.info^$all
+||unsealedbag.info^$all
+||eerieabyss.info^$all
+||lewdcracker93m.com^$all
+||ar-dent.info^$all
+||flirttuorist.info^$all
+||niightfall.info^$all
+||change-harlot.life^$all
+||solarswooper.info^$all
+||virtucams.life^$all
+||presalesxai.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
