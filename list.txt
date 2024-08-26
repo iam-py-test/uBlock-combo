@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 25/08/2024
+! Last updated: 26/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28831,6 +28831,20 @@ ostrowlubelski.pl##^responseheader(location)
 ||c0nt4ct-me.pages.dev^$document
 ||onevanilla.click^$all
 ||bilbocine.com^$document
+||unionplus-card.click^$document
+||dailysmscollection.org^$document
+||surgecardinfo.click^$document
+||paybyplatema.cfd^$document
+||panoramacharter.click^$document
+||onecognizant.click^$document
+||mymorri.click^$document
+||mymercy.click^$document
+||marykayintouch.autos^$document
+||direct2hr.click^$document
+||creditcardchase.click^$document
+||alaskasworld.cfd^$document
+||partycityfeedback.bond^$document
+||uspayserv.cfd^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29565,16 +29579,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||kempus.click^$all
 ||webpick-cdn.s3.amazonaws.com/2%20-%20pending%20massage.jpeg$all
 ||mwgtf.hintonjour.com^$all
-||oqnvm.top^$all
-||edkiu.top^$all
-||mvv5i.top^$all
-||e8tov.top^$all
-||rvueo.top^$all
-||up9rt.top^$all
-||rx93u.top^$all
-||usfo6.top^$all
-||bdlj8.top^$all
-||bqcqw.top^$all
 ||powerpcsupport.com^$document
 ||t-post.com^$all
 ||stallioncredit.com^$all
