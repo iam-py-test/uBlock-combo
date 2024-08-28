@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 27/08/2024
+! Last updated: 28/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28845,6 +28845,19 @@ ostrowlubelski.pl##^responseheader(location)
 ||alaskasworld.cfd^$document
 ||partycityfeedback.bond^$document
 ||uspayserv.cfd^$document
+||pages.tempisite.com^$document
+||safety-x-feedback.com^$all
+||documentary-x.com^$all
+||wyy158.fun^$document
+||cse38.xyz^$document
+||sanadietzman.click^$document
+||joannstoressales.shop^$document
+||joannmax.com^$document
+||joannofficial.com^$document
+||joannoutlet.com^$document
+||joannclearances.com^$document
+||eltacosu.lol^$document
+||jaborcall.app^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -36452,6 +36465,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
 @@/unsub/?$removeparam
 @@||email-link.$removeparam
+@@||manage.kmail-lists.com/subscriptions^$removeparam
 @@||canon.*/supportproduct/gettabcontent$removeparam=referrer
 @@||urldefense.com^$removeparam
 @@||startpage.com/sp/qi$removeparam=sc
