@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/08/2024
+! Last updated: 30/08/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28858,6 +28858,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||joannclearances.com^$document
 ||eltacosu.lol^$document
 ||jaborcall.app^$document
+||cisco.com.gruaselpiojito.com.mx^$all
+||sivacycle.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -28984,7 +28986,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||cp2s.xyz^$all
 ||hotglrls.net^$document
 ||hushlove.com^$all
-||jucydate.com^$document
+||jucydate.com^$all
 ||w17veh63m7o8s4ncihd1jq8i.people-wet.com^$document
 ||bit.ly/3DWxMNv^$all
 ||clickgadgets.club^$all
@@ -29229,8 +29231,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||her-cupid.com^$all
 ||hottieswantu.com^$document
 ||offers.usabangpalace.com^$document
-||w86a5jeili53sd6j26lv71h0.find-singles-online.com^$all
-||find-singles-online.com^$document
+||find-singles-online.com^$all
 ||install-network.com^$document
 ||fatededers.com^$all
 ||netbuilding.com.ar^$document
@@ -32612,6 +32613,14 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||solarswooper.info^$all
 ||virtucams.life^$all
 ||presalesxai.com^$document
+||snapbabes9.com^$all
+||singleflirt.com^$all
+||unlimdate.com^$all
+||charmfling.com^$all
+||exosrw.com^$all
+||bestdates.com^$all
+||qpow89xji.com^$all
+||datingunlimitedtoday.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
