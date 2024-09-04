@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 03/09/2024
+! Last updated: 04/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28866,10 +28866,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||deadlockbeta.com^$document
 ||steamcommnunjity.com^$document
 ||deadlockplay.com^$document
-||app.mediafire.com/dqajf1x14ccfd/$all
-||app.mediafire.com/file/dqajf1x14ccfd/$all
 ||147.45.47.37^$all
 ||77.221.156.10^$all
+||steampowered.cn.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32536,6 +32535,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mailtknnews.com^$document
 ||russiagirlsonline.com^$document
 ||charmdate.com^$all
+||latamdate.com^$document
+||asiame.com^$document
+||chnlove.com^$document
+||idateasia.com^$document
+||charmlive.com^$document
 ||slowmitter.top^$document
 ||singingfiles.com^$document
 ||gym-sharkfinland.com^$all
@@ -32587,7 +32591,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hotmatchlyi.com^$document
 ||yourexclusiveoffers.com^$document
 ||clubforsingles.com^$document
-||sttc.cupidaffairs.com^$image
+||cupidaffairs.com^$document
 ||bonuspulsefortune.life^$all
 ||boxwhatfur.live^$all
 ||threejplating.com^$document
@@ -32637,6 +32641,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||fromstartertofinisher.com^$document
 ||firmsecurejump.com^$document
 ||localmeets.link^$document
+||wooqi.win^$document
+||milfsaround.com^$all
+||salbories-symphemes.com^$all
+||chemiclk.com^$document
+||chaludistrecret.com^$document
+||chatnotifier.com^$all
+||16hl07csd16.nl^$all
+||discreethookups.co.uk^$document
+||22mlf09mds22.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -34841,7 +34854,7 @@ $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|about.gitlab.co
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
-$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|nextdns.io|tvtropes.org|yandex.com
+$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|duckduckgo.com|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|nextdns.io|tvtropes.org|yandex.com
 $removeparam=keyword,domain=bindright.com|lendgo.com|reddit.app.link
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
