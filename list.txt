@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 04/09/2024
+! Last updated: 05/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28869,6 +28869,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||147.45.47.37^$all
 ||77.221.156.10^$all
 ||steampowered.cn.com^$document
+||betadeadlock.com^$all
+||yanisac.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -35252,7 +35254,7 @@ wenku.baidu.com##+js(set,history.replaceState,noopFunc)
 ||baidu.com^$doc,removeparam=cf
 ||baidu.com^$doc,removeparam=miniId
 ||baidu.com^$doc,removeparam=/^from.*$/
-||baidu.com^$doc,removeparam=tpl_from
+||baidu.com^$doc,removeparam=tpl_from,domain=~graph.baidu.com
 ||bilibili.com^$removeparam=/^current.*$/
 ||bilibili.com^$removeparam=/^from.*$/
 ||bilibili.com^$removeparam=/^network.*$/
@@ -36512,4 +36514,5 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||urldefense.com^$removeparam
 @@||startpage.com/sp/qi$removeparam=sc
 @@||flagpedia.net^$ping,xhr,removeparam=gtm
+@@/login-redirect/*$removeparam
 @@|wss://$removeparam
