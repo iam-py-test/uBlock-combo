@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 06/09/2024
+! Last updated: 07/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27609,7 +27609,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||cleaner-update.club^$document
 ||speedupdate.club^$document
 ||good-update.club^$document
-||eclatearns.documentbusinesses.online^$all
 ||documentbusinesses.online^$document
 ||formulagile.xyz^$all
 ||csgofloat.br.com^$all
@@ -27639,7 +27638,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||gerentesbp.live^$document
 ||dropbox.com/scl/fi/r3firsxixp8h4qv69gurt/A.Objectives-of-Facebook-Marketing-AD-Campaign-2023-NEW-Obag-Handbags.zip$all
 ||ttschmidt.de^$all
-||tfdee.tempurl.host^$document
 ||revanced.info^$all
 ||changzhoujijinxuexi.cn^$all
 ||qftwpl.icu^$all
@@ -27683,25 +27681,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||scribdbook.top^$all
 ||librilibs.com^$all
 ||dleggere.com^$all
-||xn4iqv.succyarthyry.com^$all
-||kxkxgw.succyarthyry.com^$all
-||581358.succyarthyry.com^$all
-||2ntrfi.succyarthyry.com^$all
-||fjvv2i.succyarthyry.com^$all
-||hyjecr.succyarthyry.com^$all
-||mkhvuv.succyarthyry.com^$all
-||37yito.succyarthyry.com^$all
-||0wvghk.succyarthyry.com^$all
-||invv7n.succyarthyry.com^$all
-||nze0xw.succyarthyry.com^$all
-||ixzc4t.succyarthyry.com^$all
-||bdhze4.succyarthyry.com^$all
-||hzgsp3.succyarthyry.com^$all
-||qwwnvw.succyarthyry.com^$all
+||succyarthyry.com^$all
 ||meshitislaw.com^$all
 ||uploaddeimagens.com.br^$all
 ||coloradokibosafarihostel.co.tz^$all
-||qpurrybeatmecamtest.ddns.net^$all
 ||www.transportesevaristomadero.com/profilecontent/*.exe$document
 ||millionjobs.works^$all
 ||libretube.$document
@@ -28872,6 +28855,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||betadeadlock.com^$all
 ||deadlockbetatest.com^$all
 ||yanisac.com^$document
+||nameless2020.github.io^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29372,7 +29356,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||flirtingworld.com^$document
 ||date.sofortdates69.com^$document
 ||sofortdates69.com^$document
-||sexfriendfdr.freeflirtz.com^$document
 ||freeflirtz.com^$document
 ||mnla.biz/resource/dynamic/blogs/20220207_071000_31161.pdf^$all
 ||cdn.ymaws.com/www.mnla.biz/resource/dynamic/blogs/20220207_071000_31161.pdf^$all
@@ -30858,7 +30841,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||derytc.click^$all
 /light/av/nrtn03/index.php?lpkey=$document
 ||push-ebfhafd-5643.boustahe.com^$all
-||succyarthyry.com^$all
 ||unkinerecle.com^$all
 ||shwomettleye.com^$all
 ||unbalterce.com^$document
@@ -32653,6 +32635,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||16hl07csd16.nl^$all
 ||discreethookups.co.uk^$document
 ||22mlf09mds22.com^$all
+||relationsbuddy.com^$all
+||montlusa.top^$all
+||track-victoriadates.com^$all
+||zephyrlabsora.com^$all
+||datehaven.world^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
