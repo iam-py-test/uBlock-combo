@@ -32583,7 +32583,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||fromstartertofinisher.com^$document
 ||firmsecurejump.com^$document
 ||localmeets.link^$document
-||wooqi.win^$document
+||wooqi.win^$all
 ||milfsaround.com^$all
 ||salbories-symphemes.com^$all
 ||chemiclk.com^$document
@@ -32597,6 +32597,24 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||track-victoriadates.com^$all
 ||zephyrlabsora.com^$all
 ||datehaven.world^$all
+||aeriview.life^$all
+||oncemanboy.live^$all
+||hardabbuy.live^$all
+||batrevrig.info^$all
+||hasnegtiny.live^$all
+||manpurerely.live^$all
+||vowpairmax.live^$all
+||impfehut.live^$all
+||hookupsconnect.com^$all
+||fqqenf8trk.com^$document
+||xn3j2k.com^$document
+||info-extremechat.com^$document
+||fitflirts.com^$all
+||testars-consin.icu^$document
+||flirten.com^$document
+||flirtyconnection.com^$all
+||tiamo.life^$all
+||jennajoslyn.ru.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -32626,7 +32644,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||reimage.org^$all
 ||reimage.com^$all
 ||driveragent.com^$all
-||driveragent-web-126513135.us-east-1.elb.amazonaws.com^$third-party
 ||apps.solveiq.com^$document
 ||preview.solveiq.com^$document
 ||auth.solveiq.com^$document
@@ -32651,7 +32668,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||goto.searchproonline.com^$all
 ||searchproonline.com^$all
 ||nearbyme.io^$document
-||lp.pcsystemfix.com^$document
 ||pcsystemfix.com^$document
 ||xoomber.com^$document
 ||searchtoolshub.com^$document
@@ -33020,6 +33036,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||brightdata.com^$document
 ||brightdata.de^$document
 ||bright-sdk.com^$document
+||joinmassive.com^$all
 ||phonespying.com^$all
 ||copy9.com^$document
 ||fonetracker.com^$document
@@ -33903,7 +33920,7 @@ $doc,removeparam=rlz
 $doc,removeparam=pcampaignid
 $doc,removeparam=igshid
 $doc,removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
-$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com
+$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com|~portswigger.net
 $doc,removeparam=ext_source
 $removeparam=iradid
 $removeparam=irpid
