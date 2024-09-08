@@ -1,5 +1,5 @@
 # uBlock combo list (*not* affiliated with uBlock Origin)
-A filterlist complied out of other filterlists to block malware, scams, phishing, and remove tracking parameters in uBlock Origin and AdGuard, with most redundant entries automatically removed (apart from this, there is little/no other filtering, so dead domains and false positives are not removed). <br>
+A filterlist compiled out of other filterlists to block malware, scams, phishing, and remove tracking parameters in uBlock Origin and AdGuard, with most redundant entries automatically removed (apart from this, there is little/no other filtering, so dead domains and false positives are not removed). <br>
 All issues with the included lists should be reported upstream.<br>
 Note: This is designed to work _alongside_ the default lists in your content blocker. It can not replace them.
 
