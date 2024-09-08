@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 07/09/2024
+! Last updated: 08/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26408,7 +26408,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||bilalimtyaz.co^$document
 ||eliteexteriorsystems.com^$all
 ||captcha-smart.top^$all
-||micuenta01.github.io^$all
 ||tristreamstv.com^$all
 ||pinokio.online^$all
 ||sitetraffic.site^$all
@@ -26606,7 +26605,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||italtrack.checkitemtt.top^$all
 ||checkitemtt.top^$document
 ||conv-alida-recapiro-com.preview-domain.com^$document
-||juandfar.github.io^$all
 ||slidehostdowny.xyz^$all
 ||rest.healthy2fit.com^$all
 ||api.healthy2fit.com^$all
@@ -26665,7 +26663,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||www.pccrackworld.com^$all
 ||winfrey2024.com^$all
 ||bisbenefits.solutions^$all
-||okra-grouper-hny2.squarespace.com^$all
 ||pirate4.life^$all
 ||891706.com^$all
 ||www.njgummys.com^$all
@@ -26717,7 +26714,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||uploadev.org/hkoarfyqyne8^$all
 ||nholinolout.tk/0d94969df6099021ed5f897a4144a946wOXvweYgLQgLx-WSJE8uNrZlSB0R8yPrpXhu/-Download-E33Hwwp-QbvNGlXIoS^$all
 ||latestsoftz.com^$all
-||textbin.net/raw/2tgh7yhhzs^$all
 ||rick63.publicvm.com^$all
 ||bbleepingcomputer.com^$document
 ||bleepingc0mputer.com^$document
@@ -28856,6 +28852,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||deadlockbetatest.com^$all
 ||yanisac.com^$document
 ||nameless2020.github.io^$all
+||albapietra.com.br^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29217,11 +29214,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||haltertrailer.info^$all
 ||safesecureprotect.com^$all
 ||trk-magnam.com^$all
-||push.trk-deserunt.com^$all
-||subscription.trk-deserunt.com^$all
-||event.trk-deserunt.com^$all
 ||trk-deserunt.com^$all
-||core.alertsx.com^$all
 ||alertsx.com^$all
 ||medialysticos.live^$all
 ||her-cupid.com^$all
@@ -29231,7 +29224,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||install-network.com^$document
 ||fatededers.com^$all
 ||netbuilding.com.ar^$document
-||nextpsh.top^$all
 ||rx-qualityshop.com^$all
 ||canadatrustmed.com^$all
 ||davisonbarker.pro^$document
@@ -29245,7 +29237,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||gamegadget2022.blogspot.com^$document
 ||gifttopsurvey.top^$all
 ||winnenmetje.info^$document
-||www.vbucks-goo.com^$all
 ||vbucks-goo.com^$all
 ||www.jpnbgn.com^$document
 ||wilycaptcha.live^$document
@@ -29535,41 +29526,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||martoysure.live^$all
 ||goodgollygold.com^$document
 ||beastws.com^$all
-||adajobs.de^$document
-||appart-vermietung.de^$document
-||baderus.de^$document
-||bermudez-portfolio.de^$document
-||carpenteriekluc.it^$document
-||charlotte-wilking.de^$document
-||conradlentz.de^$document
-||corexonline.de^$document
-||dierhagen-ostsee.de^$document
-||digitalplm.de^$document
-||e-dos.pl^$document
-||eltruciolo.it^$document
-||essen-inline-skating.de^$document
-||forstbetrieb-reichel.de^$document
-||fotogruppe-iserlohn.de^$document
-||fw-muensing.de^$document
-||honighelmut.de^$document
-||hostingnetwork24.de^$document
-||hunsruecker-damwild.de^$document
-||hypnose-kunz.de^$document
-||ilcolibri.it^$document
-||lhm-as.de^$document
-||lotuslebanon.com^$document
-||mainradweg-service.de^$document
-||massaggisensitive.it^$document
-||misericordiapompei.it^$document
-||molinariprotection.it^$document
-||new-work-in-mv.de^$document
-||nick-duschek.de^$document
-||officinavettoriale.it^$document
-||schnelltests-ludwigsburg.de^$document
-||snehpandya.me^$document
-||spiritoemateria.it^$document
-||stahl-rohr-moebel.de^$document
-||tipps-staedtereisen.de^$document
+||doxspb.adajobs.de^$all
 ||elon23.page.link^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
@@ -34977,7 +34934,6 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 /search?$doc,removeparam=gs_lcrp,domain=bing.com|google.com
 ||bing.com/search?$removeparam=FPIG
 $removeparam=_trkparms
-$removeparam=_trksid
 $removeparam=_from
 $removeparam=sacat
 $removeparam=amdata,domain=ebay.*
