@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 11/09/2024
+! Last updated: 12/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28855,6 +28855,29 @@ ostrowlubelski.pl##^responseheader(location)
 ||albapietra.com.br^$document
 ||drarayanacafe.com.br^$document
 ||venmo-571.fartit.com^$all
+||auth-coinbase-official.webflow.io^$all
+||auth-coinbase-offical.$document
+||metamaskchromextensuiin.webflow.io^$all
+||metamaskchromextensuiin.$document
+||help-metamask-org-$document,domain=~translate.goog
+||help-metamask-org-us.webflow.io^$all
+||login-orange-fr.webflow.io^$all
+||login-orange-fr.$document,domain=~translate.goog
+||secure---sso-robinhood-com-autth.webflow.io^$all
+||secure---sso-robinhood-com-$document,domain=~translate.goog
+||att-verification-542-9acc4c.webflow.io^$all
+||att-verification-*.webflow.io^$document
+*coinbase*.webflow.io^$document
+||sso-cdn--coinbasepo-eng-auth.webflow.io^$all
+*wallett*.webflow.io^$document
+||microsoft-outlook-11402a.webflow.io^$all
+||microsoft-outlook-*.webflow.io^$document
+||help-meottamsk--xtens.$document
+||extension-metamaskchromm.$document
+||help-metamschrmexten-us.$document
+||help-metamsk-extn.$document
+||metamoask-login.$document
+||matamasxtensiion.$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -29504,7 +29527,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||godpvqnszo.com^$popup
 ||news-mapara.com^$all
 ||vipdatingtoday.top^$all
-||mo4ckid.click^$all
 ||xxxnewvideos.com^$all
 ||iseult-aplite.xyz^$all
 ||img.pushflow.net/creatives/11/5645/1649754393755-push-preview-img.png^$all
@@ -32619,6 +32641,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||jennajoslyn.ru.com^$document
 ||3bigs.com^$all
 ||savkar.ai^$all
+||cloudflirts.com^$document
+||fxmnf8trk.com^$document
+||findneighboursonline.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
