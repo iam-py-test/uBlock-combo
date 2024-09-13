@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 12/09/2024
+! Last updated: 13/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27577,7 +27577,6 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||xyzgnc.com^$all
 ||jhzhis.com^$all
 ||zayatr.com^$all
-||zappiehost.com^$all
 ||tchangway.hk^$all
 ||bafkreibm2c232v5uuz7vkxcdkwdjye6oaoasxg5zkye7y3oyodm6olulou.ipfs.dweb.link^$all
 ||lkalzzop.online^$all
@@ -28878,6 +28877,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||help-metamsk-extn.$document
 ||metamoask-login.$document
 ||matamasxtensiion.$document
+||ww3.dane-cr2024.io.webm.ru^$all
+||fyjkxzq.shop^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -32630,8 +32631,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||vowpairmax.live^$all
 ||impfehut.live^$all
 ||hookupsconnect.com^$all
-||fqqenf8trk.com^$document
-||xn3j2k.com^$document
 ||info-extremechat.com^$document
 ||fitflirts.com^$all
 ||testars-consin.icu^$document
@@ -32642,7 +32641,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||3bigs.com^$all
 ||savkar.ai^$all
 ||cloudflirts.com^$document
-||fxmnf8trk.com^$document
 ||findneighboursonline.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
