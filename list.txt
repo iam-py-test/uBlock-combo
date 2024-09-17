@@ -1,12 +1,12 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/09/2024
+! Last updated: 17/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top|~reyhub.top
+||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top|~reyhub.top|~iboxs.top
 ||loan^$doc
 ||bid^$doc
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -28886,6 +28886,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||csbestplayers.com^$document
 ||bitegifts.com^$document
 ||beacons.ai/dooreats^$all
+||hackpc.net^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -33969,7 +33970,7 @@ $doc,removeparam=rlz
 $doc,removeparam=pcampaignid
 $doc,removeparam=igshid
 $doc,removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
-$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com|~portswigger.net
+$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com|~portswigger.net|~aluminate.net
 $doc,removeparam=ext_source
 $removeparam=iradid
 $removeparam=irpid
@@ -36526,4 +36527,5 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||startpage.com/sp/qi$removeparam=sc
 @@||flagpedia.net^$ping,xhr,removeparam=gtm
 @@/login-redirect/*$removeparam
+@@/login?$removeparam=referrer
 @@|wss://$removeparam
