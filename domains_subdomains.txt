@@ -26807,6 +26807,7 @@ midwayauth.pro
 csbestplayers.com
 bitegifts.com
 hackpc.net
+github-scanner.com
 ublockerext.com
 catnip.de
 trafcenter.us

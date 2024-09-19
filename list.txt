@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 18/09/2024
+! Last updated: 19/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -28887,6 +28887,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||bitegifts.com^$document
 ||beacons.ai/dooreats^$all
 ||hackpc.net^$document
+||github-scanner.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||trafcenter.us^$all
@@ -36506,6 +36507,7 @@ $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 ||ikea.com/*/images/products^$removeparam=f
+||smartasaker.$removeparam=dema_id
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@mailinglist$removeparam=/^utm_.*$/i
