@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 25/09/2024
+! Last updated: 26/09/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -33917,7 +33917,6 @@ $removeparam=istBid
 $removeparam=cmpid
 $removeparam=CMP
 $doc,removeparam=/^OCID=.*$/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
-@@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 $removeparam=tduid,domain=~tradedoubler.com
 $removeparam=irclickid
 $removeparam=irclicid
@@ -36438,3 +36437,5 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@/login-redirect/*$removeparam
 @@/login?$removeparam=referrer
 @@|wss://$removeparam
+@@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
+
