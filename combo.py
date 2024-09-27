@@ -86,6 +86,7 @@ def parselist(l,curl=""):
 	global ered
 	plist = ""
 	for line in l:
+		edomain = extdomain(line)
 		if (line.startswith("!") or line.startswith("#")) and "include" not in line:
 			continue
 		elif line.startswith("[Adblock") and line.endswith("]"):
@@ -96,9 +97,9 @@ def parselist(l,curl=""):
 			continue
 		elif line == "":
 			continue
-		elif extdomain(line) != "" and extdomain(line) in donedomains:
+		elif edomain != "" and edomain in donedomains:
 			continue
-		elif extdomain(line) in dead:
+		elif edomain in dead and edomain != "" and edomain != None:
 			continue
 		elif line.startswith("!#include "):
 			try:
@@ -112,7 +113,6 @@ def parselist(l,curl=""):
 			plist += "{}\n".format(line)
 			eadd += 1
 			donelines.append(line)
-			edomain = extdomain(line)
 			if edomain != "" and edomain != " ":
 				donedomains.append(edomain)
 	return plist
