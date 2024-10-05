@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 04/10/2024
+! Last updated: 05/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25197,6 +25197,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||amazonaws.com^$doc,popup,badfilter
 ||amazonaws.com^$doc,badfilter
 ||amazonaws.com^$badfilter
+://$badfilter
 www.google.*##div[data-attrid^="images "]:has(a[title*=" OFF "][title$="%"]:not([title$="0%"],[title$="5%"]))
 www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 .asp?url=https://xn--*.xn--p1ai/$all
@@ -26721,11 +26722,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||life2vec.io^$document
 ||get-express-vpn.online^$all
 ||ezadblocker.com^$document
+||mfcewkrob.com^$document
 ||myfood.ltd^$document
 ||newtab.page^$document
 ||ourhotposts.com^$all
 ||simplestar.com^$document
 ||agabreloomr.com^$all
+||polyfill.io^$all
 ||googie-anaiytics.com^$all
 ||kuurza.com^$all
 ||bootcdn.net^$all
@@ -26853,6 +26856,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||wyy158.fun^$document
 ||cse38.xyz^$document
 ||sanadietzman.click^$document
+||joannstoressales.shop^$document
 ||joannmax.com^$document
 ||joannofficial.com^$document
 ||joannoutlet.com^$document
@@ -26903,6 +26907,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||lonerprevailed.com^$document
 ||wwwaaatxhdt.pages.dev^$all
 ||blueevolution.it^$all
+||last-blink.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -27329,6 +27334,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||originalspartner.life^$document
 ||loveclick.life^$document
 ||bestdatingsforyou.life^$document
+||charmingdating.life^$document
 ||bestflirtzone.life^$document
 ||demoniacipÅ‘.com^$all
 ||demoniatÃ¼rkiye.com^$all
@@ -28402,6 +28408,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||muckbootsosterreich.at^$document
 ||muckbootsoutletstore.de^$document
 ||nadejbaletu.sk^$document
+||nauticaromania.com^$document
 ||nauticaukwebsite.com^$document
 ||nikeaustralia.net^$document
 ||nikegreece.net^$document
@@ -28823,6 +28830,14 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||loveaholics.com^$all
 ||foundations-x2024.sbs^$all
 ||foundations-x2024.cloud^$all
+||seriedfilm.com^$document
+||sundaydiscounts.lat^$document
+||paperartcard.com^$document
+||goshopgadget.com^$document
+||theconversionsguru.com^$document
+||deals4you.click^$document
+||toysfunzone.com^$document
+||fabulousitem.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
