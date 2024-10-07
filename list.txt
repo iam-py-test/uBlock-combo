@@ -1,12 +1,12 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 06/10/2024
+! Last updated: 07/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top|~reyhub.top|~iboxs.top
+||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top
 ||loan^$doc
 ||bid^$doc
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -5192,6 +5192,15 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||influencer2020.com^$all,~inline-font
 ||vooculok.com^$all,~inline-font
 ||mobytrks.com^$all,~inline-font,domain=~malware-redirection-trains.*
+||edaukooru.net^$all
+||mauzanapsusi.net^$all
+||nucmagnotoal.com^$all
+||phacmeptaus.net^$all
+||seepsoaceva.net^$all
+||staudsees.net^$all
+||stelronsi.net^$all
+||tadaickaipt.com^$all
+||vekeltaizy.net^$all
 ||139.45.197.236^$doc
 *$all,ipaddress=139.45.197.236
 ||becovi.com^$all,~inline-font
@@ -7333,6 +7342,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||backpackclearanus.com^$all,~inline-font
 ||backpacktooutlet.com^$all,~inline-font
 ||balancecheapsuk.com^$all,~inline-font
+||baseballjerseys.store^$all,~inline-font
 ||basketballshoe.store^$all,~inline-font
 ||baylorbearsncaa.store^$all,~inline-font
 ||baylorcollege.store^$all,~inline-font
@@ -7984,6 +7994,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||jordanslovenija.co^$all,~inline-font
 ||jordansovensko.sk^$all,~inline-font
 ||jordantilbud.com^$all,~inline-font
+||keengermany.de^$all,~inline-font
 ||keenspain.es^$all,~inline-font
 ||mizunoteniskysk.sk^$all,~inline-font
 ||moncler-israel.com^$all,~inline-font
@@ -8003,12 +8014,16 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||nobullsuomiale.com^$all,~inline-font
 ||xn--nobulltrkiye-jlb.com^$all,~inline-font
 ||outletjordanitalia.com^$all,~inline-font
+||quiksilver-mexico.com.mx^$all,~inline-font
+||quiksilveraustraliasale.com^$all,~inline-font
+||quiksilverenargentina.com^$all,~inline-font
 ||quiksilverenucuz.com^$all,~inline-font
 ||quiksilverhungary.com^$all,~inline-font
 ||quiksilverindia.co.in^$all,~inline-font
 ||quiksilverkaufen.com^$all,~inline-font
 ||quiksilversoldes.fr^$all,~inline-font
 ||quiksilversuomi.com^$all,~inline-font
+||salomonfrancesoldes.fr^$all,~inline-font
 ||salomonhungary.net^$all,~inline-font
 ||salomoslovenija.com^$all,~inline-font
 ||salomoslovensko.sk^$all,~inline-font
@@ -9906,6 +9921,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||57.128.71.215^$all,~inline-font
 *$all,ipaddress=57.128.71.215
 /^.*&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$doc
+||truanet.com^$all,~inline-font
 ||rumadel.com^$all,~inline-font
 ://103.224.182.$doc
 ||apigroup.xyz^$all,~inline-font
@@ -10163,6 +10179,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||gzwzvt.com^$all,~inline-font
 ||habppu.com^$all,~inline-font
 ||haxbyq.com^$all,~inline-font
+||hcafpg.com^$all,~inline-font
 ||hdhfkz.com^$all,~inline-font
 ||hdqfof.com^$all,~inline-font
 ||hdqzkb.com^$all,~inline-font
@@ -16027,10 +16044,12 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||kenwellsgrpo.com^$all
 ||kitwkuouldhukel.xyz^$all
 ||kmodukuleqasfo.info^$all
+||kmyunderth.com^$all
 ||kolpihvfongrou.info^$all
 ||ksehinkitw.hair^$all
 ||liondolularhene.info^$all
 ||longmansuchcesu.com^$all
+||ltingecauyuksehi.com^$all
 ||manisation.org^$all
 ||mediatesupervis.com^$all
 ||mementrandingsw.com^$all
@@ -25181,6 +25200,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||money.dailyhunt.in^
 ||www.goldenpalace.com^
 ||www.xxsy.net^
+||dorangesource.alicdn.com^
+||monitor.clickcease.com^
+||mrtg.emailpartners.net^
+||pl24355825.cpmrevenuegate.com^
+||pool.v6.bt.n0808.com^
 
 ||amazonaws.com^$all,~inline-font,badfilter
 ||amazonaws.com^$all,badfilter
@@ -25421,9 +25445,12 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||boxcracked.com^$all
 ||procrackkey.co^$all
 ||activationkey.org^$all
+||newproductkey.com^$all
 ||protoolscrack.net^$all
+||download4mac.com^$all
 ||serialkeypatch.org^$all
 ||profreefiles.com^$all
+||filespremium.com^$all
 ||37.1.209.213^$all
 ||10dimensions.com^$all
 ||crackedable.com^$all
@@ -25841,7 +25868,9 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||bideo-schnellvpn.com^$all
 ||fairu-blog.com^$all
 ||fairu-cdn.com^$all
+||fairu-chat.com^$all
 ||fairu-chat.xyz^$all
+||fairu-endpoint.com^$all
 ||fairu-endpoint.xyz^$all
 ||fairu-schnellvpn.com^$all
 ||fairu-schnellvpn.xyz^$all
@@ -25974,6 +26003,7 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||78.47.9.120^$all
 ||162.55.212.236^$all
 ||45.159.189.105^$all
+||softronline.click^$all
 ||xajibur.ru^$all
 ||ponafet.ru^$all
 ||baarspo.ru^$all
@@ -26056,12 +26086,15 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||cleaner-update.club^$document
 ||speedupdate.club^$document
 ||good-update.club^$document
+||csgofloat.br.com^$all
 ||licensevilla.com^$all
 ||24.199.69.78^$all
 ||hopvibestravel.co.za^$document
 ||49.13.60.242^$all
 ||revanced.net^$all
 ||thehipsteragency.com^$all
+||keen-france.fr^$all
+||keenfrance.fr^$document
 ||keen-fr.com^$document
 ||keen-chaussures.fr^$document
 ||pnsys.info^$all
@@ -26084,6 +26117,7 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||nightnitroglass.com^$all
 ||whitelinetosplit.com^$document
 ||bluesmallbutterfly.com^$document
+||pl.coe777.com^$document
 ||86pmafno21mst.com^$all
 ostrowlubelski.pl##^responseheader(location)
 ||ostrowlubelski.pl^$removeheader=location
@@ -26106,7 +26140,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||jscloud.live^$all
 ||cloudjs.live^$all
 ||videocampaign.co^$document
-||myreloads.com^$all
 ||inroadslab.com^$all
 ||instantgreenapp.com^$document
 ||www.ssp.sp.gov.br/ead/report/video/video_$document
@@ -26312,6 +26345,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||datastream.myvnc.com^$all
 ||gservicese.com^$all
 ||center.onthewifi.com^$all
+||abyssalforge.top^$all
 ||marinhoassessoria.com^$document
 ||revanced.to^$document
 ||67.217.57.54^$all
@@ -26368,7 +26402,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||forensicswiki.xyz^$document
 ||thumbzoner.com^$all
 ||pushub.net^$all
-||monetrizer.com^$document
 ||comidrekt.net^$document
 ||energie-portal-24.de^$document
 ||energieausweis-online-erstellen.de^$document
@@ -26382,6 +26415,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||fitgirlrepackz.com^$all
 ||fitgirlrepackz.$document
 ||updates.adobe-soft.$document
+||liwishacks.com^$all
 ||sanityflash.mom^$document
 ||89.23.96.177^$all
 ||booking-admins.com^$document
@@ -26445,6 +26479,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||mirfakpersei.top^$document
 /ps/ps.js?&edg=true&sw=&fullscreen=true&pl=true&pp=false&id=*&sm=space-robot&click_id=*&sub_id=*&appspot=&d=$script,first-party,domain=top
 ||press-here-to-continue.com^$all
+||canopusacrux.top^$all
 ||22.imohub.workers.dev^$all
 ||195.35.19.138^$all
 ||privacyguides.io^$all
@@ -27130,6 +27165,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||37.187.88.137^$document
 ||onpharmvermen.com^$all
 ||classpharmenado.com^$document
+||sale24-pills.com^$document
 ||everypdnsharmacy.com^$document
 ||happypharmproduct.com^$document
 ||static.cdnativepush.com/contents/s/69/55/b8/8c4f4e3359518f986fc7970194/0201779526711.png^$all
@@ -27335,6 +27371,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||loveclick.life^$document
 ||bestdatingsforyou.life^$document
 ||charmingdating.life^$document
+||datingarea.life^$document
 ||bestflirtzone.life^$document
 ||demoniacipÅ‘.com^$all
 ||demoniatÃ¼rkiye.com^$all
@@ -27434,6 +27471,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||pccdirect.site^$all
 ||you8tube.com^$all
 /17138/iphone14.html?$document
+||pingleflavor.xyz^$all
 ||funprizeali.site^$all
 ||losbestbsdating2023.com^$document
 ||techsoftglobals.com^$all
@@ -27674,10 +27712,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||amnotification.com^$all
 ||anesthesia2000.com^$all
 ||47aead8f05.com^$3p
+||systemoon.co.in^$all
 ||ambrs.online^$document
 ||dojtxl6jydd7s.cloudfront.net/*/*/indexp.html$document
 ||jokekroako.com^$all
 ||push-ebfhafd-7996.boustahe.com^$document
+||74les.ru^$all
 ||waratlas.org^$all
 ||94.142.138.131^$all
 ||browser-app.co^$popup
@@ -28866,6 +28906,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||iobit.com^$document
 ||windowserrorfixer.com^$document
 ||itopvpn.com^$document
+||itopupdate.com^$document
 ||2-spyware.com/reimage/download$all
 ||2-spyware.com/download/ReimageRepair$all
 ||reimageplus.com^$all
@@ -29058,6 +29099,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||tambayan.us^$document
 ||australiannewstoday.com^$document
 ||bbcnewstoday.com^$document
+||bloombergnewstoday.com^$document
 ||bostonnewstoday.com^$document
 ||britishnewstoday.com^$document
 ||canadiannewstoday.com^$document
