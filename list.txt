@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 10/10/2024
+! Last updated: 11/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15718,7 +15718,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||p0jrmnpr7.cfd^$all,~inline-font
 ||jnh4afbw7.click^$all,~inline-font
 ||xzr9uauq.cfd^$all,~inline-font
-||bn6h9d7tr.cfd^$all,~inline-font
 ||t67uyhgf.co^$all,~inline-font
 ||crack4hit.com^$all,~inline-font
 ||hit4pc.click^$all,~inline-font
@@ -15846,7 +15845,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||erpringash.xyz^$all
 ||ervantasrelate.info^$all
 ||esterdayauol.info^$all
-||etingplansfo.buzz^$all
 ||etyrthonrong.info^$all
 ||everefor.buzz^$all
 ||evermoto.xyz^$all
@@ -15861,7 +15859,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||heodeidsofhnm.info^$all
 ||himloabercuacroos.info^$all
 ||hoisquit.buzz^$all
-||houldthinkh.buzz^$all
 ||ibilitukydteamw.com^$all
 ||ifefashionismscold.com^$all
 ||inghesatin.com^$all
@@ -15903,7 +15900,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||nkitwkuouldhu.com^$all
 ||nmabigyello.xyz^$all
 ||normaticalaccu.com^$all
-||notquiteso.buzz^$all
 ||ntheworldw.buzz^$all
 ||nverewereal.info^$all
 ||oathihakennails.info^$all
@@ -15943,7 +15939,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||ssdwellsgrpo.info^$all
 ||starvardsee.xyz^$all
 ||stellihandles.hair^$all
-||sultingcoe.buzz^$all
 ||taitlastwebegan.com^$all
 ||tasesetitoefany.info^$all
 ||tbrohwnmyest.info^$all
@@ -26622,6 +26617,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||185.81.115.28^$document
 ||79.137.197.154^$document
 ||crypto-wave.top^$document
+||fsqaj.com^$document
 ||michaelconstantinebhanos.com^$document
 ||91.215.85.223^$document
 ||https.com^$all
@@ -27025,7 +27021,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||alertsx.com^$all
 ||her-cupid.com^$all
 ||hottieswantu.com^$document
-||offers.usabangpalace.com^$document
+||usabangpalace.com^$all
 ||find-singles-online.com^$all
 ||install-network.com^$document
 ||netbuilding.com.ar^$document
@@ -27835,7 +27831,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||outletjoma.com^$document
 ||outletlego.com^$document
 ||outletmizuno.com^$document
-||outletregatta.com^$document
 ||outletsalomon.com^$document
 ||outletversace.com^$document
 ||palladiumfi.com^$document
@@ -28022,7 +28017,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||dannerbootsromania.com^$document
 ||dannerwandelschoen.com^$document
 ||dc-shoesperu.com^$document
-||demoniaboots.it^$document
 ||demoniabootscanada.com^$document
 ||demoniabootsireland.com^$document
 ||demoniabudapest.com^$document
@@ -28116,7 +28110,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hellyhansenuk.com^$document
 ||hellyhansenuruguay.com^$document
 ||hellyhansenwarszawa.pl^$document
-||heydudeforsale.com^$document
 ||hokaoutletparis.com^$document
 ||hokarunnershungary.com^$document
 ||hoka-soldes.fr^$document
@@ -28233,7 +28226,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||nadejbaletu.sk^$document
 ||nauticaromania.com^$document
 ||nauticaukwebsite.com^$document
-||nikeaustralia.net^$document
 ||nikesouthafricasale.co.za^$document
 ||nobullbelgie.net^$document
 ||nobullcanadasale.com^$document
@@ -28639,7 +28631,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||jennajoslyn.ru.com^$document
 ||3bigs.com^$all
 ||savkar.ai^$all
-||findneighboursonline.com^$document
+||findneighboursonline.com^$all
+||onlyshagplace.com^$all
 ||tempmail.com^$all
 ||clunen.com^$document
 ||deviceconnectnetwork.co.in^$all
@@ -28659,6 +28652,53 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||deals4you.click^$document
 ||toysfunzone.com^$document
 ||fabulousitem.com^$document
+||flylocals.com^$all
+||ukflirtzone.com^$all
+||onlineromanceusa.com^$all
+||forumofsecrets.com^$all
+||forumofdesires.com^$all
+||lustycanadians.com^$all
+||onlybangbook.com^$all
+||textorsext.com^$all
+||fuckbuds.com^$all
+||maturedates.com^$all
+||fmn.network^$all
+||slagnextdoor.com^$all
+||sextingbook.com^$all
+||shagslags.com^$all
+||streetslagsuk.com^$all
+||unitedflirtingstates.com^$all
+||localsextingsluts.com^$all
+||bookofsext.com^$all
+||aussiebangclub.com^$all
+||flirtyslapper.com^$all
+||swipesecrets.com^$all
+||foxymatures.com^$all
+||ozziebang.com^$all
+||shagsexts.com^$all
+||sluzzanextdoor.com^$all
+||slagplace.com^$all
+||chavsgowild.com^$all
+||regionbang.com^$all
+||fetishmodelnetwork.com^$all
+||feetondemand.com^$all
+||feetpov.com^$all
+||footfetishcardates.com^$all
+||goddessfootdomination.com^$all
+||goddessfootworship.com^$all
+||goddessfootjobs.com^$all
+||jerktomyfeet.com^$all
+||footfetishpetite.com^$all
+||imenacarlisle.com^$all
+||officialmiax.com^$all
+||kylierosefetish.com^$all
+||fetishcustoms.com^$all
+||onlymatchcity.com^$all
+||physiotherapyindhaka.com^$all
+||info-animals.com^$all
+||opdomaines.space^$all
+||softicoapps.com^$document
+||static.imghst-de.com/*.png^$image
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
