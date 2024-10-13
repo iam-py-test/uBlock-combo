@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 12/10/2024
+! Last updated: 13/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15928,6 +15928,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||ratiotyuknsye.pics^$all
 ||reamsan.buzz^$all
 ||reckedmane.xyz^$all
+||rentlysearchin.com^$all
 ||rgentssep.xyz^$all
 ||ricewaterhou.xyz^$all
 ||runkingoutinteah.info^$all
@@ -26618,8 +26619,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||79.137.197.154^$document
 ||crypto-wave.top^$document
 ||fsqaj.com^$document
-||michaelconstantinebhanos.com^$document
 ||91.215.85.223^$document
+||hubvera.ac.ug^$document
 ||https.com^$all
 ||chromewebstore.google.com/detail/ublock-pro/fmaicbnbcbjgbpecclcnaehmbpjpdane^$all
 ||upsbezorging.com^$all
@@ -26700,9 +26701,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||jaborcall.app^$document
 ||cisco.com.gruaselpiojito.com.mx^$all
 ||sivacycle.com^$all
-||steamcommunijtly.com^$document
-||deadlockbeta.com^$document
-||deadlockplay.com^$document
 ||147.45.47.37^$all
 ||77.221.156.10^$all
 ||yanisac.com^$document
@@ -26743,6 +26741,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||last-blink.com^$document
 ||kidsacademyprayagraj.com^$document
 ||usps.com-trackahc.top^$all
+||lvrv0gkspz.blob.core.windows.net^$document
+||formally-up.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -27844,6 +27844,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||restockssuomi.com^$document
 ||salmingsuomi.com^$document
 ||salomon-finland.com^$document
+||salomonfinland.com^$document
 ||salomonsuomioutlet.com^$document
 ||sanuksuomi.net^$document
 ||sendrasuomi.net^$document
@@ -28652,7 +28653,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||deals4you.click^$document
 ||toysfunzone.com^$document
 ||fabulousitem.com^$document
-||flylocals.com^$all
 ||ukflirtzone.com^$all
 ||onlineromanceusa.com^$all
 ||forumofsecrets.com^$all
