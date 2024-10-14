@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 13/10/2024
+! Last updated: 14/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25684,6 +25684,7 @@ www.google.*##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 ||bideo-endpoint.com^$all
 ||bideo-endpoint.xyz^$all
 ||bideo-schnellvpn.com^$all
+||bideo-schnellvpn.xyz^$all
 ||fairu-blog.com^$all
 ||fairu-cdn.com^$all
 ||fairu-chat.com^$all
@@ -26265,7 +26266,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||telegczim.vip^$document
 ||teleprium.work^$document
 ||teleprium.club^$document
-||telepamn.cc^$document
 ||telegczm.club^$document
 ||tgelegrean.cc^$document
 ||teleqriem.vip^$document
@@ -26316,6 +26316,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||hackzone.me^$document
 ||modyolo.com^$all
 ||googlesavedata.ru^$all
+||fundatingquest.fun^$all
 ||chat-o-live.com^$all
 ||rozaholshouser.cfd^$all
 ||kristidamon.beauty^$all
@@ -26537,6 +26538,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||gameportal.casa^$document
 ||gimp.zendesk.com^$all
 ||truefortnite.com^$document
+||kmsauto.uno^$all
 ||kmspico.io^$all
 ||uploader-rars.com^$document
 ||kmspico.ws^$all
@@ -26668,7 +26670,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||sleetposition.website^$document
 ||transiouratwat.com^$all
 ||undenentionin.com^$all
-||wvvw-ankama.com^$all
 ||chromeweb-authenticators.com^$all
 ||moon-lightt.info^$all
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^$all
@@ -26704,7 +26705,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||147.45.47.37^$all
 ||77.221.156.10^$all
 ||yanisac.com^$document
-||nameless2020.github.io^$all
 ||albapietra.com.br^$document
 ||drarayanacafe.com.br^$document
 ||auth-coinbase-offical.$document
@@ -26723,7 +26723,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||metamoask-login.$document
 ||matamasxtensiion.$document
 ||ads-verification-for-pay.$document
-||s3-poshmark.id829.com^$document
 ||csbestplayers.com^$document
 ||bitegifts.com^$document
 ||beacons.ai/dooreats^$all
@@ -28045,7 +28044,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||drmartensdublin.com^$document
 ||drmartensjapan.net^$document
 ||drmartenssalg.com^$document
-||drmartensshoesuk.com^$document
 ||drmartensskroutz.com^$document
 ||eastpaklietuva.com^$document
 ||eccomontreal.com^$document
@@ -28159,7 +28157,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||lottobulgaria.org^$document
 ||lottocolombia.net^$document
 ||lottodanmark.net^$document
-||lottoeesti.org^$document
 ||lottofrankfurt.de^$document
 ||lottohungary.org^$document
 ||lottoireland.net^$document
@@ -28191,6 +28188,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mackagejacketcanada.com^$document
 ||mackageschweiz.com^$document
 ||magasinhokabelgique.com^$document
+||marcjacobs-france.fr^$document
 ||merrellbarbati.com^$document
 ||merrellsandaalit.com^$document
 ||merrellsklepy.pl^$document
@@ -28219,7 +28217,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||moonbootslovenija.net^$document
 ||moonbootsouthafrica.net^$document
 ||moonbootsperu.com^$document
-||moonbootukstore.com^$document
 ||muckbootdanmark.com^$document
 ||muckbootsnl.com^$document
 ||muckbootsosterreich.at^$document
@@ -28299,7 +28296,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||salmingchile.com^$document
 ||salmingcolombia.com^$document
 ||salmingslovenija.com^$document
-||salomonbuty.com^$document
 ||salomonenucuz.com^$document
 ||salomonfinlandoutlet.com^$document
 ||salomongermany.de^$document
@@ -28605,6 +28601,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||fromstartertofinisher.com^$document
 ||firmsecurejump.com^$document
 ||localmeets.link^$document
+||wooqi.win^$all
 ||milfsaround.com^$all
 ||salbories-symphemes.com^$all
 ||chemiclk.com^$document
@@ -28694,11 +28691,52 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||kylierosefetish.com^$all
 ||fetishcustoms.com^$all
 ||onlymatchcity.com^$all
+||fabucams.com^$all
+||shybuds.com^$all
+||paradismatch.com^$all
+||bigonyou.com^$all
+||chattrummet.com^$all
+||datingcashexperts.com^$all
+||dejtingpalatset.com^$all
+||dejtingrummet.com^$all
+||dinnyevenn.com^$all
+||ensamkontakt.com^$all
+||finnenelsker.com^$all
+||flingtalk.com^$all
+||flirtseason.com^$all
+||hemlighetsportalen.com^$all
+||katesingler.com^$all
+||lekendating.com^$all
+||leklust.com^$all
+||meetupz.app^$all
+||myfuckfriends.com^$all
+||mynextcrush.com^$all
+||noenlikerdeg.com^$all
+||norskchathub.com^$all
+||noticetick.com^$all
+||romancestarter.com^$all
+||seksuelllyst.com^$all
+||singelflirten.com^$all
+||singelkontakt.com^$all
+||singelogklar.com^$all
+||singelplatsen.com^$all
+||talknotice.com^$all
+||treffraskt.com^$all
+||vennlighallo.com^$all
+||aussieflings.com^$all
+||flingmatches.com^$all
+||naughtyfriendships.com^$all
+||flirtyfindings.com^$all
+||mail.213-5-71-141.cprapid.com^$all
+||getaffairs.com^$all
+||mysexychats.com^$all
+||fuckmatches.com^$all
 ||physiotherapyindhaka.com^$all
 ||info-animals.com^$all
 ||opdomaines.space^$all
 ||softicoapps.com^$document
 ||static.imghst-de.com/*.png^$image
+||starshipstart.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -29015,6 +29053,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||imyfone.com^$document
 ||mspy.com^$all
 ||spy99.com^$all
+||spyrix.com^$all
+||spyrix-sfk.com^$all
+||spyrixweb.com^$all
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
 ||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
@@ -32407,6 +32448,11 @@ $doc,removeparam=maltcode,domain=gamestop.com|ubisoft.com|steampowered.com
 ||walmart.com/ip/$doc,removeparam=from
 $doc,domain=youtube.com,removeparam=embeds_referring_origin
 ref=internet.exchangepoint.tech$doc,removeparam=ref
+$doc,removeparam=ebisOther1
+$doc,removeparam=ebisOther2
+$doc,removeparam=ebisOther3
+$doc,removeparam=ebisOther4
+$doc,removeparam=ebisOther5
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
