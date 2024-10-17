@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/10/2024
+! Last updated: 17/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26742,6 +26742,17 @@ ostrowlubelski.pl##^responseheader(location)
 ||usps.com-trackahc.top^$all
 ||lvrv0gkspz.blob.core.windows.net^$document
 ||formally-up.com^$document
+||dailyrx.org^$document
+||pdf-library.org^$document
+||fbdata-edt.com^$document
+||neweradigitalservices.com^$document
+||hearwork.lat^$document
+||tracksallroundtheway2024.com^$document
+||thetoybox.club^$document
+||enhancednetworkpc.com^$all
+||getartscrafts.com^$document
+||mydigitalgadgets.com^$document
+||kittencutey.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -28737,6 +28748,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||softicoapps.com^$document
 ||static.imghst-de.com/*.png^$image
 ||starshipstart.com^$all
+||subsequentoven.info^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
@@ -29056,6 +29068,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||spyrix.com^$all
 ||spyrix-sfk.com^$all
 ||spyrixweb.com^$all
+||phonsee.com^$all
+||umobix.com^$all
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
 ||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
