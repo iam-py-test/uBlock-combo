@@ -23517,10 +23517,8 @@ vtsdeal.com
 vtudeal.com
 vtwdeal.com
 vtydeal.com
-version.bind
-hostname.bind
-version.server
-hitnslab.info
+empatiya.net
+vastila.com
 if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data
 webadvisorc.rest.gti.mcafee.com
 mip.api.mcafeewebadvisor.com
@@ -24823,6 +24821,7 @@ mcds100.com
 bwpkizpfms.funnelish.com
 glitchy.go2cloud.org
 nextstephire.net
+olive121407.studio.site
 ublockerext.com
 catnip.de
 smartcaptchasolve.top
