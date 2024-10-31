@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 30/10/2024
+! Last updated: 31/10/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25065,6 +25065,8 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||d1pplo45p828lj.cloudfront.net^$all
 ||empatiya.net^$all
 ||vastila.com^$all
+www.tumblr.com##div[tabindex][style="margin-top: 0px;"]:not([class],[id]):has(a[target=_blank] > div > div:has-text(/^.*🔞.*insta( |gram).*\n.*$/i))
+||cdn32316413.blazingcdn.net^$all
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidgreek.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
