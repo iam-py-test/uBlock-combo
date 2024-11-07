@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 06/11/2024
+! Last updated: 07/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27236,7 +27236,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||wyy158.fun^$document
 ||cse38.xyz^$document
 ||sanadietzman.click^$document
-||joannstoressales.shop^$document
 ||joannmax.com^$document
 ||joannofficial.com^$document
 ||joannoutlet.com^$document
@@ -27315,7 +27314,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||glitchy.go2cloud.org^$document
 ||nextstephire.net^$document
 ||teslamaked.com^$all
-||jtexpresss.icu^$all
 ||facebook-support-team-980.pages.med.br^$all
 ||bsnl5gtower.com^$document
 ||bsnltowersite.in^$document
@@ -27325,6 +27323,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||bsnltowerinstallations.com^$document
 ||towerinstallation5g.com^$document
 ||5gtower.in^$document
+||iphonedefender.com^$all
+||udemy-creators.com^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -28614,7 +28614,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||dopeeesti.com^$document
 ||dopenorge.com^$document
 ||dopeportugal.net^$document
-||dopesnowboard.fr^$document
 ||dopesnownederland.com^$document
 ||dopesnowromania.com^$document
 ||drmartensbatai.com^$document
@@ -29201,7 +29200,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hardabbuy.live^$all
 ||batrevrig.info^$all
 ||hasnegtiny.live^$all
-||manpurerely.live^$all
 ||vowpairmax.live^$all
 ||impfehut.live^$all
 ||info-extremechat.com^$document
@@ -29222,8 +29220,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||dirtyzone.com^$document
 ||liegeanddairy.com^$all
 ||loveaholics.com^$all
-||foundations-x2024.sbs^$all
-||foundations-x2024.cloud^$all
 ||seriedfilm.com^$document
 ||sundaydiscounts.lat^$document
 ||paperartcard.com^$document
@@ -29391,6 +29387,90 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hirsuttic.com^$document
 ||uncality.com^$document
 ||bbcrossworld.com^$all
+||akbartravels.com^$document
+||atlaspvs.com^$document
+||bisertravel.com.mk^$document
+||blsindiavisa.kr^$document
+||btwvisas.com^$document
+||cibtvisas.com^$document
+||covex.it^$document
+||e-indianvisa.com^$document
+||etaindiaonline.com^$document
+||etaindia.org^$document
+||e-touristvisa.com^$document
+||e-touristvisaindia.com^$document
+||etv-in.com^$document
+||evisa.express^$document
+||e-visa.ie^$document
+||e-visaindia.com^$document
+||evisaindia.com^$document
+||evisa-indian.com^$document
+||e-visaindiaonline.com^$document
+||evisa-india-online.com^$document
+||evisaindiaonline.org^$document
+||evisaindia.org^$document
+||evisatoindia.org^$document
+||e-visums.nl^$document
+||globalvisacorp.com^$document
+||goindiavisa.com^$document
+||indiaeta.com^$document
+||india.evisa-agency.com^$document
+||india-e-visa.com^$document
+||indiae-visa.com^$document
+||indiaevisaservice.com^$document
+||indiaevisas.org^$document
+||indiaimmigration.org^$document
+||indianetouristvisacoin.wordpress.com^$document
+||indian-e-visa.com^$document
+||indian-evisa.com^$document
+||indianevisaonline.com^$document
+||indianimmigration.org^$document
+||indianonlinevisas.org^$document
+||indiantravelvisa.com^$document
+||indianvisagov.com^$document
+||indian-visa.in^$document
+||indianvisa.online^$document
+||indianvisaonlinegov.com^$document
+||indian-visaonline.org^$document
+||indianvisa-online.org^$document
+||indianvisaonline.org^$document
+||indianvisaservice.org.in^$document
+||indiaonlinevisa.org^$document
+||india.travisa.com^$document
+||indiavisa.com^$document
+||indiavisa.com.sg^$document
+||indiavisa.co.uk^$document
+||indiavisainfo.com^$document
+||indiavisa.my^$document
+||india-visa-online.com^$document
+||india-visa-online.org^$document
+||india-visaonline.org^$document
+||indiavisa-online.org^$document
+||indiavisaonline.org^$document
+||indiavisa.org^$document
+||india-visas.org^$document
+||itseasy.com^$document
+||ivisa.com^$document
+||i-visaindia.com^$document
+||jsdimmigration.com^$document
+||jsdimmigrations.com^$document
+||natvisa.com^$document
+||online-eta.com^$document
+||smvisa.co.il^$document
+||touristvisaonline.com^$document
+||traveldocs.com^$document
+||travelexpress.us.com^$document
+||travelvisabookings.com^$document
+||travisa.com^$document
+||visacentral.com^$document
+||visadone.com^$document
+||visafirst.com^$document
+||visagov.com^$document
+||visahq.com^$document
+||visasimple.com^$document
+||visa-to-india.com^$document
+||visatoindia.org^$document
+||visumbuitenland.nl^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
