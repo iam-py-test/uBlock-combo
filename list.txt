@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 09/11/2024
+! Last updated: 10/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -4408,6 +4408,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||dozubatan.com^$doc
 ||toglooman.com^$doc
 ||ultimate-detection.com^$all,~inline-font
+||tw-goldenwinner-57.com^$all,~inline-font
 ||e.datingmap.top^$all,~inline-font
 ||datingmap.top^$doc
 ||tonightshookup.com^$doc
@@ -5332,6 +5333,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||atlassion.net^$all,~inline-font
 ||aturealbum.com^$all,~inline-font
 ||audiopoisk.com^$all,~inline-font
+||audioquartet.com^$all,~inline-font
 ||auitotrader.com^$all,~inline-font
 ||australien-embassy.de^$all,~inline-font
 ||autobk.com^$all,~inline-font
@@ -5602,6 +5604,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||emperorinfo.com^$all,~inline-font
 ||emulespana.net^$all,~inline-font
 ||enbto.com^$all,~inline-font
+||engineerbob.com^$all,~inline-font
 ||enviosacuba.net^$all,~inline-font
 ||enyergy.com^$all,~inline-font
 ||eoonext.com^$all,~inline-font
@@ -5613,6 +5616,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||erotic99.com^$all,~inline-font
 ||es-toyaqui.com^$all,~inline-font
 ||esl-grammar.com^$all,~inline-font
+||esmallbusinessgrants.net^$all,~inline-font
 ||estilosashop.com^$all,~inline-font
 ||esty.com^$all,~inline-font
 ||esuracnce.com^$all,~inline-font
@@ -5732,6 +5736,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||furukawa-cooking.com^$all,~inline-font
 ||futaplay.com^$all,~inline-font
 ||gadisbandung.com^$all,~inline-font
+||galerievitesse.com^$all,~inline-font
 ||gallagherstudents.com^$all,~inline-font
 ||gallerialighting.com^$all,~inline-font
 ||gameartisan.com^$all,~inline-font
@@ -5772,6 +5777,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||gmauo.com^$all,~inline-font
 ||gmboree.com^$all,~inline-font
 ||gmglobalconnec.com^$all,~inline-font
+||gmsexp.com^$all,~inline-font
 ||gnctraining.com^$all,~inline-font
 ||gnet7.com^$all,~inline-font
 ||gnpschandigarh.com^$all,~inline-font
@@ -5810,6 +5816,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||halys.com^$all,~inline-font
 ||hamburgschool.org^$all,~inline-font
 ||handrbloock.com^$all,~inline-font
+||hangkhung.com^$all,~inline-font
 ||hao1131.com^$all,~inline-font
 ||harfordlife.com^$all,~inline-font
 ||harvestpink.com^$all,~inline-font
@@ -7305,6 +7312,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||51.68.87.229^$all,~inline-font
 *$all,ipaddress=51.68.87.229
 ||f9dle.skin^$all,~inline-font
+||2022crucialcatch.store^$all,~inline-font
 ||adidascostarica.com^$all,~inline-font
 ||adidasusa.us^$all,~inline-font
 ||adulttoyonline.shop^$all,~inline-font
@@ -7373,6 +7381,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||gaborsaleireland.com^$all,~inline-font
 ||gaborskodanmark.com^$all,~inline-font
 ||gaborskonorge.com^$all,~inline-font
+||gaborsuomi.com^$all,~inline-font
 ||gaborsverige.com^$all,~inline-font
 ||georgiabulldogs.pro^$all,~inline-font
 ||geox-southafrica.com^$all,~inline-font
@@ -7718,7 +7727,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||psychobunnyclothing.com^$all,~inline-font
 ||puma-turkey.com.tr^$all,~inline-font
 ||pumacolombiaoutlet.com.co^$all,~inline-font
-||salomondeutschlandsale.de^$all,~inline-font
 ||salomongreeceoutlets.com^$all,~inline-font
 ||salomonsingaporesale.com^$all,~inline-font
 ||saucony-portugal.org^$all,~inline-font
@@ -15784,7 +15792,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||38.180.96.244^$all
 *$all,ipaddress=38.180.96.244
 ||adeditiontowritingef.net^$all
-||adthereis.buzz^$all
 ||ajorinryesopert.com^$all
 ||ajorinryesoperty.com^$all
 ||aluationiamcur.com^$all
@@ -15811,6 +15818,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||consukultingeca.com^$all
 ||conversitym.com^$all
 ||dblueclaockbro.info^$all
+||declinerybelfa.buzz^$all
 ||dheircrhnerdgfd.info^$all
 ||disguishedbri.com^$all
 ||dollapsedshe.info^$all
@@ -15823,12 +15831,12 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||eesihighlyrec.xyz^$all
 ||efvtgbnanddescri.info^$all
 ||ehappy.buzz^$all
+||emydreamsa.com^$all
 ||emyresumef.hair^$all
 ||endream.buzz^$all
 ||entoftheusysian.com^$all
 ||entsiwoulukdli.com^$all
 ||epededonemil.info^$all
-||eredhadbeen.xyz^$all
 ||eretheseantyjyt.info^$all
 ||erukentaspectsof.com^$all
 ||ervantasrelate.info^$all
@@ -15836,7 +15844,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||everefor.buzz^$all
 ||evermoto.xyz^$all
 ||ewallowi.buzz^$all
-||ewoverth.buzz^$all
 ||exibilitukydtea.xyz^$all
 ||fukermalasas.info^$all
 ||getnizationedr.info^$all
@@ -15845,6 +15852,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||heodeidsofhnm.info^$all
 ||himloabercuacroos.info^$all
 ||hoisquit.buzz^$all
+||iasninancuka.com^$all
 ||ibilitukydteamw.com^$all
 ||ifefashionismscold.com^$all
 ||inarilyhukel.info^$all
@@ -15889,8 +15897,10 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||nereherewetem.info^$all
 ||nergyflexibilit.pics^$all
 ||ngswonden.xyz^$all
+||nkingwitheaam.com^$all
 ||nkitwkuouldhu.com^$all
 ||normaticalaccu.com^$all
+||npracticalwhic.buzz^$all
 ||oathihakennails.info^$all
 ||oefanyorbesttn.info^$all
 ||ofchildr.buzz^$all
@@ -15905,7 +15915,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||osiextantlyvfhn.info^$all
 ||otheruigfsfohi.info^$all
 ||ouldlikukemyfu.com^$all
-||ourmarketingefi.info^$all
 ||ovogofteonafterw.info^$all
 ||playeranydwould.info^$all
 ||pmetorealiukze.xyz^$all
@@ -15914,7 +15923,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||puldhukelpmet.com^$all
 ||racterdeilbsweet.info^$all
 ||ratiotyuknsye.pics^$all
-||reamsan.buzz^$all
 ||reckedmane.xyz^$all
 ||rentlysearchin.com^$all
 ||responsidejo.xyz^$all
@@ -15936,6 +15944,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||tbrohwnmyest.info^$all
 ||tebilaterde.xyz^$all
 ||tesupervis.hair^$all
+||texcepededo.info^$all
 ||tfoollowingba.info^$all
 ||tgandmotivat.com^$all
 ||thaitingshos.xyz^$all
@@ -15945,7 +15954,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||theparlornextthef.com^$all
 ||ticaframeofm.xyz^$all
 ||tivatingotheremplo.com^$all
-||toftheca.buzz^$all
 ||toolsahoulofd.info^$all
 ||tsapphires.buzz^$all
 ||tuallyenitwasbr.com^$all
@@ -15969,6 +15977,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||uytdwhitdoe.info^$all
 ||vbriverafter.xyz^$all
 ||verwiththinleave.net^$all
+||wasanasset.buzz^$all
 ||wedonhisdhiltew.info^$all
 ||withmefeyauknaly.com^$all
 ||wukbgater.buzz^$all
@@ -25714,6 +25723,7 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||crackswall.com^$all
 ||crackthere.com^$all
 ||crackpcsoft.net^$all
+||crackserialkey.co^$all
 ||maliksofts.com^$all
 ||proappcrack.com^$all
 ||scracked.com^$all
@@ -26124,6 +26134,7 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||135.181.41.147^$all
 ||ycxrl.com^$all
 ||cbphe.com^$all
+||cbpheback.com^$all
 ||82.115.223.46^$all
 ||21bustqisw2.top^$document
 ||ccleaner-download.xyz^$all
@@ -26425,6 +26436,7 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||bafkreibm2c232v5uuz7vkxcdkwdjye6oaoasxg5zkye7y3oyodm6olulou.ipfs.dweb.link^$all
 ||lkalzzop.online^$all
 ||168.119.178.159^$all
+||gstatic-node.io^$all
 ||freesoftonic.cc^$all
 ||45.9.74.141^$all
 ||45.9.74.166^$all
@@ -26464,7 +26476,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||zlibrary-africa.se^$all
 ||whitelinetosplit.com^$document
 ||bluesmallbutterfly.com^$document
-||pl.coe777.com^$document
 ||86pmafno21mst.com^$all
 ostrowlubelski.pl##^responseheader(location)
 ||ostrowlubelski.pl^$removeheader=location
@@ -26487,6 +26498,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||cloudjs.live^$all
 ||weibo-b5game.com^$all
 ||videocampaign.co^$document
+||inroadslab.com^$all
 ||instantgreenapp.com^$document
 ||www.ssp.sp.gov.br/ead/report/video/video_$document
 ||www.ssp.sp.gov.br/ead/auth/video/video_$document
@@ -26497,7 +26509,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||sites.uft.edu.br/topama/news.php$document
 ||pmf.sc.gov.br/arquivos/br.php^$all
 ||tiger.qnews.media^$third-party
-||imbolexabc.top^$all
 ||s8bet.com^$document
 ||194.180.48.100^$all
 ||2.56.59.215^$all
@@ -26617,7 +26628,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||qz94.com^$all
 ||arzo.ge^$document
 ||matchgoalsam.com^$all
-||realvnc.pro^$all
 ||cilrix-corp.pro^$all
 ||94.131.111.240^$all
 ||81.177.136.179^$all
@@ -26644,11 +26654,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||moussedanslabouche.com^$all
 .xyz/74Kq/7.html?cep=$document
 ||track.local-hotsite.com^$document
-||downloading-free.com^$document
 ||youcineapp.com^$all
 ||magistv.video^$all
 ||tele-latino.com^$all
 ||telelatino.app^$all
+||youcineapk.org^$all
 ||btvapp.net^$all
 ||youcine.one^$all
 ||youcinetv.app^$all
@@ -26668,6 +26678,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||srbpolaris.ru^$all
 ||clockgen64.com^$all
 ||balena-etcher.com^$all
+||nvidiainspector.ru^$all
 ||evga-precision.com^$all
 ||riva-tuner.com^$all
 ||atikmdagpatcher.com^$all
@@ -26705,7 +26716,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||system-security-scan.net^$all
 ||trk6.kokamedia.com^$all
 ||trackmenow.life^$all
-||trackify.world^$all
 ||trackinghub.info^$all
 ||trkmyclk.xyz^$all
 ||34.74.68.195^$all
@@ -26762,6 +26772,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||liwishacks.com^$all
 ||sanityflash.mom^$document
 ||89.23.96.177^$all
+||duchessefit.com^$all
 ||booking-admins.com^$document
 ||158.160.5.182^$document
 ||galactiq.life^$document
@@ -26981,9 +26992,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||mediafire.com/file/7os5cx2x4rp70nm/UPL0ADER.7z/file^$all
 ||percumannue.com^$all
 ||appauthentiflcator.digital^$all
-||mundotatuajes.info^$all
-||akademipraktik.com^$all
-||valentinedaycard.com^$all
 ||redecanaistv.dev^$document
 ||urgug.com^$all
 ||1b14e0ee42d5e195c9aa1a2f5b42c710.com^$document
@@ -27153,7 +27161,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||https.com^$all
 ||chromewebstore.google.com/detail/ublock-pro/fmaicbnbcbjgbpecclcnaehmbpjpdane^$all
 ||upsbezorging.com^$all
-||ww1.aniapi.com^$document
 ||45.9.74.36^$document
 ||cloudslimit.com^$document
 ||dailywebstats.com^$document
@@ -27312,6 +27319,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||efkgr.buzz^$document
 ||dcrfgr.buzz^$document
 ||correos-app.link^$document
+||gr93.sbs^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -27483,6 +27491,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||appbase.best/dboost^$all
 ||www.taixiu.bet^$document
 ||taixiu.bet^$document
+||cybop.net^$document
 ||x2-shiba.org/shiba/giveway.php^$document
 ||ark-today.com/ethgiveaway.html^$document
 ||ark-today.com/btcgiveaway.html^$document
@@ -27506,6 +27515,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||myget.org/feed/hermesses/package/nuget/Free-Discord-Nitro-Hack-No-Human-Verification^$document
 ||replit.com/@discordnitross^$document
 ||yourwebshield.com^$all
+||action.miliated.xyz^$document
 ||disq.us/p/2o9pztr^$document
 ||disq.us/p/2o9qqsl^$document
 ||disq.us/p/2o9pmyi^$document
@@ -27951,12 +27961,14 @@ ostrowlubelski.pl##^responseheader(location)
 ||together.com^$document
 ||maturedating.com^$document
 ||whaujimisurvey.top^$all
+||subscribe-notifications.com^$document
 ||coinaps.com^$all
 ||discordnitro.live^$all
 ||rapidownload.online^$all
 ||qoaaa.com^$document
 ||freevbucks2022.online^$all
 ||ufile.io/p4nduixt^$all
+||chromnius.com^$document
 ||twitter-circle.com^$all
 ||family-simulators.io^$all
 ||familyfornicate.com^$all
@@ -27967,6 +27979,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||claim-booster.xyz^$document
 ||crypto-claims.io^$document
 ||join-whatisthissorcery.com^$document
+||notify-metamask.com^$document
 ||beze.co^$document
 ||laro.co^$document
 ||haso.co^$document
@@ -28067,6 +28080,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||singlewomenmeet.com^$document
 ||only2date.online^$document
 ||amnotification.com^$all
+||desbiens123.net^$all
+||avprotect.store^$all
 ||47aead8f05.com^$3p
 ||systemoon.co.in^$all
 ||prizehub.top^$all
@@ -28088,7 +28103,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||theod-omq.com^$document
 ||propolixte.com^$all
 ||quinc-rdk.com^$document
-||burbolore.xyz^$all
 /nlp/index.php?clickid=*&t1=*&t2=*&t3=*&t4=*&t5=propolixte,propolixte.com,propolis&url_bnm_redirect=$all
 /click.php?lp=data_upd&site_id=1293|$document
 $all,domain=goatmod.xyz|metriumoldeb.com
@@ -28258,6 +28272,7 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||system-notify.app^$third-party
 ||paladiact.com^$all
 ||pupspu.com^
+||aug3120.rednewly.com^$document
 ||browsekeeper.com^$document
 ||daftar-binomo.website^$document
 ||online-binomo.com^$document
@@ -28332,11 +28347,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||demoniasuomi.net^$document
 ||desigualsuomi.net^$document
 ||dopesnowsuomi.com^$document
+||dope-suomi.com^$document
 ||dopesuomi.com^$document
 ||footjoy-suomi.com^$document
 ||footjoysuomi.com^$document
 ||gym-shark.co.za^$document
-||gymsharkale.com^$document
 ||gymsharkaustralia-au.com^$document
 ||gymsharkcolombia-co.com^$document
 ||gymsharkcz.cz^$document
@@ -28373,11 +28388,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||kedssuomi.com^$document
 ||kedssuomishop.com^$document
 ||kickerssuomi.com^$document
-||loakesuomi.com^$document
 ||loakesuomioutlet.com^$document
 ||lornajanesuomi.com^$document
 ||lornajanesuomi.net^$document
 ||louboutin-finland.com^$document
+||mizunofi.com^$document
 ||mizuno-suomi.com^$document
 ||moonbootssuomi.com^$document
 ||moonboot-suomi.com^$document
@@ -28525,6 +28540,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||botashuntermexico.com^$document
 ||botashuntermujer.com^$document
 ||bothunterturkiye.com^$document
+||bottegavenetasuomi.com^$document
 ||botycaterpillar.cz^$document
 ||brooksrunningindonesia.com^$document
 ||brooksshoesuk.com^$document
@@ -28956,6 +28972,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||vessibelgium.com^$document
 ||vessijapan.net^$document
 ||vessischoenen.com^$document
+||vibram-es.com^$document
 ||viking-cnc.com^$document
 ||viking-solutions.com^$document
 ||vionicmexico.com^$document
@@ -29055,7 +29072,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||prostargift.com^$document
 ||quirkleaf.com^$document
 ||hft-fyfc.com^$document
-||askotrade.net^$document
 ||sanexer.com^$document
 ||vipbargainhub.com^$all
 ||americasfirstnationalbank.com^$all
@@ -29585,7 +29601,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||getconvertmyfile.com^$document
 ||websearchextension.info^$document
 ||websearchextension-api.info^$document
-||madqudden.com^$document
+||santknow.com^$document
 ||segoonow.com^$document
 ||conduit.com^$document
 ||techadsology.com^$all
@@ -29593,7 +29609,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||trovi.com^$document
 ||sensorstechforum.com^$document
 ||ivedmanyyea.org^$document
-||townrusisedprivat.info^$document
 ||ccleaner.com^$document
 ||joinhoney.com^$document
 ||fortect.com^$document
