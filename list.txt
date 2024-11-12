@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 11/11/2024
+! Last updated: 12/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15675,7 +15675,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||jgtek990e.click^$all,~inline-font
 ||clabzeroby.net^$all,~inline-font
 ||juy6asert67.click^$all,~inline-font
-||p0jrmnpr7.cfd^$all,~inline-font
 ||jnh4afbw7.click^$all,~inline-font
 ||xzr9uauq.cfd^$all,~inline-font
 ||crack4hit.com^$all,~inline-font
@@ -15751,9 +15750,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||artistictastesnly.info^$all
 ||asosettoourma.info^$all
 ||aspectsofc.hair^$all
-||asqerongtheco.info^$all
 ||ationiamcur.com^$all
-||ationslieemrger.info^$all
 ||atthewon.buzz^$all
 ||aysesuretobea.com^$all
 ||baconaces.pro^$all
@@ -15774,7 +15771,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||echildren.buzz^$all
 ||econsultingcoem.com^$all
 ||edstevermotorie.com^$all
-||ehappy.buzz^$all
 ||emydreamsa.com^$all
 ||emyresumef.hair^$all
 ||endream.buzz^$all
@@ -15790,7 +15786,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||fukermalasas.info^$all
 ||getnizationedr.info^$all
 ||hatwasallokmv.info^$all
-||hoisquit.buzz^$all
 ||iasninancuka.com^$all
 ||ibilitukydteamw.com^$all
 ||ifefashionismscold.com^$all
@@ -15798,7 +15793,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||inghesatin.com^$all
 ||ingspondingco.com^$all
 ||itearamajo.com^$all
-||jtffjwecouldle.info^$all
 ||kectivetraining.info^$all
 ||kefeagreatase.info^$all
 ||kentinedaug.xyz^$all
@@ -15818,7 +15812,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||mementrandingsw.com^$all
 ||mentbradshed.com^$all
 ||mentrandingswon.com^$all
-||mentseconom.xyz^$all
 ||miredindeed.net^$all
 ||mwoukrkskills.xyz^$all
 ||natallcolumnsto.info^$all
@@ -15826,7 +15819,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||ndandinter.hair^$all
 ||ndencesch.xyz^$all
 ||nedtolethimbevx.com^$all
-||nereherewetem.info^$all
 ||nergyflexibilit.pics^$all
 ||nerybelfaste.xyz^$all
 ||ngswonden.xyz^$all
@@ -15844,8 +15836,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||onsukultingecauy.com^$all
 ||oratefinaukn.xyz^$all
 ||oratefinauknceiwo.com^$all
-||ordukinarilyhu.info^$all
-||osiextantlyvfhn.info^$all
 ||ouldlikukemyfu.com^$all
 ||playeranydwould.info^$all
 ||pmetorealiukze.xyz^$all
@@ -15873,7 +15863,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||texcepededo.info^$all
 ||tgandmotivat.com^$all
 ||thaitingshos.xyz^$all
-||thaoheakolons.info^$all
 ||theharityhild.buzz^$all
 ||theparlornextthef.com^$all
 ||ticaframeofm.xyz^$all
@@ -26674,14 +26663,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||telegbrm.club^$document
 ||teleqpcn.club^$document
 ||teleqpcn.work^$document
-||teleqernm.cc^$document
 ||teleprannn.club^$document
-||teleqrenm.work^$document
-||teletrean.cc^$document
 ||telegczim.club^$document
 ||telebrzm.vip^$document
 ||telegcmn.cc^$document
-||telegirm.cc^$document
 ||east-trading.shop^$document
 ||post4at.live^$document
 ||steamcommuniitny.club^$all
@@ -26693,7 +26678,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||195.35.19.138^$all
 ||privacyguides.io^$all
 ||poperblocker.com^$all
-||skinboxs.com^$all
 ||pq.hosting^$all
 ||lattemptaqwe.club^$all
 ||193.233.193.65^$all
@@ -27063,7 +27047,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||redis08.sbs^$document
 ||filexstorage.site^$document
 ||jourl.live^$document
-||sleetposition.website^$document
 ||transiouratwat.com^$all
 ||undenentionin.com^$all
 ||chromeweb-authenticators.com^$all
@@ -27182,6 +27165,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||dcrfgr.buzz^$document
 ||correos-app.link^$document
 ||gr93.sbs^$document
+||pekanbaru.one^$document
+||paquetsuivi7noti.com^$document
+||monpaquet9trackpobox.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -28247,7 +28233,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||tedbakersuomi.net^$document
 ||tevafi.com^$document
 ||teva-finland.com^$document
-||tevafinland.com^$document
 ||tevahelsinki.com^$document
 ||tevassuomi.com^$document
 ||tevasuomi.com^$document
@@ -28319,7 +28304,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||autrybelgique.net^$document
 ||autryjapan.net^$document
 ||autrymexico.net^$document
-||autrynz.com^$document
 ||autryshoes.pl^$document
 ||autryshoesjapan.com^$document
 ||autrystore.net^$document
@@ -28569,7 +28553,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||lowabootsaustralia.net^$document
 ||lowabootsmexico.com^$document
 ||lowaisrael.net^$document
-||lowawandelschoenen.com^$document
 ||lululemonportugal.net^$document
 ||lululemonsale.de^$document
 ||mackagedenmark.com^$document
@@ -28593,9 +28576,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mizunosaleportugal.com^$document
 ||mlbhungary.com^$document
 ||mollybootmexico.com^$document
-||moonbootaustralia.net^$document
-||moonbootlietuva.com^$document
-||moonbootsouthafrica.net^$document
 ||muckbootdanmark.com^$document
 ||muckbootsnl.com^$document
 ||muckbootsosterreich.at^$document
@@ -28626,7 +28606,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||pandorakorut.com^$document
 ||pandoraportugal.com^$document
 ||pandoraringsuk.com^$document
-||parajumpersjackede.de^$document
 ||patagoniapolskasklep.pl^$document
 ||pitviperbril.com^$document
 ||pitviperbriller.com^$document
@@ -29583,39 +29562,21 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||umobix.com^$all
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
 ||youtube.com/channel/UCEBXm13iwQAXN2Kz4YV5rVQ^$document
-||youtube.com/channel/UCtjaY3UG_5KxQRMDUczFMXQ^$document
+||youtube.com/watch?v=u89U2U7TJ18^$all
+||youtube.com/@Mascot_cyberpunk^$all
 ||youtube.com/channel/UC3Iqfjqv79rOqZcbrUBzB8Q^$document
 ||youtube.com/channel/UCR3GagpPBSlCegUOrlWiuqQ^$document
 ||youtube.com/channel/UC9o2JoFCpUBjxLxYSNLtIqw^$document
 ||youtube.com/channel/UCLJuDTN9-RwCKZfiTQSmQNw^$document
-||youtube.com/channel/UCcPnuqWCtMJK4rrVhTiDtlg^$document
-||youtube.com/channel/UCC_2xhblgtcA1YoS8Rr6mOQ^$document
-||youtube.com/channel/UCSr4quHpOpm0mwPQ4_0wz1g^$document
-||youtube.com/channel/UCzynpoHU3QF4nw4AYTY8CsA^$document
-||youtube.com/channel/UCXadJ8WXmlbeGbmxlY7foWg^$document
 ||youtube.com/channel/UCgSlARY1XMjOmBc_TWVIokQ^$document
-||youtube.com/channel/UCCUbeSnqfvdhGDnavmPO7vQ^$document
-||youtube.com/channel/UCXYuZPnivfpLQFol_-AMqEA^$document
-||youtube.com/channel/UC4BA48f2crsX-Gf1wMcb7eg^$document
-||youtube.com/channel/UCGWJ20THLElJxRU2EB4WBRQ^$document
-||youtube.com/channel/UCXcYQa5hgMic4EOo4syR8Nw^$document
 ||youtube.com/channel/UC90u7VCSfmLUvMJeuvbEz1g^$document
 ||youtube.com/channel/UCqV8bLGbLKvSUVDZtfEYz8g^$document
-||youtube.com/channel/UCUUKlL3uzVmFQ1vtd-jpAlw^$document
-||youtube.com/channel/UCA6vBoVGTXXLNCIq2Mp1tXA^$document
-||youtube.com/channel/UCf2aBb8v-q2jUg-kdAo_emQ^$document
-||youtube.com/channel/UC0cDYHKKI3WuHY6PT-YsBTw^$document
 ||youtube.com/channel/UCf9PTi384IFnBjH5FbGvoag^$document
-||youtube.com/channel/UCDTcPk8eNOP4FDTRTGFdo4A^$document
-||youtube.com/channel/UCslhNIF-vTeYnL4W8yg9F1Q^$document
-||youtube.com/channel/UCWjGB-2evM8AB9rj6fVxmcA^$document
 ||youtube.com/channel/UCNEuUGHoTTyt1247GzNdfbA^$document
 ||youtube.com/channel/UC1HVJDDHoSVcerD46K-J6ng^$document
 ||youtube.com/channel/UCGaMJeO7YClK_dmoHB4-BIw^$document
 ||youtube.com/channel/UCszV4lSIfrZVwZE1YiANUzw^$document
-||youtube.com/channel/UCyeh7kwrZGgmDUmkw1Svkuw^$document
 ||youtube.com/channel/UCWaneJzQcS5WhaaerEuSg1g^$document
 ||youtube.com/channel/UC8-4-iapLTjw-MUi72kaDiQ^$document
 ||youtube.com/channel/UC3qrUm-HpLdin8q-IGQ4UMQ^$document
@@ -30337,6 +30298,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||githubcareers.online^$document
 ||zippyshare.day^$document
 ||steam.storecommuinityworkshop.com^$all
+/^https?:\/\/winterpayment[a-zA-Z0-9]*\.top\//$doc,domain=top
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
