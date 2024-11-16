@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 15/11/2024
+! Last updated: 16/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15740,6 +15740,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||monetrizer*.$all
 ||38.180.96.244^$all
 *$all,ipaddress=38.180.96.244
+||acareewityjh.com^$all
 ||adeditiontowritingef.net^$all
 ||ajorinryesopert.com^$all
 ||ajorinryesoperty.com^$all
@@ -27006,7 +27007,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||79.137.197.154^$document
 ||crypto-wave.top^$document
 ||91.215.85.223^$document
-||hubvera.ac.ug^$document
 ||karimgouss.ug^$document
 ||https.com^$all
 ||chromewebstore.google.com/detail/ublock-pro/fmaicbnbcbjgbpecclcnaehmbpjpdane^$all
@@ -27178,9 +27178,25 @@ ostrowlubelski.pl##^responseheader(location)
 ||stage3-last.info^$all
 /^https://stage3-last\.[a-zA-Z]*\/info\/?$/$document
 ||stage2024.club^$all
-||stage3x.online^$all
 ||stage3x.site^$all
 ||stage3x.store^$all
+||airupbelgiums.com^$document
+||airup-bottlegreece.com^$document
+||airupbulgaria.com^$document
+||airupespana.com^$document
+||air-upfrance.com^$document
+||airupfrance.fr^$document
+||airup-gr.com^$document
+||airupgreece.net^$document
+||airupitaly.it^$document
+||airup-nederland.com^$document
+||airupnederlands.com^$document
+||airup-romania.com^$document
+||airupromania.ro^$document
+||airupsrbija.com^$document
+||air-up-turkiye.com^$document
+||xn--airupespaa-19a.com^$document
+||xn--airuptrkiye-yhb.com^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -32974,6 +32990,7 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ||everyplay.live^$removeparam=_gl
 ref=dtf.ru$doc,removeparam=ref
 ||atlassian.net^$doc,removeparam=atlOrigin
+||rentio.jp^$doc,removeparam=click_from
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@mailinglist$removeparam=/^utm_.*$/i
