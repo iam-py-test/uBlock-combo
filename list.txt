@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 17/11/2024
+! Last updated: 18/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -26667,7 +26667,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||teleqpcn.club^$document
 ||teleqpcn.work^$document
 ||teleprannn.club^$document
-||telegczim.club^$document
 ||telebrzm.vip^$document
 ||telegcmn.cc^$document
 ||east-trading.shop^$document
@@ -28445,7 +28444,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||drmartensbatai.com^$document
 ||drmartensbot.com^$document
 ||drmartensbotas.com^$document
-||drmartensbotasmexico.com^$document
 ||drmartensdamen.de^$document
 ||drmartensdonna.com^$document
 ||drmartensdublin.com^$document
@@ -28910,6 +28908,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||65spy7rgcu.com^$document
 ||service-rundfunkbeitrag.de^$document
 ||wowgirl69.site^$all
+||dateflng.com^$all
 ||shag2night.com^$document
 ||findrussiabrides.com^$document
 ||emb-race.info^$all
