@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 18/11/2024
+! Last updated: 19/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15680,7 +15680,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||crack4hit.com^$all,~inline-font
 ||hit4pc.click^$all,~inline-font
 ||hjdhhfdh.click^$all,~inline-font
-||myonlyland.com^$all,~inline-font
 ||vgfrrtc.click^$all,~inline-font
 ||vablecable.click^$all,~inline-font
 ||huqiinxy.click^$all,~inline-font
@@ -15746,13 +15745,11 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||ajorinryesoperty.com^$all
 ||aluationiamcur.com^$all
 ||alukizeiasnin.com^$all
-||arnofourgugtj.info^$all
 ||arrowtoldilim.com^$all
 ||artistictastesnly.info^$all
 ||asosettoourma.info^$all
 ||aspectsofc.hair^$all
 ||ationiamcur.com^$all
-||atthewon.buzz^$all
 ||aysesuretobea.com^$all
 ||baconaces.pro^$all
 ||britingsynt.xyz^$all
@@ -15763,7 +15760,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||consukultingeca.com^$all
 ||conversitym.com^$all
 ||declinerybelfa.buzz^$all
-||dheircrhnerdgfd.info^$all
 ||disguishedbri.com^$all
 ||dollapsedshe.info^$all
 ||dwouldmakefe.info^$all
@@ -15800,7 +15796,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||kenwellsgrpo.com^$all
 ||kitwkuouldhukel.xyz^$all
 ||kmyunderth.com^$all
-||kolpihvfongrou.info^$all
 ||ksehinkitw.hair^$all
 ||leqasforsalesrep.info^$all
 ||liondolularhene.info^$all
@@ -15828,7 +15823,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||normaticalaccu.com^$all
 ||notquiteso.buzz^$all
 ||npracticalwhic.buzz^$all
-||oathihakennails.info^$all
 ||oefanyorbesttn.info^$all
 ||ojapanelm.xyz^$all
 ||omefukmendat.xyz^$all
@@ -26119,7 +26113,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||bideo-endpoint.com^$all
 ||bideo-endpoint.xyz^$all
 ||bideo-schnellvpn.com^$all
-||bideo-schnellvpn.xyz^$all
 ||fairu-blog.com^$all
 ||fairu-cdn.com^$all
 ||fairu-chat.com^$all
@@ -26297,7 +26290,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||77.105.147.158^$all
 ||southbayleadgen.com^$all
 ||185.106.93.193^$all
-||logictrackngs.com^$all
 ||chijkkkll.pages.dev^$all
 ||tdamassoficial.com^$all
 ||t.me/rifbef734frbe43jfef^$all
@@ -26666,7 +26658,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||telegbrm.club^$document
 ||teleqpcn.club^$document
 ||teleqpcn.work^$document
-||teleprannn.club^$document
 ||telebrzm.vip^$document
 ||telegcmn.cc^$document
 ||east-trading.shop^$document
@@ -26708,7 +26699,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||modyolo.com^$all
 ||googlesavedata.ru^$all
 ||giveawayscord.xyz^$all
-||fundatingquest.fun^$all
 ||chat-o-live.com^$all
 ||rozaholshouser.cfd^$all
 ||bethanytunks.skin^$all
@@ -26925,7 +26915,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||gameportal.casa^$document
 ||gimp.zendesk.com^$all
 ||truefortnite.com^$document
-||kmsauto.uno^$all
 ||kmspico.io^$all
 ||uploader-rars.com^$document
 ||kmspico.ws^$all
@@ -26942,10 +26931,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||getkmspico.com^$all
 ||heukmsactivator.com^$all
 ||furykms.com^$all
-||kmsofficial.org^$all
 ||kmspico-official.org^$all
 ||yasir-252.net^$all
-||karanpc.com^$all
 ||getintopc.today^$all
 ||oculus-app.com^$all
 ||us5.co^$document
@@ -27052,7 +27039,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||transiouratwat.com^$all
 ||undenentionin.com^$all
 ||chromeweb-authenticators.com^$all
-||moon-lightt.info^$all
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^$all
 ||mail-cytanet.pages.dev^$document
 ||c0nt4ct-me.pages.dev^$document
@@ -27165,8 +27151,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||fkpgr.buzz^$document
 ||efkgr.buzz^$document
 ||dcrfgr.buzz^$document
-||correos-app.link^$document
-||gr93.sbs^$document
 ||pekanbaru.one^$document
 ||paquetsuivi7noti.com^$document
 ||monpaquet9trackpobox.com^$document
@@ -27196,6 +27180,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||air-up-turkiye.com^$document
 ||xn--airupespaa-19a.com^$document
 ||xn--airuptrkiye-yhb.com^$document
+||airup-fi.com^$document
+||karan-pc.com^$document
+||karanpcofficial.blogspot.com^$document
+||karanpcofficial.$document
+||monicarelino13512-carelino.click^$all
+||securevault.top^$document
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -28305,7 +28295,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||airjordanmagasinsuisse.com^$document
 ||airjordanromania.net^$document
 ||airjordanuruguay.com^$document
-||aldobolsasmexico.com^$document
 ||aldocanada.net^$document
 ||aldomontreal.com^$document
 ||aldozapatos.com^$document
@@ -28445,7 +28434,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||drmartensbot.com^$document
 ||drmartensbotas.com^$document
 ||drmartensdamen.de^$document
-||drmartensdonna.com^$document
 ||drmartensdublin.com^$document
 ||drmartensjapan.net^$document
 ||drmartenssalg.com^$document
@@ -28588,7 +28576,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mackagejacketcanada.com^$document
 ||mackageschweiz.com^$document
 ||magasinhokabelgique.com^$document
-||marcjacobs-france.fr^$document
 ||merrellbarbati.com^$document
 ||merrellsandaalit.com^$document
 ||merrellsklepy.pl^$document
@@ -28907,7 +28894,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||5wzgtq8dpk.com^$document
 ||65spy7rgcu.com^$document
 ||service-rundfunkbeitrag.de^$document
-||wowgirl69.site^$all
 ||dateflng.com^$all
 ||shag2night.com^$document
 ||findrussiabrides.com^$document
@@ -28952,7 +28938,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||tricksygirlsp.com^$all
 ||jazminkager.buzz^$all
 ||exclusivebuyz4uu.shop^$document
-||route2content.com^$document
 ||reviewgiftfb.com^$document
 ||dollscumnow.eu^$all
 ||englishlang.life^$all
@@ -28981,7 +28966,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||rtrcr52.com^$document
 ||fromstartertofinisher.com^$document
 ||firmsecurejump.com^$document
-||localmeets.link^$document
 ||wooqi.win^$all
 ||milfsaround.com^$all
 ||salbories-symphemes.com^$all
@@ -29108,7 +29092,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||getaffairs.com^$all
 ||mysexychats.com^$all
 ||fuckmatches.com^$all
-||physiotherapyindhaka.com^$all
 ||info-animals.com^$all
 ||opdomaines.space^$all
 ||softicoapps.com^$document
