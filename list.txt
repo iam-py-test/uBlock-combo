@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/11/2024
+! Last updated: 24/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -7839,6 +7839,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||zapatosdudemexico.com^$all,~inline-font
 ||zapatosdudespain.com^$all,~inline-font
 ||axelarigatokobenhavn.com^$all,~inline-font
+||bootsonlineindia.com^$all,~inline-font
 ||demoniabotturkiye.com^$all,~inline-font
 ||demonlaboty.cz^$all,~inline-font
 ||gorrabogota.com^$all,~inline-font
@@ -27092,7 +27093,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||bitegifts.com^$document
 ||beacons.ai/dooreats^$all
 ||hackpc.net^$document
-||finalsteptogo.com^$all
 ||postevrikifsi.top^$document
 ||shetrius.com^$all
 ||thenorthfacegreece.com^$document
@@ -27235,7 +27235,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||yhrtfgd.top^$document
 ||ymntewew.top^$document
 ||ewhtwgerw.top^$document
-||hjfddsa.top^$document 
+||hjfddsa.top^$document
 ||htrwefew.top^$document
 ||weafgre.top^$document
 ||nytefves.top^$document
@@ -27245,27 +27245,27 @@ ostrowlubelski.pl##^responseheader(location)
 ||jtrfds.top^$document
 ||tyrdddsa.icu^$document
 ||hgtrfgher.top^$document
-||nytetyewr.top^$document 
-||sdswrw.top^$document 
+||nytetyewr.top^$document
+||sdswrw.top^$document
 ||uytrfgdtty.top^$document
-||restujytd.top^$document 
+||restujytd.top^$document
 ||ytreikuyf.top^$document
 ||wqergtsd.top^$document
 ||gdgrde.top^$document
 ||iuytjfgjtyn.top^$document
 ||awethtrd.top^$document
-||reshtryjd.top^$document 
+||reshtryjd.top^$document
 ||hfgdtyr.top^$document
-||ouythtdrd.top^$document 
-||rtyuijfyd.top^$document 
+||ouythtdrd.top^$document
+||rtyuijfyd.top^$document
 ||iuythfrty.top^$document
 ||liutjytfds.top^$document
-||jytrgsdgs.top^$document 
+||jytrgsdgs.top^$document
 ||iutrydrhg.top^$document
 ||kuyhtrdf.top^$document
 ||iuythtyfd.top^$document
 ||liutyjytf.top^$document
-||ghtfews.top^$document 
+||ghtfews.top^$document
 ||fggrdfd.top^$document
 ||muydrth.top^$document
 ||hjhgtfty.top^$document
@@ -27274,6 +27274,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||gdfgrdes.top^$document
 ||jngvrye.top^$document
 ||fdgdgrs.top^$document
+||sale-friday.store^$all
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
@@ -29183,7 +29184,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||opdomaines.space^$all
 ||softicoapps.com^$document
 ||static.imghst-de.com/*.png^$image
-||starshipstart.com^$all
 ||subsequentoven.info^$document
 ||bbobb.net^$all
 ||flamefolder.com^$document
