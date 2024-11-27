@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 26/11/2024
+! Last updated: 27/11/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15671,6 +15671,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||rt54erdfgh.pro^$all,~inline-font
 ||mjiu876tyh.pro^$all,~inline-font
 ||ki987yth.pro^$all,~inline-font
+||5rd5tgh.cfd^$all,~inline-font
 ||mi5cr46kg.click^$all,~inline-font
 ||cvasdf.click^$all,~inline-font
 ||jgtek990e.click^$all,~inline-font
@@ -15742,6 +15743,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 *$all,ipaddress=38.180.96.244
 ||acareewityjh.com^$all
 ||adeditiontowritingef.net^$all
+||adthereis.buzz^$all
 ||ajorinryesopert.com^$all
 ||ajorinryesoperty.com^$all
 ||aluationiamcur.com^$all
@@ -15783,7 +15785,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||exibilitukydtea.xyz^$all
 ||fukermalasas.info^$all
 ||getnizationedr.info^$all
-||hatwasallokmv.info^$all
 ||iasninancuka.com^$all
 ||ibilitukydteamw.com^$all
 ||ifefashionismscold.com^$all
@@ -25912,12 +25913,10 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||bestsmartfind.com^$all
 ||rebrand.ly/McAfeeSecurity2022ActivateDownload^$all
 ||45.15.157.132^$all
-||mediafire.com/file/bu394h0oi025wpt/ExtremeUpdate.exe/file^$all
 ||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
 ||bit.ly/fitgirl-repacks-site^$all
 ||fitgirl-repacks-site.org^$all
 ||bluemediafiles.top^$all
-||na.luckpool.net^$all
 ||line.publicvm.com^$all
 ||209.209.41.33^$all
 ||onedrive.live.com/Download?cid=8BDBA39CCF6B0487&resid=8BDBA39CCF6B0487%21115&authkey=AKzKYXDKF87dXao^$all
@@ -25925,7 +25924,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||vlcdownloads.com^$all
 ||storageapi.fleek.co/65d6137a-aa68-4f10-9b8d-3763e277f165-bucket/fav/indexxxxxx.html^$all
 ||glthub.org^$document
-||goog.goodsearchez.com^$document
 ||goodsearchez.com^$document
 ||daggerhashimoto.eu.nicehash.com^$all
 ||142.93.198.232^$all
@@ -25935,8 +25933,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||telegra.ph/TeamViewer-11-16^$all
 ||gg.gg/teamviewer-prem-free^$all
 ||mediafire.com/file/z0mvgi2bjbotamf/TeamViewerPremium.rar/file^$all
-||bit.ly/3VtsAd2^$document
-||mediafire.com/file/umf43herutudu71/After+Effects.rar/file^$all
 ||ecomefuk.xyz^$all
 ||116.203.121.167^$all
 ||157.230.87.146^$all
@@ -26013,7 +26009,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||146.70.86.11^$all
 ||69.46.15.158^$all
 ||ormoredeta.xyz^$all
-||g.agametog.com^$all
 ||agametog.com^$document
 ||domifybot.com^$all
 ||79.137.206.138^$all
@@ -26030,7 +26025,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||35.181.110.225^$all
 ||service-domain.xyz^$all
 ||un-titled.co/remain/DNS/index.php$document
-||message.okaynotification.com^$all
 ||okaynotification.com^$all
 ||gamebee.club^$document
 ||qfdsq.inghesatin.com^$all
@@ -26044,7 +26038,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||79.137.248.136^$all
 ||79.137.206.31^$all
 ||85.192.40.253^$all
-||mediafire.com/file/4n5bc37ank892fh/Expert-PC_2023.rar/file^$all
 ||vserpg.ru^$all
 ||wlbss.inghesatin.com^$all
 ||xe5j8.inghesatin.com^$all
@@ -26078,8 +26071,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||cxvfh.gesgloven.com^$all
 ||origincrack.com^$all
 ||bit.ly/3S7o1VK^$all
-||mega.nz/file/5w4QWZCR#pYyDSqxzjS4LzhLW9ZYvAWzxhuM3rPGh0wl7r64tDLs^$all
-||mega.nz/file/AwQghbKa#GAcaJZR9cIRl3lRWYZhD5gkHtGL8Y63fKOAnCbM-9FU^$all
 ||83.217.11.27^$all
 ||77.73.134.35^$all
 ||83.217.11.28^$all
@@ -26095,10 +26086,8 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||lomogd.com^$all
 ||nosnou.com^$all
 ||mesoftwares.vip^$all
-||drive.google.com/uc?export=download&confirm=no_antivirus&id=11WhDE3Xy7c5AkKS24P0EzS8S8LUNjIAY^$all
 ||rebrand.ly/30p0zqg^$all
 ||telegra.ph/Download-Link-11-24-17^$all
-||mediafire.com/file/3sdq84zpxzmoio5/Setup_%2528PAS%2524_5577%2529.rar/file^$all
 ||95.217.14.200^$all
 ||46.48.76.120^$all
 ||ahoravideo-blog.com^$all
@@ -26235,7 +26224,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||balticpipe.wordpress.com^$all
 ||finnews7.wordpress.com^$all
 ||fazpowerdenet.tumblr.com^$all
-||drive.google.com/uc?export=download&confirm=no_antivirus&id=1A9NdUYUf5k-qcrYlGfffVBqql6g4bLfv^$all
 ||195.123.227.138^$all
 ||hard-configurator.com^$all
 ||fitgirl.cc^$document
@@ -26275,7 +26263,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||bthp.com.pk^$all
 ||dokumentasoluciones.com^$all
 ||208.67.104.60^$all
-||sites.google.com/view/newbardai^$all
 ||store1.gofile.io/download/direct/d8c2a667-c088-4a39-9cdd-efe0b47d735c/InfinityWallet-Setup.exe^$all
 ||infinitywallet-dapps.b-cdn.net^$all
 ||167.86.74.95^$all
@@ -27273,6 +27260,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||jngvrye.top^$document
 ||fdgdgrs.top^$document
 ||sale-friday.store^$all
+||black-sales.cloud^$all
+||129.226.206.133^$document
+||examinecheck.com-street-$document
+||information.com-street-$document
+||uspscom-upusktum.$document
+||usps.com.*.cfd^$document,domain=cfd
 ||ublockerext.com^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
