@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 08/12/2024
+! Last updated: 09/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13566,7 +13566,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||mi5cr46kg.click^$all,~inline-font
 ||cvasdf.click^$all,~inline-font
 ||jgtek990e.click^$all,~inline-font
-||clabzeroby.net^$all,~inline-font
 ||juy6asert67.click^$all,~inline-font
 ||jnh4afbw7.click^$all,~inline-font
 ||xzr9uauq.cfd^$all,~inline-font
@@ -22941,6 +22940,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||editproai.pro^$all
 ||editproai.org^$all
 ||proai.club^$all
+||eset.co.il^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -23956,6 +23956,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||gymsharkaustralia-au.com^$document
 ||gymsharkcolombia-co.com^$document
 ||gymsharkcz.cz^$document
+||gymsharkczshop.cz^$document
 ||gym-shark-danmark.com^$document
 ||gymsharkdublin.com^$document
 ||gymsharkfinland.com^$document
@@ -24309,7 +24310,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||karenmillenslovensko.sk^$document
 ||karhuskor.com^$document
 ||karhusneakersnorge.net^$document
-||kedsberlin.de^$document
 ||kedscanada.net^$document
 ||kedspt.com^$document
 ||kedssklep.pl^$document
@@ -28760,6 +28760,7 @@ $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno
 ref=dtf.ru$doc,removeparam=ref
 ||atlassian.net^$doc,removeparam=atlOrigin
 ||rentio.jp^$doc,removeparam=click_from
+||forms.office.com^$removeparam=route
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@mailinglist$removeparam=/^utm_.*$/i
