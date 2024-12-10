@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 09/12/2024
+! Last updated: 10/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18816,7 +18816,6 @@ toorgle.net##.join
 ||147.135.16.27^$doc
 *$all,ipaddress=147.135.16.27
 ||ingeniovirtual.com^$doc
-tumblr.com##div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
 ||scambiofigu.net^$all,~inline-font
 apkfab.com##.tip-extension
 ||xxlmag.com/redirect^$all,~inline-font,domain=~malware-redirection-results.*
@@ -19758,8 +19757,6 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 *$all,ipaddress=165.231.4.90
 ||158.222.7.83^$all,~inline-font
 *$all,ipaddress=158.222.7.83
-tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
-tumblr.com#?#div[tabindex][style]:has(a[href*="://cutt.ly/"])
 ||95-214-26-78.plesk.page^$all,~inline-font
 ||account-limitato.org^$all,~inline-font
 ||amende-telepaiements.com^$all,~inline-font
@@ -19823,17 +19820,6 @@ tumblr.com#?#div[tabindex][style]:has(a[href*="://cutt.ly/"])
 *$all,ipaddress=95.214.26.78
 ||wirexapp.africa.com^$all
 ||tachyoniums.eu.com^$all
-||shua999.com^$all
-||ybd001.com^$all
-tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text( click & chat me ):has-text(🔞)
-tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has(a[rel=author]:has-text(/^[a-z]{2,6}-[a-z]{2,8}\d{2}$/i)):has-text(/^.*(18|sex|squirt|bo{2}ty).*$/i)
-||deltacorriher.best^$all,~inline-font
-||104.21.82.132^$doc,popup
-*$all,ipaddress=104.21.82.132
-||172.67.158.57^$doc,popup
-*$all,ipaddress=172.67.158.57
-||[2606:4700:3030::6815:5284]^$doc,popup
-||[2606:4700:3037::ac43:9e39]^$doc,popup
 /^https?://[a-z0-9.-]{1,}\.([a-z]{3,}|[a-z][a-tv-z]|[a-qs-z][a-z])/.*(go\.php|redirect|url=|\?re=).*\.(xn--p1ai|рф|%D1%80%D1%84)$/$doc,domain=~malware-redirection-results.*
 ||adservice.google.*/ddm/clk/$doc,domain=~malware-redirection-results.*
 /ad_click/q?&url=$doc,domain=~malware-redirection-results.*
@@ -19946,8 +19932,21 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||googleapis.com/alphafemale^$all
 ||agendajacob.com^$all
 ||amaskiphirescotland.co.uk^$all
-||tgpdeal.com^$all
+||empatiya.net^$all
+||vastila.com^$all
+tumblr.com##div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
+tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has(a[rel=author]:has-text(/^[a-z]{2,6}-[a-z]{2,8}\d{2}$/i)):has-text(/^.*(18|sex|squirt|bo{2}ty).*$/i)
+tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text( click & chat me ):has-text(🔞)
+tumblr.com#?#div[tabindex][style]:has(a[href*="://cutt.ly/"])
+tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
+www.tumblr.com##div[style="margin-top: 0px;"][tabindex]:has-text(🔞):has-text(/Insta/i)
+www.tumblr.com##div[tabindex][style="margin-top: 0px;"]:not([class],[id]):has(a[target=_blank] > div > div:has-text(/^.*🔞.*insta( |gram).*\n.*$/i))
+||104.21.82.132^$doc,popup
+||172.67.158.57^$doc,popup
+||198.12.86.90^$all
 ||2024ballondor.shop^$all
+||[2606:4700:3030::6815:5284]^$doc,popup
+||[2606:4700:3037::ac43:9e39]^$doc,popup
 ||adhitagency.shop^$all
 ||advanceddigitalbusiness.com^$all
 ||ajkalshop.com^$all
@@ -19994,6 +19993,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||cdjdeal.com^$all
 ||cdkdeal.com^$all
 ||cdmdeal.com^$all
+||cdn32316413.blazingcdn.net^$all
 ||cdodeal.com^$all
 ||cdpdeal.com^$all
 ||cdqdeal.com^$all
@@ -20028,11 +20028,14 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||ctxdeal.com^$all
 ||ctydeal.com^$all
 ||ctzdeal.com^$all
+||d1pplo45p828lj.cloudfront.net^$all
+||d373n2hi69hqg3.cloudfront.net^$all
 ||dcndeal.com^$all
 ||dcpdeal.com^$all
 ||dcrdeal.com^$all
 ||dctdeal.com^$all
 ||dczdeal.com^$all
+||deltacorriher.best^$all,~inline-font
 ||deshnews24bd.com^$all
 ||dg24m.com^$all
 ||dgfdeal.com^$all
@@ -20105,6 +20108,8 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||gzcodes.com^$all
 ||info24eonline.com^$all
 ||inspireabithy.com^$all
+||kabin.asia^$all
+||kalan.asia^$all
 ||kgadeal.com^$all
 ||kgcdeal.com^$all
 ||kgddeal.com^$all
@@ -20379,6 +20384,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||sb24e.com^$all
 ||sbdeal.com^$all
 ||shoppernetis.com^$all
+||shua999.com^$all
 ||smartiteam.shop^$all
 ||smartnews24bd.com^$all
 ||smartqtm.com^$all
@@ -20411,6 +20417,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||tgmeshop.com^$all
 ||tgmoffer.com^$all
 ||tgmselling.com^$all
+||tgpdeal.com^$all
 ||tgqdeal.com^$all
 ||tgvdeal.com^$all
 ||tgwdeal.com^$all
@@ -20480,15 +20487,10 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||vtudeal.com^$all
 ||vtwdeal.com^$all
 ||vtydeal.com^$all
-||198.12.86.90^$all
+||ybd001.com^$all
+*$all,ipaddress=104.21.82.132
+*$all,ipaddress=172.67.158.57
 *$all,ipaddress=198.12.86.90
-||kalan.asia^$all
-||d1pplo45p828lj.cloudfront.net^$all
-||kabin.asia^$all
-||empatiya.net^$all
-||vastila.com^$all
-www.tumblr.com##div[tabindex][style="margin-top: 0px;"]:not([class],[id]):has(a[target=_blank] > div > div:has-text(/^.*🔞.*insta( |gram).*\n.*$/i))
-||cdn32316413.blazingcdn.net^$all
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidgreek.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
@@ -28784,6 +28786,6 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@/login-redirect/*$removeparam
 @@/login?$removeparam=referrer
 @@|wss://$removeparam
-@@||google.*/maps?$doc,removeparam=utm_campaign
+@@||google.*/maps$doc,removeparam=utm_campaign
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
