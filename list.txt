@@ -1,14 +1,15 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 14/12/2024
+! Last updated: 15/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
 ||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top
-@@||masto*.top^$doc,domain=top
-@@/^.*(tech|project|linux).*\.top(/[a-z0-9_-]?.*)?$/$doc,domain=top
+@@||masto*.top^$doc
+@@/^.*(tech|project|linux).*\.top(/[a-z0-9_-]?.*)?$/$doc
+@@://blog.*.top^$doc
 ||loan^$doc
 ||bid^$doc
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -22805,7 +22806,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||beacons.ai/dooreats^$all
 ||hackpc.net^$document
 ||postevrikifsi.top^$document
-||shetrius.com^$all
 ||thenorthfacegreece.com^$document
 ||the-north-face.gr^$document
 ||identifyillustration.com^$document
@@ -22833,7 +22833,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||rustdesk.secure-box.de^$document
 ||mediafire.com/folder/zxpc2sootspqf/Comi_Co^$all
 ||83.217.208.37^$all
-||storecommuinityworkshop.com^$all
 ||ruthiekresal.za.com^$document
 ||leonoremanry.sa.com^$document
 ||jewellvanmarter.za.com^$document
@@ -22946,6 +22945,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||pumpfun.homes^$document
 ||pumpfun.cx^$document
 ||pumpfun.so^$document
+||amlbot.request.report^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -24739,7 +24739,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||flirttuorist.info^$all
 ||niightfall.info^$all
 ||change-harlot.life^$all
-||solarswooper.info^$all
 ||virtucams.life^$all
 ||snapbabes9.com^$all
 ||singleflirt.com^$all
@@ -26036,7 +26035,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||x-accountreset.com^$document
 ||githubcareers.online^$document
 ||zippyshare.day^$document
-||steam.storecommuinityworkshop.com^$all
 /^https?:\/\/winterpayment[a-zA-Z0-9]*\.top\//$doc,domain=top
 /^https:\/\/usps.com-expres[a-zA-Z0-9]\.top\//$document
 $removeparam=yclid
