@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 17/12/2024
+! Last updated: 18/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22760,14 +22760,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||unionplus-card.click^$document
 ||dailysmscollection.org^$document
 ||surgecardinfo.click^$document
-||paybyplatema.cfd^$document
 ||panoramacharter.click^$document
-||onecognizant.click^$document
 ||mymorri.click^$document
 ||mymercy.click^$document
 ||marykayintouch.autos^$document
 ||direct2hr.click^$document
-||creditcardchase.click^$document
 ||alaskasworld.cfd^$document
 ||partycityfeedback.bond^$document
 ||pages.tempisite.com^$document
@@ -22938,14 +22935,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||information.com-street-$document
 ||uspscom-upusktum.$document
 ||usps.com.*.cfd^$document,domain=cfd
-||editproai.pro^$all
 ||editproai.org^$all
-||proai.club^$all
 ||eset.co.il^$all
 ||pumpfun.homes^$document
 ||pumpfun.cx^$document
 ||pumpfun.so^$document
 ||amlbot.request.report^$document
+||comdinew.com^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
