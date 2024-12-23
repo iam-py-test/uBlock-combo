@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 22/12/2024
+! Last updated: 23/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22699,7 +22699,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||detiktotocakep.com^$all
 ||flyairprestige.com^$all
 ||midnightblue-lapwing-207108.hostingersite.com^$all
-||qrco.de^$document
 ||45.207.168.120^$all
 /lander/6cw/PACKAGE_DEMO.exe^$document
 ||185.81.115.28^$document
@@ -22937,12 +22936,10 @@ ostrowlubelski.pl##^responseheader(location)
 ||usps.com.*.cfd^$document,domain=cfd
 ||editproai.org^$all
 ||eset.co.il^$all
-||pumpfun.homes^$document
-||pumpfun.cx^$document
-||pumpfun.so^$document
 ||amlbot.request.report^$document
 ||comdinew.com^$document
 ||paquet1nfopabox.com^$document
+||cshrewards.net^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -24562,7 +24559,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||xerofootwearuk.com^$document
 ||xeroshoesaustralia.com^$document
 ||xeroshoesnz.com^$document
-||xn--adidasayakkab-gbc.net^$document
 ||xn--aloyogamnchen-3ob.de^$document
 ||xn--asolokengt-y5a.com^$document
 ||xn--axelarigatokbenhavn-67b.com^$document
@@ -24903,7 +24899,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||etaindiaonline.com^$document
 ||etaindia.org^$document
 ||e-touristvisa.com^$document
-||e-touristvisaindia.com^$document
 ||etv-in.com^$document
 ||evisa.express^$document
 ||e-visa.ie^$document
