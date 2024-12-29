@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 28/12/2024
+! Last updated: 29/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22937,10 +22937,13 @@ ostrowlubelski.pl##^responseheader(location)
 ||usps.com.*.cfd^$document,domain=cfd
 ||editproai.org^$all
 ||eset.co.il^$all
-||amlbot.request.report^$document
-||comdinew.com^$document
 ||paquet1nfopabox.com^$document
 ||cshrewards.net^$all
+||zxcupload.com^$document
+||jammywritej.click^$all
+||2aбdcdvwhuqa83y31c.gtrewe.co.in^$all
+||com-tracking-helpsenf.xyz^$all
+||usps.com-tracking-help$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -24761,9 +24764,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||datehaven.world^$all
 ||aeriview.life^$all
 ||oncemanboy.live^$all
-||hardabbuy.live^$all
 ||batrevrig.info^$all
-||hasnegtiny.live^$all
 ||vowpairmax.live^$all
 ||impfehut.live^$all
 ||info-extremechat.com^$document
@@ -24900,6 +24901,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||etaindiaonline.com^$document
 ||etaindia.org^$document
 ||e-touristvisa.com^$document
+||e-touristvisaindia.com^$document
 ||etv-in.com^$document
 ||evisa.express^$document
 ||e-visa.ie^$document
