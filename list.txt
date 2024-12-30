@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/12/2024
+! Last updated: 30/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22304,6 +22304,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||forensicswiki.xyz^$document
 ||thumbzoner.com^$all
 ||pushub.net^$all
+||deutschebank-kundendienst.comidrekt.net^$all
 ||energie-portal-24.de^$document
 ||streamjumpstart.com^$document
 ||thebeneclinic.com^$document
@@ -22908,8 +22909,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||usps.vip-expresm.top ^$all
 ||usps.vip-expresj.top^$all
 ||usps.vip-expresf.top^$all
-||qwerggre.top^$document
-||weewae.top^$document
 ||yhrtfgd.top^$document
 ||ewhtwgerw.top^$document
 ||hjfddsa.top^$document
@@ -22927,7 +22926,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||iutrydrhg.top^$document
 ||liutyjytf.top^$document
 ||ghtfews.top^$document
-||muydrth.top^$document
 ||sale-friday.store^$all
 ||black-sales.cloud^$all
 ||129.226.206.133^$document
@@ -22942,7 +22940,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||zxcupload.com^$document
 ||jammywritej.click^$all
 ||2aбdcdvwhuqa83y31c.gtrewe.co.in^$all
-||com-tracking-helpsenf.xyz^$all
 ||usps.com-tracking-help$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
