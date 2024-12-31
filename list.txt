@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 30/12/2024
+! Last updated: 31/12/2024
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20493,6 +20493,19 @@ www.tumblr.com##div[tabindex][style="margin-top: 0px;"]:not([class],[id]):has(a[
 *$all,ipaddress=172.67.158.57
 *$all,ipaddress=198.12.86.90
 ||sites.google.com/view/*wincashapp^$doc
+||iuxxx.com^$all
+||tuusi.com^$all
+||messageme.life^$all
+||lonelygirls.life^$all
+||sexcham.com^$all
+||lonelyones.online^$all
+||mastur.life^$all
+||areameye.life^$all
+||happygirls.life^$all
+||dowemeet.online^$all
+||chatly.life^$all
+||invites.life^$all
+||girlselfies.online^$all
 ||unofficialtwrp.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidweblog.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
 ||androidgreek.com^$doc,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
@@ -27131,6 +27144,7 @@ $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
 ||amazon.$removeparam=ms3_c
 ||amazon.$removeparam=spIA
 ||amazon.$doc,removeparam=ccs_id
+||amazon.$doc,removeparam=source
 ||bing.com/?$removeparam=/^form=.*$/i
 ||bing.$removeparam=sp
 $removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
