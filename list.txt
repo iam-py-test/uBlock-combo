@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 03/01/2025
+! Last updated: 04/01/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -21363,9 +21363,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||cdn.adx1.com/df60634899739d9c8ce9ae33940358dd.jpeg^$all
 ||cdn.adx1.com/8b678aab9185cb333cc7c1bf3442adcb.jpeg^$all
 ||rewards-giant.uk^$all
-||sweredth.buzz^$document
-||toftheussi.xyz^$document
-||ewallowi.buzz^$all
 ||coinbase-buysell-cryptocurrency.yolasite.com^$all
 ||share.getcloudapp.com/nOuXRll9^$all
 ||telegra.ph/Best-tutorial-04-30^$all
@@ -22698,7 +22695,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||dash.pocketuniverse.app^$document
 ||uprising.kip.pro^$document
 ||app.jameswoof.com^$document
-||miles.plumenetwork.xyz^$document
 ||dofuspourlesnoobs.com^$document
 ||pacmoonn.icu^$document
 ||utpwk.com^$all
@@ -22954,6 +22950,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||jammywritej.click^$all
 ||2aбdcdvwhuqa83y31c.gtrewe.co.in^$all
 ||usps.com-tracking-help$document
+||cgfji.top^$all
+||ds-milwaukee.com^$document
+||icloud.apple.pariet.mhudr.cn^$all
+||icloud.apple.street.oanvd.cn^$all
+||icloud.apple.*.cn^$document,domain=cn
+||fiheos.co.in^$document,image
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -23754,62 +23756,24 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||i7kctkutdv2c.top^$all
 ://confirm.*.top^$document,popup
 ||better-than-tinder.com^$all
-||b53guzrig84y.top^$all
 ||best-hornygirls.com^$all
-||btz6uvyfth1d.top^$all
 ||bustygirls-online.com^$all
-||by3rw1xh7j6c.top^$all
-||c1r084b6amzz.top^$all
-||c9nd4gwexaqc.top^$all
 ||campwredir.com^$all
-||cleanpwredir.com^$all
-||cqm8eg25pw9a.top^$all
 ||cute-wet-babes.com^$all
-||cz66d6c46u7r.top^$all
 ||datingpwredir.com^$all
-||dfalfqeqgg22.top^$all
-||dreamy-flirt.com^$all
-||e0pxjz8hh09v.top^$all
-||e9dzfcnhd11g.top^$all
 ||easy-sex-dates.com^$all
-||elq4xg6r2l3w.top^$all
-||erxhbjelx5wv.top^$all
-||f3jxoio03eoe.top^$all
-||f90ggj5hvn2r.top^$all
-||fa82zddqmzm2.top^$all
-||fdlqehgguzrd.top^$all
-||fnhkkel7y3og.top^$all
-||fs47vp8old0i.top^$all
-||fuynmttcsohb.top^$all
-||fxu8v4c6mq80.top^$all
-||g2orkb3o40am.top^$all
-||g3k7k37yxjn9.top^$all
-||g534zx7dcasn.top^$all
-||g6xj5yz5wmqv.top^$all
-||g8ik1wf8hi07.top^$all
 ||gambpwredir.com^$all
-||gbfnq4g9fhu2.top^$all
-||ggs24fwvaukc.top^$all
 ||girls-wants-you.com^$all
-||h5fxr7ftv7pf.top^$all
-||hadglb7m3jcd.top^$all
-||hnlw731jqnxp.top^$all
 ||hornygirls-onsite.com^$all
 ||jump-path1.com^$all
 ||redirect-path1.com^$all
 ||redirect-path2.com^$all
 ||hot-pretty-chiks.com^$all
 ||hotgirls-around.com^$all
-||ifnerenuy32r.top^$all
-||ihvnba9vmh8o.top^$all
 ||indiastream-online.com^$all
-||io49xk3p5p03.top^$all
-||irke75qsfkkz.top^$all
 ||juicy-girls-online.com^$all
-||l531z4rzynwq.top^$all
 ||loadingscripts.com^$all
 ||love-connectors.com^$all
-||mighuuh535pb.top^$all
 ||nice-babes-nearby.com^$all
 ||nor-pw1.com^$all
 ||nor-pw10.com^$all
@@ -23826,20 +23790,14 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||nor-pw7.com^$all
 ||nor-pw8.com^$all
 ||nor-pw9.com^$all
-||nqezbpv8tzda.top^$all
-||nz7mhg8micbu.top^$all
-||o0nerfcw0vsd.top^$all
-||o3oy5wfla2ez.top^$all
 ||o863tmto6ocp.com^$all
 ||oj0in172pri5.com^$all
 ||only-sexy-girls.com^$all
-||phyn4fpu3sy2.com^$all
 ||pwredir-1.com^$all
 ||pwredir-2.com^$all
 ||pwredir-3.com^$all
 ||pwredir-4.com^$all
 ||pwredir-5.com^$all
-||qvu377cbhhgu.top^$all
 ||real-hot-profiles.com^$all
 ||real-hotbabes.com^$all
 ||redir-pw1.com^$all
@@ -23857,22 +23815,12 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||redir-pw7.com^$all
 ||redir-pw8.com^$all
 ||redir-pw9.com^$all
-||s6n946mpdglq.top^$all
 ||shoppwredir.com^$all
-||sivt0uo3es6m.top^$all
-||som9lrmw0unu.top^$all
 ||strip-hotbabes.com^$all
 ||sweet-alone-girls.com^$all
 ||testpwredir.com^$all
-||u01s8m85xab9.top^$all
-||uiffp09naazq.top^$all
 ||utipwredir.com^$all
-||v3ubcy23nuym.top^$all
-||ves0kz2gk9b8.top^$all
-||vpeybsuirx7z.top^$all
 ||vppwredir.com^$all
-||w1e39n8e20dw.top^$all
-||wfkcsq63ivcm.top^$all
 ||summersale.online^$all
 ||crackedkey.org^$all
 ||mixcrack.net^$all
