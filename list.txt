@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 07/01/2025
+! Last updated: 08/01/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22950,7 +22950,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||2aбdcdvwhuqa83y31c.gtrewe.co.in^$all
 ||usps.com-tracking-help$document
 ||cgfji.top^$all
-||ds-milwaukee.com^$document
 ||icloud.apple.pariet.mhudr.cn^$all
 ||icloud.apple.street.oanvd.cn^$all
 ||icloud.apple.*.cn^$document,domain=cn
@@ -22966,6 +22965,14 @@ ostrowlubelski.pl##^responseheader(location)
 ||acadgas.ru^$document
 ||notify-user-adjustments.vercel.app^$all
 ||telegramweb.vercel.app^$all
+||sos-de-muc-1.exo.io^$all
+||birthjeans.icu^$all
+||jurantsepinine.shop^$document
+||waisheph.com^$document
+||waefufloaty.shop^$all
+||samalcuratic.shop^$document
+||olympuscracowe.shop^$all
+||whatsdating.college^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -24505,7 +24512,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||vansschoenenbelgie.com^$document
 ||vansshoesksa.com^$document
 ||vanssko.com^$document
-||vansskoletaske.com^$document
 ||vanstenisice.com^$document
 ||veja.com.gr^$document
 ||vejaathensgreece.net^$document
@@ -26083,7 +26089,7 @@ $removeparam=/^CJEVENT=.*$/i,doc
 $doc,removeparam=refd
 $doc,removeparam=/^hmb_.*$/
 $doc,removeparam=FMID
-$doc,removeparam=LID
+$doc,removeparam=LID,domain=~geocaching.com
 $doc,removeparam=_ga,domain=~login.aliexpress.*
 $doc,removeparam=guccounter
 $doc,removeparam=guce_referrer
