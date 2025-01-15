@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 14/01/2025
+! Last updated: 15/01/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -91,20 +91,20 @@ www.google.*,ipv6.google.com##a[oncontextmenu][href^="https://books.google."]:up
 ||useragentswitch.com^$all,~inline-font
 ||dev-nano.com^$all,~inline-font
 ||block-ads-now.com^$doc,popup
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=free])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=clean])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=boost])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=boost][href*=clean])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=gratis])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*="201"])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=security])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*="anti.virus"])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*="scanguard"])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".totalav."])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adblocker])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".adblock."])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adsblock])
-play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href$=".adblock"])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=free])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=clean])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=boost])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=boost][href*=clean])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=gratis])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*="201"])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=antivirus][href*=security])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*="anti.virus"])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*="scanguard"])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".totalav."])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adblocker])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".adblock."])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adsblock])
+play.google.com##div[class$=" "] > div[class*=" "][jscontroller] > *:has([href$=".adblock"])
 ||inside3d.com^$all,~inline-font
 ||viaarena.com^$all,~inline-font
 ||qasirgame.com^$all,~inline-font
@@ -153,10 +153,10 @@ bynarycodes.com##.panel:has(a[href*="scanutilities.com"])
 drivereasy.com#?#.pakb-content ol:has-text(Download and install Driver Easy)
 drivereasy.com#?#.pakb-content p:has-text(Driver Easy)
 drivereasy.com#?#.pakb-content div.info.note:has-text(drivereasy.com)
-drivereasy.com#?#.pakb-content img[sizes^="(max-width: 80"]
+drivereasy.com##.pakb-content img[sizes^="(max-width: 80"]
 drivereasy.com#?#.pakb-content p:has-text(the FREE version)
 drivereasy.com#?#.pakb-content p:has-text(the Pro version)
-drivereasy.com#?#.pakb-content img[sizes^="(max-width: 79"]
+drivereasy.com##.pakb-content img[sizes^="(max-width: 79"]
 drivereasy.com#?#.pakb-content span[id^=i-]:has-text(Automatically update your)
 drivereasy.com##.pakb-content li:has(a[href="#automatically"])
 drivereasy.com#?#.pakb-content span[id^=i-]:has-text(Update drivers with Driver Easy)
@@ -19940,7 +19940,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 tumblr.com##div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
 tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has(a[rel=author]:has-text(/^[a-z]{2,6}-[a-z]{2,8}\d{2}$/i)):has-text(/^.*(18|sex|squirt|bo{2}ty).*$/i)
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text( click & chat me ):has-text(🔞)
-tumblr.com#?#div[tabindex][style]:has(a[href*="://cutt.ly/"])
+tumblr.com##div[tabindex][style]:has(a[href*="://cutt.ly/"])
 tumblr.com#?#div[tabindex][style]:has(a[href*="tinyurl."]:has-text(_1+8_))
 www.tumblr.com##div[style="margin-top: 0px;"][tabindex]:has-text(🔞):has-text(/Insta/i)
 www.tumblr.com##div[tabindex][style="margin-top: 0px;"]:not([class],[id]):has(a[target=_blank] > div > div:has-text(/^.*🔞.*insta( |gram).*\n.*$/i))
@@ -25461,9 +25461,14 @@ chrome.google.com#?#.webstore-test-wall-tile:has-text(/Adblock Origin/i)
 download.cnet.com#?#.c-globalCard:has(a[href*="/Sir-AdGuard/"])
 download.cnet.com#?#.c-globalCard:has(a[href*="/Ad-Smasher/"])
 download.cnet.com#?#.c-globalCard:has(a[href*="/AdsCleaner/"])
+play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adblocker])
+play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".adblock."])
+play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adsblock])
+play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href$=".adblock"])
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i)
 majorgeeks.com#?#b:has(a[target^=reimage])
 bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
+drivereasy.com#?#.pakb-content img[sizes^="(max-width: 80"]
 drivereasy.com#?#.pakb-content li:has(a[href="#automatically"])
 howtoremove.guide#?#.wp-block-table:has(.banner)
 cfoc.org##tr:has([href="https://cfoc.org/go-to-spyhunter/"])
