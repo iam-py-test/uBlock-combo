@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/01/2025
+! Last updated: 17/01/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -19937,6 +19937,7 @@ google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
 ||amaskiphirescotland.co.uk^$all
 ||empatiya.net^$all
 ||vastila.com^$all
+||wp3.xyz^$all
 tumblr.com##div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
 tumblr.com#?#:is(.post,div[data-cell-id][style],div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has(a[rel=author]:has-text(/^[a-z]{2,6}-[a-z]{2,8}\d{2}$/i)):has-text(/^.*(18|sex|squirt|bo{2}ty).*$/i)
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text( click & chat me ):has-text(🔞)
@@ -28679,6 +28680,7 @@ $doc,removeparam=ebisOther2
 $doc,removeparam=ebisOther3
 $doc,removeparam=ebisOther4
 $doc,removeparam=ebisOther5
+ref=content.cside.dev$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
