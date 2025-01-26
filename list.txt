@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 25/01/2025
+! Last updated: 26/01/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -27575,6 +27575,31 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||zealousinquiriesgovernment.com^$all
 ||zodiacirrigateglobal.com^$all
 ||zooskatehesitation.com^$all
+||fagnskskf.com^$all
+||cnshermir.com^$doc
+||daimlerhldg.com^$doc
+||dbfzdn.cn^$doc
+||galaauto.com^$doc
+||gongkong800.com^$doc
+||jingchuan.org^$doc
+||jszmgj.com^$doc
+||longfengwushi.com^$doc
+||medge.cn^$doc
+||newcaiyi.com^$doc
+||partga.com^$doc
+||pcpr.cn^$doc
+||powerstonetool.com^$doc
+||rinvay.cn^$doc
+||ttcmh.com^$doc
+||weixiucnc.com^$doc
+||weixiusk.com^$doc
+||whmingsheng.com^$doc
+||xiaojiugood.store^$doc
+||yj-huayuan.com^$doc
+||ynjkdl.com^$doc
+||yuxc.xyz^$doc
+||103.155.214.207^$doc
+*$all,ipaddress=103.155.214.207
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
