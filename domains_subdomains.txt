@@ -33929,6 +33929,10 @@ githubcareers.online
 zippyshare.day
 brewe.sh
 brewmacos.com
+mostodon.social
+vencord.app
+newpipe.app
+revanced-extended.com
 cdn.polyfill.io
 ww1.appple.com
 rpc.1qw.us

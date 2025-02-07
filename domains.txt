@@ -33929,3 +33929,7 @@ githubcareers.online
 zippyshare.day
 brewe.sh
 brewmacos.com
+mostodon.social
+vencord.app
+newpipe.app
+revanced-extended.com
