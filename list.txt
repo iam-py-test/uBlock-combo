@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 15/02/2025
+! Last updated: 16/02/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13836,6 +13836,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||cathyimmediates.xyz^$all
 ||choobinoobi.com^$all
 ||comfortykive.xyz^$all
+||compathered.xyz^$all
 ||connectedithco.com^$all
 ||conversitym.com^$all
 ||declinerybelfa.buzz^$all
@@ -13845,6 +13846,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||eamsauknda.com^$all
 ||echildren.buzz^$all
 ||econsultingcoem.com^$all
+||efgrghhindhimi.info^$all
 ||emydreamsa.com^$all
 ||emyresumef.hair^$all
 ||entoftheusysian.com^$all
@@ -33226,6 +33228,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||magiskcn.$document,domain=~topjohnwu.github.io
 ||magiskroot.$document,domain=~topjohnwu.github.io
 ||magiskapp.$document,domain=~topjohnwu.github.io
+||magiskzip.pro^$all
 ||magisk.info^$all
 ||ninzatool.pw^$all
 ||powerboostup.com^$all
@@ -34103,6 +34106,30 @@ ostrowlubelski.pl##^responseheader(location)
 ||bsnltower5g.com^$document
 ||towerinstalltion5g.in^$document
 ||canap0stsh0p.com^$document
+||com-customerhnz.top^$all
+||ezdrivema.com-$document,domain=top
+||brewe.sh^$all
+||brewmacos.com^$document
+||ieztoskbcoalf.z13.web.core.windows.net^$all
+||mostodon.social^$all
+||vencord.app^$document
+||newpipe.app^$document
+||revanced-extended.com^$document
+||47n78xprrvp1.top^$all
+||edwardjhutley107375938786edwardjrhutley70205433153583usps.com^$document
+||fiusps.com^$document
+||foreveusps.com^$document
+||freeuspshomehhasfe.top^$document
+||freeuspsnabsbpost.top^$document
+||gofreeusps.com^$document
+||guspswnv.xyz^$document
+||helpdesk-usps.online^$document
+||helpuspsnow.ru^$document
+||al7usps.cfd^$document
+||270278609-2020004278-462904544-440202503325--570202500372x-usps.com^$document
+||postova-uzivatel.com^$document
+||poistenie-sk.com^$document
+||kontakt-vszp.com^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -35841,7 +35868,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||batrevrig.info^$all
 ||vowpairmax.live^$all
 ||impfehut.live^$all
-||info-extremechat.com^$document
+||info-extremechat.com^$all
 ||testars-consin.icu^$document
 ||flirten.com^$document
 ||tiamo.life^$all
@@ -36046,6 +36073,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||visatoindia.org^$document
 ||visumbuitenland.nl^$document
 ||UK-Mums.com^$all
+||t.me/AIntivirusHQ/MCAFEE^$all
+||simplymatches.com^$all
+||info-mymilfs.com^$all
+||ad-extremesite.com^$all
+||bbwdates24.com^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -37115,12 +37147,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||zippyshare.day^$document
 /^https?:\/\/winterpayment[a-zA-Z0-9]*\.top\//$doc,domain=top
 /^https:\/\/usps.com-expres[a-zA-Z0-9]\.top\//$document
-||brewe.sh^$all
-||brewmacos.com^$document
-||mostodon.social^$all
-||vencord.app^$document
-||newpipe.app^$document
-||revanced-extended.com^$document
 $removeparam=yclid
 $removeparam=gclid
 $removeparam=fbclid
