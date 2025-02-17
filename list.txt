@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 16/02/2025
+! Last updated: 17/02/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -34106,9 +34106,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||bsnltower5g.com^$document
 ||towerinstalltion5g.in^$document
 ||canap0stsh0p.com^$document
-||com-customerhnz.top^$all
 ||ezdrivema.com-$document,domain=top
-||brewe.sh^$all
 ||brewmacos.com^$document
 ||ieztoskbcoalf.z13.web.core.windows.net^$all
 ||mostodon.social^$all
@@ -34119,13 +34117,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||edwardjhutley107375938786edwardjrhutley70205433153583usps.com^$document
 ||fiusps.com^$document
 ||foreveusps.com^$document
-||freeuspshomehhasfe.top^$document
-||freeuspsnabsbpost.top^$document
-||gofreeusps.com^$document
-||guspswnv.xyz^$document
 ||helpdesk-usps.online^$document
 ||helpuspsnow.ru^$document
-||al7usps.cfd^$document
 ||270278609-2020004278-462904544-440202503325--570202500372x-usps.com^$document
 ||postova-uzivatel.com^$document
 ||poistenie-sk.com^$document
@@ -36074,7 +36067,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||visumbuitenland.nl^$document
 ||UK-Mums.com^$all
 ||t.me/AIntivirusHQ/MCAFEE^$all
-||simplymatches.com^$all
 ||info-mymilfs.com^$all
 ||ad-extremesite.com^$all
 ||bbwdates24.com^$all
