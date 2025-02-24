@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/02/2025
+! Last updated: 24/02/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -34125,30 +34125,11 @@ ostrowlubelski.pl##^responseheader(location)
 ||postova-uzivatel.com^$document
 ||poistenie-sk.com^$document
 ||kontakt-vszp.com^$document
-||add-signal-group.com^$document
-||add-signal-groups.com^$document
 ||group-signal.com^$document
-||groups-signal.site^$document
-||signal-device-off.online^$document
-||signal-group-add.com^$document
-||signal-group.site^$document
-||signal-group.tech^$document
-||signal-groups-add.com^$document
-||signal-groups.site^$document
-||signal-groups.tech^$document
-||signal-security.online^$document
-||signal-security.site^$document
 ||signalgroup.site^$document
-||signals-group.com^$document
 ||signal-confirm.site^$document
-||confirm-signal.site^$document
-||signal-protect.host^$document
-||teneta.join-group.online^$document
 ||teneta.add-group.site^$document
 ||group-teneta.online^$document
-||helperanalytics.ru^$document
-||teneta.group^$document
-||group.kropyva.site^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
