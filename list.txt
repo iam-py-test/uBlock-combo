@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 25/03/2025
+! Last updated: 26/03/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -29440,7 +29440,7 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 |1x1.cz|
 ://ww4.$doc,domain=~ww4.ikea.com|~ww4.sig-ge.ch|~ww4.autotask.net|~ww4.pornhoarder.org
 ://ww5.$doc,domain=~ww5.ikea.com|~ww5.msu.ac.zw|~ww5.autotask.net
-://ww6.$doc,domain=~ww6.generali.pt|~ww6.autotask.net
+://ww6.$doc,domain=~ww6.generali.pt|~ww6.autotask.net|~ww6.pornhoarder.org
 ://ww7.$doc,domain=~ww7.be|~ww7.readsnk.com|~ww7.autotask.net
 ://ww9.$doc,domain=~ww9.ikea.com|~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br|~ww9.autotask.net
 ://ww10.$doc,domain=~ww10.autotask.net|~w10.pornhoarder.tv|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
@@ -29453,7 +29453,7 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ://ww17.$doc,domain=~ww17.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww18.$doc,domain=~ww18.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww19.$doc,domain=~ww19.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
-://ww20.$doc,domain=~ww20.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
+://ww20.$doc,domain=~ww20.autotask.net|~ww20.pornhoarder.tv|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww21.$doc,domain=~ww21.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww22.$doc,domain=~ww22.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww23.$doc,domain=~ww23.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
@@ -31997,6 +31997,24 @@ ostrowlubelski.pl##^responseheader(location)
 ||teneta.add-group.site^$document
 ||group-teneta.online^$document
 ||sportsspot-moviebuffs.com^$document
+||act-7wbq8j3peso0qc1.pages.dev^$all
+||ojlkimed.vip^$all
+||ggrls45.info^$all
+||date-girl.world^$document
+||naughtymets.com^$document
+||mdfzo.xin^$all
+||best-torrents.com^$document
+||displaymovies.pl^$document
+||ex-torrenty.org^$document
+||filmo.agency^$document
+||filmy24.cc^$document
+||find-vod.com^$document
+||showplax.com^$document
+||vodlist.com^$document
+||zobaczfilm.com^$document
+||food-network.fwh.is^$document
+||virginmoney-livesupport.web.app^$all
+||virginmoney-livesupport.$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -33954,6 +33972,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||info-mymilfs.com^$all
 ||ad-extremesite.com^$all
 ||bbwdates24.com^$all
+||certified-sale.com^$document
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -34253,6 +34272,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||1000fapvids.online^$document
 ||n7p28.com^$document
 ||crm-b2c-26477.de^$document
+||upnews.me^$document
 ||csgo.xyz^$all
 ||brightdata.com^$document
 ||brightdata.de^$document
