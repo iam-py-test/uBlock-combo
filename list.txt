@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 28/03/2025
+! Last updated: 29/03/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -29445,7 +29445,7 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ://ww9.$doc,domain=~ww9.ikea.com|~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br|~ww9.autotask.net
 ://ww10.$doc,domain=~ww10.autotask.net|~w10.pornhoarder.tv|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww11.$doc,domain=~ww11.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
-://ww12.$doc,domain=~ww12.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
+://ww12.$doc,domain=~ww12.autotask.net|~ww12.pornhoarder.tv|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww13.$doc,domain=~ww13.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww14.$doc,domain=~ww14.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
 ://ww15.$doc,domain=~ww15.nl|~ww15.autotask.net|~practically_always_leads_to_a_domain_parking_service_known_for_malware.*
@@ -31895,17 +31895,17 @@ ostrowlubelski.pl##^responseheader(location)
 ||monicarelino13512-carelino.click^$all
 ||securevault.top^$document
 ||diteringion.com^$all
-||usps.postman-vip.icu ^$all
-||usps.postman-vip.help ^$all
+||usps.postman-vip.icu^$all
+||usps.postman-vip.help^$all
 ||usps.com-expresf.top^$all
-||usps.com-expresd.top ^$all
-||usps.com-expresm.top ^$all
+||usps.com-expresd.top^$all
+||usps.com-expresm.top^$all
 ||usps.com-expresj.top^$all
 ||usps.com-expresh.top^$all
 ||usps.vip-expresg.top^$all
 ||usps.vip-expresh.top^$all
 ||usps.vip-expresq.top^$all
-||usps.vip-expresm.top ^$all
+||usps.vip-expresm.top^$all
 ||usps.vip-expresj.top^$all
 ||usps.vip-expresf.top^$all
 ||yhrtfgd.top^$document
@@ -31996,11 +31996,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||signal-confirm.site^$document
 ||teneta.add-group.site^$document
 ||group-teneta.online^$document
-||sportsspot-moviebuffs.com^$document
 ||act-7wbq8j3peso0qc1.pages.dev^$all
 ||ojlkimed.vip^$all
 ||ggrls45.info^$all
-||date-girl.world^$document
 ||naughtymets.com^$document
 ||mdfzo.xin^$all
 ||best-torrents.com^$document
@@ -32013,7 +32011,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||vodlist.com^$document
 ||zobaczfilm.com^$document
 ||food-network.fwh.is^$document
-||virginmoney-livesupport.web.app^$all
 ||virginmoney-livesupport.$document
 ||primakovreadings.info^$all
 ||ublockerext.com^$all
@@ -33974,6 +33971,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||ad-extremesite.com^$all
 ||bbwdates24.com^$all
 ||certified-sale.com^$document
+||secretmatureaffair.com^$all
+||flirtymoms.com^$all
+||naughtymatureflirts.com^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
