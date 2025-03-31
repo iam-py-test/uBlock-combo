@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 30/03/2025
+! Last updated: 31/03/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -3704,17 +3704,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||spnccrzone.com^$all,~inline-font
 ||natnlconsmrctr.com^$all,~inline-font
 ||therewardboost.com^$all,~inline-font
-||agkn.com^$doc
 ||cloud-storage.store^$all,~inline-font
-||d2m2wsoho8qq12.cloudfront.net^$all,~inline-font
-||findanswersnow.net^$all,~inline-font
-||gpush.cogocast.net^$all,~inline-font
-||info.leadid.com^$all,~inline-font
-||partner.mediawallahscript.com^$doc,popup
-||signupandturnyourscreenoffsafepowernow.date^$all,~inline-font
-||tag.cogocast.net^$all,~inline-font
-||tag.yieldoptimizer.com^$doc,popup
-||traversedlp.com^$all,~inline-font
 /^(.*\.|.*//)?tkqlhce\.com/click-.*([?&][a-tv-z]{1,}(=[a-zA-Z0-9]{1,})?){1,}$/$doc
 ||safelyonline.net^$doc
 ||browse-safe.net^$doc
@@ -3726,7 +3716,6 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||aquariuminn.com^$all,~inline-font
 ||army-glo.scrollingsystem.com^$doc
 ||mcafee12.tt.omtrdc.net^$doc
-||trolleydrop.info^$doc
 ||cd.org^$doc
 ||23.94.26.138^$all,~inline-font
 *$all,ipaddress=23.94.26.138
@@ -23539,6 +23528,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 *$all,ipaddress=2600:1f18:43d1:2a02:c3bd:35f3:da0a:4041
 *$all,ipaddress=2600:1f18:43d1:2a02:c6f9:e151:e2e1:732d
 *$all,ipaddress=2600:1f1c:57F:b502:dd8:9588:11e6:282
+||adblockermax.com/land$doc,popup
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -31895,17 +31885,12 @@ ostrowlubelski.pl##^responseheader(location)
 ||monicarelino13512-carelino.click^$all
 ||securevault.top^$document
 ||diteringion.com^$all
-||usps.postman-vip.icu^$all
-||usps.postman-vip.help^$all
 ||usps.com-expresf.top^$all
-||usps.com-expresd.top^$all
-||usps.com-expresm.top^$all
 ||usps.com-expresj.top^$all
 ||usps.com-expresh.top^$all
 ||usps.vip-expresg.top^$all
 ||usps.vip-expresh.top^$all
 ||usps.vip-expresq.top^$all
-||usps.vip-expresm.top^$all
 ||usps.vip-expresj.top^$all
 ||usps.vip-expresf.top^$all
 ||yhrtfgd.top^$document
@@ -32017,6 +32002,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
 ||204.11.56.48^$document
+||findanswersnow.net^$document
+||signupandturnyourscreenoffsafepowernow.date^$document
 ||jsontdsexit.com^$document
 ||lore.deduce.com^$document
 ||jpgtrk.com^$document
