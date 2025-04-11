@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 10/04/2025
+! Last updated: 11/04/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -29413,6 +29413,8 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 *$all,ipaddress=198.134.116.30
 *$all,ipaddress=2a00:8860:10d:1::2:b01
 ||driverpack.io^$doc,domain=~has_extreme_amounts_of_pup_in_it.*
+||doh-gov.com^$all
+||doh-gov.ph^$all
 ||unofficialtwrp.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidweblog.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidgreek.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
@@ -31999,7 +32001,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||primakovreadings.info^$all
 ||nopae.top^$all
 ||turtleclient.xyz^$document
-||zdwtixh.xyz^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all

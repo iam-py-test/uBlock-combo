@@ -27819,6 +27819,8 @@ yodirecxl.com
 yolkclknu.com
 yolkdirxl.com
 zentrixads.com
+doh-gov.com
+doh-gov.ph
 if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data
 webadvisorc.rest.gti.mcafee.com
 mip.api.mcafeewebadvisor.com
@@ -29452,7 +29454,6 @@ food-network.fwh.is
 primakovreadings.info
 nopae.top
 turtleclient.xyz
-zdwtixh.xyz
 ublockerext.com
 quatrefeuillepolonaise.xyz
 catnip.de
