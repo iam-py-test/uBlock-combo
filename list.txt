@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 24/04/2025
+! Last updated: 25/04/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -396,15 +396,6 @@ download.cnet.com##.c-globalCard:has(a[href*="/AdsCleaner/"])
 ||rgithub.com^$doc,domain=~you-were-likely-looking-for-githubusercontent.com
 ||githubt.com^$doc,domain=~you-were-likely-looking-for-githubusercontent.com
 ||discorde-nitre.xyz^$all,~inline-font,domain=~fake-malware-version-of-discordapp.com
-||netnet44.net^$all,~inline-font
-||amanda.*.net^$doc
-||sarah.*.net^$doc
-||pamela.*.net^$doc
-||jessica.*.net^$doc
-||katie.*.net^$doc
-||emily.*.net^$doc
-||54.174.156.141^$doc
-*$all,ipaddress=54.174.156.141
 ||lucretius-ada.com^$all,~inline-font
 ||hippolyte-hag.com^$all,~inline-font
 ||india-abc.com^$all,~inline-font
@@ -435,18 +426,6 @@ download.cnet.com##.c-globalCard:has(a[href*="/AdsCleaner/"])
 *$all,ipaddress=3.216.243.46
 ||roamingclicks.com^$all,~inline-font
 ||collectfasttracks.com^$all,~inline-font,domain=~malware_redirection_trains.*
-||ttnrd.com^$all,~inline-font
-||amanda.*.com^$doc
-||katie.*.com^$doc
-||briana.*.com^$doc
-||sarah.*.com^$doc
-||pamela.*.com^$doc
-||54.152.245.247^$doc
-*$all,ipaddress=54.152.245.247
-||35.172.40.232^$doc
-*$all,ipaddress=35.172.40.232
-||3.90.125.85^$doc
-*$all,ipaddress=3.90.125.85
 ||track.vcdc.com^$all,~inline-font,domain=~malware_redirection_trains.*
 ||track.tkbo.com^$all,~inline-font,domain=~malware_redirection_trains.*
 ||track.traffic.club^$all,~inline-font,domain=~malware_redirection_trains.*
@@ -24846,6 +24825,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 *$ipaddress=172.240.41.32
 *$ipaddress=172.240.41.64
 *$ipaddress=172.240.41.96
+||password-internal.com^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -29933,6 +29913,14 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ||zqytu.club^$all
 ||zui.app^$all
 ||zurc2.com^$all
+||modernvison.com^$doc
+||casino-lite.net^$doc
+||googleapis.info^$doc
+||netnet33.net^$all
+||netnet44.net^$all
+||odintara.com^$doc
+||54.174.156.141^$doc
+*$all,ipaddress=54.174.156.141
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -37057,7 +37045,8 @@ $doc,removeparam=sca_upv,domain=www.google.*|ipv6.google.com
 ||www.google.$doc,removeparam=tfu
 ||www.google.com/finance/?$removeparam=output
 ||www.google.com/finance/?$removeparam=source
-@@://www.google.com/maps?entry=$removeparam=utm_campaign
+@@://www.google.*/maps^$removeparam=utm_campaign
+@@://ipv6.google.com/maps^$removeparam=utm_campaign
 ||tiktok.com^$removeparam=_r
 $removeparam=share_ab_group
 $removeparam=u_code
