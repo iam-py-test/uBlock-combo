@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 28/04/2025
+! Last updated: 29/04/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -29921,6 +29921,10 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ||odintara.com^$doc
 ||54.174.156.141^$doc
 *$all,ipaddress=54.174.156.141
+://old.sermitsiaq.ag^$doc,domain=subdomain_stolen_from_sermitsiaqs_owners.*
+||xss.my.id^$third-party
+||85.159.213.158^$all
+*$all,ipaddress=85.159.213.158
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -31367,44 +31371,10 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||fitgirlrepack.games^$document
 ||losstub.icu^$document
 ||fitgirl-repacks.proxy2link.com^$document
-||nielviok.cf^$document,popup
-||kallarann.gq^$document,popup
-||jandin.gq^$document,popup
-||web.quoabide.top^$document,popup
 ||milfme.com^$document,popup
-||web.zoneimage.site^$document,popup
-||dylacha.tk^$document,popup
-||waumari.tk^$document,popup
-||web.tumbleceq.in^$document,popup
-||web.squirmaccess.site^$document,popup
 ||track.findb.news^$document,popup
-||web.zoombleat.top^$document,popup
-||web.grittyago.xyz^$document,popup
-||wineshasi.cf^$document,popup
-||web.spywax.site^$document,popup
-||xonanere.ga^$document,popup
-||karindal.ga^$document,popup
-||web.aeratevenal.site^$document,popup
-||web.cannondate.top^$document,popup
-||deugahat.gq^$document,popup
-||web.acidicadorn.top^$document,popup
-||leelabea.cf^$document,popup
-||beladra.cf^$document,popup
-||web.actgrovel.site^$document,popup
-||ysiquaarac.ga^$document,popup
-||web.grincanis.site^$document,popup
-||web.spurtparole.top^$document,popup
-||llantana.ml^$document,popup
-||web.datelovetime.xyz^$document,popup
-||lhamad.gq^$document,popup
-||web.jazztunnel.top^$document,popup
-||quinete.ga^$document,popup
-||web.blandfain.site^$document,popup
-||web.hanfallow.online^$document,popup
-||web.groupabet.site^$document,popup
 ||tracking.lovematchflirt.com^$document,popup
 ||tracking.latedreamdate.com^$document,popup
-||web.gristwattle.online^$document,popup
 ||skynetx.com.br^$all
 ||cdt2023.ddns.net^$all
 ||bit.ly/3G1xJTO^$all
@@ -31544,34 +31514,20 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||harrysucksdick.com^$all
 ||egscorp.net^$all
 ||mignished-sility.com^$all
-||hyjecr.gernebult.com^$document,xhr,script
 ||curvyalpaca.cc^$third-party
 ||zxbfm.ooumoughtcall.com^$all
 ||ooumoughtcall.com^$document
 ||s2cp.xyz^$all
 ||4b34eusvcxsdublb6f.runoj.click^$all
 ||runoj.click^$all
-||aesch-mko.com^$document,popup
 ||agapios-gla.com^$document,popup
-||ahura-maz.com^$document,popup
-||altwi-cha.com^$document,popup
 ||artax-evn.com^$document,popup
 ||balor-ghn.com^$document,popup
 ||ermin-oxj.info^$document,popup
-||gargi-xba.com^$document,popup
 ||gloos-zus.info^$document,popup
-||gronw-zis.com^$document,popup
 ||harib-eir.info^$document,popup
-||heily-nin.com^$document,popup
-||iorwe-qmf.com^$document,popup
 ||kuno-gae.com^$document,popup
-||laurentia-kor.com^$document,popup
-||menelaus-col.com^$document,popup
-||nicomachus-mac.com^$document,popup
 ||orige-duo.com^$document,popup
-||phara-gte.com^$document,popup
-||quinctus-isb.com^$document,popup
-||sindr-yet.com^$document,popup
 ||redirect.newprogrammatic.click^$document
 ||telegra.ph/Software-2023-02-21-6^$document
 ||fuckbookmobile.org^$document
@@ -31583,7 +31539,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||urhandups.xyz^$all
 ||entry4hide.cyou^$all
 ||ovhoq.nkingwitheaam.com^$all
-||niceelitdating.top^$document,popup
 ||bigosext1s.com^$document
 ||adblockers.b-cdn.net^$all
 ||pleasetrack.com^$all
@@ -31664,6 +31619,10 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||jp6yze3jwx6462c537686e2.inetpr.ru^$all
 ||tryimv3srvsts.com^$all
 ||usaday.biz^$all
+||c822c1b63853ed273b89687ac505f9fa.onepro.club^$all
+||738aa8d3bc02eb8712acd0eb2cf6dfd5.onepro.club^$all
+||241fe8af1e038118cd817048a65f803e.onepro.club^$all
+||ba9bf05693b9fa202d922dd43a08f281.onepro.club^$all
 ||rewardarium.com^$document
 ||65.21.240.228^$all
 ||telegra.ph/T-Soft-06-02^$all
@@ -31737,7 +31696,6 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cna
 ||keen-fr.com^$document
 ||pnsys.info^$all
 ||drto.info^$all
-||dowloadslek2.website^$popup
 ||firebasestorage.googleapis.com/v0/b/atualizarcontratos.appspot.com/o/WEBLOCK01.html$all
 ||dropbox.com/scl/fi/r3firsxixp8h4qv69gurt/A.Objectives-of-Facebook-Marketing-AD-Campaign-2023-NEW-Obag-Handbags.zip$all
 ||revanced.info^$all
@@ -31815,6 +31773,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||arty2night.com^$all
 ||quiztionnaire.biz^$all
 ||offer-select.com^$document
+||app.rewardflux.com^$document
 ||herew-lmq.com^$document
 ||findbestop.com^$document
 /74Dl/7.html?cep=$document
@@ -32071,7 +32030,6 @@ ostrowlubelski.pl##^responseheader(location)
 /ps/ps.js?&edg=true&sw=&fullscreen=true&pl=true&pp=false&id=*&sm=space-robot&click_id=*&sub_id=*&appspot=&d=$script,first-party,domain=top
 ||press-here-to-continue.com^$all
 ||22.imohub.workers.dev^$all
-||195.35.19.138^$all
 ||privacyguides.io^$all
 ||poperblocker.com^$all
 ||pq.hosting^$all
@@ -32191,6 +32149,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||fortuneadvert.com^$document
 ||lalielynaualish.com^$document
 ||vast-conexxion.com^$all
+||www.arcanecheat.com^$all
 ||95.216.253.55^$all
 ||moddetail.com^$document
 ||liveinfo.xyz^$document
@@ -32205,6 +32164,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||qrcodes.pro^$document
 ||traveltraffic.cc^$all
 ||cloudsonicwave.com^$all
+||b.9-9-8.com^$document
 ||trelconf.com^$all
 ||uk-news.pro^$document
 ||zillify.cfd^$document
@@ -32222,6 +32182,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||45.141.87.216^$all
 ||account-cfe.mx^$document
 ||gooq1e.com^$all
+||apk.ecmokdtj.com^$document
 ||172.233.228.93^$all
 ||144.172.79.92^$all
 ||nhdata.s3-us-west-2.amazonaws.com^$all
@@ -32385,6 +32346,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||xhsbpza.com^$all
 ||union.macoms.la^$all
 ||polyfillcache.com^$all
+||beacon.apsehick.date^$document
 ||94.156.79.8^$all
 ||arcthost.org^$all
 ||79.137.192.4^$all
@@ -32399,6 +32361,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||dash.pocketuniverse.app^$document
 ||uprising.kip.pro^$document
 ||app.jameswoof.com^$document
+||help.premium-x-notes.com^$document
 ||dofuspourlesnoobs.com^$document
 ||pacmoonn.icu^$document
 ||utpwk.com^$all
@@ -32465,6 +32428,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||jourl.live^$document
 ||transiouratwat.com^$all
 ||undenentionin.com^$all
+||help.record-x-center.com^$all
+||usvu.pcidpz.top^$all
 ||chromeweb-authenticators.com^$all
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^$all
 ||mail-cytanet.pages.dev^$document
@@ -32482,6 +32447,8 @@ ostrowlubelski.pl##^responseheader(location)
 ||alaskasworld.cfd^$document
 ||partycityfeedback.bond^$document
 ||pages.tempisite.com^$document
+||help.safety-x-feedback.com^$all
+||help.documentary-x.com^$all
 ||wyy158.fun^$document
 ||cse38.xyz^$document
 ||sanadietzman.click^$document
@@ -32511,12 +32478,14 @@ ostrowlubelski.pl##^responseheader(location)
 ||help-metamsk-extn.$document
 ||metamoask-login.$document
 ||matamasxtensiion.$document
+||uszjj.fyjkxzq.shop^$document
 ||ads-verification-for-pay.$document
 ||csbestplayers.com^$document
 ||bitegifts.com^$document
 ||beacons.ai/dooreats^$all
 ||hackpc.net^$document
 ||postevrikifsi.top^$document
+||upf.xdpapmz.shop^$all
 ||thenorthfacegreece.com^$document
 ||the-north-face.gr^$document
 ||identifyillustration.com^$document
@@ -32531,6 +32500,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||dailyrx.org^$document
 ||pdf-library.org^$document
 ||fbdata-edt.com^$document
+||alch.neweradigitalservices.com^$document
 ||hearwork.lat^$document
 ||tracksallroundtheway2024.com^$document
 ||thetoybox.club^$document
@@ -32579,7 +32549,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||stage3-last.club^$all
 ||stage3-last.live^$all
 ||stage3-last.info^$all
-/^https://stage3-last\.[a-zA-Z]*\/info\/?$/$document
 ||stage2024.club^$all
 ||stage3x.site^$all
 ||stage3x.store^$all
@@ -32646,6 +32615,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||zxcupload.com^$document
 ||jammywritej.click^$all
 ||2aбdcdvwhuqa83y31c.gtrewe.co.in^$all
+||usps.com-tracking-helpsenf.xyz^$all
 ||usps.com-tracking-help$document
 ||cgfji.top^$all
 ||icloud.apple.pariet.mhudr.cn^$all
@@ -32671,6 +32641,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||samalcuratic.shop^$document
 ||olympuscracowe.shop^$all
 ||whatsdating.college^$all
+||severs.driveqpk.top^$all
 ||nze0xw.butsmism.co.in^$all
 ||cultj2ghubcc73f08abg.gapconnectionbridge.co.in^$all
 ||dwlae.top^$document
@@ -32721,6 +32692,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||primakovreadings.info^$all
 ||nopae.top^$all
 ||turtleclient.xyz^$document
+||yma.zdwtixh.xyz^$document
 ||dk9zc9.pro^$document
 ||worshippers.store^$document
 ||decisionsem.live^$document
@@ -32735,6 +32707,9 @@ ostrowlubelski.pl##^responseheader(location)
 ||eslgrandscup.com^$document
 ||relaxcsvote.shop^$document
 ||mullvaad.net^$all
+||nscotra.com^$all
+||cvsdocfilesharingesign.com^$all
+||deltaa-executor.com^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -32983,7 +32958,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||appinstallcheck.com^$all
 ||api.pushnami.com/api/push/image/id/61f58059b94aff0015c3e03c^$all
 ||filefixation.com^$document
-||ffe405491d.28b67b8230.com^$popup
 ||german0.xyz^$all
 ||wnprt.club^$all
 ||kerbians.click^$all
@@ -33162,17 +33136,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||originalspartner.life^$document
 ||charmingdating.life^$document
 ||datingarea.life^$document
-||demoniacipÅ‘.com^$all
-||demoniastopankysk.sk^$all
-||demoniatÃ¼rkiye.com^$all
-||lululemonbarcelona.es^$all
-||sauconylÃ¸besko.com^$all
-||wolverineschuhes.de^$all
-||keentÃ¼rkiye.com^$all
-||hoka-spain.es^$all
-||monclersouthafrica.co.za^$all
-||palladiumsouthafrica.co.za^$all
-||gummistÃ¸vlerhunter.com^$all
 ||darkinfotale.xyz^$all
 ||hollandcash.nl^$all
 ||clean-blocker.com^$all
@@ -33221,7 +33184,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||bettertool.xyz^$all
 ||x2-promo.net^$all
 ||teslasend.io^$all
-||f.vipcooldating.top^$all
 ||vipcooldating.top^$all
 ||adzfree-watch.net^$document
 ||ikouthaupi.com^$all
@@ -33493,7 +33455,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||amnotification.com^$all
 ||desbiens123.net^$all
 ||avprotect.store^$all
-||47aead8f05.com^$3p
 ||systemoon.co.in^$all
 ||prizehub.top^$all
 ||ambrs.online^$document
@@ -33518,7 +33479,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||lands.ninja^$document,popup
 ||okdebrid.com^$document
 ||youdebrid.com^$document
-||graduatedgroan.com^$document,popup
 ||uidhealth.com^$all
 ||popgoldblocker.info^$document
 ||adblockology.net^$all
@@ -33595,7 +33555,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 /light/av/nrtn03/index.php?lpkey=$document
 ||push-ebfhafd-5643.boustahe.com^$all
 ||sys.donecperficiam.net^$document
-||ww3.keytrack.site^$popup
 ||nomadsbrand.com^$all
 ||system-notify.app^$third-party
 ||paladiact.com^$all
@@ -33786,6 +33745,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||medium.com/@liamm7203/hire-a-hacker-to-change-university-grades-transcripts-lee-ultimate-hac-0ea869b69aca^$all
 ||pregnantsimulator.com^$document
 ||adultonlineplay.com^$document
+||nelyc5h5x.jaynapatel.co.uk^$all
 ||adidasbrasil.net^$document
 ||adidascolombia.net^$document
 ||adidasfotballsko.com^$document
@@ -34360,6 +34320,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||iioddoy.shop^$all
 ||baodan.xyz^$document
 ||ixlcrg.shop^$all
+||img.gagabao216.com^$image
 ||ffuoouw.shop^$all
 ||nnsnnqn.shop^$all
 ||rrmuumm.shop^$all
@@ -34476,6 +34437,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||16hl07csd16.nl^$all
 ||discreethookups.co.uk^$document
 ||22mlf09mds22.com^$all
+||n5n.relationsbuddy.com^$all
 ||montlusa.top^$all
 ||track-victoriadates.com^$all
 ||zephyrlabsora.com^$all
@@ -34485,13 +34447,17 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||batrevrig.info^$all
 ||vowpairmax.live^$all
 ||impfehut.live^$all
+||hfa.hookupsconnect.com^$all
 ||info-extremechat.com^$all
+||uhe.fitflirts.com^$all
 ||testars-consin.icu^$document
 ||flirten.com^$document
+||pt0.flirtyconnection.com^$all
 ||tiamo.life^$all
 ||jennajoslyn.ru.com^$document
 ||3bigs.com^$all
 ||savkar.ai^$all
+||dgm.cloudflirts.com^$document
 ||findneighboursonline.com^$all
 ||onlyshagplace.com^$all
 ||tempmail.com^$all
@@ -34499,6 +34465,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||deviceconnectnetwork.co.in^$all
 ||officialconbase.schtwalter.xyz^$all
 ||freebitcoin.pages.dev^$all
+||suc.directaffair.com^$document
 ||foxysociety.com^$document
 ||dirtyzone.com^$document
 ||liegeanddairy.com^$all
@@ -34507,9 +34474,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||sundaydiscounts.lat^$document
 ||paperartcard.com^$document
 ||goshopgadget.com^$document
+||lwyn.theconversionsguru.com^$document
 ||deals4you.click^$document
 ||toysfunzone.com^$document
 ||fabulousitem.com^$document
+||mzb.flylocals.com^$all
 ||ukflirtzone.com^$all
 ||onlineromanceusa.com^$all
 ||forumofsecrets.com^$all
@@ -34608,6 +34577,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||diuntilard.com^$document
 ||exouous.com^$document
 ||arculike.com^$document
+||static.bbcrossworld.com^$all
 ||atlaspvs.com^$document
 ||bisertravel.com.mk^$document
 ||blsindiavisa.kr^$document
@@ -34691,6 +34661,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||visumbuitenland.nl^$document
 ||UK-Mums.com^$all
 ||t.me/AIntivirusHQ/MCAFEE^$all
+||8pm.simplymatches.com^$all
 ||info-mymilfs.com^$all
 ||ad-extremesite.com^$all
 ||bbwdates24.com^$all
@@ -34698,6 +34669,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||secretmatureaffair.com^$all
 ||flirtymoms.com^$all
 ||naughtymatureflirts.com^$all
+||qgxeqm.unfamiillardates.net^$all
 ||fuckfinder.com^$document
 ||fun-casualdate.com^$document
 ||totalav.com^$all
@@ -34724,6 +34696,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||windowserrorfixer.com^$document
 ||itopvpn.com^$document
 ||itopupdate.com^$document
+||update.downloaditop.com^$document
 ||2-spyware.com/reimage/download$all
 ||2-spyware.com/download/ReimageRepair$all
 ||reimageplus.com^$all
@@ -34824,6 +34797,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||chrome.google.com/webstore/detail/my-notes-extension/jekjflpbfegfepdioebbpanjkjhcihoi^$document
 ||doodrdash.com^$all
 ||thale-ete.com^$document
+||dkjfhuyd.fivetrafficroads.com^$all
 ||chrome.google.com/webstore/detail/weather-in/jpflgehebdhjjcdojdloemfeflelhmoh^$document
 ||weather-in.xyz^$document
 ||linkvertise.download^$document
@@ -35023,6 +34997,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||clevguard.org^$all
 ||imyfone.com^$document
 ||mspy.com^$all
+||la.quicksightnow.com^$document
 ||spy99.com^$all
 ||spyrix.com^$all
 ||spyrix-sfk.com^$all
@@ -38482,6 +38457,11 @@ ref=dtf.ru$doc,removeparam=ref
 ||thehill.com^$removeparam=emaila
 ||thehill.com^$removeparam=emailb
 ||instagram.com^$doc,removeparam=entry_point
+||cbc.ca^$removeparam=webview
+||cbc.ca^$removeparam=appname
+||cbc.ca^$removeparam=/^didomi.*$/
+||cbc.ca^$removeparam=udid
+||translate.goog^$removeparam=gltr_redir
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
