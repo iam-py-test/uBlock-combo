@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 03/05/2025
+! Last updated: 04/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25286,9 +25286,9 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||172.240.41.32^$all
 ||172.240.41.64^$all
 ||172.240.41.96^$all
-*$ipaddress=172.240.41.32
-*$ipaddress=172.240.41.64
-*$ipaddress=172.240.41.96
+*$all,ipaddress=172.240.41.32
+*$all,ipaddress=172.240.41.64
+*$all,ipaddress=172.240.41.96
 ||password-internal.com^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
@@ -28457,9 +28457,6 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ||139.45.197.244^$all
 *$all,ipaddress=139.45.197.168
 *$all,ipaddress=139.45.197.244
-*$all,ipaddress=172.240.41.32
-*$all,ipaddress=172.240.41.64
-*$all,ipaddress=172.240.41.96
 ||aikoxouftuxoun.net^$all
 ||ajartoalsushy.com^$all
 ||aptouste.net^$all
@@ -30389,6 +30386,8 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ||xss.my.id^$third-party
 ||85.159.213.158^$all
 *$all,ipaddress=85.159.213.158
+*$all,ipaddress=91.195.240.12
+*$all,ipaddress=205.234.175.175
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
