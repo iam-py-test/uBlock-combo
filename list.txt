@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 04/05/2025
+! Last updated: 05/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -37005,6 +37005,8 @@ $removeparam=b_source
 $removeparam=b_medium
 $removeparam=b_campaign
 $removeparam=gad_source
+$removeparam=tw_medium
+$removeparam=tw_profile_id
 $removeparam=_gid
 $removeparam=ga_vid
 $removeparam=ga_sid
@@ -37265,7 +37267,6 @@ $removeparam=geniuslink
 ||amazon.$removeparam=/^pd_rd_.*$/
 ||amazon.$removeparam=twitchToken
 ||amazon.$removeparam=sigts
-||amazon.$removeparam=sig
 ||amazon.$removeparam=ref-refURL
 ||amazon.$removeparam=imprToken
 ||amazon.$removeparam=store_ref
