@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 08/05/2025
+! Last updated: 09/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -30381,13 +30381,12 @@ www.tumblr.com##div[data-timeline-id] div[style="margin-top: 0px;"]:has(a:is([hr
 ||netnet44.net^$all
 ||odintara.com^$doc
 ||54.174.156.141^$doc
-*$all,ipaddress=54.174.156.141
+$all,ipaddress=54.174.156.141
 ://old.sermitsiaq.ag^$doc,domain=subdomain_stolen_from_sermitsiaqs_owners.*
 ||xss.my.id^$third-party
 ||85.159.213.158^$all
-*$all,ipaddress=85.159.213.158
-*$all,ipaddress=91.195.240.12
-*$all,ipaddress=205.234.175.175
+$all,ipaddress=85.159.213.158
+$all,ipaddress=91.195.240.12
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
