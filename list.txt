@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 09/05/2025
+! Last updated: 10/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -25290,6 +25290,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 *$all,ipaddress=172.240.41.64
 *$all,ipaddress=172.240.41.96
 ||password-internal.com^$all
+||eyestore.tebex.io^$doc
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -38947,6 +38948,7 @@ ref=dtf.ru$doc,removeparam=ref
 ||cbc.ca^$removeparam=/^didomi.*$/
 ||cbc.ca^$removeparam=udid
 ||translate.goog^$removeparam=gltr_redir
+||www.rawstory.com^$removeparam=rsplus
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
