@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 11/05/2025
+! Last updated: 12/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -33849,70 +33849,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||install-check.com^$all
 ||goph.club^$all
 ||zat.io^$all
-||navi1.com^$document
-||navi2.com^$document
-||navi3.com^$document
-||navi5.com^$document
-||navi6.com^$document
-||navi7.com^$document
-||navi12.com^$document
-||navi18.com^$document
-||navi20.com^$document
-||navi21.com^$document
-||navi23.com^$document
-||navi24.com^$document
-||navi32.com^$document
-||navi33.com^$document
-||navi35.com^$document
-||navi40.com^$document
-||navi50.com^$document
-||navi53.com^$document
-||navi54.com^$document
-||navi56.com^$document
-||navi58.com^$document
-||navi65.com^$document
-||navi72.com^$document
-||navi77.com^$document
-||navi88.com^$document
-||navi99.com^$document
-||navi100.com^$document
-||faze1.com^$document
-||faze3.com^$document
-||faze4.com^$document
-||faze5.com^$document
-||faze9.com^$document
-||faze19.com^$document
-||faze40.com^$document
-||faze47.com^$document
-||navi10.ru^$document
-||navi20.ru^$document
-||navi22.ru^$document
-||navi23.ru^$document
-||navi24.ru^$document
-||navi30.ru^$document
-||navi35.ru^$document
-||navi36.ru^$document
-||navi38.ru^$document
-||navi39.ru^$document
-||navi42.ru^$document
-||navi45.ru^$document
-||navi59.ru^$document
-||navi66.ru^$document
-||navi72.ru^$document
-||navi78.ru^$document
-||nip2.com^$document
-||nip3.com^$document
-||nip4.com^$document
-||nip5.com^$document
-||nip10.com^$document
-||nip12.com^$document
-||nip23.com^$document
-||nip26.com^$document
-||nip28.com^$document
-||nip29.com^$document
-||nip57.com^$document
-||nip69.com^$document
-||nip89.com^$document
 ||bcb.game^$all
 ||us-trendingtoday.com^$document,popup
 ||truebuyerreview.com^$all
