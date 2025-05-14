@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 13/05/2025
+! Last updated: 14/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -36391,9 +36391,56 @@ $removeparam=ysclid
 /?r=dir&zoneid=$doc,removeparam
 /?rb=*&zoneid=$doc,removeparam
 /?uclick=*;uclickhash=$doc,removeparam
+$removeparam=__io_lv
+$removeparam=_bdadid
+$removeparam=_bhlid
+$removeparam=_io_session_id
+$removeparam=_sgm_action
+$removeparam=_sgm_campaign
+$removeparam=_sgm_pinned
+$removeparam=_sgm_source
+$removeparam=_sgm_term
+$removeparam=action_type_map
+$removeparam=adjust_adgroup
+$removeparam=adjust_campaign
+$removeparam=adjust_creative
+$removeparam=adjust_referrer
+$removeparam=adjust_tracker
+$removeparam=adjust_tracker_limit
+$removeparam=adobe_mc_ref
+$removeparam=adobe_mc_sdid
+$removeparam=bemobdata
+$removeparam=beyond_uzcvid
+$removeparam=beyond_uzmcvid
+$removeparam=btag
+$removeparam=cjevent
+$removeparam=cm_cr
+$removeparam=cm_me
+$removeparam=cx_click
+$removeparam=cx_recsOrder
+$removeparam=cx_recsWidget
+$removeparam=emcs_t
+$removeparam=ems_dl
+$removeparam=external_click_id
+$removeparam=famad_xuid
+$removeparam=iclid
+$removeparam=ir_adid
+$removeparam=ir_campaignid
+$removeparam=ir_partnerid
+$removeparam=irgwc
+$removeparam=mt_link_id
+$removeparam=personaclick_input_query
+$removeparam=personaclick_search_query
+$removeparam=rtkcid
+$removeparam=spot_im_redirect_source
+$removeparam=uzcid
+$removeparam=vero_conv
+$removeparam=vero_id
+$removeparam=wickedid
 $doc,removeparam=/^\??utm_.*$/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl|~gaugau.futabanet.jp|~uploadnow.io
 $doc,removeparam=/^itm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^stm_.*$/,domain=~redir.tradedoubler.com
+$doc,removeparam=/^mtm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^_utm_.*$/i
 $removeparam=logTag,doc
 $removeparam=gclsrc,doc
@@ -36657,7 +36704,6 @@ $removeparam=srnd
 $removeparam=as_src
 =adservice$removeparam=coid,domain=~radioreference.com|~finanzonline.bmf.gv.at
 $removeparam=edsacid
-$removeparam=action_type_map
 $doc,removeparam=/^bsft_.*$/
 $doc,removeparam=/^dpg_.*$/
 $doc,removeparam=/^adjust.*$/,domain=~adj.st
@@ -36800,8 +36846,6 @@ $removeparam=cmp_id
 $removeparam=adg_id
 $removeparam=os_ehash
 $removeparam=ldtag_cl
-$removeparam=vero_conv
-$removeparam=vero_id
 $removeparam=a_aid
 $removeparam=otracker
 $removeparam=otracker1
@@ -36861,7 +36905,7 @@ $doc,removeparam=/^aff_sub\d?=.*$/
 $removeparam=afftrack
 $removeparam=atid
 $doc,removeparam=/^clickref\d?=.*$/
-$removeparam=cuid
+$removeparam=cuid,domain=~dynamicyield.com
 $removeparam=data1,domain=~web3.cmvm.pt
 $removeparam=data2
 $removeparam=data3
@@ -37010,7 +37054,6 @@ $removeparam=amp_device_id
 $removeparam=awinaffid
 $removeparam=cje
 $removeparam=removedParams
-$removeparam=iclid
 $removeparam=rndad
 $doc,removeparam=/^tracker=affiliatefuture$/i
 $removeparam=affc
@@ -37372,6 +37415,7 @@ $removeparam=oid2
 $removeparam=tw_source
 $removeparam=tw_adid
 $removeparam=retailerSlug
+$removeparam=uls_trackid
 /auto-append-spmid.js
 $doc,removeparam=cid,domain=8days.sg|abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor.com|apple.com|bitdefender.*|blair.com|channelnewsasia.com|childrensplace.com|controld.com|dcard.tw|elmundo.es|emirates.com|factoryoutletstore.com|fifa.com|flipkart.com|gamestop.com|giphy.com|glasses.com|haband.com|intuit.com|jared.com|jcpenney.com|kay.com|kohls.com|lenovo.com|loft.com|marca.com|microsoft.com|nbcnews.com|nike.com|nyandcompany.com|overstock.com|persol.com|proshop.*|radissonhotelsamericas.com|ray-ban.com|rei.com|rightmove.co.uk|samsung.com|stadium.*|staples.com|telenor.no|todayonline.com|tokopedia.com|tommy.com|toms.com|totalbeauty.com|tractorsupply.com|underarmour.com|vineyardvines.com|voxi.co.uk|wine.com|wsj.com|xg4ken.com|zales.com
 $removeparam=ref,doc,domain=404media.co|abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|daily.dev|deal.no|dell.com|depot.dev|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|eventbrite.*|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|freebies.indiegala.com|gallery.so|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|nebula.tv|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|snapchat.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|umami.is|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com|emag.ro|account.microsoft.com|tierlist.com|lastampa.it|repubblica.it|ilsecoloxix.it|gelocal.it|limesonline.com|huffingtonpost.*
@@ -37460,7 +37504,6 @@ $removeparam=returnFromLogin,domain=amazon.*
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.$removeparam=content-id
 ||amazon.$removeparam=colid
-||amazon.*/dp/$removeparam=s,doc
 ||gaming.amazon.com^$removeparam=redirectRoute
 ||amazon.$removeparam=sbo
 $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
@@ -39092,6 +39135,7 @@ ref=dtf.ru$doc,removeparam=ref
 ||cbc.ca^$removeparam=udid
 ||translate.goog^$removeparam=gltr_redir
 ||www.rawstory.com^$removeparam=rsplus
+||em.dynamicyield.com^$removeparam=tag_ids
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
