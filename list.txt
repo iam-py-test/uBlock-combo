@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 23/05/2025
+! Last updated: 24/05/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -30595,6 +30595,23 @@ $doc,3p,ipaddress=2a14:2d81:0:27::1
 ||www-test.lacoste.com^$doc
 ||139-99-239-47.dynamic-ip.hinet.net^$doc
 ||47.ip-139-99-239.net^$doc
+||264dy.com^$all
+||amt3.com^$all
+||boawhauw.net^$all
+||gaiptepsaiw.com^$all
+||graizoah.com^$all
+||gramainoadraith.com^$all
+||grephopsih.net^$all
+||inshelmetan.com^$all
+||oamsedsaiph.net^$all
+||pdidp.com^$all
+||psaitchuzaubo.com^$all
+||rita0.com^$all
+||stylf.com^$all
+||tshfc.com^$all
+||zorsophulroo.com^$all
+||139.45.195.9^$all
+$all,ipaddress=139.45.195.9
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -39137,6 +39154,7 @@ ref=dtf.ru$doc,removeparam=ref
 ||translate.goog^$removeparam=gltr_redir
 ||www.rawstory.com^$removeparam=rsplus
 ||em.dynamicyield.com^$removeparam=tag_ids
+||filestore.app^$doc,removeparam=/^client_ip=$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
