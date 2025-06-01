@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 31/05/2025
+! Last updated: 01/06/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -1219,10 +1219,10 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||videoadblockers.$doc,popup
 ||videoadblockertou.$doc,popup
 ||videoadblockextension.$doc,popup
-://142.91.159.$doc
-/^172\.255\.6\.(\d\d?|[12][0-689]\d|17[0-689])$/
-://23.109.150.$doc
-://23.109.248.$doc
+$all,ipaddress=/^142\.91\.159\.[12]?\d?\d$/
+$all,ipaddress=/^23\.109\.150\.[12]?\d?\d$/
+$all,ipaddress=/^23\.109\.248\.[12]?\d?\d$/
+$all,ipaddress=/^172\.255\.6\.(\d\d?|(17?|2)[0-689]\d)$/
 ||abedwithdrawalautograph.com^$all,~inline-font
 ||abnegateexcavator.com^$all,~inline-font
 ||acceptablefabric.com^$all,~inline-font
@@ -3280,10 +3280,10 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||zealpickup.com^$all,~inline-font
 ||zeroclampentice.com^$all,~inline-font
 ||zillionable.com^$all,~inline-font
-://173.233.137.$doc
-://173.233.139.$doc
-://192.243.59.$doc
-://192.243.61.$doc
+$all,ipaddress=/^173\.233\.137\.[12]?\d?\d$/
+$all,ipaddress=/^173\.233\.139\.[12]?\d?\d$/
+$all,ipaddress=/^192\.243\.59\.[12]?\d?\d$/
+$all,ipaddress=/^192\.243\.61\.[12]?\d?\d$/
 ||deviuser.com^$doc
 /scan-update-and-protect-your-browser.html$doc
 /^(https?://)?(www\.)?cunt[a-z]{3,8}\.com(/.*)?$/$doc,popup
@@ -4168,9 +4168,9 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||telemetry-urs-microsoft.com^$all,~inline-font
 ||top-captcharesolver.$all,~inline-font
 ||winrar-desktop.com^$all,~inline-font
-://46.161.27.$doc
-://78.128.112.$doc
-://179.60.146.$doc
+$all,ipaddress=/^46\.161\.27\.[12]?\d?\d$/
+$all,ipaddress=/^78\.128\.112\.[12]?\d?\d$/
+$all,ipaddress=/^179\.60\.146\.[12]?\d?\d$/
 ||trafredirtds.com^$all,~inline-font,domain=~malware_redirection_trains.*
 ||com/landers/iphone*_spin$doc
 ||pu020ev.com^$all,~inline-font
@@ -4479,14 +4479,14 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||z-prize.icu^$all,~inline-font
 ||zfcurqe.art^$all,~inline-font
 ||zuginmw.art^$all,~inline-font
-/^178\.253\.[0-7]\.\d{1,3}$/
-://178.253.14.$doc
-://178.253.15.$doc
-/^178\.253\.2[0145]\\d{1,3}$/
-/^178\.253\.3[04-7]\.\d{1,3}$/
-://178.253.46.$doc
-://178.253.47.$doc
-://178.253.54.$doc
+$all,ipaddress=/^178\.253\.[0-7]\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.14\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.15\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.2[0145]\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.3[04-7]\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.46\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.47\.[12]?\d?\d$/
+$all,ipaddress=/^178\.253\.54\.[12]?\d?\d$/
 ||85.17.31.152^$all,~inline-font
 *$all,ipaddress=85.17.31.152
 ||95.211.26.202^$all,~inline-font
@@ -4507,7 +4507,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 *$all,ipaddress=158.247.212.220
 ||165.227.168.212^$doc
 *$all,ipaddress=165.227.168.212
-://162.241.115.$doc
+$all,ipaddress=/^162\.241\.115\.[12]?\d?\d$/
 ||fearconic.com^$all,~inline-font
 ||atobunderevenes.com^$all,~inline-font
 ||ferrantrative.com^$all,~inline-font
@@ -6793,8 +6793,8 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||xn--conversemaazalar-shc44a.com^$all,~inline-font
 ||xn--hotiayakkab-p9a38g.com^$all,~inline-font
 ||xn--vansayakkab-9zb.com^$all,~inline-font
-://104.160.10.$doc
-://165.231.154.$doc
+$all,ipaddress=/^104\.160\.10\.[12]?\d?\d$/
+$all,ipaddress=/^165\.231\.154\.[12]?\d?\d$/
 ||adidas--*$all,~inline-font
 ||adidas-outlet*$all,~inline-font
 ||adidasfactoryoutlet*$all,~inline-font
@@ -7523,14 +7523,14 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||vans-finland.com^$all,~inline-font
 ||martensbratislava.sk^$all,~inline-font
 ||zapatillasmcqueen.com^$all,~inline-font
-://165.231.10.$doc
-://165.231.152.$doc
-://196.196.52.$doc
-://196.196.155.$doc
-://196.240.121.$doc
-://196.242.179.$doc
-://196.245.52.$doc
-://196.245.56.$doc
+$all,ipaddress=/^165\.231\.10\.[12]?\d?\d$/
+$all,ipaddress=/^165\.231\.152\.[12]?\d?\d$/
+$all,ipaddress=/^196\.196\.52\.[12]?\d?\d$/
+$all,ipaddress=/^196\.196\.155\.[12]?\d?\d$/
+$all,ipaddress=/^196\.240\.121\.[12]?\d?\d$/
+$all,ipaddress=/^196\.242\.179\.[12]?\d?\d$/
+$all,ipaddress=/^196\.245\.52\.[12]?\d?\d$/
+$all,ipaddress=/^196\.245\.56\.[12]?\d?\d$/
 ://rufus.download.$doc,popup
 ://virtualbox.download.$doc,popup
 ://vidiq.download.$doc,popup
@@ -8170,7 +8170,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||zevaimsu.net^$all,~inline-font
 ||zewoagoo.com^$all,~inline-font
 ||zoozistu.net^$all,~inline-font
-://139.45.197.$doc
+$all,ipaddress=/^139\.45\.197\.[12]?\d?\d$/
 ||academic-information.com^$all,~inline-font
 ||academicvast.com^$all,~inline-font
 ||ashamedstep.com^$all,~inline-font
@@ -8910,7 +8910,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||moneystartup.live^$all,~inline-font
 ||fintechbest.online^$all,~inline-font
 &trafficsource=Kadam&$doc
-://5.61.60.$doc
+$all,ipaddress=/^5\.61\.60\.[12]?\d?\d$/
 ||algazira-updates.com^$all,~inline-font
 ||articles-news-magazine.com^$all,~inline-font
 ||bellisimo-news.com^$all,~inline-font
@@ -9155,7 +9155,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 *$all,ipaddress=57.128.71.215
 /^.*&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$doc
 ||rumadel.com^$all,~inline-font
-://103.224.182.$doc
+$all,ipaddress=/^103\.224\.182\.[12]?\d?\d$/
 ||apigroup.xyz^$all,~inline-font
 ||apihouse.xyz^$all,~inline-font
 ||apiinfo.xyz^$all,~inline-font
@@ -9859,21 +9859,21 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||185.56.234.205^$all,~inline-font
 *$all,ipaddress=185.56.234.205
 ||192.243.58.97^$all,~inline-font
-*$all,ipaddress=192.243.58.97
 ||192.243.58.98^$all,~inline-font
-*$all,ipaddress=192.243.58.98
 ||192.243.58.123^$all,~inline-font
-*$all,ipaddress=192.243.58.123
 ||192.243.58.124^$all,~inline-font
-*$all,ipaddress=192.243.58.124
 ||192.243.58.125^$all,~inline-font
-*$all,ipaddress=192.243.58.125
 ||[2a02:b48:207:1::2]^$all,~inline-font
 ||[2a02:b48:207:1::3]^$all,~inline-font
 ||[2a02:b48:207:1::6]^$all,~inline-font
 ||[2a02:b48:207:1::7]^$all,~inline-font
 ||[2a02:b48:207:1::8]^$all,~inline-font
-://||192.243.58.$doc
+$all,ipaddress=2a02:b48:207:1::2
+$all,ipaddress=2a02:b48:207:1::3
+$all,ipaddress=2a02:b48:207:1::6
+$all,ipaddress=2a02:b48:207:1::7
+$all,ipaddress=2a02:b48:207:1::8
+$all,ipaddress=/^192\.243\.58\.[12]?\d?\d$/
 ||abdoser.co.in^$all,~inline-font
 ||acelim.co.in^$all,~inline-font
 ||adsos.xyz^$all,~inline-font
@@ -14647,7 +14647,7 @@ zombooru.com##a[href$="ttp://www.hard55.com"]
 ||zigse.com^$all,~inline-font
 ||zrl7.com^$all,~inline-font
 ||modreminiapk.com^$all,~inline-font
-://45.141.59.$doc
+$all,ipaddress=/^45\.141\.59\.[12]?\d?\d$/
 ||basicnetworkhistory.com^$all,~inline-font
 ||chainedconnections.com^$all,~inline-font
 ||chainworkflow.com^$all,~inline-font
@@ -26578,14 +26578,12 @@ toorgle.net##.join
 ||s-arts.pro^$all,~inline-font
 ||skinosoda.online^$all,~inline-font
 ||194.226.139.121^$all,~inline-font
-*$all,ipaddress=194.226.139.121
 ||194.226.139.7^$all,~inline-font
-*$all,ipaddress=194.226.139.7
 ||95.181.157.36^$all,~inline-font
 *$all,ipaddress=95.181.157.36
 ||95.181.172.204^$all,~inline-font
 *$all,ipaddress=95.181.172.204
-://194.226.139.$doc
+$all,ipaddress=/^194\.226\.139\.[12]?\d?\d$/
 ://5.8.67.$doc
 ://5.101.45.$doc
 ://5.188.178.$doc
@@ -27952,8 +27950,8 @@ cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||yuzlikmimed.uno^$all,~inline-font
 ||zapsenlight.space^$all,~inline-font
 ||zoqueanbannets.tech^$all,~inline-font
-://188.42.84.$doc
-://203.195.121.$doc
+$all,ipaddress=/^188\.42\.84\.[12]?\d?\d$/
+$all,ipaddress=/^203\.195\.121\.[12]?\d?\d$/
 ||gantdanmark.com^$all,~inline-font
 ||gantnorge.com^$all,~inline-font
 ||gantnorges.com^$all,~inline-font
@@ -37712,6 +37710,8 @@ $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
 ||amazon.$removeparam=spIA
 ||amazon.$doc,removeparam=ccs_id
 ||amazon.$doc,removeparam=source
+||amazon.$removeparam=hvocijid
+||amazon.$removeparam=hvexpln
 ||bing.com/?$removeparam=/^form=.*$/i
 ||bing.$removeparam=sp
 $removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
