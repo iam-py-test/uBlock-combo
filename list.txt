@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 02/06/2025
+! Last updated: 03/06/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14101,6 +14101,13 @@ $all,ipaddress=/^192\.243\.58\.[12]?\d?\d$/
 *$all,ipaddress=103.174.102.240
 ||libretube.app^$all,~inline-font
 ||libretube.net^$all,~inline-font
+||khw6g09fx28k.cfd^$all,~inline-font
+||49gw5gonj143k.click^$all,~inline-font
+||djxd2ox30l7.click^$all,~inline-font
+||vtreanext.click^$all,~inline-font
+||theratgamez.com^$all,~inline-font
+||fwkldh.click^$all,~inline-font
+||gyhguflo.click^$all,~inline-font
 ||rt54erdfgh.pro^$all,~inline-font
 ||mjiu876tyh.pro^$all,~inline-font
 ||ki987yth.pro^$all,~inline-font
@@ -32775,7 +32782,6 @@ ostrowlubelski.pl##^responseheader(location)
 ||decorous.ru^$all
 ||geminiso.ru^$all
 ||triticumos.ru^$all
-||213.248.43.54^$document
 ||retghrtgwtrgtg.bounceme.net^$all
 ||datastream.myvnc.com^$all
 ||gservicese.com^$all
@@ -33587,6 +33593,7 @@ ostrowlubelski.pl##^responseheader(location)
 ||v3-dappradar.com^$document
 ||app.darppadar.com^$document
 ||seller-verification.com^$document
+||darkmodz-links.com^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||catnip.de^$all
@@ -35483,6 +35490,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||qgxeqm.unfamiillardates.net^$all
 ||fuckfinder.com^$document
 ||fun-casualdate.com^$document
+||bociti.click^$all
+||flytomoon.online^$document
+||casualhookup.com^$document
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
