@@ -1,16 +1,17 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 25/06/2025
+! Last updated: 26/06/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top|~hostingowy.top|~to|~yggtorrent.top|~asiaon.top|~voxel.top|~passt.top
+||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top|~hostingowy.top|~to|~yggtorrent.top|~asiaon.top|~voxel.top|~passt.top|~polar.top
 @@||masto*.top^$doc
 @@/^.*(tech|project|linux).*\.top(/[a-z0-9_-]?.*)?$/$doc
 @@://blog.*.top^$doc
 @@://pyrofork.*.top^$doc
+@@||wceui.top^
 ||loan^$doc
 ||bid^$doc
 .buzz/*/?*=*&*=*&*=*&*=*&*=$doc
@@ -32541,6 +32542,39 @@ $all,ipaddress=139.45.195.9
 ||185.53.177.54^$all
 $all,ipaddress=185.53.177.54
 ||24hdeepnude.com^$doc
+||acquiredeceasedundress.com^$all
+||anytimebananarecoil.com^$all
+||avalanchetremorunfilled.com^$all
+||bartererfaxtingling.com^$all
+||boxypluckunrelated.com^$all
+||broadsidedaisysanta.com^$all
+||campfirecroutondecorator.com^$all
+||citadelexampleruckus.com^$all
+||clammyendearedkeg.com^$all
+||concludelivingshowman.com^$all
+||darnobedienceupscale.com^$all
+||debateobsoletesimply.com^$all
+||deductgreedyheadroom.com^$all
+||demandingoverdriveunthread.com^$all
+||detoxifylagoonsnugness.com^$all
+||doctrinekettleworsening.com^$all
+||dodgyfactoidprecut.com^$all
+||earmuffpostnasalrisotto.com^$all
+||flagstonefoundingmonotype.com^$all
+||frozenpayerpregnant.com^$all
+||gigglegrowlworrisome.com^$all
+||guidepaparazzisurface.com^$all
+||hypnotizesqueegeetricolor.com^$all
+||lethargyplatingsatin.com^$all
+||vertigovitalitywieldable.com^$all
+||172.240.41.33^$all
+||172.240.41.65^$all
+||172.240.41.97^$all
+||172.240.41.129^$all
+$all,ipaddress=172.240.41.33
+$all,ipaddress=172.240.41.65
+$all,ipaddress=172.240.41.97
+$all,ipaddress=172.240.41.129
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
