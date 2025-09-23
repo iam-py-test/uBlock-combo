@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 22/09/2025
+! Last updated: 23/09/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20605,6 +20605,12 @@ $all,ipaddress=46.101.81.149
 ||freshsubz.com^$doc
 ||52.15.34.25^$all
 $all,ipaddress=52.15.34.25
+||203.188.171.156^$all
+$all,ipaddress=203.188.171.156
+||soft-gets.com^$all
+||reaitek.com^$all
+||fastdomain-uoemathhvq.workers.dev^$all
+||dev.ip.organica.tv^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -27097,6 +27103,10 @@ drvhub.net##.driver-item__install
 ||divingshop.nl^$doc,domain=~bank_transaction_scammers.*
 ||gitcoin-passport.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||passport-gitcoin.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+||github-fund.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+||gitcoin-fund.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+/^https://gitcoin-[a-z]{1,}\.com/?$/$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+/^https://[a-z]{1,}-gitcoin\.com/?$/$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||gitcoin-developers.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||github-foundation.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||gitcoin-grants.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
