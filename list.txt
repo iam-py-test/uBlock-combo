@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 19/10/2025
+! Last updated: 20/10/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -34768,6 +34768,12 @@ $doc,removeparam=sca_upv,domain=www.google.*|ipv6.google.com
 ||translate.google.com^$removeparam=/^tab=TT$/
 ||www.google.$doc,removeparam=sstk
 ||ipv6.google.com^$doc,removeparam=sstk
+://www.google.$removeparam=/^num=\d{2,}$/
+://ipv6.google.com^$removeparam=/^num=\d{2,}$/
+://www.google.$removeparam=aep
+://ipv6.google.com^$removeparam=aep
+://www.google.$removeparam=ntc
+://ipv6.google.com^$removeparam=ntc
 @@://www.google.*/maps^$removeparam=utm_campaign
 @@://ipv6.google.com/maps^$removeparam=utm_campaign
 ||tiktok.com^$removeparam=_r
