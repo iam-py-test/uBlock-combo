@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 07/11/2025
+! Last updated: 08/11/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16819,6 +16819,7 @@ $all,ipaddress=185.53.178.52
 $all,ipaddress=185.53.178.53
 $all,ipaddress=185.53.178.54
 .to/popconsole.php|
+google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|d\ownl\oad).*$/i):has-text(/^.*(ph\ot\osh\op|dav\inc\i|\il{2}ustrat\or).*$/i):has-text(/^.*(fre{2}|(cr|h)ack).*$/i))
 ||kuaizip.com^$all
 ||geekotg.com^$all
 ||xiaobaixitong.com^$all
@@ -23380,7 +23381,6 @@ $removeparam=duckai
 $removeparam=/^ref=winstall$/
 $doc,image,removeparam=/^=$/,domain=discord.com|discordapp.net|amazon.*|adressa.no|polarismedia.no
 /^http.*[^?]\?$/$doc,removeparam=/^=$/
-$removeparam=notification_referrer_id
 $removeparam=slref
 $removeparam=t-src
 $removeparam=x-clickref
