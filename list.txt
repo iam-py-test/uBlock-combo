@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 08/12/2025
+! Last updated: 09/12/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -12723,7 +12723,6 @@ $all,ipaddress=223.29.226.200
 ||heygetbarter.com^$all
 ||michaelborsari.com^$all
 ||softs-window.com^$all
-||sublime-merge-git-client.github.io^$all
 ||sublime-text-3.github.io^$all
 ||welearnn.com^$all
 ||94.156.232.201^$all
@@ -19097,6 +19096,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||go-digital.vip^$document
 ||best-knowledge-good24.com^$all
 ||lastpassrecovery.com^$all
+||simplexspot.com^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
