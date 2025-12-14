@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 13/12/2025
+! Last updated: 14/12/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16631,6 +16631,18 @@ $all,ipaddress=212.27.60.108
 |login.html|
 |polyfill.io|
 ||s.rvikjd.com^
+||rayjump.com^
+||cpimg.tistatic.com^
+||dev.kmint21.com^
+||lencodigitexer.github.io^
+||majorpushme1.com^
+||s.imganalytics.com^
+||s.kazfv.com^
+||s.shyajio.com^
+||s.yieldmrm.com^
+||unused-space.coop.net^
+||vhs.vivo.com.cn^
+||www.isu.edu.eu^
 
 ||amazonaws.com^$all,~inline-font,badfilter
 ||amazonaws.com^$all,badfilter
@@ -19030,7 +19042,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||streamboo.live^$document
 ||streambootest.ru^$document
 ||my-tracknl.com^$document
-||rayjump.com^$document
 ||fish-lane.com^$all
 ||myhermes.atiylu.live^$document
 ||clientsboots.com.es^$document
