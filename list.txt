@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 29/12/2025
+! Last updated: 30/12/2025
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18952,7 +18952,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||gtltowerinfratel.in^$document
 ||bsnltower5g.com^$document
 ||towerinstalltion5g.in^$document
-||canap0stsh0p.com^$document
 ||ezdrivema.com-$document,domain=top
 ||brewmacos.com^$document
 ||ieztoskbcoalf.z13.web.core.windows.net^$all
@@ -20311,7 +20310,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||eccorusland.com^$document
 ||eccoshoessaleaustralia.com^$document
 ||etniesshoesireland.com^$document
-||extreehome.com^$document
 ||fitflopparis.net^$document
 ||fitflopromania.com^$document
 ||footjoycanada.net^$document
@@ -20692,6 +20690,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||bbbdjdhes.com^$document
 ||bbbiuiu.com^$document
 ||usps.zzzopjl.com^$document
+||usps.bbbouou.com^$document
 ||zzzopjl.com^$document
 ||bbbiudhs.com^$document
 ||guidesite.info^$all
@@ -20800,7 +20799,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||noartplace.info^$all
 ||magnetismpull.info^$all
 ||tricksygirlsp.com^$all
-||jazminkager.buzz^$all
 ||exclusivebuyz4uu.shop^$document
 ||reviewgiftfb.com^$document
 ||dollscumnow.eu^$all
@@ -21098,6 +21096,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||airlinesupports.co.uk^$document
 ||aircancellation.com^$document
 ||friendztravel.com^$document
+||friendztravel.com.mx^$document
+||friendztravel.ca^$document
+||friendztravel.co.uk^$document
+||skyfarefinder.co.uk^$document
+||skyfarefinder.com^$document
+||fareleaders.com^$document
+||fareleaders.co.uk^$document
+||farebuddies.com^$document
+||fareoking.com^$document
 ||hub.docker.com/u/winktraveldeals$document
 ||aircancellation.website3.me^$document
 ||americanairlinescustomerservic.godaddysites.com^$document
