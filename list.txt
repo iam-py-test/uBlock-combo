@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 01/01/2026
+! Last updated: 02/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17634,7 +17634,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||69.46.15.158^$all
 ||ormoredeta.xyz^$all
 ||agametog.com^$document
-||domifybot.com^$all
 ||79.137.206.138^$all
 ||circuitingratitude.com^$all
 ||dellenshop.top^$document
@@ -19104,6 +19103,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||best-knowledge-good24.com^$all
 ||lastpassrecovery.com^$all
 ||simplexspot.com^$all
+||recover-signe.com^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -20140,7 +20140,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||equiwarmpro.co^$document
 ||ekommmedia.com^$document
 ||qdyqdym.shop^$all
-||schnellmpu.com^$all
 ||america4internationalstudents.com^$document
 ||bonprix-sale.$document
 ||bite-life.com^$all
