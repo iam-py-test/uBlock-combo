@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 02/01/2026
+! Last updated: 03/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17314,7 +17314,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||clashofclanhacks.com^$all
 ||clikurl.com^$all
 ||comcmast.net^$all
-||commomlit.com^$all
 ||cstress.net^$all
 ||cumonlucy.co.uk^$all
 ||davidsonfirealarms.com^$all
@@ -19522,7 +19521,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||californiasports.shop^$all
 ||cityconnect.pro^$all
 ||clipperton.sk^$all
-||collegespartans.com^$all
 ||crucialcatch.pro^$all
 ||dallascowboys.sale^$all
 ||fanaticsshop.net^$all
@@ -20995,7 +20993,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||evisa-india-online.com^$document
 ||evisaindiaonline.org^$document
 ||evisaindia.org^$document
-||evisatoindia.org^$document
 ||e-visums.nl^$document
 ||globalvisacorp.com^$document
 ||goindiavisa.com^$document
@@ -21110,6 +21107,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanairlinescustomerservic.$document
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
+||nastydollz.wiki^$all
+||singlesrussian.com^$document
+||poundrynloweq.com^$all
+||ukrainianbride.net^$document
+||ukrainelady.net^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
