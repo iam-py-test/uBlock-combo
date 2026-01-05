@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 04/01/2026
+! Last updated: 05/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -3521,7 +3521,6 @@ $all,~inline-font,ipaddress=51.68.87.229
 ||underarmour-us.com^$all,~inline-font
 ||underarmourhungary.com^$all,~inline-font
 ||underarmourosterreich.com^$all,~inline-font
-||underarmouroutletromania.com^$all,~inline-font
 ||underarmourromania-ro.com^$all,~inline-font
 ||vejajapanstore.com^$all,~inline-font
 ||vejaoslo.com^$all,~inline-font
@@ -5784,7 +5783,6 @@ $all,ipaddress=38.180.96.244
 ||edassiumw.xyz^$all
 ||edrubyglo.buzz^$all
 ||efgrghhindhimi.info^$all
-||emydreamsa.com^$all
 ||entsiwoulukdli.com^$all
 ||eredhadbeen.xyz^$all
 ||eretheseantyjyt.info^$all
@@ -17520,7 +17518,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||pipeschannels.com^$all
 ||propvideo.net^$all
 ||psaudous.com^$all
-||ptewarin.net^$all
 ||qarewien.com^$all
 ||rhendam.com^$all
 ||rmndme.com^$all
@@ -18176,7 +18173,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||crack4hit.com^$all
 ||hjdhhfdh.click^$all
 ||closerscopy.net^$all
-||l1ihpb0dz521ol.cfd^$all
 ||eyhdjyst.click^$all
 ||cfgy6tg.pro^$all
 ||klassischefahrschule.com^$document
@@ -18605,7 +18601,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||gimp.zendesk.com^$all
 ||truefortnite.com^$document
 ||kmspico.io^$all
-||uploader-rars.com^$document
 ||kmspico.ws^$all
 ||kms-full.com^$all
 ||kms-tool.com^$all
@@ -21107,7 +21102,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanairlinescustomerservic.$document
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
-||nastydollz.wiki^$all
 ||singlesrussian.com^$document
 ||poundrynloweq.com^$all
 ||ukrainianbride.net^$document
@@ -25235,6 +25229,12 @@ $removeparam=id,domain=affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 ||dllfiles.com^$removeparam=c
 ||microsoft.com/*/download/details$removeparam=quot
 ||microsoft.com/*/download/details$removeparam=lc
+||asuswebstorage.com^$removeparam=ve
+||asuswebstorage.com^$removeparam=pv
+||asuswebstorage.com^$removeparam=x-asc-sid-version
+||asuswebstorage.com^$removeparam=x-asc-device-name
+||asuswebstorage.com^$removeparam=x-asc-os-version
+||asuswebstorage.com^$removeparam=tlt
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
