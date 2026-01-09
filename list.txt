@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
-! Last updated: 08/01/2026
+! Last updated: 09/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15982,6 +15982,12 @@ $all,ipaddress=52.207.126.104
 $all,ipaddress=2604:9e00:1:129::2:b10
 $all,ipaddress=2606:4700:3033::6815:5644
 $all,ipaddress=2a01:4f8:2201:388a::2
+||aipredictdeathcalculator.com^$doc
+||deathcalculator.ai^$doc
+||life2vecai.com^$doc
+||deathprediction.ai^$doc
+||life2veccalculatoronline.github.io^$doc
+||deathcalculator.net^$doc
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -17198,7 +17204,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||nuwealthmedia.com^$all
 ||drpease.com^$all
 ||refinedwebs.com^$all
-||spillpalletonline.com^$all
 ||altcoinfan.com^$all
 ||hill-family.us^$all
 ||gamesrar.co^$all
@@ -19059,7 +19064,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||eureoreu.cloud^$document
 ||zdrytehy.cloud^$document
 ||ebnbwm070725fhl.cfd^$document
-||im9ov070725iqu.cfd^$document
 ||9wn7wh140825st.cfd^$document
 ||96u5qbb3v1408257.cfd^$document
 ||1dljf140825u79.cfd^$document
@@ -19098,6 +19102,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||lastpassrecovery.com^$all
 ||simplexspot.com^$all
 ||recover-signe.com^$all
+||crushon.ai/character/cdc77abe-83ba-4b64-8e35-005ab8bd2af0/$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -21102,6 +21107,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanairlinescustomerservic.$document
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
+||vp.nastydollz.wiki^$all
 ||singlesrussian.com^$document
 ||poundrynloweq.com^$all
 ||ukrainianbride.net^$document
