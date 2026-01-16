@@ -67,13 +67,13 @@ def extdomain(line):
 
 mainlist = f"""! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 22/11/2023
-! Last updated: {}
+! Script last updated: 15/1/2026
+! Last updated: {datetime.date.today().strftime("%d/%m/%Y")}
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-""".format(datetime.date.today().strftime("%d/%m/%Y"))
+"""
 
 eadd = 0
 ered = 0
