@@ -33,4 +33,4 @@ jobs:
           email: updatebot@iam-py-test.github.io
           name: Update bot
           branch: main
-          message: Update the comobo list
+          message: Update the combo list
