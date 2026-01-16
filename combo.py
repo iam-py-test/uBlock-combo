@@ -65,7 +65,7 @@ def extdomain(line):
 	except:
 		return ""
 
-mainlist = """! Title: iam-py-test's Combo List
+mainlist = f"""! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 22/11/2023
 ! Last updated: {}
