@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
-! Script last updated: 22/11/2023
-! Last updated: 15/01/2026
+! Script last updated: 15/1/2026
+! Last updated: 16/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16158,6 +16158,7 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||driverpack.io^$doc,domain=~has_extreme_amounts_of_pup_in_it.*
 ||doh-gov.com^$all
 ||doh-gov.ph^$all
+||gyrovague.com^$all,domain=archive.*
 ||unofficialtwrp.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidweblog.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidgreek.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
@@ -22368,6 +22369,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 /^https?:\/\/winterpayment[a-zA-Z0-9]*\.top\//$doc,domain=top
 /^https:\/\/usps.com-expres[a-zA-Z0-9]\.top\//$document
 ||brewe.sh^$all
+||minecraf.wiki^$document
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
 $removeparam=yclid
 $removeparam=gclid
