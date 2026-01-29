@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 28/01/2026
+! Last updated: 29/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -17715,7 +17715,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||bestsmartfind.com^$all
 ||rebrand.ly/McAfeeSecurity2022ActivateDownload^$all
 ||45.15.157.132^$all
-||kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
 ||bit.ly/fitgirl-repacks-site^$all
 ||fitgirl-repacks-site.org^$all
 ||bluemediafiles.top^$all
@@ -18577,7 +18576,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||freema.hubside.fr^$all
 ||free-zimbra.hubside.fr^$all
 ||free-mobile1540478.hubside.fr^$all
-||freewebzim.hubside.fr^$all
 ||acceder-a-mon-free.hubside.fr^$all
 ||my-acount-free.hubside.fr^$all
 ||shopflarehub.com^$all
