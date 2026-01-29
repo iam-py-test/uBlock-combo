@@ -18015,6 +18015,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||rewardarium.com^$document
 ||65.21.240.228^$all
 ||telegra.ph/T-Soft-06-02^$all
+||doenerium.kqnfkpoccicxiudstqonfotuwsrhuxkwhqjjfsbjhonoubrccy.nl^$all
 ||garuq.com^$all
 ||josemonila.ddnsfree.com^$all
 ||aoikerala.in^$all
@@ -21250,6 +21251,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||heart-rematcher.life^$all
 ||fraudate.com^$document
 ||grannyloves.com^$all
+||websiteinf05.com^$document
+||superoptz.com^$document
+||mainredirect.top^$document
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
