@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 29/01/2026
+! Last updated: 30/01/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -12874,6 +12874,32 @@ $all,ipaddress=94.156.232.201
 ||zensa.site^$all
 ||23.22.126.183^$all
 23.22.126.183$all,ipaddress
+||adbuho.shop^$all
+||againstmor.store^$all
+||blizzboygames.net^$all
+||cherriescoil.xyz^$all
+||cumguns.online^$all
+||downladshar.com^$all
+||filsw.space^$all
+||floridistor.icu^$all
+||freeflix.click^$all
+||gadhortly.store^$all
+||host17x.cfd^$all
+||host63x.cfd^$all
+||jotiretorns.space^$all
+||knmvurjc.cfd^$all
+||ksdvcmer.pro^$all
+||novatalent.agency^$all
+||purposeuncle.xyz^$all
+||scnrkor.pro^$all
+||sharedmega.com^$all
+||spacefls.com^$all
+||srvdowns.com^$all
+||terisoshar.space^$all
+||tjrksciow.pro^$all
+||trackmedia.site^$all
+||trkepcs.com^$all
+||xcvnerui.pro^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -13332,7 +13358,6 @@ $all,~inline-font,ipaddress=54.36.118.105
 $all,~inline-font,ipaddress=159.89.10.102
 ||159.89.10.102^$all,~inline-font
 ||pksauniversity.com^$all,~inline-font
-||sharedmega.com^$doc
 ||dorderstar.xyz^$all,~inline-font
 cdburnerxp.se##[href*="/downloadsetup.exe"]
 ||sexy-egirls-leaked.com^$doc
@@ -18394,7 +18419,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||158.160.5.182^$document
 ||galactiq.life^$document
 ||mediago.io^$document
-||sehprotokoll.com^$document
 ||smartlifeguides.top^$document
 ||gesundheitleber.com^$document
 ||oe24.co^$document
@@ -19248,6 +19272,8 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||telegram.me/n1ds03^$all
 ||fdy.borendrokontho.com^$document
 ||fdy.lidiia.com.ua^$document
+||ddosecrets.com^$document
+||accurate.you^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -25410,6 +25436,11 @@ ref=the-browser$doc,removeparam=ref
 ||game.info.intel.com^$doc,removeparam=_plt
 ||game.info.intel.com^$doc,removeparam=_scr
 ||dell.com^$removeparam=lwp
+||microsoft.com^$removeparam=srcref
+||microsoft^$removeparam=fromcode
+||microsoft^$removeparam=refOrigin
+||microsoft.com^$removeparam=refSource
+||microsoft.com^$removeparam=refPage
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
