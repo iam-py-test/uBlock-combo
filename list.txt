@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 01/02/2026
+! Last updated: 03/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15903,6 +15903,71 @@ $all,ipaddress=2a01:4f8:2201:388a::2
 ||deathprediction.ai^$doc
 ||life2veccalculatoronline.github.io^$doc
 ||deathcalculator.net^$doc
+||aenhance.link^$all
+||besttdate4you.com^$all
+||betr-for-tod.com^$all
+||candydatee.com^$all
+||candydatte.com^$all
+||candygiirl.com^$all
+||catchyourlovee.com^$all
+||cozydatte.com^$all
+||darliingdating.com^$all
+||darlingdatiing.com^$all
+||date4llove.com^$all
+||dateffusion.com^$all
+||datewiithme.net^$all
+||datewiithmee.com^$all
+||datewiithshe.com^$all
+||datewiithyou.com^$all
+||datewiithyou.net^$all
+||datewithu.com^$all
+||datinggwiithme.com^$all
+||datingwiithme.net^$all
+||datingwiithmee.net^$all
+||datingwiithyou.com^$all
+||datingwithmee.net^$all
+||datingwithmie.com^$all
+||dattewiithyou.com^$all
+||dattingspace.com^$all
+||dattingwithyou.com^$all
+||dolcedatiing.com^$all
+||dollcedating.com^$all
+||fiindmatez.com^$all
+||findmattez.com^$all
+||heavengirlls.com^$all
+||hereisyourgirl.com^$all
+||hotdesiire.com^$all
+||hotllove.net^$all
+||hotpllace.com^$all
+||hotspacce.com^$all
+||hottdesire.net^$all
+||hottspace.com^$all
+||hottview.net^$all
+||hotwwomen.com^$all
+||lipsdating.com^$all
+||lloveconection.com^$all
+||lovecconection.com^$all
+||loveconectiion.com^$all
+||loveday4you.com^$all
+||loveintension.com^$all
+||loventtra.com^$all
+||mbsrv2.com^$all
+||mylovvedatte.com^$all
+||nakeddesiire.com^$all
+||prodproof.com^$all
+||sloffer1.com^$all
+||spaceoflovee.com^$all
+||talk2llove.com^$all
+||vfgth.com^$all
+||yourgiirllshere.com^$all
+||yourgiirlshere.com^$all
+||yourgirlhere.com^$all
+||yourgirllshere.com^$all
+||zubrixo.com^$all
+||super-tester.de^$all
+||flirtenhier.com^$all
+||185.7.99.190^$all
+185.7.99.190$all,ipaddress
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -19020,6 +19085,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||fdy.lidiia.com.ua^$document
 ||ddosecrets.com^$document
 ||accurate.you^$document
+||dergoodting.com^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -21026,6 +21092,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||websiteinf05.com^$document
 ||superoptz.com^$document
 ||mainredirect.top^$document
+||elta.564306.com^$document
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -21384,7 +21451,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||youtube.com/channel/UCszV4lSIfrZVwZE1YiANUzw^$document
 ||youtube.com/channel/UCWaneJzQcS5WhaaerEuSg1g^$document
 ||youtube.com/channel/UC8-4-iapLTjw-MUi72kaDiQ^$document
-||youtube.com/channel/UC3qrUm-HpLdin8q-IGQ4UMQ^$document
 ||youtube.com/channel/UCGUEvZCqa4a8S_n6UN1Vtuw^$document
 ||youtube.com/channel/UCd-l4COpGbWCxYddh6ZwLoQ^$document
 ||youtube.com/channel/UC2aUB8zP6YpfgNiy2-tNtYA^$document
@@ -21394,7 +21460,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||youtube.com/channel/UCY-mjAhqC7-Lkv0Qv5nS1yA^$document
 ||youtube.com/channel/UCRYvu6p4-T3RCyl7tgtfC_Q^$document
 ||youtube.com/channel/UCzSW21exQQ_6DJO0GjPr8Dw^$document
-||youtube.com/channel/UC4H0NSb0XAzRAT9NQ4h08jA^$document
 ||youtube.com/watch?v=4XsnniuVG3c^$document
 hanoiopentourism.com##[id*=comment-] > .comment-wrap:has-text(/DINOSONTECH ON INSTAGRAM/i)
 vixencrypto.com##.comment_content:has-text(/dinosontech on Instagram/i)
@@ -21549,7 +21614,7 @@ play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".adblock."])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adsblock])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href$=".adblock"])
-||gyrovague.com^$all,domain=archive.*|~archive.org
+||gyrovague.com^$all,domain=archive.*|~archive.org|btdig.com
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i)
 majorgeeks.com#?#b:has(a[target^=reimage])
 bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
@@ -23676,8 +23741,8 @@ $removeparam=referral,domain=tv2.no|spotify.com|yubo.live
 ||aliexpress.$removeparam=_t
 ||aliexpress.$removeparam=gps-id
 $removeparam=scm_id
-$removeparam=scm
 $removeparam=scm-url
+$removeparam=scm,domain=~v.youku.com
 ||aliexpress.$removeparam=initiative_id
 ||aliexpress.$removeparam=tt
 ||aliexpress.$removeparam=terminal_id
@@ -23699,7 +23764,7 @@ $removeparam=aff_platform
 $removeparam=aff_trace_key
 ||aliexpress.$removeparam=dp
 ||aliexpress.$removeparam=cv
-$removeparam=spm,domain=~twitcasting.tv
+$removeparam=spm,domain=~twitcasting.tv|~v.youku.com
 $removeparam=tracelog
 $removeparam=cardId,doc,domain=alibaba.com
 $removeparam=aff_click_id
