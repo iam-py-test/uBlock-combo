@@ -43,15 +43,17 @@ def isipdomain(domain):
 def extdomain(line):
 	try:
 		domain = ""
+		if line.startswith("||") and line.endswith("^$3p"):
+			return ""
+		if line.startswith("||") and line.endswith("^$third-party"):
+			return ""
 		if line.startswith("||") and line.endswith("^$all"):
 			domain = line[2:-5]
 		if line.startswith("||") and line.endswith("^$doc"):
 			domain = line[2:-5]
 		if line.startswith("||") and line.endswith("^$document"):
 			domain = line[2:-10]
-		if line.startswith("||") and line.endswith("^$3p"):
-			domain = line[2:-5]
-		elif line.startswith("||") and line.endswith("^$all,~inline-font,~inline-script"):
+		if line.startswith("||") and line.endswith("^$all,~inline-font,~inline-script"):
 			domain = line[2:-33]
 		elif line.startswith("||") and line.endswith("^"):
 			domain = line[2:-1]
