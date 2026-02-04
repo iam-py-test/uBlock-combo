@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 03/02/2026
+! Last updated: 04/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -16137,7 +16137,7 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||driverpack.io^$doc,domain=~has_extreme_amounts_of_pup_in_it.*
 ||doh-gov.com^$all
 ||doh-gov.ph^$all
-||gyrovague.com^$all,domain=archive.*
+||gyrovague.com^$all,third-party,domain=archive.*
 ||unofficialtwrp.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidweblog.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidgreek.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
@@ -23423,7 +23423,7 @@ $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|about.gitlab.co
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
-$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|cancam.jp|duckduckgo.com|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|tvtropes.org|yandex.com
+$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|cancam.jp|duckduckgo.com|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion|feeder.co|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|tvtropes.org|yandex.com
 $removeparam=keyword,domain=bindright.com|lendgo.com|reddit.app.link
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
@@ -24357,7 +24357,7 @@ $removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 ||target.com^$removeparam=lnm
 ||target.com^$removeparam=lnk
 $removeparam=marketing_id
-$removeparam=s,domain=greenhouse.io|mothership.sg|spreadprivacy.com|youku.com|nextdoor.com|qwant.com
+$removeparam=s,domain=greenhouse.io|mothership.sg|spreadprivacy.com|nextdoor.com|qwant.com
 $doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
 ||yandex.$removeparam=clid
 $removeparam=cpa-perf
@@ -25251,6 +25251,7 @@ ref=the-browser$doc,removeparam=ref
 ||microsoft^$removeparam=refOrigin
 ||microsoft.com^$removeparam=refSource
 ||microsoft.com^$removeparam=refPage
+ref=shadcn.com$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
