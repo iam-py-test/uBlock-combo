@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 05/02/2026
+! Last updated: 06/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -5792,7 +5792,6 @@ $all,ipaddress=38.180.96.244
 ||kenwellsgrpo.com^$all
 ||kmyunderth.com^$all
 ||ktobedirectu.xyz^$all
-||leqasforsalesrep.info^$all
 ||longmansuchcesu.com^$all
 ||ltingecauyuksehi.com^$all
 ||majorinryes.com^$all
@@ -5824,7 +5823,6 @@ $all,ipaddress=38.180.96.244
 ||ratiotyuknsye.pics^$all
 ||rbiscussexb.xyz^$all
 ||rentlysearchin.com^$all
-||responsidejo.xyz^$all
 ||rgyflexibilitu.com^$all
 ||ritingsynther.com^$all
 ||rurelanderpurgan.com^$all
@@ -16136,7 +16134,6 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||blocklist.site^$all
 ||landr-atlas.com^$doc
 ||tagesschau.finance^$doc
-||connectgates.co.in^$all
 ||d621b48hubcc73aav7l0.connectgates.co.in^$all
 ||opredirect.com^$doc
 ||solsticea.net^$doc
@@ -16894,7 +16891,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||top-official-app.com^$all
 ||tplinkextender.net^$all
 ||tw-goldenwinner-57.com^$all
-||vgfrrtc.click^$all
 ||youtuba.com^$all
 ||youutube.com^$all
 ||youvetube.com^$all
@@ -18184,7 +18180,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||xyzcreators.xyz^$all
 ||hotkabachok.com^
 ||dbmobile-phototan.de^$all
-||ne-correos.top^$document
 ||unikey.vn^$document
 ||104.194.130.185^$all
 ||109.234.156.180^$all
@@ -18205,12 +18200,10 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||91.203.193.162^$all
 ||register.akamaized.ca^$all
 ||online-cloud.info^$document
-||tintinsolve.fun^$all
 ||marricoyes.online^$all
 ||194.26.135.180^$all
 ||fraavy.com^$document
 ||121.37.215.155^$all
-||verstolini.site^$all
 ||91.215.85.23^$all
 ||89.23.98.92^$all
 ||forensicswiki.xyz^$document
@@ -18333,7 +18326,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||uktureukworekto.com^$all
 ||umeformorede.xyz^$all
 ||upervisofosev.xyz^$all
-||verwiththinleave.net^$all
 ||wedonhisdhiltew.info^$all
 ||yremovementxv.com^$all
 ||ysearchingfo.xyz^$all
@@ -18377,7 +18369,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||athletic-harmony.com^$document
 ||knkpublishingsoftware.com^$document
 ||obses-sion.info^$all
-||mb38.com^$all
 ||sportloto-1.co^$document
 ||parik24.win^$document
 ||oshad24.biz.ua^$document
@@ -18489,7 +18480,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||popupgoldblocker.net^$document
 ||popupsblocker.org^$document
 ||sadostic.pl^$document
-||cosmicbetrayers.com^$all
 ||4.228.216.231^$all
 ||mediafire.com/folder/ux0dk7ist85e1/F0LDER^$all
 ||mediafire.com/file/7os5cx2x4rp70nm/UPL0ADER.7z/file^$all
@@ -18800,7 +18790,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||bsnltowerinstallations.com^$document
 ||towerinstallation5g.com^$document
 ||5gtower.in^$document
-||iphonedefender.com^$all
 ||udemy-creators.com^$all
 ||fkpgr.buzz^$document
 ||efkgr.buzz^$document
@@ -19080,6 +19069,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||accurate.you^$document
 ||dergoodting.com^$all
 ||furiousfar.com^$document,popup
+||xml-v4.icdsoap-4.online^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -20121,7 +20111,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||adidaszagreb.com^$document
 ||aerosolesshoesoutlets.com^$document
 ||airjordanbelgique.net^$document
-||airjordangreece.net^$document
 ||airjordanmagasinsuisse.com^$document
 ||airjordanromania.net^$document
 ||airjordanuruguay.com^$document
@@ -20375,7 +20364,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||lottomexico.org^$document
 ||lottonorway.net^$document
 ||lottoportugal.net^$document
-||lottoschweiz.com^$document
 ||lottoserbia.org^$document
 ||lottoslovakia.sk^$document
 ||lottosouthafrica.net^$document
@@ -20432,7 +20420,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||panamajack-france.fr^$document
 ||panamajackonline.sk^$document
 ||panamajackschweiz.net^$document
-||panamajackslovenija.com^$document
 ||pandorajapan.net^$document
 ||pandorakorut.com^$document
 ||pandoraportugal.com^$document
@@ -20556,7 +20543,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||tomsjapan.net^$document
 ||tomsjapanoutlet.com^$document
 ||underarmourchaussures.net^$document
-||underarmourjas.com^$document
 ||underarmouroslo.com^$document
 ||underarmourskroutz.com^$document
 ||underarmourtrainersuk.com^$document
@@ -20573,7 +20559,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||vejanorge.com^$document
 ||vejaoutlet.net^$document
 ||vejashoes.cz^$document
-||vejashoesuk.com^$document
 ||vejaslovenia.com^$document
 ||vejazapatoscolombia.net^$document
 ||vessibelgium.com^$document
@@ -20611,7 +20596,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||xn--solovairmxico-jhb.com^$document
 ||xn--vejazrich-u9a.com^$document
 ||yeezyireland.com^$document
-||yeezyisrael.com^$document
 ||yeezyuksale.com^$document
 ||yeti-southafrica.co.za^$document
 ||youngla-danmark.com^$document
@@ -20624,8 +20608,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||kai12102.top^$all
 ||47.251.77.252^$document
 ||bbbnvnv.com^$document
-||bbblmlm.com^$document
 ||bbbkdt.com^$document
+||usps.bbbhaod.com^$document
 ||bbbnbnb.com^$document
 ||usps.hkjtion.com^$document
 ||usps.hjktion.com^$document
@@ -20633,11 +20617,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||bbbvbvb.com^$document
 ||usps.bbbuuui.com^$document
 ||bbbuuui.com^$document
-||bbbdjsgd.com^$document
+||usps.bbbdjsgd.com^$document
 ||bbbdjdhes.com^$document
 ||bbbiuiu.com^$document
 ||usps.zzzopjl.com^$document
-||usps.bbbouou.com^$document
 ||zzzopjl.com^$document
 ||bbbiudhs.com^$document
 ||guidesite.info^$all
@@ -20654,14 +20637,12 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||cashusa.com^$document
 ||choicecreditrepair.life^$document
 ||swagbucks.com^$document
-||americanunsecured.com^$document
 ||grantsreach.com^$document
 ||z-lib.id^$document
 ||energydots.com^$document
 ||produktretter.com^$document
 ||gratis-eltern-produkttests.com^$document
 ||produkttest-anmeldung.com^$document
-||produkttester-anmeldung.com^$document
 ||produkttester-werden.org^$document
 ||ruecksendungen-gratis.com^$document
 ||iioddoy.shop^$all
@@ -21067,6 +21048,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||superoptz.com^$document
 ||mainredirect.top^$document
 ||elta.564306.com^$document
+||texonnero.co.in^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -21247,6 +21229,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||getxmlisi.com^
 ||gotoyahoo.com^
 ||drivethelife.com^$document
+||www.drivertalent.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
