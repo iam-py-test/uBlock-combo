@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 06/02/2026
+! Last updated: 07/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -2298,7 +2298,6 @@ $doc,ipaddress=146.19.169.99
 ||infonavid.com^$all,~inline-font
 ||infoum.com^$all,~inline-font
 ||innotech-maschinenbau.de^$all,~inline-font
-||inrussia.org^$all,~inline-font
 ||insectflix.com^$all,~inline-font
 ||insidewireman.com^$all,~inline-font
 ||insovenz.de^$all,~inline-font
@@ -3510,6 +3509,7 @@ $all,~inline-font,ipaddress=51.68.87.229
 ||underarmour-us.com^$all,~inline-font
 ||underarmourhungary.com^$all,~inline-font
 ||underarmourosterreich.com^$all,~inline-font
+||underarmouroutletromania.com^$all,~inline-font
 ||underarmourromania-ro.com^$all,~inline-font
 ||vejajapanstore.com^$all,~inline-font
 ||vejaoslo.com^$all,~inline-font
@@ -5676,6 +5676,7 @@ $all,~inline-font,ipaddress=103.174.102.240
 ||dfhduh.xyz^$all,~inline-font
 ||bn6h9d7tr.cfd^$all,~inline-font
 ||t67uyhgf.co^$all,~inline-font
+||hit4pc.click^$all,~inline-font
 ||7nalhxb28rmm.cfd^$all,~inline-font
 ||dk9vqq64cp14e.click^$all,~inline-font
 ||losf8uo304l.click^$all,~inline-font
@@ -5761,11 +5762,13 @@ $all,ipaddress=38.180.96.244
 ||declinerybelfa.buzz^$all
 ||directuklyecon.pics^$all
 ||dollapsedshe.info^$all
+||eamsauknda.com^$all
 ||echildren.buzz^$all
 ||econsultingcoem.com^$all
 ||edassiumw.xyz^$all
 ||edrubyglo.buzz^$all
 ||efgrghhindhimi.info^$all
+||emydreamsa.com^$all
 ||entsiwoulukdli.com^$all
 ||eredhadbeen.xyz^$all
 ||eretheseantyjyt.info^$all
@@ -5787,14 +5790,15 @@ $all,ipaddress=38.180.96.244
 ||ibilitukydteamw.com^$all
 ||inarilyhukel.info^$all
 ||inghesatin.com^$all
+||ingspondingco.com^$all
 ||jhldtogerghottulering.info^$all
 ||kelpmetoreali.com^$all
 ||kenwellsgrpo.com^$all
 ||kmyunderth.com^$all
 ||ktobedirectu.xyz^$all
+||leqasforsalesrep.info^$all
 ||longmansuchcesu.com^$all
 ||ltingecauyuksehi.com^$all
-||majorinryes.com^$all
 ||mentbradshed.com^$all
 ||mentrandingswon.com^$all
 ||miredindeed.net^$all
@@ -5818,11 +5822,13 @@ $all,ipaddress=38.180.96.244
 ||onsukultingecauy.com^$all
 ||osiextantlyvfhn.info^$all
 ||otheruigfsfohi.info^$all
+||ouldlikukemyfu.com^$all
 ||ovogofteonafterw.info^$all
 ||ploddingtotogcb.info^$all
 ||ratiotyuknsye.pics^$all
 ||rbiscussexb.xyz^$all
 ||rentlysearchin.com^$all
+||responsidejo.xyz^$all
 ||rgyflexibilitu.com^$all
 ||ritingsynther.com^$all
 ||rurelanderpurgan.com^$all
@@ -16891,6 +16897,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||top-official-app.com^$all
 ||tplinkextender.net^$all
 ||tw-goldenwinner-57.com^$all
+||vgfrrtc.click^$all
 ||youtuba.com^$all
 ||youutube.com^$all
 ||youvetube.com^$all
@@ -16904,7 +16911,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||paypaI.com^$all
 ||wherewedev.com^$all
 ||infinitypr.in^$third-party
-||integra-lernwerkstatt.de^$all
 ||kjwre77638dfqwieuoi.info^$all
 ||kukutrustnet777.info^$all
 ||moch.forweb.pl^$document
@@ -17617,7 +17623,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||69.46.15.158^$all
 ||ormoredeta.xyz^$all
 ||agametog.com^$document
-||79.137.206.138^$all
 ||circuitingratitude.com^$all
 ||dellenshop.top^$document
 ||194.36.177.164^$all
@@ -18596,7 +18601,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||simplestar.com^$document
 ||polyfill.io^$all
 ||googie-anaiytics.com^$all
-||kuurza.com^$all
 ||bootcdn.net^$all
 ||bootcss.com^$all
 ||staticfile.net^$all
@@ -20101,7 +20105,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||pregnantsimulator.com^$document
 ||adultonlineplay.com^$document
 ||nelyc5h5x.jaynapatel.co.uk^$all
-||adidasbrasil.net^$document
 ||adidascolombia.net^$document
 ||adidasfotballsko.com^$document
 ||adidashungaryhu.com^$document
@@ -20112,8 +20115,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||aerosolesshoesoutlets.com^$document
 ||airjordanbelgique.net^$document
 ||airjordanmagasinsuisse.com^$document
-||airjordanromania.net^$document
-||airjordanuruguay.com^$document
 ||aldocanada.net^$document
 ||aldomontreal.com^$document
 ||aldozapatos.com^$document
@@ -20380,7 +20381,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mackagedenmark.com^$document
 ||mackagefemmeparis.com^$document
 ||mackageireland.com^$document
-||mackagejacketcanada.com^$document
 ||mackageschweiz.com^$document
 ||magasinhokabelgique.com^$document
 ||merrellbarbati.com^$document
@@ -20396,7 +20396,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mizunoonsaleuk.com^$document
 ||mizunosaleportugal.com^$document
 ||mlbhungary.com^$document
-||mollybootmexico.com^$document
 ||muckbootsnl.com^$document
 ||muckbootsosterreich.at^$document
 ||muckbootsoutletstore.de^$document
@@ -20529,7 +20528,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||timberlandmontreal.net^$document
 ||tomfordsuomi.com^$document
 ||tommyhilfigerbunda.sk^$document
-||tommyhilfigerdeutschland.de^$document
 ||tommyhilfigerdublin.com^$document
 ||tommyhilfigerjakke.com^$document
 ||tommyhilfigerjakne.com^$document
@@ -20584,7 +20582,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||xn--clarksespaa-beb.com^$document
 ||xn--clarkszrich-zhb.com^$document
 ||xn--dopeespaa-s6a.com^$document
-||xn--dopetrkiye-eeb.com^$document
 ||xn--hellyhansenbelgi-prb.com^$document
 ||xn--hellyhansenespaa-lub.com^$document
 ||xn--hellyhansenper-yrb.com^$document
@@ -20604,25 +20601,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||do0cd.com^$all
 ||doosd.pro^$all
 ||d0ood.com^$all
-||bbbvnvn.com^$all
-||kai12102.top^$all
-||47.251.77.252^$document
-||bbbnvnv.com^$document
-||bbbkdt.com^$document
-||usps.bbbhaod.com^$document
-||bbbnbnb.com^$document
-||usps.hkjtion.com^$document
-||usps.hjktion.com^$document
-||bbbiiuu.com^$document
-||bbbvbvb.com^$document
-||usps.bbbuuui.com^$document
-||bbbuuui.com^$document
-||usps.bbbdjsgd.com^$document
-||bbbdjdhes.com^$document
-||bbbiuiu.com^$document
-||usps.zzzopjl.com^$document
-||zzzopjl.com^$document
-||bbbiudhs.com^$document
 ||guidesite.info^$all
 ||cashjuice.com^$document
 ||esigningapp.com^$document
@@ -20694,7 +20672,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mydirtyneighbour.com^$document
 ||bestflirt.fun^$all
 ||veilcurtin.world^$document
-||elonweb.org^$all
 ||dInp2rm.suitablepartner.life^$document
 ||p𝓸𝘳𝘯𝚔𝘢f.net^$document
 ||netfucks1.com^$document
@@ -20723,8 +20700,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||echty.com^$all
 ||jungefrau.eu^$all
 ||mynemesis.live^$all
-||noartplace.info^$all
-||tricksygirlsp.com^$all
 ||exclusivebuyz4uu.shop^$document
 ||reviewgiftfb.com^$document
 ||dollscumnow.eu^$all
@@ -21049,6 +21024,14 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mainredirect.top^$document
 ||elta.564306.com^$document
 ||texonnero.co.in^$all
+||satisfy-yourself.com^$all
+||holouvery-vality.com^$all
+||wishtoserve.com^$document
+||date-corner.com^$all
+||romanticboo.com^$document
+||positive-daters.com^$all
+||flingaroundme.com^$all
+||overdates.com^
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -21222,7 +21205,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||driverpack.tilda.ws^$document
 ||dwrapper-prod.herokuapp.com^$document
 ||driverfix.com^$all
-||application.pdfpilotapp.com^$document
 ||por.pdfpilotapp.com^$document
 ||restorex360.com^$document
 ||pcapp.store^$document
@@ -21970,6 +21952,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||miccrossoffit.online^$all
 ||drive-google-com.$document,domain=~google.*|~translate.goog
 ||easypark-$document,domain=~translate.goog|~easypark.com|~easypark.net|~easyparkgroup.com|~easyparkpartners.com|~easyparksystem.net
+||ne-correos.top^$document
 ||base-usps.top^$all
 ||bonprix-sale.shop^$all
 ||deepl.cm^$all
