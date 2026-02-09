@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 08/02/2026
+! Last updated: 09/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -5855,7 +5855,6 @@ $all,ipaddress=38.180.96.244
 ||ukelpmetoreali.pics^$all
 ||ukentaspe.xyz^$all
 ||ulyhvfadchos.info^$all
-||uytdwhitdoe.info^$all
 ||vbriverafter.xyz^$all
 ||wasanasset.buzz^$all
 ||withmefeyauknaly.com^$all
@@ -18247,7 +18246,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||telejracm.work^$document
 ||telejrzmn.cc^$document
 ||teleptrm.work^$document
-||telegcrmz.club^$document
 ||telejrzmn.work^$document
 ||telejrzmn.club^$document
 ||telegcrenn.club^$document
@@ -18259,7 +18257,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||telebrzm.vip^$document
 ||telegcmn.cc^$document
 ||east-trading.shop^$document
-||post4at.live^$document
 ||steamcommuniitny.club^$all
 ||steamcommuniitny.$document
 ||mirfakpersei.top^$document
@@ -18323,7 +18320,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||thaitingshos.xyz^$all
 ||ticaframeofm.xyz^$all
 ||tsapphires.buzz^$all
-||tuallyenitwasbr.com^$all
 ||ughtsustacheds.com^$all
 ||uinground.com^$all
 ||ukindwouldm.xyz^$all
@@ -19074,6 +19070,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||dergoodting.com^$all
 ||furiousfar.com^$document,popup
 ||xml-v4.icdsoap-4.online^$all
+||att-currently-$document,domain=weeblysite.com
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -20168,7 +20165,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||billabong-argentina.com^$document
 ||billabongcanada.net^$document
 ||billabongportugal.net^$document
-||billabongromania.net^$document
 ||bocancilowa.com^$document
 ||botashunterargentina.com^$document
 ||botashuntermexico.com^$document
