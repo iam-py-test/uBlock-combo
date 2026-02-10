@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 09/02/2026
+! Last updated: 10/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -5799,6 +5799,7 @@ $all,ipaddress=38.180.96.244
 ||leqasforsalesrep.info^$all
 ||longmansuchcesu.com^$all
 ||ltingecauyuksehi.com^$all
+||majorinryes.com^$all
 ||mentbradshed.com^$all
 ||mentrandingswon.com^$all
 ||miredindeed.net^$all
@@ -5855,6 +5856,7 @@ $all,ipaddress=38.180.96.244
 ||ukelpmetoreali.pics^$all
 ||ukentaspe.xyz^$all
 ||ulyhvfadchos.info^$all
+||uytdwhitdoe.info^$all
 ||vbriverafter.xyz^$all
 ||wasanasset.buzz^$all
 ||withmefeyauknaly.com^$all
@@ -17964,7 +17966,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||www.ssp.sp.gov.br/ead/auth/video/video_$document
 ||js.eventbr.xyz/vip/crazy.js
 ||br.zmdesf.cn/br.js
-||a5jogo.club^$all
 ||v37870.com^
 ||sites.uft.edu.br/topama/news.php$document
 ||pmf.sc.gov.br/arquivos/br.php^$all
@@ -18160,7 +18161,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||hjdhhfdh.click^$all
 ||closerscopy.net^$all
 ||eyhdjyst.click^$all
-||klassischefahrschule.com^$document
 ||marinhoassessoria.com^$document
 ||revanced.to^$document
 ||67.217.57.54^$all
@@ -18266,70 +18266,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||privacyguides.io^$all
 ||poperblocker.com^$all
 ||pq.hosting^$all
-||ajorinryesoperty.com^$all
-||arrowtoldilim.com^$all
-||artistictastesnly.info^$all
-||aspectsofc.hair^$all
-||ationiamcur.com^$all
-||cathyimmediates.xyz^$all
-||connectedithco.com^$all
-||consukultingeca.com^$all
-||disguishedbri.com^$all
-||dwouldmakefe.info^$all
-||eastfeukufunde.com^$all
-||edstevermotorie.com^$all
-||emyresumef.hair^$all
-||endream.buzz^$all
-||entoftheusysian.com^$all
-||exibilitukydtea.xyz^$all
-||fukermalasas.info^$all
-||ifefashionismscold.com^$all
-||itearamajo.com^$all
-||kectivetraining.info^$all
-||kefeagreatase.info^$all
-||kentinedaug.xyz^$all
-||kitwkuouldhukel.xyz^$all
-||ksehinkitw.hair^$all
-||lattemptaqwe.club^$all
-||liondolularhene.info^$all
-||majorinryesopert.com^$all
-||manisation.org^$all
-||mediatesupervis.com^$all
-||mementrandingsw.com^$all
-||ndencesch.xyz^$all
-||ngswonden.xyz^$all
-||npracticalwhic.buzz^$all
-||omefukmendat.xyz^$all
-||onopolicycr.xyz^$all
-||oratefinaukn.xyz^$all
-||oratefinauknceiwo.com^$all
-||playeranydwould.info^$all
-||pmetorealiukze.xyz^$all
-||pohsoneche.info^$all
-||pringed.space^$all
-||puldhukelpmet.com^$all
-||reckedmane.xyz^$all
-||rgentssep.xyz^$all
-||ricewaterhou.xyz^$all
-||salesrepreswse.info^$all
-||stellihandles.hair^$all
-||tasesetitoefany.info^$all
-||tebilaterde.xyz^$all
-||texcepededo.info^$all
-||tgandmotivat.com^$all
-||thaitingshos.xyz^$all
-||ticaframeofm.xyz^$all
-||tsapphires.buzz^$all
-||ughtsustacheds.com^$all
-||uinground.com^$all
-||ukindwouldm.xyz^$all
-||ukseseemyres.xyz^$all
-||uktureukworekto.com^$all
-||umeformorede.xyz^$all
-||upervisofosev.xyz^$all
-||wedonhisdhiltew.info^$all
-||yremovementxv.com^$all
-||ysearchingfo.xyz^$all
 ||193.233.193.65^$all
 ||97tool.github.io^$document
 ||apkzpure.com^$document
@@ -19071,6 +19007,8 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||furiousfar.com^$document,popup
 ||xml-v4.icdsoap-4.online^$all
 ||att-currently-$document,domain=weeblysite.com
+||protonwalletdesktop.com^$all
+||actiwated.win^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -19369,6 +19307,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||lowrihouston.pro^$document
 ||nathanaeldan.pro^$document
 ||freddyoctavio.pro^$document
+||toido.arrowtoldilim.com^$all
 ||linkedin.com/pulse/free-discord-nitro-generator-verification-maxpro-game-gadget-2022^$all
 ||cutt.ly/YV9jKsf^$all
 ||gamegadget2022.blogspot.com^$document
@@ -20338,7 +20277,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||karhusneakersnorge.net^$document
 ||kedscanada.net^$document
 ||kedspt.com^$document
-||kedssklep.pl^$document
 ||kiplingfrance.com^$document
 ||lasportivabootsnz.com^$document
 ||lasportivaclimbingshoescanada.com^$document
@@ -20667,7 +20605,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||datingdealshub.com^$all
 ||mydirtyneighbour.com^$document
 ||bestflirt.fun^$all
-||veilcurtin.world^$document
 ||dInp2rm.suitablepartner.life^$document
 ||p𝓸𝘳𝘯𝚔𝘢f.net^$document
 ||netfucks1.com^$document
@@ -21201,7 +21138,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||driverpack.tilda.ws^$document
 ||dwrapper-prod.herokuapp.com^$document
 ||driverfix.com^$all
-||por.pdfpilotapp.com^$document
 ||restorex360.com^$document
 ||pcapp.store^$document
 ||getxmlisi.com^
@@ -22266,6 +22202,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 /^https:\/\/usps.com-expres[a-zA-Z0-9]\.top\//$document
 ||brewe.sh^$all
 ||minecraf.wiki^$document
+||get.actiwated.win^$all
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
 $removeparam=yclid
 $removeparam=gclid
