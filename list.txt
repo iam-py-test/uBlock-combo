@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 11/02/2026
+! Last updated: 12/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14492,7 +14492,7 @@ $all,ipaddress=76.223.15.82
 ||odintara.com^$doc
 ||54.174.156.141^$doc
 $all,ipaddress=54.174.156.141
-://old.sermitsiaq.ag^$doc,domain=subdomain_stolen_from_sermitsiaqs_owners.*
+://old.sermitsiaq.ag^$doc,domain=~subdomain_stolen_from_sermitsiaqs_owners.*
 ||xss.my.id^$third-party
 ||85.159.213.158^$all
 $all,ipaddress=85.159.213.158
@@ -16137,7 +16137,8 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||driverpack.io^$doc,domain=~has_extreme_amounts_of_pup_in_it.*
 ||doh-gov.com^$all
 ||doh-gov.ph^$all
-||gyrovague.com^$all,third-party,domain=archive.*
+||gyrovague.com^$domain=archive.*
+||gyrovague.com^$popup,inline-script,inline-font,domain=archive.*
 ||blocklist.site^$all
 ||landr-atlas.com^$doc
 ||tagesschau.finance^$doc
@@ -16157,6 +16158,13 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||telemechanism.cyou^$all
 ||ey43.com^$all
 ||resultsfastfind.com^$doc
+||snowvan.xyz^$all
+||kygens.xyz^$all
+||host11m.cfd^$doc
+||host15m.cfd^$doc
+||filehost09.sbs^$doc
+||sharehost06.sbs^$doc
+||getdwnloadss.com^$all
 ||unofficialtwrp.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidweblog.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidgreek.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
@@ -16666,7 +16674,7 @@ www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[title*=" OFF "][
 www.google.*,ipv6.google.com##div[data-attrid^="images "]:has(a[href*=".aspx?cname="])
 .asp?url=https://xn--*.xn--p1ai/$all
 .asp?url=http://xn--*.xn--p1ai/$all
-||aussie-gamer.com^$doc,domain=the-site-was-stolen-by-casino-link-spammers.*
+||aussie-gamer.com^$doc,domain=~the-site-was-stolen-by-casino-link-spammers.*
 |cisco.com|$domain=for-txt-dnstype-conversions.mint
 |cloudflare.com|$domain=for-txt-dnstype-conversions.mint
 |adobe.com|$domain=for-txt-dnstype-conversions.mint
@@ -19870,7 +19878,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||binomo-brokers.com^$document
 ||coinreq.com^$document
 ||uplevelrewards.com^$document
-||oasoomsa.top^$all
 ||wholedailyjournal.com^$all
 ||fubsoupt.top^$all
 ||adblocked-supreme.net^$document
