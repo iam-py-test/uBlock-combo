@@ -1,12 +1,12 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 14/02/2026
+! Last updated: 15/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top|~hostingowy.top|~to|~yggtorrent.top|~asiaon.top|~voxel.top|~passt.top|~polar.top|~rifton.top|~rugaming.top|~doubledouble.top
+||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top|~hostingowy.top|~to|~yggtorrent.top|~asiaon.top|~voxel.top|~passt.top|~polar.top|~rifton.top|~rugaming.top|~doubledouble.top|~hedon-haven.top
 @@||masto*.top^$doc
 @@/^.*(tech|project|linux).*\.top(/[a-z0-9_-]?.*)?$/$doc
 @@://blog.*.top^$doc
@@ -3305,7 +3305,6 @@ $doc,ipaddress=100.20.13.49
 ||goldmesoil.live^$all,~inline-font
 $all,~inline-font,ipaddress=51.68.87.229
 ||51.68.87.229^$all,~inline-font
-||2022crucialcatch.store^$all,~inline-font
 ||adidascostarica.com^$all,~inline-font
 ||adulttoysale.top^$all,~inline-font
 ||aldoukshoes.com^$all,~inline-font
@@ -3454,7 +3453,6 @@ $all,~inline-font,ipaddress=51.68.87.229
 ||quiksilver-canada.com^$all,~inline-font
 ||quiksilver-southafrica.com^$all,~inline-font
 ||quiksilverfactoryoutlet.com^$all,~inline-font
-||quiksilveroutletusa.com^$all,~inline-font
 ||reebok-chile.com^$all,~inline-font
 ||reebok-romania.com^$all,~inline-font
 ||rolltide.shop^$all,~inline-font
@@ -5696,6 +5694,7 @@ $all,~inline-font,ipaddress=103.174.102.240
 ||rootscrack.com^$all,~inline-font
 ||cracksmat.com^$all,~inline-font
 ||crackedsoft.org^$all,~inline-font
+||crackxpoint.com^$all,~inline-font
 ||crackerzpro.org^$all,~inline-font
 ||crackfinal.com^$all,~inline-font
 ||wazusoft.com^$all,~inline-font
@@ -16165,6 +16164,11 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||filehost09.sbs^$doc
 ||sharehost06.sbs^$doc
 ||getdwnloadss.com^$all
+||crvftgbyh.click^$all
+||tvgyfdtrf.pro^$all
+||edweasdxf.pro^$all
+||hubygvftc.cfd^$all
+||audioza.cyou^$all
 ||unofficialtwrp.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidweblog.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidgreek.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
@@ -17239,7 +17243,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||opclauncheran.com^$all
 ||osspalkiaom.com^$all
 ||ossrhydonr.com^$all
-||otrwaram.com^$all
 ||outaipoma.com^$all
 ||outseylor.com^$all
 ||overonixa.com^$all
@@ -17486,8 +17489,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||eatablehelprut.com^$all
 ||mignished-sility.com^$all
 ||curvyalpaca.cc^$third-party
-||zxbfm.ooumoughtcall.com^$all
-||ooumoughtcall.com^$document
 ||s2cp.xyz^$all
 ||4b34eusvcxsdublb6f.runoj.click^$all
 ||runoj.click^$all
@@ -18730,7 +18731,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||actiwated.win^$all
 ||moodabvrockcon.com^$document
 ||frenchy06--315ffb88022311f1b78142dde27851f2.web.val.run^$document
-||suomi-uutiskirjeita.fi^$document
 ||tunnis-tautuminen-fi.gt.tc^$document
 ||app2fa.com^$document
 ||seedlinkservice.com^$document
@@ -18739,6 +18739,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||ryosweb.com^$all
 ||xenos.love^$all
 ||46.225.67.21^$all
+||aodos.e-pass.top^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -18802,7 +18803,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||omnatuor.com^$all
 ||freeco.xyz^$all
 ||aceelectricalny.com^$all
-||ouhastay.net^$all
 ||812138.com^$document
 ||dj-video.xyz^$document
 ||hj-video.xyz^$document
@@ -19872,7 +19872,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||clarksshoesnz.net^$document
 ||coccinellepolska.com^$document
 ||columbiashoesmalaysia.com^$document
-||converseberlin.de^$document
 ||converse-chile.cl^$document
 ||converseinespana.com^$document
 ||conversekuwait.com^$document
@@ -20524,7 +20523,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||opdomaines.space^$all
 ||softicoapps.com^$document
 ||static.imghst-de.com/*.png^$image
-||subsequentoven.info^$document
 ||bbobb.net^$all
 ||flamefolder.com^$document
 ||earnyourswag.com^$document
@@ -20692,6 +20690,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||positive-daters.com^$all
 ||flingaroundme.com^$all
 ||overdates.com^
+||ricardo.zahlung-date.cfd^$document
+||zahlung-date.cfd^$document
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -21637,6 +21637,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||telegrnne.work^$document
 ||telegrnne.fit^$document
 ||telegrnne.club^$document
+||telegcrmz.club^$document
 ||telegreem.club^$document
 ||telegreem.work^$document
 ||telegreem.vip^$document
@@ -21732,6 +21733,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||jobs.githubtalentcommunity.online^$all
 ||virustotaal.com^$document
 ||ggogle.de^$document
+||usps-delivery-a.com^$all
 ||free-mob2584.$document
 ||toughknifes.com^$all
 ||darntoughfactory.shop^$all
