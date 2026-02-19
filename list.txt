@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 18/02/2026
+! Last updated: 19/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18742,6 +18742,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||178.16.52.65^$all
 ||digiseccloud.com^$all
 ||wulingyuanparkzone.com^$all
+||lightsolutions.tv^$document
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -21171,6 +21172,14 @@ allaboutcookies.org###offer-review-widget-container
 $popup,third-party,domain=tii.la
 ||offerimage.com^$domain=tii.la
 ||discord-gg.$document,domain=~translate.goog
+@@/1x1.a?$badfilter
+@@/1x1.dyn?$badfilter
+@@/1x1.gif?$badfilter
+@@/1x1.png?$badfilter
+@@://affiliate.$badfilter
+@@://affiliates.$badfilter
+@@/track.aspx?$badfilter
+||slickdeals.net/attachment/extension/allowlist.txt$all
 ||totaladblocker.com^$all
 ||derwerbeblocker.com^$all
 ||adlock.com^$all
@@ -24845,6 +24854,7 @@ ref=the-browser$doc,removeparam=ref
 ||microsoft.com^$removeparam=refSource
 ||microsoft.com^$removeparam=refPage
 ref=shadcn.com$doc,removeparam=ref
+||www.reddit.com^$doc,removeparam=entry_point
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
