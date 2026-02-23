@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 22/02/2026
+! Last updated: 23/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18665,7 +18665,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||securefilesdogs.info^$document
 ||filesoftly.icu^$document
 ||bskryar.icu^$document
-||aochalain.icu^$document
 ||eureoreu.cloud^$document
 ||zdrytehy.cloud^$document
 ||ebnbwm070725fhl.cfd^$document
@@ -19690,7 +19689,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||inov-8suomi.com^$document
 ||jomafinland.com^$document
 ||kappasuomi.com^$document
-||keds-suomi.com^$document
 ||kedssuomi.com^$document
 ||kedssuomishop.com^$document
 ||kickerssuomi.com^$document
@@ -20218,7 +20216,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||vejaoutlet.net^$document
 ||vejashoes.cz^$document
 ||vejaslovenia.com^$document
-||vejazapatoscolombia.net^$document
 ||vessibelgium.com^$document
 ||vessijapan.net^$document
 ||vessischoenen.com^$document
@@ -20697,6 +20694,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||kettledroopingcontinuation.com^
 ||humanverify.co.in^$all
 ||answwgieq.blogspot.com^$all
+||blastnew.live^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -22924,7 +22922,7 @@ $removeparam=taboola_id
 $removeparam=giaudi_id
 $removeparam=ft_section
 $removeparam=correlator
-$removeparam=ap_id
+$doc,removeparam=ap_id
 $removeparam=_zldt
 $removeparam=_zldp
 $removeparam=impr_uid
