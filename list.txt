@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 24/02/2026
+! Last updated: 25/02/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -4651,7 +4651,6 @@ $all,ipaddress=/^103\.224\.182\.[12]?\d?\d$/
 ||vuegebjexe.click^$all,~inline-font
 ||707.su^$all,~inline-font
 ||aahdxn.com^$all,~inline-font
-||achyxa.com^$all,~inline-font
 ||amqtmp.com^$all,~inline-font
 ||aodzbx.com^$all,~inline-font
 ||asdmcm.com^$all,~inline-font
@@ -5680,7 +5679,6 @@ $all,~inline-font,ipaddress=103.174.102.240
 ||vablecable.click^$all,~inline-font
 ||huqiinxy.click^$all,~inline-font
 ||freeinstallcpc.xyz^$all,~inline-font
-||a18n5nh14xos.click^$all,~inline-font
 ||gotechfiles.xyz^$all,~inline-font
 ||getintopcc.pro^$all,~inline-font
 ||azxdr4erf.xyz^$all,~inline-font
@@ -5738,7 +5736,6 @@ $all,~inline-font,ipaddress=103.174.102.240
 ||monetrizer*.$all
 $all,ipaddress=38.180.96.244
 ||38.180.96.244^$all
-||acareewityjh.com^$all
 ||accedenonre.xyz^$all
 ||adeditiontowritingef.net^$all
 ||alsoextraorduki.info^$all
@@ -5993,7 +5990,6 @@ $all,~inline-font,ipaddress=192.243.61.227
 ||192.243.59.20^$all,~inline-font
 ||192.243.61.225^$all,~inline-font
 ||192.243.61.227^$all,~inline-font
-||abdicatehorrified.com^$all,~inline-font
 ||abjectpreludeparity.com^$all,~inline-font
 ||ablecheap.com^$all,~inline-font
 ||abroadwas.com^$all,~inline-font
@@ -6002,7 +5998,6 @@ $all,~inline-font,ipaddress=192.243.61.227
 ||abundantminussteal.com^$all,~inline-font
 ||accessorygraph.com^$all,~inline-font
 ||accidentallycopiespatted.com^$all,~inline-font
-||accusedmilkdemanded.com^$all,~inline-font
 ||acquitfamouscavity.com^$all,~inline-font
 ||adeptoksuspicion.com^$all,~inline-font
 ||adoptcraneinexhaustible.com^$all,~inline-font
@@ -6942,12 +6937,10 @@ $all,ipaddress=208.91.189.203
 ||208.91.189.203^$all
 ://193.143.1.*$doc
 /?nw=1&tb=false&cw=$doc
-||ablyglossmartyr.com^$all
 ||aboveaveragefinallycast.com^$all
 ||acceleratehallucinate.com^$all
 ||accommodationsubsided.com^$all
 ||accompanimentrealistic.com^$all
-||aceabnegate.com^$all
 ||acornfarmerconnate.com^$all
 ||acquiretank.com^$all
 ||adopockets.com^$all
@@ -7933,8 +7926,6 @@ $all,ipaddress=208.91.189.203
 ||accordancecaskmilk.com^$all
 ||acknowledgedversionbosom.com^$all
 ||acthist.com^$all
-||actknuckleruinous.com^$all
-||actuallysicknessactually.com^$all
 ||addresseerosebud.com^$all
 ||adjustlinklifting.com^$all
 ||adroitdeceitcongestion.com^$all
@@ -8629,7 +8620,6 @@ $all,ipaddress=208.91.189.203
 ||ponderousoverseaspoignant.com^$all
 ||absentagendawrecking.com^$all
 ||academicencircle.com^$all
-||acceptanceathwartwant.com^$all
 ||actingwoodland.com^$all
 ||admiralbusinesswilliam.com^$all
 ||admonishtopmostacid.com^$all
@@ -12740,8 +12730,6 @@ toorgle.net##.join
 ||9purdfe9xg.com^$all,~inline-font
 ||9utwbj08.top^$all,~inline-font
 ||aaucwbe.com^$all,~inline-font
-||abhorboring.com^$all,~inline-font
-||abideruledestiny.com^$all,~inline-font
 ||abridgeoverwhelmfireball.com^$all,~inline-font
 ||absorbedexistence.com^$all,~inline-font
 ||acceleratesign.com^$all,~inline-font
@@ -18607,6 +18595,9 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||kys.li^$all
 ||kys.cx^$all
 ||payout-chatgpt.com^$all
+||158.94.211.63^$all
+||lichengdaiper.com^$all
+||cpanel-webmail-login-access$domain=pages.dev
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -21900,7 +21891,7 @@ $removeparam=uzcid
 $removeparam=vero_conv
 $removeparam=vero_id
 $removeparam=wickedid
-$doc,removeparam=/^\??utm_.*$/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl|~gaugau.futabanet.jp|~uploadnow.io|~usprobioticguide.com
+$doc,removeparam=/^\??utm_.*$/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl|~gaugau.futabanet.jp|~uploadnow.io|~usprobioticguide.com|~canadacompanyregistry.com
 $doc,removeparam=/^itm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^stm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^mtm_.*$/,domain=~redir.tradedoubler.com
@@ -22897,7 +22888,7 @@ $doc,removeparam=cid,domain=8days.sg|abcnews.go.com|adguard.com|adshares.net|ae.
 $removeparam=ref,doc,domain=404media.co|abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|daily.dev|deal.no|dell.com|depot.dev|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|eventbrite.*|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|freebies.indiegala.com|gallery.so|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|nebula.tv|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|snapchat.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|umami.is|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com|emag.ro|account.microsoft.com|tierlist.com|lastampa.it|repubblica.it|ilsecoloxix.it|gelocal.it|limesonline.com|huffingtonpost.*|hcaptcha.com|hola.org
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|nhl.com|zulily.com
 $removeparam=src,doc,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|tracking.narvar.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|x.com|tumblr.com|aliexpress.*
-$doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|about.gitlab.com|ashford.com|asos.com|att.com|appdownload.superhi-tech.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|cmswire.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|ilgusto.it|instagram.com|italian.tech|itnext.io|intel.com|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|lastampa.it|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|navan.com|netflix.com|ngx.me|nortonsafe.search.ask.com|nytimes.com|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|privatehomeclips.com|propublica.org|quizlet.com|remppatori.fi|repubblica.it|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|startpage.com|studio.co.uk|subscribe.gq.com|t.me|tcgplayer.com|theathletic.com|thedailybeast.com|themeditelegraph.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|x.com|xd.wayin.com|ylighting.com|youtube.com|35.190.94.206|206.94.190.35.bc.googleusercontent.com|yubo.live
+$doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|about.gitlab.com|ashford.com|asos.com|att.com|appdownload.superhi-tech.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|cmswire.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|ilgusto.it|instagram.com|italian.tech|itnext.io|intel.com|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|lastampa.it|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|navan.com|netflix.com|ngx.me|nortonsafe.search.ask.com|nytimes.com|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|privatehomeclips.com|propublica.org|quizlet.com|remppatori.fi|repubblica.it|robinhood.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|startpage.com|studio.co.uk|subscribe.gq.com|t.me|tcgplayer.com|theathletic.com|thedailybeast.com|themeditelegraph.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|x.com|xd.wayin.com|ylighting.com|youtube.com|35.190.94.206|206.94.190.35.bc.googleusercontent.com|yubo.live
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
@@ -24730,6 +24721,9 @@ ref=shadcn.com$doc,removeparam=ref
 $doc,removeparam=ck,domain=marriott.com|www.ritzcarltonyachtcollection.com
 $doc,removeparam=lk,domain=marriott.com|www.ritzcarltonyachtcollection.com
 $doc,removeparam=nck,domain=marriott.com|www.ritzcarltonyachtcollection.com
+ref=kunall.is$doc,removeparam=ref
+ref=scotthelme.ghost.io$doc,removeparam=ref
+ref=tedfordshire.co.uk$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -24762,5 +24756,6 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@|wss://$removeparam
 @@||google.*/maps$doc,removeparam=utm_campaign
 @@/remote_interaction$doc,removeparam=ap_id
+@@/admin/object$doc,removeparam=ap_id
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
