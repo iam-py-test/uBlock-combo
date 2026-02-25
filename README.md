@@ -3,6 +3,8 @@ A filterlist compiled out of other filterlists to block malware, scams, phishing
 All issues with the included lists should be reported upstream.<br>
 Note: This is designed to work _alongside_ the default lists in your content blocker. It can not replace them.
 
+Note: AI generated issues and code are forbidden from this repository. [Please see our AI policy for more information](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md).
+
 ## Licensing note
 The Python script and my lists are under CC0. DandelionSprout's lists (Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool) [are under the Dandelicence](https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md).
 
