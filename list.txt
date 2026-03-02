@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 01/03/2026
+! Last updated: 02/03/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -18004,6 +18004,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||brightdata.de^$document
 ||bright-sdk.com^$document
 ||joinmassive.com^$all
+||mineralt.io^$all
 ||phonespying.com^$all
 ||copy9.com^$document
 ||fonetracker.com^$document
@@ -19025,7 +19026,7 @@ $doc,removeparam=/^mtm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^_utm_.*$/i
 $removeparam=logTag,doc
 $removeparam=gclsrc,doc
-$doc,removeparam=smid,domain=~amazon.*|~opinion.no
+$doc,removeparam=smid,domain=~amazon.*|~clubassistant.com|~opinion.no|~swimphone.com
 $doc,removeparam=/^WT\..*$/i
 $doc,removeparam=/^WT_.*$/i
 $doc,removeparam=/^WTmc_.*$/i
