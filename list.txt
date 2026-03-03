@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 02/03/2026
+! Last updated: 03/03/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -20036,7 +20036,7 @@ $removeparam=dchild
 $removeparam=creativeASIN
 ||amazon.$removeparam=/^sc_i.*$/
 $removeparam=trkCampaign
-$removeparam=trk,domain=splashthat.com|aws.amazon.com|aws|aws.com|awscloud.com|awsevents.com|xkcd.com|linkedin.com|lnkd.in
+$removeparam=trk,domain=splashthat.com|aws.amazon.com|aws|aws.com|awscloud.com|aws.eu|awsevents.com|xkcd.com|linkedin.com|lnkd.in
 ||amazon.$removeparam=/^__mk_*_.*$/
 ||amazon.$removeparam=ascsubtag
 ||amazon.$removeparam=crid
@@ -21855,6 +21855,10 @@ ref=tedfordshire.co.uk$doc,removeparam=ref
 ||skechers.$removeparam=audience
 ||coderpad.io^$doc,removeparam=cg_referrer
 ref=githubawesome.com$doc,removeparam=ref
+$doc,removeparam=refid,domain=press.aboutamazon.com|aws.amazon.com|aws.eu
+$doc,removeparam=sc_ichannel,domain=aws.eu|pages.awscloud.com
+$doc,removeparam=sc_icampaign,domain=aws.eu|pages.awscloud.com
+$doc,removeparam=sc_iplace,domain=aws.eu|pages.awscloud.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
