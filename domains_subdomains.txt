@@ -12834,6 +12834,10 @@ firefox.hl.cn
 firefox-firefox.com
 m-firefox.com
 uqijaci.sbs
+swak-adguard.pro
+shd247.click
+corvus-infra.cc
+vtg.lol
 ublockerext.com
 quatrefeuillepolonaise.xyz
 captcharesolving-universe.com
@@ -15783,6 +15787,7 @@ cdn5.sharehost06.sbs
 enable.app2fa.com
 activate.seedlinkservice.com
 www.7zip.com
+d6s7taqnaffc73bjtr10.swak-adguard.pro
 www.retailproductsusa.com
 two.findanswersnow.net
 www.signupandturnyourscreenoffsafepowernow.date

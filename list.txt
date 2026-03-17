@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 16/03/2026
+! Last updated: 17/03/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15715,6 +15715,10 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||firefox-firefox.com^$document
 ||m-firefox.com^$document
 ||uqijaci.sbs^$document
+||swak-adguard.pro^$all
+||shd247.click^$all
+||corvus-infra.cc^$all
+||vtg.lol^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -21900,6 +21904,7 @@ ref=thestack.technology$doc,removeparam=ref
 ||deezer.$removeparam=host
 ||deezer.$removeparam=/^utm_.*$/
 ref=blog.livekit.io$doc,removeparam=ref
+||t.edm.bell.ca^$doc,removeparam=ext
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
