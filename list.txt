@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 23/03/2026
+! Last updated: 24/03/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13859,6 +13859,26 @@ $all,ipaddress=185.53.178.53
 $all,ipaddress=185.53.178.54
 .to/popconsole.php|
 google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|d\ownl\oad).*$/i):has-text(/^.*(ph\ot\osh\op|dav\inc\i|\il{2}ustrat\or).*$/i):has-text(/^.*(fre{2}|(cr|h)ack).*$/i))
+||statautos.com^$all
+/noo/taxx/*$doc
+||solitanh.site^$doc
+||floraltepi.site^$doc
+||arlonb.my^$doc
+||astonishedsound.com^$doc
+||avibary.com^$doc
+||buysalesclub.com^$doc
+||corlmedi.com^$doc
+||csstudyhub.com^$doc
+||hxzf4er.com^$doc
+||k2krl7zj.com^$doc
+||mcafee.sjv.io^$doc
+||ojrq.net^$doc
+||oninebest.com^$doc
+||ormediao.com^$doc
+||paramatise.com^$doc
+||watchterm.com^$doc
+||185.176.220.31^$doc
+$doc,ipaddress=185.176.220.31
 ||kuaizip.com^$all
 ||geekotg.com^$all
 ||xiaobaixitong.com^$all
