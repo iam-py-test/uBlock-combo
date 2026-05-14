@@ -1,12 +1,12 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 13/05/2026
+! Last updated: 14/05/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 
-||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top|~hostingowy.top|~to|~yggtorrent.top|~yggleak.top|~asiaon.top|~voxel.top|~passt.top|~polar.top|~rifton.top|~rugaming.top|~doubledouble.top|~hedon-haven.top|~outlands.top|~tk-web.top|~qpmegathread.top|~qmk.top|~mgytr.top
+||top^$doc,domain=~caitlin.top|~callmebymygender.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~awavenue.top|~reyhub.top|~iboxs.top|~adrules.top|~hostingowy.top|~to|~yggtorrent.top|~yggleak.top|~asiaon.top|~voxel.top|~passt.top|~polar.top|~rifton.top|~rugaming.top|~doubledouble.top|~hedon-haven.top|~outlands.top|~tk-web.top|~qpmegathread.top|~qmk.top|~mgytr.top|~girlskissing.top
 @@||masto*.top^$doc
 @@/^.*(tech|project|linux).*\.top(/[a-z0-9_-]?.*)?$/$doc
 @@://blog.*.top^$doc
@@ -13422,6 +13422,26 @@ $all,ipaddress=185.7.99.190
 $all,ipaddress=64.190.63.*
 ://199.191.50.$all
 $all,ipaddress=199.191.50.*
+||michaelrinderle.com^
+||quickfindresults.com^$all
+||smorgasbordet.com^$all
+||xdelta.org^
+||23.48.203.140^
+||3.33.130.190^
+||[2a02:26f0:1700:11::b856:6790]^
+/^(.*://)?204\.11\.56\.\d{1,3}(/.*)?$/$all
+/^(.*://)?208\.91\.197\.\d{1,3}(/.*)?$/$all
+$all,ipaddress=204.11.56.*
+$all,ipaddress=208.91.197.*
+$ipaddress=23.48.203.140
+$ipaddress=2a02:26f0:1700:11::b856:6790
+$ipaddress=3.33.130.190
+||grokvarum.com^$all
+||groktronum.com^$all
+||xaidash.app^$all
+||blogcryptoslate.com^$all
+||blogfxempire.com^$all
+||cointelegraphfeed.com^$all
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -16170,6 +16190,9 @@ $doc,ipaddress=185.176.220.31
 ||checkmarx.cz^$all
 ||audit.checkmarx.cx^$all
 ||pasticceriaeconomico.com^$all
+||toolkeep.org^$all
+||telegram.me/b9te3i^$all
+||gnn.dusapp.com.br^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
