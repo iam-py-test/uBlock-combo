@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 15/05/2026
+! Last updated: 16/05/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22806,7 +22806,7 @@ $removeparam=share_link_id
 ||tiktok.com^$removeparam=share_author_id
 $removeparam=/^web_id\d+/,domain=tiktok.com
 ||tiktok.com^$removeparam=embed_source
-$removeparam=si,doc,domain=open.spotify.com|soundcloud.com|zappos.com
+$removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtu.be|zappos.com
 ||open.spotify.com^$removeparam=/^.*advertising_partner_name=.*$/i
 ||open.spotify.com^$removeparam=%243p
 $removeparam=gtm
@@ -24360,6 +24360,9 @@ $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficb
 ||newsoveraudio.com^$doc,removeparam=embedPubName
 ||newsoveraudio.com^$doc,removeparam=offerId
 ||newsoveraudio.com^$doc,removeparam=publisher
+||youtube.com/shorts/$doc,removeparam=si
+||youtube.com/@$doc,removeparam=si
+||youtube.com/post/$doc,removeparam=si
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
