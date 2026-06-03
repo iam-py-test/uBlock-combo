@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 02/06/2026
+! Last updated: 03/06/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -15253,9 +15253,6 @@ $doc,ipaddress=185.176.220.31
 ||xhsbpza.com^$all
 ||union.macoms.la^$all
 ||polyfillcache.com^$all
-||94.156.79.8^$all
-||arcthost.org^$all
-||79.137.192.4^$all
 ||abcmueblesbogota.com^$all
 ||click2kikc.xyz^$document
 ||adxproofcheck.com^$document
@@ -15275,24 +15272,15 @@ $doc,ipaddress=185.176.220.31
 ||pchelprwizardpro.com^$document
 ||pchelperwizard.com^$document
 ||window-updates-service.com^$all
-||62.138.18.13^$all
 ||reluzformaturas.com.br^$all
 ||doddyfire.linkpc.net^$all
-||43.156.237.181^$all
-||mediafire.com/folder/ygvzvvks1va0b/F0LDER^$all
-||steamcommunity.com/profiles/76561199724331900^$all
 ||detiktotocakep.com^$all
 ||flyairprestige.com^$all
 ||midnightblue-lapwing-207108.hostingersite.com^$all
-||45.207.168.120^$all
 /lander/6cw/PACKAGE_DEMO.exe^$document
-||185.81.115.28^$document
-||79.137.197.154^$document
 ||crypto-wave.top^$document
-||91.215.85.223^$document
 ||karimgouss.ug^$document
 ||https.com^$all
-||chromewebstore.google.com/detail/ublock-pro/fmaicbnbcbjgbpecclcnaehmbpjpdane^$all
 ||upsbezorging.com^$all
 ||45.9.74.36^$document
 ||cloudslimit.com^$document
@@ -19854,6 +19842,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||qerugamb.com^$document
 ||porewin159.pro^$document
 ||fuokex.com^$document
+||rebuws.com^$all
+||yxfi-defender.pro^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
