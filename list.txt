@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 11/06/2026
+! Last updated: 12/06/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -19984,6 +19984,41 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||gamerdenz.com^$document
 ||tenlets.com^$document
 utm_source=PWNgames$document,domain=opera.com
+||findyourmilf.agency^$all
+||dreamdates-spots.com^$all
+||bangzone.top^$all
+||naughtyfix.com^$all
+||lovehorizon.life^$all
+||secretloversnearby.com^$all
+||nearbysinglesfinder.com^$all
+||myflirtingneighbor.com^$all
+||americanmatureflirt.com^$all
+||diskretflirt.com^$all
+||secretflirtsnearby.com^$all
+||neighborswhoplay.com^$all
+||clickncontact.com^$all
+||sverigeflirten.com^$all
+||otrohetsportalen.com^$all
+||intimmatch.com^$all
+||mogenfling.com^$all
+||flirtamedmig.com^$all
+||grannflirten.com^$all
+||minaflirts.com^$all
+||maturenextdoor.com^$all
+||nearbyflirtfinder.com^$all
+||yournearbyfling.com^$all
+||chemistrynearby.com^$all
+||yournearbycrush.com^$all
+||sneakyneighbors.com^$all
+||womenroundthecorner.com^$all
+||twomance.com^$all
+||flirttactic.com^$all
+||neighborswithsecrets.com^$all
+||sxmessengers.com^$all
+||localswithsecrets.com^$all
+||flirtingneighbors.com^$all
+||trefferchat.com^$all
+||agreementcadence.com^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -24199,6 +24234,10 @@ ref=libreselfhosted.com$doc,removeparam=ref
 ||chexy.co^$doc,removeparam=_caid
 ||chexy.co^$doc,removeparam=_cvid
 ||adguard-dns.io^$doc,removeparam=clid
+||theepochtimes.com^$doc,removeparam=ea_med
+||theepochtimes.com^$doc,removeparam=ea_src
+||www.dropbox.com^$doc,removeparam=_ad
+||www.dropbox.com^$doc,removeparam=_camp
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
