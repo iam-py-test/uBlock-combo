@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 15/06/2026
+! Last updated: 16/06/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24226,6 +24226,7 @@ $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficb
 ||youtube.com/post/$doc,removeparam=si
 ||youtube.com/live/$doc,removeparam=si
 ||youtube.com/live/$doc,removeparam=is
+||youtu.be^$doc,removeparam=is
 ||donmai.us^$removeparam=z
 ||pcoptimum.ca^$doc,removeparam=moeq
 ||userbenchmark.com^$removeparam=redirFrom
@@ -24240,6 +24241,12 @@ ref=libreselfhosted.com$doc,removeparam=ref
 ||www.dropbox.com^$doc,removeparam=_ad
 ||www.dropbox.com^$doc,removeparam=_camp
 weekend-reading-link-$doc,removeparam=/^weekend-reading-link-\d{6}/
+||photoshop.adobe.com^$removeparam=promoid
+||photoshop.adobe.com^$removeparam=mv
+||apps.microsoft.com^$removeparam=hasHeroImage
+://get.microsoft.com/installer/download^$removeparam=referrer
+://get.microsoft.com/installer/download^$removeparam=source
+://get.microsoft.com/installer/download^$removeparam=ocid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
