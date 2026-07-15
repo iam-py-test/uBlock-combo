@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 14/07/2026
+! Last updated: 15/07/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14467,7 +14467,6 @@ $doc,ipaddress=185.176.220.31
 ||157.230.87.146^$all
 ||sigmarole.cyou^$all
 ||77.73.134.24^$all
-||rotf.lol/2p9fmd8k^$all
 ||65.108.249.43^$all
 ||oceanofgames.com^$all
 ||easy-learn-tech.info^$all
@@ -14482,8 +14481,6 @@ $doc,ipaddress=185.176.220.31
 ||143.198.211.93^$all
 ||5.75.173.242^$all
 ||loadingnow.me^$all
-||88.119.161.188^$all
-||88.119.161.19^$all
 ||68.60.77.128^$all
 ||fitgirlrepack.games^$document
 ||losstub.icu^$document
@@ -14526,13 +14523,6 @@ $doc,ipaddress=185.176.220.31
 ||stop-adblocker.info^$all
 ||wheeshoo.net^$document
 ||justquiz39.pushalert.co^$all
-||194.87.216.194^$all
-||yes2food.com^$all
-||62.204.41.176^$all
-||176.113.115.177^$all
-||79.137.248.136^$all
-||79.137.206.31^$all
-||85.192.40.253^$all
 ||vserpg.ru^$all
 ||wlbss.inghesatin.com^$all
 ||xe5j8.inghesatin.com^$all
@@ -14570,10 +14560,6 @@ $doc,ipaddress=185.176.220.31
 ||origincrack.com^$all
 ||9bghqk3avg2gnh.click^$all
 ||bit.ly/3S7o1VK^$all
-||83.217.11.27^$all
-||77.73.134.35^$all
-||83.217.11.28^$all
-||176.57.150.117^$all
 ||kochava.com^$all
 ||neptunclicks.com^$all
 ||arakusus.com^$all
@@ -14668,7 +14654,6 @@ $doc,ipaddress=185.176.220.31
 ||js.msedgeupdate.com^$all
 ||msedgeupdate.com^$all
 ||portalproveedores.com.mx^$all
-||45.15.157.131^$all
 ||ledgerlivewallets.com^$all
 ||ledgers.network^$all
 ||siamaster.com.mx^$all
@@ -17826,6 +17811,7 @@ $doc,ipaddress=185.176.220.31
 ||hazelcitadel.top^$all
 ||flingpopclickgetinstant.monster^$all
 ||auth-code-check.info^$all
+||auth-code-verif.beer^$all
 ||ublockerext.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
@@ -19977,7 +19963,7 @@ utm_source=PWNgames$document,domain=opera.com
 ||cyberdefender.com^$document
 ||virusfix.com^$document
 ||iolo.com^$document
-||restoro.com^$all
+||restoro.com^$document
 ||techloris.com/go/restoro/$document
 ||techloris.com/lp/error8.php$document
 ||techloris.com/go/restoro-download/$document
@@ -19987,22 +19973,22 @@ utm_source=PWNgames$document,domain=opera.com
 ||itopvpn.com^$document
 ||itopupdate.com^$document
 ||update.downloaditop.com^$document
-||2-spyware.com/reimage/download$all
-||2-spyware.com/download/ReimageRepair$all
-||reimageplus.com^$all
-||reimage.org^$all
-||reimage.com^$all
-||driveragent.com^$all
+||2-spyware.com/reimage/download$document
+||2-spyware.com/download/ReimageRepair$document
+||reimageplus.com^$document
+||reimage.org^$document
+||reimage.com^$document
+||driveragent.com^$document
 ||apps.solveiq.com^$document
 ||preview.solveiq.com^$document
 ||auth.solveiq.com^$document
 ||pchelpsoft.com^$document
 ||pchelpsoft.net^$document
 ||pccleaner.com^$document
-||advancedsystemrepair.com^$all
-||slimware.com^$all
-||slimwareutilities.com^$all
-||slimcleaner-plus.en.softonic.com^$all
+||advancedsystemrepair.com^$document
+||slimware.com^$document
+||slimwareutilities.com^$document
+||slimcleaner-plus.en.softonic.com^$document
 ||slimcleaner-plus.softonic.com.tr^$document
 ||windowserrorhelp.com^$document
 ||enigmasoftware.com^$document
