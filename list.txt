@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 16/07/2026
+! Last updated: 17/07/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13167,6 +13167,17 @@ $ipaddress=3.33.130.190
 -mac-install.github.io/.github/home.html|$doc,popup
 -windows-download.github.io/.github/home.html|$doc,popup
 .github.io/.github/?offer=$doc,popup
+||disk-director.github.io^$all
+||zaffersnouty.com^$all
+||sannapacewiczxgogi.github.io^$all
+||core-steady-pack.github.io^$all
+||cootercredit.com^$all
+||flowrdo.com^$all
+||softgot.net^$all
+||techrxv.com^$all
+-director-data-recovery.github.io/.github^$all
+||katukaposole.com^$all
+||fleecykobird.com^$all
 ||151.243.18.53^$all
 ||185.100.157.222^$all
 ||185.107.74.103^$all
