@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 30/07/2026
+! Last updated: 31/07/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -21774,7 +21774,7 @@ $removeparam=sub2,domain=~go.dgdp.net
 $removeparam=sub3
 $removeparam=sub4
 $removeparam=sub5
-$doc,removeparam=/^subid1=.*$/i
+$doc,removeparam=/^subid1=.*$/i,domain=~11hentai.com|~abbdsm.com|~abebony.com|~abgay.tube|~abjav.com|~ablesbian.com|~abmilf.com|~abtranny.com|~abxxx.com
 $doc,removeparam=/^subid2=.*$/i
 $doc,removeparam=/^subid3=.*$/i
 $doc,removeparam=/^subid4=.*$/i
@@ -22432,6 +22432,8 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=PTAG
 /search?$doc,removeparam=gs_lcrp,domain=bing.com|google.com
 ||bing.com/search?$removeparam=FPIG
+||bing.com/apps^$removeparam=pc
+||bing.com/apps^$removeparam=brand
 $removeparam=_trkparms
 $removeparam=_from
 $removeparam=sacat
