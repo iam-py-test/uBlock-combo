@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 07/08/2026
+! Last updated: 08/08/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -19966,6 +19966,17 @@ utm_source=PWNgames$document,domain=opera.com
 ||buzawin.com^$all
 ||nakowin.com^$all
 ||elpine.space^$all
+||instantinfobrief.com^$all
+||onlitreck.online^$all
+||affairlocals.com^$document
+||onlylocalclub.com^$document
+||limitedroadbilling.com^$document
+||ukonlinedate.com^$document
+||boomermailing.com^$document
+||sweetdesires.buzz^$all
+||hellomilfs.com^$document
+||joycroft.com^$document
+||cozybond-club.com^$all
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -23642,6 +23653,7 @@ $removeparam=pk_vid,doc
 ||xiaohongshu.com^$removeparam=xhsshare,doc
 ||xiaohongshu.com^$removeparam=appuid,doc
 ||xiaohongshu.com^$removeparam=apptime,doc
+||xiaohongshu.com^$removeparam=share_channel,doc
 ||login.afreecatv.com^$removeparam=szFrom
 ||typeform.com^$removeparam=typeform-source
 $removeparam=clickedFromCategory,domain=objectci.com|pieces.com|selected.com|vila.com
@@ -23743,7 +23755,7 @@ $doc,removeparam=method,domain=peacocktv.com
 ||cartoonbrew.com^$removeparam=cbtr
 ||researchgate.net^$doc,removeparam=_tp
 ||bet.com^$removeparam=xrs
-$doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|sky.it
+$doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|sky.it|xiaohongshu.com|snapchat.com
 ||xvideos.$doc,removeparam=sxcaf
 $doc,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 ||cmswire.com^$doc,removeparam=topic_id
@@ -24049,7 +24061,6 @@ $removeparam=/^ref=thediff\.co$/
 $removeparam=/^ref=underfl0w\.com$/
 ||blu-ray.com^$removeparam=retailerid
 $doc,removeparam=loclid
-||snapchat.com^$removeparam=share_id
 ||snapchat.com^$removeparam=/^timestamp=0$/
 ||ngfiles.com^$removeparam=/^f\d{4,}=$/
 $removeparam=/^has-promotion=$/
