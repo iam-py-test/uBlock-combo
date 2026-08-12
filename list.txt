@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 11/08/2026
+! Last updated: 12/08/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -19977,6 +19977,20 @@ utm_source=PWNgames$document,domain=opera.com
 ||hellomilfs.com^$document
 ||joycroft.com^$document
 ||cozybond-club.com^$all
+||rocknrolladate.com^$document
+||lovelyuas.com^$document
+||datingukrainians.com^$document
+||crocodate.com^$document
+||dateukrainewoman.com^$document
+||loungedate.com^$document
+||datesingleukrainian.com^$document
+||smalltalkdating.com^$document
+||engaginglover.org^$document
+||justgrannies.com^$document
+||milfsflirt.com^$document
+||secretloversclub.com^$document
+||icupid.com^$document
+||transbabes.com^$document
 ||totalav.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -23548,7 +23562,7 @@ $removeparam=sub,domain=allboner.com|twinkvideos.com
 ||tokopedia.com^$removeparam=extParam
 ||tokopedia.com^$removeparam=refined
 ||sony.$removeparam=cpint
-$removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
+$removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|theverge.com
 $removeparam=qo,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|search.ask.com
 $removeparam=qsrc,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|search.ask.com
 $doc,removeparam=o,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
