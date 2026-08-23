@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 22/08/2026
+! Last updated: 23/08/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -10627,6 +10627,24 @@ $all,ipaddress=15.204.160.216
 $all,ipaddress=2604:2dc0:100:4ed8::
 $all,ipaddress=2604:2dc0:104:da00::
 ||posthog.$all,domain=gov|loveisaskill.cloudflareaccess.com
+||ad-growth.it.com^$all
+||alertkitflare.org^$all
+||bestyofr.store^$all
+||clouding17.com^$all
+||energieadvimail.nl^$all
+||freeflowducts.com^$all
+||inboxthrust.org^$all
+||kajaland.net^$all
+||newslettersstream.com^$all
+||notification-redirection-link.com^$all
+||notificationredirectionlink.com^$all
+||puravivex.best^$all
+||trackallnotifrewa.com^$all
+||trustus-eu.uk^$all
+||103.29.182.53^$all
+||13.140.171.211^$all
+$all,ipaddress=103.29.182.53
+$all,ipaddress=13.140.171.211
 ||downloadprovider.me^$all
 toorgle.net##.join
 ||cash93.com^$all
@@ -13213,6 +13231,14 @@ $all,ipaddress=2600:3c06::f03c:95ff:fedc:7282
 $all,ipaddress=35.71.155.166
 ||tgdrive.app^$all
 ||tg-drive-bx4f.onrender.com^$all
+||austinpoolservices.com^$all
+||desernk.me^$all
+||qed.uk.com^$all
+||resultsfastfind.com^$all
+||resultsfinderonline.com^$all
+/^(.*[/@])?questionprov\d{5,6}\.com(/.*)?$/$all
+||199.168.185.4^$all
+$all,ipaddress=199.168.185.4
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -13378,7 +13404,6 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||addons.newtabsearch.net^$doc
 ||telemechanism.cyou^$all
 ||ey43.com^$all
-||resultsfastfind.com^$doc
 ||snowvan.xyz^$all
 ||kygens.xyz^$all
 ||host11m.cfd^$doc
@@ -20171,6 +20196,7 @@ utm_source=PWNgames$document,domain=opera.com
 ||drivethelife.com^$document
 ||drivertalent.com^$document
 ||greenadblocker.com^$all
+||kidsmodesearch.com^$all
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
