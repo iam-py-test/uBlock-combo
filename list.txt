@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 29/08/2026
+! Last updated: 30/08/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -14106,7 +14106,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||hxzf4er.com^$doc
 ||k2krl7zj.com^$doc
 ||mcafee.sjv.io^$doc
-||ojrq.net^$doc
 ||oninebest.com^$doc
 ||ormediao.com^$doc
 ||paramatise.com^$doc
@@ -19985,6 +19984,31 @@ utm_source=PWNgames$document,domain=opera.com
 ||pemsrv.com^
 ||anamuel-careslie.com^
 ||sparkdell.com^$document
+||blushcobble.com^$document
+||lumameets.com^$document
+||latenightdates.xyz^$document
+||steamydate.xyz^$document
+||lustlounge.org^$document
+||fuckitem.com^$document
+||optitk.org^$document
+||onlinecrush.com^$document
+||meetwives.com^$document
+||naughtymatches.com^$document
+||xpickup.com^$document
+||flirtlocal.com^$document
+||nostringsfun.com^$document
+||steamyplay.com^$document
+||truebootycall.com^$document
+||xmeeting.com^$document
+||arousingdates.com^$document
+||xcheaters.com^$document
+||kinkmeets.com^$document
+||spicedates.com^$document
+||playfulcuties.com^$document
+||steamydates.com^$document
+||flirthookup.com^$document
+||hornyaffairs.com^$document
+||freeinstanthookups.com^$document
 ||fuzawin.com^$document
 ||helawin.com^$document
 ||bemowin.com^$all
@@ -20016,7 +20040,26 @@ utm_source=PWNgames$document,domain=opera.com
 ||secretloversclub.com^$document
 ||icupid.com^$document
 ||transbabes.com^$document
-||totalav.com^$all
+||extremesite.com^$document
+||datedeskads.com^$document
+||digitalmeshmap.com^$all
+||meetpulsepair.digital^$all
+||yourchatfriend.com^$document
+||manplace.com^$document
+||grannysite.com^$document
+||chatdome.com^$document
+||lustchat.com^$document
+||onlytits.com^$document
+||fuheb.com^$all
+||uspostsm.com^$document
+||onlylocalhotties.com^$all
+||sensualwhisperslabs.live^$all
+||oldaff.com^$document
+||dirttyhookup.com^$document
+||secretsandbenefits.com^$document
+||eusmdate.com^$document
+||gochatty.com^$document
+||totalav.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||totaladblock.com^
@@ -22350,7 +22393,7 @@ $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|about.gitlab.co
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com
 @@^mod=djemalertNEWS^$removeparam=mod
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*|lookmovie211.xyz
-$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|blockchair.com|cancam.jp|claude.ai|duckduckgo.com|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion|feeder.co|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|tvtropes.org|mideacomfort.us|yandex.com
+$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|blockchair.com|cancam.jp|claude.ai|duckduckgo.com|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion|feeder.co|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|tvtropes.org|mideacomfort.us|yandex.com|upyun.com
 $removeparam=keyword,domain=bindright.com|lendgo.com|reddit.app.link|vitusapotek.no
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com|affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
@@ -24244,6 +24287,7 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||sonarsource.com^$doc,removeparam=tidelift
 ||msn.com^$removeparam=bv
 ||store.epicgames.com^$doc,removeparam=epic_creator_id
+||compshare.cn^$doc,removeparam=ytag
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
