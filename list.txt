@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 20/09/2026
+! Last updated: 21/09/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -23274,7 +23274,7 @@ $removeparam=CAGPSPN
 ||lendgo.com^$removeparam=apr
 $removeparam=rt,domain=lendgo.com|bilibili.com
 ||lendgo.com^$removeparam=lt
-$doc,removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com
+$doc,removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com
 $removeparam=referaldomain,domain=microcenter.com
 $removeparam=web,domain=microcenter.com|tomtop.com
 ||unieuro.it^$removeparam=dedup
@@ -24319,6 +24319,10 @@ $doc,removeparam=mpch,domain=shutterfly.com|shutterflyinc.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
 ||cnn.com^$doc,removeparam=Profile
 ||microsoft.com^$doc,removeparam=UID
+||harborfreight.com^$doc,removeparam=infy
+||harborfreight.com^$doc,removeparam=mi_ecmp
+||cc.rs6.net/tn.jsp$doc,removeparam=c
+||cc.rs6.net/tn.jsp$doc,removeparam=ch
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
