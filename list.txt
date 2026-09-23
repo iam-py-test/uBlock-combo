@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 22/09/2026
+! Last updated: 23/09/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13044,14 +13044,12 @@ $all,ipaddress=199.191.50.*
 ||quickfindresults.com^$all
 ||smorgasbordet.com^$all
 ||xdelta.org^
-||23.48.203.140^
 ||3.33.130.190^
 ||[2a02:26f0:1700:11::b856:6790]^
 /^(.*://)?204\.11\.56\.\d{1,3}(/.*)?$/$all
 /^(.*://)?208\.91\.197\.\d{1,3}(/.*)?$/$all
 $all,ipaddress=204.11.56.*
 $all,ipaddress=208.91.197.*
-$ipaddress=23.48.203.140
 $ipaddress=2a02:26f0:1700:11::b856:6790
 $ipaddress=3.33.130.190
 ||grokvarum.com^$all
@@ -22495,7 +22493,7 @@ $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
 ||ssl-images-amazon.com^$removeparam=xcp
 ||bing.com/?$removeparam=/^form=.*$/i
 ||bing.$removeparam=sp
-$removeparam=sc,doc,domain=bing.com|qvc.com
+$removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
 $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=qs
 ||bing.$removeparam=PC
