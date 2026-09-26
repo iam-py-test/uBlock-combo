@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 25/09/2026
+! Last updated: 26/09/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22395,7 +22395,7 @@ $removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|blockchair
 $removeparam=keyword,domain=bindright.com|lendgo.com|reddit.app.link|vitusapotek.no
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com|affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
-$doc,removeparam=adid,domain=indeed.com|mcafee.com|nikkei.co.jp|tmz.com
+$doc,removeparam=adid,domain=indeed.com|mcafee.com|nikkei.co.jp|tmz.com|harborfreight.com
 ||amazon.$removeparam=th
 ||amazon.$removeparam=linkCode
 $removeparam=refRID
@@ -23754,7 +23754,7 @@ $removeparam=_1lr
 ||bookdepository.com^$removeparam=sr
 $removeparam=ymid
 ^z=*&var=$removeparam=var,doc
-$removeparam=via,domain=datafa.st|sincode.ai|skillshare.com|thedailybeast.com|raycast.com
+$doc,removeparam=via,domain=datafa.st|sincode.ai|skillshare.com|thedailybeast.com|raycast.com|matrix.to|matrix.org
 $removeparam=rm,domain=jackjones.com|jjxx.com|mamalicious.com|only.com|onlyandsons.com|veromoda.com
 $removeparam=ad_sub,domain=homo.xxx
 ||ilo.org^$removeparam=ssSourceSiteId
@@ -24331,6 +24331,7 @@ $doc,removeparam=mpch,domain=shutterfly.com|shutterflyinc.com
 ||norton.com^$doc,removeparam=fb_campaignid
 ||norton.com^$doc,removeparam=om_ext_cid
 ||harborfreight.com^$doc,removeparam=mi_u
+||harborfreight.com^$doc,removeparam=adsetid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
