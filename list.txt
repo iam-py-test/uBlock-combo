@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 10/10/2026
+! Last updated: 11/10/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22712,14 +22712,21 @@ $removeparam=sender_web_id
 $removeparam=share_app_id
 $removeparam=share_item_id
 $removeparam=share_link_id
-||tiktok.com^$~xmlhttprequest,removeparam=referer_url
-||tiktok.com^$~xmlhttprequest,removeparam=referer_video_id
-||tiktok.com^$~xmlhttprequest,removeparam=refer
+||tiktok.com^$doc,removeparam=referer_url
+||tiktok.com^$doc,removeparam=referer_video_id
+||tiktok.com^$doc,removeparam=refer
 ||tiktok.com^$removeparam=checksum
 ||tiktok.com^$removeparam=sec_uid
 ||tiktok.com^$removeparam=share_author_id
-$removeparam=/^web_id\d+/,domain=tiktok.com
+$doc,removeparam=/^web_id\d+/,domain=tiktok.com
 ||tiktok.com^$removeparam=embed_source
+||instagram.com^$doc,removeparam=psln
+||instagram.com^$doc,removeparam=rpxt
+||instagram.com^$doc,removeparam=srtk
+||instagram.com^$doc,removeparam=obrf
+||instagram.com^$doc,removeparam=cplk
+||instagram.com^$doc,removeparam=dlrf
+||instagram.com^$doc,removeparam=xtok
 $removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtu.be|zappos.com
 ||open.spotify.com^$removeparam=/^.*advertising_partner_name=.*$/i
 ||open.spotify.com^$removeparam=%243p
