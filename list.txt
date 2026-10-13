@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 11/10/2026
+! Last updated: 13/10/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13212,6 +13212,12 @@ $all,ipaddress=45.150.34.21
 $all,ipaddress=45.87.249.13
 $all,ipaddress=77.91.96.188
 $all,ipaddress=88.214.50.173
+||marymitchelle554.github.io^$all
+||chelsieminissale.github.io^$all
+.github.io/.github/Daz-Studio$doc
+||istatlmenus.com^$all
+||macperformancetools.com^$all
+||swarveuncity.com^$all
 ||mojikyo.org^$all
 ||trekpeak.site^$all
 ||upperch.site^$all
@@ -13229,6 +13235,7 @@ $all,ipaddress=2600:3c06::f03c:95ff:fedc:7282
 $all,ipaddress=35.71.155.166
 ||tgdrive.app^$all
 ||tg-drive-bx4f.onrender.com^$all
+||ibarrareal.es^$all
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -22611,6 +22618,16 @@ $removeparam=_rdc
 ||instagram.com^$doc,removeparam=click_source
 ||instagram.com^$doc,removeparam=ndid
 ||instacart.com^$doc,removeparam=ic_medium
+||instagram.com^$doc,removeparam=psln
+||instagram.com^$doc,removeparam=rpxt
+||instagram.com^$doc,removeparam=srtk
+||instagram.com^$doc,removeparam=obrf
+||instagram.com^$doc,removeparam=cplk
+||instagram.com^$doc,removeparam=dlrf
+||instagram.com^$doc,removeparam=xtok
+||instagram.com^$doc,removeparam=mdxt
+||instagram.com^$doc,removeparam=exln
+||instagram.com^$doc,removeparam=vrfl
 $removeparam=cp_ksver
 $removeparam=biw
 $removeparam=bih
@@ -22720,13 +22737,6 @@ $removeparam=share_link_id
 ||tiktok.com^$removeparam=share_author_id
 $doc,removeparam=/^web_id\d+/,domain=tiktok.com
 ||tiktok.com^$removeparam=embed_source
-||instagram.com^$doc,removeparam=psln
-||instagram.com^$doc,removeparam=rpxt
-||instagram.com^$doc,removeparam=srtk
-||instagram.com^$doc,removeparam=obrf
-||instagram.com^$doc,removeparam=cplk
-||instagram.com^$doc,removeparam=dlrf
-||instagram.com^$doc,removeparam=xtok
 $removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtu.be|zappos.com
 ||open.spotify.com^$removeparam=/^.*advertising_partner_name=.*$/i
 ||open.spotify.com^$removeparam=%243p
@@ -23290,7 +23300,7 @@ $removeparam=CAGPSPN
 ||lendgo.com^$removeparam=apr
 $removeparam=rt,domain=lendgo.com|bilibili.com
 ||lendgo.com^$removeparam=lt
-$doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com
+$doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com|mcdonalds.com
 $removeparam=referaldomain,domain=microcenter.com
 $removeparam=web,domain=microcenter.com|tomtop.com
 ||unieuro.it^$removeparam=dedup
@@ -24400,6 +24410,7 @@ ref=macapp.supply$doc,removeparam=ref
 ||verizon.com^$doc,removeparam=CUHID
 ||verizon.com^$doc,removeparam=EMHID
 ||verizon.com^$doc,removeparam=BID
+ref=thebirthofacapital.info$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
