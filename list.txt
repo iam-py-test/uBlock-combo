@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 27/10/2026
+! Last updated: 29/10/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -22524,7 +22524,7 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=refig
 ||bing.$removeparam=go
 ||bing.com/search?$removeparam=cvid
-||bing.com^$removeparam=/^sh[b-np-z0-9]/
+||bing.com^$doc,removeparam=/^sh[b-np-z0-9]/
 ||bing.$removeparam=nclid
 ||bing.$removeparam=crslsl
 ||bing.$removeparam=ecount
@@ -24419,6 +24419,12 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 ||oxylabs.io^$removeparam=transaction_id
 ||simon.com^$doc,removeparam=bt_ee
 ||simon.com^$doc,removeparam=bt_ts
+||ck12.org^$doc,removeparam=refcode
+$doc,removeparam=hid,domain=investopedia.com|people.inc
+$removeparam=did,domain=investopedia.com|people.inc
+||investopedia.com^$removeparam=lctg
+$doc,removeparam=lr_input,domain=investopedia.com|people.inc
+||investopedia.com^$doc,removeparam=inv_to_sim
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
