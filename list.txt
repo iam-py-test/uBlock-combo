@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 05/11/2026
+! Last updated: 06/11/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -13238,6 +13238,8 @@ $all,ipaddress=35.71.155.166
 ||tgdrive.app^$all
 ||tg-drive-bx4f.onrender.com^$all
 ||ibarrareal.es^$all
+||giraffic.com^$all
+||giraffic.net^$all
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
@@ -14775,27 +14777,17 @@ $all,ipaddress=199.168.185.4
 ||garuq.com^$all
 ||josemonila.ddnsfree.com^$all
 ||aoikerala.in^$all
-||5.42.66.3^$document
-||45.15.159.27^$all
 ||pejik.com^$all
 ||bthp.com.pk^$all
 ||dokumentasoluciones.com^$all
-||208.67.104.60^$all
-||store1.gofile.io/download/direct/d8c2a667-c088-4a39-9cdd-efe0b47d735c/InfinityWallet-Setup.exe^$all
-||infinitywallet-dapps.b-cdn.net^$all
-||167.86.74.95^$all
 ||roundyearfun.com^$all
 ||imganalyze.hgspz.com^$all
 ||www.tellegrom.xyz^$all
-||213.255.247.174^$all
 ||searchokay.com^$document
 ||srvtrck.com^$document
 ||extappupdate.com^$all
 ||find.fnavigate-now.com^$document
-||5.42.86.86^$all
-||77.105.147.158^$all
 ||southbayleadgen.com^$all
-||185.106.93.193^$all
 ||truanet.com^$document
 ||chijkkkll.pages.dev^$all
 ||tdamassoficial.com^$all
@@ -14809,8 +14801,6 @@ $all,ipaddress=199.168.185.4
 ||spexjs.com^$document
 ||95.216.94.138^$all
 ||kellmda.click^$all
-||85.208.139.35^$all
-||194.169.175.93^$all
 ||eweukr.com^$all
 ||hcafpg.com^$all
 ||jggjh.com^$all
@@ -14818,14 +14808,9 @@ $all,ipaddress=199.168.185.4
 ||nvcrcf.com^$all
 ||vgrcxa.com^$all
 ||udwuyw.com^$all
-||bafkreibm2c232v5uuz7vkxcdkwdjye6oaoasxg5zkye7y3oyodm6olulou.ipfs.dweb.link^$all
 ||lkalzzop.online^$all
-||168.119.178.159^$all
 ||gstatic-node.io^$all
 ||freesoftonic.cc^$all
-||45.9.74.141^$all
-||45.9.74.166^$all
-||168.119.51.197^$all
 ||gesmart.site^$all
 ||sanseemp.com^$document
 ||upgrade-phone.club^$all
@@ -14836,7 +14821,6 @@ $all,ipaddress=199.168.185.4
 ||csgofloat.br.com^$all
 ||24.199.69.78^$all
 ||hopvibestravel.co.za^$document
-||49.13.60.242^$all
 ||revanced.net^$all
 ||thehipsteragency.com^$all
 ||keen-france.fr^$all
@@ -14857,7 +14841,6 @@ $all,ipaddress=199.168.185.4
 ||bookingcomdetails.$document
 ||zlibrary-africa.se^$all
 ||86pmafno21mst.com^$all
-||178.20.47.114^$all
 ||torixibre.com^$all
 ||anybodyproper.com^$document
 ||violationphysics.click^$all
@@ -14882,8 +14865,6 @@ $all,ipaddress=199.168.185.4
 ||pmf.sc.gov.br/arquivos/br.php^$all
 ||tiger.qnews.media^$third-party
 ||s8bet.com^$document
-||194.180.48.100^$all
-||2.56.59.215^$all
 ||beakerweedjazz.com^$all
 ||pcsafetysurvey.com^$all
 ||clickmint3.online^$all
@@ -14927,12 +14908,8 @@ $all,ipaddress=199.168.185.4
 ||newupdatesnow.com^$all
 ||goads.pro^$document
 ||dwnld-here.com^$document
-/74Ib/7.html?cep=$document
 ||stratum-eu.rplant.xyz^$all
 ||walknotice.com^$all
-||synergyproz.com^$all
-||apparaatbeheer-online-abnamro-icscards.codeanyapp.com^$all
-||apparaatbeheer-online-abnamro-icscards.$document
 ||ddos.dnsnb8.net^$all
 ||98kk89.com^$document
 ||9vyzdk8.lvditoys.com^$all
@@ -15819,7 +15796,6 @@ $all,ipaddress=199.168.185.4
 ||protonwalletdesktop.com^$all
 ||actiwated.win^$all
 ||moodabvrockcon.com^$document
-||frenchy06--315ffb88022311f1b78142dde27851f2.web.val.run^$document
 ||tunnis-tautuminen-fi.gt.tc^$document
 ||app2fa.com^$document
 ||seedlinkservice.com^$document
@@ -15836,7 +15812,6 @@ $all,ipaddress=199.168.185.4
 ||kys.li^$all
 ||kys.cx^$all
 ||payout-chatgpt.com^$all
-||158.94.211.63^$all
 ||lichengdaiper.com^$all
 ||cpanel-webmail-login-access$domain=pages.dev
 ||qfinder-pro.com^$document
@@ -19558,17 +19533,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||track-victoriadates.com^$all
 ||zephyrlabsora.com^$all
 ||datehaven.world^$all
-||aeriview.life^$all
-||oncemanboy.live^$all
-||batrevrig.info^$all
-||vowpairmax.live^$all
-||impfehut.live^$all
 ||hfa.hookupsconnect.com^$all
 ||info-extremechat.com^$all
 ||uhe.fitflirts.com^$all
 ||testars-consin.icu^$document
 ||flirten.com^$document
-||pt0.flirtyconnection.com^$all
 ||tiamo.life^$all
 ||jennajoslyn.ru.com^$document
 ||3bigs.com^$all
@@ -20996,6 +20965,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||downlod.com^$all
 ||bblck.me^$document
 ||adblockplu.org^$document
+||apparaatbeheer-online-abnamro-icscards.$document
 ||miccrossoffit.online^$all
 ||drive-google-com.$document,domain=~google.*|~translate.goog
 ||easypark-$document,domain=~translate.goog|~easypark.com|~easypark.net|~easyparkgroup.com|~easyparkpartners.com|~easyparksystem.net
@@ -24461,5 +24431,6 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||thepointsguy.com/preference-center/$doc,removeparam=/^\??utm_.*$/i
 @@$removeparam,doc,domain=archive.today|archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.vn|archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion
 @@||warp.ndl.go.jp^$doc,removeparam
+@@||newsletter.smartbrief.com/UnSubscribe.jsp$removeparam
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
