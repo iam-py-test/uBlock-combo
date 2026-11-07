@@ -10655,6 +10655,9 @@ $all,ipaddress=103.29.182.53
 $all,ipaddress=13.140.171.211
 ||koboldcpp.com^$all
 $all,ipaddress=146.19.248.143
+||wlygrowth.com^$all
+||ludashisafe.com^$all
+||ludashi.com^$all
 ||downloadprovider.me^$all
 toorgle.net##.join
 ||cash93.com^$all
@@ -23615,7 +23618,7 @@ $removeparam=user_id,doc,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64yt
 ^fs=e&s=cl$doc,removeparam=fs
 ^fs=e&s=cl$doc,removeparam=s
 $removeparam=x50878
-$removeparam=c,domain=redirect.appmetrica.yandex.com|blu-ray.com
+$doc,removeparam=c,domain=redirect.appmetrica.yandex.com|blu-ray.com
 $removeparam=fromMostRead,domain=bloomberg.com
 $removeparam=source_widget_id,domain=tapahtumat.almatalent.fi|tapahtumat.ekarjala.fi|tapahtumat.ekonomit.fi|tapahtumat.eslu.fi|tapahtumat.hel.fi|tapahtumat.hyvinkaa.fi|tapahtumat.intoseinajoki.fi|tapahtumat.joensuu.fi|tapahtumat.kaleva.fi|tapahtumat.kannus.fi|tapahtumat.karjalainen.fi|tapahtumat.kauppakamari.fi|tapahtumat.kerava.fi|tapahtumat.kirkkonummi.fi|tapahtumat.kokkola.fi|tapahtumat.kuusamo.fi|tapahtumat.lappeenranta.fi|tapahtumat.lempaala.fi|tapahtumat.loviisa.fi|tapahtumat.masku.fi|tapahtumat.mikkeli.fi|tapahtumat.munoulu.fi|tapahtumat.osakeliitto.fi|tapahtumat.pori.fi|tapahtumat.raasepori.fi|tapahtumat.rantalakeus.fi|tapahtumat.ratsastus.fi|tapahtumat.rovaniemi.fi|tapahtumat.salo.fi|tapahtumat.sipoo.fi|tapahtumat.sley.fi|tapahtumat.studentum.fi|tapahtumat.tampereensuomalainenklubi.fi|tapahtumat.tuusula.fi|tapahtumat.vantaa.fi|tapahtumat.vihti.fi|tapahtumat.visitespoo.fi|tapahtumat.visitkotkahamina.fi|tapahtumat.visitlohja.fi|tapahtumat.visitsavonlinna.fi|tapahtumat.visitvantaa.fi|tapahtumienkeskipohjanmaa.fi
 $removeparam=referrer_id,domain=autoblog.com
@@ -24393,7 +24396,9 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 $doc,removeparam=hid,domain=investopedia.com|people.inc
 $doc,removeparam=lr_input,domain=investopedia.com|people.inc
 ||investopedia.com^$doc,removeparam=inv_to_sim
-||entire.com^$removeparam=redirected_from
+||entire.com^$doc,removeparam=redirected_from
+||oldphoneworks.com^$doc,removeparam=_su_rec
+||oldphoneworks.com^$doc,removeparam=_su_rec_id
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -24432,5 +24437,6 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@$removeparam,doc,domain=archive.today|archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.vn|archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion
 @@||warp.ndl.go.jp^$doc,removeparam
 @@||newsletter.smartbrief.com/UnSubscribe.jsp$removeparam
+@@||investopedia.com/newsletters/preferences/unsubscribe^$doc,removeparam=hid
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
