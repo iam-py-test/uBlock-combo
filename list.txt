@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 08/11/2026
+! Last updated: 10/11/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24225,10 +24225,10 @@ $doc,removeparam=correlationId,domain=adobe.com|costco.com
 ||qobuz.com^$doc,removeparam=qbzs
 ||weather.com^$doc,removeparam=aw_campaign
 ||weather.com^$doc,removeparam=Campaign_Name
-$doc,removeparam=lctg,domain=bleacherreport.com|investopedia.com|weather.com
+$doc,removeparam=lctg
 $doc,removeparam=rilt,domain=shutterfly.com|shutterflyinc.com
 $doc,removeparam=mpch,domain=shutterfly.com|shutterflyinc.com
- $doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
+ $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ||cnn.com^$doc,removeparam=Profile
 ||microsoft.com^$doc,removeparam=UID
 ||harborfreight.com^$doc,removeparam=infy
@@ -24311,6 +24311,7 @@ $doc,removeparam=lr_input,domain=investopedia.com|people.inc
 ||oldphoneworks.com^$doc,removeparam=_su_rec
 ||oldphoneworks.com^$doc,removeparam=_su_rec_id
 ||amazon.com^$doc,removeparam=btn_ref
+||delta.com^$doc,removeparam=mkcpgn
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
