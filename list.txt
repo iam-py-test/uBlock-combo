@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 14/11/2026
+! Last updated: 15/11/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -19949,6 +19949,85 @@ utm_source=PWNgames$document,domain=opera.com
 ||secretsandbenefits.com^$document
 ||eusmdate.com^$document
 ||gochatty.com^$document
+||secrethearts.online^$all
+||nettdaten.com^$document
+||hemligtflirtparadis.com^$document
+||svenskadejting.se^$document
+||rosasidan.net^$document
+||sexioslo.com^$document
+||hookeportalen.com^$document
+||xflirt.nu^$document
+||creampiedates.com^$document
+||fetisjdating.com^$document
+||bdsmdatingnorge.com^$document
+||fetisjnorge.com^$document
+||sexchatt.net^$document
+||calenturacolombia.co^$document
+||xodate.in^$document
+||hindydates.com^$document
+||slatkiflert.com^$document
+||datecafe18.com^$document
+||dominant-devot.com^$document
+||flirtfox.net^$document
+||mojflert.com^$document
+||nebuniisexuale.com^$document
+||globalpaymentprovider.com^$document
+||paysupport24.net^$document
+||dateefy.com^$document
+||sexkontakt-at.com^$document
+||seznameni50.cz^$document
+||69cash.com^$document
+||flertzadeset.com^$document
+||seksownyflirt.com^$document
+||dnesflirtovat.com^$document
+||royalflirts.com^$document
+||ostblockschoenheiten.com^$document
+||ceskesvazky.com^$document
+||zatebetu.com^$document
+||poznejtrans.cz^$document
+||szukajtrans.com^$document
+||chcesiespotkac.com^$document
+||seznamkaprotebe.cz^$document
+||coquetearhoy.com^$document
+||bestrande.com^$document
+||volimosezestoko.com^$document
+||transhaus.com^$document
+||sinataduras.cl^$document
+||jetztkontakt.com^$document
+||amistades-agradables.com^$document
+||randenaostro.cz^$document
+||obszartransgresyjny.com^$document
+||sladkepusinky.eu^$document
+||figll.pl^$document
+||expatsrandki.com^$document
+||chcipritele.cz^$document
+||jebimesad.com^$document
+||tsseeker.com^$document
+||coroasnobrasil.com^$document
+||flirtujteraz.com^$document
+||desiflirts.com^$document
+||joteochileno.com^$document
+||nejlepsirande.com^$document
+||recocheroscolombianos.co^$document
+||volnyvecer.cz^$document
+||skvelerande.cz^$document
+||quilomboargentino.com^$document
+||placeremaxima.com^$document
+||freerande.cz^$document
+||pegarcoroas.com^$document
+||colochasmaduras.com^$document
+||najdikamose.com^$document
+||lara69.com^$document
+||zabavazaodrasle.com^$document
+||czasnaflirt.com^$document
+||hemmelig.live^$document
+||singlesimnetz.com^$document
+||soloconocerte.com^$document
+||flirteolibre.com^$document
+||sexkontaktmarkt24.net^$document
+||lanadate.com^$document
+||miadate.com^$document
+||cupidondate.com^$document
 ||totalav.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
@@ -22446,7 +22525,7 @@ $removeparam=_sacat,domain=~ebay.*
 $removeparam=crlp,domain=ebay.*
 $removeparam=MT_ID,domain=ebay.*
 $removeparam=geo_id,domain=ebay.*
-$removeparam=device,domain=ebay.*|obs.no
+$doc,removeparam=device,domain=docs.channel.io|ebay.*|obs.no
 $removeparam=cmpgn,domain=ebay.*
 ||ebay.*/itm/$removeparam=LH_BIN
 $removeparam=rpp_cid
@@ -23357,7 +23436,7 @@ $removeparam=from_country,domain=shein.com
 $removeparam=_t,domain=shein.com
 $removeparam=sr_id,domain=reddit.app.link
 $removeparam=sr_name,domain=reddit.app.link
-$removeparam=domain,domain=reddit.app.link
+$doc,removeparam=domain,domain=docs.channel.io|reddit.app.link
 $removeparam=geoip_country,domain=reddit.app.link
 $removeparam=user_agent,domain=reddit.app.link
 $removeparam=referrer_domain,domain=reddit.app.link
@@ -23567,7 +23646,7 @@ $removeparam=ifs,domain=pcgamesn.com|pockettactics.com|thedigitalfix.com|theload
 ||bandcamp.com^$removeparam=search_rank
 ||bstn.com^$removeparam=indexName
 ||bstn.com^$removeparam=objectID
-$doc,removeparam=queryID,domain=bstn.com|suomalainen.com
+$doc,removeparam=queryID,domain=bstn.com
 ||app.slack.com^$removeparam=entry_point
 ||nicovideo.jp/comic^$removeparam=track
 ||onenote.com^$removeparam=nf
@@ -24305,6 +24384,8 @@ $doc,removeparam=lr_input,domain=investopedia.com|people.inc
 ||oldphoneworks.com^$doc,removeparam=_su_rec_id
 ||amazon.com^$doc,removeparam=btn_ref
 ||delta.com^$doc,removeparam=mkcpgn
+||suomalainen.com^$doc,removeparam=queryId
+||wealthsimple.com^$doc,removeparam=ajs_aid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
