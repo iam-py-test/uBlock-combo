@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Combo List
 ! Expires: 1 day
 ! Script last updated: 15/1/2026
-! Last updated: 23/11/2026
+! Last updated: 24/11/2026
 ! Homepage: https://github.com/iam-py-test/uBlock-combo
 ! the Python script and my two lists are under CC0 
 ! for Dandelion Sprout's Anti-Malware List and The Actually Legitimate URL Shortener Tool, see https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
@@ -24166,7 +24166,6 @@ $doc,removeparam=adsterra_placement_id
 ||asuswebstorage.com^$removeparam=x-asc-sid-version
 ||asuswebstorage.com^$removeparam=x-asc-device-name
 ||asuswebstorage.com^$removeparam=x-asc-os-version
-||asuswebstorage.com^$removeparam=tlt
 featured_on=talkpython$doc,removeparam=featured_on
 ref=51st.news$doc,removeparam=ref
 ref=academy.socos.org$doc,removeparam=ref
@@ -24414,6 +24413,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@||manage.kmail-lists.com/subscriptions^$removeparam
 @@/login-redirect/*$removeparam
 @@/login?$removeparam=referrer
+@@/login/*$removeparam=referrer
 @@||secure.kps-payment.de^$removeparam
 @@/Netaxept.jsp?$removeparam
 @@||canon.*/supportproduct/gettabcontent$removeparam=referrer
